@@ -207,7 +207,7 @@ def getReference(row):
     # Resolve doi link
     text = row["doi"]
 
-    if text and not text.startswith("http"):
+    if text and not text.startswith("http") and not text.startswith("doi.org"):
         return "https://doi.org/" + text
 
     return text

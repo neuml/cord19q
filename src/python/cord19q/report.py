@@ -88,10 +88,10 @@ class Report(object):
                         Report.write(output, "[%s](%s)" % (article[0], article[1]))
                         Report.write(output, "Authors: %s" % article[2])
 
-                        if article[2]:
+                        if article[3]:
                             Report.write(output, "Published: %s" % article[3])
 
-                        if article[3]:
+                        if article[4]:
                             Report.write(output, "Publication: %s" % article[4])
 
                         Report.write(output, "Match (%.4f): **%s**" % (score, text))
