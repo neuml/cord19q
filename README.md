@@ -15,7 +15,7 @@ The following files show queries for the Top 10 matches for each task provided i
 * [What do we know about virus genetics, origin, and evolution?](./tasks/virus-genome.md)
 * [What do we know about non-pharmaceutical interventions?](./tasks/interventions.md)
 * [What do we know about vaccines and therapeutics?](./tasks/vaccines.md)
-* [What has been published about medical care?](./tasks/virus-genomes.md)
+* [What has been published about medical care?](./tasks/medical-care.md)
 * [What has been published about information sharing and inter-sectoral collaboration?](./tasks/sharing.md)
 * [What has been published about ethical and social science considerations?](./tasks/ethics.md)
 * [What do we know about diagnostics and surveillance?](./tasks/diagnostics.md)
