@@ -1,790 +1,900 @@
 # Range of incubation periods for the disease in humans (and how this varies across age and health status) and how long individuals are contagious, even after recovery.
 
+[Modeling the Comparative Impact of Individual Quarantine vs. Active Monitoring of Contacts for the Mitigation of COVID-19](https://doi.org/10.1101/2020.03.05.20031088)<br/>
+by Corey M Peak; Rebecca Kahn; Yonatan H Grad; Lauren M Childs; Ruoran Li; Marc Lipsitch; Caroline O Buckee<br/>
+*Mar 08, 2020*<br/>
+- Depending on how much time has passed since exposure to the primary infected individual, those infected may not yet be symptomatic -this period of time between infection and symptoms is an important epidemiological trait of an infectious disease called the incubation period.<br/>
+- Upon infection, individuals progress through a latent period before onset of infectiousness; during the duration of infectiousness, the relative infectiousness follows a triangular distribution.<br/>
+- The longer serial interval in scenario 2 (mean = 7.5 days) resulted in slower disease dynamics: mean duration of infectiousness 4.8 days [95% CI 1.12, 10.5]; mean time of peak relative infectiousness at 38% of the duration of infectiousness [0%, 97%]; and a mean time of infectiousness onset 0.51 days after symptom onset [0.77 days before, 1.50 after] (Table 2, Figure S2 ).<br/>
+
+[The Novel Coronavirus, 2019-nCoV, is Highly Contagious and More Infectious Than Initially Estimated](https://doi.org/10.1101/2020.02.07.20021154)<br/>
+by Steven Sanche; Yen Ting Lin; Chonggang Xu; Ethan Romero-Severson; Nick Hengartner; Ruian Ke<br/>
+*Feb 11, 2020*<br/>
+- It is not clear when an individual becomes infectious; thus, we considered two scenarios: 1) the latent period is the same as the incubation period, and 2) the latent period is 2 days shorter than the incubation period, i.e.<br/>
+- It has been shown that this estimation depends on the distributions of the latent period (defined as the period between the times when an individual infected and become infectious) and the infectious period (14) .<br/>
+
+[Epidemiological characteristics of 1212 COVID-19 patients in Henan, China](https://doi.org/10.1101/2020.02.21.20026112)<br/>
+by Pei Wang; Junan Lu; Yanyu Jin; Mengfan Zhu; Lingling Wang; Shunjie Chen<br/>
+*Feb 23, 2020*<br/>
+- Different infectious diseases have different incubation periods.<br/>
+- However, for a certain infectious disease, its incubation period is relatively fixed.<br/>
+
 [Systematic Comparison of Two Animal-to-Human Transmitted Human Coronaviruses: SARS-CoV-2 and SARS-CoV](https://doi.org/10.3390/v12020244)<br/>
-Authors: Xu, Jiabao; Zhao, Shizhe; Teng, Tieshan; Abdalla, Abualgasim Elgaili; Zhu, Wan; Xie, Longxiang; Wang, Yunlong; Guo, Xiangqian<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Viruses<br/>
-Match (0.5226): **The incubation period of SARS is 1-4 days [33] . However, in a small number of patients, the incubation period may be longer than 10 days [34] . It has been demonstrated that the latency of COVID-19 varies from 3-7 days on average, for up to 14 days [35] . During this incubation period, patients are contagious, and it has been reported that each case infected on average 3.77 other people (uncertainty range 2.23-4.82) [36] . By comparison, we found that the average latency of COVID-19 is slightly longer than that of SARS.**<br/>
-<br/>
-[Systematic Comparison of Two Animal-to-Human Transmitted Human Coronaviruses: SARS-CoV-2 and SARS-CoV](https://doi.org/10.3390/v12020244)<br/>
-Authors: Xu, Jiabao; Zhao, Shizhe; Teng, Tieshan; Abdalla, Abualgasim Elgaili; Zhu, Wan; Xie, Longxiang; Wang, Yunlong; Guo, Xiangqian<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Viruses<br/>
-Match (0.5226): **The incubation period of SARS is 1-4 days [33] . However, in a small number of patients, the incubation period may be longer than 10 days [34] . It has been demonstrated that the latency of COVID-19 varies from 3-7 days on average, for up to 14 days [35] . During this incubation period, patients are contagious, and it has been reported that each case infected on average 3.77 other people (uncertainty range 2.23-4.82) [36] . By comparison, we found that the average latency of COVID-19 is slightly longer than that of SARS.**<br/>
-<br/>
-[Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data](https://doi.org/10.3390/jcm9020538)<br/>
-Authors: Linton, M. Natalie; Kobayashi, Tetsuro; Yang, Yichi; Hayashi, Katsuma; Akhmetzhanov, R. Andrei; Jung, Sung-mok; Yuan, Baoyin; Kinoshita, Ryo; Nishiura, Hiroshi<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.4921): **The incubation period is defined as the time from infection to illness onset. Knowledge of the incubation period of a directly transmitted infectious disease is critical to determine the time period required for monitoring and restricting the movement of healthy individuals (i.e., the quarantine period) [5, 6] . The incubation period also aids in understanding the relative infectiousness of COVID-19 and can be used to estimate the epidemic size [7] .**<br/>
-<br/>
-[Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data](doi.org/10.1101/2020.01.26.20018754)<br/>
-Authors: Natalie M. Linton; Tetsuro Kobayashi; Yichi Yang; Katsuma Hayashi; Andrei R. Akhmetzhanov; Sung-mok Jung; Baoyin Yuan; Ryo Kinoshita; Hiroshi Nishiura<br/>
-Published: 2020-01-28 00:00:00<br/>
-Match (0.4921): **The incubation period is defined as the time from infection to illness onset. Knowledge of the incubation period of a directly transmitted infectious disease is critical to determine the time period required for monitoring and restricting the movement of healthy individuals (i.e., the quarantine period) [5, 6] . The incubation period also aids in understanding the relative infectiousness of COVID-19 and can be used to estimate the epidemic size [7] .**<br/>
-<br/>
-[Epidemiological parameter review and comparative dynamics of influenza, respiratory syncytial virus, rhinovirus, human coronavirus, and adenovirus](doi.org/10.1101/2020.02.04.20020404)<br/>
-Authors: Julie Spencer; Deborah P Shutt; Sarah K Moser; Hannah Clegg; Helen J Wearing; Harshini Mukundan; Carrie A Manore<br/>
-Published: 2020-02-05 00:00:00<br/>
-Match (0.4842): **The total population (N) consists of seven classes: susceptible (S), exposed but not infectious (E), first infectious class (I 1 ), second infectious class (I 2 ), hospitalized (H), recovered (R), or dead (D). Individ-uals are considered susceptible until they contact an infectious individual from (I 1 ), (I 2 ), or (H). Given contact with an infectious individual, transmission takes place with some probability. After transmission of the virus has occurred, susceptible people move to the exposed class (E), where they spend a number of days equal to the mean period of time between infection and the onset of infectiousness (the latent period). We assume here that the latent period equals the incubation period, or the mean period of time between exposure to the virus and the onset of symptoms. After the latent period, they move to the first infectious class (I 1 ). The mean duration of the first infectious period differs according to the underlying virus. Symptoms worsen for some proportion of the first infectious class, who enter the hospital (H), where they remain infectious. Individuals who do not enter the hospital remain ill outside the hospital for the duration of the second infectious period (I 2 ). From (I 2 ), the length of which differs according to the underlying virus, where we assume that the progression of the illness is not severe, individuals recover. The duration of hospitalization differs according to the underlying virus. From the hospital, individuals either recover (R) or die (D). We assume that hospitalized individuals have 75% less contact with susceptible individuals, which results in 75% reduced transmission during hospitalization. We further assume that recovered individuals (R) gain full immunity to the virus causing the illness. (1) From the initially infectious state, individuals progress to hospital or continued non-hospitalized infectious state.**<br/>
-<br/>
-[Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan, China](https://doi.org/10.1038/s41421-020-0148-0)<br/>
-Authors: Wang, Huwen; Wang, Zezhou; Dong, Yinqiao; Chang, Ruijie; Xu, Chen; Yu, Xiaoyue; Zhang, Shuxian; Tsamlag, Lhakpa; Shang, Meili; Huang, Jinyan; Wang, Ying; Xu, Gang; Shen, Tian; Zhang, Xinxin; Cai, Yong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Cell Discovery<br/>
-Match (0.4817): **We assumed no new transmissions from animals, no differences in individual immunity, the time-scale of the epidemic is much faster than characteristic times for demographic processes (natural birth and death), and no differences in natural births and deaths. In this model, individuals are classified into four types: susceptible (S; at risk of contracting the disease), exposed (E; infected but not yet infectious), infectious (I; capable of transmitting the disease), and removed (R; those who recover or die from the disease). The total population size (N) is given by N = S + E + I + R. It is assumed that susceptible individuals who have been infected first enter a latent (exposed) stage, during which they may have a low level of infectivity. The differential equations of the SEIR model are given as: 32, 33 dS=dt ¼ Àβ S I=N;**<br/>
-<br/>
-[Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan, China](https://doi.org/10.1038/s41421-020-0148-0)<br/>
-Authors: Wang, Huwen; Wang, Zezhou; Dong, Yinqiao; Chang, Ruijie; Xu, Chen; Yu, Xiaoyue; Zhang, Shuxian; Tsamlag, Lhakpa; Shang, Meili; Huang, Jinyan; Wang, Ying; Xu, Gang; Shen, Tian; Zhang, Xinxin; Cai, Yong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Cell Discovery<br/>
-Match (0.4817): **We assumed no new transmissions from animals, no differences in individual immunity, the time-scale of the epidemic is much faster than characteristic times for demographic processes (natural birth and death), and no differences in natural births and deaths. In this model, individuals are classified into four types: susceptible (S; at risk of contracting the disease), exposed (E; infected but not yet infectious), infectious (I; capable of transmitting the disease), and removed (R; those who recover or die from the disease). The total population size (N) is given by N = S + E + I + R. It is assumed that susceptible individuals who have been infected first enter a latent (exposed) stage, during which they may have a low level of infectivity. The differential equations of the SEIR model are given as: 32, 33 dS=dt ¼ Àβ S I=N;**<br/>
-<br/>
-[Epidemiological characteristics of 1212 COVID-19 patients in Henan, China](doi.org/10.1101/2020.02.21.20026112)<br/>
-Authors: Pei Wang; Junan Lu; Yanyu Jin; Mengfan Zhu; Lingling Wang; Shunjie Chen<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.4813): **Traditionally, incubation period is defined as the period between the infection of an individual by a pathogen and the manifestation of the illness or disease it causes [32, 33] . Different infectious diseases have different incubation periods. However, for a certain infectious disease, its incubation period is relatively fixed. Since the number of pathogens entering the body, virulence and reproductive capacity, as well as power of resistance are different for different people, thus, it is reported that the incubation periods obtained from patients for a certain disease should follow logarithm normal distribution [16, 33] . Generally, incubation period can be measured by physiological observations and biological experiments [33] . The determination of incubation period has great implications for disease transmission control and policy making.**<br/>
-<br/>
-[The effect of human mobility and control measures on the COVID-19 epidemic in China](doi.org/10.1101/2020.03.02.20026708)<br/>
-Authors: <br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4717): **Age and sex distributions are important in understanding risk of infection across populations. Assuming risk to be distributed relatively equally across a population, as an outbreak evolves age and sex distributions should follow the underlying population structure. Varying degrees of immunity and exposure may shift these distributions (31) . To examine whether the ongoing outbreak shifted from an epidemic concentrated in Wuhan and among travelers from . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Outbreak of Novel Coronavirus (SARS-Cov-2): First Evidences From International Scientific Literature and Pending Questions](https://doi.org/10.3390/healthcare8010051)<br/>
-Authors: Amodio, Emanuele; Vitale, Francesco; Cimino, Livia; Casuccio, Alessandra; Tramuto, Fabio<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare (Basel)<br/>
-Match (0.4578): **After infection occurred, incubation has been estimated to vary from 5 to 6 days, with a range of up to 14 days [8]. However, the knowledge of the true incubation time could improve the estimates of the rates of asymptomatic and subclinical infections among immunocompetent individuals; thus, increasing the specificity in detecting COVID-19 cases. Additionally, it could significantly change the forecasting projection models on the worldwide outbreak evolution.**<br/>
-<br/>
+by Xu, Jiabao; Zhao, Shizhe; Teng, Tieshan; Abdalla, Abualgasim Elgaili; Zhu, Wan; Xie, Longxiang; Wang, Yunlong; Guo, Xiangqian<br/>
+*Viruses - 2020*<br/>
+- During this incubation period, patients are contagious, and it has been reported that each case infected on average 3.77 other people (uncertainty range 2.23-4.82).<br/>
+- It has been demonstrated that the latency of COVID-19 varies from 3-7 days on average, for up to 14 days.<br/>
+
+[Epidemiology and Transmission of COVID-19 in Shenzhen China: Analysis of 391 cases and 1,286 of their close contacts](https://doi.org/10.1101/2020.03.03.20028423)<br/>
+by Qifang Bi; Yongsheng Wu; Shujiang Mei; Chenfei Ye; Xuan Zou; Zhen Zhang; Xiaojian Liu; Lan Wei; Shaun A Truelove; Tong Zhang; Wei Gao; Cong Cheng; Xiujuan Tang; Xiaoliang Wu; Yu Wu; Binbin Sun; Suli Huang; Yu Sun; Juncen Zhang; Ting Ma; Justin Lessler; Teijian Feng<br/>
+*Mar 04, 2020*<br/>
+- This work further supports the picture of COVID-19 as a disease with a fairly short incubation period (mean 4-6 days) but a long clinical course 2, 7, 19 , with patients taking many weeks to die or recover.<br/>
+- To calculate the potential impact of surveillance and isolation on transmission, we considered a range of possible infectious periods where infectiousness varied over time.<br/>
+
+[Epidemiological parameter review and comparative dynamics of influenza, respiratory syncytial virus, rhinovirus, human coronavirus, and adenovirus](https://doi.org/10.1101/2020.02.04.20020404)<br/>
+by Julie Spencer; Deborah P Shutt; Sarah K Moser; Hannah Clegg; Helen J Wearing; Harshini Mukundan; Carrie A Manore<br/>
+*Feb 05, 2020*<br/>
+- After transmission of the virus has occurred, susceptible people move to the exposed class (E), where they spend a number of days equal to the mean period of time between infection and the onset of infectiousness (the latent period).<br/>
+- We assume here that the latent period equals the incubation period, or the mean period of time between exposure to the virus and the onset of symptoms.<br/>
+
+[2019-novel Coronavirus (2019-nCoV): estimating the case fatality rate - a word of caution](https://doi.org/10.4414/smw.2020.20203)<br/>
+by Battegay, Manuel; Kuehl, Richard; Tschudin-Sutter, Sarah; Hirsch, Hans H.; Widmer, Andreas F.; Neher, Richard A.<br/>
+*Swiss Med Wkly - 2020*<br/>
+- How is the virus transmitted, how long is the incubation period, what is the role of asymptomatic infected, what is the definite reproductive number R0, how long is viral shedding persisting after fading of symptoms, who is at risk for a severe course, and ultimately, how high is the case fatality rate?<br/>
+
+[Emergence of Novel Coronavirus 2019-nCoV: Need for Rapid Vaccine and Biologics Development](https://doi.org/10.3390/pathogens9020148)<br/>
+by Shanmugaraj, Balamurugan; Malla, Ashwini; Phoolcharoen, Waranyoo<br/>
+*Pathogens - 2020*<br/>
+- The incubation time varies from 2-14 days after infection.<br/>
+
+[Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts](https://doi.org/10.1101/2020.02.08.20021162)<br/>
+by Joel Hellewell; Sam Abbott; Amy Gimma; Nikos I Bosse; Christopher I Jarvis; Timothy W Russell; James D Munday; Adam J Kucharski; W John Edmunds; CMMID nCoV working group; Sebastian Funk; Rosalind M Eggo<br/>
+*Feb 11, 2020*<br/>
+- A key area of uncertainty is if and for how long individuals are infectious before symptom onset, and if asymptomatic or subclinical infection occurs.<br/>
+
+[The novel coronavirus outbreak in Wuhan, China](https://doi.org/10.1186/s41256-020-00135-6)<br/>
+by Zhu, Hengbo; Wei, Li; Niu, Ping<br/>
+*Global Health Research and Policy - 2020*<br/>
+- The incubation period can be 2 weeksand even longer.<br/>
+
 # Prevalence of asymptomatic shedding and transmission (e.g., particularly children).
 
-[Asymptomatic carrier state, acute respiratory disease, and pneumonia due to severe acute respiratory syndrome coronavirus 2 (SARSCoV-2): Facts and myths](https://doi.org/10.1016/j.jmii.2020.02.012)<br/>
-Authors: Lai, Chih-Cheng; Liu, Yen Hung; Wang, Cheng-Yi; Wang, Ya-Hui; Hsueh, Shun-Chung; Yen, Muh-Yen; Ko, Wen-Chien; Hsueh, Po-Ren<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Microbiology, Immunology and Infection<br/>
-Match (0.5132): **Although information on COVID-19 has increased rapidly since the emergence of SARS-CoV-2, many issues remain unresolved. First, the clinical manifestation of COVID-19 ranges from the asymptomatic carrier 19 state to severe pneumonia; however, most early reports only showed the findings of SARS-CoV-2 pneumonia, in which the ratio of male patients was much larger than that of female patients, there were no pediatric cases, and the mortality rate was high. [12] [13] [14] Subsequent to the publication of the studies of patients with only ARD or mild pneumonia, we found the ratio of male-to-female patients decreased, children or neonates could contract COVID-19, and the mortality rate declined compared to that of previous reports. 8, 11 However, whether children were less susceptible to SARS-CoV-2, or their presentation was mostly asymptomatic or difficult to detect, remains unclear. 49 In addition, most studies, especially those with a large patient population, were conducted in China, and the study of asymptomatic carriers was limited. More studies are needed to clarify the epidemiologic characteristics of COVID-19 and to identify the risk and prognostic factors of patients infected with SARS-CoV-2. Second, Zou et al. reported that the viral load detected in asymptomatic patients was similar to that found in symptomatic patients; however, the viral loads from patients with severe diseases were higher than those in patients with mild-to-moderate presentations. Moreover, higher viral loads were detected in the nose than in the throat. 50 As there is a concern of virus spread due to severe cough 20 induced by performing a throat swab, nasal swab may be a relatively safe and sensitive alternative to collect the respiratory specimen of patients with COVID-19. However, this study involved a population of only 18 patients, including one asymptomatic patient. 49 In addition, every test has its own limitation and sensitivity/specificity; however, the studies investigating the **<br/>
-<br/>
-[Adjusted age-specific case fatality ratio during the COVID-19 epidemic in Hubei, China, January and February 2020](doi.org/10.1101/2020.03.04.20031104)<br/>
-Authors: Julien Riou; Anthony Hauser; Michel J Counotte; Christian L Althaus<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5031): **(3) There is important uncertainty around the proportion of asymptomatic infections. Currently, the detection of asymptomatic patients in China is limited by the focus on symptomatic patients seeking care and the lack of seroprevalence data [18] . The proportion of symptomatic infections has been estimated to 58% (95% confidence interval: 33-83) in a small sample of cases exported to Japan [19] . During the outbreak on the ship "Diamond Princess", nearly all individuals were tested regardless of symptoms, leading to an average proportion of symptomatic infections of 49% in a sample size of 619, which was used in the present study [13] . Still, uncertainty about the proportion of symptomatic infections will remain until a large retrospective seroprevalence study is conducted in the general population, and our results are dependent on this estimate. Additionally, the dichotomization of infection into asymptomatic and symptomatic is a simplification of reality; the infection with SARS-CoV-2, will likely cause a gradient of symptoms in different individuals depending on age, sex and comorbidities [10] . The proportion of asymptomatic infections might show an age-dependent structure.**<br/>
-<br/>
-[Adjusted age-specific case fatality ratio during the COVID-19 epidemic in Hubei, China, January and February 2020](doi.org/10.1101/2020.03.04.20031104)<br/>
-Authors: Julien Riou; Anthony Hauser; Michel J Counotte; Christian L Althaus<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5030): **Our work has several limitations. (1) Our results depend on the central assumption that the cause of the deficit of reported cases among younger age groups is a surveillance bias and does not reflect a lower risk of infection in younger individuals. The reason for this age shift is unknown [10] . Retrospective testing for COVID-19 of samples from influenza-like-illness surveillance found no positive test among children, but the sample sizes were small (20 per week including both adults and children) [10] . Uneven age distributions in the risk of infection can be attributed to immunological features, such as the lower circulation of H1N1 influenza in older individuals due to residual immunity [17] . An immunological explanation of the opposite phenomenon, with a lower susceptibility of younger individuals, seems unlikely, and there is no indication of pre-existing immunity to COVID-19 in humans [10] . Different contact patterns could play a role in a limited outbreak, but not in such a widespread infection, especially as household transmission seems to play a major role [10] . The last explanation that we assume here is that younger individuals, when symptomatic, have milder symptoms that decrease the probability of seeking care and being identified.**<br/>
-<br/>
-[Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19](http://dx.doi.org/10.7554/eLife.55570)<br/>
-Authors: Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smith, James O<br/>
-Publication: eLife.; 9:e55570<br/>
-Match (0.5010): **Our results emphasize that the true fraction of subclinical cases (those who lack fever or cough at symptom onset) remains a crucial unknown, and strongly impacts screening effectiveness. Reviewing data from active surveillance of passengers on cruise ships or repatriation flights, we estimate that up to half of cases show no detectable symptoms at the time of diagnosis. To complicate matters further, the fraction of subclinical cases may vary across age groups. Children and young adults have been conspicuously underrepresented, even in very large clinical data sets  The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team, 2020; Huang et al., 2020; . Only 2.1% of the first 44,672 confirmed cases were observed in children under 20 years of age (The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team, 2020). The possibility cannot be ruled out that large numbers of subclinical cases are occurring in young people. If an age-by-severity interaction does indeed exist, then the mean age of travellers should be taken into account when estimating screening effectiveness.**<br/>
-<br/>
-[Preliminary epidemiological analysis on children and adolescents with novel coronavirus disease 2019 outside Hubei Province, China: an observational study utilizing crowdsourced data](doi.org/10.1101/2020.03.01.20029884)<br/>
-Authors: Brandon Michael Henry; Maria Helena S Oliveira<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4980): **In respiratory syncytial virus (RSV) related illness, a common respiratory tract infection in young children, prevalence rates are reported to be the same in males and females, however, males are more likely to suffer from more severe infections requiring hospitalization. [27] [28] [29] We hypothesize that a similar pattern may be observed with COVID-19, with males developing more symptoms, thus leading to increased detection and reporting in these patients.**<br/>
-<br/>
-[Are children less susceptible to COVID-19?](https://doi.org/10.1016/j.jmii.2020.02.011)<br/>
-Authors: Lee, Ping-Ing; Hu, Ya-Li; Chen, Po-Yen; Huang, Yhu-Chering; Hsueh, Po-Ren<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Microbiology, Immunology and Infection<br/>
-Match (0.4916): **One possible reason is that children have fewer outdoor activities and undertake less international travel, making them less likely to contract the virus. The number of pediatric patients may increase in the future and a lower number of pediatric patients at the beginning of a pandemic does not necessarily mean that children are less susceptible to the infection. In fact, infants can be infected by SARS-CoV-2. 8 During the 1918 outbreak of "Spanish flu," those 65 years old and children 15 years experienced little or no change in excess mortality as compared with that of the previous influenza season. Nevertheless, those aged 15e24 and 25e44 years experienced sharply elevated death rates. 9 Similarly, at the beginning of the 2009 pandemic H1N1 influenza outbreak, the percentage age distributions for mortality and morbidity for patients with severe pneumonia show a marked shift to persons between the ages of 5 and 59 years, as compared with distributions observed during previous periods of epidemic influenza. 10 On the other hand, several infectious diseases are well known to be less severe in children. Paralytic polio occurred in approximately 1 in 1000 infections among infants, in contrast to approximately 1 in 100 infections among adolescents. 11 As compared with young children, teenagers and adults tend to have symptomatic rubella more frequently and have systemic manifestations. 11 The overall casefatality rate of severe respiratory distress syndrome (SARS) ranges from 7% to 17%. Persons with underlying medical conditions and those older than 65 years of age had mortality rates as high as 50%. However, there was no mortality in children or in adults younger than the age of 24 years. 11 The reasons for the relative resistance of children to some infectious diseases remains obscure. It was suggested that maturational changes in the axonal transport system may explain the relative resistance of immature mice to poliovirus-induced paralysis. 12 Other suggested reasons include children having a more active innate immune response, healthier respiratory tracts because they have not been exposed to as much cigarette smoke and air pollution as adults, and fewer underlying disorders. A more vigorous immune response in adults may also explain a detrimental immune response that is associated with acute respiratory distress syndrome. 11 A difference in the distribution, maturation, and functioning of viral receptors is frequently mentioned as a possible reason of the age-related difference in incidence. The SARS virus, SARS-CoV-2, and human coronavirus-NL63 (HCoV-NL63) all use the angiotensin-converting enzyme-2 (ACE2) as the cell receptor in humans. 13, 14 Previous studies demonstrated that HCoV-NL63 infection is more common in adults than in children. 15, 16 This finding suggests there may indeed be relative resistance to SARS-CoV-2 in children.**<br/>
-<br/>
-[Preliminary epidemiological analysis on children and adolescents with novel coronavirus disease 2019 outside Hubei Province, China: an observational study utilizing crowdsourced data](doi.org/10.1101/2020.03.01.20029884)<br/>
-Authors: Brandon Michael Henry; Maria Helena S Oliveira<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4879): **In both MERS and SARS outbreaks, children were less likely to develop severe respiratory distress seen in adults, experiencing a pneumonia or common cold symptoms. [7] [8] [9] Exposure of young children in China to other coronaviruses, such as OC43, 229E, NL63, and HKU1, 17 may impart some immunity not reinforced in older individuals, explaining partial protection against COVID-19 in this population. 18, 19 Comorbidities have been reported to be associated with severity of COVID-19 infection. 20, 21 As children generally have less comorbidities, this may also in part explain the lack of serious infections in children and contribute to decreased detection. Moreover, behavioral differences and limited travel as compared to adults may have also explained the limited number of cases early in the outbreak. 5 In our data set, children under 10 years old made up a near equal proportion of included cases. This is different than data presented in a recent Chinese CDC report which showed a slightly greater number of cases in those over age 10 (416 aged 0-9 vs. 549 aged 10-19). 6 Whether this is due to the availability of cases in the line lists or a higher detection of cases in young children outside China is unclear, however, this should be monitored going forward. In general, infants and young children are often at increased risk of poor outcomes from respiratory infections, 22 which has not yet been witnessed with COVID-19 from reported aggregate data. 6 Interestingly, a significant male skew in cases was observed in pediatric patients throughout the analysis. This sex skew was not observed among children in SARS or MERS. In adults, cases of COVID-19 are reported to be skewed towards men also. 5, 6 However, explanations applied to adults, such as the high prevalence rates of smoking 23 and comorbidities (i.e. cardiovascular . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[The timing of one-shot interventions for epidemic control](doi.org/10.1101/2020.03.02.20030007)<br/>
-Authors: Francesco Di Lauro; István Z Kiss; Joel Miller<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4817): **• peak prevalence, and**<br/>
-<br/>
+[Middle East respiratory syndrome](https://doi.org/10.1016/S0140-6736(19)33221-0)<br/>
+by Memish, Ziad A; Perlman, Stanley; Van Kerkhove, Maria D; Zumla, Alimuddin<br/>
+*The Lancet - Mar 04, 2020*<br/>
+-  As compared to older camels, juvenile camels have higher rates of viral shedding.<br/>
+- Asymptomatic-to-mild infection rates of 25-50% have been reported.<br/>
+- Human surveillance is focused on diseased people, and those with subclinical or asymptomatic infection and could serve as a source of infection of a susceptible person with comorbidities.<br/>
+
+[SARS-CoV-2 infection in children: Transmission dynamics and clinical characteristics](https://doi.org/10.1016/j.jfma.2020.02.009)<br/>
+by Cao, Qing; Chen, Yi-Ching; Chen, Chyi-Liang; Chiu, Cheng-Hsun<br/>
+*Journal of the Formosan Medical Association - 2020*<br/>
+- After the stage, likely after mid-January, 2020, the virus further spread to the family via infected adults to cause intrafamilial transmission, especially transmission to the elderly and children, who are vulnerable to the infection.<br/>
+- With more diagnostic detection done, the proportion of mild infections mainly in children and young adults became higher.<br/>
+- SARS-CoV-2 infection in children: Transmission dynamics and clinical characteristics<br/>
+
+[Asymptomatic coronavirus infection: MERS-CoV and SARS-CoV-2 (COVID-19)](https://doi.org/10.1016/j.tmaid.2020.101608)<br/>
+by Al-Tawfiq, Jaffar A.<br/>
+*Travel Medicine and Infectious Disease - Feb 27, 2020*<br/>
+- Asymptomatic carriage of influenza virus was estimated to be 5.2%-35.5%Based on serology, the positivity rate was 13% in asymptomatic SARS 4% in those with mild symptoms, and 82% in those with severe disease.<br/>
+- A study of human rhinovirus showed that asymptomatic infection was four times as common as symptomatic infectionand another study showed that the rate of rhinovirus infection among a pair of asymptomatic parents of a rhinovirus symptomatic child was one of 36 (2.8%) with an overall positivity of 23.5% among symptomatic subjects and 3.6% of asymptomatic subjects.<br/>
+
+[The time scale of asymptomatic transmission affects estimates of epidemic potential in the COVID-19 outbreak](https://doi.org/10.1101/2020.03.09.20033514)<br/>
+by Sang Woo Park; Daniel M Cornforth; Jonathan Dushoff; Joshua S Weitz<br/>
+*Mar 13, 2020*<br/>
+- Thus, we investigate the relationship between individual-level features of asymptomatic cases (e.g., the probability that an infection is asymptomatic, asymptomatic case duration, transmission by asymptomatic individuals) to dynamics at the population scale.<br/>
+- This shows that the prevalence of asymptomatic and symptomatic individuals is different from p and 1 − p because prevalence measures the individuals that are currently infectious and does not account for individuals that have already recovered.<br/>
+
 [Outbreak of Novel Coronavirus (SARS-Cov-2): First Evidences From International Scientific Literature and Pending Questions](https://doi.org/10.3390/healthcare8010051)<br/>
-Authors: Amodio, Emanuele; Vitale, Francesco; Cimino, Livia; Casuccio, Alessandra; Tramuto, Fabio<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare (Basel)<br/>
-Match (0.4810): **A longer incubation time may lead to a high rate of asymptomatic and subclinical infection among immunocompetent individuals. This finding could represents a key question for setting length of surveillance period for each at risk patient.**<br/>
-<br/>
-[Estimating the Asymptomatic Proportion of 2019 Novel Coronavirus onboard the Princess Cruises Ship, 2020](doi.org/10.1101/2020.02.20.20025866)<br/>
-Authors: Kenji Mizumoto; Katsushi Kagaya; Alexander Zarebski; Gerardo Chowell<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.4775): **If asymptomatic cases where missed as a result of this, it would mean we have underestimated the asymptomatic proportion. Second, it is worth noting that the data of passengers and crews employed in our analysis is not a random sample from the general population. Considering that most of the passengers are 60 years and older, the nature of this age distribution may lead to underestimation if older individuals tend to experience more symptoms. An age standardized asymptomatic proportion would be more appropriate in that case. Third, the presence of symptoms in cases with COVID-19 may correlate with other factors unrelated to age including prior health conditions such as cardiovascular disease, diabetes, immunosuppression. Therefore, more detailed data documenting the baseline health of the individuals including the presence of underlying diseases or comorbidities would be useful to remove the bias in estimates of the asymptomatic proportion.**<br/>
-<br/>
+by Amodio, Emanuele; Vitale, Francesco; Cimino, Livia; Casuccio, Alessandra; Tramuto, Fabio<br/>
+*Healthcare (Basel) - 2020*<br/>
+- A longer incubation time may lead to a high rate of asymptomatic and subclinical infection among immunocompetent individuals.<br/>
+- However, the knowledge of the true incubation time could improve the estimates of the rates of asymptomatic and subclinical infections among immunocompetent individuals; thus, increasing the specificity in detecting COVID-19 cases.<br/>
+
+[Preliminary epidemiological analysis on children and adolescents with novel coronavirus disease 2019 outside Hubei Province, China: an observational study utilizing crowdsourced data](https://doi.org/10.1101/2020.03.01.20029884)<br/>
+by Brandon Michael Henry; Maria Helena S Oliveira<br/>
+*Mar 06, 2020*<br/>
+- In respiratory syncytial virus (RSV) related illness, a common respiratory tract infection in young children, prevalence rates are reported to be the same in males and females, however, males are more likely to suffer from more severe infections requiring hospitalization.<br/>
+- al on COVID-19 clusters found in one household that 5 adults had symptomatic infections, while a child present in the residence tested positive for COVID-19 but was asymptomatic.<br/>
+
+[The effect of control strategies that reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China](https://doi.org/10.1101/2020.03.09.20033050)<br/>
+- Similar to a flu-like pathogen, the model suggests that interactions between school children and the older individuals in the population have important public health implications, as children may have high infection rates while the elderly are more vulnerable to severe infections with potentially fatal outcome.<br/>
+- We assumed that younger individuals are more likely to be asymptomatic (or subclinical) and less infectious (proportion of infectiousness compared to ' , ).<br/>
+
+[2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
+by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
+*Journal of Infection in Developing Countries - 2020*<br/>
+- Are asymptomatic individuals infectious?<br/>
+- What is the frequency of asymptomatic infections?<br/>
+
+[COVID-19: Yet Another Coronavirus Challenge in Transplantation](https://doi.org/10.1016/j.healun.2020.03.007)<br/>
+by Aslam, Saima; Mehra, Mandeep R<br/>
+*The Journal of Heart and Lung Transplantation - Mar 14, 2020*<br/>
+- Importantly, viral shedding can occur for days for weeks furtively in asymptomatic carrier individuals especially children (3, 9, 10) and fecal shedding has been noted in patients without diarrhea.<br/>
+
+[How Should the Rehabilitation Community Prepare for 2019-nCoV?](https://doi.org/10.1016/j.apmr.2020.03.003)<br/>
+by Koh, Gerald Choon-Huat; Hoenig, Helen<br/>
+*Archives of Physical Medicine and Rehabilitation - Mar 16, 2020*<br/>
+- Asymptomatic<br/>
+
 # Seasonality of transmission.
 
-[A spatial model of CoVID-19 transmission in England and Wales: early spread and peak timing](doi.org/10.1101/2020.02.12.20022566)<br/>
-Authors: Leon Danon; Ellen Brooks-Pollock; Mick Bailey; Matt J Keeling<br/>
-Published: 2020-02-14 00:00:00<br/>
-Match (0.6868): **(maximum seasonality with no transmission at the peak of the summer).**<br/>
-<br/>
-[Potential impact of seasonal forcing on a SARS-CoV-2 pandemic](doi.org/10.1101/2020.02.13.20022806)<br/>
-Authors: Richard A Neher; Robert Dyrdak; Valentin Druelle; Emma B Hodcroft; Jan Albert<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.5852): **Here we use data on seasonal variation in prevalence of seasonal CoVs in Sweden and model the impact of this variation on the possible future spread of SARS-CoV-2 in the temperate zone of the Northern Hemisphere. We also explore different scenarios of SARS-CoV-2 spread in temperate and tropical regions and show how variation in epidemiological parameters affects a potential pandemic and the possibility of transitioning to an endemic state.**<br/>
-<br/>
-[A spatial model of CoVID-19 transmission in England and Wales: early spread and peak timing](doi.org/10.1101/2020.02.12.20022566)<br/>
-Authors: Leon Danon; Ellen Brooks-Pollock; Mick Bailey; Matt J Keeling<br/>
-Published: 2020-02-14 00:00:00<br/>
-Match (0.5780): **We investigated the impact of a seasonally affected transmission rate, to capture potential decreased transmission during the summer months. We captured seasonal transmission by replacing the constant transmission rate with a time-varying transmission rate given by:**<br/>
-<br/>
-[Potential impact of seasonal forcing on a SARS-CoV-2 pandemic](doi.org/10.1101/2020.02.13.20022806)<br/>
-Authors: Richard A Neher; Robert Dyrdak; Valentin Druelle; Emma B Hodcroft; Jan Albert<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.5488): **With these assumptions, we can solve the model and compare the resulting trajectories to the seasonal variation in prevalence of seasonal CoVs, see Fig. 2 . In Stockholm, seasonal variation of CoVs (especially HKU1/OC43) is very consistent across years (see Fig. S3 ). We therefore fit the SIER model to the average seasonal variation across years by calculating the squared deviation of observed and predicted prevalence relative to their respective mean values. Simulations of the model are compatible with observations in two separate regions of parameter space: If Northern Europe was very isolated with less than 1 in 1,000 susceptible individuals returning with a seasonal CoV infection from abroad each year, weak seasonality of around ε = 0.15 would be sufficient to generate strong variation through the year compatible with observations (Fig. 2 , bottom-left ridge). In this regime, prevalence is oscillating intrinsically with a period that is commensurate with annual seasonal oscillations giving rise to a resonance phenomenon with annual or biennial patterns even for weak seasonal forcing (Chen and Epureanu, 2017; Dushoff et al., 2004) .**<br/>
-<br/>
-[Projecting the transmission dynamics of SARS-CoV-2 through the post-pandemic period](doi.org/10.1101/2020.03.04.20031112)<br/>
-Authors: Stephen M Kissler; Christine Tedijanto; Edward Goldstein; Yonatan H. Grad; Marc Lipsitch<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5324): **To quantify the relative contribution of immunity versus seasonal forcing on the transmission dynamics of the betacoronaviruses, we adopted a regression model (22) that expressed the effective reproduction number for each strain (HKU1 and OC43) as the product of a baseline transmissibility constant (related to the basic reproduction number and the proportion of the population susceptible at the start of the season), the depletion of susceptibles due to infection with the same strain, the depletion of susceptibles due to infection with the other strain, and a spline to capture further unexplained seasonal variation in transmission strength (seasonal forcing). These covariates were able to explain most of the observed variability in the effective reproduction numbers (adjusted R 2 : 74.2%). The estimated multiplicative effects of . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Projecting the transmission dynamics of SARS-CoV-2 through the post-pandemic period](doi.org/10.1101/2020.03.04.20031112)<br/>
-Authors: Stephen M Kissler; Christine Tedijanto; Edward Goldstein; Yonatan H. Grad; Marc Lipsitch<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5319): **Our observations are consistent with other predictions of how the SARS-CoV-2 outbreak might unfold. According to a study of geographic variation in the SARS-CoV-2 basic reproduction number across China, seasonal variations in absolute humidity will be insufficient to prevent the widespread transmission of SARS-CoV-2 (26) . A modelling study using data from Sweden also found that seasonal establishment of SARS-CoV-2 transmission is likely in the post-pandemic period (10).**<br/>
-<br/>
-[Projecting the transmission dynamics of SARS-CoV-2 through the post-pandemic period](doi.org/10.1101/2020.03.04.20031112)<br/>
-Authors: Stephen M Kissler; Christine Tedijanto; Edward Goldstein; Yonatan H. Grad; Marc Lipsitch<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5247): **Next, we incorporated a third strain into the dynamic transmission model to represent SARS-CoV-2. Using the maximum likelihood parameter values, we simulated transmission of HCoV-OC43 and HCoV-HKU1 for 20 years and then simulated the establishment of sustained SARS-CoV-2 transmission using another half-week pulse in the force of infection. We assumed that the incubation period and infectious period for SARS-CoV-2 were the same as the best-fit values for the other betacoronaviruses (5.0 and 4.9 days, respectively; see Table S7 ), in broad agreement with other estimates (23) (24) (25) . We allowed the cross immunities, duration of immunity, degree of seasonal variation in R0, and establishment time of SARS-CoV-2 to vary. In particular, we allowed the cross immunity from SARS-CoV-2 to the other betacoronaviruses to range from 0 to 1, the cross immunity from the other betacoronaviruses to SARS-CoV-2 to range from 0 to 0.5 (following the observation that SARS infection can induce long-lasting neutralizing antibodies against HCoV-OC43 but not vice-versa (15)),the duration of immunity to SARS-CoV-2 to range from 40 weeks to permanent, the seasonal variation in R0 to vary between none and equivalent to the other human betacoronaviruses, and the establishment time to vary throughout 2020. To adjust the amount of seasonal variation in R0, we held the maximum wintertime value of the sinusoid fixed and adjusted the minimum summertime (baseline) value. This way, smaller degrees of seasonal forcing translated into smaller summertime declines in R0; for the no-seasonality scenario, R0 was therefore held fixed at its maximal wintertime value. This choice was informed by observations on the seasonal variation in R0 for influenza, for which the wintertime R0 was similar between geographic locations with distinct climates, while the summertime R0 varied substantially between locations (11) . For a representative set of parameter values within these ranges, we measured the annual incidence of infection due to SARS-CoV-2 and the annual SARS-CoV-2 outbreak peak size for the five years following the simulated time of establishment. We summarized the post-pandemic SARS-CoV-2 dynamics into the categories of annual outbreaks, biennial outbreaks, sporadic outbreaks, or virtual elimination.**<br/>
-<br/>
-[Projecting the transmission dynamics of SARS-CoV-2 through the post-pandemic period](doi.org/10.1101/2020.03.04.20031112)<br/>
-Authors: Stephen M Kissler; Christine Tedijanto; Edward Goldstein; Yonatan H. Grad; Marc Lipsitch<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5105): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.04.20031112 doi: medRxiv preprint Table S2 . Cumulative projected percent influenza-like illness (ILI) x percent positive laboratory tests for SARS-CoV-2 by year for a representative set of cross immunities, immunity durations, and establishment times. Percent ILI is measured as the population-weighted proportion of visits to sentinel providers that were associated with influenza symptoms. The seasonality factor represents the amount of seasonal variation in the SARS-CoV-2 R0 relative to the other human betacoronaviruses. A seasonality factor of 0.5 indicates that the amplitude of seasonal variation in R0 for SARS-CoV-2 is half the amplitude of the seasonal variation in R0 for the other betacoronaviruses. Chi3X represents the degree of cross-immunity induced by infection with SARS-CoV-2 against OC43 and HKU1 and ChiX3 represents the degree of cross-immunity induced by OC43 or HKU1 infection against SARS-CoV-2. The establishment times correspond to: Winter -week 4 (early February); Spring -week 16 (late April); Summer -week 28 (mid July); Autumn -week 40 (early October). Darker shading corresponds to higher cumulative infection sizes.**<br/>
-<br/>
-[Potential impact of seasonal forcing on a SARS-CoV-2 pandemic](doi.org/10.1101/2020.02.13.20022806)<br/>
-Authors: Richard A Neher; Robert Dyrdak; Valentin Druelle; Emma B Hodcroft; Jan Albert<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.5061): **The seasonal CoVs show a strong and consistent seasonal variation, and modeling suggests that this requires strong variation in transmissibility throughout the year. It should be noted, however, that SARS-CoV-2 does seem to transmit in tropical climates like Singapore, and so winter is not a necessary condition of SARS-CoV-2 spread. Furthermore, our models are compatible with work by Luo et al. (2020) showing that recent trends in different regions across East-Asia imply that seasonality alone is unlikely to end SARS-CoV-2 spread. Precise values for the underlying model parameters and the effect of infection control measures are currently unavailable. For this reason we explored a range of parameter values to assess the robustness of the results to model assumptions.**<br/>
-<br/>
-[Projecting the transmission dynamics of SARS-CoV-2 through the post-pandemic period](doi.org/10.1101/2020.03.04.20031112)<br/>
-Authors: Stephen M Kissler; Christine Tedijanto; Edward Goldstein; Yonatan H. Grad; Marc Lipsitch<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5060): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.03.04.20031112 doi: medRxiv preprint Table S5 . Peak simulated SARS-CoV-2 epidemic sizes, in units of percent influenza-like illness (ILI) x percent positive laboratory tests, by year for a representative set of cross immunities, immunity durations, and establishment times. Percent ILI is measured as the population-weighted proportion of visits to sentinel providers that were associated with influenza symptoms. The seasonality factor represents the amount of seasonal variation in the SARS-CoV-2 R0 relative to the other human betacoronaviruses. A seasonality factor of 0.5 indicates that the amplitude of seasonal variation in R0 for SARS-CoV-2 is half the amplitude of the seasonal variation in R0 for the other betacoronaviruses. Chi3X represents the degree of cross-immunity induced by infection with SARS-CoV-2 against OC43 and HKU1 and ChiX3 represents the degree of cross-immunity induced by OC43 or HKU1 infection against SARS-CoV-2. The establishment times correspond to: Winter -week 4 (early February); Spring -week 16 (late April); Summer -week 28 (mid July); Autumn -week 40 (early October). Darker shading corresponds to higher peak sizes.**<br/>
-<br/>
+[Projecting the transmission dynamics of SARS-CoV-2 through the post-pandemic period](https://doi.org/10.1101/2020.03.04.20031112)<br/>
+by Stephen M Kissler; Christine Tedijanto; Edward Goldstein; Yonatan H. Grad; Marc Lipsitch<br/>
+*Mar 06, 2020*<br/>
+- A seasonality factor of 0 indicates no seasonal variation in R0 for SARS-CoV-2.<br/>
+- A seasonality factor of 0.5 indicates that the amplitude of seasonal variation in R0 for SARS-CoV-2 is half the amplitude of the seasonal variation in R0 for the other betacoronaviruses.<br/>
+- A seasonality factor of 1 indicates equal seasonal variation in R0 for SARS-CoV-2 as for the other human betacoronaviruses.<br/>
+- A seasonality factor of 1 indicates equivalent seasonal variation in R0, while 0 indicates no seasonal variation (see Table S2 -3).<br/>
+- The seasonality factor represents the amount of seasonal variation in the SARS-CoV-2 R0 relative to the other human betacoronaviruses.<br/>
+- This choice was informed by observations on the seasonal variation in R0 for influenza, for which the wintertime R0 was similar between geographic locations with distinct climates, while the summertime R0 varied substantially between locations (11) .<br/>
+- We assumed that the spline coefficients were constant across all seasons though seasonal forcing likely differed from year to year based on underlying drivers.<br/>
+- According to a study of geographic variation in the SARS-CoV-2 basic reproduction number across China, seasonal variations in absolute humidity will be insufficient to prevent the widespread transmission of SARS-CoV-2 (26) .<br/>
+- We first assessed the role of seasonal variation, duration of immunity, and cross immunity on the transmissibility of HCoV-OC43 and HCoV-HKU1 in the US.<br/>
+- https://doi.org/10.1101/2020.03.04.20031112 doi: medRxiv preprint infection due to SARS-CoV-2, and autumn establishments and smaller seasonal fluctuations in transmissibility were associated with larger pandemic peak sizes.<br/>
+- However, we expect that if post-pandemic transmission of SARS-CoV-2 does take hold in temperate regions, there will also be continued transmission in tropical regions seeded by the seasonal outbreaks to the north and south.<br/>
+- The strain-season coefficients were fairly consistent across seasons for each strain and lacked a clear correlation with incidence in prior seasons, consistent with experimental results showing substantial waning of immunity within a year (14) .<br/>
+- We summarized the post-pandemic SARS-CoV-2 dynamics into the categories of annual outbreaks, biennial outbreaks, sporadic outbreaks, or virtual elimination.<br/>
+- absolute humidity) of seasonal variation in coronavirus transmission have not been identified, we did not include them in our model but .<br/>
+
+[Potential impact of seasonal forcing on a SARS-CoV-2 pandemic](https://doi.org/10.1101/2020.02.13.20022806)<br/>
+by Richard A Neher; Robert Dyrdak; Valentin Druelle; Emma B Hodcroft; Jan Albert<br/>
+*Feb 17, 2020*<br/>
+- Here we use data on seasonal variation in prevalence of seasonal CoVs in Sweden and model the impact of this variation on the possible future spread of SARS-CoV-2 in the temperate zone of the Northern Hemisphere.<br/>
+- The seasonal CoVs show a strong and consistent seasonal variation, and modeling suggests that this requires strong variation in transmissibility throughout the year.<br/>
+- A/H1N1pdm09 has subsequently transitioned into a seasonal pattern causing winter epidemics in temperate climates.<br/>
+- With these assumptions, we can solve the model and compare the resulting trajectories to the seasonal variation in prevalence of seasonal CoVs, see Fig.<br/>
+- The analysis of seasonal CoV prevalence patterns allowed us to constrain parameter ranges and explore different scenarios of SARS-CoV-2 spread around the globe, in particular in temperate climates like Northern Europe.<br/>
+- As a result, many respiratory viruses show clear seasonal variation in prevalence; the most well-known example being seasonal influenza which peaks every winter in the temperate zone of the Northern Hemisphere (Petrova and Russell, 2018) .<br/>
+- We report on the possible influence of seasonal variation on the spread of SARS-CoV-2 in the Northern Hemisphere, in a pandemic scenario.<br/>
+- An R 0 ≈ 3 in winter in Hubei and a seasonal forcing of ε = 0.4 implies an annual average R 0 = β 0 /ν = 2.2.<br/>
+- Here we explore scenarios where temperate regions have a seasonal forcing of between ε = 0.3 and 0.7 and migration rates of 0.01/year.<br/>
+- These two scenarios differ slightly in the time of year at which peak transmissibility θ occurs: When transmission is mostly local and seasonality is amplified by .<br/>
+-  Seasonal forcing ε was drawn from a uniform distribution between 0.25 and 0.75 for temperate regions, .<br/>
+
+[A spatial model of CoVID-19 transmission in England and Wales: early spread and peak timing](https://doi.org/10.1101/2020.02.12.20022566)<br/>
+by Leon Danon; Ellen Brooks-Pollock; Mick Bailey; Matt J Keeling<br/>
+*Feb 14, 2020*<br/>
+- (maximum seasonality with no transmission at the peak of the summer).<br/>
+- We investigated the impact of a seasonally affected transmission rate, to capture potential decreased transmission during the summer months.<br/>
+- We predict that, in the absence of control measures and with no seasonality in transmission, the introduction of CoVID-19 in England and Wales has the potential to result in a synchronised outbreak that peaks at around 4 months following the start of person-to-person transmission.<br/>
+
+[Spread of SARS-CoV-2 Coronavirus likely to be constrained by climate](https://doi.org/10.1101/2020.03.12.20034728)<br/>
+by Miguel B. Araujo; Babak Naimi<br/>
+*Mar 16, 2020*<br/>
+- Ecological niche models The spatial distribution of incidence SAR-CoV-2 Coronavirus records were linked to the corresponding monthly climate data.<br/>
+- The analysis of risk provided at the climate zone level (Figure 2 ), masks the sharp seasonality and the fine-grained regional variation in risk that emerges when analyzing the patterns in geographical space ( Figure 3 ).<br/>
+- Prevalence of respiratory disease outbreaks, such as influenza, during wintering conditions is common 16, 17 .<br/>
+
+[Simulating the infected population and spread trend of 2019-nCov under different policy by EIR model](https://doi.org/10.1101/2020.02.10.20021519)<br/>
+by Hao Xiong; Huili Yan<br/>
+*Feb 12, 2020*<br/>
+- If 2019-nCoV, similar to influenza, has strong seasonality in its transmission, our epidemic forecast might not be reliable.<br/>
+
+[Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study](https://doi.org/10.1016/S0140-6736(20)30260-9)<br/>
+by Wu, Joseph T; Leung, Kathy; Leung, Gabriel M<br/>
+*The Lancet - Mar 06, 2020*<br/>
+- If 2019-nCoV, similar to influenza, has strong seasonality in its transmission, our epidemic forecast might not be reliable.<br/>
+
+[Application of the ARIMA model on the COVID-2019 epidemic dataset](https://doi.org/10.1016/j.dib.2020.105340)<br/>
+by Benvenuto, Domenico; Giovanetti, Marta; Vassallo, Lazzaro; Angeletti, Silvia; Ciccozzi, Massimo<br/>
+*Data in Brief - 2020*<br/>
+- Seasonal and nonseasonal differences were used to stabilize the term trend and periodicity.<br/>
+
+[Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease 2019](https://doi.org/10.1101/2020.03.02.20030189)<br/>
+by Juanjuan Zhao; Quan Yuan; Haiyan Wang; Wei Liu; Xuejiao Liao; Yingying Su; Xin Wang; Jing Yuan; Tingdong Li; Jinxiu Li; Shen Qian; Congming Hong; Fuxiang Wang; Yingxia Liu; Zhaoqin Wang; Qing He; Zhiyong Li; Bin He; Tianying Zhang; Shengxiang Ge; Lei Liu; Jun Zhang; Ningshao Xia; Zheng Zhang<br/>
+*Mar 03, 2020*<br/>
+- https://doi.org/10.1101/2020.03.02.20030189 doi: medRxiv preprint 14 seasons.<br/>
+
+[How will country-based mitigation measures influence the course of the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30567-5)<br/>
+by Anderson, Roy M; Heesterbeek, Hans; Klinkenberg, Don; Hollingsworth, T Déirdre<br/>
+*The Lancet - Mar 09, 2020*<br/>
+- Data from the southern hemisphere will assist in evaluating how much seasonality will influence COVID-19 transmission.<br/>
+
+[A mathematical model for estimating the age-specific transmissibility of a novel coronavirus](https://doi.org/10.1101/2020.03.05.20031849)<br/>
+by Zeyu Zhao; Yuan-Zhao Zhu; Jing-Wen Xu; Qing-Qing Hu; Zhao Lei; Jia Rui; Xingchun Liu; Yao Wang; Li Luo; Shan-Shan Yu; Jia Li; Ruo-Yun Liu; Fang Xie; Ying-Ying Su; Yi-Chen Chiang; Yanhua Su; Benhua Zhao; Tianmu Chen<br/>
+*Mar 08, 2020*<br/>
+- Age-specific transmission model<br/>
+
 # Physical science of the coronavirus (e.g., charge distribution, adhesion to hydrophilic/phobic surfaces, environmental survival to inform decontamination efforts for affected areas and provide information about viral shedding).
 
 [Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents](https://doi.org/10.1016/j.infpip.2020.100044)<br/>
-Authors: Kampf, Günter<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Infection Prevention in Practice<br/>
-Match (0.5667): **Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents**<br/>
-<br/>
-[The role of absolute humidity on transmission rates of the COVID-19 outbreak](doi.org/10.1101/2020.02.12.20022467)<br/>
-Authors: Wei Luo; Maimuna S Majumder; Dianbo Liu; Canelle Poirier; Kenneth D Mandl; Marc Lipsitch; Mauricio Santillana<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.5628): **In addition to population mobility and human-to-human contact, environmental factors can impact droplet transmission and survival of viruses (e.g., influenza) but have not yet been examined for this novel pathogen. Absolute humidity, defined as the water content in ambient air, has been found to be a strong environmental determinant of other viral transmissions (4, 5) . For example, influenza viruses survive longer on surfaces or in droplets in cold and dry air -increasing the likelihood of subsequent transmission. Thus, it is key to understand the effects of environmental factors on the ongoing outbreak to support decision-making pertaining to disease control. Especially in locations where the risk of transmission may have been underestimated, such as in humid and warmer locations.**<br/>
-<br/>
-[Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents](https://doi.org/10.1016/j.infpip.2020.100044)<br/>
-Authors: Kampf, Günter<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Infection Prevention in Practice<br/>
-Match (0.5568): **Contamination of frequent touch surfaces in healthcare settings are a potential source of viral transmission. Data on the transmissibility of coronaviruses from contaminated surfaces to hands were not found. However, it could be shown with influenza A virus that a 5 s contact is sufficient to transfer 31.6% of the viral load to the hands [9] . The transfer efficiency was lower with parainfluenza-virus 3 (1.5%) [10] . Although the viral load of coronaviruses on inanimate surfaces is not known during an outbreak situation it seems plausible to reduce the viral load on surfaces by disinfection, especially on frequent touch surfaces in the immediate patient surrounding where the highest viral load can be expected.**<br/>
-<br/>
-[Clinical Data on Hospital Environmental Hygiene Monitoring and Medical Staff Protection during the Coronavirus Disease 2019 Outbreak](doi.org/10.1101/2020.02.25.20028043)<br/>
-Authors: Yanfang Jiang; Haifeng Wang; Yukun Chen; Jiaxue He; Liguo Chen; Yong Liu; Xinyuan Hu; Ang Li; Siwen Liu; Peng Zhang; Hongyan Zou; Shucheng Hua<br/>
-Published: 2020-02-27 00:00:00<br/>
-Match (0.5382): **The outbreak of COVID-19 in Wuhan in December 2019 has led to a serious public 69 health event [1] [2] [3] . Meanwhile, the outbreak of this novel virus has placed 70 unprecedented challenges on hospital environmental hygiene. The occurrence of 71 medical staff-associated infections is closely related to long-lived pathogens in the 72 hospital environment [4, 5] . Thus, it is crucial to assess hospital environmental hygiene 73 to understand the most important environmental issues for controlling the spread of 74 COVID-19 in hospitals. The Chinese government quickly adopted quarantine 75 measures for confirmed and suspected patients to restrain the spread of the 76 pandemic [6] . Comprehensive monitoring of hospital environmental hygiene during the 77 outbreak of the pandemic is conducive to the refinement of hospital infection control 78 [5, 7] . It also increases understanding of the environmental challenges corresponding to 79 the reemergence of COVID-19 or similar viruses. Therefore, it is of great significance 80 to ensure the safety of medical treatment and the quality of hospital infection control 81 through the monitoring of environmental hygiene. According to a report from the The environmental monitoring methods referenced the hospital sanitation standards 106 (GB15982-2012). All air was collected by two methods: natural sedimentation [9] and 107 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
+by Kampf, Günter<br/>
+*Infection Prevention in Practice - 2020*<br/>
+- Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents<br/>
+- Although the viral load of coronaviruses on inanimate surfaces is not known during an outbreak situation it seems plausible to reduce the viral load on surfaces by disinfection, especially on frequent touch surfaces in the immediate patient surrounding where the highest viral load can be expected.<br/>
+- available data on the persistence of coronaviruses on inanimate surfaces were summarized.<br/>
+- Contamination of frequent touch surfaces in healthcare settings are a potential source of viral transmission.<br/>
+- Thoroughly cleaning environmental surfaces with water and detergent and applying commonly used hospital-level disinfectants (such as sodium hypochlorite) are effective and sufficient procedures."<br/>
+
+[Persistence of coronaviruses on inanimate surfaces and their inactivation with biocidal agents](https://doi.org/10.1016/j.jhin.2020.01.022)<br/>
+by Kampf, G.; Todt, D.; Pfaender, S.; Steinmann, E.<br/>
+*Journal of Hospital Infection - Mar 31, 2020*<br/>
+- Persistence of coronaviruses on inanimate surfaces and their inactivation with biocidal agents<br/>
+- Although the viral load of coronaviruses on inanimate surfaces is not known during an outbreak situation it seem plausible to reduce the viral load on surfaces by disinfection, especially of frequently touched surfaces in the immediate patient surrounding where the highest viral load can be expected.<br/>
+- Transmission of coronaviruses from contaminated dry surfaces has been postulated including self-inoculation of mucous membranes of the nose, eyes or mouth, emphasizing the importance of a detailed understanding of coronavirus persistence on inanimate surfaces.<br/>
+- Thoroughly cleaning environmental surfaces with water and detergent and applying commonly used hospital-level disinfectants (such as sodium hypochlorite) are effective and sufficient procedures."<br/>
+- Human coronaviruses can remain infectious on inanimate surfaces for up to 9 days.<br/>
+
+[Enteric involvement of coronaviruses: is faecal–oral transmission of SARS-CoV-2 possible?](https://doi.org/10.1016/S2468-1253(20)30048-0)<br/>
+by Yeo, Charleen; Kaushal, Sanghvi; Yeo, Danson<br/>
+*The Lancet Gastroenterology & Hepatology - Apr 30, 2020*<br/>
+- Although direct droplet transmission is an important route of transmission, faecal excretion, environmental contamination, and fomites might contribute to viral transmission.<br/>
+- The viability of SARS-CoV and MERS-CoV under various conditions and their prolonged presence in the environment suggest the potential for coronaviruses to be transmitted via contact or fomites.<br/>
+- 2 Data exist to support the notion that SARS-CoV and MERS-CoV are viable in environmental conditions that could facilitate faecal-oral transmission.<br/>
+
+[The SARS-CoV-2 outbreak from a one health perspective](https://doi.org/10.1016/j.onehlt.2020.100127)<br/>
+by Hemida, Maged Gomaa; Ba Abduallah, Mohammed M.<br/>
+*One Health - Mar 16, 2020*<br/>
+- The environmental factors that may contribute to the spread of the virus include air, water, soil, etc.<br/>
+- The process of decontamination of the virus-contaminated surfaces by the appropriate disinfectants or virucidal agents was successful in case of other respiratory viruses such as SARS-CoV and avian influenza.<br/>
+
+[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](https://doi.org/10.1101/2020.03.08.982637)<br/>
+by Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
+*Mar 10, 2020*<br/>
+- ventilation and sterilization), as a potential spread source of coronavirus with relatively high risk caused by aerosolization of virus and contamination of surfaces after use; 2) for the general public, the proper use of personal protection measures, such as wearing masks and avoiding busy crowds; 3) the effective sanitization of the high risk area and the use of high level protection masks for medical staff with direct contact with the COVID-19 patients or with long stay in high risk area; 4) the renovation of large stadiums as field hospitals with nature ventilation and protective measures is an effective approach to quarantine and treat mild symptom patients so as to reduce the COVID-19 transmission among the public; 5) the virus may be resuspended from the contaminated protective apparel surface to the air while taking off and from the floor surface with the movement of medical staff.<br/>
+- We call for extra care and attention on the proper design, use and disinfection of the toilets in hospitals and in communities to minimize the potential source of the virus-laden aerosol.<br/>
+
 [Transmission routes of 2019-nCoV and controls in dental practice](https://doi.org/10.1038/s41368-020-0075-9)<br/>
-Authors: Peng, Xian; Xu, Xin; Li, Yuqing; Cheng, Lei; Zhou, Xuedong; Ren, Biao<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Oral Science<br/>
-Match (0.5340): **Contact spread A dental professional's frequent direct or indirect contact with human fluids, patient materials, and contaminated dental instruments or environmental surfaces makes a possible route to the spread of viruses 53 . In addition, dental professionals and other patients have likely contact of conjunctival, nasal, or oral mucosa with droplets and aerosols containing microorganisms generated from an infected individual and propelled a short distance by coughing and talking without a mask. Effective infection control strategies are needed to prevent the spread of 2019-nCoV through these contact routines.**<br/>
-<br/>
-[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](doi.org/10.1101/2020.03.08.982637)<br/>
-Authors: Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5218): **The results from this study provide the first field report on the characteristics of airborne SARS-CoV-2 in Wuhan with important implications for the public health prevention and medical staff protection. We call for particular attentions on 1) the proper use and cleaning of toilets (e.g. ventilation and sterilization), as a potential spread source of coronavirus with relatively high risk caused by aerosolization of virus and contamination of surfaces after use; 2) for the general public, the proper use of personal protection measures, such as wearing masks and avoiding busy crowds; 3) the effective sanitization of the high risk area and the use of high level protection masks for medical staff with direct contact with the COVID-19 patients or with long stay in high risk area; 4) the renovation of large stadiums as field hospitals with nature ventilation and protective measures is an effective approach to quarantine and treat mild symptom patients so as to reduce the COVID-19 transmission among the public; 5) the virus may be resuspended from the contaminated protective apparel surface to the air while taking off and from the floor surface with the movement of medical staff. Thus, surface sanitization of the apparel before they are taken off may also help reduce the infection risk for medical staff. Note: * The reported values are virus aerosol deposition rate in copies m -2 hour -1 . # Two batches of sampling were conducted for the sites. Detailed information is shown in Table S1 . a The samples taken during the first batch of sampling from Feb 17 to Feb 24, 2020. b The samples taken during the second batch of sampling on Mar 2, 2020.**<br/>
-<br/>
-[Transmission routes of 2019-nCoV and controls in dental practice](https://doi.org/10.1038/s41368-020-0075-9)<br/>
-Authors: Peng, Xian; Xu, Xin; Li, Yuqing; Cheng, Lei; Zhou, Xuedong; Ren, Biao<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Oral Science<br/>
-Match (0.5213): **Dental patients and professionals can be exposed to pathogenic microorganisms, including viruses and bacteria that infect the oral cavity and respiratory tract. Dental care settings invariably carry the risk of 2019-nCoV infection due to the specificity of its procedures, which involves face-to-face communication with patients, and frequent exposure to saliva, blood, and other body fluids, and the handling of sharp instruments. The pathogenic microorganisms can be transmitted in dental settings through inhalation of airborne microorganisms that can remain suspended in the air for long periods 51 , direct contact with blood, oral fluids, or other patient materials 52 , contact of conjunctival, nasal, or oral mucosa with droplets and aerosols containing microorganisms generated from an infected individual and propelled a short distance by coughing and talking without a mask 53, 54 , and indirect contact with contaminated instruments and/or environmental surfaces 50 . Infections could be present through any of these conditions involved in an infected individual in dental clinics and hospitals, especially during the outbreak of 2019-nCoV (Fig. 1 ).**<br/>
-<br/>
-[Science in the fight against the novel coronavirus disease](https://doi.org/10.1097/CM9.0000000000000777)<br/>
-Authors: Wang, Jian-Wei; Cao, Bin; Wang, Chen<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Chin Med J (Engl)<br/>
-Match (0.4802): **Scientific research is of vital importance for tackling emerging infectious diseases and developing effective intervention methods. The spread of infectious diseases is affected not only by the biological characteristics of the pathogen but also by various other factors such as politics, culture, economy, and the environment. Multidisciplinary research in biomedical, social, and environmental sciences is required to achieve a deeper understanding of disease transmission and develop more effective systems for emergency response.**<br/>
-<br/>
-[Clinical Data on Hospital Environmental Hygiene Monitoring and Medical Staff Protection during the Coronavirus Disease 2019 Outbreak](doi.org/10.1101/2020.02.25.20028043)<br/>
-Authors: Yanfang Jiang; Haifeng Wang; Yukun Chen; Jiaxue He; Liguo Chen; Yong Liu; Xinyuan Hu; Ang Li; Siwen Liu; Peng Zhang; Hongyan Zou; Shucheng Hua<br/>
-Published: 2020-02-27 00:00:00<br/>
-Match (0.4778): **Clinical Data on Hospital Environmental Hygiene Monitoring and Medical Staff Protection during the Coronavirus Disease 2019 Outbreak**<br/>
-<br/>
-[2019 novel coronavirus of pneumonia in Wuhan, China: emerging attack and management strategies](http://dx.doi.org/10.1186/s40169-020-00271-z)<br/>
-Authors: She, Jun; Jiang, Jinjun; Ye, Ling; Hu, Lijuan; Bai, Chunxue; Song, Yuanlin<br/>
-Published: 2020-02-20 00:00:00<br/>
-Publication: Clin Transl Med<br/>
-Match (0.4714): **For healthcare personnel, to minimize the chance of exposures to 2019-nCoV needs to follow the standard of contact and airborne precautions, personal protection including gloves, gowns, respiratory protection, eye protection, and hand hygiene. Some procedures performed on 2019-nCoV infected patients could generate infectious aerosols, e.g., nasopharyngeal specimen collection, sputum induction, and open suctioning of airways should be performed cautiously. If performed, these procedures should take place in an airborne infection isolation room, and personnel should use respiratory and eye protection, and hand hygiene [30] . In addition, management of environmental infection control including laundry, food service utensils, and medical waste should also be performed. Artificial Intelligence (AI), alternative selection to reducing infection for medical personnel, should be explored (Joint developed by Respiratory Research Institution of Zhongshan Hospital, Fudan University and RealMax Ltd Co), which will be benefit for remote guidance of practices.**<br/>
-<br/>
+by Peng, Xian; Xu, Xin; Li, Yuqing; Cheng, Lei; Zhou, Xuedong; Ren, Biao<br/>
+*International Journal of Oral Science - 2020*<br/>
+- Contact spread A dental professional's frequent direct or indirect contact with human fluids, patient materials, and contaminated dental instruments or environmental surfaces makes a possible route to the spread of viruses 53 .<br/>
+- We have summarized the possible transmission routes of 2019-nCov in stomatology, such as the airborne spread, contact spread, and contaminated surface spread.<br/>
+
+[Environmental contamination of the SARS-CoV-2 in healthcare premises: An urgent call for protection for healthcare workers](https://doi.org/10.1101/2020.03.11.20034546)<br/>
+by Guangming Ye; Hualiang Lin; Liangjun Chen; Shichan Wang; Zhikun Zeng; Wei Wang; Shiyu Zhang; Terri Rebmann; Yirong Li; Zhenyu Pan; Zhonghua Yang; Ying Wang; Fubing Wang; Zhengmin Qian; Xinghuan Wang<br/>
+*Mar 16, 2020*<br/>
+- 8 Data regarding the hospital function zones with highest levels of contamination can inform hospital cleaning and disinfection protocols to reduce the risk of healthcare-associated disease.<br/>
+- Contaminated hands and surfaces could potentially lead to SARS-CoV-2 exposure.<br/>
+
+[Guide to Understanding the 2019 Novel Coronavirus](https://doi.org/10.1016/j.mayocp.2020.02.003)<br/>
+by Shah, Aditya; Kashyap, Rahul; Tosh, Pritish; Sampathkumar, Priya; O’Horo, John C.<br/>
+*Mayo Clinic Proceedings - Feb 28, 2020*<br/>
+- Decontamination of work surfaces and equipment with Environmental Protection Agencyeregistered hospital disinfectant is of paramount importance.<br/>
+
+[A new transmission route for the propagation of the SARS-CoV-2 coronavirus](https://doi.org/10.1101/2020.02.14.20022939)<br/>
+by Antoine Danchin; Tuen Wai Patrick Ng; Gabriel TURINICI<br/>
+*Feb 18, 2020*<br/>
+- A secondary propagation route Due to the versatility of the virus, in addition to interfering with the immune response, contagion may involve a variety of causes, such as environments contaminated with virus carrier secretions, dirty water effluents, besides the expected direct contamination via aerosols.<br/>
+
+[Clinical Data on Hospital Environmental Hygiene Monitoring and Medical Staff Protection during the Coronavirus Disease 2019 Outbreak](https://doi.org/10.1101/2020.02.25.20028043)<br/>
+by Yanfang Jiang; Haifeng Wang; Yukun Chen; Jiaxue He; Liguo Chen; Yong Liu; Xinyuan Hu; Ang Li; Siwen Liu; Peng Zhang; Hongyan Zou; Shucheng Hua<br/>
+*Feb 27, 2020*<br/>
+- Thus, it is crucial to assess hospital environmental hygiene 73 to understand the most important environmental issues for controlling the spread of 74 COVID-19 in hospitals.<br/>
+
 # Persistence and stability on a multitude of substrates and sources (e.g., nasal discharge, sputum, urine, fecal matter, blood).
 
-[2019 Novel Coronavirus can be detected in urine, blood, anal swabs and oropharyngeal swabs samples](doi.org/10.1101/2020.02.21.20026179)<br/>
-Authors: Liang Peng; Jing Liu; Wenxiong Xu; Qiumin Luo; Keji Deng; Bingliang Lin; Zhiliang Gao<br/>
-Published: 2020-02-25 00:00:00<br/>
-Match (0.5741): **The pathogenic mechanism of SARS-CoV-2 infection is still unclear. Current evidences indicate that it can invade multiple organ systems, including the respiratory system, digestive system and hematological system (3) (4) (5) . But whether it can invade the urinary system has not been reported. In our study, urine, blood, anal swab and oropharyngeal swab from 9 patients were retested by qRT-PCR. It is the first time for the SARS-CoV-2 found in urine, though no urinary irritation was found. In addition, the quantity of the virus in the anal swab was closer to that of the oropharyngeal test, and those in the blood and urine were less than that of the oropharyngeal test, indicating that the "clearing effect" of the digestive tract on the virus is not obvious.**<br/>
-<br/>
-[A retrospective study of the clinical characteristics of COVID-19 infection in 26 children](doi.org/10.1101/2020.03.08.20029710)<br/>
-Authors: Anjue Tang; Wenhui Xu; min shen; Peifen Chen; Guobao Li; Yingxia Liu; Lei Liu<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5582): **Patients in this study were tested with the 2019-nCOV nucleic acid test. The specimens included nasopharyngeal swabs, blood, sputum, and anal swabs. We found that nasal swabs and anal swabs were positive even without respiratory symptoms such as cough and gastrointestinal symptoms such as vomiting and diarrhea Therefore, the source of samples cannot be selected based on clinical manifestations, and should be submitted multiple times and at multiple sites to avoid misdiagnosis of patients with mild imaging without imaging manifestations. Although there is no clinical evidence that the virus is transmitted through the conjunctival pathway [13] , mother-infant, and breast-milk [4] , researchers have detected the virus in urine [14] , saliva [15] , suggesting that novel coronavirus has a wide range of transmission routes.**<br/>
-<br/>
-[2019 Novel Coronavirus can be detected in urine, blood, anal swabs and oropharyngeal swabs samples](doi.org/10.1101/2020.02.21.20026179)<br/>
-Authors: Liang Peng; Jing Liu; Wenxiong Xu; Qiumin Luo; Keji Deng; Bingliang Lin; Zhiliang Gao<br/>
-Published: 2020-02-25 00:00:00<br/>
-Match (0.5043): **2019 Novel Coronavirus can be detected in urine, blood, anal swabs and oropharyngeal swabs samples**<br/>
-<br/>
-[Rapid Detection of Novel Coronavirus (COVID-19) by Reverse Transcription-Loop-Mediated Isothermal Amplification](doi.org/10.1101/2020.02.19.20025155)<br/>
-Authors: Laura E Lamb; Sarah N Bartolone; Elijah Ward; Michael B Chancellor<br/>
-Published: 2020-02-24 00:00:00<br/>
-Match (0.4990): **The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.02.19.20025155 doi: medRxiv preprint common human specimens collected for clinical testing, including serum, urine, saliva, oropharyngeal swabs, and nasopharyngeal swabs.**<br/>
-<br/>
-[Analysis of early renal injury in COVID-19 and diagnostic value of multi-index combined detection](doi.org/10.1101/2020.03.07.20032599)<br/>
-Authors: Xu-wei Hong; Ze-pai Chi; Guo-yuan Liu; Hong Huang; Shun-qi Guo; Jing-ru Fan; Xian-wei Lin; Liao-zhun Qu; Rui-lie Chen; Ling-jie Wu; Liang-yu Wang; Qi-chuan Zhang; Su-wu Wu; Ze-qun Pan; Hao Lin; Yu-hua Zhou; Yong-hai Zhang<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.4868): **The excretion of albumin in urine increases, and as the lesions worsen, the excretion of immunoglobulin G in urine also increases. Therefore, the detection of urine immunoglobulin G can help to judge the degree of damage on the glomerular filtration membrane.**<br/>
-<br/>
-[Clinical presentation and virological assessment of hospitalized cases of coronavirus disease 2019 in a travel-associated transmission cluster](doi.org/10.1101/2020.03.05.20030502)<br/>
-Authors: Roman Woelfel; Victor Max Corman; Wolfgang Guggemos; Michael Seilmaier; Sabine Zange; Marcel A Mueller; Daniela Niemeyer; Patrick Vollmar; Camilla Rothe; Michael Hoelscher; Tobias Bleicker; Sebastian Bruenink; Julia Schneider; Rosina Ehmann; Katrin Zwirglmaier; Christian Drosten; Clemens Wendtner<br/>
-Published: 2020-03-08 00:00:00<br/>
-Match (0.4805): **Daily measurements of viral load in sputum, pharyngeal swabs, and stool are summarized in Figure 2 . In general, viral RNA concentrations were very high in initial samples. In all patients except one, throat swab RNA concentrations seemed to be already on the decline at the time of first presentation. Sputum RNA concentrations declined more slowly, with a peak during the first week of symptoms in three of eight patients. Stool RNA concentrations were also high. Courses of viral RNA concentration in stool seemed to reflect courses in sputum in many cases (e.g., Figure 2 A, B, C) . In only one case, independent replication in the intestinal tract seemed obvious from the course of stool RNA excretion (Figure 2 D) .**<br/>
-<br/>
-[2019 Novel Coronavirus can be detected in urine, blood, anal swabs and oropharyngeal swabs samples](doi.org/10.1101/2020.02.21.20026179)<br/>
-Authors: Liang Peng; Jing Liu; Wenxiong Xu; Qiumin Luo; Keji Deng; Bingliang Lin; Zhiliang Gao<br/>
-Published: 2020-02-25 00:00:00<br/>
-Match (0.4712): **Nevertheless, the relative symptoms, including diarrhea and urinary irritation did not happen to every patient with virus in anal swab and urine specimens. All samples were negative at the earliest time of the 10 th day after onset in that mild patient. Therefore, we believed that SARS-CoV-2 can invade the urinary system, hematological system and digestive system other than the respiratory system, not always with relative symptoms. Mild patients can be self-limiting. This will prompt clinicians to pay attention to the clinical manifestations of multiple systems, even if the corresponding clinical symptoms do not appear. In addition, it is necessary to carry out multiple examinations of various specimens to assess changes in disease and prognosis.**<br/>
-<br/>
-[Transmission routes of 2019-nCoV and controls in dental practice](https://doi.org/10.1038/s41368-020-0075-9)<br/>
-Authors: Peng, Xian; Xu, Xin; Li, Yuqing; Cheng, Lei; Zhou, Xuedong; Ren, Biao<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Oral Science<br/>
-Match (0.4635): **Dental patients and professionals can be exposed to pathogenic microorganisms, including viruses and bacteria that infect the oral cavity and respiratory tract. Dental care settings invariably carry the risk of 2019-nCoV infection due to the specificity of its procedures, which involves face-to-face communication with patients, and frequent exposure to saliva, blood, and other body fluids, and the handling of sharp instruments. The pathogenic microorganisms can be transmitted in dental settings through inhalation of airborne microorganisms that can remain suspended in the air for long periods 51 , direct contact with blood, oral fluids, or other patient materials 52 , contact of conjunctival, nasal, or oral mucosa with droplets and aerosols containing microorganisms generated from an infected individual and propelled a short distance by coughing and talking without a mask 53, 54 , and indirect contact with contaminated instruments and/or environmental surfaces 50 . Infections could be present through any of these conditions involved in an infected individual in dental clinics and hospitals, especially during the outbreak of 2019-nCoV (Fig. 1 ).**<br/>
-<br/>
-[High expression of ACE2 receptor of 2019-nCoV on the epithelial cells of oral mucosa](https://doi.org/10.1038/s41368-020-0074-x)<br/>
-Authors: Xu, Hao; Zhong, Liang; Deng, Jiaxin; Peng, Jiakuan; Dan, Hongxia; Zeng, Xin; Li, Taiwen; Chen, Qianming<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Oral Science<br/>
-Match (0.4540): **Although studies have reported multiple symptoms of hospitalized patients with 2019-nCoV infection 3, 20 , some cases at home might be asymptomatic. It is worth noting that, a previous study showed that 99% of the patients had no clinical manifestation of oral human papillomavirus (HPV), but HPV DNA was detected in 81% of oral mucosa samples, and anti-HPV IgA was detected in the saliva of 44% of the patients 21 . Likewise, although 2019-ncov infection hardly presented oral symptoms, the ACE2 expression in the oral cavity indicated that the oral infection route of 2019-nCoV cannot be excluded. Moreover, a latest pilot experiment showed that 4 out of 62 stool specimens tested positive to 2019-nCoV, and another four patients in a separate cohort who tested positive to rectal swabs had the 2019-nCoV being detected in the gastrointestinal tract, saliva, or urine 20 . Thus, our results support that in addition to the respiratory droplets and direct contact, fecal-oral transmission might also be the route of transmission of 2019-nCoV.**<br/>
-<br/>
-[High expression of ACE2 receptor of 2019-nCoV on the epithelial cells of oral mucosa](http://dx.doi.org/10.1038/s41368-020-0074-x)<br/>
-Authors: Xu, Hao; Zhong, Liang; Deng, Jiaxin; Peng, Jiakuan; Dan, Hongxia; Zeng, Xin; Li, Taiwen; Chen, Qianming<br/>
-Published: 2020-02-24 00:00:00<br/>
-Publication: Int J Oral Sci<br/>
-Match (0.4540): **Although studies have reported multiple symptoms of hospitalized patients with 2019-nCoV infection 3, 20 , some cases at home might be asymptomatic. It is worth noting that, a previous study showed that 99% of the patients had no clinical manifestation of oral human papillomavirus (HPV), but HPV DNA was detected in 81% of oral mucosa samples, and anti-HPV IgA was detected in the saliva of 44% of the patients 21 . Likewise, although 2019-ncov infection hardly presented oral symptoms, the ACE2 expression in the oral cavity indicated that the oral infection route of 2019-nCoV cannot be excluded. Moreover, a latest pilot experiment showed that 4 out of 62 stool specimens tested positive to 2019-nCoV, and another four patients in a separate cohort who tested positive to rectal swabs had the 2019-nCoV being detected in the gastrointestinal tract, saliva, or urine 20 . Thus, our results support that in addition to the respiratory droplets and direct contact, fecal-oral transmission might also be the route of transmission of 2019-nCoV.**<br/>
-<br/>
+[2019 Novel Coronavirus can be detected in urine, blood, anal swabs and oropharyngeal swabs samples](https://doi.org/10.1101/2020.02.21.20026179)<br/>
+by Liang Peng; Jing Liu; Wenxiong Xu; Qiumin Luo; Keji Deng; Bingliang Lin; Zhiliang Gao<br/>
+*Feb 25, 2020*<br/>
+- Nevertheless, the relative symptoms, including diarrhea and urinary irritation did not happen to every patient with virus in anal swab and urine specimens.<br/>
+- Urine, blood, anal swabs and oropharyngeal swabs from All rights reserved.<br/>
+- 2019 Novel Coronavirus can be detected in urine, blood, anal swabs and oropharyngeal swabs samples<br/>
+- In addition, the quantity of the virus in the anal swab was closer to that of the oropharyngeal test, and those in the blood and urine were less than that of the oropharyngeal test, indicating that the "clearing effect" of the digestive tract on the virus is not obvious.<br/>
+- We aim to detect SARS-CoV-2 nucleic acid from urine, blood, anal swab and oropharyngeal swab samples.<br/>
+
+[Viral load of SARS-CoV-2 in clinical samples](https://doi.org/10.1016/S1473-3099(20)30113-4)<br/>
+by Pan, Yang; Zhang, Daitao; Yang, Peng; Poon, Leo L M; Wang, Quanyi<br/>
+*The Lancet Infectious Diseases - Feb 24, 2020*<br/>
+- No viral RNA was detected in urine or stool samples from these two patients.<br/>
+- Throat swab Sputum<br/>
+- We also studied respiratory samples (nasal [n=1] and throat swabs [n=67], and sputum [n=42]) collected from 80 individuals at different stages of infection.<br/>
+
+[Clinical and computed tomographic imaging features of novel coronavirus pneumonia caused by SARS-CoV-2](https://doi.org/10.1016/j.jinf.2020.02.017)<br/>
+by Xu, Yu-Huan; Dong, Jing-Hui; An, Wei-Min; Lv, Xiao-Yan; Yin, Xiao-Ping; Zhang, Jian-Zeng; Dong, Li; Ma, Xi; Zhang, Hong-Jie; Gao, Bu-Lang<br/>
+*Journal of Infection - Feb 25, 2020*<br/>
+- The virus nucleic acid can be detected in swabs, secretions and sputum from the respiratory tract, blood or excrement.<br/>
+- However, confirmation of infection of this virus requires presence of the virus nucleic acid detected in swabs, secretions and sputum from the respiratory tract, blood or stools.<br/>
+
+[Clinical features and sexual transmission potential of SARS-CoV-2 infected female patients: a descriptive study in Wuhan, China](https://doi.org/10.1101/2020.02.26.20028225)<br/>
+by Pengfei Cui; Zhe Chen; Tian Wang; Jun Dai; Jinjin Zhang; Ting Ding; Jingjing Jiang; Jia Liu; Cong Zhang; Wanying Shan; Sheng Wang; Yueguang Rong; Jiang Chang; Xiaoping Miao; Xiangyi Ma; Shixuan Wang<br/>
+*Feb 27, 2020*<br/>
+- In addition, SARS-CoV was detected in urine, feces and tears of some SARS-CoV infected patients.<br/>
+- Vertical transmission have not been verified 16, 23 , although scientists have found that SARS-CoV-2 is positive in feces and blood 15 , while negative in amniotic fluid, cord blood, neonatal throat swab, and breastmilk 16 .<br/>
+
+[Rapid Detection of Novel Coronavirus (COVID-19) by Reverse Transcription-Loop-Mediated Isothermal Amplification](https://doi.org/10.1101/2020.02.19.20025155)<br/>
+by Laura E Lamb; Sarah N Bartolone; Elijah Ward; Michael B Chancellor<br/>
+*Feb 24, 2020*<br/>
+- https://doi.org/10.1101/2020.02.19.20025155 doi: medRxiv preprint common human specimens collected for clinical testing, including serum, urine, saliva, oropharyngeal swabs, and nasopharyngeal swabs.<br/>
+- Spiked specimens included serum, urine, saliva, oropharyngeal swabs, and nasopharyngeal swabs as we wanted to verify that substances present in these samples would not interfere with RT-LAMP.<br/>
+
+[Enteric involvement of coronaviruses: is faecal–oral transmission of SARS-CoV-2 possible?](https://doi.org/10.1016/S2468-1253(20)30048-0)<br/>
+by Yeo, Charleen; Kaushal, Sanghvi; Yeo, Danson<br/>
+*The Lancet Gastroenterology & Hepatology - Apr 30, 2020*<br/>
+- Although direct droplet transmission is an important route of transmission, faecal excretion, environmental contamination, and fomites might contribute to viral transmission.<br/>
+- Study of the enteric involvement and viral excretion of SARS-CoV-2 in faeces is required to investigate whether faecal concentrations of SARS-CoV-2 RNA correlate with the severity of the disease and presence or absence of gastrointestinal symptoms, and whether faecal SARS-CoV-2 RNA can also be detected in the incubation or convalescence phases of COVID-19.<br/>
+
+[The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
+by Rothan, Hussin A.; Byrareddy, Siddappa N.<br/>
+*Journal of Autoimmunity - Feb 26, 2020*<br/>
+- Physical contact with wet and contaminated objects should be considered in dealing with the virus, especially agents such as faecal and urine samples that can potentially serve as an alternative route of transmission.<br/>
+- Therefore, it is important to test faecal and urine samples to exclude a potential alternative route of transmission, specifically through health care workers, patients etc ( Fig.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Types of specimens commonly collected are those which contain the maximum amount of the target virus (Johnson, 1990) , for example, whole blood and oral swabs are collected and used for detection of Ebola virus (World Health Organization (WHO), 2014); posterior-pharyngeal (throat) swabs or nasal swabs for detection of avian influenza A(H5N1) virus (World Health Organization (WHO), 2006); respiratory, stool, and rectal swab (Chan et al., 2004a) , sputum , urine, serum, plasma and peripheral blood leukocytes specimens (Mahony and Richardson, 2005) for detection of SARS-CoV; serum , plasma, urine (Corman et al., 2016) , whole blood, amniotic fluid, cerebrospinal fluid (CSF), organ tissues such as placenta, fetal brain, eyes (Landry and George, 2017) for detection of Zika virus; saliva, CSF, tears, skin biopsy, urine for detection of rabies virus (Fooks et al., 2009) , serum for detection of Coxsackievirus (Wiyatno et al., 2016) , West Nile virus , Dengue virus (Fahri et al., 2013) , blood for detection of Chikungunya virus , etc.<br/>
+- Respiratory, stool, and rectal swab specimens were collected in viral transport medium, and urine samples were transported in sterile containers.<br/>
+
+[Overview of The 2019 Novel Coronavirus (2019-nCoV): The Pathogen of Severe Specific Contagious Pneumonia (SSCP)](https://doi.org/10.1097/JCMA.0000000000000270)<br/>
+by Wu, Yi-Chi; Chen, Ching-Sung; Chan, Yu-Jiun<br/>
+*J Chin Med Assoc - 2020*<br/>
+- Viral RNAs could be found in nasal discharge, sputum, and sometimes blood or feces.<br/>
+
+[The outbreak of COVID-19: An overview](https://doi.org/10.1097/jcma.0000000000000270)<br/>
+by Wu, Y. C.; Chen, C. S.; Chan, Y. J.<br/>
+*Journal of the Chinese Medical Association : JCMA - 2020*<br/>
+- Viral RNAs could be found in nasal discharge, sputum, and sometimes blood or feces.<br/>
+
 # Persistence of virus on surfaces of different materials (e,g., copper, stainless steel, plastic).
 
+[Persistence of coronaviruses on inanimate surfaces and their inactivation with biocidal agents](https://doi.org/10.1016/j.jhin.2020.01.022)<br/>
+by Kampf, G.; Todt, D.; Pfaender, S.; Steinmann, E.<br/>
+*Journal of Hospital Infection - Mar 31, 2020*<br/>
+- Persistence of coronaviruses on inanimate surfaces and their inactivation with biocidal agents<br/>
+- Human coronaviruses can remain infectious on inanimate surfaces at room temperature for up to 9 days.<br/>
+- Publications were included and results were extracted given they provided original data on coronaviruses on persistence (surfaces, materials) and inactivation by biocidal agents used for disinfection (suspension tests, carrier tests, fumigation studies).<br/>
+- A concentration of 70% ethanol is also recommended by the WHO for disinfecting small surfaces.<br/>
+- Human coronaviruses can remain infectious on inanimate surfaces for up to 9 days.<br/>
+
+[Environmental contamination of the SARS-CoV-2 in healthcare premises: An urgent call for protection for healthcare workers](https://doi.org/10.1101/2020.03.11.20034546)<br/>
+by Guangming Ye; Hualiang Lin; Liangjun Chen; Shichan Wang; Zhikun Zeng; Wei Wang; Shiyu Zhang; Terri Rebmann; Yirong Li; Zhenyu Pan; Zhonghua Yang; Ying Wang; Fubing Wang; Zhengmin Qian; Xinghuan Wang<br/>
+*Mar 16, 2020*<br/>
+- Objects in non-medical areas (i.e., public facilities) assessed consisted of elevator buttons, microwave ovens, faucets, handrails, and hair drier.<br/>
+- The most contaminated objects were self-service printers (20%), desktops/keyboards (16.8%), and doorknobs (16%).<br/>
+- Dacron swabs were premoistened with cell preservation solution.<br/>
+- Gloves would become contaminated by touching infected patients and/or contaminated surfaces in the hospital.<br/>
+- Contaminated areas/items included patient care areas housing COVID-19 patients, common hospital objects/items, such as self-service printers, desktops, doorknobs, and keyboards, medical equipment, and HCWs' PPE, such as gloves, eye protection, and face shields.<br/>
+
+[Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents](https://doi.org/10.1016/j.infpip.2020.100044)<br/>
+by Kampf, Günter<br/>
+*Infection Prevention in Practice - 2020*<br/>
+- Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents<br/>
+- On inanimate surface human coronaviruses can remain infectious for up to 9 d. A surface disinfection with 0.1% sodium hypochlorite, 0.5% hydrogen peroxide or 62%e71% ethanol can be regarded as effective against coronaviruses within 1 min.<br/>
+- available data on the persistence of coronaviruses on inanimate surfaces were summarized.<br/>
+- Ethanol at 70% ethanol is also recommended by the WHO for disinfecting small surfaces.<br/>
+- For the disinfection of small surfaces ethanol (62%e71%; carrier tests) revealed a similar efficacy against coronavirus.<br/>
+
 [Transmission routes of 2019-nCoV and controls in dental practice](https://doi.org/10.1038/s41368-020-0075-9)<br/>
-Authors: Peng, Xian; Xu, Xin; Li, Yuqing; Cheng, Lei; Zhou, Xuedong; Ren, Biao<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Oral Science<br/>
-Match (0.6122): **The use of rubber dams can significantly minimize the production of saliva-and blood-contaminated aerosol or spatter, particularly in cases when high-speed handpieces and dental ultrasonic devices are used. It has been reported that the use of rubber dam could significantly reduce airborne particles in~3-foot diameter of the operational field by 70% 58 . When rubber dam is applied, extra high-volume suction for aerosol and spatter should be used during the procedures along with regular suction 59 . In this case, the implementation of a complete four-hand operation is also necessary. If rubber dam isolation is not possible in some cases, manual devices, such as Carisolv and hand scaler, are recommended for caries removal and periodontal scaling, in order to minimize the generation of aerosol as much as possible.**<br/>
-<br/>
-[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](doi.org/10.1101/2020.03.08.982637)<br/>
-Authors: Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.6034): **MSAs in general have higher concentration of SARS-CoV-2 aerosol with biomodal size distributions compared to PAA in both hospitals during the first batch of sampling in the peak of COVID-19 outbreak. For Renmin Hospital sampling sites, the air circulation in MSA by design is isolated from that of the patient rooms. While for Fangcang Hospital, the nonventilated temporary PARR has limited air penetration from the patient hall where the SARS-CoV-2 aerosol concentration was generally low. We believe one direct source of the high SARS-CoV-2 aerosol concentration may be the resuspension of virus-laden aerosol from the surface of medical staff protective apparel while they are being removed. These resuspended virus-laden aerosol originally may come from the direct deposition of respiratory droplets or virus-laden aerosol onto the protective apparel while medical staff having long working hours inside PAA, as shown from the SARS-CoV-2 deposition results in ICU room. Another possible source is the resuspension of floor dust aerosol containing virus that were transferred from PAA to MSA. The two virus-laden aerosol sources also appear to correspond to the sub-and supermicron peaks found in size-segregated samples. We hypothesize the submicron aerosol may come from the resuspension of virus-laden aerosol from staff apparel due to its higher mobility while the supermicron virus-laden aerosol may come from the resuspension of dust particles from the floors or other hard surfaces. The findings suggest virus-laden aerosols could first deposit on the surface of medical staff protective apparel and the floors in patient areas and are then resuspended by the movements of medical staff. The second batch of TSP samples taken in Fangcang MSAs all tested negative with reduced number of patients from > 200 to 100 per zone and implementation of more rigorous and thorough sanitization measures in Fangcang. The comparison of the two batches of samples showed the effectiveness and importance of sanitization in reducing the airborne SARS-CoV-2 in high risk areas.**<br/>
-<br/>
-[Outbreak of Novel Coronavirus (SARS-Cov-2): First Evidences From International Scientific Literature and Pending Questions](https://doi.org/10.3390/healthcare8010051)<br/>
-Authors: Amodio, Emanuele; Vitale, Francesco; Cimino, Livia; Casuccio, Alessandra; Tramuto, Fabio<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare (Basel)<br/>
-Match (0.5895): **On inanimate surfaces, human coronaviruses can remain infectious for up to 9 days. A surface disinfection with 0.1% sodium hypochlorite, 0.5% hydrogen peroxide, or 62%-71% ethanol can be regarded as effective against coronaviruses within 1 min [15, 17] .**<br/>
-<br/>
-[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](doi.org/10.1101/2020.03.08.982637)<br/>
-Authors: Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5854): **The results from this study provide the first field report on the characteristics of airborne SARS-CoV-2 in Wuhan with important implications for the public health prevention and medical staff protection. We call for particular attentions on 1) the proper use and cleaning of toilets (e.g. ventilation and sterilization), as a potential spread source of coronavirus with relatively high risk caused by aerosolization of virus and contamination of surfaces after use; 2) for the general public, the proper use of personal protection measures, such as wearing masks and avoiding busy crowds; 3) the effective sanitization of the high risk area and the use of high level protection masks for medical staff with direct contact with the COVID-19 patients or with long stay in high risk area; 4) the renovation of large stadiums as field hospitals with nature ventilation and protective measures is an effective approach to quarantine and treat mild symptom patients so as to reduce the COVID-19 transmission among the public; 5) the virus may be resuspended from the contaminated protective apparel surface to the air while taking off and from the floor surface with the movement of medical staff. Thus, surface sanitization of the apparel before they are taken off may also help reduce the infection risk for medical staff. Note: * The reported values are virus aerosol deposition rate in copies m -2 hour -1 . # Two batches of sampling were conducted for the sites. Detailed information is shown in Table S1 . a The samples taken during the first batch of sampling from Feb 17 to Feb 24, 2020. b The samples taken during the second batch of sampling on Mar 2, 2020.**<br/>
-<br/>
-[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](doi.org/10.1101/2020.03.08.982637)<br/>
-Authors: Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5832): **This study also recorded an elevated airborne SARS-CoV-2 concentration inside the patient mobile toilet of Fangcang Hospital. This may come from either the patient's breath or the aerosolization of the virus-laden aerosol from patient's faeces or urine during use. Ong et al. has found the wipe samples from room surfaces of toilets used by SARS-CoV-2 patients tested positive. 11 Our finding has confirmed the aerosol transmission as an important pathway for surface contamination. We call for extra care and attention on the proper design, use and disinfection of the toilets in hospitals and in communities to minimize the potential source of the virus-laden aerosol.**<br/>
-<br/>
-[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](doi.org/10.1101/2020.03.08.982637)<br/>
-Authors: Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5749): **The sampling was conducted between February 17 and March 2, 2020 in the locations by two batches as shown in Table 1 . All aerosol samples were collected on presterilized gelatin filters (Sartorius, Germany). Total of 30 TSP aerosol samples were collected on 25 mm diameter filters loaded into styrene filter cassettes (SKC Inc, US) and sampled air at a fixed flow rate of 5.0 litre per minute (LPM) using a portable pump (APEX2, Casella, US). Total of 3 size segregated aerosol samples were collected using a miniature cascade impactor (Sioutas impactor, SKC Inc., US) that separate aerosol into five ranges (> 2.5 The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.08.982637 doi: bioRxiv preprint to 0.25 μ m on 37 mm filters) at a flow rate of 9.0 LPM. Total of 2 aerosol deposition samples were collected using 80 mm diameter filters packed into a holder with an effective deposition area of 43.0 cm 2 and the filters were placed on the floor in two corners of Renmin Hospital ICU room intact for 7 days. Sampling durations and operation periods are detailed in Table  S1 . Prior to the field sampling, the integrity and robustness of experiment protocol was examined in the laboratory and described in Supplementary Appendix (Table S2 ).**<br/>
-<br/>
-[Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents](https://doi.org/10.1016/j.infpip.2020.100044)<br/>
-Authors: Kampf, Günter<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Infection Prevention in Practice<br/>
-Match (0.5458): **The WHO recommends "to ensure that environmental cleaning and disinfection procedures are followed consistently and correctly. Thoroughly cleaning environmental surfaces with water and detergent and applying commonly used hospital-level disinfectants (such as sodium hypochlorite) are effective and sufficient procedures." [11] The typical use of bleach is at a dilution of 1:100 of 5% sodium hypochlorite resulting in a final concentration of 0.05% [12] . The recently published data with coronaviruses suggest that a concentration of 0.1% is effective in 1 min [7] . That is why it seems appropriate to recommend a dilution 1:50 of standard bleach in the coronavirus setting. For the disinfection of small surfaces ethanol (62%e71%; carrier tests) revealed a similar efficacy against coronavirus [7] . Ethanol at 70% ethanol is also recommended by the WHO for disinfecting small surfaces [12] .**<br/>
-<br/>
-[Identification of Coronavirus Isolated from a Patient in Korea with COVID-19](http://dx.doi.org/10.24171/j.phrp.2020.11.1.02)<br/>
-Authors: Kim, Jeong-Min; Chung, Yoon-Seok; Jo, Hye Jun; Lee, Nam-Joo; Kim, Mi Seon; Woo, Sang Hee; Park, Sehee; Kim, Jee Woong; Kim, Heui Man; Han, Myung-Guk<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Osong Public Health Res Perspect<br/>
-Match (0.5336): **After washing 3 times with deionized water, en bloc staining was performed using 0.5% uranyl acetate. Thereafter, 30%, 50%, 70%, 80%, 90%, and 100% ethanol were used sequentially in ascending concentration for dehydration, which was substituted with propylene oxide. The slides were then embedded in Epon812 plastic resin, and polymerized at 70°C for 48 hours. The prepared plastic block was cut to 70-nm thick sections using an ultramicrotome and mounted on a 100mesh nickel grid, and electrostained with 5% uranyl acetate.**<br/>
-<br/>
-[Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents](https://doi.org/10.1016/j.infpip.2020.100044)<br/>
-Authors: Kampf, Günter<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Infection Prevention in Practice<br/>
-Match (0.5316): **Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents**<br/>
-<br/>
-[Potential role of inanimate surfaces for the spread of coronaviruses and their inactivation with disinfectant agents](https://doi.org/10.1016/j.infpip.2020.100044)<br/>
-Authors: Kampf, Günter<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Infection Prevention in Practice<br/>
-Match (0.5295): **Contamination of frequent touch surfaces in healthcare settings are a potential source of viral transmission. Data on the transmissibility of coronaviruses from contaminated surfaces to hands were not found. However, it could be shown with influenza A virus that a 5 s contact is sufficient to transfer 31.6% of the viral load to the hands [9] . The transfer efficiency was lower with parainfluenza-virus 3 (1.5%) [10] . Although the viral load of coronaviruses on inanimate surfaces is not known during an outbreak situation it seems plausible to reduce the viral load on surfaces by disinfection, especially on frequent touch surfaces in the immediate patient surrounding where the highest viral load can be expected.**<br/>
-<br/>
+by Peng, Xian; Xu, Xin; Li, Yuqing; Cheng, Lei; Zhou, Xuedong; Ren, Biao<br/>
+*International Journal of Oral Science - 2020*<br/>
+- The use of rubber dams can significantly minimize the production of saliva-and blood-contaminated aerosol or spatter, particularly in cases when high-speed handpieces and dental ultrasonic devices are used.<br/>
+- Contact spread A dental professional's frequent direct or indirect contact with human fluids, patient materials, and contaminated dental instruments or environmental surfaces makes a possible route to the spread of viruses 53 .<br/>
+- The pathogenic microorganisms can be transmitted in dental settings through inhalation of airborne microorganisms that can remain suspended in the air for long periods 51 , direct contact with blood, oral fluids, or other patient materials 52 , contact of conjunctival, nasal, or oral mucosa with droplets and aerosols containing microorganisms generated from an infected individual and propelled a short distance by coughing and talking without a mask 53, 54 , and indirect contact with contaminated instruments and/or environmental surfaces 50 .<br/>
+
+[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](https://doi.org/10.1101/2020.03.08.982637)<br/>
+by Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
+*Mar 10, 2020*<br/>
+- We hypothesize the submicron aerosol may come from the resuspension of virus-laden aerosol from staff apparel due to its higher mobility while the supermicron virus-laden aerosol may come from the resuspension of dust particles from the floors or other hard surfaces.<br/>
+- Total of 2 aerosol deposition samples were collected using 80 mm diameter filters packed into a holder with an effective deposition area of 43.0 cm 2 and the filters were placed on the floor in two corners of Renmin Hospital ICU room intact for 7 days.<br/>
+- These resuspended virus-laden aerosol originally may come from the direct deposition of respiratory droplets or virus-laden aerosol onto the protective apparel while medical staff having long working hours inside PAA, as shown from the SARS-CoV-2 deposition results in ICU room.<br/>
+
+[Identification of Coronavirus Isolated from a Patient in Korea with COVID-19](https://doi.org/10.24171/j.phrp.2020.11.1.02)<br/>
+by Kim, Jeong-Min; Chung, Yoon-Seok; Jo, Hye Jun; Lee, Nam-Joo; Kim, Mi Seon; Woo, Sang Hee; Park, Sehee; Kim, Jee Woong; Kim, Heui Man; Han, Myung-Guk<br/>
+*Osong Public Health Res Perspect - Feb 21, 2020*<br/>
+- The slides were then embedded in Epon812 plastic resin, and polymerized at 70°C for 48 hours.<br/>
+- The prepared plastic block was cut to 70-nm thick sections using an ultramicrotome and mounted on a 100mesh nickel grid, and electrostained with 5% uranyl acetate.<br/>
+
+[Infrared assessment of human facial temperature in the presence and absence of common cosmetics](https://doi.org/10.1101/2020.03.12.20034793)<br/>
+by Kaikai Zheng; Ruoyu Dong; Huan Wang; Steve Granick<br/>
+*Mar 13, 2020*<br/>
+- Cosmetic #6, a foundation common in facial makeup, showed negligible effect after 5 min, despite the fact that the likely major components of residue are talc, mica, silica, dimethicone, zinc stearate, and titanium oxide.<br/>
+- Toners and lotions were applied using common cosmetic cotton pads.<br/>
+
+[What goes on board aircraft? Passengers include Aedes, Anopheles, 2019-nCoV, dengue, Salmonella, Zika, et al](https://doi.org/10.1016/j.tmaid.2020.101572)<br/>
+by Wilson, Mary E.<br/>
+*Travel Medicine and Infectious Disease - Feb 29, 2020*<br/>
+- Although tray tables, arm rests, seat buckles and other surfaces may be contaminated with bacteria and viruses, breathing and coughing people are the source of most infections transmitted on board.<br/>
+- As aircraft grow in size and durations of flights lengthen (can exceed 15 hours), exposures and transmission events inside these metal or composite-materials tubes in the sky will increase.<br/>
+
+[Are we ready for the new coronavirus?](https://doi.org/10.1016/j.arbr.2020.02.003)<br/>
+by Peña-Otero, David; Díaz-Pérez, David; de la Rosa-Carrillo, David; Bello-Dronda, Salvador<br/>
+*Archivos de Bronconeumología (English Edition) - Mar 14, 2020*<br/>
+- Transmission through infected surfaces is likely; human coronaviruses persist on metals, glass, or plastics for more than 9 days.<br/>
+
+[Going global – Travel and the 2019 novel coronavirus](https://doi.org/10.1016/j.tmaid.2020.101578)<br/>
+by Rodríguez-Morales, Alfonso J.; MacGregor, Kirsten; Kanagarajah, Sanch; Patel, Dipti; Schlagenhauf, Patricia<br/>
+*Travel Medicine and Infectious Disease - Feb 29, 2020*<br/>
+-  Clean and disinfect frequently touched objects and surfaces in the home and work environment.<br/>
+
 # Natural history of the virus and shedding of it from an infected person
 
-[Exuberant elevation of IP-10, MCP-3 and IL-1ra during SARS-CoV-2 infection is associated with disease severity and fatal outcome](doi.org/10.1101/2020.03.02.20029975)<br/>
-Authors: Yang Yang; Chenguang Shen; Jinxiu Li; Jing Yuan; Minghui Yang; Fuxiang Wang; Guobao Li; Yanjie Li; Li Xing; Ling Peng; Jinli Wei; Mengli Cao; Haixia Zheng; Weibo Wu; Rongrong Zou; Delin Li; Zhixiang Xu; Haiyan Wang; Mingxia Zhang; Zheng Zhang; Lei Liu; Yingxia Liu<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5048): **durations of viral shedding in H7N9 infected patients 35 , which is of concern. The 1 3 9**<br/>
-<br/>
-[A mathematical model for estimating the age-specific transmissibility of a novel coronavirus](doi.org/10.1101/2020.03.05.20031849)<br/>
-Authors: Zeyu Zhao; Yuan-Zhao Zhu; Jing-Wen Xu; Qing-Qing Hu; Zhao Lei; Jia Rui; Xingchun Liu; Yao Wang; Li Luo; Shan-Shan Yu; Jia Li; Ruo-Yun Liu; Fang Xie; Ying-Ying Su; Yi-Chen Chiang; Yanhua Su; Benhua Zhao; Tianmu Chen<br/>
-Published: 2020-03-08 00:00:00<br/>
-Match (0.4843): **f) The incubation period of exposed person is 1/. The exposed person will become asymptomatic 119 people after a latent period of 1/'. We describe p (0 ≤ p ≤ 1) as the proportion of asymptomatic 120 infection. Exposed individuals will become asymptomatic person A with a daily rate of pE, and become 121 symptomatic person with a daily rate of (1-p)E; 122 g) The transmissibility of A is  times (0 ≤  ≤ 1) of that of I. 123**<br/>
-<br/>
-[Relations of parameters for describing the epidemic of COVID―19 by the Kermack―McKendrick model](doi.org/10.1101/2020.02.26.20027797)<br/>
-Authors: Toshihisa Tomie<br/>
-Published: 2020-03-03 00:00:00<br/>
-Match (0.4629): **The basic reproduction number, R 0 , which is the number of persons infected by the transmission of a pathogen from one infected person during the infectious time, is given by**<br/>
-<br/>
-[2019-novel Coronavirus (2019-nCoV): estimating the case fatality rate - a word of caution](https://doi.org/10.4414/smw.2020.20203)<br/>
-Authors: Battegay, Manuel; Kuehl, Richard; Tschudin-Sutter, Sarah; Hirsch, Hans H.; Widmer, Andreas F.; Neher, Richard A.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Swiss Med Wkly<br/>
-Match (0.4579): **How is the virus transmitted, how long is the incubation period, what is the role of asymptomatic infected, what is the definite reproductive number R0, how long is viral shedding persisting after fading of symptoms, who is at risk for a severe course, and ultimately, how high is the case fatality rate?**<br/>
-<br/>
-[Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan, China](https://doi.org/10.1038/s41421-020-0148-0)<br/>
-Authors: Wang, Huwen; Wang, Zezhou; Dong, Yinqiao; Chang, Ruijie; Xu, Chen; Yu, Xiaoyue; Zhang, Shuxian; Tsamlag, Lhakpa; Shang, Meili; Huang, Jinyan; Wang, Ying; Xu, Gang; Shen, Tian; Zhang, Xinxin; Cai, Yong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Cell Discovery<br/>
-Match (0.4426): **We assumed no new transmissions from animals, no differences in individual immunity, the time-scale of the epidemic is much faster than characteristic times for demographic processes (natural birth and death), and no differences in natural births and deaths. In this model, individuals are classified into four types: susceptible (S; at risk of contracting the disease), exposed (E; infected but not yet infectious), infectious (I; capable of transmitting the disease), and removed (R; those who recover or die from the disease). The total population size (N) is given by N = S + E + I + R. It is assumed that susceptible individuals who have been infected first enter a latent (exposed) stage, during which they may have a low level of infectivity. The differential equations of the SEIR model are given as: 32, 33 dS=dt ¼ Àβ S I=N;**<br/>
-<br/>
-[Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan, China](https://doi.org/10.1038/s41421-020-0148-0)<br/>
-Authors: Wang, Huwen; Wang, Zezhou; Dong, Yinqiao; Chang, Ruijie; Xu, Chen; Yu, Xiaoyue; Zhang, Shuxian; Tsamlag, Lhakpa; Shang, Meili; Huang, Jinyan; Wang, Ying; Xu, Gang; Shen, Tian; Zhang, Xinxin; Cai, Yong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Cell Discovery<br/>
-Match (0.4426): **We assumed no new transmissions from animals, no differences in individual immunity, the time-scale of the epidemic is much faster than characteristic times for demographic processes (natural birth and death), and no differences in natural births and deaths. In this model, individuals are classified into four types: susceptible (S; at risk of contracting the disease), exposed (E; infected but not yet infectious), infectious (I; capable of transmitting the disease), and removed (R; those who recover or die from the disease). The total population size (N) is given by N = S + E + I + R. It is assumed that susceptible individuals who have been infected first enter a latent (exposed) stage, during which they may have a low level of infectivity. The differential equations of the SEIR model are given as: 32, 33 dS=dt ¼ Àβ S I=N;**<br/>
-<br/>
-[Phase adjusted estimation of the number of 2019 novel coronavirus cases in Wuhan, China](doi.org/10.1101/2020.02.18.20024281)<br/>
-Authors: Huwen Wang; Zezhou Wang; Yinqiao Dong; Ruijie Chang; Chen Xu; Xiaoyue Yu; Shuxian Zhang; Lhakpa Tsamlag; Meili Shang; Jinyan Huang; Ying Wang; Gang Xu; Tian Shen; Xinxin Zhang; Yong Cai<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.4326): **We assumed no new transmissions from animals, no differences in individual immunity, the time-scale of the epidemic is much faster than characteristic times for demographic processes (natural birth and death), and no differences in natural births and deaths. In this model, individuals are classified into four types: susceptible (S; at risk of contracting the disease), exposed (E; infected but not yet infectious), infectious (I; capable of transmitting the disease), and removed (R; those who recover or die from the disease). The total population size (N) is given by N = S+E+I+R. It is assumed that susceptible individuals who have been infected first enter a latent (exposed) stage, during which they may have a low level of infectivity. The differential equations of the SEIR model are given as: 32, 33 All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Strategies for vaccine design for corona virus using Immunoinformatics techniques](doi.org/10.1101/2020.02.27.967422)<br/>
-Authors: Basu, A.; Sarkar, A.; Maulik, U.<br/>
-Published: 2020-03-02 00:00:00<br/>
-Match (0.4225): **Coronaviruses are zoonotic, meaning they are transmitted between animals and people. Detailed investigations found that SARS-CoV has been transmitted from civet cats to humans and MERS-CoV from camels to humans. Several known coronaviruses are circulating in animals that have not yet infected humans. Early on, many of the patients in the outbreak in Wuhan, China reportedly have some link to a large seafood and animal market, suggesting animal-toperson spread. However, a growing number of patients reportedly have not had exposure to animal markets, indicating person-to-person spread is occurring. The 2019-nCoV is spreading from person to person in China and limited spread among close contacts has been detected in some countries outside China. Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death. There is currently no vaccine to protect against 2019-nCoV.**<br/>
-<br/>
-[Emergence of Novel Coronavirus 2019-nCoV: Need for Rapid Vaccine and Biologics Development](https://doi.org/10.3390/pathogens9020148)<br/>
-Authors: Shanmugaraj, Balamurugan; Malla, Ashwini; Phoolcharoen, Waranyoo<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Pathogens<br/>
-Match (0.4207): **The transmission of 2019-nCoV is often spread from person to person through the respiratory droplets generated during coughs or sneezes from an infected person. Human-to-human transmission is reported in countries such as Germany, Japan, Vietnam, and the United States [12] . The confirmed cases through inter-human transmission have increased the fear and panic accompanying the 2019-nCoV outbreak. It is still unknown whether the virus spreads only through human contact or if there is possible transmission through oral-fecal contact as well.**<br/>
-<br/>
-[Prediction of the Epidemic of COVID-19 Based on Quarantined Surveillance in China](doi.org/10.1101/2020.02.27.20027169)<br/>
-Authors: Rui Li; Wenliang Lu; Xifei Yang; Peihua Feng; Ozarina Muqimova; Xiaoping Chen; Gang Wei<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.4123): **The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.02.27.20027169 doi: medRxiv preprint q Quarantined rate of the exposed individuals 5×10 -7 υ 1 Rate of removing the quarantined( observed medically) who are not 1/14(0.07) infected but intimate contact with the exposed or the infected υ 2 Convertion speed rate of the exposed persons to the infected persons 1/7(0.14) author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
+[A mathematical model for simulating the phase-based transmissibility of a novel coronavirus](https://doi.org/10.1186/s40249-020-00640-3)<br/>
+by Yin, Tian-Mu Chen; Jia, Rui; Qiu-Peng, Wang; Ze-Yu, Zhao; Jing-An, Cui; Ling<br/>
+*Infectious Diseases of Poverty - 2020*<br/>
+- We simulated the natural history of the infection that the proportion of asymptomatic infection was 50%, and the transmissibility of asymptomatic infection was half of that of symptomatic infection, which were different to those of MERS and SARS.<br/>
+- We assumed that the virus transmitted among the bats, and then transmitted to unknown hosts (probably some wild animals).<br/>
+- This means that the transmission route was mainly from person to person rather than from reservoir to person in the early stage of the transmission in Wuhan City.<br/>
+- The value of R 0 was estimated of 2.30 from reservoir to person, and from person to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58.<br/>
+
+[The epidemic of 2019-novel-coronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future](https://doi.org/10.1016/j.micinf.2020.02.002)<br/>
+by Li, Jin-Yan; You, Zhi; Wang, Qiong; Zhou, Zhi-Jian; Qiu, Ye; Luo, Rui; Ge, Xing-Yi<br/>
+*Microbes and Infection - Mar 31, 2020*<br/>
+- 2019-nCoV is thought to be transmitted through droplets, close contact, aerosol and maybe fecal-oral transmission, and patients in the incubation period can transmit the virus to other persons.<br/>
+- Therefore, besides respiratory and bodily contact, fecal-oral transmission is a potential route for 2019-nCoV infection.<br/>
+- Indeed, SARS-CoV and MERS-CoV originated from bats, the natural reservoir, but transmitted to humans via intermediate host civets and camels, respectively.<br/>
+
+[A mathematical model for estimating the age-specific transmissibility of a novel coronavirus](https://doi.org/10.1101/2020.03.05.20031849)<br/>
+by Zeyu Zhao; Yuan-Zhao Zhu; Jing-Wen Xu; Qing-Qing Hu; Zhao Lei; Jia Rui; Xingchun Liu; Yao Wang; Li Luo; Shan-Shan Yu; Jia Li; Ruo-Yun Liu; Fang Xie; Ying-Ying Su; Yi-Chen Chiang; Yanhua Su; Benhua Zhao; Tianmu Chen<br/>
+*Mar 08, 2020*<br/>
+- The exposed person will become asymptomatic 119 people after a latent period of 1/'.<br/>
+- As reported by Pan et al, 2 of 3 255 cases was asymptomatic infected, with the proportion of asymptomatic of 0.67.There was a research 256 showed that the asymptomatic infection would shed SARS-CoV-2 for 5 days.<br/>
+- f) The incubation period of exposed person is 1/.<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Currently, person to person transmission from patients with pneumonia or even asymptomatic patients during the incubation period are the main conduits for the spread of the infection.<br/>
+- Respiratory droplets are the main route of transmission, but the virus can also be transmitted through contact or through the fecal-oral route based on a study which demonstrated the presence of the virus in rectal swabs.<br/>
+
+[The SARS-CoV-2 outbreak from a one health perspective](https://doi.org/10.1016/j.onehlt.2020.100127)<br/>
+by Hemida, Maged Gomaa; Ba Abduallah, Mohammed M.<br/>
+*One Health - Mar 16, 2020*<br/>
+- In the light of the One Health concept, control of this emerging virus requires the reduction of the viral shedding to the environment from the main reservoirs, for animal-person transmission and from humans for person-person transmission.<br/>
+- Therefore, it reduces the possibility of virus shedding from the infected patients to its close contacts.<br/>
+
+[The SARS-CoV-2 outbreak: what we know](https://doi.org/10.1016/j.ijid.2020.03.004)<br/>
+by Wu, Di; Wu, Tiantian; Liu, Qun; Yang, Zhicong<br/>
+*International Journal of Infectious Diseases - Mar 12, 2020*<br/>
+- Recently, new coronavirus was detected in the feces of confirmed patients in Wuhan, Shenzhen and even the first case in the United States, indicating that the virus can replicate in the digestive tract and exist, suggesting the possibility of fecal-oral transmission, but it is not certain that eating virus-contaminated food causes infection and transmission.<br/>
+- Health officials have identified evidence of transmission along a chain of 4 "generations" (a person who originally contracted the virus from a nonhuman source infected someone else, who infected another individual, who then infected another individual), suggesting sustained human-to-human transmission.<br/>
+
+[Assessing the Tendency of 2019-nCoV (COVID-19) Outbreak in China](https://doi.org/10.1101/2020.02.09.20021444)<br/>
+by Qinghe Liu; Zhicheng Liu; Deqiang Li; Zefei Gao; Junkai Zhu; Junyan Yang; Qiao Wang<br/>
+*Feb 11, 2020*<br/>
+- (2) During the transmission of virus, the probability of infection in contact with each person is equal.<br/>
+- It refers to the average value of how many people an infected person can transmit the virus to through natural transmission without external intervention.<br/>
+
+[Can we contain the COVID-19 outbreak with the same measures as for SARS?](https://doi.org/10.1016/S1473-3099(20)30129-8)<br/>
+by Wilder-Smith, Annelies; Chiew, Calvin J; Lee, Vernon J<br/>
+*The Lancet Infectious Diseases - Mar 05, 2020*<br/>
+- The main transmission route is thought to be respiratory droplets, although viral shedding via faeces has also been reported for both viruses.<br/>
+- Whether these rigorous measures will indeed result in the same success as for SARS depends on the extent of transmissibility of Personal View subclinical cases (asymptomatic or mildly symptomatic), including the timing of peak viral shedding during the course of disease, as well as on the role of fomites and other environmental contamination in propagating transmission.<br/>
+
+[The novel coronavirus outbreak in Wuhan, China](https://doi.org/10.1186/s41256-020-00135-6)<br/>
+by Zhu, Hengbo; Wei, Li; Niu, Ping<br/>
+*Global Health Research and Policy - 2020*<br/>
+- It is the first time for the COVID-19 to infect humans and can be transmitted from person to person.<br/>
+
+[COVID-19: Yet Another Coronavirus Challenge in Transplantation](https://doi.org/10.1016/j.healun.2020.03.007)<br/>
+by Aslam, Saima; Mehra, Mandeep R<br/>
+*The Journal of Heart and Lung Transplantation - Mar 14, 2020*<br/>
+- Importantly, viral shedding can occur for days for weeks furtively in asymptomatic carrier individuals especially children (3, 9, 10) and fecal shedding has been noted in patients without diarrhea.<br/>
+
 # Implementation of diagnostics and products to improve clinical processes
 
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.6083): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org /10.1101 /10. /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection. Not only purified RNA can be used as the sample input, but also direct tissue or cell lysate may be used without an RNA purification step. This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications. This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches. The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.5912): **The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.05.20031971 doi: medRxiv preprint 14 more scalable than animal antibody production. Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics. Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens. 331**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5495): **For its current application, the standardization of protocols as elaborated in this manuscript need to be pursued to ensure that there is seamless sharing of information and data. By doing this, it is expected that issues like burdens of collecting data, accuracy and other complexity that are experienced (when systems are fragmented) are reduced or eliminated altogether. The standardization can be achieved by, for example, ensuring that all the devices and systems are linked into a single network, like was done in the U.S., where all the surveillance of healthcare were combined into the National Healthcare Safety Network (NHSH) [35] . The fact that cities are increasingly tuning on the concept of Smart Cities and boasting an increased adoption rate of technological and connected products, existing surveillance networks can be re-calibrated to make use of those new sets of databases. Appropriate protocols however have to be drafted to ensure effective actions while ensuring privacy and security of data and people.**<br/>
-<br/>
-[Laboratory readiness and response for novel coronavirus (2019-nCoV) in expert laboratories in 30 EU/EEA countries, January 2020](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.6.2000082)<br/>
-Authors: Reusken, Chantal B.E.M.; Broberg, Eeva K.; Haagmans, Bart; Meijer, Adam; Corman, Victor M.; Papa, Anna; Charrel, Remi; Drosten, Christian; Koopmans, Marion; Leitmeyer, Katrin<br/>
-Published: 2020-02-13 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.5474): **Challenges reported by laboratories in terms of implementing molecular diagnostics for novel coronavirus (2019-nCoV), EU/EEA, January 2020 (n = 47) **<br/>
-<br/>
-[Nanopore target sequencing for accurate and comprehensive detection of SARS-CoV-2 and other respiratory viruses](doi.org/10.1101/2020.03.04.20029538)<br/>
-Authors: Ming Wang; Aisi Fu; Ben Hu; Yongqing Tong; Ran Liu; Jiashuang Gu; Jianghao Liu; Wen Jiang; Gaigai Shen; Wanxu Zhao; Dong Men; Lilei Yu; Zixin Deng; Yan Li; Tiangang Liu<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5428): **can detect variations directly from clinical samples. Whereas the detection throughput of NTS is not 274 high at present, the NTS method can be integrated into widely used automated or semi-automated 275 platforms to improve the detection throughput in the future 21-23 . In addition, because PCR is 276 included in NTS, processes involving opening the lid of the PCR tubes may cause mutual 277 contamination between samples 24, 25 . However, this situation also is inevitable in current nucleic 278 acid detection methods (e.g., qPCR) or other nucleic acid detection schemes (e.g., SHERLOCK 11, 12 279 or toehold switch biosensor 9, 10 ) that also involve PCR. The introduction of integration systems or 280 sealed devices such as microfluidics may avoid this situation 26, 27 . At present, our processes of 281 sequencing data analysis and interpretation of results are not mature; nevertheless, as the number of 282 test samples increases, additional test results will be collected and the process continuously 283 optimized to obtain more accurate results. 284**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5390): **Furthermore, in cases of emergencies like the current outbreak of COVID-19 and any other, the need for observance of regulatory practices and international healthcare guidelines are paramount. This would ensure that both healthcare professionals and the general populace are informed, protected and remain within the prescribed rules and regulations. As noted by the WHO [40] , the healthcare guidelines and regulatory practices are advanced to also ensure that the health risk in question is reduced together with its consequences. In the current era of technological advancement, such regulations and guidelines are paramount as they have potential to lead to positive or negative outcomes. The position of this paper is to advance that it now possible to integrate technologies like the use of smart devices through IoT networks and wearable devices, data from mobile apps and others to help users to share information with accredited and certified health professionals, and in this case, improve the outcomes for better cross disciplinary and more resilient protocols and policies.**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.5368): **To increase sensitivity, current nucleic acid detection methods generally involve a 38 target amplification step prior to the detection step. The conventional amplification method is 39 based on PCR, which requires a thermocycler for delicate temperature modulation. As an 40 alternative to the thermal cycling-based amplification, isothermal amplification methods are 41 available, which rely primarily on a strand-displacing polymerase or T7 RNA polymerase at a 42 constant temperature 7 . However, the complex composition of the isothermal amplification 43 mixtures often renders these approaches incompatible with detection methods and whole 44 diagnosis generally becomes a multi-step process [8] [9] [10] [11] . The diagnostic regimen with multi-step 45 procedures requires additional time, instruments, and reagents, as well as skilled personnel to 46 perform the diagnostic procedure. This aspect limits the broad applicability of nucleic acid 47 diagnostics, especially in situations where rapid and simple detection is required. 48 3 efficiently ligate two DNA probes using a target single-stranded RNA as a splint, enabling 54 the sequence-specific detection of RNA molecule 17, 18 . Because the reaction components of 55 the ligation-dependent methods are relatively simple, we hypothesized that the ligation-56 dependent method could be exploited to establish a one-step RNA detection platform when 57 combined with compatible amplification and signal generation methods in a single reaction 58 mixture. 59**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.5293): **In contrast, SENSR satisfies many desirable requirements for onsite diagnostic tests 283 for pathogens, such as short turnaround time (30 min), low limit of detection (0.1 aM), 284 inexpensive instrumentation and reagents, and a simple diagnostic procedure. SENSR 285 integrates all component reaction steps using the specially designed probes that contain all 286 required functional parts: promoter, hybridization sequence to target, and an aptamer 287 template. Even with the multifaceted features of the SENSR probes, the design process is 288 systematic and straightforward. Therefore, new SENSR assay can be promptly developed for 289 emerging pathogens as exemplified by the successful design of SENSR assay for SARS-290**<br/>
-<br/>
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, V. M.; Landt, O.; Kaiser, M.; Molenkamp, R.; Meijer, A.; Chu, D. K.; Bleicker, T.; Brünink, S.; Schneider, J.; Schmidt, M. L.; Mulders, D. G.; Haagmans, B. L.; van der Veer, B.; van den Brink, S.; Wijsman, L.; Goderski, G.; Romette, J. L.; Ellis, J.; Zambon, M.; Peiris, M.; Goossens, H.; Reusken, C.; Koopmans, M. P.; Drosten, C.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin<br/>
-Match (0.5291): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, Victor M; Landt, Olfert; Kaiser, Marco; Molenkamp, Richard; Meijer, Adam; Chu, Daniel KW; Bleicker, Tobias; Brünink, Sebastian; Schneider, Julia; Schmidt, Marie Luisa; Mulders, Daphne GJC; Haagmans, Bart L; van der Veer, Bas; van den Brink, Sharon; Wijsman, Lisa; Goderski, Gabriel; Romette, Jean-Louis; Ellis, Joanna; Zambon, Maria; Peiris, Malik; Goossens, Herman; Reusken, Chantal; Koopmans, Marion PG; Drosten, Christian<br/>
-Published: 2020-01-23 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.5291): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
+[New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
+by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
+*International Journal of Pharmaceutics - Apr 15, 2020*<br/>
+- In this context, considerable efforts have been made from Regulatory Authorities and professional associations to improve the quality in the pharmaceutical processes to minimize the risk for the patients and improve the effectiveness of the manufacturing processes (ISPE, 2014; PDA, 2014; EMA, 2019c; Various Associations, 2019b) .<br/>
+- The application of a modern pharmaceutical quality system promotes a systematic and continuous evaluation, understanding and refining of the formulation and the manufacturing process by the identification of the critical material attributes and process parameters and by the determination of the existing functional relationship between such factors and the responses (i.e.<br/>
+- To mitigate the risk of quality-failures, the EMA promoted the application of the quality-by-design and quality risk assessment principles to the manufacturing of medicinal products (EMA, 2015a (EMA, ,b, 2017 .<br/>
+- Economic incentives to MAHs producing medicinal products can be provided as cut-off of the regulatory costs/times to implement the quality in their manufacturing process and to improve their resilience to production blockage.<br/>
+- However, for low-and medium-impact products, the development of protocols to rationalize the clinical medicine substitution or to activate importation procedures may be more effective.<br/>
+- For these considerations, the adoption of the preventing tools proposed by the stakeholders' associations (PDA, 2014; ISPE, 2014) could be carried out gradually by the MAHs based on both the shortage impact of a product on the treated patients and the economic sustainability for the MAHs production.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- To accelerate the sequencing process and improve sensitivity, automated sequencing was then developed.<br/>
+- The ultimate goal of genomic characterization of pathogenic viruses is to provide information about the viruses for the development of better diagnostic tests, improved vaccine design and more effective antiviral drugs.<br/>
+- Further molecular characterization to better understand these viruses is required for the development of diagnostic tests and countermeasures.<br/>
+- This review aims at providing researchers and laboratory personnel with an overview of the molecular biology of pathogenic viruses and the principles of molecular techniques and good laboratory practices commonly implemented for their detection and characterization.<br/>
+- Advances in molecular biology techniques should be contingent with the development of more effective diagnostic tests for emerging viruses.<br/>
+
+[What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
+by Singer, Donald R.J.; Redekop, Ken<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- Developments in diagnostics are likely to include more advanced imaging, increasing availability of point of care testing (biochemical and genomic), and the further extension of genomics into clinical practice, potentially before and around the time of birth.<br/>
+- Trade and tariff barriers arising from evolving isolationist policies of the USA are also likely to restrict progress on implementation and the health impact of achieving the UN's Sustainable Development Goals, not least through increased international costs of diagnostics, devices and medicines.<br/>
+- Expected further and new therapeutic approaches -many with ethical challenges -include biosimilars, more precision medicines with companion diagnostics, regenerative medicine, gene editing, more advanced microsurgery and robotics, therapeutic radiology and new devices for managing diabetes mellitus, pain control, heart disease and many other conditions.<br/>
+
+[Accurate Identification of SARS-CoV-2 from Viral Genome Sequences using Deep Learning](https://doi.org/10.1101/2020.03.13.990242)<br/>
+by Alejandro Lopez-Rincon; Alberto Tonda; Lucero Mendoza-Maldonado; Eric Claassen; Johan Garssen; Aletta D. Kraneveld<br/>
+*Mar 14, 2020*<br/>
+- Developing innovative diagnostic tools that target the genome to improve the identification of pathogens, can help reduce health costs and time to identify the infection, instead of using unsuitable treatments or testing.<br/>
+- Nevertheless, it is necessary to develop innovative improved diagnostic tools that target the genome to improve the identification of pathogenic variants, as sometimes several tests, 40 are needed to have an accurate diagnosis.<br/>
+- Thus, it is fundamental to improve existing diagnostic tools to contain the spread.<br/>
+
+[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
+by Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
+*Journal of Clinical Medicine - 2020*<br/>
+- Rapid diagnostics, vaccines and therapeutics are key pharmaceutical interventions to limit transmission of respiratory infectious diseases.<br/>
+- The systematic review describes and assesses the potential rapid diagnostics, vaccines and therapeutics for 2019-nCoV, based in part on the developments for MERS-CoV and SARS-CoV.<br/>
+
+[Laboratory readiness and response for novel coronavirus (2019-nCoV) in expert laboratories in 30 EU/EEA countries, January 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.6.2000082)<br/>
+by Reusken, Chantal B.E.M.; Broberg, Eeva K.; Haagmans, Bart; Meijer, Adam; Corman, Victor M.; Papa, Anna; Charrel, Remi; Drosten, Christian; Koopmans, Marion; Leitmeyer, Katrin<br/>
+*Eurosurveillance - 2020*<br/>
+- This rapid assessment of the readiness of EU/EEA laboratories for molecular detection of 2019-nCoV demonstrated a fast implementation of molecular diagnostics by the European specialised laboratory networks with a good geographical coverage for testing.<br/>
+- Challenges reported by laboratories in terms of implementing molecular diagnostics for novel coronavirus (2019-nCoV), EU/EEA, January 2020 (n = 47)<br/>
+
+[Sensitive one-step isothermal detection of pathogen-derived RNAs](https://doi.org/10.1101/2020.03.05.20031971)<br/>
+by Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
+*Mar 09, 2020*<br/>
+- Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens.<br/>
+- Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics.<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications.<br/>
+- The breadth of application highlights the applicability of visual detection methods to provide an advantage in simplicity and portability for enabling new, rapid diagnostics.<br/>
+
+[Middle East respiratory syndrome](https://doi.org/10.1016/S0140-6736(19)33221-0)<br/>
+by Memish, Ziad A; Perlman, Stanley; Van Kerkhove, Maria D; Zumla, Alimuddin<br/>
+*The Lancet - Mar 04, 2020*<br/>
+- 77 An updated roadmap for MERS-CoV product development lists all available diagnostics and other diagnostics in the developmental phase.<br/>
+
+[World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19)](https://doi.org/10.1016/j.ijsu.2020.02.034)<br/>
+by Sohrabi, Catrin; Alsafi, Zaid; O'Neill, Niamh; Khan, Mehdi; Kerwan, Ahmed; Al-Jabir, Ahmed; Iosifidis, Christos; Agha, Riaz<br/>
+*International Journal of Surgery - Apr 30, 2020*<br/>
+- Regarding diagnostic testing, US-based companies such as Co-Diagnostics and the Novacyt's molecular diagnostics division Primerdesign have launched COVID-2019 testing kits for use in the research setting.<br/>
+
 # Disease models, including animal models for infection, disease and transmission
 
-[Estimated effectiveness of traveller screening to prevent international spread of 2019 novel coronavirus (2019-nCoV)](doi.org/10.1101/2020.01.28.20019224)<br/>
-Authors: Katelyn Gostic; Ana C. R. Gomez; Riley O. Mummah; Adam J. Kucharski; James O. Lloyd-Smith<br/>
-Published: 2020-01-30 00:00:00<br/>
-Match (0.5497): **Model 89 90**<br/>
-<br/>
-[Return of the Coronavirus: 2019-nCoV](https://doi.org/10.3390/v12020135)<br/>
-Authors: Gralinski, E. Lisa; Menachery, D. Vineet<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Viruses<br/>
-Match (0.5072): **Notably, generating small animal models of coronavirus disease can be difficult. While SARS-CoV readily infected laboratory mice, it does not cause significant disease unless the virus is passaged to adapt to the mouse host [38] . Infection of primates produces a more mild disease than that observed in humans, although fever and pulmonary inflammation were noted [39, 40] . MERS-CoV is incapable of infecting rodent cells without engineering changes in critical residues of the receptor protein, DPP4 [41, 42] . However, MERS-CoV does infect non-human primates [43] . As such, MERS mouse models of disease required a great deal of time to develop and are limited in the types of manipulations that can be performed [41] . At this point, the infectious capability of the 2019-nCoV for different species and different cell types is unknown. Early reports suggest that the virus can utilize human, bat, swine, and civet ACE2 [30] ; notably, the group found mouse Ace2 was not permissive for 2019-nCoV infection Dissemination of virus stocks and/or de novo generation of the virus through reverse genetics systems will enable this research allowing for animal testing and subsequent completion of Koch's postulates for the new virus.**<br/>
-<br/>
-[Transmission Dynamics of 2019-nCoV in Malaysia](doi.org/10.1101/2020.02.07.20021188)<br/>
-Authors: Jane Labadin; Boon Hao Hong<br/>
-Published: 2020-02-11 00:00:00<br/>
-Match (0.4897): **The transmission model was formulated based on the epidemiology aspects of the disease:**<br/>
-<br/>
-[Phase adjusted estimation of the number of 2019 novel coronavirus cases in Wuhan, China](doi.org/10.1101/2020.02.18.20024281)<br/>
-Authors: Huwen Wang; Zezhou Wang; Yinqiao Dong; Ruijie Chang; Chen Xu; Xiaoyue Yu; Shuxian Zhang; Lhakpa Tsamlag; Meili Shang; Jinyan Huang; Ying Wang; Gang Xu; Tian Shen; Xinxin Zhang; Yong Cai<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.4686): **We employed an infectious disease dynamics model (Susceptible, Exposed, Infectious and Removed model; SEIR model) for the purpose of modeling and predicting the number of COVID-19 cases in Wuhan, China. The model is a classic epidemic method to analyze the infectious disease which has a definite latent period, and has proved to be predictive for a variety of acute infectious diseases in the past such as Ebola and SARS. 22, [26] [27] [28] [29] [30] [31] Application of the mathematical model is of great guiding significance to assess the impact of isolation of symptomatic cases as well as observation of asymptomatic contact cases and to promote evidence-based decisions and policy.**<br/>
-<br/>
-[Beware of asymptomatic transmission: Study on 2019-nCoV prevention and control measures based on extended SEIR model](doi.org/10.1101/2020.01.28.923169)<br/>
-Authors: Shao, P.; Shan, Y.<br/>
-Published: 2020-01-28 00:00:00<br/>
-Match (0.4554): **According to the types of individual states included in the model, classic warehouse models such as SI model [2] , SIS model [3] , SIR model [4] , and SEIR model [5] . The SI model is a basic model, and other warehouse models are derived models built according . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.01.28.923169 doi: bioRxiv preprint to research needs. The SEIR model considers Exposed, that is, vulnerable individuals are infected, but they cannot infect other vulnerable individuals within a certain incubation period.**<br/>
-<br/>
+[2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
+by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
+*Journal of Infection in Developing Countries - 2020*<br/>
+- Establishing an animal model of infection and disease pathogenesis is imperative for understanding several essential elements of viral disease in the infected host, including host tropism, immune responses, and modes of transmission, as well as for the progression of therapeutic development.<br/>
+- It is also of importance for the model to be able to recapitulate human disease and viral transmission modes.<br/>
+- For a potential animal model to be susceptible to infection, the virus must be able to 1.)<br/>
+- After the identification of MERS-CoV, it was quickly determined that typical research animal models were not susceptible to the virus including mice, Syrian hamsters, and ferrets.<br/>
+- Determining the animal reservoir and incidental hosts of a virus with evidence of zoonosis such as 2019-nCoV is important for controlling spillover events and limiting human infections.<br/>
+
+[Beware of asymptomatic transmission: Study on 2019-nCoV prevention and control measures based on extended SEIR model](https://doi.org/10.1101/2020.01.28.923169)<br/>
+by Shao, P.; Shan, Y.<br/>
+*Jan 28, 2020*<br/>
+- According to the types of individual states included in the model, classic warehouse models such as SI model, SIS model, SIR model, and SEIR model.<br/>
+- The SI model is a basic model, and other warehouse models are derived models built according .<br/>
+
 [Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan, China](https://doi.org/10.1038/s41421-020-0148-0)<br/>
-Authors: Wang, Huwen; Wang, Zezhou; Dong, Yinqiao; Chang, Ruijie; Xu, Chen; Yu, Xiaoyue; Zhang, Shuxian; Tsamlag, Lhakpa; Shang, Meili; Huang, Jinyan; Wang, Ying; Xu, Gang; Shen, Tian; Zhang, Xinxin; Cai, Yong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Cell Discovery<br/>
-Match (0.4431): **We employed an infectious disease dynamics model (SEIR model) for the purpose of modeling and predicting the number of COVID-19 cases in Wuhan, China. The model is a classic epidemic method to analyze the infectious disease, which has a definite latent period, and has proved to be predictive for a variety of acute infectious diseases in the past such as Ebola and SARS 22, [26] [27] [28] [29] [30] [31] . Application of the mathematical model is of great guiding significance to assess the impact of isolation of symptomatic cases as well as observation of asymptomatic contact cases and to promote evidence-based decisions and policy.**<br/>
-<br/>
-[Phase-adjusted estimation of the number of Coronavirus Disease 2019 cases in Wuhan, China](https://doi.org/10.1038/s41421-020-0148-0)<br/>
-Authors: Wang, Huwen; Wang, Zezhou; Dong, Yinqiao; Chang, Ruijie; Xu, Chen; Yu, Xiaoyue; Zhang, Shuxian; Tsamlag, Lhakpa; Shang, Meili; Huang, Jinyan; Wang, Ying; Xu, Gang; Shen, Tian; Zhang, Xinxin; Cai, Yong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Cell Discovery<br/>
-Match (0.4431): **We employed an infectious disease dynamics model (SEIR model) for the purpose of modeling and predicting the number of COVID-19 cases in Wuhan, China. The model is a classic epidemic method to analyze the infectious disease, which has a definite latent period, and has proved to be predictive for a variety of acute infectious diseases in the past such as Ebola and SARS 22, [26] [27] [28] [29] [30] [31] . Application of the mathematical model is of great guiding significance to assess the impact of isolation of symptomatic cases as well as observation of asymptomatic contact cases and to promote evidence-based decisions and policy.**<br/>
-<br/>
-[Puzzle of highly pathogenic human coronaviruses (2019-nCoV)](https://doi.org/10.1007/s13238-020-00693-y)<br/>
-Authors: Li, Jing; Liu, Wenjun<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Protein Cell<br/>
-Match (0.4364): **To date, many problems remain to be solved, including the virus' origin, extent, and duration of transmission in humans, its ability to infect animal hosts, its spectrum and pathogenesis of human infections, and an effective vaccine development.**<br/>
-<br/>
-[An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov)](https://doi.org/10.1016/j.idm.2020.02.001)<br/>
-Authors: Tang, Biao; Bragazzi, Nicola Luigi; Li, Qian; Tang, Sanyi; Xiao, Yanni; Wu, Jianhong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Infectious Disease Modelling<br/>
-Match (0.4154): **The international community of modelers has accepted the challenge of designing mathematical models of coronavirus dynamics and transmission and has swiftly reacted to the current coronavirus outbreak. Several models have been produced, resulting, sometimes, in different estimates. Previously, our group has devised a deterministic compartmental (SEIR) model (Tang et al., 2020) . In the present article, we update this model, based on the latest available data and information.**<br/>
-<br/>
-[A mathematical model for simulating the transmission of Wuhan novel Coronavirus](doi.org/10.1101/2020.01.19.911669)<br/>
-Authors: Chen, T.; Rui, J.; Wang, Q.; Zhao, Z.; Cui, J.-A.; Yin, L.<br/>
-Published: 2020-01-19 00:00:00<br/>
-Match (0.4060): **In this study, we developed a Bats-Hosts-Reservoir-People (BHRP) transmission network model for simulating the potential transmission from the infection source (probable be bats) to the human infection.**<br/>
-<br/>
+by Wang, Huwen; Wang, Zezhou; Dong, Yinqiao; Chang, Ruijie; Xu, Chen; Yu, Xiaoyue; Zhang, Shuxian; Tsamlag, Lhakpa; Shang, Meili; Huang, Jinyan; Wang, Ying; Xu, Gang; Shen, Tian; Zhang, Xinxin; Cai, Yong<br/>
+*Cell Discovery - 2020*<br/>
+- We employed an infectious disease dynamics model (SEIR model) for the purpose of modeling and predicting the number of COVID-19 cases in Wuhan, China.<br/>
+- SEIR model is a prediction model forecasting the number of infections in the future.<br/>
+
+[Evaluation of the potential incidence of COVID-19 and effectiveness of contention measures in Spain: a data-driven approach](https://doi.org/10.1101/2020.03.01.20029801)<br/>
+by Alberto Aleta; Yamir Moreno<br/>
+*Mar 06, 2020*<br/>
+- Stochastic SEIR-metapopulation models are routinely used to study the temporal and spatial transmission of diseases like the COVID-19.<br/>
+- The dynamics of the disease is governed by an SEIR compartmental model.<br/>
+
+[The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
+by Rothan, Hussin A.; Byrareddy, Siddappa N.<br/>
+*Journal of Autoimmunity - Feb 26, 2020*<br/>
+- Epidemiological changes in COVID-19 infection should be monitored taking into account potential routes of transmission and subclinical infections, in addition to the adaptation, evolution, and virus spread among humans and possible intermediate animals and reservoirs.<br/>
+- Another piece of evidence that supports the COVID-19 is of bat origin is the existence of a high degree of homology of the ACE2 receptor from a diversity of animal species, thus implicating these animal species as possible intermediate hosts or animal models for COVID-19 infections.<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Secondly, animal models of SARS-CoV infection could not simulate human disease because of an incongruent pathogenesis.<br/>
+
+[Estimated effectiveness of traveller screening to prevent international spread of 2019 novel coronavirus (2019-nCoV)](https://doi.org/10.1101/2020.01.28.20019224)<br/>
+by Katelyn Gostic; Ana C. R. Gomez; Riley O. Mummah; Adam J. Kucharski; James O. Lloyd-Smith<br/>
+*Jan 30, 2020*<br/>
+- Model 89 90<br/>
+
+[Analysis of angiotensin-converting enzyme 2 (ACE2) from different species sheds some light on cross-species receptor usage of a novel coronavirus 2019-nCoV](https://doi.org/10.1016/j.jinf.2020.02.013)<br/>
+by Li, Rui; Qiao, Songlin; Zhang, Gaiping<br/>
+*Journal of Infection - Feb 21, 2020*<br/>
+- As a result, non-human primates may be susceptible to 2019-nCoV and serve as animal models for antiviral research or intermediate hosts for cross-species transmission.<br/>
+
+[RBD mutations from circulating SARS-CoV-2 strains enhance the structure stability and infectivity of the spike protein](https://doi.org/10.1101/2020.03.15.991844)<br/>
+by Junxian Ou; Zhonghua Zhou; Jing Zhang; Wendong Lan; Shan Zhao; Jianguo Wu; Donald Seto; Gong Zhang; Qiwei Zhang<br/>
+*Mar 17, 2020*<br/>
+- animal.<br/>
+
+[Simulating the infected population and spread trend of 2019-nCov under different policy by EIR model](https://doi.org/10.1101/2020.02.10.20021519)<br/>
+by Hao Xiong; Huili Yan<br/>
+*Feb 12, 2020*<br/>
+- SEIR model has been widely used for modeling infectious diseases.<br/>
+
 # Tools and studies to monitor phenotypic change and potential adaptation of the virus
 
-[Mucin 4 Protects Female Mice from Coronavirus Pathogenesis](doi.org/10.1101/2020.02.19.957118)<br/>
-Authors: Plante, J. A.; Plante, K.; Gralinski, L.; Beall, A.; Ferris, M. T.; Bottomly, D.; Green, R. R.; McWeeney, S.; Heise, M. T.; Baric, R. S.; Menachery, V. D.<br/>
-Published: 2020-02-20 00:00:00<br/>
-Match (0.5120): **Muc4 has been detected in synovial sarcomas in humans, thus presenting a novel tissue Screening genetically diverse mouse models provides an opportunity to identify natural 163 variation in novel factors which drive viral disease responses. These studies can also provide 164 therapeutic, prophylactic and molecular insights into emerging pathogens, which are difficult to 165 study during the context of an outbreak. Here, prior phenotypic QTL analysis, bioinformatics, 166**<br/>
-<br/>
-[Strong evolutionary convergence of receptor-binding protein spike between COVID-19 and SARS-related coronaviruses](doi.org/10.1101/2020.03.04.975995)<br/>
-Authors: Wu, Y.<br/>
-Published: 2020-03-04 00:00:00<br/>
-Match (0.4968): **Considering that 2019-nCoV and SARS-CoV are distantly related, but show high similarity in the RBD protein structure and can use the same cell receptor, ACE2 5-11 , an evolutionary convergence may have occurred between them. In the present study, we employ a recently developed molecular phyloecological approach 14-16 , which uses a comparative phylogenetic analysis of functional gene sequences to determine the genetic basis of phenotypic evolution, and we examine the possible molecular basis underlying the phenotypic convergence between 2019-nCoV and SARS-CoV. Our results reveal positive selection signals and evolutionary convergent amino acid sites of the spike protein in both 2019-nCoV and SARS-CoV and their related coronaviruses, providing new insights into understanding the evolutionary origin of their phenotypic convergence.**<br/>
-<br/>
-[The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
-Authors: Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Nature Microbiology<br/>
-Match (0.4878): **The currently known viruses of the species Severe acute respiratory syndrome-related coronavirus may be as (poorly) representative for this particular species as the few individuals that we selected to represent H. sapiens in Fig. 1 . It is thus reasonable to assume that this biased knowledge of the natural diversity of the species Severe acute respiratory syndrome-related coronavirus limits our current understanding of fundamental aspects of the biology of this species and, as a consequence, our abilities to control zoonotic spillovers to humans. Future studies aimed at understanding the ecology of these viruses and advancing the accuracy and resolution of evolutionary analyses 41 would benefit greatly from adjusting our research and sampling strategies. This needs to include an expansion of our current research focus on human pathogens and their adaptation to specific hosts to other viruses in this species. To illustrate the great potential of species-wide studies, it may again be instructive to draw a parallel to H. sapiens, and specifically to the impressive advancements in personalized medicine in recent years. Results of extensive genetic analyses of large numbers of individuals representing diverse populations from all continents have been translated into clinical applications and greatly contribute to optimizing patient-specific diagnostics and therapy. They were instrumental in identifying reliable predictive markers for specific diseases as well as genomic sites that are under selection. It thus seems reasonable to expect that genome-based analyses with a comparable species coverage will be similarly insightful for coronaviruses. Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach). Technical solutions to this problem are already available; for example, in the context of multiplex PCR-based assays 42 . The costs for developing and applying (combined or separate) species-and virus-specific diagnostic tests in specific clinical and/or epidemiological settings may help to better appreciate the biological diversity and zoonotic potential of specific virus species and their members. Also, the further reduction of time required to identify the causative agents of novel virus infections will contribute to limiting the enormous social and economic consequences of large outbreaks. To advance such studies, innovative fundraising approaches may be required.**<br/>
-<br/>
-[Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: a population-level observational study](https://doi.org/10.1016/S2589-7500(20)30026-1)<br/>
-Authors: Sun, Kaiyuan; Chen, Jenny; Viboud, Cécile<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: The Lancet Digital Health<br/>
-Match (0.4876): **In conclusion, crowdsourced epidemiological data can be useful to monitor emerging outbreaks, such as COVID-19 and, as previously, Ebola virus. 7 These efforts can help generate and disseminate detailed information in the early stages of an outbreak when little other data are available, enabling independent estimation of key parameters that affect interventions. Based on our small sample of patients with COVID-19, we note an intriguing age distribution, reminiscent of that of SARS, which warrants further epidemiological and serological studies. We also report early signs that the response is strengthening in China on the basis of a decrease in case detection time, and rapid management of travel-related infections that are identified internationally. This is an early report of a rapidly evolving situation and the parameters discussed here could change quickly. In the coming weeks, we will continue to monitor the epidemiology of this outbreak using data from news reports and official sources.**<br/>
-<br/>
-[Puzzle of highly pathogenic human coronaviruses (2019-nCoV)](https://doi.org/10.1007/s13238-020-00693-y)<br/>
-Authors: Li, Jing; Liu, Wenjun<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Protein Cell<br/>
-Match (0.4670): **However, many other important aspects of virus biology, such as, whether the virus can travel across continents, the list of species it can infect and whether it can cause severe mortality, are much harder to forecast. Our premise is that the amount of sequencing data currently available and the latest advances in computing methods using that data will make it possible for the first time to generate virtual models of how viruses evolve in each environment and how those viruses behave. Such models have the potential to make risk assessments as they arise that can be used to inform policy and direct strategies to head off impending threats.**<br/>
-<br/>
-[A rapid advice guideline for the diagnosis and treatment of 2019 novel coronavirus (2019-nCoV) infected pneumonia (standard version)](https://doi.org/10.1186/s40779-020-0233-6)<br/>
-Authors: Jin, Ying-Hui; Cai, Lin; Cheng, Zhen-Shun; Cheng, Hong; Deng, Tong; Fan, Yi-Pin; Fang, Cheng; Huang, Di; Huang, Lu-Qi; Huang, Qiao; Han, Yong; Hu, Bo; Hu, Fen; Li, Bing-Hui; Li, Yi-Rong; Liang, Ke; Lin, Li-Kai; Luo, Li-Sha; Ma, Jing; Ma, Lin-Lu; Peng, Zhi-Yong; Pan, Yun-Bao; Pan, Zhen-Yu; Ren, Xue-Qun; Sun, Hui-Min; Wang, Ying; Wang, Yun-Yun; Weng, Hong; Wei, Chao-Jie; Wu, Dong-Fang; Xia, Jian; Xiong, Yong; Xu, Hai-Bo; Yao, Xiao-Mei; Yuan, Yu-Feng; Ye, Tai-Sheng; Zhang, Xiao-Chun; Zhang, Ying-Wen; Zhang, Yin-Gao; Zhang, Hua-Min; Zhao, Yan; Zhao, Ming-Juan; Zi, Hao; Zeng, Xian-Tao; Wang, Yong-Yan; Wang, Xing-Huan; Management, for the Zhongnan Hospital of Wuhan University Novel Coronavirus; Research Team, Evidence-Based Medicine Chapter of China International Exchange; Promotive Association for, Medical; Health, Care<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Military Medical Research<br/>
-Match (0.4601): **No evidence of viral mutation has been found so far [14] . It is necessary to obtain much more clinically isolated viruses with time and geographical variety to assess the extent of the virus mutations, and also whether these mutations indicate adaptability to human hosts [11] .**<br/>
-<br/>
-[A rapid advice guideline for the diagnosis and treatment of 2019 novel coronavirus (2019-nCoV) infected pneumonia (standard version)](https://doi.org/10.1186/s40779-020-0233-6)<br/>
-Authors: Jin, Ying-Hui; Cai, Lin; Cheng, Zhen-Shun; Cheng, Hong; Deng, Tong; Fan, Yi-Pin; Fang, Cheng; Huang, Di; Huang, Lu-Qi; Huang, Qiao; Han, Yong; Hu, Bo; Hu, Fen; Li, Bing-Hui; Li, Yi-Rong; Liang, Ke; Lin, Li-Kai; Luo, Li-Sha; Ma, Jing; Ma, Lin-Lu; Peng, Zhi-Yong; Pan, Yun-Bao; Pan, Zhen-Yu; Ren, Xue-Qun; Sun, Hui-Min; Wang, Ying; Wang, Yun-Yun; Weng, Hong; Wei, Chao-Jie; Wu, Dong-Fang; Xia, Jian; Xiong, Yong; Xu, Hai-Bo; Yao, Xiao-Mei; Yuan, Yu-Feng; Ye, Tai-Sheng; Zhang, Xiao-Chun; Zhang, Ying-Wen; Zhang, Yin-Gao; Zhang, Hua-Min; Zhao, Yan; Zhao, Ming-Juan; Zi, Hao; Zeng, Xian-Tao; Wang, Yong-Yan; Wang, Xing-Huan; Management, for the Zhongnan Hospital of Wuhan University Novel Coronavirus; Research Team, Evidence-Based Medicine Chapter of China International Exchange; Promotive Association for, Medical; Health, Care<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Military Medical Research<br/>
-Match (0.4601): **No evidence of viral mutation has been found so far [14] . It is necessary to obtain much more clinically isolated viruses with time and geographical variety to assess the extent of the virus mutations, and also whether these mutations indicate adaptability to human hosts [11] .**<br/>
-<br/>
-[Exploring diseases/traits and blood proteins causally related to expression of ACE2, the putative receptor of 2019-nCov: A Mendelian Randomization analysis](doi.org/10.1101/2020.03.04.20031237)<br/>
-Authors: Shitao Rao; Alexandria Lau; Hon-Cheong So<br/>
-Published: 2020-03-08 00:00:00<br/>
-Match (0.4577): **In this study, we wish to answer the following question: What conditions or traits may lead to increased ACE2 expression, which may in turn result in greater susceptibility to 2019-nCov infection? Since COVID-19 is a new disease and prior knowledge is lacking, we employed a phenome-wide approach in which a large variety of traits are studied for causal associations with ACE2 expression. This analysis may help to prioritize resources for better prevention of the infection in those susceptible subjects.**<br/>
-<br/>
-[Estimated effectiveness of traveller screening to prevent international spread of 2019 novel coronavirus (2019-nCoV)](doi.org/10.1101/2020.01.28.20019224)<br/>
-Authors: Katelyn Gostic; Ana C. R. Gomez; Riley O. Mummah; Adam J. Kucharski; James O. Lloyd-Smith<br/>
-Published: 2020-01-30 00:00:00<br/>
-Match (0.4573): **Our analysis underscores the reality that respiratory viruses are difficult to detect by travel 359 screening programs, particularly if a substantial fraction of infected people show mild or 360 indistinct symptoms, and if incubation periods are long. Quantitative estimates of screening 361 effectiveness will improve as more is learned about this recently-emerged virus, and will vary 362 with the precise design of screening programs. However, we present a robust qualitative finding: 363 in any situation where there is widespread epidemic transmission in source populations from 364 which travellers are drawn, travel screening programs can slow but not stop the importation of 365 infected cases. By decomposing the factors leading to success or failure of screening efforts, 366 our work supports decision-making about program design, and highlights key questions for 367 further research. We hope that these insights may help to mitigate the global impacts of nCoV 368 by guiding effective decision-making in both high-and low-resource countries, and may 369 contribute to prospective improvements in travel screening policy for future emerging infections. 370 371 . CC-BY-NC 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Networks of information token recurrences derived from genomic sequences may reveal hidden patterns in epidemic outbreaks: A case study of the 2019-nCoV coronavirus.](doi.org/10.1101/2020.02.07.20021139)<br/>
-Authors: Markus Luczak-Roesch<br/>
-Published: 2020-02-11 00:00:00<br/>
-Match (0.4531): **How far a virus will eventually spread at local, regional, national and international levels is of central concern during an epidemic outbreak due to the severe consequences large-scale epidemics have on human well-being [5] , the stability and coherence of social systems [11] , and the global economy [23] . A thorough understanding of the genetic characteristics of a virus is crucial to understand the way it is (or may be) transmitted (e.g. human-to-human transmissibility) in order to be able to anticipate the potential reach of an outbreak and develop effective countermeasures. The recent outbreak of a new type of coronavirus -2019-nCoV -provides plenty of examples of the way researchers seek to quickly approach the aforementioned problems of genetic decomposition of the virus [2, 8] and modelling of its transmission dynamics [15] .**<br/>
-<br/>
+[Optimizing diagnostic strategy for novel coronavirus pneumonia, a multi-center study in Eastern China](https://doi.org/10.1101/2020.02.13.20022673)<br/>
+by Jing-Wen Ai; Hao-Cheng Zhang; Teng Xu; Jing Wu; Mengqi Zhu; Yi-Qi Yu; Han-Yue Zhang; Zhongliang Shen; Yang Li; Xian Zhou; Guo-Qing Zang; Jie Xu; Wen-Jing Chen; Yong-Jun Li; De-Sheng Xie; Ming-Zhe Zhou; Jing-Ying Sun; Jia-Zhen Chen; Wen-Hong Zhang<br/>
+*Feb 17, 2020*<br/>
+- Metagenomics sequencing could further facilitate during critical clinical cases and monitor the molecular evolution for SARS-COV-2.<br/>
+- Moreover, the nature of unbiased sequencing offers higher tolerance for genetic drift in the target pathogens, whereas certain changes in sequence can result in critical impact on the assay efficiency 21, 22 .<br/>
+- Such genetic information will offer valuable insights not only for public health management, but also for contentious optimization of diagnostic assays 23, 24 .<br/>
+
+[Profiling the immune vulnerability landscape of the 2019 Novel Coronavirus](https://doi.org/10.1101/2020.02.08.939553)<br/>
+by Zhu, J.; Kim, J.; Xiao, X.; Wang, Y.; Luo, D.; Chen, R.; Xu, L.; Zhang, H.; Xiao, G.; Zhan, X.; Wang, T.; Xie, Y.<br/>
+*Feb 12, 2020*<br/>
+- Genetic variations can modify the immunogenicity landscape of the virus, and impact its survival fitness.<br/>
+- To facilitate the examination of how genetic variations could impact the immune vulnerability landscape of the viruses, we also showed the mutational rates of the viral genome along with the immunogenicity maps.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Further molecular characterization to better understand these viruses is required for the development of diagnostic tests and countermeasures.<br/>
+- Hence, to minimize the impact of emerging viral diseases, it is critical to establish local laboratory capacity as this plays a critical role in the surveillance, diagnosis, and monitoring of viral disease, as well as in the understanding of the viral genetic changes.<br/>
+
+[Larger viral genome size facilitates emergence of zoonotic diseases](https://doi.org/10.1101/2020.03.10.986109)<br/>
+by Richard E. Grewelle<br/>
+*Mar 11, 2020*<br/>
+- Phenotypic plasticity is hypothesized to be positively related to genome size and may facilitate cross-species transmission, though this notion requires future exploration.<br/>
+- Cross-species transmission for each viral particle is assumed to be a function of the phenotypic plasticity of the viral genome and the genetic variability produced during replication.<br/>
+
+[Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
+by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- In addition, homologous recombination is an important evolutionary mechanism that drives the formation of genetic variation for viruses that allows them to overcome selective pressures and adapt to new environments and hosts.<br/>
+- 3 5 This study aim to assess the genetic diversity and potential role of genetic recombination in the evolutionary dynamics of FRCoVs.<br/>
+
+[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
+by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- In addition, homologous recombination is an important evolutionary mechanism that drives the formation of genetic variation for viruses that allows them to overcome selective pressures and adapt to new environments and hosts.<br/>
+- 3 5 This study aim to assess the genetic diversity and potential role of genetic recombination in the evolutionary dynamics of FRCoVs.<br/>
+
+[Genetic diversity and potential recombination between ferret coronaviruses from European and American lineages](https://doi.org/10.1016/j.jinf.2020.01.016)<br/>
+by Xu, Yifei<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- In addition, homologous recombination is an important evolutionary mechanism that drives the formation of genetic variation for viruses that allows them to overcome selective pressures and adapt to new environments and hosts.<br/>
+- 3 5 This study aim to assess the genetic diversity and potential role of genetic recombination in the evolutionary dynamics of FRCoVs.<br/>
+
+[Detection of 20 respiratory viruses and bacteria by influenza-like illness surveillance in Beijing, China, 2016–2018](https://doi.org/10.1016/j.jinf.2019.11.014)<br/>
+by Haixu, Liang; Haibin, Wang; Lili, Ren<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- In addition, homologous recombination is an important evolutionary mechanism that drives the formation of genetic variation for viruses that allows them to overcome selective pressures and adapt to new environments and hosts.<br/>
+- 3 5 This study aim to assess the genetic diversity and potential role of genetic recombination in the evolutionary dynamics of FRCoVs.<br/>
+
+[Frontiers in antiviral therapy and immunotherapy](https://doi.org/10.1002/cti2.1115)<br/>
+by Heaton, Steven M<br/>
+*Clinical & Translational Immunology - 2020*<br/>
+- 14 I predict these efforts will unlock a vast wealth of currently unexplored biodiversity, leading to biotechnologies and treatments that leverage the host-virus interactions developed throughout evolution.<br/>
+- 10 I anticipate further improvements in the performance of such devices over the coming decade will transform virus surveillance efforts, the importance of which was underscored by the recent EboV and novel coronavirus (nCoV / COVID-19) outbreaks, enabling rapid deployment of antiviral treatments that take resistance-conferring mutations into account.<br/>
+
+[World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19)](https://doi.org/10.1016/j.ijsu.2020.02.034)<br/>
+by Sohrabi, Catrin; Alsafi, Zaid; O'Neill, Niamh; Khan, Mehdi; Kerwan, Ahmed; Al-Jabir, Ahmed; Iosifidis, Christos; Agha, Riaz<br/>
+*International Journal of Surgery - Apr 30, 2020*<br/>
+- Evidently, the pandemic potential of COVID-19 demands rigorous surveillance and on-going monitoring to accurately track and potentially predict its future host adaptation, evolution, transmissibility, and pathogenicity.<br/>
+
 # Immune response and immunity
 
-[Design of multi epitope-based peptide vaccine against E protein of human COVID-19: An immunoinformatics approach](doi.org/10.1101/2020.02.04.934232)<br/>
-Authors: Abdelmageed, M. I.; Abdelmoneim, A. H.; Mustafa, M. I.; Elfadol, N. M.; Murshed, N. S.; Shantier, S. W.; Makhawi, A. M.<br/>
-Published: 2020-03-02 00:00:00<br/>
-Match (0.7974): **The immune response of T cell is considered as a long lasting response compared to B cell, where the antigen can easily escape the antibody memory response [76] . Vaccines that effectively generate cell-mediated response are needed to provide protection against the invading pathogen. Moreover the CD8+ T and CD4+ T cell responses play a major role in antiviral immunity [77] . Thus designing vaccine against T cell is much more important.**<br/>
-<br/>
-[The landscape of lung bronchoalveolar immune cells in COVID-19 revealed by single-cell RNA sequencing](doi.org/10.1101/2020.02.23.20026690)<br/>
-Authors: Minfeng Liao; Yang Liu; Jin Yuan; Yanling Wen; Gang Xu; Juanjuan Zhao; Lin Chen; Jinxiu Li; Xin Wang; Fuxiang Wang; Lei Liu; Shuye Zhang; Zheng Zhang<br/>
-Published: 2020-02-26 00:00:00<br/>
-Match (0.7873): **Adaptive immune system is specific and memorizes the pathogens, including two arms, the antibody and T cell responses. Inducing adaptive immunity is also the aim of vaccination. SARS studies showed that binding and neutralizing antibodies are elicited in SARS-CoV infections, but their association with clinical outcomes is unclear [21] . Robust antibody responses were developed in severely infected SARS patients [22] . However, it is debated whether antibody-dependent enhancement played roles in disease exacerbation [23, 24] . Memory T cell responses are induced and maintained in SARS-CoV infected subjects [25] . T cell immunity was also confirmed to be necessary for resolving the viral infection in mouse models [26, 27] .**<br/>
-<br/>
-[2019 novel coronavirus disease in hemodialysis (HD) patients: Report from one HD center in Wuhan, China](doi.org/10.1101/2020.02.24.20027201)<br/>
-Authors: Yiqiong Ma; Bo Diao; Xifeng Lv; Jili Zhu; Wei Liang; Lei Liu; Wenduo Bu; Huiling Cheng; Sihao Zhang; Lianhua Yang; Ming Shi; Guohua Ding; Bo Shen; Huiming Wang<br/>
-Published: 2020-02-25 00:00:00<br/>
-Match (0.7615): **The immune system is the key defense line for the body to resist and eliminate the virus. In the antiviral immune response, cellular immunity (including T cells and NK cells) plays a central role, while humoral immunity plays a coordinating role. The underlined mechanism of SARS-CoV-2 inflicted harmful effects leading to severe condition or death in COVID-19 patients is the over response against the virus by immune system and large amount of cytokines production (cytokine storm) [13] . The above results show that most of the HD patients with SARS-CoV-2 infection were in . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[The landscape of lung bronchoalveolar immune cells in COVID-19 revealed by single-cell RNA sequencing](doi.org/10.1101/2020.02.23.20026690)<br/>
-Authors: Minfeng Liao; Yang Liu; Jin Yuan; Yanling Wen; Gang Xu; Juanjuan Zhao; Lin Chen; Jinxiu Li; Xin Wang; Fuxiang Wang; Lei Liu; Shuye Zhang; Zheng Zhang<br/>
-Published: 2020-02-26 00:00:00<br/>
-Match (0.7589): **The clinical symptoms of COVID-19 varied from asymptomatic to ARDS, which has been similarly observed in SARS-CoV, MERS-CoV and influenza infections [7] . Host immune responses on some extent determine both protection and pathogenesis to the respiratory viral infections [11, 14] . A well co-ordinated innate and adaptive immune response may rapidly control of the virus, while a failed immune response leads to viral spreading, cytokine storm, and high mortality [15] .**<br/>
-<br/>
-[Analysis of therapeutic targets for SARS-CoV-2 and discovery of potential drugs by computational methods](https://doi.org/10.1016/j.apsb.2020.02.008)<br/>
-Authors: Wu, Canrong; Liu, Yang; Yang, Yueying; Zhang, Peng; Zhong, Wu; Wang, Yali; Wang, Qiqi; Xu, Yang; Li, Mingxue; Li, Xingzhou; Zheng, Mengzhu; Chen, Lixia; Li, Hua<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Acta Pharmaceutica Sinica B<br/>
-Match (0.7279): **Potential anti-coronavirus therapies can be divided into two categories depending on the target, one is acting on the human immune system or human cells, and the other is on coronavirus itself. In terms of the human immune system, the innate immune system response plays an important role in controlling the replication and infection of coronavirus, and interferon is expected to enhance the immune response 11 .**<br/>
-<br/>
-[Integrative Bioinformatics Analysis Provides Insight into the Molecular Mechanisms of 2019-nCoV](doi.org/10.1101/2020.02.03.20020206)<br/>
-Authors: Xiang He; Lei Zhang; Qin Ran; Anying Xiong; Junyi Wang; Dehong Wu; Feng Chen; Guoping Li<br/>
-Published: 2020-02-05 00:00:00<br/>
-Match (0.7120): **The copyright holder for this preprint . https://doi.org/10.1101/2020.02.03.20020206 doi: medRxiv preprint production of acute respiratory distress syndrome-associated cytokines (7) . ACE2 is also related to adaptive immune responses (8) . In this current study, the GSEA analysis showed that the high expression of ACE2 was related to innate immune response, acquired immune response, B cell regulatory immunity and cytokine secretion, and enhanced the inflammatory response induced by IL-1, IL-10, IL-6, IL-8 cytokines. We speculated that the immune system dysfunction involved in the high expression of . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[An Effective CTL Peptide Vaccine for Ebola Zaire Based on Survivors' CD8+ Targeting of a Particular Nucleocapsid Protein Epitope with Potential Implications for COVID-19 Vaccine Design](doi.org/10.1101/2020.02.25.963546)<br/>
-Authors: Herst, C. V.; Burkholz, S.; Sidney, J.; Sette, A.; Harris, P. E.; Massey, S.; Brasel, T.; Cunha-Neto, E.; Rosa, D. S.; Chao, W. C. H.; Carback, R. T.; Hodge, T.; Wang, L.; Ciotlos, S.; Lloyd, P.; Rubsamen, R. M.<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.6938): **Most preventative vaccines are designed to elicit a humoral immune response, typically via the administration of whole protein from a pathogen. In contrast,**<br/>
-<br/>
-[Immunodepletion with Hypoxemia: A Potential High Risk Subtype of Coronavirus Disease 2019](doi.org/10.1101/2020.03.03.20030650)<br/>
-Authors: Lilei Yu; Yongqing Tong; Gaigai Shen; Aisi Fu; Yanqiu Lai; Xiaoya Zhou; Yuan Yuan; Yuhong Wang; Yuchen Pan; Zhiyao Yu; Yan Li; Tiangang Liu; Hong Jiang<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.6535): **Host immune response is essential for the clearance of coronavirus infection, and the balance between coronavirus and host immunity is key to viral pathogenesis and will ultimately determine infection outcome 1 . Coronaviruses encode numerous viral gene products to evade and suppress host immune response, such as SARS-associated coronavirus nonstructural protein 1, which is able to inhibit host interferon-dependent antiviral signaling 2 , as well as another SARS coronavirus protein named open reading frame-9b, which can suppress mitochondria of immune cells 3 . Coronavirus suppressing host immunity has been demonstrated, however, the alterations of immune system in patients with COVID-2019 are not yet well understood.**<br/>
-<br/>
-[The landscape of lung bronchoalveolar immune cells in COVID-19 revealed by single-cell RNA sequencing](doi.org/10.1101/2020.02.23.20026690)<br/>
-Authors: Minfeng Liao; Yang Liu; Jin Yuan; Yanling Wen; Gang Xu; Juanjuan Zhao; Lin Chen; Jinxiu Li; Xin Wang; Fuxiang Wang; Lei Liu; Shuye Zhang; Zheng Zhang<br/>
-Published: 2020-02-26 00:00:00<br/>
-Match (0.6392): **infections. The immunopathogenesis of hCoVs-induced respiratory distress syndrome may involve deranged interferon production, hyper-inflammatory response and cytokine storms, inefficient or delayed induction of neutralizing antibody and specific T cell responses [10, 11] .**<br/>
-<br/>
-[Breadth of concomitant immune responses underpinning viral clearance and patient recovery in a non-severe case of COVID-19](doi.org/10.1101/2020.02.20.20025841)<br/>
-Authors: Irani Thevarajan; Thi HO Nguyen; Marios Koutsakos; Julian Druce; Leon Caly; Carolien E van de Sandt; Xiaoxiao Jia; Suellen Nicholson; Mike Catton; Benjamin Cowie; Steven Tong; Sharon Lewin; Katherine Kedzierska<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.6389): **Breadth of concomitant immune responses underpinning viral clearance and patient recovery in a non-severe case of COVID-19**<br/>
-<br/>
+[Viroporins and inflammasomes: A key to understand virus-induced inflammation](https://doi.org/10.1016/j.biocel.2020.105738)<br/>
+by Farag, N.S.; Breitinger, U.; Breitinger, H.G.; El Azizi, M.A.<br/>
+*The International Journal of Biochemistry & Cell Biology - May 31, 2020*<br/>
+- Innate immunity is the first arm of immune response to viral infections.<br/>
+- It is also required for programming functional adaptive immune responses and, therefore, coordinates the entire host immune response to infection.<br/>
+- The immune response to different pathological invasions in the human body is mediated by two arms; innate and acquired immunity.<br/>
+- Production of these cytokines is essential for activation of the whole immune response against the viral infection.<br/>
+
+[The landscape of lung bronchoalveolar immune cells in COVID-19 revealed by single-cell RNA sequencing](https://doi.org/10.1101/2020.02.23.20026690)<br/>
+by Minfeng Liao; Yang Liu; Jin Yuan; Yanling Wen; Gang Xu; Juanjuan Zhao; Lin Chen; Jinxiu Li; Xin Wang; Fuxiang Wang; Lei Liu; Shuye Zhang; Zheng Zhang<br/>
+*Feb 26, 2020*<br/>
+- A well co-ordinated innate and adaptive immune response may rapidly control of the virus, while a failed immune response leads to viral spreading, cytokine storm, and high mortality.<br/>
+- Inducing adaptive immunity is also the aim of vaccination.<br/>
+- Adaptive immune system is specific and memorizes the pathogens, including two arms, the antibody and T cell responses.<br/>
+- Host immune responses on some extent determine both protection and pathogenesis to the respiratory viral infections.<br/>
+
+[Immunopathological characteristics of coronavirus disease 2019 cases in Guangzhou, China](https://doi.org/10.1101/2020.03.12.20034736)<br/>
+by Yaling Shi; Mingkai Tan; Xing Chen; Yanxia Liu; Jide Huang; Jingyi Ou; Xilong Deng<br/>
+*Mar 16, 2020*<br/>
+- Cytokines are produced by both innate immune cells and adaptive immune cells.<br/>
+- However, the comprehensive status of either innate immunity or adaptive immunity in COVID-19 patients remains largely unknown.<br/>
+- In future it will be necessary to test the functions of distinct immune cell populations, so as to tell whether the innate or adaptive immunity is activated or impaired in COVID-19.<br/>
+
+[Immune phenotyping based on neutrophil-to-lymphocyte ratio and IgG predicts disease severity and outcome for patients with COVID-19](https://doi.org/10.1101/2020.03.12.20035048)<br/>
+by Bicheng Zhang; Xiaoyang Zhou; Chengliang Zhu; Fan Feng; Yanru Qiu; Jia Feng; Qingzhu Jia; Qibin Song; Bo Zhu; Jun Wang<br/>
+*Mar 16, 2020*<br/>
+- 5 Thus, we develop simple combined immune response phenotypes using NLR, an indicator of innate immunity, and IgG, an indicator of acquired immunity.<br/>
+- The activated host immunity is characterized as lymphopenia, cytokine release storm (CRS), and dysfunctional immune responses to virus-specific antigen.<br/>
+- 2, 3 Following SARS-CoV-2 infection, a high viral load and overexuberant host immune response involving innate and acquired immunity, simultaneously contributes to the pathogenesis of COVID-19 and organ injury.<br/>
+
+[Design of multi epitope-based peptide vaccine against E protein of human COVID-19: An immunoinformatics approach](https://doi.org/10.1101/2020.02.04.934232)<br/>
+by Abdelmageed, M. I.; Abdelmoneim, A. H.; Mustafa, M. I.; Elfadol, N. M.; Murshed, N. S.; Shantier, S. W.; Makhawi, A. M.<br/>
+*Mar 02, 2020*<br/>
+- The immune response of T cell is considered as a long lasting response compared to B cell, where the antigen can easily escape the antibody memory response.<br/>
+- Vaccines that effectively generate cell-mediated response are needed to provide protection against the invading pathogen.<br/>
+- Moreover the CD8+ T and CD4+ T cell responses play a major role in antiviral immunity.<br/>
+
+[Subunit Vaccines Against Emerging Pathogenic Human Coronaviruses](https://doi.org/10.3389/fmicb.2020.00298)<br/>
+by Du, Ning Wang; Jian, Shang; Shibo, Jiang; Lanying<br/>
+*Frontiers in Microbiology - 2020*<br/>
+- Similarly, some viral-vectored vaccines can elicit specific antibody and cellular immune responses with neutralizing activity and protection, but they might also induce anti-vector immunity or present preexisting immunity, causing some harmful immune responses.<br/>
+- Vaccination pathways are important in inducing efficient immune responses, and different immunization routes may elicit different immune responses to the same protein antigens.<br/>
+
+[Molecular immune pathogenesis and diagnosis of COVID-19](https://doi.org/10.1016/j.jpha.2020.03.001)<br/>
+by Li, Xiaowei; Geng, Manman; Peng, Yizhao; Meng, Liesu; Lu, Shemin<br/>
+*Journal of Pharmaceutical Analysis - Mar 05, 2020*<br/>
+- Comparing to humoral responses, there are more researches on the cellular immunity of coronavirus.<br/>
+- Antigen presentation subsequently stimulates the body's humoral and cellular immunity, which are mediated by virus-specific B and T cells.<br/>
+
+[Integrative Bioinformatics Analysis Provides Insight into the Molecular Mechanisms of 2019-nCoV](https://doi.org/10.1101/2020.02.03.20020206)<br/>
+by Xiang He; Lei Zhang; Qin Ran; Anying Xiong; Junyi Wang; Dehong Wu; Feng Chen; Guoping Li<br/>
+*Feb 05, 2020*<br/>
+- ACE2 is also related to adaptive immune responses (8) .<br/>
+- In this current study, the GSEA analysis showed that the high expression of ACE2 was related to innate immune response, acquired immune response, B cell regulatory immunity and cytokine secretion, and enhanced the inflammatory response induced by IL-1, IL-10, IL-6, IL-8 cytokines.<br/>
+
+[2019 novel coronavirus disease in hemodialysis (HD) patients: Report from one HD center in Wuhan, China](https://doi.org/10.1101/2020.02.24.20027201)<br/>
+by Yiqiong Ma; Bo Diao; Xifeng Lv; Jili Zhu; Wei Liang; Lei Liu; Wenduo Bu; Huiling Cheng; Sihao Zhang; Lianhua Yang; Ming Shi; Guohua Ding; Bo Shen; Huiming Wang<br/>
+*Feb 25, 2020*<br/>
+- In the antiviral immune response, cellular immunity (including T cells and NK cells) plays a central role, while humoral immunity plays a coordinating role.<br/>
+- This indicates that the impaired immune system seems to be unable to mount effective cellular immune response upon the invasion of SARS-CoV-2, thus results in no cytokine storm and no severe organs damage.<br/>
+
+[An Effective CTL Peptide Vaccine for Ebola Zaire Based on Survivors' CD8+ Targeting of a Particular Nucleocapsid Protein Epitope with Potential Implications for COVID-19 Vaccine Design](https://doi.org/10.1101/2020.02.25.963546)<br/>
+by Herst, C. V.; Burkholz, S.; Sidney, J.; Sette, A.; Harris, P. E.; Massey, S.; Brasel, T.; Cunha-Neto, E.; Rosa, D. S.; Chao, W. C. H.; Carback, R. T.; Hodge, T.; Wang, L.; Ciotlos, S.; Lloyd, P.; Rubsamen, R. M.<br/>
+*Mar 09, 2020*<br/>
+- It has been suggested that EBOV can mediate an innate immunity response through stimulation of TLR-4.<br/>
+- Most preventative vaccines are designed to elicit a humoral immune response, typically via the administration of whole protein from a pathogen.<br/>
+
 # Effectiveness of movement control strategies to prevent secondary transmission in health care and community settings
 
+[Can we contain the COVID-19 outbreak with the same measures as for SARS?](https://doi.org/10.1016/S1473-3099(20)30129-8)<br/>
+by Wilder-Smith, Annelies; Chiew, Calvin J; Lee, Vernon J<br/>
+*The Lancet Infectious Diseases - Mar 05, 2020*<br/>
+- In the absence of vaccines and specific treatment, the only available public health tools to control persontoperson transmittable diseases are isolation and quarantine, social distancing, and community containment measures.<br/>
+- If this approach is not feasible because of widespread community transmission, then community quarantine is also needed with rigorous implementation of social distancing.<br/>
+-  Because of the extent of community spread, traditional public health measures might not be able to halt all human-to-human transmission, and we need to consider moving from containment to mitigation.<br/>
+
+[Outbreak of a new coronavirus: what anaesthetists should know](https://doi.org/10.1016/j.bja.2020.02.008)<br/>
+by Peng, Philip W.H.; Ho, Pak-Leung; Hota, Susy S.<br/>
+*British Journal of Anaesthesia - Feb 27, 2020*<br/>
+- Public health programmes coordinate rapid case finding, tracing of contacts of cases, and isolation measures to mitigate spread, and guide decision-making on broad public health measures, such as social distancing when required.<br/>
+- Hospital infection prevention and control programmes aid with case identification through screening and testing, and they execute isolation infection prevention measures to ensure healthcare settings are safe from infection transmission.<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- The NHC also formulated a community prevention and control program for SARS-CoV-2 pneumonia to strengthen community-level epidemic prevention measures to control the spread of the outbreak.<br/>
+- The strict control of cross-infection in medical institutions is also key to preventing the further spread of the epidemic.<br/>
+
 [Asymptomatic carrier state, acute respiratory disease, and pneumonia due to severe acute respiratory syndrome coronavirus 2 (SARSCoV-2): Facts and myths](https://doi.org/10.1016/j.jmii.2020.02.012)<br/>
-Authors: Lai, Chih-Cheng; Liu, Yen Hung; Wang, Cheng-Yi; Wang, Ya-Hui; Hsueh, Shun-Chung; Yen, Muh-Yen; Ko, Wen-Chien; Hsueh, Po-Ren<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Microbiology, Immunology and Infection<br/>
-Match (0.6529): **In this stage of lack of effective drugs, the implementation of infection control interventions and traffic control bundle to effectively limit droplet, contact, and fomite transmission is the only way to slow the spread of the SARS-CoV-2. These infection control interventions include early identification of cases and their contacts, avoiding close contact with people with airway symptoms, appropriate hand washing, and enhanced standard infection prevention, and control practices in the healthcare setting. 47, 48 Uncertain issues**<br/>
-<br/>
-[Epidemiological research priorities for public health control of the ongoing global novel coronavirus (2019-nCoV) outbreak](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.6.2000110)<br/>
-Authors: Cowling, Benjamin J; Leung, Gabriel M<br/>
-Published: 2020-02-13 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.6310): **If and when local transmission begins in a particular location, a variety of community mitigation measures can be implemented by health authorities to reduce transmission and thus reduce the growth rate of an epidemic, reduce the height of the epidemic peak and the peak demand on healthcare services, as well as reduce the total number of infected persons [21] . A number of social distancing measures have already been implemented in Chinese cities in the past few weeks including school and workplace closures. It should now be an urgent priority to quantify the effects of these measures and specifically whether they can reduce the effective reproductive number below 1, because this will guide the response strategies in other locations. During the 1918/19 influenza pandemic, cities in the United States, which implemented the most aggressive and sustained community measures were the most successful ones in mitigating the impact of that pandemic [22] .**<br/>
-<br/>
-[A precision medicine approach to managing Wuhan Coronavirus pneumonia](https://doi.org/10.1093/pcmedi/pbaa002)<br/>
-Authors: Minjin Wang, Yanbing Zhou, Zhiyong Zong, Zongan Liang, Yu Cao, Hong Tang, Bin Song, Zixing Huang, Yan Kang, Ping Feng, Binwu Ying, Weimin Li<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Precision Clinical Medicine<br/>
-Match (0.6278): **Standard nosocomial preventive control measures are in urgent need to block further spreading of the disease. The in-hospital preventive control measures should vary among patients, close contacts, and health care workers in precision medicine approach.**<br/>
-<br/>
-[2019 novel coronavirus of pneumonia in Wuhan, China: emerging attack and management strategies](http://dx.doi.org/10.1186/s40169-020-00271-z)<br/>
-Authors: She, Jun; Jiang, Jinjun; Ye, Ling; Hu, Lijuan; Bai, Chunxue; Song, Yuanlin<br/>
-Published: 2020-02-20 00:00:00<br/>
-Publication: Clin Transl Med<br/>
-Match (0.6184): **Transmission of 2019-nCoV probably occurs through spreading airborne and contact. Aerosol and fecal-oral transmission remain unclear [24] . Public health measures, including quarantining in the community as well as timely diagnosis and strict adherence to universal precautions in health care settings [29] , were critical in reducing the transmission of 2019-nCoV.**<br/>
-<br/>
-[Distribution of the COVID-19 epidemic and correlation with population emigration from wuhan, China](https://doi.org/10.1097/CM9.0000000000000782)<br/>
-Authors: Chen, Ze-Liang; Zhang, Qi; Lu, Yi; Guo, Zhong-Min; Zhang, Xi; Zhang, Wen-Jun; Guo, Cheng; Liao, Cong-Hui; Li, Qian-Lin; Han, Xiao-Hu; Lu, Jia-Hai<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Chin Med J (Engl)<br/>
-Match (0.5941): **Wuhan. However, with the progress of the epidemic, migrants are spreading the virus to other people and are becoming an important source of local community transmission. Therefore, it is necessary to strictly implement isolation and related control measures in accordance with the guidelines. Particularly, control measures must be taken to prevent the spread of diseases in communities, which is crucial to prevent a large-scale outbreak.**<br/>
-<br/>
-[Effect of non-pharmaceutical interventions for containing the COVID-19 outbreak in China](doi.org/10.1101/2020.03.03.20029843)<br/>
-Authors: Shengjie Lai; Nick W Ruktanonchai; Liangcai Zhou; Olivia Prosper; Wei Luo; Jessica R Floyd; Amy Wesolowski; Mauricio Santillana; Chi Zhang; Xiangjun Du; Hongjie Yu; Andrew J Tatem<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5862): **As of February 28, 2020 the COVID-19 outbreak has caused 78,961 confirmed cases (2791 deaths) across China, with the majority seen in Wuhan City, and 4691 cases (67 deaths) reported in the other 51 countries. 1 Further spread has occurred to all populated continents of the World, with many anticipating that a pandemic is approaching. 2, 3 As an emerging disease, effective pharmaceutical interventions are not expected to be available for months, 4 and healthcare resources will be limited for treating all cases. Nonpharmaceutical interventions (NPIs) are therefore essential components of the public health response to outbreaks. 1, [5] [6] [7] These include isolating ill persons, contact tracing, quarantine of exposed persons, travel restrictions, school and workplace closures, and cancellation of mass gathering events. [5] [6] [7] These containment measures aim to reduce transmission, thereby delaying the timing and reducing the size of the epidemic peak, buying time for preparations in the healthcare system, and enabling the potential for vaccines and drugs to be used later on. 5 For example, social distancing measures have been effective in past influenza epidemics by curbing human-to-human transmission and reducing morbidity and mortality. [8] [9] [10] Three major NPIs have been taken to mitigate the spread and reduce the outbreak size of COVID-19 across China. 11, 12 First, inter-city travel bans or restrictions have been taken to prevent further seeding the virus during the**<br/>
-<br/>
-[Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions](https://doi.org/10.3390/jcm9020462)<br/>
-Authors: Tang, Biao; Wang, Xia; Li, Qian; Bragazzi, Nicola Luigi; Tang, Sanyi; Xiao, Yanni; Wu, Jianhong<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.5717): **By inferring the effectiveness of intervention measures, including quarantine and isolation ( Figure 1B) , we estimated the required effectiveness of these interventions in order to prevent the outbreak. **<br/>
-<br/>
-[Time-varying transmission dynamics of Novel Coronavirus Pneumonia in China](doi.org/10.1101/2020.01.25.919787)<br/>
-Authors: Liu, T.; Hu, J.; Xiao, J.; He, G.; Kang, M.; Rong, Z.; Lin, L.; Zhong, H.; Huang, Q.; Deng, A.; Zeng, W.; Tan, X.; Zeng, S.; Zhu, Z.; Li, J.; Gong, D.; Wan, D.; Chen, S.; Guo, L.; Li, Y.; Sun, L.; Liang, W.; Song, T.; He, J.; Ma, W.<br/>
-Published: 2020-02-13 00:00:00<br/>
-Match (0.5715): **Therefore, more efforts are needed to prevent the transmission in communities and other public places.**<br/>
-<br/>
-[Effect of non-pharmaceutical interventions for containing the COVID-19 outbreak in China](doi.org/10.1101/2020.03.03.20029843)<br/>
-Authors: Shengjie Lai; Nick W Ruktanonchai; Liangcai Zhou; Olivia Prosper; Wei Luo; Jessica R Floyd; Amy Wesolowski; Mauricio Santillana; Chi Zhang; Xiangjun Du; Hongjie Yu; Andrew J Tatem<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5593): **outbreak, but the efficacy of the different interventions varied, with the early case detection and contact reduction being the most effective. Moreover, deploying the NPIs early is also important to prevent further spread. Early and integrated NPI strategies should be prepared, adopted and adjusted to minimize health, social and economic impacts in affected regions around the World.**<br/>
-<br/>
-[Modeling the Comparative Impact of Individual Quarantine vs. Active Monitoring of Contacts for the Mitigation of COVID-19](doi.org/10.1101/2020.03.05.20031088)<br/>
-Authors: Corey M Peak; Rebecca Kahn; Yonatan H Grad; Lauren M Childs; Ruoran Li; Marc Lipsitch; Caroline O Buckee<br/>
-Published: 2020-03-08 00:00:00<br/>
-Match (0.5546): **In a setting where the COVID-19 case count continues to grow, resources may be prioritized for scalable community interventions such as social distancing; however, close contacts such as family members of a patient may still undergo targeted interventions. In our modeling framework, social distancing functions synergistically by reducing the reproductive number of infected individuals in the community who are not in quarantine or isolation. If social distancing reduces the reproductive number to 1.25 (e.g., 50% of person-to-person contact is removed in a setting where , active monitoring of 50% of contacts can result in overall outbreak .5) R 0 = 2 control (ie, ) ( Figure 6 ). Tracing 10%, 50%, or 90% of contacts on top of social distancing R e < 1 resulted in a median reduction in of 3.2%, 15% and 33%, respectively, for active monitoring R e and 5.8%, 32%, and 66%, respectively, for individual quarantine.**<br/>
-<br/>
+by Lai, Chih-Cheng; Liu, Yen Hung; Wang, Cheng-Yi; Wang, Ya-Hui; Hsueh, Shun-Chung; Yen, Muh-Yen; Ko, Wen-Chien; Hsueh, Po-Ren<br/>
+*Journal of Microbiology, Immunology and Infection - 2020*<br/>
+- In this stage of lack of effective drugs, the implementation of infection control interventions and traffic control bundle to effectively limit droplet, contact, and fomite transmission is the only way to slow the spread of the SARS-CoV-2.<br/>
+- These infection control interventions include early identification of cases and their contacts, avoiding close contact with people with airway symptoms, appropriate hand washing, and enhanced standard infection prevention, and control practices in the healthcare setting.<br/>
+
+[The effect of control strategies that reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China](https://doi.org/10.1101/2020.03.09.20033050)<br/>
+- In the COVID-19 outbreak in Wuhan, social distancing measures including but not limited to school and workplace closures and health promotions that encourage the general public to avoid crowded places are designed to drastically shift social mixing patterns and are often used in epidemic settings.<br/>
+- In an outbreak setting, different intervention strategies are aimed at reducing social mixing in different contexts in order to lower the overall transmission in the population.<br/>
+
+[Lessons drawn from China and South Korea for managing COVID-19 epidemic: insights from a comparative modeling study](https://doi.org/10.1101/2020.03.09.20033464)<br/>
+by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; Sanyi Tang; Yanni Xiao; Jianhong Wu<br/>
+*Mar 13, 2020*<br/>
+- However, these public health interventions may not be considered and/or implemented as effectively in other settings and contexts.<br/>
+- In the absence of effective treatments and vaccines, an early adoption of stringent public health measures is crucial in mitigating the scale and burden of an outbreak.<br/>
+
+[Modeling the Comparative Impact of Individual Quarantine vs. Active Monitoring of Contacts for the Mitigation of COVID-19](https://doi.org/10.1101/2020.03.05.20031088)<br/>
+by Corey M Peak; Rebecca Kahn; Yonatan H Grad; Lauren M Childs; Ruoran Li; Marc Lipsitch; Caroline O Buckee<br/>
+*Mar 08, 2020*<br/>
+- In such settings, resources may be prioritized for broader social distancing measures, and active monitoring or individual quarantine of high-risk contacts can contribute synergistically.<br/>
+- 2 To reduce further spread of the disease, governments have implemented community measures to increase social distancing for those at highest risk of infection.<br/>
+
+[Middle East respiratory syndrome](https://doi.org/10.1016/S0140-6736(19)33221-0)<br/>
+by Memish, Ziad A; Perlman, Stanley; Van Kerkhove, Maria D; Zumla, Alimuddin<br/>
+*The Lancet - Mar 04, 2020*<br/>
+- The prevention of transmission of MERS-CoV in the community and in health-care settings is crucial to preventing outbreaks and further spread.<br/>
+
+[2019 novel coronavirus of pneumonia in Wuhan, China: emerging attack and management strategies](https://doi.org/10.1186/s40169-020-00271-z)<br/>
+by She, Jun; Jiang, Jinjun; Ye, Ling; Hu, Lijuan; Bai, Chunxue; Song, Yuanlin<br/>
+*Clin Transl Med - Feb 20, 2020*<br/>
+- Public health measures, including quarantining in the community as well as timely diagnosis and strict adherence to universal precautions in health care settings, were critical in reducing the transmission of 2019-nCoV.<br/>
+
+[Clinical features and sexual transmission potential of SARS-CoV-2 infected female patients: a descriptive study in Wuhan, China](https://doi.org/10.1101/2020.02.26.20028225)<br/>
+by Pengfei Cui; Zhe Chen; Tian Wang; Jun Dai; Jinjin Zhang; Ting Ding; Jingjing Jiang; Jia Liu; Cong Zhang; Wanying Shan; Sheng Wang; Yueguang Rong; Jiang Chang; Xiaoping Miao; Xiangyi Ma; Shixuan Wang<br/>
+*Feb 27, 2020*<br/>
+- Therefore, based on the transmission route of SARS-CoV, current preventive measures, including maintaining good personal and environmental health, and implementing strict contact and droplet prevention measures in the community, can effectively prevent the spread of SARS-CoV 6 .<br/>
+
 # Effectiveness of personal protective equipment (PPE) and its usefulness to reduce risk of transmission in health care and community settings
 
-[First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures, January 2020](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.6.2000094)<br/>
-Authors: Bernard Stoecklin, Sibylle; Rolland, Patrick; Silue, Yassoungo; Mailles, Alexandra; Campese, Christine; Simondon, Anne; Mechain, Matthieu; Meurice, Laure; Nguyen, Mathieu; Bassi, Clément; Yamani, Estelle; Behillil, Sylvie; Ismael, Sophie; Nguyen, Duc; Malvy, Denis; Lescure, François Xavier; Georges, Scarlett; Lazarus, Clément; Tabaï, Anouk; Stempfelet, Morgane; Enouf, Vincent; Coignard, Bruno; Levy-Bruhl, Daniel<br/>
-Published: 2020-02-13 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.7562): **COVID-19: coronavirus disease 2019; PPE: personal protective equipment.**<br/>
-<br/>
+[Policies on the use of Respiratory Protection for Hospital Health Workers to Protect from Coronavirus Disease (COVID-19)](https://doi.org/10.1016/j.ijnurstu.2020.103567)<br/>
+by Chughtai, Abrar A.; Seale, Holly; Islam, Md Saiful; Owais, Mohammad; Macintyre, C. Raina<br/>
+*International Journal of Nursing Studies - Mar 13, 2020*<br/>
+- All guidelines however highlight the importance of training for respiratory (and other personal protective equipment) use.<br/>
+- As drugs or vaccines are not yet available, various non-pharmaceutical measures have been recommended to reduce the spread of infection, including hygiene and disinfection, improving environmental control, early detection and reporting, isolation, quarantine, use of personal protective equipment , social distancing and travel restrictions (2, 3) .<br/>
+- There should be a uniform policy around the use of personal protective equipment to avoid confusion which places occupational health and safety of health workers as a high priority.<br/>
+
+[Outbreak of a new coronavirus: what anaesthetists should know](https://doi.org/10.1016/j.bja.2020.02.008)<br/>
+by Peng, Philip W.H.; Ho, Pak-Leung; Hota, Susy S.<br/>
+*British Journal of Anaesthesia - Feb 27, 2020*<br/>
+- A good knowledge of infection prevention and control, vigilance in protective measures, strict adhesion of donning and doffing of PPE, and preparedness for the care of infected patients are of utmost importance.<br/>
+- 15 Concerns were raised about infections in healthcare workers despite apparently appropriate personal protective equipment (PPE).<br/>
+- Strict adherence to the use of PPE, including procedure mask, eye protection, gown, and gloves, is highly effective in limiting droplet and contact transmission.<br/>
+
+[Exploring the reasons for healthcare workers infected with novel coronavirus disease 2019 (COVID-19) in China](https://doi.org/10.1016/j.jhin.2020.03.002)<br/>
+by Wang, Jiancong; Zhou, Mouqing; Liu, Fangfei<br/>
+*Journal of Hospital Infection - Mar 06, 2020*<br/>
+- The increase of awareness of personal protection, sufficient PPE, and proper preparedness and response would play an important role in lowering the risk of infection for healthcare workers.<br/>
+- During the periods of outbreak of COVID-19 or other infectious diseases, implementations of infection prevention and control (IPC) becomes a great importance in healthcare settings, particularly the great importance of personal protection of healthcare workers.<br/>
+
+[Aerodynamic Characteristics and RNA Concentration of SARS-CoV-2 Aerosol in Wuhan Hospitals during COVID-19 Outbreak](https://doi.org/10.1101/2020.03.08.982637)<br/>
+by Liu, Y.; Ning, Z.; Chen, Y.; Guo, M.; Liu, Y.; Gali, N. K.; Sun, L.; Duan, Y.; Cai, J.; Westerdahl, D.; Liu, X.; Ho, K.-f.; Kan, H.; Fu, Q.; Lan, K.<br/>
+*Mar 10, 2020*<br/>
+- ventilation and sterilization), as a potential spread source of coronavirus with relatively high risk caused by aerosolization of virus and contamination of surfaces after use; 2) for the general public, the proper use of personal protection measures, such as wearing masks and avoiding busy crowds; 3) the effective sanitization of the high risk area and the use of high level protection masks for medical staff with direct contact with the COVID-19 patients or with long stay in high risk area; 4) the renovation of large stadiums as field hospitals with nature ventilation and protective measures is an effective approach to quarantine and treat mild symptom patients so as to reduce the COVID-19 transmission among the public; 5) the virus may be resuspended from the contaminated protective apparel surface to the air while taking off and from the floor surface with the movement of medical staff.<br/>
+- Personal protection equipment such as wearing masks in public places or while in transit may reduce aerosol exposure and transmission.<br/>
+
+[Epidemiological research priorities for public health control of the ongoing global novel coronavirus (2019-nCoV) outbreak](https://doi.org/10.2807/1560-7917.ES.2020.25.6.2000110)<br/>
+by Cowling, Benjamin J; Leung, Gabriel M<br/>
+*Euro Surveill - Feb 13, 2020*<br/>
+- Face masks are essential components of personal protective equipment in healthcare settings, and should be recommended for ill persons in the community or for those who care for ill persons.<br/>
+- Identifying which modes are important for 2019-nCoV transmission would inform the importance of personal protective measures such as face masks (and specifically which types) and hand hygiene.<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- c) Training in the use of personal protective equipment protects the safety of HCWs.<br/>
+
+[Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection](https://doi.org/10.1101/2020.03.15.20035360)<br/>
+by Vageesh Jain; Jin-Min Yuan<br/>
+*Mar 16, 2020*<br/>
+- These include infection control decisions regarding the limited availability of isolation rooms and personal protective equipment (PPE), particularly in more resource-constrained settings.<br/>
+
 [First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures, January 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.6.2000094)<br/>
-Authors: Stoecklin, Sibylle Bernard; Rolland, Patrick; Silue, Yassoungo; Mailles, Alexandra; Campese, Christine; Simondon, Anne; Mechain, Matthieu; Meurice, Laure; Nguyen, Mathieu; Bassi, Clément; Yamani, Estelle; Behillil, Sylvie; Ismael, Sophie; Nguyen, Duc; Malvy, Denis; Lescure, François Xavier; Georges, Scarlett; Lazarus, Clément; Tabaï, Anouk; Stempfelet, Morgane; Enouf, Vincent; Coignard, Bruno; Levy-Bruhl, Daniel; team, Investigation<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Eurosurveillance<br/>
-Match (0.7562): **COVID-19: coronavirus disease 2019; PPE: personal protective equipment.**<br/>
-<br/>
-[Facemask shortage and the coronavirus disease (COVID-19) outbreak: Reflection on public health measures](doi.org/10.1101/2020.02.11.20020735)<br/>
-Authors: Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
-Published: 2020-02-12 00:00:00<br/>
-Match (0.7090): **The World Health Organization's (WHO) guidance on prevention and control of the COVID-19 outbreak recommends hand, and respiratory hygiene and the use of appropriate personal protective equipment for healthcare workers in practice and patients with suspected SARS-CoV-2 infection should be offered a medical mask 8 . Regarding the respiratory hygiene measures, facemask wearing is considered as one of the most cost-effective and important measures to prevent the transmission of SARS-CoV-2, but it became a social concern due to the recent global facemask shortage 9-12 .**<br/>
-<br/>
-[Novel coronavirus infection during the 2019–2020 epidemic: preparing intensive care units—the experience in Sichuan Province, China](https://doi.org/10.1007/s00134-020-05954-2)<br/>
-Authors: Liao, Xuelian; Wang, Bo; Kang, Yan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Intensive Care Medicine<br/>
-Match (0.6632): **It is very important to make all staff aware of the public health significance of the epidemic, and of potential challenges in achieving disease control. Strict isolation and protection measures are a top priority. Training content Fig. 1 Early warning score and rules for 2019-nCoV infected patients. *CCRRT: Critical Care Rapid Response Team includes hand and respiratory hygiene, use of PPE, safe waste management, environmental cleaning, and sterilization of patient-care equipment [6] . We educate and train staff by means of presentations, short videos, WeChat, and supervision to ensure that staff are following the correct procedures.**<br/>
-<br/>
-[Breaking down of healthcare system: Mathematical modelling for controlling the novel coronavirus (2019-nCoV) outbreak in Wuhan, China](doi.org/10.1101/2020.01.27.922443)<br/>
-Authors: Ming, W.-k.; Huang, J.; Zhang, C. J. P.<br/>
-Published: 2020-01-30 00:00:00<br/>
-Match (0.6490): **Operational issues associated with wearing disposable facemasks to maximise their preventive effectiveness should be also publicised and educated to the general public including correct ways of wearing facemask, hygiene practices across the procedure of mask wearing, disposal of used masks.**<br/>
-<br/>
-[2019 novel coronavirus of pneumonia in Wuhan, China: emerging attack and management strategies](http://dx.doi.org/10.1186/s40169-020-00271-z)<br/>
-Authors: She, Jun; Jiang, Jinjun; Ye, Ling; Hu, Lijuan; Bai, Chunxue; Song, Yuanlin<br/>
-Published: 2020-02-20 00:00:00<br/>
-Publication: Clin Transl Med<br/>
-Match (0.6152): **For healthcare personnel, to minimize the chance of exposures to 2019-nCoV needs to follow the standard of contact and airborne precautions, personal protection including gloves, gowns, respiratory protection, eye protection, and hand hygiene. Some procedures performed on 2019-nCoV infected patients could generate infectious aerosols, e.g., nasopharyngeal specimen collection, sputum induction, and open suctioning of airways should be performed cautiously. If performed, these procedures should take place in an airborne infection isolation room, and personnel should use respiratory and eye protection, and hand hygiene [30] . In addition, management of environmental infection control including laundry, food service utensils, and medical waste should also be performed. Artificial Intelligence (AI), alternative selection to reducing infection for medical personnel, should be explored (Joint developed by Respiratory Research Institution of Zhongshan Hospital, Fudan University and RealMax Ltd Co), which will be benefit for remote guidance of practices.**<br/>
-<br/>
-[Epidemiological research priorities for public health control of the ongoing global novel coronavirus (2019-nCoV) outbreak](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.6.2000110)<br/>
-Authors: Cowling, Benjamin J; Leung, Gabriel M<br/>
-Published: 2020-02-13 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.6093): **At the individual level, surgical face masks have often been a particularly visible image from affected cities in China. Face masks are essential components of personal protective equipment in healthcare settings, and should be recommended for ill persons in the community or for those who care for ill persons. However, there is now a shortage of supply of masks in China and elsewhere, and debates are ongoing about their protective value for uninfected persons in the general community.**<br/>
-<br/>
-[Revisiting the dangers of the coronavirus in the ophthalmology practice](https://doi.org/10.1038/s41433-020-0790-7)<br/>
-Authors: Seah, Ivan; Su, Xinyi; Lingam, Gopal<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Eye<br/>
-Match (0.6013): **In view of the potential threat in the ophthalmology practice, it may be prudent to revisit the strategies that successfully curbed the transmission of SARS in 2003 [10] . With particular relevance to the ophthalmic practice, it may be beneficial to triage patients according to produced surveillance case definitions [11] . In 2003, the WHO launched a case classification scheme which triaged patients into general, suspect and probable categories. Ophthalmology practices in Hongkong, a country badly hit by SARS, recommended the full PPE for all cases regardless of SARS status. For suspect and probable cases, appointments were recommended to be deferred unless in the event of an ophthalmic emergency. These patients were seen in an isolation ward. An emphasis on hand hygiene measures and stocking up of PPE such as N95 masks, gloves, gowns and googles should also be considered while the mode of transmission is being identified. Decontamination and sterilisation protocols of clinical rooms and equipment should also be improved on as coronaviruses have been found to survive in environments outside the body for a long time [12] . For instance, it is still not established if higher concentrations of dilute bleach (1:10), a chemical used to sterilise the Goldmann applanation tonometer, can be utilised to eliminate coronaviruses [13] . Other shared equipment like the B-scan probe and contact lenses for photocoagulation will also need strict sterilisation protocols. Finally, the reduction of non-urgent ophthalmic operations should also be considered as the risk of viral transmission may outweigh the surgical benefits. For emergency operations, full PPE can be considered to reduce the probability of healthcare transmission.**<br/>
-<br/>
-[Transmission routes of 2019-nCoV and controls in dental practice](https://doi.org/10.1038/s41368-020-0075-9)<br/>
-Authors: Peng, Xian; Xu, Xin; Li, Yuqing; Cheng, Lei; Zhou, Xuedong; Ren, Biao<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Oral Science<br/>
-Match (0.5967): **Personal protective measures for the dental professionals At present, there is no specific guideline for the protection of dental professionals from 2019-nCoV infection in the dental clinics and hospitals. Although no dental professional has been reported to acquire 2019-nCoV infection to the date the paper was drafted, the last experience with the SARS coronavirus has shown vast numbers of acquired infection of medical professionals in hospital settings 57 . Since airborne droplet transmission of infection is considered as the main route of spread, particularly in dental clinics and hospitals, barrier-protection equipment, including protective eyewear, masks, gloves, caps, face shields, and protective outwear, is strongly recommended for all healthcare givers in the clinic/hospital settings during the epidemic period of 2019-nCoV.**<br/>
-<br/>
-[Proposal for prevention and control of the 2019 novel coronavirus disease in newborn infants](https://doi.org/10.1136/archdischild-2020-318996)<br/>
-Authors: Li, F.; Feng, Z. C.; Shi, Y.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Archives of disease in childhood. Fetal and neonatal edition<br/>
-Match (0.5883): **After admission, the following prevention and control strategies should be adequately performed. Protective equipment including hats, goggles, long-sleeved protective suits, gloves and medical masks must be available for all medical staff. Minimal number of people in the isolated area and the necessary operation clusters are preferred. Avoid breast feeding from COVID-19 mother until recovery. Strict hand hygiene and disinfecting environment protocol are required.**<br/>
-<br/>
+by Stoecklin, Sibylle Bernard; Rolland, Patrick; Silue, Yassoungo; Mailles, Alexandra; Campese, Christine; Simondon, Anne; Mechain, Matthieu; Meurice, Laure; Nguyen, Mathieu; Bassi, Clément; Yamani, Estelle; Behillil, Sylvie; Ismael, Sophie; Nguyen, Duc; Malvy, Denis; Lescure, François Xavier; Georges, Scarlett; Lazarus, Clément; Tabaï, Anouk; Stempfelet, Morgane; Enouf, Vincent; Coignard, Bruno; Levy-Bruhl, Daniel; team, Investigation<br/>
+*Eurosurveillance - 2020*<br/>
+- COVID-19: coronavirus disease 2019; PPE: personal protective equipment.<br/>
+
+[First known person-to-person transmission of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in the USA](https://doi.org/10.1016/S0140-6736(20)30607-3)<br/>
+by Ghinai, Isaac; McPherson, Tristan D; Hunter, Jennifer C; Kirking, Hannah L; Christiansen, Demian; Joshi, Kiran; Rubin, Rachel; Morales-Estrada, Shirley; Black, Stephanie R; Pacilli, Massimo; Fricchione, Marielle J; Chugh, Rashmi K; Walblay, Kelly A; Ahmed, N Seema; Stoecker, William C; Hasan, Nausheen F; Burdsall, Deborah P; Reese, Heather E; Wallace, Megan; Wang, Chen; Moeller, Darcie; Korpics, Jacqueline; Novosad, Shannon A; Benowitz, Isaac; Jacobs, Max W; Dasari, Vishal S; Patel, Megan T; Kauerauf, Judy; Charles, E Matt; Ezike, Ngozi O; Chu, Victoria; Midgley, Claire M; Rolfes, Melissa A; Gerber, Susan I; Lu, Xiaoyan; Lindstrom, Stephen; Verani, Jennifer R; Layden, Jennifer E<br/>
+*The Lancet - Mar 13, 2020*<br/>
+- Facemasks or other personal protective equipment (PPE) were not used at the home.<br/>
+
+[Behavioral considerations and impact on personal protective equipment (PPE) use: Early lessons from the coronavirus (COVID-19) outbreak](https://doi.org/10.1016/j.jaad.2020.03.013)<br/>
+by Kantor, Jonathan<br/>
+*Journal of the American Academy of Dermatology - Mar 01, 2020*<br/>
+- Behavioral considerations and impact on personal protective equipment (PPE) use: Early lessons from the coronavirus (COVID-19) outbreak<br/>
+
 # Role of the environment in transmission
-[The role of absolute humidity on transmission rates of the COVID-19 outbreak](doi.org/10.1101/2020.02.12.20022467)<br/>
-Authors: Wei Luo; Maimuna S Majumder; Dianbo Liu; Canelle Poirier; Kenneth D Mandl; Marc Lipsitch; Mauricio Santillana<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.6220): **In addition to population mobility and human-to-human contact, environmental factors can impact droplet transmission and survival of viruses (e.g., influenza) but have not yet been examined for this novel pathogen. Absolute humidity, defined as the water content in ambient air, has been found to be a strong environmental determinant of other viral transmissions (4, 5) . For example, influenza viruses survive longer on surfaces or in droplets in cold and dry air -increasing the likelihood of subsequent transmission. Thus, it is key to understand the effects of environmental factors on the ongoing outbreak to support decision-making pertaining to disease control. Especially in locations where the risk of transmission may have been underestimated, such as in humid and warmer locations.**<br/>
-<br/>
-[Closed environments facilitate secondary transmission of coronavirus disease 2019 (COVID-19)](doi.org/10.1101/2020.02.28.20029272)<br/>
-Authors: <br/>
-Published: 2020-03-03 00:00:00<br/>
-Match (0.6058): **Closed environments facilitate secondary transmission of coronavirus disease 2019 (COVID-19)**<br/>
-<br/>
-[Clinical Data on Hospital Environmental Hygiene Monitoring and Medical Staff Protection during the Coronavirus Disease 2019 Outbreak](doi.org/10.1101/2020.02.25.20028043)<br/>
-Authors: Yanfang Jiang; Haifeng Wang; Yukun Chen; Jiaxue He; Liguo Chen; Yong Liu; Xinyuan Hu; Ang Li; Siwen Liu; Peng Zhang; Hongyan Zou; Shucheng Hua<br/>
-Published: 2020-02-27 00:00:00<br/>
-Match (0.5431): **The outbreak of COVID-19 in Wuhan in December 2019 has led to a serious public 69 health event [1] [2] [3] . Meanwhile, the outbreak of this novel virus has placed 70 unprecedented challenges on hospital environmental hygiene. The occurrence of 71 medical staff-associated infections is closely related to long-lived pathogens in the 72 hospital environment [4, 5] . Thus, it is crucial to assess hospital environmental hygiene 73 to understand the most important environmental issues for controlling the spread of 74 COVID-19 in hospitals. The Chinese government quickly adopted quarantine 75 measures for confirmed and suspected patients to restrain the spread of the 76 pandemic [6] . Comprehensive monitoring of hospital environmental hygiene during the 77 outbreak of the pandemic is conducive to the refinement of hospital infection control 78 [5, 7] . It also increases understanding of the environmental challenges corresponding to 79 the reemergence of COVID-19 or similar viruses. Therefore, it is of great significance 80 to ensure the safety of medical treatment and the quality of hospital infection control 81 through the monitoring of environmental hygiene. According to a report from the The environmental monitoring methods referenced the hospital sanitation standards 106 (GB15982-2012). All air was collected by two methods: natural sedimentation [9] and 107 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[A new transmission route for the propagation of the SARS-CoV-2 coronavirus](doi.org/10.1101/2020.02.14.20022939)<br/>
-Authors: Antoine Danchin; Tuen Wai Patrick Ng; Gabriel TURINICI<br/>
-Published: 2020-02-18 00:00:00<br/>
-Match (0.5404): **A secondary propagation route Due to the versatility of the virus, in addition to interfering with the immune response, contagion may involve a variety of causes, such as environments contaminated with virus carrier secretions, dirty water effluents, besides the expected direct contamination via aerosols. This makes that the oro-fecal route should be considered as an important complement of contact with the virus (recent information sustains this hypothesis 11 ).This was observed at the Amoy Gardens cluster of cases for SARS 12, 13 . This observation prompted us to include in our model, besides the major respiratory route, a secondary propagation route, which is not a direct human-to-human propagation but rather some indirect vector (or environment element) to/from human. A second important consequence of assuming the presence of an indirect route is that the selection pressure on virus mutants will differ considerably between lung tropism and gut tropism. Finally, there may be a difference in incubation time, the -gut tropism‖ version of the virus would possibly cause less fever 14 . This hypothesis is consistent with some propagation patterns, e.g. the first case in Macau, which was not detected at the border, implying that that the affected person did not have fever. We should note that this makes the disease considerably more dangerous in terms of propagation because carriers are, at least for some time "invisible" and display a risky behavior 15, 16 .**<br/>
-<br/>
-[The novel Coronavirus (SARS-CoV-2) is a one health issue](https://doi.org/10.1016/j.onehlt.2020.100123)<br/>
-Authors: Marty, Aileen Maria; Jones, Malcolm K.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: One Health<br/>
-Match (0.4688): **One Health approaches attempt to strategize the coordinated efforts of multiple overlapping disciplines [19] , including environmental surveillance and environmental health. Primary components of the approach lie in animal health and environmental aspects. At the time of writing, the host from which the SARS-CoV-2 entered the human population is unknown although the suspicion is that food markets are likely sources for the original spillover. While the search for the natural host highly implicates bats [21] , search for the intermediary host, if any, is ongoing with the suggestions of the pangolin as a host far from certain. While it is premature to implicate any one particular urban source or natural host, the ensuing search will give insight into pathogens with potential to cross over into human transmission. This approach of environmental surveillance forms part of the PREDICT strategy [20] for detecting viruses with potential for spillover into human.**<br/>
-<br/>
-[Potential Factors Influencing Repeated SARS Outbreaks in China](https://doi.org/10.3390/ijerph17051633)<br/>
-Authors: Sun, Zhong; Thilakavathy, Karuppiah; Kumar, S. S.; He, Guozhong; Liu, V. Shi<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Environmental Research and Public Health<br/>
-Match (0.4683): **This mini-review evaluated the common epidemiological patterns of both SARS epidemics in China and identified cold, dry winter as a common environmental condition conducive for SARS virus infection to human beings. Thus, meteorological information should be integrated into future forecast of potential outbreak of new SARS. The identification of bats as very likely natural hosts for SARS-CoVs and consideration of some other wild animals as potential intermediate hosts leads to a prevention requirement of protecting natural ecosystem and prohibiting consumption of wildlife. The presentation of different scenarios of SARS outbreaks points to some urgency in identifying the true origin(s) of SARS-CoVs and establishing more comprehensive anti-infection measures that will resist any kind of viral assault.**<br/>
-<br/>
-[Population movement, city closure and spatial transmission of the 2019-nCoV infection in China](doi.org/10.1101/2020.02.04.20020339)<br/>
-Authors: Siqi Ai; Guanghu Zhu; Fei Tian; Huan Li; Yuan Gao; Yinglin Wu; Qiyong Liu; Hualiang Lin<br/>
-Published: 2020-02-05 00:00:00<br/>
-Match (0.4598): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.02.04.20020339 doi: medRxiv preprint play an important role in slowing the epidemic spread, especially when an effective 281 vaccine was developed (26, 27). In addition, to explore the impact of date selection, 282**<br/>
-<br/>
-[Potential Factors Influencing Repeated SARS Outbreaks in China](https://doi.org/10.3390/ijerph17051633)<br/>
-Authors: Sun, Zhong; Thilakavathy, Karuppiah; Kumar, S. S.; He, Guozhong; Liu, V. Shi<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Environmental Research and Public Health<br/>
-Match (0.4586): **SARS-CoV-2 has entered human communities, and eliminating virus from human bodies does not means its eradication in nature. The risk of SARS-CoV-2 infection will remain for a long time. Thus, adequate cautions must be taken for safe-guarding against future outbreaks of SARS. The prevention can be achieved by implementing a multi-facet system that considers both natural and social aspects of the SARS epidemiology discussed earlier. For example, regular surveillance of viral status in nature should be carried out to monitor the variation/evolution and abundance/localization of the virus. This information may be served as an early warning and used for preparation of potential vaccines. The government should issue laws and policies to tighten protection of wildlife and prohibit consumption of wild animals. A grass-roots and transparent reporting system should be established and put into public use for reporting any case of confirmed or suspected human infection. The disease-reporting system should be organically synchronized with the meteorological system so that adverse environmental conditions conducive for viral infection on human beings can be forecasted and macro-scale preparations can be made in case an emergency occurs. Finally, but not lastly, in developing human society including building massive constructions for residence and transportation, potential ecological impact on wildlife and possible consequences of breaking natural balance of the ecosystems should be carefully evaluated.**<br/>
-<br/>
-[Science in the fight against the novel coronavirus disease](https://doi.org/10.1097/CM9.0000000000000777)<br/>
-Authors: Wang, Jian-Wei; Cao, Bin; Wang, Chen<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Chin Med J (Engl)<br/>
-Match (0.4571): **Scientific research is of vital importance for tackling emerging infectious diseases and developing effective intervention methods. The spread of infectious diseases is affected not only by the biological characteristics of the pathogen but also by various other factors such as politics, culture, economy, and the environment. Multidisciplinary research in biomedical, social, and environmental sciences is required to achieve a deeper understanding of disease transmission and develop more effective systems for emergency response.**<br/>
-<br/>
-[Epidemiological research priorities for public health control of the ongoing global novel coronavirus (2019-nCoV) outbreak](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.6.2000110)<br/>
-Authors: Cowling, Benjamin J; Leung, Gabriel M<br/>
-Published: 2020-02-13 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.4543): **Chains of transmission have now been reported in a number of locations outside of mainland China. Within the coming days or weeks it will become clear whether sustained local transmission has been occurring in other cities outside of Hubei province in China, or in other countries. If sustained transmission does occur in other locations, it would be valuable to determine whether there is variation in transmissibility by location, for example because of different behaviours or control measures, or because of different environmental conditions. To address the latter, virus survival studies can be done in the laboratory to confirm whether there are preferred ranges of temperature or humidity for 2019-nCoV transmission to occur.**<br/>
-<br/>
+[Enteric involvement of coronaviruses: is faecal–oral transmission of SARS-CoV-2 possible?](https://doi.org/10.1016/S2468-1253(20)30048-0)<br/>
+by Yeo, Charleen; Kaushal, Sanghvi; Yeo, Danson<br/>
+*The Lancet Gastroenterology & Hepatology - Apr 30, 2020*<br/>
+- The viability of SARS-CoV and MERS-CoV under various conditions and their prolonged presence in the environment suggest the potential for coronaviruses to be transmitted via contact or fomites.<br/>
+- 2 Data exist to support the notion that SARS-CoV and MERS-CoV are viable in environmental conditions that could facilitate faecal-oral transmission.<br/>
+- Although direct droplet transmission is an important route of transmission, faecal excretion, environmental contamination, and fomites might contribute to viral transmission.<br/>
+- Future research on the possibility of faecal-oral transmission of SARS-CoV-2 should include environmental studies to determine whether the virus remains viable in conditions that would favour such transmission.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Cross-species transmission plays an important role in the emergence of viral diseases (Parrish et al., 2008) .<br/>
+- Some important characteristics of bats have been linked to their roles in the maintenance and transmission of viruses.<br/>
+- These include changes of the pathogens through evolution, changes in the way human populations interact with each other, and with their environment.<br/>
+
+[Interrupting COVID-19 transmission by implementing enhanced traffic control bundling: implications for global prevention and control efforts](https://doi.org/10.1016/j.jmii.2020.03.011)<br/>
+by Yen, Muh-Yong; Schwartz, Jonathan; Chen, Shey-Ying; King, Chwan-Chuen; Yang, Guang-Yang; Hsueh, Po-Ren<br/>
+*Journal of Microbiology, Immunology and Infection - Mar 14, 2020*<br/>
+- The WHO's initial focus was on managing droplet and contact transmission, but it has since recognized the role fomites play as well.<br/>
+- Consequently, during the community saturation phase, fomite transmission may play a larger role than droplet transmission as a mechanism in emergent infectious diseases.<br/>
+
+[Characterizing the transmission and identifying the control strategy for COVID-19 through epidemiological modeling](https://doi.org/10.1101/2020.02.24.20026773)<br/>
+by Ke K. Zhang; Linglin Xie; Lauren Lawless; Huijuan Zhou; Guannan Gao; Chengbin Xue<br/>
+*Feb 25, 2020*<br/>
+- It is believed that an enclosed and crowded environment is favorable for coronavirus transmission, however the epidemiological data is lacking.<br/>
+- In an enclosed and crowded environment, the transmission of SARS-CoV-2 was thought to significantly increase.<br/>
+
+[The SARS-CoV-2 outbreak from a one health perspective](https://doi.org/10.1016/j.onehlt.2020.100127)<br/>
+by Hemida, Maged Gomaa; Ba Abduallah, Mohammed M.<br/>
+*One Health - Mar 16, 2020*<br/>
+- The asymptomatic individuals may play essential roles in the spread of the virus within a specific community.<br/>
+- In the light of the One Health concept, control of this emerging virus requires the reduction of the viral shedding to the environment from the main reservoirs, for animal-person transmission and from humans for person-person transmission.<br/>
+
+[A new transmission route for the propagation of the SARS-CoV-2 coronavirus](https://doi.org/10.1101/2020.02.14.20022939)<br/>
+by Antoine Danchin; Tuen Wai Patrick Ng; Gabriel TURINICI<br/>
+*Feb 18, 2020*<br/>
+- Elaborating on the behavior of previous coronavirus outbreaks, we worked out the hypothesis that an alternative infection tropism (the gut tropism) linked to a secondary propagation route (through environment) is affecting the development of the present 2019-nCoV epidemic.<br/>
+- A secondary propagation route Due to the versatility of the virus, in addition to interfering with the immune response, contagion may involve a variety of causes, such as environments contaminated with virus carrier secretions, dirty water effluents, besides the expected direct contamination via aerosols.<br/>
+
+[Guide to Understanding the 2019 Novel Coronavirus](https://doi.org/10.1016/j.mayocp.2020.02.003)<br/>
+by Shah, Aditya; Kashyap, Rahul; Tosh, Pritish; Sampathkumar, Priya; O’Horo, John C.<br/>
+*Mayo Clinic Proceedings - Feb 28, 2020*<br/>
+- There is concern that airborne transmission may also be playing a role.<br/>
+
+[Infection Dynamics of Coronavirus Disease 2019 (Covid-19) Modeled with the Integration of the Eyring Rate Process Theory and Free Volume Concept](https://doi.org/10.1101/2020.02.26.20028571)<br/>
+by Tian Hao<br/>
+*Feb 29, 2020*<br/>
+- The energy barrier for human to move has played a critical role in disease transmissions.<br/>
+
+[Modeling and Prediction of the 2019 Coronavirus Disease Spreading in China Incorporating Human Migration Data](https://doi.org/10.1101/2020.02.18.20024570)<br/>
+by Choujun Zhan; Chi K. Tse; Yuxia Fu; Zhikang Lai; Haijun Zhang<br/>
+*Feb 20, 2020*<br/>
+- Furthermore, climate factors may also play a role in the epidemic spreading.<br/>
+
+[Clinical Data on Hospital Environmental Hygiene Monitoring and Medical Staff Protection during the Coronavirus Disease 2019 Outbreak](https://doi.org/10.1101/2020.02.25.20028043)<br/>
+by Yanfang Jiang; Haifeng Wang; Yukun Chen; Jiaxue He; Liguo Chen; Yong Liu; Xinyuan Hu; Ang Li; Siwen Liu; Peng Zhang; Hongyan Zou; Shucheng Hua<br/>
+*Feb 27, 2020*<br/>
+- Thus, it is crucial to assess hospital environmental hygiene 73 to understand the most important environmental issues for controlling the spread of 74 COVID-19 in hospitals.<br/>
+

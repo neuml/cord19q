@@ -1,1092 +1,1285 @@
 # How widespread current exposure is to be able to make immediate policy recommendations on mitigation measures. Denominators for testing and a mechanism for rapidly sharing that information, including demographics, to the extent possible. Sampling methods to determine asymptomatic disease (e.g., use of serosurveys (such as convalescent samples) and early detection of disease (e.g., use of screening of neutralizing antibodies such as ELISAs).
 
 [Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
-Authors: Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.5460): **Serological testing such as ELISA, IIFT and neutralization tests are effective in determining the extent of infection, including estimating asymptomatic and attack rate. Compared to the detection of viral genome through molecular methods, serological testing detects antibodies and antigens. There would be a lag period as antibodies specifically targeting the virus would normally appear between 14 and 28 days after the illness onset [108] . Furthermore, studies suggest that low antibody titers in the second week or delayed antibody production could be associated with mortality with a high viral load. Hence, serological diagnoses are likely used when nucleic amplification tests (NAAT) are not available or accessible [102] .**<br/>
-<br/>
-[Serological detection of 2019-nCoV respond to the epidemic: A useful complement to nucleic acid testing](doi.org/10.1101/2020.03.04.20030916)<br/>
-Authors: Jin Zhang; Jianhua Liu; Na Li; Yong Liu; Rui Ye; Xiaosong Qin; Rui Zheng<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5445): **Serological detection of 2019-nCoV respond to the epidemic: A useful complement to nucleic acid testing**<br/>
-<br/>
-[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
-Authors: Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.5426): **The key limitations of genetic material detection are the lack of knowledge of the presence of viable virus, the potential cross-reactivity with non-specific genetic regions and the short timeframe for accurate detection during the acute infection phase. The key limitations of serological testing is the need to collect paired serum samples (in the acute and convalescent phases) from cases under investigation for confirmation to eliminate potential cross-reactivity from non-specific antibodies from past exposure and/or infection by other coronaviruses. The limitation of virus culture and isolation is the long duration and the highly specialized skills required of the technicians to process the samples. All patients recovered.**<br/>
-<br/>
-[From SARS to COVID-19: A previously unknown SARS-CoV-2 virus of pandemic potential infecting humans – Call for a One Health approach](https://doi.org/10.1016/j.onehlt.2020.100124)<br/>
-Authors: El Zowalaty, Mohamed E.; Järhult, Josef D.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: One Health<br/>
-Match (0.5041): **SARS-CoV-2 can cause asymptomatic to fatal respiratory diseases [36] . Asymptomatic to mild COVID-19 infections can go unnoticed and there may be a lack of seroconversion among nucleic acid PCR-confirmed cases which requires further serosurveillance studies. Evaluation of the serologic response of SARS-CoV-2 infected patients according to the disease severity will help determine the potential role of serodiagnostic parameters as prognostic markers. The development of accurate and robust serological assay will help determine the accurate SARS-CoV-2 prevalence.**<br/>
-<br/>
-[Therapeutic strategies in an outbreak scenario to treat the novel coronavirus originating in Wuhan, China [version 2; peer review: 2 approved]](https://doi.org/10.12688/f1000research.22211.2)<br/>
-Authors: Kruse, Robert L.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: F1000Research<br/>
-Match (0.4858): **An alternative strategy of generating neutralizing antibodies against 2019-nCoV S protein would be to immunize large animals (sheep, goat, cow) with the 2019-nCoV S protein, and then purifying polyclonal antibodies from the animals 20 . This strategy may serve an expedited service in the setting of an outbreak and has many advantages such as simplifying production and manufacturing, but has limited guarantees that each animal would produce neutralizing antisera, or what the antibody titer would be in each animal 21 . Moreover, there is also the human immune response against foreign immunoglobulins to other species, which would potentially complicate any treatment scenarios 22 . In a truly desperate scenario, this strategy may be viable for a short-term, but would not easily scale in the 2019-nCoV outbreak, which is already rapidly multiplying.**<br/>
-<br/>
-[Therapeutic strategies in an outbreak scenario to treat the novel coronavirus originating in Wuhan, China](http://dx.doi.org/10.12688/f1000research.22211.2)<br/>
-Authors: Kruse, Robert L.<br/>
-Published: 2020-02-07 00:00:00<br/>
-Publication: F1000Res<br/>
-Match (0.4858): **An alternative strategy of generating neutralizing antibodies against 2019-nCoV S protein would be to immunize large animals (sheep, goat, cow) with the 2019-nCoV S protein, and then purifying polyclonal antibodies from the animals 20 . This strategy may serve an expedited service in the setting of an outbreak and has many advantages such as simplifying production and manufacturing, but has limited guarantees that each animal would produce neutralizing antisera, or what the antibody titer would be in each animal 21 . Moreover, there is also the human immune response against foreign immunoglobulins to other species, which would potentially complicate any treatment scenarios 22 . In a truly desperate scenario, this strategy may be viable for a short-term, but would not easily scale in the 2019-nCoV outbreak, which is already rapidly multiplying.**<br/>
-<br/>
-[2019-novel Coronavirus (2019-nCoV): estimating the case fatality rate - a word of caution](https://doi.org/10.4414/smw.2020.20203)<br/>
-Authors: Battegay, Manuel; Kuehl, Richard; Tschudin-Sutter, Sarah; Hirsch, Hans H.; Widmer, Andreas F.; Neher, Richard A.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Swiss Med Wkly<br/>
-Match (0.4835): **Better estimates could be derived from large-scale investigations, in particular, in the region of the epidemic's origin. Still, population-based testing of respiratory secretions by nucleic acid amplification testing (NAT) for 2019-nCoV would most likely underestimate the scale of the outbreak, as asymptomatic patients or patients after recovery from infection may no longer be NAT-positive. A sensitive 2019-nCoV-specific serological assay is needed to firmly assess the rate of past exposure and may help to assess herd immunity.**<br/>
-<br/>
-[Serological detection of 2019-nCoV respond to the epidemic: A useful complement to nucleic acid testing](doi.org/10.1101/2020.03.04.20030916)<br/>
-Authors: Jin Zhang; Jianhua Liu; Na Li; Yong Liu; Rui Ye; Xiaosong Qin; Rui Zheng<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4805): **The disadvantage of nucleic acid detection is the existence of relative high false negative rate, and serological antibody detection has the advantage of high sensitivity, so the combination of the two will be a good diagnostic means. It can be inferred that after the future epidemic situation has been controlled to a certain extent, as a convenient method, antibody detection is still necessary to make differential diagnosis of other respiratory pathogens infection.**<br/>
-<br/>
-[Therapeutic strategies in an outbreak scenario to treat the novel coronavirus originating in Wuhan, China](http://dx.doi.org/10.12688/f1000research.22211.2)<br/>
-Authors: Kruse, Robert L.<br/>
-Published: 2020-02-07 00:00:00<br/>
-Publication: F1000Res<br/>
-Match (0.4731): **A neutralizing antibody targeting the S protein on the surface of 2019-nCoV is likely the first therapy contemplated by biomedical researchers in academia and industry, providing passive immunity to disease 15 . The recently published genome sequence of 2019-nCoV (GenBank: MN908947.3) allows researchers to perform gene synthesis in the lab and consider expressing the S protein as an immunogen. Traditional methods of screening mice or rabbits for neutralizing antibodies may be too slow for this outbreak, but faster methods such as using phage or yeast display libraries that express antibody fragments could be used quickly to identify lead candidates for viral neutralization 16, 17 . The challenge is that any antibody candidate would need to be rigorously tested in cell culture and animal models to confirm that it can neutralize 2019-nCoV and prevent infection. Furthermore, several isolates would need to be tested that are circulating in the population to try to assess if sufficient breadth of coverage is obtained with the neutralizing antibody. Information from other coronaviruses species like SARS would be helpful as to where to target the best epitope in order to produce neutralizing antibodies (the receptorbinding domain in the S protein is a key target) 18 , but again this is a slow and challenging process, which may not yield significant gains for several months. Moreover, ultimately a cocktail of antibodies may be required to ensure full protection for patients, which would add additional complexity for formulation and manufacturing. Like some of the therapeutic options discussed below, the ability to express any lead candidates in lower organisms for protein expression (bacteria, yeast, insect cells) would facilitate faster production of therapy for patients 19 .**<br/>
-<br/>
-[Therapeutic strategies in an outbreak scenario to treat the novel coronavirus originating in Wuhan, China [version 2; peer review: 2 approved]](https://doi.org/10.12688/f1000research.22211.2)<br/>
-Authors: Kruse, Robert L.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: F1000Research<br/>
-Match (0.4731): **A neutralizing antibody targeting the S protein on the surface of 2019-nCoV is likely the first therapy contemplated by biomedical researchers in academia and industry, providing passive immunity to disease 15 . The recently published genome sequence of 2019-nCoV (GenBank: MN908947.3) allows researchers to perform gene synthesis in the lab and consider expressing the S protein as an immunogen. Traditional methods of screening mice or rabbits for neutralizing antibodies may be too slow for this outbreak, but faster methods such as using phage or yeast display libraries that express antibody fragments could be used quickly to identify lead candidates for viral neutralization 16, 17 . The challenge is that any antibody candidate would need to be rigorously tested in cell culture and animal models to confirm that it can neutralize 2019-nCoV and prevent infection. Furthermore, several isolates would need to be tested that are circulating in the population to try to assess if sufficient breadth of coverage is obtained with the neutralizing antibody. Information from other coronaviruses species like SARS would be helpful as to where to target the best epitope in order to produce neutralizing antibodies (the receptorbinding domain in the S protein is a key target) 18 , but again this is a slow and challenging process, which may not yield significant gains for several months. Moreover, ultimately a cocktail of antibodies may be required to ensure full protection for patients, which would add additional complexity for formulation and manufacturing. Like some of the therapeutic options discussed below, the ability to express any lead candidates in lower organisms for protein expression (bacteria, yeast, insect cells) would facilitate faster production of therapy for patients 19 .**<br/>
-<br/>
+by Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
+*Journal of Clinical Medicine - 2020*<br/>
+- Serological testing such as ELISA, IIFT and neutralization tests are effective in determining the extent of infection, including estimating asymptomatic and attack rate.<br/>
+- Compared to the detection of viral genome through molecular methods, serological testing detects antibodies and antigens.<br/>
+- Hence, serological diagnoses are likely used when nucleic amplification tests (NAAT) are not available or accessible.<br/>
+
+[Serological detection of 2019-nCoV respond to the epidemic: A useful complement to nucleic acid testing](https://doi.org/10.1101/2020.03.04.20030916)<br/>
+by Jin Zhang; Jianhua Liu; Na Li; Yong Liu; Rui Ye; Xiaosong Qin; Rui Zheng<br/>
+*Mar 06, 2020*<br/>
+- Serological detection of 2019-nCoV respond to the epidemic: A useful complement to nucleic acid testing<br/>
+- In this study, we used automated chemiluminescent immunoassay to detect serum IgM and IgG antibodies to 2019-nCoV, to understand the process of antibody production in disease progression, and to evaluate the value of antibody detection in the laboratory diagnosis of COVID-19.<br/>
+- It can be inferred that after the future epidemic situation has been controlled to a certain extent, as a convenient method, antibody detection is still necessary to make differential diagnosis of other respiratory pathogens infection.<br/>
+
+[Measures for diagnosing and treating infections by a novel coronavirus responsible for a pneumonia outbreak originating in Wuhan, China](https://doi.org/10.1016/j.micinf.2020.01.003)<br/>
+by Yu, Fei; Du, Lanying; Ojcius, David M.; Pan, Chungen; Jiang, Shibo<br/>
+*Microbes and Infection - Mar 31, 2020*<br/>
+- Currently, however, no diagnostic test kit is available for the detection of antibodies to 2019-nCoV.<br/>
+- Serology could also be used to identify the virus when 2019-nCoV-associated antigens and monoclonal antibodies are developed in the future [7e9] .<br/>
+- In addition, other immunological methods, including microneutralization ppNT assay (pseudo-particle neutralization) are highly sensitive and specific by using the gene coding for the coronavirus spike protein.<br/>
+
+[Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease 2019](https://doi.org/10.1101/2020.03.02.20030189)<br/>
+by Juanjuan Zhao; Quan Yuan; Haiyan Wang; Wei Liu; Xuejiao Liao; Yingying Su; Xin Wang; Jing Yuan; Tingdong Li; Jinxiu Li; Shen Qian; Congming Hong; Fuxiang Wang; Yingxia Liu; Zhaoqin Wang; Qing He; Zhiyong Li; Bin He; Tianying Zhang; Shengxiang Ge; Lei Liu; Jun Zhang; Ningshao Xia; Zheng Zhang<br/>
+*Mar 03, 2020*<br/>
+- These findings provide strong evidence for the routine application of serological antibody assays in the diagnosis and clinical management of COVID-19 patients.<br/>
+- To mitigate this knowledge gap, and to provide scientific analysis on the benefit of antibody testing when used in combination with the current RNA testing, this study investigates the dynamics of total antibody (Ab), IgM and IgG antibody against SARS-CoV-2 in serial blood samples collected from 173 confirmed COVID-19 patients and provides discussion on the clinical value of antibody testing.<br/>
+
+[The epidemic of 2019-novel-coronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future](https://doi.org/10.1016/j.micinf.2020.02.002)<br/>
+by Li, Jin-Yan; You, Zhi; Wang, Qiong; Zhou, Zhi-Jian; Qiu, Ye; Luo, Rui; Ge, Xing-Yi<br/>
+*Microbes and Infection - Mar 31, 2020*<br/>
+- Conventional diagnostic testing methods, such as the assays for detection of antiviral antibodies or viral antigens have been developed and used clinically.<br/>
+- New diagnostic strategies including multiplex nucleic acid amplification and microarray-based assays may help in epidemiologic monitoring, along with taking effective prevention steps.<br/>
+
+[Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19](https://doi.org/10.7554/eLife.55570)<br/>
+by Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smith, James O<br/>
+*eLife.; 9:e55570 - Feb 24, 2020*<br/>
+- The availability of rapid PCR tests would also be beneficial for case identification at arrival, and would help address concerns with false-positive detections by screening.<br/>
+- Second, screening depends on whether exposure risk factors exist that would facilitate specific and reasonably sensitive case detection by questionnaire.<br/>
+
+[Optimizing diagnostic strategy for novel coronavirus pneumonia, a multi-center study in Eastern China](https://doi.org/10.1101/2020.02.13.20022673)<br/>
+by Jing-Wen Ai; Hao-Cheng Zhang; Teng Xu; Jing Wu; Mengqi Zhu; Yi-Qi Yu; Han-Yue Zhang; Zhongliang Shen; Yang Li; Xian Zhou; Guo-Qing Zang; Jie Xu; Wen-Jing Chen; Yong-Jun Li; De-Sheng Xie; Ming-Zhe Zhou; Jing-Ying Sun; Jia-Zhen Chen; Wen-Hong Zhang<br/>
+*Feb 17, 2020*<br/>
+- In the future, rapid serological tests for antigen and antibodies, targeted molecular assays All rights reserved.<br/>
+
+[Evaluation of Enzyme-Linked Immunoassay and Colloidal Gold- Immunochromatographic Assay Kit for Detection of Novel Coronavirus (SARS-Cov-2) Causing an Outbreak of Pneumonia (COVID-19)](https://doi.org/10.1101/2020.02.27.20028787)<br/>
+by Jie Xiang; Mingzhe Yan; Hongze Li; Ting Liu; Chenyao Lin; Shuang Huang; Changxin Shen<br/>
+*Mar 01, 2020*<br/>
+- ELISA and GICA for specific IgM and IgG antibodies is conventional serological assays, they can offer a high-throughput alternative, which allows for uniform tests for all suspected patients, and can facilitate more complete identification of infected cases and avoidance of unnecessary cross infection among unselected All rights reserved.<br/>
+
+[Estimates of the severity of COVID-19 disease](https://doi.org/10.1101/2020.03.09.20033357)<br/>
+by Robert Verity; Lucy C Okell; Ilaria Dorigatti; Peter Winskill; Charles Whittaker; Natsuko Imai; Gina Cuomo-Dannenburg; Hayley Thompson; Patrick Walker; Han Fu; Amy Dighe; Jamie Griffin; Anne Cori; Marc Baguelin; Sangeeta Bhatia; Adhiratha Boonyasiri; Zulma M Cucunuba; Rich Fitzjohn; Katy A M Gaythorpe; Will Green; Arran Hamlet; Wes Hinsley; Daniel Laydon; Gemma Nedjati-Gilani; Steven Riley; Sabine van-Elsand; Erik Volz; Haowei Wang; Yuanrong Wang; Xiayoue Xi; Christl Donnelly; Azra Ghani; Neil Ferguson<br/>
+*Mar 13, 2020*<br/>
+- Serological assays provide the best option for obtaining this denominator; however, robust assays are not currently available.<br/>
+
+[Li Wenliang, a face to the frontline healthcare worker? The first doctor to notify the emergence of the SARS-CoV-2, (COVID-19), outbreak](https://doi.org/10.1016/j.ijid.2020.02.052)<br/>
+by Petersen, Eskild; Hui, David; Hamer, Davidson H.; Blumberg, Lucille; Madoff, Lawrence C.; Pollack, Marjorie; Lee, Shui Shan; McLellan, Susan; Memish, Ziad; Praharaj, Ira; Wasserman, Sean; Ntoumi, Francine; Azhar, Esam Ibraheem; McHugh, Timothy D.; Kock, Richard; Ippolito, Guiseppe; Zumla, Ali; Koopmans, Marion<br/>
+*International Journal of Infectious Diseases - 2020*<br/>
+- Accuracy of such estimates will depend on the development of sensitive and specific serologic tests.<br/>
+
 # Efforts to increase capacity on existing diagnostic platforms and tap into existing surveillance platforms.
 
-[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](doi.org/10.1101/2020.03.02.968818)<br/>
-Authors: Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
-Published: 2020-03-05 00:00:00<br/>
-Match (0.6702): **Overall, agnostic or unbiased metagenomic sequencing capabilities in-country provide the ability to detect and respond to a variety of pathogens, even those that are unanticipated or unknown. Bridging of existing local and global resources for sequencing and analysis allows for better realtime surveillance locally, while also enabling better health pursuits overall, not just during outbreaks. The example described here serves as a call for continued training and infrastructure to support mNGS capacity in developing countries as bioinformatic tools proliferate and the cost of sequencing decreases.**<br/>
-<br/>
-[No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](doi.org/10.1101/2020.02.21.959973)<br/>
-Authors: Galaxy and HyPhy developments teams,  ; Nekrutenko, A.; Kosakovsky Pond, S. L.<br/>
-Published: 2020-02-25 00:00:00<br/>
-Match (0.6137): **The current state of much of the Wuhan pneumonia virus (COVID-19) research shows a regrettable lack of data sharing and considerable analytical obfuscation. This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure. Here we show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner. Specifically, we use all COVID-19 genomic data available in the public domain so far to (1) underscore the importance of access to raw data and to (2) demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises. All our analyses are fully documented at https://github.com/galaxyproject/SARS-CoV-2.**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.5950): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org /10.1101 /10. /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection. Not only purified RNA can be used as the sample input, but also direct tissue or cell lysate may be used without an RNA purification step. This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications. This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches. The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.**<br/>
-<br/>
+[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](https://doi.org/10.1101/2020.03.02.968818)<br/>
+by Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
+*Mar 05, 2020*<br/>
+- The example described here serves as a call for continued training and infrastructure to support mNGS capacity in developing countries as bioinformatic tools proliferate and the cost of sequencing decreases.<br/>
+- Bridging of existing local and global resources for sequencing and analysis allows for better realtime surveillance locally, while also enabling better health pursuits overall, not just during outbreaks.<br/>
+- 10 This newly available combination -more rugged, deployable sequencers plus user-friendly, globally accessible bioinformatics -represents an opportunity for responders in limited-resource settings; however, further proof-of-principle during outbreaks remains necessary.<br/>
+- Overall, agnostic or unbiased metagenomic sequencing capabilities in-country provide the ability to detect and respond to a variety of pathogens, even those that are unanticipated or unknown.<br/>
+- Despite major advances in mNGS technologies and significant decreases in costs associated with sequencing, preparation of sequencing libraries and sufficient bioinformatics capabilities for timely analysis still present a challenge in the developing world.<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches.<br/>
+- The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.<br/>
+- Our aim is to share this information in order to help develop a reliable and easy method to detect this viral RNA outside of sophisticated diagnostic laboratories and expand the toolbox of molecular tests used to combat and surveil this growing public health threat.<br/>
+- The breadth of application highlights the applicability of visual detection methods to provide an advantage in simplicity and portability for enabling new, rapid diagnostics.<br/>
+
+[No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973)<br/>
+by Galaxy and HyPhy developments teams,  ; Nekrutenko, A.; Kosakovsky Pond, S. L.<br/>
+*Feb 25, 2020*<br/>
+- Here we show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner.<br/>
+- Can existing tools and computational resources support such a global need?<br/>
+- The goal of our study was to (1) raise awareness of the lack of primary data necessary to effectively respond to global emergencies such as the COVID-19 outbreak and (2) demonstrate that all analyses can be performed transparently with already existing open source publicly available tools and computational infrastructure.<br/>
+- Moreover they should have access to computational infrastructure that can execute these tools and apply them to potentially large NGS datasets.<br/>
+
 [On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5944): **Beyond the aspect of pandemic preparedness and response, the case of COVID-19 virus and its spread provide a fascinating case study for the thematics of urban health. Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios. This is valid as smart cities host a rich array of technological products [6, 7] that can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally. While thermal cameras are not sufficient on their own for the detection of pandemics -like the case of the COVID-19, the integration of such products with artificial intelligence (AI) can provide added benefits. The fact that initial screenings of temperature is being pursued for the case of the COVID-19 at airports and in areas of mass convergence is a testament to its potential in an automated fashion. Kamel Boulos et al. [8] supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.**<br/>
-<br/>
-[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](doi.org/10.1101/2020.03.02.968818)<br/>
-Authors: Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
-Published: 2020-03-05 00:00:00<br/>
-Match (0.5895): **The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.02.968818 doi: bioRxiv preprint genes for primary detection. This detection directly increased on-the-ground certainty in diagnostic sensitivity and specificity of available assays. 7 mNGS in field settings proved critical in development of countermeasures for the 2014-2016 Ebola virus epidemic in West Africa, just as ongoing sequencing of COVID-19 cases from lesser developed areas of Southeast Asia will contribute to overall understanding of pathogen transmission, origin, and evolution. 9,10 While COVID-19 cases are not limited to one remote region, as is often the case with viral hemorrhagic fever outbreaks, sequenced samples from all countries will be important for global disease containment. Instead of being limited to consensus Sanger sequencing, which may not detect high risk quasispecies, metagenomics is a powerful approach to detect variants of both novel and known species as epidemics evolve. 11 The clear limitation in an mNGS approach is that low viral titers or high levels of host material demand greater read depth than may be available on instruments such as the iSeq100. To overcome this barrier, our follow-up steps included a target enrichment of SARS-CoV-2 while keeping the comprehensiveness of our mNGS pipeline intact. 6 For an emerging threat, this strategy offers the flexibility to successfully recover the pathogen genome in question for subsequent phylogenetic analyses without compromising discovery. However, the other key factor in mNGS success is the accessibility to open-access, cloud-based metagenomics bioinformatics pipelines, such as IDseq which automates the process of separating host sequence characterizing the remaining non-host sequences. 12 As recent as the Ebola epidemic, bioinformatics analyses were still mainly completed in the Global North. 10 This newly available combination -more rugged, deployable sequencers plus user-friendly, globally accessible bioinformatics -represents an opportunity for responders in limited-resource settings; however, further proof-of-principle during outbreaks remains necessary.**<br/>
-<br/>
-[Rapid Detection of 2019 Novel Coronavirus SARS-CoV-2 Using a CRISPR-based DETECTR Lateral Flow Assay](doi.org/10.1101/2020.03.06.20032334)<br/>
-Authors: James P Broughton; Xianding Deng; Guixia Yu; Clare L Fasching; Jasmeet Singh; Jessica Streithorst; Andrea Granados; Alicia Sotomayor-Gonzalez; Kelsey Zorn; Allan Gopez; Elaine Hsu; Wei Gu; Steven Miller; Chao-Yang Pan; Hugo Guevara; Debra Wadford; Janice Chen; Charles Y Chiu<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5880): **in clinical samples. The use of existing qRT-PCR based assays is hindered by the need 123 for expensive lab instrumentation, and availability is currently restricted to public health 124 laboratories. Importantly, the DETECTR assays developed here have comparable 125 accuracy to qRT-PCR and are broadly accessible, as they use routine protocols and 126 commercially available, "off-the-shelf" reagents. Key advantages of our approach over 127 existing methods such as qRT-PCR include (1) isothermal signal amplification for rapid 128 target detection obviating the need for thermocycling, (2) single nucleotide target 129 specificity (guide RNAs at the N2 site can distinguish SARS-CoV-2 from SARS-CoV 130 and MERS-CoV), (3) integration with portable, low-cost reporting formats such as lateral 131 flow strips, and (4) quick development cycle to address emerging threats from novel 132 zoonotic viruses (<2 weeks for SARS-CoV-2, Supplementary Fig. 6) . 133**<br/>
-<br/>
-[Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus](doi.org/10.1101/2020.02.22.20025460)<br/>
-Authors: Tieying Hou; Weiqi Zeng; Minling Yang; Wenjing Chen; Lili Ren; Jingwen Ai; Ji Wu; Yalong Liao; Xuejing Gou; Yongjun Li; Xiaorui Wang; Hang Su; Jianwei Wang; Bing Gu; Teng Xu<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.5876): **The copyright holder for this preprint (which was not peer-reviewed) is Here, to address this question and the expanding clinical needs, we developed CRISPR-nCoV, 78 a rapid assay for 2019-nCoV detection, and compared the diagnostic performance among 79 three different technological platforms: metagenomic sequencing, RT-PCR and CRISPR. To the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.5859): **The increasing abundance of affordable, sensitive, high-throughput genome sequencing technologies has led to a recent boom in metagenomics and the cataloguing of the microbiome of our world. The MinION nanopore sequencer is one of the latest innovations in this space, enabling direct sequencing in a miniature form factor with only minimal sample preparation and a consumer-grade laptop computer. Nakagawa and colleagues here report on their latest experiments using this system, further improving its performance for use in resource-poor contexts for meningitis diagnoses. 9 While direct sequencing of viral genomic RNA is challenging, this system was recently used to directly sequence an RNA virus genome (IAV) for the first time. 10 I anticipate further improvements in the performance of such devices over the coming decade will transform virus surveillance efforts, the importance of which was underscored by the recent EboV and novel coronavirus (nCoV / COVID-19) outbreaks, enabling rapid deployment of antiviral treatments that take resistance-conferring mutations into account.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5855): **For its current application, the standardization of protocols as elaborated in this manuscript need to be pursued to ensure that there is seamless sharing of information and data. By doing this, it is expected that issues like burdens of collecting data, accuracy and other complexity that are experienced (when systems are fragmented) are reduced or eliminated altogether. The standardization can be achieved by, for example, ensuring that all the devices and systems are linked into a single network, like was done in the U.S., where all the surveillance of healthcare were combined into the National Healthcare Safety Network (NHSH) [35] . The fact that cities are increasingly tuning on the concept of Smart Cities and boasting an increased adoption rate of technological and connected products, existing surveillance networks can be re-calibrated to make use of those new sets of databases. Appropriate protocols however have to be drafted to ensure effective actions while ensuring privacy and security of data and people.**<br/>
-<br/>
-[SARS to novel coronavirus – old lessons and new lessons](http://dx.doi.org/10.1017/S0950268820000254)<br/>
-Authors: McCloskey, Brian; Heymann, David L.<br/>
-Publication: Epidemiol Infect.; 148:e22<br/>
-Match (0.5802): **The rapid sharing of information in this outbreak and the speed of the coordinated response both in the country and internationally suggest that lessons have been learned from SARS that improve global capacity. The international networks and forums that now exist have facilitated the bringing together of expertise from around the world to focus research and development efforts and maximise the impact.**<br/>
-<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- With a collaborated data sharing protocol, it would be possible to have a larger dataset resulting in increased processing capabilities especially with technologies that are powered by artificial intelligence (AI) tools.<br/>
+- Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios.<br/>
+- highlights that sensors installed in such locations have the potential to receive and distribute data in real-time to digital infrastructures within the network, and their interconnectedness in the network renders them extremely efficient in providing real-time updates on different issues.<br/>
+- The position of this paper is to advance that it now possible to integrate technologies like the use of smart devices through IoT networks and wearable devices, data from mobile apps and others to help users to share information with accredited and certified health professionals, and in this case, improve the outcomes for better cross disciplinary and more resilient protocols and policies.<br/>
+
+[Accurate Identification of SARS-CoV-2 from Viral Genome Sequences using Deep Learning](https://doi.org/10.1101/2020.03.13.990242)<br/>
+by Alejandro Lopez-Rincon; Alberto Tonda; Lucero Mendoza-Maldonado; Eric Claassen; Johan Garssen; Aletta D. Kraneveld<br/>
+*Mar 14, 2020*<br/>
+- Thus, it is fundamental to improve existing diagnostic tools to contain the spread.<br/>
+- Developing innovative diagnostic tools that target the genome to improve the identification of pathogens, can help reduce health costs and time to identify the infection, instead of using unsuitable treatments or testing.<br/>
+- Nevertheless, it is necessary to develop innovative improved diagnostic tools that target the genome to improve the identification of pathogenic variants, as sometimes several tests, 40 are needed to have an accurate diagnosis.<br/>
+
+[CRISPR-based surveillance for COVID-19 using genomically-comprehensive machine learning design](https://doi.org/10.1101/2020.02.26.967026)<br/>
+by Metsky, H. C.; Freije, C. A.; Kosoko-Thoroddsen, T.-S. F.; Sabeti, P. C.; Myhrvold, C.<br/>
+*Mar 02, 2020*<br/>
+- Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools.<br/>
+- We and others, relying on this data, have shown that it is possible to rapidly design CRISPR-based tools for detection and surveillance during an outbreak.<br/>
+- We have been developing algorithms and machine learning models for rapidly designing nucleic acid detection assays, linked in a system called ADAPT (manuscript in preparation).<br/>
+
+[The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
+by Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
+*Nature Microbiology - 2020*<br/>
+- Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach).<br/>
+- To advance such studies, innovative fundraising approaches may be required.<br/>
+
+[Recent advances and perspectives of nucleic acid detection for coronavirus](https://doi.org/10.1016/j.jpha.2020.02.010)<br/>
+by Shen, Minzhe; Zhou, Ying; Ye, Jiawei; Abdullah AL-maskri, Abdu Ahmed; Kang, Yu; Zeng, Su; Cai, Sheng<br/>
+*Journal of Pharmaceutical Analysis - Mar 01, 2020*<br/>
+- evaluated a novel, portable, and near-POC diagnostic platform based on the microarray chip, the Mobile Analysis Platform (MAP), which has a good performance in identifying virus and acceptable detection limit.<br/>
+- Their lately protocol for COVID-19 entitled "A protocol for detection of COVID-19 using CRISPR diagnostics" has been reported on website (https://broad.io/sherlockprotocol), which may provide some reference points for researchers interested in further advancing this diagnostics system, highlighting its potential as a multiplexable, portable, rapid, and quantitative detection platform of nucleic acids.<br/>
+
+[Rapid Detection of 2019 Novel Coronavirus SARS-CoV-2 Using a CRISPR-based DETECTR Lateral Flow Assay](https://doi.org/10.1101/2020.03.06.20032334)<br/>
+by James P Broughton; Xianding Deng; Guixia Yu; Clare L Fasching; Jasmeet Singh; Jessica Streithorst; Andrea Granados; Alicia Sotomayor-Gonzalez; Kelsey Zorn; Allan Gopez; Elaine Hsu; Wei Gu; Steven Miller; Chao-Yang Pan; Hugo Guevara; Debra Wadford; Janice Chen; Charles Y Chiu<br/>
+*Mar 10, 2020*<br/>
+- Key advantages of our approach over 127 existing methods such as qRT-PCR include (1) isothermal signal amplification for rapid 128 target detection obviating the need for thermocycling, (2) single nucleotide target 129 specificity (guide RNAs at the N2 site can distinguish SARS-CoV-2 from SARS-CoV 130 and MERS-CoV), (3) integration with portable, low-cost reporting formats such as lateral 131 flow strips, and (4) quick development cycle to address emerging threats from novel 132 zoonotic viruses (<2 weeks for SARS-CoV-2, Supplementary Fig.<br/>
+- The use of existing qRT-PCR based assays is hindered by the need 123 for expensive lab instrumentation, and availability is currently restricted to public health 124 laboratories.<br/>
+
+[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](https://doi.org/10.1101/2020.02.20.20025957)<br/>
+by Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
+*Feb 23, 2020*<br/>
+- The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories.<br/>
+- Therefore, a learning telemedicine system platform for coronavirus care was developed across connected hospitals, serving as the overarching authoritative source for diagnostic decision making and knowledge sharing for treatment.<br/>
+
 # Recruitment, support, and coordination of local expertise and capacity (public, private—commercial, and non-profit, including academic), including legal, ethical, communications, and operational issues.
 
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.7235): **When biomedical innovations fall into the 'Valley of Death', patients who are therefore not reached all too often fall with them. Being entrusted with the resources and expectation to conceive, deliver and communicate dividends to society is both cherished and eagerly pursued at every stage of our careers. Nevertheless, the road to research translation is winding and is built on a foundation of basic research. Supporting industry-academia collaboration and nurturing talent and skills in the Indo-Pacific region are two of the four pillars of the National Innovation and Science Agenda. 2 These frame Australia's Medical Research and Innovation Priorities, which include antimicrobial resistance, global health and health security, drug repurposing and translational research infrastructure, 15 capturing many of the key elements of this CTI Special Feature. Establishing durable international relationships that integrate diverse expertise is essential to delivering these outcomes. To this end, NHMRC has recently taken steps under the International Engagement Strategy 16 to increase cooperation with its counterparts overseas. These include the Japan Agency for Medical Research and Development (AMED), tasked with translating the biomedical research output of that country. Given the reciprocal efforts at accelerating bilateral engagement currently underway, 17 the prospects for new areas of international cooperation and mobility have never been more exciting nor urgent. With the above in mind, all contributions to this CTI Special Feature I have selected from research presented by fellow invitees to the 2018 Awaji International Forum on Infection and Immunity (AIFII) and 2017 Consortium of Biological Sciences (ConBio) conferences in Japan. Both Australia and Japan have strong traditions in immunology and related disciplines, and I predict that the quantity, quality and importance of our bilateral cooperation will accelerate rapidly over the short to medium term. By expanding and cooperatively leveraging our respective research strengths, our efforts may yet solve the many pressing disease, cost and other sustainability issues of our time.**<br/>
-<br/>
-[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](doi.org/10.1101/2020.02.20.20025957)<br/>
-Authors: Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.7160): **As we look to the future of epidemic prevention and control, we believe that telemedicine systems have the potential to play a role in addressing emergencies and large-scale outbreaks in high uncertainty settings. As telemedicine has inevitably altered the traditional working relationships within the healthcare network, how to ensure high-quality communication among healthcare practitioners poses a significant challenge. As such, frequent, timely, accurate, and problem-solving focused communication among clinical staffs from hospitals at different levels in the healthcare system is essential to minimize the risk incurred in handling patients with possible COVID-19 infection 3 . However, we have found that high quality of communication is not always maintained during the telemedicine coordination. Therefore, a learning telemedicine system platform for coronavirus care was developed across connected hospitals, serving as the overarching authoritative source for diagnostic decision making and knowledge sharing for treatment. The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories. The lessons learned from this crisis can provide insights to guide public health institutions as they implement telemedicine to increase resilience to future epidemic outbreaks.**<br/>
-<br/>
-[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](doi.org/10.1101/2020.02.20.20025957)<br/>
-Authors: Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.6938): **The rapid spread of Coronavirus disease 2019 (COVID-19) presents China with a critical challenge. As normal capacity of the Chinese hospitals is exceeded, healthcare professionals struggling to manage this unprecedented crisis face the difficult question of how best to coordinate the medical resources used in highly separated locations. Many cities in China have been imposing a lockdown, due to the high risk of infection and the characteristic of human-to-human transmission 1 . Not only have patients been marginalized, but many clinicians working in the regional hospitals have limited access to the specialist consultations and treatment guidelines they need from provincial-level hospitals to manage pneumonia cases caused by COVID-19. As long as the crisis continues, simply relying on the traditional communicative practices, such as physician office visit or face-to-face consultations within the health professional network, could pose significant costs and health concerns.**<br/>
-<br/>
-[Incorporating Human Movement Data to Improve Epidemiological Estimates for 2019-nCoV](doi.org/10.1101/2020.02.07.20021071)<br/>
-Authors: Zhidong Cao; Qingpeng Zhang; Xin Lu; Dirk Pfeiffer; Lei Wang; Hongbing Song; Tao Pei; Zhongwei Jia; Daniel Dajun Zeng<br/>
-Published: 2020-02-09 00:00:00<br/>
-Match (0.6764): **Due to the sensitive nature of the telecommunications data records, data processing and aggregation was conducted in-house in the telecommunications operators' secure computing environment by their own staff, without any participation from the author team. The applicable law of "Provisions on Protection of Personal Information of Telecommunications and Internet Users (Mainland China)" (11), and the guidelines from the Global System for Mobile Communications Association (GSMA) on the protection of privacy in the use of mobile phone data, were followed (12) . The authors have access to only exported data aggregated at the provincial and municipal level. No personal information was processed in the analysis of this study. This study was approved by the Biomedical Research Ethics Review Board of Chinese Academy of Sciences Institute of Automation (approval #IA-202001).**<br/>
-<br/>
-[The coronavirus outbreak: the central role of primary care in emergency preparedness and response](https://doi.org/10.3399/bjgpopen20X101041)<br/>
-Authors: Dunlop, C.; Howe, A.; Li, D.; Allen, L. N.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: BJGP open<br/>
-Match (0.6696): **The WHO exists to coordinate and lead in global health, and for the past week the Strategic Health Operations Centre (SHOC) has been holding hourly meetings to keep abreast of nCoV developments. The SHOC coordinates information and responses through a network of WHO teams, member states, and partner organisations; providing advice, tracking cases, and monitoring essential resources in the field. An Emergency Committee advises the Director General, who makes the ultimate decision on when and whether to declare a public health emergency of international concern. Thus far, escalation to this status has not been made, but the committee has planned to reconvene only days after their initial meeting to review this decision, closely following the rapid development of events. 4**<br/>
-<br/>
-[Authoritarianism, outbreaks, and information politics](https://doi.org/10.1016/S2468-2667(20)30030-X)<br/>
-Authors: Kavanagh, Matthew M.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: The Lancet Public Health<br/>
-Match (0.6681): **For Amartya Sen, authoritarian states face serious challenges in information and accountability. 6 Governments in closed political systems, without open media and opposition parties, struggle to receive accurate information in a timely manner and to convey urgent information to the public. Governments can be the victims of their own propaganda, because the country's political institutions provide incentives to local officials to avoid sharing bad news with their central bosses and await instructions before acting.**<br/>
-<br/>
-[The coronavirus outbreak: the central role of primary care in emergency preparedness and response](https://doi.org/10.3399/bjgpopen20X101041)<br/>
-Authors: Dunlop, C.; Howe, A.; Li, D.; Allen, L. N.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: BJGP open<br/>
-Match (0.6655): **Whilst strong epidemiology and surveillance systems are indispensable tools for the detection and monitoring of outbreaks and public health emergencies, strong primary care systems form the foundation of any emergency response. In the UK, primary care handles over 95% of all health system activity. WHO member states have repeatedly affirmed their commitment to developing their primary care systems with a view to training up community-based health professionals who are able to provide care across the spectrum of prevention, preparedness, response, and recovery. As the 'front door' of the health system, primary care professionals should be involved in planning and action for health emergency risk management. WONCA (the global professional body for family medicine) has actively championed the ways in which primary care can be supported to deliver care during population emergencies. National primary care bodies can coordinate with public health leads to cascade information to practitioners, communicate with the public, and collate health intelligence from the frontline primary care. 8 The Ebola crisis taught us a valuable lesson about what happens when an outbreak takes health workers away from core functions to focus on crisis response; the number of people who died from reduced access to usual care probably exceeded the number killed by the virus. 9 Strong health systems built on comprehensive primary care are able to integrate both functions, disseminating the emergency response resources and information required to community-level staff who have the breadth of training required to manage new suspected cases alongside routine family medicine. Decent access to primary health care is essential in health emergencies, and its infrastructure crucial for containment, 10 just as good access to high-quality primary care is at the foundation of any strong health system. 11**<br/>
-<br/>
-[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
-Authors: Deng, Sheng-Qun; Peng, Hong-Juan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: J Clin Med<br/>
-Match (0.6648): **Organization, coordination, supervision, and evaluation of the monitoring work; collection, analysis, report, and feedback of the monitoring data; epidemiological investigation; strengthening laboratory testing ability, bio-safety protection awareness, and technical training; carrying out health education and publicity and risk communication to the public.**<br/>
-<br/>
-[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
-Authors: Deng, Sheng-Qun; Peng, Hong-Juan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: J Clin Med<br/>
-Match (0.6514): **As of 26 January 2020, 30 provinces have initiated a level-1 public health response to control COVID-19 [22] . A level-1 response means that during the occurrence of a particularly serious public health emergency, the provincial headquarters shall organize and coordinate the emergency response work within its administrative area according to the decision deployment and unified command of the State Council [22] . Fever observation rooms shall be set up at stations, airports, ports, and so on to detect the body temperature of passengers entering and leaving the area and implement observation/registration for the suspicious patients. The government under its jurisdiction shall, in accordance with the law, take compulsory measures to restrict all kinds of the congregation, and ensure the supply of living resources. They will also ensure the sufficient supply of masks, disinfectants, and other protective articles on the market, and standardize the market order. The strengthening of public health surveillance, hygiene knowledge publicity, and monitoring of public places and key groups is required. Comprehensive medical institutions and some specialized hospitals should be prepared to accept COVID-19 patients to ensure that severe and critical cases can be differentiated, diagnosed, and effectively treated in time. The health administration departments, public health departments, and medical institutions at all (province, city, county, district, township, and street) levels, and social organizations shall function in epidemic prevention and control and provide guidance for patients and close contact families for disease prevention [23] .**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.6485): **With the advent of the digital age and the plethora of Internet of Things (IoT) devices it brings, there has been a substantial rise in the amount of data gathered by these devices in different sectors like transport, environment, entertainment, sport and health sectors, amongst others [11] . To put this into perspective, it is believed that by the end of 2020, over 2314 exabytes (1 exabyte = 1 billion gigabytes) of data will be generated globally [12] from the health sector. Stanford Medicine [12] acknowledges that this increase, especially in the medical field, is witnessing a proportional increase due to the increase in sources of data that are not limited to hospital records. Rather, the increase is being underpinned by drawing upon a myriad and increasing number of IoT smart devices, that are projected to exponentially increase the global healthcare market to a value of more than USD $543.3 billion by 2025 [13] . However, while the potential for the data market is understood, such issues like privacy of information, data protection and sharing, and obligatory requirements of healthcare management and monitoring, among others, are critical. Moreover, in the present case of the Coronavirus outbreak, this ought to be handled with care to avoid jeopardizing efforts already in place to combat the pandemic. On the foremost, since these cut across different countries, which are part of the global community and have their unique laws and regulations concerning issues mentioned above, it is paramount to observe them as per the dictate of their source country's laws and regulations; hence, underlining the importance of working towards not only the promoting of data through its usage but also the need for standardized and universally agreed protocols.**<br/>
-<br/>
+[New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
+by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
+*International Journal of Pharmaceutics - Apr 15, 2020*<br/>
+- Although the proposed definition was relevant only for Marketing Authorization Holders (MAHs) and Regulatory Authorities, it is the first step to promote the communication and the coordination among European pharmaceutical stakeholders, regulators and professionals working in the different National Healthcare Systems for improving their resilience to shortages.<br/>
+- Single National points of contact (SPOC) have been created to facilitate sharing of the information about nationwide medicine shortages and the coordination of emergency plans among the competent National Authorities and the EMA.<br/>
+- The second HMA/EMA guideline, "Good practice guidance for communication to the public on medicines' availability issues", aimed to enhance and align the European communication on a shortage to improve the awareness of healthcare professionals and patients and the cooperation among European stakeholders (EMA and HMA, 2019b).<br/>
+- Indeed, a unique triage procedure for shortage impacts can improve the stakeholders' cooperation in managing the emergencies.<br/>
+- In particular, it has been highlighted the need to find collaborative solutions for medicine shortages to coordinate EU and National policies and communication campaigns.<br/>
+- For mitigating shortages that affect the Union, the stronger coordination at EU-level and the harmonization of communication, risk-assessment and risk-management strategies are desirable and urgent.<br/>
+- Considering such critical issues and the latest position papers of stakeholder associations (Various Associations, 2019a,b), the establishment of harmonized metrics to classify the impact of medicine shortage on the National Healthcare Systems is a mandatory step to enhance the cooperation among competent National Authorities of the European countries and to rationalize the efforts to mitigate them.<br/>
+
+[Responding to health emergencies in the Eastern Mediterranean region in times of conflict](https://doi.org/10.1016/S0140-6736(20)30069-6)<br/>
+by Brennan, Richard; Hajjeh, Rana; Al-Mandhari, Ahmed<br/>
+*The Lancet - Mar 02, 2020*<br/>
+- 15 Humanitarian agencies have adopted various approaches to address these constraints, including investments in local partners, cross-border operations, deconfliction, remote programming, and scaled up advocacy and humanitarian diplomacy.<br/>
+- WHO's global COVID-19 strategic preparedness and response plan 13 therefore prioritises countries with weak health systems for technical and operational support from international partners.<br/>
+- Effective humanitarian response is constrained by insecurity, disrupted health systems, limited local capacities, bureaucratic impediments, insufficient partners with strong operational presence, and underfunding.<br/>
+- NAPHS outline national priorities for strengthening IHR core capacities and are central to collective efforts for health security.<br/>
+- Accelerating implementation is a major priority for 2020, focusing on surveillance, laboratories, preparedness, EOCs, risk communications, and rapid response teams.<br/>
+
+[Community pharmacist in public health emergencies: Quick to action against the coronavirus 2019-nCoV outbreak](https://doi.org/10.1016/j.sapharm.2020.02.003)<br/>
+by Ung, Carolina Oi Lam<br/>
+*Research in Social and Administrative Pharmacy - Feb 12, 2020*<br/>
+- 3 To support infection prevention and control overseen by the health department, departments of economy and finance, police service and customs, information, tourism, gaming, social welfare, consumer protection, municipal affairs, education formed partnerships to step up border control and surveillance, execute isolation and quarantine measures, promote personal and environmental hygiene, ensure medical and daily supply stability and monitor the pricing, deliver public and tourist education, and disseminate accurate up-to-date information on a unified platform.<br/>
+- For pharmacists to assume a role in the health emergency preparedness and response arrangements at community level, public private partnership and the application of real-world data have been shown to be vital.<br/>
+- On January 5, 2020, the local government swiftly took the lead in coordinating and communicating actions across various sectors.<br/>
+
+[A disconnected policy network: The UK's response to the Sierra Leone Ebola epidemic](https://doi.org/10.1016/j.socscimed.2020.112851)<br/>
+by Georgalakis, James<br/>
+*Social Science & Medicine - Apr 30, 2020*<br/>
+- Global health governance is increasingly focused on epidemic and pandemic health emergencies that require an interdisciplinary approach to accessing scientific knowledge to guide preparedness and crisis response.<br/>
+- There was also an evaluation of the Community Care Centres and additional funding from DFID supported village-level fieldwork by ERAP researchers from Njala University, leading to advice to social mobilisation teams.<br/>
+- She separates the power of experts to control the production of knowledge and engage with key policy actors from policy objectives themselves.<br/>
+
+[Understanding the emerging coronavirus: what it means for health security and infection prevention](https://doi.org/10.1016/j.jhin.2020.02.023)<br/>
+by Peters, Alexandra; Vetter, Pauline; Guitart, Chloé; Lotfinejad, Nasim; Pittet, Didier<br/>
+*Journal of Hospital Infection - Mar 05, 2020*<br/>
+- Traditionally, supranational organizations, international institutions and non-governmental organizations will fill that response vacuum as well as is possible.<br/>
+- 87, 88 Both national governments and supranational organizations state that this issue is of utmost importance, and have pledged their commitment.<br/>
+
+[What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
+by Singer, Donald R.J.; Redekop, Ken<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- These goals have important public health implications and require coordinated national and international action on economic, environmental and social development.<br/>
+- Examples include the benefits of mobility for training health professionals, generous funding of R & D on healthcare through initiatives of the European Parliament and Commission, integrated regulation and surveillance of medicines and vaccines overseen by the European Medicines Agency, in partnership with responsible national authorities, and Universal Health Coverage across the region through the European Health Insurance Card (EHIC) system.<br/>
+
+[A new pandemic out of China: the Wuhan 2019-nCoV coronavirus syndrome](https://doi.org/10.1016/j.hlpt.2020.02.001)<br/>
+by Singer, Donald R.J.<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- These would be expected to include preparedness of equipment, staff and facilities based on learning from previous epidemics, clear public health information, relevant containment, surveillance, and reporting, and international cooperation among governments, health authorities, travel organisations and border control forces.<br/>
+
+[Lessons drawn from China and South Korea for managing COVID-19 epidemic: insights from a comparative modeling study](https://doi.org/10.1101/2020.03.09.20033464)<br/>
+by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; Sanyi Tang; Yanni Xiao; Jianhong Wu<br/>
+*Mar 13, 2020*<br/>
+- Decision-making and implementations may require adaptations and modifications to take into account setting-specific characteristics in terms of community features, local epidemiology and risk assessment, social habits, juridical provisions, organizational coordination, and availability of economic-financial resources.<br/>
+
+[Frontiers in antiviral therapy and immunotherapy](https://doi.org/10.1002/cti2.1115)<br/>
+by Heaton, Steven M<br/>
+*Clinical & Translational Immunology - 2020*<br/>
+- Supporting industry-academia collaboration and nurturing talent and skills in the Indo-Pacific region are two of the four pillars of the National Innovation and Science Agenda.<br/>
+
+[2019-nCoV epidemic: address mental health care to empower society](https://doi.org/10.1016/S0140-6736(20)30309-3)<br/>
+by Bao, Yanping; Sun, Yankun; Meng, Shiqiu; Shi, Jie; Lu, Lin<br/>
+*The Lancet - Feb 28, 2020*<br/>
+- 6 The provincial governments are responsible for organising, coordinating, and handling all emergency public health treatments, disclosing information, and gathering emergency materials and facilities under the guidance of the State Council.<br/>
+
 # National guidance and guidelines about best practices to states (e.g., how states might leverage universities and private laboratories for testing purposes, communications to public health officials and the public).
 
-[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](doi.org/10.1101/2020.02.20.20025957)<br/>
-Authors: Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.7200): **As we look to the future of epidemic prevention and control, we believe that telemedicine systems have the potential to play a role in addressing emergencies and large-scale outbreaks in high uncertainty settings. As telemedicine has inevitably altered the traditional working relationships within the healthcare network, how to ensure high-quality communication among healthcare practitioners poses a significant challenge. As such, frequent, timely, accurate, and problem-solving focused communication among clinical staffs from hospitals at different levels in the healthcare system is essential to minimize the risk incurred in handling patients with possible COVID-19 infection 3 . However, we have found that high quality of communication is not always maintained during the telemedicine coordination. Therefore, a learning telemedicine system platform for coronavirus care was developed across connected hospitals, serving as the overarching authoritative source for diagnostic decision making and knowledge sharing for treatment. The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories. The lessons learned from this crisis can provide insights to guide public health institutions as they implement telemedicine to increase resilience to future epidemic outbreaks.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.6876): **Furthermore, in cases of emergencies like the current outbreak of COVID-19 and any other, the need for observance of regulatory practices and international healthcare guidelines are paramount. This would ensure that both healthcare professionals and the general populace are informed, protected and remain within the prescribed rules and regulations. As noted by the WHO [40] , the healthcare guidelines and regulatory practices are advanced to also ensure that the health risk in question is reduced together with its consequences. In the current era of technological advancement, such regulations and guidelines are paramount as they have potential to lead to positive or negative outcomes. The position of this paper is to advance that it now possible to integrate technologies like the use of smart devices through IoT networks and wearable devices, data from mobile apps and others to help users to share information with accredited and certified health professionals, and in this case, improve the outcomes for better cross disciplinary and more resilient protocols and policies.**<br/>
-<br/>
-[Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak — United States, December 31, 2019–February 4, 2020](http://dx.doi.org/10.15585/mmwr.mm6905e1)<br/>
-Authors: Patel, Anita; Jernigan, Daniel B.; Abdirizak, Fatuma; Abedi, Glen; Aggarwal, Sharad; Albina, Denise; Allen, Elizabeth; Andersen, Lauren; Anderson, Jade; Anderson, Megan; Anderson, Tara; Anderson, Kayla; Bardossy, Ana Cecilia; Barry, Vaughn; Beer, Karlyn; Bell, Michael; Berger, Sherri; Bertulfo, Joseph; Biggs, Holly; Bornemann, Jennifer; Bornstein, Josh; Bower, Willie; Bresee, Joseph; Brown, Clive; Budd, Alicia; Buigut, Jennifer; Burke, Stephen; Burke, Rachel; Burns, Erin; Butler, Jay; Cantrell, Russell; Cardemil, Cristina; Cates, Jordan; Cetron, Marty; Chatham-Stephens, Kevin; Chatham-Stevens, Kevin; Chea, Nora; Christensen, Bryan; Chu, Victoria; Clarke, Kevin; Cleveland, Angela; Cohen, Nicole; Cohen, Max; Cohn, Amanda; Collins, Jennifer; Dahl, Rebecca; Daley, Walter; Dasari, Vishal; Davlantes, Elizabeth; Dawson, Patrick; Delaney, Lisa; Donahue, Matthew; Dowell, Chad; Dyal, Jonathan; Edens, William; Eidex, Rachel; Epstein, Lauren; Evans, Mary; Fagan, Ryan; Farris, Kevin; Feldstein, Leora; Fox, LeAnne; Frank, Mark; Freeman, Brandi; Fry, Alicia; Fuller, James; Galang, Romeo; Gerber, Sue; Gokhale, Runa; Goldstein, Sue; Gorman, Sue; Gregg, William; Greim, William; Grube, Steven; Hall, Aron; Haynes, Amber; Hill, Sherrasa; Hornsby-Myers, Jennifer; Hunter, Jennifer; Ionta, Christopher; Isenhour, Cheryl; Jacobs, Max; Slifka, Kara Jacobs; Jernigan, Daniel; Jhung, Michael; Jones-Wormley, Jamie; Kambhampati, Anita; Kamili, Shifaq; Kennedy, Pamela; Kent, Charlotte; Killerby, Marie; Kim, Lindsay; Kirking, Hannah; Koonin, Lisa; Koppaka, Ram; Kosmos, Christine; Kuhar, David; Kuhnert-Tallman, Wendi; Kujawski, Stephanie; Kumar, Archana; Landon, Alexander; Lee, Leslie; Leung, Jessica; Lindstrom, Stephen; Link-Gelles, Ruth; Lively, Joana; Lu, Xiaoyan; Lynch, Brian; Malapati, Lakshmi; Mandel, Samantha; Manns, Brian; Marano, Nina; Marlow, Mariel; Marston, Barbara; McClung, Nancy; McClure, Liz; McDonald, Emily; McGovern, Oliva; Messonnier, Nancy; Midgley, Claire; Moulia, Danielle; Murray, Janna; Noelte, Kate; Noonan-Smith, Michelle; Nordlund, Kristen; Norton, Emily; Oliver, Sara; Pallansch, Mark; Parashar, Umesh; Patel, Anita; Patel, Manisha; Pettrone, Kristen; Pierce, Taran; Pietz, Harald; Pillai, Satish; Radonovich, Lewis; Reagan-Steiner, Sarah; Reel, Amy; Reese, Heather; Rha, Brian; Ricks, Philip; Rolfes, Melissa; Roohi, Shahrokh; Roper, Lauren; Rotz, Lisa; Routh, Janell; Sakthivel, Senthil Kumar; Sarmiento, Luisa; Schindelar, Jessica; Schneider, Eileen; Schuchat, Anne; Scott, Sarah; Shetty, Varun; Shockey, Caitlin; Shugart, Jill; Stenger, Mark; Stuckey, Matthew; Sunshine, Brittany; Sykes, Tamara; Trapp, Jonathan; Uyeki, Timothy; Vahey, Grace; Valderrama, Amy; Villanueva, Julie; Walker, Tunicia; Wallace, Megan; Wang, Lijuan; Watson, John; Weber, Angie; Weinbaum, Cindy; Weldon, William; Westnedge, Caroline; Whitaker, Brett; Whitaker, Michael; Williams, Alcia; Williams, Holly; Willams, Ian; Wong, Karen; Xie, Amy; Yousef, Anna<br/>
-Published: 2020-02-07 00:00:00<br/>
-Publication: MMWR Morb Mortal Wkly Rep<br/>
-Match (0.6858): **What are the implications for public health practice? CDC, multiple other federal agencies, state and local health departments, and other partners are implementing aggressive measures to substantially slow U.S. transmission of 2019-nCoV, including identification of U.S. cases and contacts and managing travelers arriving from mainland China to the United States. Interim guidance is available at https://www.cdc.gov/coronavirus/index. html and will be updated as more information becomes available.**<br/>
-<br/>
-[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
-Authors: Deng, Sheng-Qun; Peng, Hong-Juan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: J Clin Med<br/>
-Match (0.6721): **As of 26 January 2020, 30 provinces have initiated a level-1 public health response to control COVID-19 [22] . A level-1 response means that during the occurrence of a particularly serious public health emergency, the provincial headquarters shall organize and coordinate the emergency response work within its administrative area according to the decision deployment and unified command of the State Council [22] . Fever observation rooms shall be set up at stations, airports, ports, and so on to detect the body temperature of passengers entering and leaving the area and implement observation/registration for the suspicious patients. The government under its jurisdiction shall, in accordance with the law, take compulsory measures to restrict all kinds of the congregation, and ensure the supply of living resources. They will also ensure the sufficient supply of masks, disinfectants, and other protective articles on the market, and standardize the market order. The strengthening of public health surveillance, hygiene knowledge publicity, and monitoring of public places and key groups is required. Comprehensive medical institutions and some specialized hospitals should be prepared to accept COVID-19 patients to ensure that severe and critical cases can be differentiated, diagnosed, and effectively treated in time. The health administration departments, public health departments, and medical institutions at all (province, city, county, district, township, and street) levels, and social organizations shall function in epidemic prevention and control and provide guidance for patients and close contact families for disease prevention [23] .**<br/>
-<br/>
-[The coronavirus outbreak: the central role of primary care in emergency preparedness and response](https://doi.org/10.3399/bjgpopen20X101041)<br/>
-Authors: Dunlop, C.; Howe, A.; Li, D.; Allen, L. N.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: BJGP open<br/>
-Match (0.6571): **Whilst strong epidemiology and surveillance systems are indispensable tools for the detection and monitoring of outbreaks and public health emergencies, strong primary care systems form the foundation of any emergency response. In the UK, primary care handles over 95% of all health system activity. WHO member states have repeatedly affirmed their commitment to developing their primary care systems with a view to training up community-based health professionals who are able to provide care across the spectrum of prevention, preparedness, response, and recovery. As the 'front door' of the health system, primary care professionals should be involved in planning and action for health emergency risk management. WONCA (the global professional body for family medicine) has actively championed the ways in which primary care can be supported to deliver care during population emergencies. National primary care bodies can coordinate with public health leads to cascade information to practitioners, communicate with the public, and collate health intelligence from the frontline primary care. 8 The Ebola crisis taught us a valuable lesson about what happens when an outbreak takes health workers away from core functions to focus on crisis response; the number of people who died from reduced access to usual care probably exceeded the number killed by the virus. 9 Strong health systems built on comprehensive primary care are able to integrate both functions, disseminating the emergency response resources and information required to community-level staff who have the breadth of training required to manage new suspected cases alongside routine family medicine. Decent access to primary health care is essential in health emergencies, and its infrastructure crucial for containment, 10 just as good access to high-quality primary care is at the foundation of any strong health system. 11**<br/>
-<br/>
-[Authoritarianism, outbreaks, and information politics](https://doi.org/10.1016/S2468-2667(20)30030-X)<br/>
-Authors: Kavanagh, Matthew M.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: The Lancet Public Health<br/>
-Match (0.6514): **For Amartya Sen, authoritarian states face serious challenges in information and accountability. 6 Governments in closed political systems, without open media and opposition parties, struggle to receive accurate information in a timely manner and to convey urgent information to the public. Governments can be the victims of their own propaganda, because the country's political institutions provide incentives to local officials to avoid sharing bad news with their central bosses and await instructions before acting.**<br/>
-<br/>
-[Li Wenliang, a face to the frontline healthcare worker? The first doctor to notify the emergence of the SARS-CoV-2, (COVID-19), outbreak](https://doi.org/10.1016/j.ijid.2020.02.052)<br/>
-Authors: Petersen, Eskild; Hui, David; Hamer, Davidson H.; Blumberg, Lucille; Madoff, Lawrence C.; Pollack, Marjorie; Lee, Shui Shan; McLellan, Susan; Memish, Ziad; Praharaj, Ira; Wasserman, Sean; Ntoumi, Francine; Azhar, Esam Ibraheem; McHugh, Timothy D.; Kock, Richard; Ippolito, Guiseppe; Zumla, Ali; Koopmans, Marion<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Infectious Diseases<br/>
-Match (0.6452): **Global public health security is of primary importance to prevent outbreaks of diseases with epidemic potential and every effort to detect, report, and institute infection prevention and control measures should be made. Astute clinicians, access to laboratories with state of the art tools, and openness, transparency and quick reporting are crucial components of this response (Kavanagh, 2020) . This requires an open flow of information and collaboration between laboratory experts and clinicians on the frontline who may be the first to observe unusual clustering of cases or uncommon clinical presentations, both of which should be reported immediately.**<br/>
-<br/>
-[Emergence of a Novel Coronavirus Disease (COVID-19) and the Importance of Diagnostic Testing: Why Partnership between Clinical Laboratories, Public Health Agencies, and Industry Is Essential to Control the Outbreak](https://doi.org/10.1093/clinchem/hvaa071)<br/>
-Authors: Binnicker, Matthew J.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Clinical Chemistry<br/>
-Match (0.6417): **Emergence of a Novel Coronavirus Disease (COVID-19) and the Importance of Diagnostic Testing: Why Partnership between Clinical Laboratories, Public Health Agencies, and Industry Is Essential to Control the Outbreak**<br/>
-<br/>
-[Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak — United States, December 31, 2019–February 4, 2020](http://dx.doi.org/10.15585/mmwr.mm6905e1)<br/>
-Authors: Patel, Anita; Jernigan, Daniel B.; Abdirizak, Fatuma; Abedi, Glen; Aggarwal, Sharad; Albina, Denise; Allen, Elizabeth; Andersen, Lauren; Anderson, Jade; Anderson, Megan; Anderson, Tara; Anderson, Kayla; Bardossy, Ana Cecilia; Barry, Vaughn; Beer, Karlyn; Bell, Michael; Berger, Sherri; Bertulfo, Joseph; Biggs, Holly; Bornemann, Jennifer; Bornstein, Josh; Bower, Willie; Bresee, Joseph; Brown, Clive; Budd, Alicia; Buigut, Jennifer; Burke, Stephen; Burke, Rachel; Burns, Erin; Butler, Jay; Cantrell, Russell; Cardemil, Cristina; Cates, Jordan; Cetron, Marty; Chatham-Stephens, Kevin; Chatham-Stevens, Kevin; Chea, Nora; Christensen, Bryan; Chu, Victoria; Clarke, Kevin; Cleveland, Angela; Cohen, Nicole; Cohen, Max; Cohn, Amanda; Collins, Jennifer; Dahl, Rebecca; Daley, Walter; Dasari, Vishal; Davlantes, Elizabeth; Dawson, Patrick; Delaney, Lisa; Donahue, Matthew; Dowell, Chad; Dyal, Jonathan; Edens, William; Eidex, Rachel; Epstein, Lauren; Evans, Mary; Fagan, Ryan; Farris, Kevin; Feldstein, Leora; Fox, LeAnne; Frank, Mark; Freeman, Brandi; Fry, Alicia; Fuller, James; Galang, Romeo; Gerber, Sue; Gokhale, Runa; Goldstein, Sue; Gorman, Sue; Gregg, William; Greim, William; Grube, Steven; Hall, Aron; Haynes, Amber; Hill, Sherrasa; Hornsby-Myers, Jennifer; Hunter, Jennifer; Ionta, Christopher; Isenhour, Cheryl; Jacobs, Max; Slifka, Kara Jacobs; Jernigan, Daniel; Jhung, Michael; Jones-Wormley, Jamie; Kambhampati, Anita; Kamili, Shifaq; Kennedy, Pamela; Kent, Charlotte; Killerby, Marie; Kim, Lindsay; Kirking, Hannah; Koonin, Lisa; Koppaka, Ram; Kosmos, Christine; Kuhar, David; Kuhnert-Tallman, Wendi; Kujawski, Stephanie; Kumar, Archana; Landon, Alexander; Lee, Leslie; Leung, Jessica; Lindstrom, Stephen; Link-Gelles, Ruth; Lively, Joana; Lu, Xiaoyan; Lynch, Brian; Malapati, Lakshmi; Mandel, Samantha; Manns, Brian; Marano, Nina; Marlow, Mariel; Marston, Barbara; McClung, Nancy; McClure, Liz; McDonald, Emily; McGovern, Oliva; Messonnier, Nancy; Midgley, Claire; Moulia, Danielle; Murray, Janna; Noelte, Kate; Noonan-Smith, Michelle; Nordlund, Kristen; Norton, Emily; Oliver, Sara; Pallansch, Mark; Parashar, Umesh; Patel, Anita; Patel, Manisha; Pettrone, Kristen; Pierce, Taran; Pietz, Harald; Pillai, Satish; Radonovich, Lewis; Reagan-Steiner, Sarah; Reel, Amy; Reese, Heather; Rha, Brian; Ricks, Philip; Rolfes, Melissa; Roohi, Shahrokh; Roper, Lauren; Rotz, Lisa; Routh, Janell; Sakthivel, Senthil Kumar; Sarmiento, Luisa; Schindelar, Jessica; Schneider, Eileen; Schuchat, Anne; Scott, Sarah; Shetty, Varun; Shockey, Caitlin; Shugart, Jill; Stenger, Mark; Stuckey, Matthew; Sunshine, Brittany; Sykes, Tamara; Trapp, Jonathan; Uyeki, Timothy; Vahey, Grace; Valderrama, Amy; Villanueva, Julie; Walker, Tunicia; Wallace, Megan; Wang, Lijuan; Watson, John; Weber, Angie; Weinbaum, Cindy; Weldon, William; Westnedge, Caroline; Whitaker, Brett; Whitaker, Michael; Williams, Alcia; Williams, Holly; Willams, Ian; Wong, Karen; Xie, Amy; Yousef, Anna<br/>
-Published: 2020-02-07 00:00:00<br/>
-Publication: MMWR Morb Mortal Wkly Rep<br/>
-Match (0.6357): **On January 31, CDC published its third Health Advisory with interim guidance for clinicians and public health practitioners. † † † In addition, CDC issued a Clinical Action Alert through its Clinician Outreach and Communication Activity network on January 31. § § § Interim guidance for health care professionals is available at https://www.cdc. gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html. † † † https://emergency.cdc.gov/han/han00427.asp. § § § https://emergency.cdc.gov/coca/calls/2020/callinfo_013120.asp.**<br/>
-<br/>
-[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
-Authors: Deng, Sheng-Qun; Peng, Hong-Juan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: J Clin Med<br/>
-Match (0.6352): **The responsibilities of the organizations are shown in Table 2 . In accordance with the working principle of "prevention first, prevention and control combined, scientific guidance and timely treatment", the prevention and control work shall be carried out in a coordinated and standardized way [23] . Table 2 . Responsibilities for the different organizations at all (province, city, county, district, township, and street) levels in the outbreak of COVID-19.**<br/>
-<br/>
+[New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
+by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
+*International Journal of Pharmaceutics - Apr 15, 2020*<br/>
+- The second HMA/EMA guideline, "Good practice guidance for communication to the public on medicines' availability issues", aimed to enhance and align the European communication on a shortage to improve the awareness of healthcare professionals and patients and the cooperation among European stakeholders (EMA and HMA, 2019b).<br/>
+- Single National points of contact (SPOC) have been created to facilitate sharing of the information about nationwide medicine shortages and the coordination of emergency plans among the competent National Authorities and the EMA.<br/>
+- Although the proposed definition was relevant only for Marketing Authorization Holders (MAHs) and Regulatory Authorities, it is the first step to promote the communication and the coordination among European pharmaceutical stakeholders, regulators and professionals working in the different National Healthcare Systems for improving their resilience to shortages.<br/>
+- Considering such critical issues and the latest position papers of stakeholder associations (Various Associations, 2019a,b), the establishment of harmonized metrics to classify the impact of medicine shortage on the National Healthcare Systems is a mandatory step to enhance the cooperation among competent National Authorities of the European countries and to rationalize the efforts to mitigate them.<br/>
+- Such a procedure may be fully integrable with other existing and adopted strategies and, therefore, it may be an added value for both European Regulatory Authorities and other subjects involved in the National pharmaceutical distribution chains and healthcare systems (e.g., manufacturers, wholesalers, hospitals, pharmacies, insurance companies, regional healthcare Authorities).<br/>
+- In particular, it has been highlighted the need to find collaborative solutions for medicine shortages to coordinate EU and National policies and communication campaigns.<br/>
+- Indeed, risk-assessment and risk-management strategies adopted by professionals (e.g., pharmacists) and other stakeholders can be rationalized and harmonized based on the medicines shortage impact scores calculated by a competent National Authority.<br/>
+
+[Initial Public Health Response and Interim Clinical Guidance for the 2019 Novel Coronavirus Outbreak — United States, December 31, 2019–February 4, 2020](https://doi.org/10.15585/mmwr.mm6905e1)<br/>
+by Patel, Anita; Jernigan, Daniel B.; Abdirizak, Fatuma; Abedi, Glen; Aggarwal, Sharad; Albina, Denise; Allen, Elizabeth; Andersen, Lauren; Anderson, Jade; Anderson, Megan; Anderson, Tara; Anderson, Kayla; Bardossy, Ana Cecilia; Barry, Vaughn; Beer, Karlyn; Bell, Michael; Berger, Sherri; Bertulfo, Joseph; Biggs, Holly; Bornemann, Jennifer; Bornstein, Josh; Bower, Willie; Bresee, Joseph; Brown, Clive; Budd, Alicia; Buigut, Jennifer; Burke, Stephen; Burke, Rachel; Burns, Erin; Butler, Jay; Cantrell, Russell; Cardemil, Cristina; Cates, Jordan; Cetron, Marty; Chatham-Stephens, Kevin; Chatham-Stevens, Kevin; Chea, Nora; Christensen, Bryan; Chu, Victoria; Clarke, Kevin; Cleveland, Angela; Cohen, Nicole; Cohen, Max; Cohn, Amanda; Collins, Jennifer; Dahl, Rebecca; Daley, Walter; Dasari, Vishal; Davlantes, Elizabeth; Dawson, Patrick; Delaney, Lisa; Donahue, Matthew; Dowell, Chad; Dyal, Jonathan; Edens, William; Eidex, Rachel; Epstein, Lauren; Evans, Mary; Fagan, Ryan; Farris, Kevin; Feldstein, Leora; Fox, LeAnne; Frank, Mark; Freeman, Brandi; Fry, Alicia; Fuller, James; Galang, Romeo; Gerber, Sue; Gokhale, Runa; Goldstein, Sue; Gorman, Sue; Gregg, William; Greim, William; Grube, Steven; Hall, Aron; Haynes, Amber; Hill, Sherrasa; Hornsby-Myers, Jennifer; Hunter, Jennifer; Ionta, Christopher; Isenhour, Cheryl; Jacobs, Max; Slifka, Kara Jacobs; Jernigan, Daniel; Jhung, Michael; Jones-Wormley, Jamie; Kambhampati, Anita; Kamili, Shifaq; Kennedy, Pamela; Kent, Charlotte; Killerby, Marie; Kim, Lindsay; Kirking, Hannah; Koonin, Lisa; Koppaka, Ram; Kosmos, Christine; Kuhar, David; Kuhnert-Tallman, Wendi; Kujawski, Stephanie; Kumar, Archana; Landon, Alexander; Lee, Leslie; Leung, Jessica; Lindstrom, Stephen; Link-Gelles, Ruth; Lively, Joana; Lu, Xiaoyan; Lynch, Brian; Malapati, Lakshmi; Mandel, Samantha; Manns, Brian; Marano, Nina; Marlow, Mariel; Marston, Barbara; McClung, Nancy; McClure, Liz; McDonald, Emily; McGovern, Oliva; Messonnier, Nancy; Midgley, Claire; Moulia, Danielle; Murray, Janna; Noelte, Kate; Noonan-Smith, Michelle; Nordlund, Kristen; Norton, Emily; Oliver, Sara; Pallansch, Mark; Parashar, Umesh; Patel, Anita; Patel, Manisha; Pettrone, Kristen; Pierce, Taran; Pietz, Harald; Pillai, Satish; Radonovich, Lewis; Reagan-Steiner, Sarah; Reel, Amy; Reese, Heather; Rha, Brian; Ricks, Philip; Rolfes, Melissa; Roohi, Shahrokh; Roper, Lauren; Rotz, Lisa; Routh, Janell; Sakthivel, Senthil Kumar; Sarmiento, Luisa; Schindelar, Jessica; Schneider, Eileen; Schuchat, Anne; Scott, Sarah; Shetty, Varun; Shockey, Caitlin; Shugart, Jill; Stenger, Mark; Stuckey, Matthew; Sunshine, Brittany; Sykes, Tamara; Trapp, Jonathan; Uyeki, Timothy; Vahey, Grace; Valderrama, Amy; Villanueva, Julie; Walker, Tunicia; Wallace, Megan; Wang, Lijuan; Watson, John; Weber, Angie; Weinbaum, Cindy; Weldon, William; Westnedge, Caroline; Whitaker, Brett; Whitaker, Michael; Williams, Alcia; Williams, Holly; Willams, Ian; Wong, Karen; Xie, Amy; Yousef, Anna<br/>
+*MMWR Morb Mortal Wkly Rep - Feb 07, 2020*<br/>
+- CDC, multiple other federal agencies, state and local health departments, and other partners are implementing aggressive measures to slow U.S. transmission of 2019-nCoV (4, 5) .<br/>
+- CDC is working closely with FDA and public health partners, including the American Public Health Laboratories, to rapidly share these tests domestically and internationally through CDC's International Reagent Resource (https://www.internationalreagentresource.org/).<br/>
+- It is important for public health agencies, health care providers, and the public to be aware of this new 2019-nCoV so that coordinated, timely, and effective actions can help prevent additional cases or poor health outcomes.<br/>
+
+[Preparing for a Surge of Coronavirus Cases](https://doi.org/10.1016/j.jcjq.2020.03.001)<br/>
+by Baker, David W.<br/>
+*The Joint Commission Journal on Quality and Patient Safety - Mar 07, 2020*<br/>
+- As information and recommendations about COVID-19 continue to evolve, we want to emphasize our support of the CDC and other public health partners as the appropriate source of information and guidance for health care organizations and providers.<br/>
+-  Identify specific staff to communicate and collaborate with state or local public health authorities.<br/>
+- We are confident that accredited organizations who follow routine practices and evolving CDC guidance will be able to provide for the safety of their patients, visitors, and staff.<br/>
+
+[What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
+by Singer, Donald R.J.; Redekop, Ken<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- Examples include the benefits of mobility for training health professionals, generous funding of R & D on healthcare through initiatives of the European Parliament and Commission, integrated regulation and surveillance of medicines and vaccines overseen by the European Medicines Agency, in partnership with responsible national authorities, and Universal Health Coverage across the region through the European Health Insurance Card (EHIC) system.<br/>
+- Effective resolution of AMR will need multistakeholder international cooperation, including the biotechnology industry and regulatory authorities, and effective international implementation by health authorities and health professionals of guidelines on the judicious use of any powerful new classes of treatment which emerge.<br/>
+- To counter this, the European Centre for Disease Prevention and Control has been funded to work jointly with the European Medicines Agency to provide Europe-wide information to vaccine-hesitant populations and respond to their concerns, and to provide toolkits for healthcare workers and public health experts to support their effort s to improve the uptake of immunization programmes.<br/>
+
+[Community pharmacist in public health emergencies: Quick to action against the coronavirus 2019-nCoV outbreak](https://doi.org/10.1016/j.sapharm.2020.02.003)<br/>
+by Ung, Carolina Oi Lam<br/>
+*Research in Social and Administrative Pharmacy - Feb 12, 2020*<br/>
+- 3 To support infection prevention and control overseen by the health department, departments of economy and finance, police service and customs, information, tourism, gaming, social welfare, consumer protection, municipal affairs, education formed partnerships to step up border control and surveillance, execute isolation and quarantine measures, promote personal and environmental hygiene, ensure medical and daily supply stability and monitor the pricing, deliver public and tourist education, and disseminate accurate up-to-date information on a unified platform.<br/>
+- For pharmacists to assume a role in the health emergency preparedness and response arrangements at community level, public private partnership and the application of real-world data have been shown to be vital.<br/>
+
+[Are high-performing health systems resilient against the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30551-1)<br/>
+by Legido-Quigley, Helena; Asgari, Nima; Teo, Yik Ying; Leung, Gabriel M; Oshitani, Hitoshi; Fukuda, Keiji; Cook, Alex R; Hsu, Li Yang; Shibuya, Kenji; Heymann, David<br/>
+*The Lancet - Mar 20, 2020*<br/>
+- 6 Singapore health authorities provide daily information on mainstream media, the Ministry of Health has Telegram and WhatsApp groups set up with doctors in the public and private sectors where more detailed clinical and logistics information is shared, and authorities use websites to debunk circulating misinformation.<br/>
+- The interoperability of systems between the government health department and public hospitals in Hong Kong is not optimal.<br/>
+
+[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](https://doi.org/10.1101/2020.02.20.20025957)<br/>
+by Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
+*Feb 23, 2020*<br/>
+- The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories.<br/>
+- The lessons learned from this crisis can provide insights to guide public health institutions as they implement telemedicine to increase resilience to future epidemic outbreaks.<br/>
+
+[Responding to health emergencies in the Eastern Mediterranean region in times of conflict](https://doi.org/10.1016/S0140-6736(20)30069-6)<br/>
+by Brennan, Richard; Hajjeh, Rana; Al-Mandhari, Ahmed<br/>
+*The Lancet - Mar 02, 2020*<br/>
+- 15 Humanitarian agencies have adopted various approaches to address these constraints, including investments in local partners, cross-border operations, deconfliction, remote programming, and scaled up advocacy and humanitarian diplomacy.<br/>
+- WHO's global COVID-19 strategic preparedness and response plan 13 therefore prioritises countries with weak health systems for technical and operational support from international partners.<br/>
+
+[A new pandemic out of China: the Wuhan 2019-nCoV coronavirus syndrome](https://doi.org/10.1016/j.hlpt.2020.02.001)<br/>
+by Singer, Donald R.J.<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- These would be expected to include preparedness of equipment, staff and facilities based on learning from previous epidemics, clear public health information, relevant containment, surveillance, and reporting, and international cooperation among governments, health authorities, travel organisations and border control forces.<br/>
+
+[2019-nCoV epidemic: address mental health care to empower society](https://doi.org/10.1016/S0140-6736(20)30309-3)<br/>
+by Bao, Yanping; Sun, Yankun; Meng, Shiqiu; Shi, Jie; Lu, Lin<br/>
+*The Lancet - Feb 28, 2020*<br/>
+- 6 The provincial governments are responsible for organising, coordinating, and handling all emergency public health treatments, disclosing information, and gathering emergency materials and facilities under the guidance of the State Council.<br/>
+
 # Development of a point-of-care test (like a rapid influenza test) and rapid bed-side tests, recognizing the tradeoffs between speed, accessibility, and accuracy.
 
-[Rapid Detection of Novel Coronavirus (COVID-19) by Reverse Transcription-Loop-Mediated Isothermal Amplification](doi.org/10.1101/2020.02.19.20025155)<br/>
-Authors: Laura E Lamb; Sarah N Bartolone; Elijah Ward; Michael B Chancellor<br/>
-Published: 2020-02-24 00:00:00<br/>
-Match (0.6475): **Currently, clinical testing for COVID-19 is done by central testing laboratories, which may take one or more days. This study sought to improve upon this by developing a potential point-of-care test. Point-ofcare testing has several advantages for emerging infectious diseases like COVID-19 and must be easy to use, inexpensive, fast, and require little if any laboratory infrastructure while maintaining sensitivity and specificity. RT-LAMP meets these requirements and therefore has large value for screening and testing for COVID-19 in potentially exposed populations.**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.6043): **In conclusion, SENSR is a powerful diagnostic platform for RNA detection, which 332 offers a short turnaround time, high sensitivity and specificity, and a simple assay procedure, 333 and eliminates the need for expensive instrumentations and diagnostic specialists. Given the 334 simple probe design process, and its rapid development, SENSR will be a suitable diagnostic 335 method for emerging infectious diseases. 336 All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Rapid Detection of 2019 Novel Coronavirus SARS-CoV-2 Using a CRISPR-based DETECTR Lateral Flow Assay](doi.org/10.1101/2020.03.06.20032334)<br/>
-Authors: James P Broughton; Xianding Deng; Guixia Yu; Clare L Fasching; Jasmeet Singh; Jessica Streithorst; Andrea Granados; Alicia Sotomayor-Gonzalez; Kelsey Zorn; Allan Gopez; Elaine Hsu; Wei Gu; Steven Miller; Chao-Yang Pan; Hugo Guevara; Debra Wadford; Janice Chen; Charles Y Chiu<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5821): **in clinical samples. The use of existing qRT-PCR based assays is hindered by the need 123 for expensive lab instrumentation, and availability is currently restricted to public health 124 laboratories. Importantly, the DETECTR assays developed here have comparable 125 accuracy to qRT-PCR and are broadly accessible, as they use routine protocols and 126 commercially available, "off-the-shelf" reagents. Key advantages of our approach over 127 existing methods such as qRT-PCR include (1) isothermal signal amplification for rapid 128 target detection obviating the need for thermocycling, (2) single nucleotide target 129 specificity (guide RNAs at the N2 site can distinguish SARS-CoV-2 from SARS-CoV 130 and MERS-CoV), (3) integration with portable, low-cost reporting formats such as lateral 131 flow strips, and (4) quick development cycle to address emerging threats from novel 132 zoonotic viruses (<2 weeks for SARS-CoV-2, Supplementary Fig. 6) . 133**<br/>
-<br/>
-[Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19](http://dx.doi.org/10.7554/eLife.55570)<br/>
-Authors: Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smith, James O<br/>
-Publication: eLife.; 9:e55570<br/>
-Match (0.5634): **The availability of rapid PCR tests would also be beneficial for case identification at arrival, and would help address concerns with false-positive detections by screening. If such tests were fast, there may be potential to test suspected cases in real time based on questionnaire responses, travel origin, or borderline symptoms; at least one PCR test for SARS-CoV-2 claimed to take less than an hour has already been announced (Biomeme, 2020) . However, such measures could prove highly expensive if implemented at scale. There is also scope for new tools to improve the ongoing tracking of travellers who pass through screening, such as smartphone-based self-reporting of temperature or symptoms in incoming cases . Smartphone or diary-based surveillance would be cheaper and more scalable than intense, on-the-ground follow-up, but is likely to be limited by user adherence.**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.5591): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org /10.1101 /10. /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection. Not only purified RNA can be used as the sample input, but also direct tissue or cell lysate may be used without an RNA purification step. This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications. This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches. The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.**<br/>
-<br/>
-[A simple magnetic nanoparticles-based viral RNA extraction method for efficient detection of SARS-CoV-2](doi.org/10.1101/2020.02.22.961268)<br/>
-Authors: Zhao, Z.; Cui, H.; Song, W.; Ru, X.; Zhou, W.; Yu, X.<br/>
-Published: 2020-02-27 00:00:00<br/>
-Match (0.5563): **Furthermore, the pcMNPs-RNA complexes obtained by this method is also compatible with various isothermal amplification methods, such as RPA and LAMP, and thus could be used in the development of POCT devices. In conclusion, due to its simplicity, robustness, and excellent performances, our pcMNPs-based method may provide a promising alternative to solve the laborious and time-consuming viral RNA extraction operations, and thus exhibits a great potential in the high throughput SARS-CoV-2 molecular diagnosis. author/funder. All rights reserved. No reuse allowed without permission.**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.5557): **In addition to the results shown in this study, we expect that SENSR has a broad range 316 of possibilities for pathogen detection. First, SENSR can be easily implemented in the initial 317 screening of infectious diseases at places where a large number of people gather and 318 transfer 35,36 . With a short turnaround time and a simple reaction composition, SENSR is an 319 ideal diagnostic test for rapid and economical screening. Second, SENSR will be a valuable 320 platform for the immediate development of diagnostic tests for emerging pathogens 1,37 321 because of the simple probe design process and broad adaptability of SENSR. In this work, 322 we demonstrated the successful application of SENSR to six pathogens, using minimal 323 redesign based on the highly modular structure of the probes. In theory, SENSR detection 324 probes can be designed for any RNA as long as the target nucleic acid sequence is available. 325**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.5377): **The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.05.20031971 doi: medRxiv preprint 14 more scalable than animal antibody production. Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics. Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens. 331**<br/>
-<br/>
-[Validity of Wrist and Forehead Temperature in Temperature Screening in the General Population During the Outbreak of 2019 Novel Coronavirus: a prospective real-world study](doi.org/10.1101/2020.03.02.20030148)<br/>
-Authors: Ge Chen; Jiarong Xie; Guangli Dai; Peijun Zheng; Xiaqing Hu; Hongpeng Lu; Lei Xu; Xueqin Chen; Xiaomin Chen<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5349): **In this study, we explored the accuracy and advantages of wrist temperature 78 measurement in a real-life population in different environments and conditions. We aimed to 79 find the thresholds of this key technique for diagnosis of fever. It may assist to improve the 80 standardization of both practical use and performance, especially indispensable in the 81 pandemic 2019-nCoV situation. 82 83 84 All rights reserved. No reuse allowed without permission. author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[A deep learning algorithm using CT images to screen for Corona Virus Disease (COVID-19)](doi.org/10.1101/2020.02.14.20023028)<br/>
-Authors: Shuai Wang; Bo Kang; Jinlu Ma; Xianjun Zeng; Mingming Xiao; Jia Guo; Mengjiao Cai; Jingyi Yang; Yaodong Li; Xiangfei Meng; Bo Xu<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.5297): **Timely diagnosis and triaging of PUIs are crucial for the control of emerging infectious diseases such as the current COVID-19. Due to the limitation of nucleic acid -based laboratory testing, there is an urgent need to look for fast alternative methods that can be used by front-line health care personals for quickly and accurately diagnosing the disease. In the present study, we have developed an AI program by analyzing representative CT images using a deep learning method. This is a retrospective, multicohort, diagnostic study using our modified Inception migration neuro network, which has achieved an overall 89.5% accuracy. Moreover, the high performance of the deep learning model we developed in this study was tested using external samples with 79.3% accuracy. More importantly, as a screening method, our model achieved a relative high sensitivity, 0.88 and 0.83 on internal and external datasets, respectively. During current COVID-19 outbreaks and possible pandemics, the CNN model can potentially serve as a powerful tool for COVID-19 screening.**<br/>
-<br/>
+[Sensitive one-step isothermal detection of pathogen-derived RNAs](https://doi.org/10.1101/2020.03.05.20031971)<br/>
+by Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
+*Mar 09, 2020*<br/>
+- With a short turnaround time and a simple reaction composition, SENSR is an 319 ideal diagnostic test for rapid and economical screening.<br/>
+- In conclusion, SENSR is a powerful diagnostic platform for RNA detection, which 332 offers a short turnaround time, high sensitivity and specificity, and a simple assay procedure, 333 and eliminates the need for expensive instrumentations and diagnostic specialists.<br/>
+- Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics.<br/>
+- In contrast, SENSR satisfies many desirable requirements for onsite diagnostic tests 283 for pathogens, such as short turnaround time (30 min), low limit of detection (0.1 aM), 284 inexpensive instrumentation and reagents, and a simple diagnostic procedure.<br/>
+- Second, SENSR will be a valuable 320 platform for the immediate development of diagnostic tests for emerging pathogens 1,37 321 because of the simple probe design process and broad adaptability of SENSR.<br/>
+- Given the 334 simple probe design process, and its rapid development, SENSR will be a suitable diagnostic 335 method for emerging infectious diseases.<br/>
+- In order to rapidly diagnose infectious diseases, a nucleic acid-based 35 diagnosis has emerged as an alternative to the conventional culture-based, or immunoassay-36 based, approaches due to their rapidity or specificity 4-6 .<br/>
+- This aspect limits the broad applicability of nucleic acid 47 diagnostics, especially in situations where rapid and simple detection is required.<br/>
+
+[Recent advances and perspectives of nucleic acid detection for coronavirus](https://doi.org/10.1016/j.jpha.2020.02.010)<br/>
+by Shen, Minzhe; Zhou, Ying; Ye, Jiawei; Abdullah AL-maskri, Abdu Ahmed; Kang, Yu; Zeng, Su; Cai, Sheng<br/>
+*Journal of Pharmaceutical Analysis - Mar 01, 2020*<br/>
+- evaluated a novel, portable, and near-POC diagnostic platform based on the microarray chip, the Mobile Analysis Platform (MAP), which has a good performance in identifying virus and acceptable detection limit.<br/>
+- Since coronavirus may lead to a sudden outbreak, it is of great significance that diagnostic assays are able to detect a wide range of coronaviruses and are be deployable at or near the point of care (POC).<br/>
+- Owing to its large range of applications, high sensitivity and high sequence specificity, the PCR-based method has become a routine and reliable technique for detecting coronaviruses.<br/>
+- The microarray is a detection method with rapid and high throughput.<br/>
+- Therefore, the application of LAMP test might help to reduce the cost for detection of coronavirus.<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- The breadth of application highlights the applicability of visual detection methods to provide an advantage in simplicity and portability for enabling new, rapid diagnostics.<br/>
+- This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications.<br/>
+- Although a small number of samples were tested here, the colorimetric LAMP assay enables reliable SARS-CoV-2 detection without sophisticated instrumentation, matching the RT-qPCR performance in field and point-of-care settings.<br/>
+- /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection.<br/>
+
+[Rapid Detection of 2019 Novel Coronavirus SARS-CoV-2 Using a CRISPR-based DETECTR Lateral Flow Assay](https://doi.org/10.1101/2020.03.06.20032334)<br/>
+by James P Broughton; Xianding Deng; Guixia Yu; Clare L Fasching; Jasmeet Singh; Jessica Streithorst; Andrea Granados; Alicia Sotomayor-Gonzalez; Kelsey Zorn; Allan Gopez; Elaine Hsu; Wei Gu; Steven Miller; Chao-Yang Pan; Hugo Guevara; Debra Wadford; Janice Chen; Charles Y Chiu<br/>
+*Mar 10, 2020*<br/>
+- Key advantages of our approach over 127 existing methods such as qRT-PCR include (1) isothermal signal amplification for rapid 128 target detection obviating the need for thermocycling, (2) single nucleotide target 129 specificity (guide RNAs at the N2 site can distinguish SARS-CoV-2 from SARS-CoV 130 and MERS-CoV), (3) integration with portable, low-cost reporting formats such as lateral 131 flow strips, and (4) quick development cycle to address emerging threats from novel 132 zoonotic viruses (<2 weeks for SARS-CoV-2, Supplementary Fig.<br/>
+- For a 136 number of reasons, there is an urgent public health need for rapid diagnostic tests for 137 .<br/>
+- Each time, a 48 lack of rapid, accessible, and accurate molecular diagnostic testing has hindered the 49 public health response to the emerging viral threat.<br/>
+- Here we combined isothermal amplification with CRISPR-Cas12 DETECTR 121 technology to develop a rapid (~30 min) and low-cost test for detection of SARS-CoV-2 122<br/>
+
+[Rapid Detection of Novel Coronavirus (COVID-19) by Reverse Transcription-Loop-Mediated Isothermal Amplification](https://doi.org/10.1101/2020.02.19.20025155)<br/>
+by Laura E Lamb; Sarah N Bartolone; Elijah Ward; Michael B Chancellor<br/>
+*Feb 24, 2020*<br/>
+- Point-ofcare testing has several advantages for emerging infectious diseases like COVID-19 and must be easy to use, inexpensive, fast, and require little if any laboratory infrastructure while maintaining sensitivity and specificity.<br/>
+- The test could be used at the point-of-care by field and local personnel for the rapid diagnosis of individuals for optimal treatment, isolation, and rapid contact tracking as well as the investigation of outbreaks of unknown respiratory diseases.<br/>
+- This study sought to improve upon this by developing a potential point-of-care test.<br/>
+
+[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
+by Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
+*Journal of Clinical Medicine - 2020*<br/>
+- Comparison between the molecular test (i.e RT-PCR) and serological test (i.e., ELISA) showed that the molecular test has better sensitivity and specificity.<br/>
+- It is comparable to the usual diagnostic tests and is rapid, simple and convenient.<br/>
+- Hence, serological diagnoses are likely used when nucleic amplification tests (NAAT) are not available or accessible.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Other parameters commonly used to measure reliability of a diagnostic assay are specificity, accuracy and precision.<br/>
+- Ideally, a diagnostic test needs to be rapid, cheap, accurate, and applicable in remote settings (Powers and Waterman, 2017; Chertow, 2018) .<br/>
+- Serology tests lack the sensitivity and specificity required for detection of viruses at a low level.<br/>
+
+[Development of Reverse Transcription Loop-mediated Isothermal Amplification (RT-LAMP) Assays Targeting SARS-CoV-2](https://doi.org/10.1101/2020.03.09.983064)<br/>
+by Gun-Soo Park; Keunbon Ku; Seung-Hwa Beak; Seong Jun Kim; Seung Il Kim; Bum-Tae Kim; Jin-Soo Maeng<br/>
+*Mar 12, 2020*<br/>
+- Among such methods, Loop-mediated isothermal amplification (LAMP) method has some advantages to be applied for point-of-care test (POCT).<br/>
+
+[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](https://doi.org/10.1101/2020.03.02.968818)<br/>
+by Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
+*Mar 05, 2020*<br/>
+- This detection directly increased on-the-ground certainty in diagnostic sensitivity and specificity of available assays.<br/>
+
+[Li Wenliang, a face to the frontline healthcare worker? The first doctor to notify the emergence of the SARS-CoV-2, (COVID-19), outbreak](https://doi.org/10.1016/j.ijid.2020.02.052)<br/>
+by Petersen, Eskild; Hui, David; Hamer, Davidson H.; Blumberg, Lucille; Madoff, Lawrence C.; Pollack, Marjorie; Lee, Shui Shan; McLellan, Susan; Memish, Ziad; Praharaj, Ira; Wasserman, Sean; Ntoumi, Francine; Azhar, Esam Ibraheem; McHugh, Timothy D.; Kock, Richard; Ippolito, Guiseppe; Zumla, Ali; Koopmans, Marion<br/>
+*International Journal of Infectious Diseases - 2020*<br/>
+- Accuracy of such estimates will depend on the development of sensitive and specific serologic tests.<br/>
+
 # Rapid design and execution of targeted surveillance experiments calling for all potential testers using PCR in a defined area to start testing and report to a specific entity. These experiments could aid in collecting longitudinal samples, which are critical to understanding the impact of ad hoc local interventions (which also need to be recorded).
 
-[Analysis of early renal injury in COVID-19 and diagnostic value of multi-index combined detection](doi.org/10.1101/2020.03.07.20032599)<br/>
-Authors: Xu-wei Hong; Ze-pai Chi; Guo-yuan Liu; Hong Huang; Shun-qi Guo; Jing-ru Fan; Xian-wei Lin; Liao-zhun Qu; Rui-lie Chen; Ling-jie Wu; Liang-yu Wang; Qi-chuan Zhang; Su-wu Wu; Ze-qun Pan; Hao Lin; Yu-hua Zhou; Yong-hai Zhang<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.5478): **Patients were not directly involved in the design, planning and conducting of this study.**<br/>
-<br/>
-[Data sharing for novel coronavirus (COVID-19)](http://dx.doi.org/10.2471/BLT.20.251561)<br/>
-Authors: Moorthy, Vasee; Henao Restrepo, Ana Maria; Preziosi, Marie-Pierre; Swaminathan, Soumya<br/>
-Published: 2020-03-01 00:00:00<br/>
-Publication: Bull World Health Organ<br/>
-Match (0.4999): **Efforts for expedited data and results reporting should not be limited to clinical trials, but should include observational studies, operational research, routine surveillance and information on the virus and its genetic sequences, as well as the monitoring of disease control programmes.**<br/>
-<br/>
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, Victor M; Landt, Olfert; Kaiser, Marco; Molenkamp, Richard; Meijer, Adam; Chu, Daniel KW; Bleicker, Tobias; Brünink, Sebastian; Schneider, Julia; Schmidt, Marie Luisa; Mulders, Daphne GJC; Haagmans, Bart L; van der Veer, Bas; van den Brink, Sharon; Wijsman, Lisa; Goderski, Gabriel; Romette, Jean-Louis; Ellis, Joanna; Zambon, Maria; Peiris, Malik; Goossens, Herman; Reusken, Chantal; Koopmans, Marion PG; Drosten, Christian<br/>
-Published: 2020-01-23 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.4919): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, V. M.; Landt, O.; Kaiser, M.; Molenkamp, R.; Meijer, A.; Chu, D. K.; Bleicker, T.; Brünink, S.; Schneider, J.; Schmidt, M. L.; Mulders, D. G.; Haagmans, B. L.; van der Veer, B.; van den Brink, S.; Wijsman, L.; Goderski, G.; Romette, J. L.; Ellis, J.; Zambon, M.; Peiris, M.; Goossens, H.; Reusken, C.; Koopmans, M. P.; Drosten, C.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin<br/>
-Match (0.4919): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
-[Community responses during the early phase of the COVID-19 epidemic in Hong Kong: risk perception, information exposure and preventive measures](doi.org/10.1101/2020.02.26.20028217)<br/>
-Authors: Kin On Kwok; Kin Kit Li; Ho Hin Chan; Yuan Yuan Yi; Arthur Tang; Wan In Wei; Yeung Shan Wong<br/>
-Published: 2020-02-27 00:00:00<br/>
-Match (0.4869): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.02.26.20028217 doi: medRxiv preprint early start enables timely assessment of the community responses such that there is sufficient gap period 307 to inform intervention policies. Second, our recruitment method, online survey via dissemination by 308 DCCA councilors, is the first of its kinds to capture responses during public holidays while maintaining progresses. However, contact information were collected from this study cohort and follow-up surveys 321 will be carried out as the disease progresses. CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.4761): **For its current application, the standardization of protocols as elaborated in this manuscript need to be pursued to ensure that there is seamless sharing of information and data. By doing this, it is expected that issues like burdens of collecting data, accuracy and other complexity that are experienced (when systems are fragmented) are reduced or eliminated altogether. The standardization can be achieved by, for example, ensuring that all the devices and systems are linked into a single network, like was done in the U.S., where all the surveillance of healthcare were combined into the National Healthcare Safety Network (NHSH) [35] . The fact that cities are increasingly tuning on the concept of Smart Cities and boasting an increased adoption rate of technological and connected products, existing surveillance networks can be re-calibrated to make use of those new sets of databases. Appropriate protocols however have to be drafted to ensure effective actions while ensuring privacy and security of data and people.**<br/>
-<br/>
-[68 Consecutive patients assessed for COVID-19 infection; experience from a UK regional infectious disease unit](doi.org/10.1101/2020.02.29.20029462)<br/>
-Authors: Nicholas Easom; Peter Moss; Gavin Barlow; Anda Samson; Tom Taynton; Kate Adams; Monica Ivan; Phillipa Burns; Kavitha Gajee; Kirstine Eastick; Patrick Lillie<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4721): **Data were entered directly from clinical notes into a centrally held password protected spreadsheet, to facilitate patient follow up and data analysis. Clinical features, observations, investigations, management and outcomes are presented with descriptive statistics where relevant. Local clinical governance approval was granted to record the data as an ongoing service evaluation. As all care delivered to patients was routine, no ethical approval is necessary in keeping with UK national guidance that this is an evaluation of a current NHS service.**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.4699): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org /10.1101 /10. /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection. Not only purified RNA can be used as the sample input, but also direct tissue or cell lysate may be used without an RNA purification step. This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications. This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches. The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.**<br/>
-<br/>
-[Preparedness and vulnerability of African countries against introductions of 2019-nCoV](doi.org/10.1101/2020.02.05.20020792)<br/>
-Authors: Marius Gilbert; Giulia Pullano; Francesco Pinotti; Eugenio Valdano; Chiara Poletto; Pierre-Yves Boelle; Ortenzio",; ,; ,; ,; ,; ,<br/>
-Published: 2020-02-07 00:00:00<br/>
-Match (0.4622): **The ability to limit and control local transmission following introduction depends, however, on the application and execution of strict measures of detection, prevention and control. These include heightened surveillance, rapid identification of suspect cases followed by patient transfer and isolation, rapid diagnosis, tracing and follow-up of potential contacts [1] . The application of such a vast technical and operational set of interventions depends on countries' public health and laboratory infrastructures and resources.**<br/>
-<br/>
-[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
-Authors: Deng, Sheng-Qun; Peng, Hong-Juan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: J Clin Med<br/>
-Match (0.4594): **Organization, coordination, supervision, and evaluation of the monitoring work; collection, analysis, report, and feedback of the monitoring data; epidemiological investigation; strengthening laboratory testing ability, bio-safety protection awareness, and technical training; carrying out health education and publicity and risk communication to the public.**<br/>
-<br/>
+[Sensitive one-step isothermal detection of pathogen-derived RNAs](https://doi.org/10.1101/2020.03.05.20031971)<br/>
+by Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
+*Mar 09, 2020*<br/>
+- Therefore, the dual SENSR assay could be used to assist diagnostic decision 271 making by providing two detection results that can complement each other.<br/>
+- Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens.<br/>
+- Second, SENSR will be a valuable 320 platform for the immediate development of diagnostic tests for emerging pathogens 1,37 321 because of the simple probe design process and broad adaptability of SENSR.<br/>
+- Even with the multifaceted features of the SENSR probes, the design process is 288 systematic and straightforward.<br/>
+
+[Analytical sensibility and specificity of two RT-qPCR protocols for SARS-CoV-2 detection performed in an automated workflow](https://doi.org/10.1101/2020.03.07.20032326)<br/>
+by Gustavo Barcelos Barra; Ticiane Henriques Santa Rita; Pedro Goes Mesquita; Rafael Henriques Jacomo; Lidia Freire Abdalla Nery<br/>
+*Mar 10, 2020*<br/>
+- Here, we investigate the analytical sensitivity and specificity of two interim RT-qPCR protocols 3,4 for the qualitative detection of SARS-CoV-2 executed in a fully automated platform.<br/>
+- Validations of these protocols are considered a key knowledge gap for COVID-19, especially if executed in a high throughput format.<br/>
+- This study highlights the importance of local validation of in-house assays before its availability to the population.<br/>
+
+[Prospect and application of Internet of Things technology for prevention of SARIs](https://doi.org/10.1016/j.ceh.2020.02.001)<br/>
+by Song, Yuanlin; Jiang, Jinjun; Wang, Xun; Yang, Dawei; Bai, Chunxue<br/>
+*Clinical eHealth - Dec 31, 2020*<br/>
+- However, it is necessary to elucidate methods of faster learning and providing high-quality implementation interim guidance.<br/>
+- We could incorporate the key points of the interim guidance into the 5A process, adding quality control to ensure that they are performed with high quality.<br/>
+- Moreover, through high-speed information quality monitoring and a professional epidemiological data statistics model, we can effectively obtain the results of the most current quality control, efficiently monitor and provide an early warning of potential risks, and feedback to hospitals and physicians at all levels, in a timely fashion, the formation of the three-level linkage of corrective programs, ultimately achieving patient and social satisfaction.<br/>
+
+[Testing the repatriated for SARS-Cov2: Should laboratory-based quarantine replace traditional quarantine?](https://doi.org/10.1016/j.tmaid.2020.101624)<br/>
+by Lagier, Jean Christophe; Colson, Philippe; Tissot Dupont, Hervé; Salomon, Jérôme; Doudier, Barbara; Aubry, Camille; Gouriet, Frédérique; Baron, Sophie; Dudouet, Pierre; Flores, Rémi; Ailhaud, Lucie; Gautret, Philippe; Parola, Philippe; La Scola, Bernard; Raoult, Didier; Brouqui, Philippe<br/>
+*Travel Medicine and Infectious Disease - Mar 14, 2020*<br/>
+- The experience of our team regarding point-of care testing helped in designing this study.<br/>
+- In addition, we optimised the testing strategy by prioritising the extraction of RNA from the samples, rather than performing a complete registration of all samples in our laboratory computer system then preparing all aliquots from the samples including for preparation of the biobank.<br/>
+
+[The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
+by Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
+*Nature Microbiology - 2020*<br/>
+- Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach).<br/>
+- To advance such studies, innovative fundraising approaches may be required.<br/>
+
+[CRISPR-based surveillance for COVID-19 using genomically-comprehensive machine learning design](https://doi.org/10.1101/2020.02.26.967026)<br/>
+by Metsky, H. C.; Freije, C. A.; Kosoko-Thoroddsen, T.-S. F.; Sabeti, P. C.; Myhrvold, C.<br/>
+*Mar 02, 2020*<br/>
+- A protocol for performing this assay is provided in the Methods section and can be used for testing any of the other designs we have provided.<br/>
+- Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools.<br/>
+
+[Preliminary epidemiological analysis on children and adolescents with novel coronavirus disease 2019 outside Hubei Province, China: an observational study utilizing crowdsourced data](https://doi.org/10.1101/2020.03.01.20029884)<br/>
+by Brandon Michael Henry; Maria Helena S Oliveira<br/>
+*Mar 06, 2020*<br/>
+- 4, 5 Though this data cannot replace official data and analyses provided by national and international health agencies, it can enable rapid analysis of data and dissemination of key information in the preliminary stages of an outbreak when minimal other data is available, and, as applied in this study, early data on specific subsets of patients.<br/>
+- In early stages of epidemics with emerging pathogens, real-time analysis of accurate and robust epidemiological and clinical data is essential to developing interventional strategies and guiding public health decisionmaking.<br/>
+
+[Data sharing for novel coronavirus (COVID-19)](https://doi.org/10.2471/BLT.20.251561)<br/>
+by Moorthy, Vasee; Henao Restrepo, Ana Maria; Preziosi, Marie-Pierre; Swaminathan, Soumya<br/>
+*Bull World Health Organ - Mar 01, 2020*<br/>
+- Efforts for expedited data and results reporting should not be limited to clinical trials, but should include observational studies, operational research, routine surveillance and information on the virus and its genetic sequences, as well as the monitoring of disease control programmes.<br/>
+
+[Incorporating Human Movement Data to Improve Epidemiological Estimates for 2019-nCoV](https://doi.org/10.1101/2020.02.07.20021071)<br/>
+by Zhidong Cao; Qingpeng Zhang; Xin Lu; Dirk Pfeiffer; Lei Wang; Hongbing Song; Tao Pei; Zhongwei Jia; Daniel Dajun Zeng<br/>
+*Feb 09, 2020*<br/>
+- This will allow developing early detection, isolation and quarantine strategies tailored to the very dynamic epidemiological situation, as well as identify potential problems in the implementation of local disease control policies and inform the design of any necessary adjustments.<br/>
+
+[Vorpal: A Novel RNA Virus Feature-Extraction Algorithm Demonstrated Through Interpretable Genotype-to-Phenotype Linear Models](https://doi.org/10.1101/2020.02.28.969782)<br/>
+by Davis, P.; Bagnoli, J.; Yarmosh, D.; Shteyman, A.; Presser, L.; Altmann, S.; Bradrick, S.; Russell, J. A.<br/>
+*Mar 02, 2020*<br/>
+- identification of hypotheses which can be validated by direct experimentation, as well as 34 identification of genomic targets for preemptive biosurveillance of emerging viruses, is 35 discussed.<br/>
+
 # Separation of assay development issues from instruments, and the role of the private sector to help quickly migrate assays onto those devices.
 
 [On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5688): **Furthermore, in cases of emergencies like the current outbreak of COVID-19 and any other, the need for observance of regulatory practices and international healthcare guidelines are paramount. This would ensure that both healthcare professionals and the general populace are informed, protected and remain within the prescribed rules and regulations. As noted by the WHO [40] , the healthcare guidelines and regulatory practices are advanced to also ensure that the health risk in question is reduced together with its consequences. In the current era of technological advancement, such regulations and guidelines are paramount as they have potential to lead to positive or negative outcomes. The position of this paper is to advance that it now possible to integrate technologies like the use of smart devices through IoT networks and wearable devices, data from mobile apps and others to help users to share information with accredited and certified health professionals, and in this case, improve the outcomes for better cross disciplinary and more resilient protocols and policies.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5597): **The above improvements in the healthcare sector can only be achieved if different smart city products are fashioned to support standardized protocols that would allow for seamless communication between themselves. Weber and Podnar Žarko [9] suggest that IoT devices in use should support open protocols, and at the same time, the device provider should ensure that those fashioned uphold data integrity and safety during communication and transmission. Unfortunately, this has not been the case and, as Vermesan and Friess [10] explain, most smart city products use proprietary solutions that are only understood by the service providers. This situation often creates unnecessary fragmentation of information rendering only a partial integrated view on the dynamics of the urban realm. With restricted knowledge on emergent trends, urban managers cannot effectively take decisions to contain outbreaks and adequately act without compromising the social and economic integrity of their city. This paper, inspired by the case of the COVID-19 virus, explores how urban resilience can be further achieved, and outlines the importance of seeking standardization of communication across and between smart cities.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5588): **With the advent of the digital age and the plethora of Internet of Things (IoT) devices it brings, there has been a substantial rise in the amount of data gathered by these devices in different sectors like transport, environment, entertainment, sport and health sectors, amongst others [11] . To put this into perspective, it is believed that by the end of 2020, over 2314 exabytes (1 exabyte = 1 billion gigabytes) of data will be generated globally [12] from the health sector. Stanford Medicine [12] acknowledges that this increase, especially in the medical field, is witnessing a proportional increase due to the increase in sources of data that are not limited to hospital records. Rather, the increase is being underpinned by drawing upon a myriad and increasing number of IoT smart devices, that are projected to exponentially increase the global healthcare market to a value of more than USD $543.3 billion by 2025 [13] . However, while the potential for the data market is understood, such issues like privacy of information, data protection and sharing, and obligatory requirements of healthcare management and monitoring, among others, are critical. Moreover, in the present case of the Coronavirus outbreak, this ought to be handled with care to avoid jeopardizing efforts already in place to combat the pandemic. On the foremost, since these cut across different countries, which are part of the global community and have their unique laws and regulations concerning issues mentioned above, it is paramount to observe them as per the dictate of their source country's laws and regulations; hence, underlining the importance of working towards not only the promoting of data through its usage but also the need for standardized and universally agreed protocols.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5573): **Beyond the aspect of pandemic preparedness and response, the case of COVID-19 virus and its spread provide a fascinating case study for the thematics of urban health. Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios. This is valid as smart cities host a rich array of technological products [6, 7] that can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally. While thermal cameras are not sufficient on their own for the detection of pandemics -like the case of the COVID-19, the integration of such products with artificial intelligence (AI) can provide added benefits. The fact that initial screenings of temperature is being pursued for the case of the COVID-19 at airports and in areas of mass convergence is a testament to its potential in an automated fashion. Kamel Boulos et al. [8] supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.5426): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org /10.1101 /10. /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection. Not only purified RNA can be used as the sample input, but also direct tissue or cell lysate may be used without an RNA purification step. This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications. This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches. The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5327): **While it is true that the basic source of medical data is generally sourced from general practitioners or medical laboratories-a fact that has also been affirmed in the case of the current epidemic-this paper explores how data sourced from an urban perspective can contribute to the medical narrative. The conviction to dwell on the urban realm in this manuscript is based on the fact that the current epidemic (COVID-19) is transmitted majorly through human-to-human contact, and in most cases, especially where the spread is reported in a different country, the first point of contact is an urban area, where large groups of people convene, like airports or subway stations. In most cases, such facilities, which are mostly based in urban areas, are observed to have installed surveillance technologies to ensure that anyone showing any symptoms of the disease are identified and quarantined. However, even in such cases, as underlined in the present manuscript, the need for anonymizing medical data is emphasized to ensure that the use of current technologies does not breach data privacy and security requirements, across different geographies. In this case, novel technologies like Blockchain technologies and quantum cryptography can aid in the discussion and be made to integrate with data collecting technologies. This would render an increased wealth of data from both the medical field and smart city operators, while ensuring privacy and security; hence, aiding in providing relevant information for better informed decisions.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5310): **However, despite the indisputable roles that installed devices play in providing relevant health information, their data communication aspect needs to be reviewed. First, communications are seen to be geography-restricted (restricted to a given location), such that they seldom expand or communicate with their like, installed beyond their restricted areas. Secondly, these devices are usually sourced and installed by separate corporations that maintain unique and specific standards for data processing and sharing, and accordingly, tying cities to the sole usage of their product(s). Such strategies are adopted as private corporations try to maximize their economic gains, since the digital solution market is a lucrative one and is expected to continue growing and expanding [6, 7] .**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5273): **For its current application, the standardization of protocols as elaborated in this manuscript need to be pursued to ensure that there is seamless sharing of information and data. By doing this, it is expected that issues like burdens of collecting data, accuracy and other complexity that are experienced (when systems are fragmented) are reduced or eliminated altogether. The standardization can be achieved by, for example, ensuring that all the devices and systems are linked into a single network, like was done in the U.S., where all the surveillance of healthcare were combined into the National Healthcare Safety Network (NHSH) [35] . The fact that cities are increasingly tuning on the concept of Smart Cities and boasting an increased adoption rate of technological and connected products, existing surveillance networks can be re-calibrated to make use of those new sets of databases. Appropriate protocols however have to be drafted to ensure effective actions while ensuring privacy and security of data and people.**<br/>
-<br/>
-[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](doi.org/10.1101/2020.02.20.20025957)<br/>
-Authors: Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.5269): **As we look to the future of epidemic prevention and control, we believe that telemedicine systems have the potential to play a role in addressing emergencies and large-scale outbreaks in high uncertainty settings. As telemedicine has inevitably altered the traditional working relationships within the healthcare network, how to ensure high-quality communication among healthcare practitioners poses a significant challenge. As such, frequent, timely, accurate, and problem-solving focused communication among clinical staffs from hospitals at different levels in the healthcare system is essential to minimize the risk incurred in handling patients with possible COVID-19 infection 3 . However, we have found that high quality of communication is not always maintained during the telemedicine coordination. Therefore, a learning telemedicine system platform for coronavirus care was developed across connected hospitals, serving as the overarching authoritative source for diagnostic decision making and knowledge sharing for treatment. The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories. The lessons learned from this crisis can provide insights to guide public health institutions as they implement telemedicine to increase resilience to future epidemic outbreaks.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5155): **In addition to these methods, other smart city data sources include the application of terminal tracking systems that are mostly emphasized in Safe City concepts, where, at the point of entry or departure, relevant data is collected and analyzed. Li et al. [32] highlights that sensors installed in such locations have the potential to receive and distribute data in real-time to digital infrastructures within the network, and their interconnectedness in the network renders them extremely efficient in providing real-time updates on different issues. Urban areas are also known to be amassed with numerous Urban Health sensors, some of which are wearable. Though these are not specifically fashioned to track the present case of virus outbreak, they are able to track other related parameters like heartbeat, blood pressure, body temperature and others variables, that when analyzed can offer valuable insights. Loncar-Turukalo et al. [33] hail these devices for their role in transforming the health care sector especially by allowing for Connected Health (CH) care, where data collected from them can be analyzed and provide insightful information on the health scenario in any given area. Vashist et al. [34] further highlight how emerging features such as spatiotemporal mapping, remote monitoring and management, and enhanced cloud computing capabilities can emanate from such endeavours, leading to better urban management potential.**<br/>
-<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- The position of this paper is to advance that it now possible to integrate technologies like the use of smart devices through IoT networks and wearable devices, data from mobile apps and others to help users to share information with accredited and certified health professionals, and in this case, improve the outcomes for better cross disciplinary and more resilient protocols and policies.<br/>
+- The above improvements in the healthcare sector can only be achieved if different smart city products are fashioned to support standardized protocols that would allow for seamless communication between themselves.<br/>
+- This is valid as smart cities host a rich array of technological productsthat can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally.<br/>
+- This hindrance can be made further possible as many cities advance in their smart and safe city model implementation towards constructing sufficient soft and hard urban infrastructures equipped with, for example, thermal imagery sensors to allow for early detections.<br/>
+- With the advent of the digital age and the plethora of Internet of Things (IoT) devices it brings, there has been a substantial rise in the amount of data gathered by these devices in different sectors like transport, environment, entertainment, sport and health sectors, amongst others.<br/>
+- hail these devices for their role in transforming the health care sector especially by allowing for Connected Health (CH) care, where data collected from them can be analyzed and provide insightful information on the health scenario in any given area.<br/>
+- Weber and Podnar Žarkosuggest that IoT devices in use should support open protocols, and at the same time, the device provider should ensure that those fashioned uphold data integrity and safety during communication and transmission.<br/>
+- In this case, novel technologies like Blockchain technologies and quantum cryptography can aid in the discussion and be made to integrate with data collecting technologies.<br/>
+- Secondly, these devices are usually sourced and installed by separate corporations that maintain unique and specific standards for data processing and sharing, and accordingly, tying cities to the sole usage of their product(s).<br/>
+
+[Prospect and application of Internet of Things technology for prevention of SARIs](https://doi.org/10.1016/j.ceh.2020.02.001)<br/>
+by Song, Yuanlin; Jiang, Jinjun; Wang, Xun; Yang, Dawei; Bai, Chunxue<br/>
+*Clinical eHealth - Dec 31, 2020*<br/>
+- 13 Moreover, with the development of microelectronics and integrated industrial technology, numerous sensing technologies have been developed, such as the ''smart T-shirt".<br/>
+- Moreover, the development and diffusion of the mIoT must address the following unresolved issues: (1) improve interoperability: the adoption of open standards must ensure that products from different manufacturers can communicate with each other; (2) ensure that there is no leakage; and (3) enhance the distribution network: sensors must communicate with services such as the Internet and wireless networks such that information can be relayed to remote health workers.<br/>
+- 27 To solve these problems, there is an urgent requirement to develop a modern medical model -mIoT and to use this to improve the current telemedicine, coupled with mobile phones and other popular user terminals.<br/>
+- mIoT is the science of intelligent identification, location, monitoring, and AI services for SARI patients using RFID, Global Positioning Systems, different sensing devices, information exchange, and communication according to an agreed arrangement.<br/>
+- Through the use of wireless sensor equipment and modern IT, patients can enjoy professional services, thereby ensuring the safety of suspected patients and also avoiding the infection of their families.<br/>
+
+[New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
+by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
+*International Journal of Pharmaceutics - Apr 15, 2020*<br/>
+- For these considerations, the adoption of the preventing tools proposed by the stakeholders' associations (PDA, 2014; ISPE, 2014) could be carried out gradually by the MAHs based on both the shortage impact of a product on the treated patients and the economic sustainability for the MAHs production.<br/>
+- For such products, manufacturer's resilience should be improved by more onerous provisions, such as the obligation for MAHs to qualify at least two suppliers of drug substance, the stockpiles' expansion and the implementation of the manufacturing technologies and risk assessment tools.<br/>
+- Such a procedure may be fully integrable with other existing and adopted strategies and, therefore, it may be an added value for both European Regulatory Authorities and other subjects involved in the National pharmaceutical distribution chains and healthcare systems (e.g., manufacturers, wholesalers, hospitals, pharmacies, insurance companies, regional healthcare Authorities).<br/>
+- Economic incentives to MAHs producing medicinal products can be provided as cut-off of the regulatory costs/times to implement the quality in their manufacturing process and to improve their resilience to production blockage.<br/>
+
+[In silico approach to accelerate the development of mass spectrometry-based proteomics methods for detection of viral proteins: Application to COVID-19](https://doi.org/10.1101/2020.03.08.980383)<br/>
+by Jenkins, C.; Orsburn, B.<br/>
+*Mar 10, 2020*<br/>
+- Today, protein array and antibody-based methods are falling out of favor in both research and clinical diagnostics, due in large part to the improvements in LCMS technology.<br/>
+- The peptide spectral libraries are further utilized to create transition lists optimized for hardware from 5 instrument vendors and complete PRM methods for all 3 quadrupole Orbitrap architectures.<br/>
+- For SCIEX instruments, the same dwell time was utilized as well as automatic optimization of the declustering potential and compensation voltage from the transition settings menu.<br/>
+- While minor modifications are required for SCIEX, Agilent, and Shimadzu instruments, Waters Xevo and Thermo instruments use identical parameters for transition list design.<br/>
+
+[What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
+by Singer, Donald R.J.; Redekop, Ken<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- Trade and tariff barriers arising from evolving isolationist policies of the USA are also likely to restrict progress on implementation and the health impact of achieving the UN's Sustainable Development Goals, not least through increased international costs of diagnostics, devices and medicines.<br/>
+- While digital technology extends beyond the realms of digital health, countless innovations in digital technology have the potential to improve but also reduce our health and quality of life.<br/>
+- Also in prospect is much more from digital health, including both empowering patients and further transfer of responsibility for health monitoring from health professionals to patients.<br/>
+
+[Nanopore target sequencing for accurate and comprehensive detection of SARS-CoV-2 and other respiratory viruses](https://doi.org/10.1101/2020.03.04.20029538)<br/>
+by Ming Wang; Aisi Fu; Ben Hu; Yongqing Tong; Ran Liu; Jiashuang Gu; Jianghao Liu; Wen Jiang; Gaigai Shen; Wanxu Zhao; Dong Men; Lilei Yu; Zixin Deng; Yan Li; Tiangang Liu<br/>
+*Mar 06, 2020*<br/>
+- The introduction of integration systems or 280 sealed devices such as microfluidics may avoid this situation 26, 27 .<br/>
+- Moreover, the MinION, the smallest Oxford Nanopore sequencer, is smaller than a cellphone; when 263 equipped with a laptop computer for data processing, it thus allows rapid performance of NTS in 264 All rights reserved.<br/>
+
+[Are high-performing health systems resilient against the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30551-1)<br/>
+by Legido-Quigley, Helena; Asgari, Nima; Teo, Yik Ying; Leung, Gabriel M; Oshitani, Hitoshi; Fukuda, Keiji; Cook, Alex R; Hsu, Li Yang; Shibuya, Kenji; Heymann, David<br/>
+*The Lancet - Mar 20, 2020*<br/>
+- The first is that integration of services in the health system and across other sectors amplifies the ability to absorb and adapt to shock.<br/>
+- Fourth, the three health systems developed plans to sustain routine health-care services, but the integration of services has been problematic.<br/>
+
+[The 2019 coronavirus (SARS-CoV-2) surface protein (Spike) S1 Receptor Binding Domain undergoes conformational change upon heparin binding.](https://doi.org/10.1101/2020.02.29.971093)<br/>
+by Mycroft-West, C. J.; Su, D.; Elli, S.; Guimond, S. E.; Miller, G. J.; Turnbull, J. E.; Yates, E. A.; Guerrini, M.; Fernig, D. G.; Andrade de Lima, M.; Skidmore, M. A.<br/>
+*Mar 02, 2020*<br/>
+- A P4SPR, multi-channel Surface Plasmon Resonance (SPR) instrument (Affinté Instruments; Montréal, Canada) was utilised with a gold sensor chip that was plasma cleaned prior to derivatization.<br/>
+- The chip was rinsed with ethanol and placed into the instrument.<br/>
+
+[Practical experiences and suggestions on the eagle-eyed observer, a novel promising role for controlling nosocomial infection of the COVID-19 outbreak](https://doi.org/10.1016/j.jhin.2020.02.020)<br/>
+by Peng, Jianhui; Ren, Nina; Wang, Mingke; Zhang, Gangqing<br/>
+*Journal of Hospital Infection - Mar 03, 2020*<br/>
+- Automatic robotic devices for the diagnosis and treatment, nursing care in patients, and goods transfer, medical waste packaging and transportation in the isolation wards may be the development direction.<br/>
+
+[Is Africa prepared for tackling the COVID-19 (SARS-CoV-2) epidemic. Lessons from past outbreaks, ongoing pan-African public health efforts, and implications for the future](https://doi.org/10.1016/j.ijid.2020.02.049)<br/>
+by Kapata, Nathan; Ihekweazu, Chikwe; Ntoumi, Francine; Raji, Tajudeen; Chanda-Kapata, Pascalina; Mwaba, Peter; Mukonka, Victor; Bates, Matthew; Tembo, John; Corman, Victor; Mfinanga, Sayoki; Asogun, Danny; Elton, Linzy; Arruda, Liã Bárbara; Thomason, Margaret J.; Mboera, Leonard; Yavlinsky, Alexei; Haider, Najmul; Simons, David; Hollmann, Lara; Lule, Swaib A.; Veas, Francisco; Abdel Hamid, Muzamil Mahdi; Dar, Osman; Edwards, Sarah; Vairo, Francesco; McHugh, Timothy D.; Drosten, Christian; Kock, Richard; Ippolito, Giuseppe; Zumla, Alimuddin<br/>
+*International Journal of Infectious Diseases - Apr 30, 2020*<br/>
+- Increased governmental and donor investments are required to advance locally led, world-class public health work with surveillance, data and analytics capabilities and further expanding state-of-the-art laboratory capacities with more J o u r n a l P r e -p r o o f trained personnel to sustain capacity to rapidly respond to outbreaks at their source.<br/>
+
 # Efforts to track the evolution of the virus (i.e., genetic drift or mutations) and avoid locking into specific reagents and surveillance/detection schemes.
 
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.4838): **Opening this CTI Special Feature, I outline ways these issues may be solved by creatively leveraging the so-called 'strengths' of viruses. Viral RNA polymerisation and reverse transcription enable resistance to treatment by conferring extraordinary genetic diversity. However, these exact processes ultimately restrict viral infectivity by strongly limiting virus genome sizes and their incorporation of new information. I coin this evolutionary dilemma the 'information economy paradox'. Many viruses attempt to resolve this by manipulating multifunctional or multitasking host cell proteins (MMHPs), thereby maximising host subversion and viral infectivity at minimal informational cost. 4 I argue this exposes an 'Achilles Heel' that may be safely targeted via host-oriented therapies to impose devastating informational and fitness barriers on escape mutant selection. Furthermore, since MMHPs are often conserved targets within and between virus families, MMHP-targeting therapies may exhibit both robust and broadspectrum antiviral efficacy. Achieving this through drug repurposing will break the vicious cycle of escalating therapeutic development costs and trivial escape mutant selection, both quickly and in multiple places. I also discuss alternative posttranslational and RNA-based antiviral approaches, designer vaccines, immunotherapy and the emerging field of neo-virology. 4 I anticipate international efforts in these areas over the coming decade will enable the tapping of useful new biological functions and processes, methods for controlling infection, and the deployment of symbiotic or subclinical viruses in new therapies and biotechnologies that are so crucially needed.**<br/>
-<br/>
-[Evaluation of the potential incidence of COVID-19 and effectiveness of contention measures in Spain: a data-driven approach](doi.org/10.1101/2020.03.01.20029801)<br/>
-Authors: Alberto Aleta; Yamir Moreno<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4338): **As with any other novel disease, governments, public health services and the scientific community have been working towards stopping the spreading of COVID-19 as soon as possible and with the lowest possible impact on the population [4, [7] [8] [9] . From a scientific point of view, there are two course of actions that can be followed. On the one hand, new vaccines and pharmaceutical interventions need to be developed. This usually requires months of work. Therefore, on the other hand, it is important to study the large-scale spatial spreading of the disease through mathematical and computational modeling, which allows evaluating "in-silicon" what-if-scenarios and potential contention measures to stop or delay the disease. This modeling effort is key, as it can contribute to maximize the effectiveness of any protection measures and gain time to develop new drugs or a vaccine to protect the population. Here, we follow the modeling path and analyze, through a data-driven stochastic SEIR-metapopulation model, the temporal and spatial transmission of the COVID-19 disease in Spain as well as the expected impact of possible and customary contention measures.**<br/>
-<br/>
-[The Essential Facts of Wuhan Novel Coronavirus Outbreak in China and Epitope-based Vaccine Designing against COVID-19](doi.org/10.1101/2020.02.05.935072)<br/>
-Authors: Sarkar, B.; Ullah, M. A.; Johora, F. T.; Taniya, M. A.; Araf, Y.<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.4333): **Reverse vaccinology refers to the process of developing vaccines where the novel antigens of a virus or microorganism or organism are detected by analyzing the genomic and genetic information of that particular virus or organism. In reverse vaccinology, the tools of bioinformatics are used for identifying and analyzing these novel antigens. These tools are used to dissect the genome and genetic makeup of a pathogen for developing a potential vaccine. Reverse vaccinology approach of vaccine development also allows the scientists to easily understand the antigenic segments of a virus or pathogen that should be given more emphasis during the vaccine development. This method is a quick, cheap, efficient, easy and cost-effective way to design vaccine. Reverse vaccinology has successfully been used for developing vaccines to fight against many viruses i.e., the Zika virus, Chikungunya virus etc. [ **<br/>
-<br/>
-[Potential impact of seasonal forcing on a SARS-CoV-2 pandemic](doi.org/10.1101/2020.02.13.20022806)<br/>
-Authors: Richard A Neher; Robert Dyrdak; Valentin Druelle; Emma B Hodcroft; Jan Albert<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.4199): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10. 1101 compatible within the limits of the current knowledge about the outbreak. The implications of our work are that: 1) reductions in prevalence need not be attributable to successful interventions, but could be due to seasonal variation in transmissibility, 2) sub-population dynamics can differ greatly, meaning that case count trajectories in one country should be used cautiously to inform projections in a second country, even in the same climate zone, 3) seasonal variation might slow down a pandemic and thereby provide a window of opportunity for better preparation of health care systems world-wide by scaling up capacity for care and diagnostics, and potentially through rapid development of antivirals and vaccine, and 4) after several years SARS-CoV-2 could develop into an endemic seasonal CoV similar to the transition of the 2009 A/H1N1 pandemic influenza virus into a seasonal influenza virus.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.4185): **Beyond the aspect of pandemic preparedness and response, the case of COVID-19 virus and its spread provide a fascinating case study for the thematics of urban health. Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios. This is valid as smart cities host a rich array of technological products [6, 7] that can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally. While thermal cameras are not sufficient on their own for the detection of pandemics -like the case of the COVID-19, the integration of such products with artificial intelligence (AI) can provide added benefits. The fact that initial screenings of temperature is being pursued for the case of the COVID-19 at airports and in areas of mass convergence is a testament to its potential in an automated fashion. Kamel Boulos et al. [8] supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.**<br/>
-<br/>
-[Networks of information token recurrences derived from genomic sequences may reveal hidden patterns in epidemic outbreaks: A case study of the 2019-nCoV coronavirus.](doi.org/10.1101/2020.02.07.20021139)<br/>
-Authors: Markus Luczak-Roesch<br/>
-Published: 2020-02-11 00:00:00<br/>
-Match (0.4157): **How far a virus will eventually spread at local, regional, national and international levels is of central concern during an epidemic outbreak due to the severe consequences large-scale epidemics have on human well-being [5] , the stability and coherence of social systems [11] , and the global economy [23] . A thorough understanding of the genetic characteristics of a virus is crucial to understand the way it is (or may be) transmitted (e.g. human-to-human transmissibility) in order to be able to anticipate the potential reach of an outbreak and develop effective countermeasures. The recent outbreak of a new type of coronavirus -2019-nCoV -provides plenty of examples of the way researchers seek to quickly approach the aforementioned problems of genetic decomposition of the virus [2, 8] and modelling of its transmission dynamics [15] .**<br/>
-<br/>
-[Puzzle of highly pathogenic human coronaviruses (2019-nCoV)](https://doi.org/10.1007/s13238-020-00693-y)<br/>
-Authors: Li, Jing; Liu, Wenjun<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Protein Cell<br/>
-Match (0.4141): **However, many other important aspects of virus biology, such as, whether the virus can travel across continents, the list of species it can infect and whether it can cause severe mortality, are much harder to forecast. Our premise is that the amount of sequencing data currently available and the latest advances in computing methods using that data will make it possible for the first time to generate virtual models of how viruses evolve in each environment and how those viruses behave. Such models have the potential to make risk assessments as they arise that can be used to inform policy and direct strategies to head off impending threats.**<br/>
-<br/>
-[Tracking online heroisation and blame in epidemics](https://doi.org/10.1016/S2468-2667(20)30033-5)<br/>
-Authors: Atlani-Duault, Laëtitia; Ward, Jeremy K.; Roy, Melissa; Morin, Céline; Wilson, Andrew<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: The Lancet Public Health<br/>
-Match (0.4133): **Tracking heroisation and blame dynamics in realtime, as epidemics unfold, can help health authorities to understand public attitudes both to the threats posed by epidemics and the hope offered by health interventions, to fine-tune targeted health communication strategies accordingly, to identify and amplify local and international heroes, to identify and counter attempts to blame, scapegoat, and spread misinformation, and to improve crisis management practices for the future. Such an approach can bring to the surface what we propose to call complex geographies of hope and blame, which public health authorities need to be aware of while planning responses to the epidemic.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.4112): **The above impacts demonstrate that the issues of virus outbreaks transcend urban safety and impacts upon all other facets of our urban fabric. Therefore, it becomes paramount to ensure that the measures taken to contain a virus transcend nationalist agendas where data and information sharing is normally restricted, to a more global agenda where humanity and global order are encouraged. With such an approach, it would be easier to share urban health data across geographies to better monitor emerging health threats in order to provide more economic stability, thereby ensuring no disruptions on such sectors like tourism and travel industries, amongst others. This is possible by ensuring collaborative, proactive measures to control outbreak spread and thus, human movements. This would remove fears on travelers, and would have positive impacts upon the tourism industry, that has been seen to bear the economic brunt whenever such outbreaks occur. This can be achieved by ensuring that protocols on data sharing are calibrated to remove all hurdles pertaining to sharing of information. On this, Lawpoolsri et al. [31] posits that such issues, like transparency, timelessness of sharing and access and quality of data, should be upheld so that continuous monitoring and assessment can be pursued.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.4029): **Globally, recent decades have witnessed a growing disjunction, a 'Valley of Death' 1,2 no less, between broadening strides in fundamental biomedical research and their incommensurate reach into the clinic. Plumbing work on research funding and development pipelines through recent changes in the structure of government funding, 2 new public and private joint ventures and specialist undergraduate and postgraduate courses now aim to incorporate pathways to translation at the earliest stages. Reflecting this shift, the number of biomedical research publications targeting 'translational' concepts has increased exponentially, up 1800% between 2003 and 2014 3 and continuing to rise rapidly up to the present day. Fuelled by the availability of new research technologies, as well as changing disease, cost and other pressing issues of our time, further growth in this exciting space will undoubtedly continue. Despite recent advances in the therapeutic control of immune function and viral infection, current therapies are often challenging to develop, expensive to deploy and readily select for resistance-conferring mutants. Shaped by the hostvirus immunological 'arms race' and tempered in the forge of deep time, the biodiversity of our world is increasingly being harnessed for new biotechnologies and therapeutics. Simultaneously, a shift towards host-oriented antiviral therapies is currently underway. In this Clinical & Translational Immunology Special Feature, I illustrate a strategic vision integrating these themes to create new, effective, economical and robust antiviral therapies and immunotherapies, with both the realities and the opportunities afforded to researchers working in our changing world squarely in mind.**<br/>
-<br/>
+[Frontiers in antiviral therapy and immunotherapy](https://doi.org/10.1002/cti2.1115)<br/>
+by Heaton, Steven M<br/>
+*Clinical & Translational Immunology - 2020*<br/>
+- 4 I argue this exposes an 'Achilles Heel' that may be safely targeted via host-oriented therapies to impose devastating informational and fitness barriers on escape mutant selection.<br/>
+- 14 I predict these efforts will unlock a vast wealth of currently unexplored biodiversity, leading to biotechnologies and treatments that leverage the host-virus interactions developed throughout evolution.<br/>
+- 4 I anticipate international efforts in these areas over the coming decade will enable the tapping of useful new biological functions and processes, methods for controlling infection, and the deployment of symbiotic or subclinical viruses in new therapies and biotechnologies that are so crucially needed.<br/>
+- Achieving this through drug repurposing will break the vicious cycle of escalating therapeutic development costs and trivial escape mutant selection, both quickly and in multiple places.<br/>
+- 10 I anticipate further improvements in the performance of such devices over the coming decade will transform virus surveillance efforts, the importance of which was underscored by the recent EboV and novel coronavirus (nCoV / COVID-19) outbreaks, enabling rapid deployment of antiviral treatments that take resistance-conferring mutations into account.<br/>
+- Many viruses attempt to resolve this by manipulating multifunctional or multitasking host cell proteins (MMHPs), thereby maximising host subversion and viral infectivity at minimal informational cost.<br/>
+
+[Mutations, Recombination and Insertion in the Evolution of 2019-nCoV](https://doi.org/10.1101/2020.02.29.971101)<br/>
+by Wu, A.; Niu, P.; Wang, L.; Zhou, H.; Zhao, X.; Wang, W.; Wang, J.; Ji, C.; Ding, X.; Wang, X.; Lu, R.; Gold, S.; Aliyari, S.; Zhang, S.; Vikram, E.; Zou, A.; Lenh, E.; Chen, J.; Ye, F.; Han, N.; Peng, Y.; Guo, H.; Wu, G.; Jiang, T.; Tan, W.; Cheng, G.<br/>
+*Mar 02, 2020*<br/>
+- Mutations, Recombination and Insertion in the Evolution of 2019-nCoV<br/>
+- Further tracking the genome mutations with additional strains of 2019-nCoV isolated from patients in 20 different locations at different time points will provide insights to understand the molecular evolution of this rapid spreading viruses.<br/>
+- Based on 15 these potentially inheritable mutations and the identifying times and locations, we generated a mutation tree map to track individual shared mutations and show the relationships among different isolates (Fig 2A and S2 ).<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- The study showed the existence of genetic drift, due to genetic evolution of the virus.<br/>
+- The ability of pathogenic viruses to adapt to new environments, cross species barriers, develop resistance to antiviral drugs, and to evade existing vaccines is associated with the accumulation of mutations throughout their genomes.<br/>
+
+[Comparative genomic analysis revealed specific mutation pattern between human coronavirus SARS-CoV-2 and Bat-SARSr-CoV RaTG13](https://doi.org/10.1101/2020.02.27.969006)<br/>
+by Lv, L.; Li, G.; Chen, J.; Liang, X.; Li, Y.<br/>
+*Mar 02, 2020*<br/>
+- According to random drift hypothesis (15) ， these nucleotide mutations among different SARS-CoV-2 strains now available are still determined by neutral evolution.<br/>
+- The adaptive evolution server (http://www.datamonkey.org/) was used to identify eventual sites of positive selection.<br/>
+
+[The sequence of human ACE2 is suboptimal for binding the S spike protein of SARS coronavirus 2](https://doi.org/10.1101/2020.03.16.994236)<br/>
+by Erik Procko<br/>
+*Mar 17, 2020*<br/>
+- This approach of tracking an in vitro 100 selection or evolution by deep sequencing is known as deep mutagenesis (33).<br/>
+- Mutations of interest for ACE2 engineering will need careful assessment by targeted 177 mutagenesis, as well as considerations on how best to combine mutations for production of 178 conformationally-stable, high affinity sACE2.<br/>
+
+[Moral imperative for the immediate release of 2019-nCoV sequence data](https://doi.org/10.1093/nsr/nwaa030)<br/>
+by Wu, Chung- I.; Poo, Mu-ming<br/>
+*National Science Review - 2020*<br/>
+- Natural selection would select for mutations that drive efficient contagion that enhances their evolutionary advantages.<br/>
+- The key rationale for the rapid data release is on account of a fundamental evolutionary principle that the viruses could be evolving rapidly after entering the human populations.<br/>
+
+[The Essential Facts of Wuhan Novel Coronavirus Outbreak in China and Epitope-based Vaccine Designing against COVID-19](https://doi.org/10.1101/2020.02.05.935072)<br/>
+by Sarkar, B.; Ullah, M. A.; Johora, F. T.; Taniya, M. A.; Araf, Y.<br/>
+*Mar 06, 2020*<br/>
+- These tools are used to dissect the genome and genetic makeup of a pathogen for developing a potential vaccine.<br/>
+- Codon adaptation is a necessary step of vaccine design because this step provides the effective prediction of the DNA sequence of a vaccine<br/>
+
+[Larger viral genome size facilitates emergence of zoonotic diseases](https://doi.org/10.1101/2020.03.10.986109)<br/>
+by Richard E. Grewelle<br/>
+*Mar 11, 2020*<br/>
+- ssRNA(-) viruses are not known to recombine with high frequency, so their genetic variation relies on high mutation 8 .<br/>
+- The many coded genes of ds-DNA viruses allow more easily incorporation of recombinant DNA without deleterious effects and may reduce host specificity through phenotypic plasticity.<br/>
+
+[Profiling the immune vulnerability landscape of the 2019 Novel Coronavirus](https://doi.org/10.1101/2020.02.08.939553)<br/>
+by Zhu, J.; Kim, J.; Xiao, X.; Wang, Y.; Luo, D.; Chen, R.; Xu, L.; Zhang, H.; Xiao, G.; Zhan, X.; Wang, T.; Xie, Y.<br/>
+*Feb 12, 2020*<br/>
+- To facilitate the examination of how genetic variations could impact the immune vulnerability landscape of the viruses, we also showed the mutational rates of the viral genome along with the immunogenicity maps.<br/>
+- Genetic variations can modify the immunogenicity landscape of the virus, and impact its survival fitness.<br/>
+
+[Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza](https://doi.org/10.1101/2020.03.13.991307)<br/>
+by Timothy R. Abbott; Girija Dhamdhere; Yanxia Liu; Xueqiu Lin; Laine Goudy; Leiping Zeng; Augustine Chemparathy; Stephen Chmura; Nicholas S. Heaton; Robert Debs; Tara Pande; Drew Endy; Marie La Russa; David B. Lewis; Lei S. Qi<br/>
+*Mar 14, 2020*<br/>
+- Through the use of crRNA pools targeting different regions of the same virus or different strains of coronavirus, this system could possibly buffer against viral evolution and escape, as well as enable rapid development and deployment against emerging viruses.<br/>
+
 # Latency issues and when there is sufficient viral load to detect the pathogen, and understanding of what is needed in terms of biological and environmental sampling.
 
-[Puzzle of highly pathogenic human coronaviruses (2019-nCoV)](https://doi.org/10.1007/s13238-020-00693-y)<br/>
-Authors: Li, Jing; Liu, Wenjun<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Protein Cell<br/>
-Match (0.5368): **At the heart of vaccine development is the question of immunology and it is crucial to understand the immunological questions associated with viral infections. The clinical characteristics and treatment of 2019-nCoV and SARS both suggested a serious problem of immunopathology, particularly in the lung mucosa, which is complex and unique. It might be due to the fact that a systematic protective immune response is not enough to protect against viral infection. Currently, one of the most dangerous but valuable experiments is to perform tests on immune cells in the blood and lungs of infected patients, preferably during different stages of viral infection. Data on clinical immunity can lay the foundation for future vaccine development. We need to be aware of the challenges and concerns that 2019-nCoV poses to our community. Every effort should be made to understand and control the disease. The authors declare that they have no conflict of interest. This article does not contain any studies with human or animal subjects performed by any of the authors.**<br/>
-<br/>
-[The novel Coronavirus (SARS-CoV-2) is a one health issue](https://doi.org/10.1016/j.onehlt.2020.100123)<br/>
-Authors: Marty, Aileen Maria; Jones, Malcolm K.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: One Health<br/>
-Match (0.5181): **One Health approaches attempt to strategize the coordinated efforts of multiple overlapping disciplines [19] , including environmental surveillance and environmental health. Primary components of the approach lie in animal health and environmental aspects. At the time of writing, the host from which the SARS-CoV-2 entered the human population is unknown although the suspicion is that food markets are likely sources for the original spillover. While the search for the natural host highly implicates bats [21] , search for the intermediary host, if any, is ongoing with the suggestions of the pangolin as a host far from certain. While it is premature to implicate any one particular urban source or natural host, the ensuing search will give insight into pathogens with potential to cross over into human transmission. This approach of environmental surveillance forms part of the PREDICT strategy [20] for detecting viruses with potential for spillover into human.**<br/>
-<br/>
-[A model simulation study on effects of intervention measures in Wuhan COVID-19 epidemic](doi.org/10.1101/2020.02.14.20023168)<br/>
-Authors: Guopeng ZHOU; Chunhua CHI<br/>
-Published: 2020-02-18 00:00:00<br/>
-Match (0.5037): **With all these intervention measures undertaken, and maybe more on the way, proper tools are need anticipate possible effects on epidemic control and to provide reliable information to support future decisions. Simulation also can help people understand how infectious disease spread and how to understand the purpose and consequences of various efforts.**<br/>
-<br/>
-[Communicating the Risk of Death from Novel Coronavirus Disease (COVID-19)](https://doi.org/10.3390/jcm9020580)<br/>
-Authors: Kobayashi, Tetsuro; Jung, Sung-mok; Linton, M. Natalie; Kinoshita, Ryo; Hayashi, Katsuma; Miyama, Takeshi; Anzai, Asami; Yang, Yichi; Yuan, Baoyin; Akhmetzhanov, R. Andrei; Suzuki, Ayako; Nishiura, Hiroshi<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.5024): **It has been less than two months since the emergence of COVID-19 gained international recognition, and during this early phase the statistical estimation of the CFR is complicated by a number of technical obstacles. It is necessary to (i) account for the time delay from illness onset to death, (ii) define the population considered in the CFR denominator (how we define a case), and (iii) quantify the heterogeneity in the risk of death. Each of these requires a sophisticated modeling approach and detailed case dataset in addition to a simple division of the number of deaths by the number of cases. In the ongoing epidemic of COVID-19, all these aspects have not yet been fully addressed, although the global public health community is obliged to continually confront the epidemic and make political decisions encompassing travel restrictions, containment measures, and mitigation strategies. To accomplish the scientific assessment of the severity and sufficiently understand pitfalls surrounding the associated debates, we aim to guide the readers to understand the likely severity of COVID-19 and direct the course of future research.**<br/>
-<br/>
-[Science in the fight against the novel coronavirus disease](https://doi.org/10.1097/CM9.0000000000000777)<br/>
-Authors: Wang, Jian-Wei; Cao, Bin; Wang, Chen<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Chin Med J (Engl)<br/>
-Match (0.4925): **Scientific research is of vital importance for tackling emerging infectious diseases and developing effective intervention methods. The spread of infectious diseases is affected not only by the biological characteristics of the pathogen but also by various other factors such as politics, culture, economy, and the environment. Multidisciplinary research in biomedical, social, and environmental sciences is required to achieve a deeper understanding of disease transmission and develop more effective systems for emergency response.**<br/>
-<br/>
-[Puzzle of highly pathogenic human coronaviruses (2019-nCoV)](https://doi.org/10.1007/s13238-020-00693-y)<br/>
-Authors: Li, Jing; Liu, Wenjun<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Protein Cell<br/>
-Match (0.4911): **However, many other important aspects of virus biology, such as, whether the virus can travel across continents, the list of species it can infect and whether it can cause severe mortality, are much harder to forecast. Our premise is that the amount of sequencing data currently available and the latest advances in computing methods using that data will make it possible for the first time to generate virtual models of how viruses evolve in each environment and how those viruses behave. Such models have the potential to make risk assessments as they arise that can be used to inform policy and direct strategies to head off impending threats.**<br/>
-<br/>
-[Fast assessment of human receptor-binding capability of 2019 novel coronavirus (2019-nCoV)](doi.org/10.1101/2020.02.01.930537)<br/>
-Authors: Huang, Q.; Herrmann, A.<br/>
-Published: 2020-02-04 00:00:00<br/>
-Match (0.4855): **Of course, ultimate confirmation of computational predictions requires experimental verification, which will also be very important for improving our method in the future. However, experimental approaches for deeply understanding the human transmission of viruses in terms of receptor-binding interactions and specificity is rather time consuming. Sometimes, it might be even impossible to employ experimental methods to thoroughly examine every evolved, mutant strain of a newly emerged virus, such as 2019-nCoV in our case. As an alternative, using a high-performance computer, our approach may assess the receptor-binding capability of a newly identified strain within a very short period of time. Thus, our method can be useful for the post-genome analysis for a newly identified CoV and its mutant strains, with the first-determined genome data. Note that, although viral genome data provide useful sequence information for comparison-based assessments with previously identified viruses, these data themselves do not offer hints about how the encoded viral proteins carry out their functions which may lead to serious human infections and diseases. Hence, post-genome analysis of viral protein functions is valuable not only for understanding the viruses themselves, but also for offering useful scientific supports for making effective, early decisions about viral prevention and control.**<br/>
-<br/>
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Metagenomics is direct genetic analysis of microbial genomes in the environmental samples without a need to propagate the microorganisms.<br/>
+- Hence, to minimize the impact of emerging viral diseases, it is critical to establish local laboratory capacity as this plays a critical role in the surveillance, diagnosis, and monitoring of viral disease, as well as in the understanding of the viral genetic changes.<br/>
+- This approach provides detailed information on the presence and diversity of pathogenic organisms in a particular environment.<br/>
+- Whenever pathogenic viruses emerge, their rapid detection is critical to enable implementation of specific control measures and the limitation of virus spread.<br/>
+
+[Understanding the emerging coronavirus: what it means for health security and infection prevention](https://doi.org/10.1016/j.jhin.2020.02.023)<br/>
+by Peters, Alexandra; Vetter, Pauline; Guitart, Chloé; Lotfinejad, Nasim; Pittet, Didier<br/>
+*Journal of Hospital Infection - Mar 05, 2020*<br/>
+- In order to quantify risk and forecast possible scenarios of transmission, it is necessary to look at the traits of a specific pathogen.<br/>
+- The magnitude of effort needed to address this issue is daunting.<br/>
+- There is much that can be done in terms of reducing the chances that novel viruses jump from animals to humans, but these measures often include the kind of environmental regulation that is difficult to implement in an international system inherently focused on growth and short-term profit.<br/>
+
+[First 12 patients with coronavirus disease 2019 (COVID-19) in the United States](https://doi.org/10.1101/2020.03.09.20032896)<br/>
+by Stephanie A. Kujawski; Karen K Wong; Jennifer P. Collins; Lauren Epstein; Marie E. Killerby; Claire M. Midgley; Glen R. Abedi; N. Seema Ahmed; Olivia Almendares; Francisco N. Alvarez; Kayla N. Anderson; Sharon Balter; Vaughn Barry; Karri Bartlett; Karlyn Beer; Michael A. Ben-Aderet; Isaac Benowitz; Holly Biggs; Alison M. Binder; Stephanie R. Black; Brandon Bonin; Catherine M. Brown; Hollianne Bruce; Jonathan Bryant-Genevier; Alicia Budd; Diane Buell; Rachel Bystritsky; Jordan Cates; E. Matt Charles; Kevin Chatham-Stephens; Nora Chea; Howard Chiou; Demian Christiansen; Victoria Chu; Sara Cody; Max Cohen; Erin Conners; Aaron Curns; Vishal Dasari; Patrick Dawson; Traci DeSalvo; George Diaz; Matthew Donahue; Suzanne Donovan; Lindsey M. Duca; Keith Erickson; Mathew D. Esona; Suzanne Evans; Jeremy Falk; Leora R. Feldstein; Martin Fenstersheib; Marc Fischer; Rebecca Fisher; Chelsea Foo; Marielle J. Fricchione; Oren Friedman; Alicia M. Fry; Romeo R. Galang; Melissa M. Garcia; Susa I. Gerber; Graham Gerrard; Isaac Ghinai; Prabhu Gounder; Jonathan Grein; Cheri Grigg; Jeffrey D. Gunzenhauser; Gary I. Gutkin; Meredith Haddix; Aron J. Hall; George Han; Jennifer Harcourt; Kathleen Harriman; Thomas Haupt; Amber Haynes; Michelle Holshue; Cora Hoover; Jennifer C. Hunter; Max W. Jacobs; Claire Jarashow; Michael A. Jhung; Kiran Joshi; Talar Kamali; Shifaq Kamili; Lindsay Kim; Moon Kim; Jan King; Hannah L. Kirking; Amanda Kita-Yarbro; Rachel Klos; Miwako Kobayashi; Anna Kocharian; Kenneth K. Komatsu; Ram Koppaka; Jennifer E. Layden; Yan Li; Scott Lindquist; Stephen Lindstrom; Ruth Link-Gelles; Joana Lively; Michelle Livingston; Kelly Lo; Jennifer Lo; Xiaoyan Lu; Brian Lynch; Larry Madoff; Lakshmi Malapati; Gregory Marks; Mariel Marlow; Glenn E. Mathisen; Nancy McClung; Olivia McGovern; Tristan D. McPherson; Mitali Mehta; Audrey Meier; Lynn Mello; Sung-sil Moon; Margie Morgan; Ruth N. Moro; Janna' Murray; Rekha Murthy; Shannon Novosad; Sara E. Oliver; Jennifer O'Shea; Massimo Pacilli; Clinton R. Paden; Mark A. Pallansch; Manisha Patel; Sajan Patel; Isabel Pedraza; Satish K. Pillai; Talia Pindyck; Ian Pray; Krista Queen; Nichole Quick; Heather Reese; Brian Rha; Heather Rhodes; Susan Robinson; Philip Robinson; Melissa Rolfes; Janell Routh; Rachel Rubin; Sarah L. Rudman; Senthilkumar K. Sakthivel; Sarah Scott; Christopher Shepherd; Varun Shetty; Ethan A. Smith; Shanon Smith; Bryan Stierman; William Stoecker; Rebecca Sunenshine; Regina Sy-Santos; Azaibi Tamin; Ying Tao; Dawn Terashita; Natalie J. Thornburg; Suxiang Tong; Elizabeth Traub; Ahmet Tural; Anna Uehara; Timothy M. Uyeki; Grace Vahey; Jennifer R. Verani; Elsa Villarino; Megan Wallace; Lijuan Wang; John T. Watson; Matthew Westercamp; Brett Whitaker; Sarah Wilkerson; Rebecca C. Woodruff; Jonathan M. Wortham; Tiffany Wu; Amy Xie; Anna Yousaf; Matthew Zahn; Jing Zhang<br/>
+*Mar 12, 2020*<br/>
+- Further investigations are needed to understand clinical course, immunologic response, SARS-CoV-2 RNA detection, virus culture, and transmission, to inform clinical management and public health strategies to prevent disease spread.<br/>
+- Characterizing SARS-CoV-2 shedding is important to understand transmission and guide prevention strategies.<br/>
+
+[Amplicon based MinION sequencing of SARS-CoV-2 and metagenomic characterisation of nasopharyngeal swabs from patients with COVID-19](https://doi.org/10.1101/2020.03.05.20032011)<br/>
+by Shona C Moore; Rebekah Penrice-Randal; Muhannad Alruwaili; Xiaofeng Dong; Steven T Pullan; Daniel Carter; Kevin Bewley; Qin Zhao; Yani Sun; Catherine Hartley; En-min Zhou; Tom Solomon; Michael B. J. Beadsworth; James Cruise; Debby Bogaert; Derrick W T Crook; David A Matthews; Andrew D. Davidson; Zana Mahmood; Waleed Aljabr; Julian Druce; Richard T Vipond; Lisa Ng; Laurent Renia; Peter Openshaw; J Kenneth Baillie; Miles W Carroll; Calum Semple; Lance Turtle; Julian Alexander Hiscox<br/>
+*Mar 08, 2020*<br/>
+- ) current diagnostics may not remain fit for purpose and therefore metagenomic approaches provide independent verification of the presence of viral genomes as well information on the underlying microbiome -which may contribute to severe disease in COVID-19.<br/>
+- Sequencing of viral genomes during outbreaks provides much needed information in terms of viral adaptationand informs molecular epidemiological studies.<br/>
+
 [The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
-Authors: Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Nature Microbiology<br/>
-Match (0.4845): **The currently known viruses of the species Severe acute respiratory syndrome-related coronavirus may be as (poorly) representative for this particular species as the few individuals that we selected to represent H. sapiens in Fig. 1 . It is thus reasonable to assume that this biased knowledge of the natural diversity of the species Severe acute respiratory syndrome-related coronavirus limits our current understanding of fundamental aspects of the biology of this species and, as a consequence, our abilities to control zoonotic spillovers to humans. Future studies aimed at understanding the ecology of these viruses and advancing the accuracy and resolution of evolutionary analyses 41 would benefit greatly from adjusting our research and sampling strategies. This needs to include an expansion of our current research focus on human pathogens and their adaptation to specific hosts to other viruses in this species. To illustrate the great potential of species-wide studies, it may again be instructive to draw a parallel to H. sapiens, and specifically to the impressive advancements in personalized medicine in recent years. Results of extensive genetic analyses of large numbers of individuals representing diverse populations from all continents have been translated into clinical applications and greatly contribute to optimizing patient-specific diagnostics and therapy. They were instrumental in identifying reliable predictive markers for specific diseases as well as genomic sites that are under selection. It thus seems reasonable to expect that genome-based analyses with a comparable species coverage will be similarly insightful for coronaviruses. Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach). Technical solutions to this problem are already available; for example, in the context of multiplex PCR-based assays 42 . The costs for developing and applying (combined or separate) species-and virus-specific diagnostic tests in specific clinical and/or epidemiological settings may help to better appreciate the biological diversity and zoonotic potential of specific virus species and their members. Also, the further reduction of time required to identify the causative agents of novel virus infections will contribute to limiting the enormous social and economic consequences of large outbreaks. To advance such studies, innovative fundraising approaches may be required.**<br/>
-<br/>
-[Amplicon based MinION sequencing of SARS-CoV-2 and metagenomic characterisation of nasopharyngeal swabs from patients with COVID-19](doi.org/10.1101/2020.03.05.20032011)<br/>
-Authors: Shona C Moore; Rebekah Penrice-Randal; Muhannad Alruwaili; Xiaofeng Dong; Steven T Pullan; Daniel Carter; Kevin Bewley; Qin Zhao; Yani Sun; Catherine Hartley; En-min Zhou; Tom Solomon; Michael B. J. Beadsworth; James Cruise; Debby Bogaert; Derrick W T Crook; David A Matthews; Andrew D. Davidson; Zana Mahmood; Waleed Aljabr; Julian Druce; Richard T Vipond; Lisa Ng; Laurent Renia; Peter Openshaw; J Kenneth Baillie; Miles W Carroll; Calum Semple; Lance Turtle; Julian Alexander Hiscox<br/>
-Published: 2020-03-08 00:00:00<br/>
-Match (0.4831): **Determining the background microbiome in near real time can inform potential treatment strategies in the event specific co-infections are identified. Future efforts will quantify the limits of detection using genome sequencing by these approaches.**<br/>
-<br/>
-[Should, and how can, exercise be done during a coronavirus outbreak? — An interview with Dr. Jeffrey A. Woods](https://doi.org/10.1016/j.jshs.2020.01.005)<br/>
-Authors: Zhu, Weimo<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Sport and Health Science<br/>
-Match (0.4820): **1. What are the mechanisms whereby exercise affects various aspects of immune functioning? 2. How do various acute and chronic exercise paradigms affect immune system omics measures? 3. Does exercise cause epigenetic changes in our immune systems? 4. Do exercise-induced changes in immune functioning translate into health benefits? 5. How does exercise impact the gut microbiome and gut immunity? 6. What are optimal exercise dose-responses for various disease states?**<br/>
-<br/>
+by Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
+*Nature Microbiology - 2020*<br/>
+- U pon a viral outbreak, it is important to rapidly establish whether the outbreak is caused by a new or a previously known virus (Box 1), as this helps decide which approaches and actions are most appropriate to detect the causative agent, control its transmission and limit potential consequences of the epidemic.<br/>
+- The assessment of virus novelty also has implications for virus naming and, on a different timescale, helps to define research priorities in virology and public health.<br/>
+
+[Frontiers in antiviral therapy and immunotherapy](https://doi.org/10.1002/cti2.1115)<br/>
+by Heaton, Steven M<br/>
+*Clinical & Translational Immunology - 2020*<br/>
+- Many viruses attempt to resolve this by manipulating multifunctional or multitasking host cell proteins (MMHPs), thereby maximising host subversion and viral infectivity at minimal informational cost.<br/>
+- 4 I anticipate international efforts in these areas over the coming decade will enable the tapping of useful new biological functions and processes, methods for controlling infection, and the deployment of symbiotic or subclinical viruses in new therapies and biotechnologies that are so crucially needed.<br/>
+
+[Clinical Data on Hospital Environmental Hygiene Monitoring and Medical Staff Protection during the Coronavirus Disease 2019 Outbreak](https://doi.org/10.1101/2020.02.25.20028043)<br/>
+by Yanfang Jiang; Haifeng Wang; Yukun Chen; Jiaxue He; Liguo Chen; Yong Liu; Xinyuan Hu; Ang Li; Siwen Liu; Peng Zhang; Hongyan Zou; Shucheng Hua<br/>
+*Feb 27, 2020*<br/>
+- Thus, it is crucial to assess hospital environmental hygiene 73 to understand the most important environmental issues for controlling the spread of 74 COVID-19 in hospitals.<br/>
+
+[Science in the fight against the novel coronavirus disease](https://doi.org/10.1097/CM9.0000000000000777)<br/>
+by Wang, Jian-Wei; Cao, Bin; Wang, Chen<br/>
+*Chin Med J (Engl) - 2020*<br/>
+- Thus, it is necessary to investigate the biological characteristics and mutation trends of 2019-nCoV to assess viral transmissibility and pathogenesis.<br/>
+
+[Viral loads of SARS-CoV, MERS-CoV and SARS-CoV-2 in respiratory specimens: What have we learned?](https://doi.org/10.1016/j.tmaid.2020.101629)<br/>
+by Al-Tawfiq, Jaffar A.<br/>
+*Travel Medicine and Infectious Disease - Mar 13, 2020*<br/>
+- Understanding the viral loads of SARS-CoV-2 is an important aspect to enhance the knowledge of the disease and the transmission mechanism.<br/>
+
+[HIV-1 did not contribute to the 2019-nCoV genome](https://doi.org/10.1080/22221751.2020.1727299)<br/>
+by Xiao, Chuan; Li, Xiaojun; Liu, Shuying; Sang, Yongming; Gao, Shou-Jiang; Gao, Feng<br/>
+*Emerg Microbes Infect - Feb 14, 2020*<br/>
+- However, great care is required for comprehensive and thorough analysis to fully understand the real biological implications of the new genomic information.<br/>
+
 # Use of diagnostics such as host response markers (e.g., cytokines) to detect early disease or predict severe disease progression, which would be important to understanding best clinical practice and efficacy of therapeutic interventions.
 
-[Prognostic value of NT-proBNP in patients with severe COVID-19](doi.org/10.1101/2020.03.07.20031575)<br/>
-Authors: Lei Gao; Dan Jiang; Xuesong Wen; Xiaocheng Cheng; Min Sun; Bin He; Lin-na You; Peng Lei; Xiao-wei Tan; Shu Qin; Guoqiang Cai; Dongying Zhang<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.6838): **Investigating prognostic markers for severe patients are required to supply important information for early therapeutic strategy.**<br/>
-<br/>
+[Immune phenotyping based on neutrophil-to-lymphocyte ratio and IgG predicts disease severity and outcome for patients with COVID-19](https://doi.org/10.1101/2020.03.12.20035048)<br/>
+by Bicheng Zhang; Xiaoyang Zhou; Chengliang Zhu; Fan Feng; Yanru Qiu; Jia Feng; Qingzhu Jia; Qibin Song; Bo Zhu; Jun Wang<br/>
+*Mar 16, 2020*<br/>
+- 13 Thus, we proposed potential mechanisms associated with different immune response phenotypes and presented specific treatment recommendations which would be helpful in guiding clinical decision ( figure 3 ).<br/>
+- To our knowledge, this is the first in the literatures to combine indicators from innate and acquired immunity to predict disease severity and outcome.<br/>
+- Nevertheless, our findings indicate that severe COVID-19 was associated with a more robust IgG response that can be developed as an acquired immunity-related marker to predictive disease severity, along with other innate immunity-relate makers such as NLR.<br/>
+
+[Pathological findings of COVID-19 associated with acute respiratory distress syndrome](https://doi.org/10.1016/S2213-2600(20)30076-X)<br/>
+by Xu, Zhe; Shi, Lei; Wang, Yijin; Zhang, Jiyuan; Huang, Lei; Zhang, Chao; Liu, Shuhong; Zhao, Peng; Liu, Hongxia; Zhu, Li; Tai, Yanhong; Bai, Changqing; Gao, Tingting; Song, Jinwen; Xia, Peng; Dong, Jinghui; Zhao, Jingmin; Wang, Fu-Sheng<br/>
+*The Lancet Respiratory Medicine - Feb 18, 2020*<br/>
+- Our findings will facilitate understanding of the pathogenesis of COVID-19 and improve clinical strategies against the disease.<br/>
+- 3 Our clinical and pathological findings in this severe case of COVID-19 can not only help to identify a cause of death, but also provide new insights into the pathogenesis of SARS-CoV-2-related pneumonia, which might help physicians to formulate a timely therapeutic strategy for similar severe patients and reduce mortality.<br/>
+
+[2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
+by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
+*Journal of Infection in Developing Countries - 2020*<br/>
+- Establishing an animal model of infection and disease pathogenesis is imperative for understanding several essential elements of viral disease in the infected host, including host tropism, immune responses, and modes of transmission, as well as for the progression of therapeutic development.<br/>
+- As is necessary, elucidation of the receptor will help guide in development, and creating a clinical picture of the acute symptoms in humans will be essential for vaccine and antiviral evaluation.<br/>
+
+[Analysis of factors associated with disease outcomes in hospitalized patients with 2019 novel coronavirus disease](https://doi.org/10.1097/CM9.0000000000000775)<br/>
+by Liu, Wei; Tao, Zhao-Wu; Lei, Wang; Ming-Li, Yuan; Kui, Liu; Ling, Zhou; Shuang, Wei; Yan, Deng; Jing, Liu; Liu, Hui-Guo; Ming, Yang; Yi, Hu<br/>
+*Chin Med J (Engl) - 2020*<br/>
+- Early diagnosis and dynamic monitoring of prognostic factors are essential for improving the ability to treat the COVID-<br/>
+- Therefore, the early use of glucocorticoids with proactive antiviral and antibacterial treatment after comprehensive evaluation may block the inflammatory cascade caused by severe viral infections and prevent acute inflammation.<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Development of animal models that faithfully mimic SARS-CoV-2 infection in humans is critical not only in providing a more refined understanding of the pathogenic mechanisms involved but also to serve as a screening model for potential chemotherapeutic agents and vaccines.<br/>
+- The other aim is to review the epidemiology, pathogenesis, clinical characteristics, diagnosis and management of patients infected with SARS-CoV-2 to better understand this deadly coronavirus and suggest prevention, treatment and management strategies.<br/>
+
+[Lymphopenia predicts disease severity of COVID-19: a descriptive and predictive study](https://doi.org/10.1101/2020.03.01.20029074)<br/>
+by Li Tan; Qi Wang; Duanyang Zhang; Jinya Ding; Qianchuan Huang; Yi-Quan Tang; Qiongshu Wang; Hongming Miao<br/>
+*Mar 03, 2020*<br/>
+- However, efficient indicators for the disease severity, therapeutic response and disease outcome are still incompletely investigated.<br/>
+- Therefore, we suggested that LYM% should be used as an indicator for evaluating the effectiveness of clinical drugs or therapies.<br/>
+
+[Prognostic value of NT-proBNP in patients with severe COVID-19](https://doi.org/10.1101/2020.03.07.20031575)<br/>
+by Lei Gao; Dan Jiang; Xuesong Wen; Xiaocheng Cheng; Min Sun; Bin He; Lin-na You; Peng Lei; Xiao-wei Tan; Shu Qin; Guoqiang Cai; Dongying Zhang<br/>
+*Mar 10, 2020*<br/>
+- Investigating prognostic markers for severe patients are required to supply important information for early therapeutic strategy.<br/>
+
 [Understanding SARS-CoV-2-Mediated Inflammatory Responses: From Mechanisms to Potential Therapeutic Tools](https://doi.org/10.1007/s12250-020-00207-4)<br/>
-Authors: Fu, Yajing; Cheng, Yuanxiong; Wu, Yuntao<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Virol Sin<br/>
-Match (0.6038): **Understanding SARS-CoV-2-Mediated Inflammatory Responses: From Mechanisms to Potential Therapeutic Tools**<br/>
-<br/>
-[Exploring diseases/traits and blood proteins causally related to expression of ACE2, the putative receptor of 2019-nCov: A Mendelian Randomization analysis](doi.org/10.1101/2020.03.04.20031237)<br/>
-Authors: Shitao Rao; Alexandria Lau; Hon-Cheong So<br/>
-Published: 2020-03-08 00:00:00<br/>
-Match (0.6002): **In addition to diseases, we also studied serum/plasma proteins as exposure, as they may point to potential molecular mechanisms underlying ACE2 expression, and may serve as potential predictive or prognostic biomarkers. It has also been suggested that such proteome-wide studies may help to reveal drug repositioning candidates 21 , through the search for drugs that target the top-ranked proteins. For example, if a protein is found to casually increase the risk of a disease by MR, by the definition of causality, blocking the protein will lead to reduced disease risks. In our study, by finding plasma/serum proteins causally linked to ACE2 expression, we may find drugs that will alter ACE2 expression, which in turn may be useful for treatment.**<br/>
-<br/>
-[Network-based Drug Repurposing for Human Coronavirus](doi.org/10.1101/2020.02.03.20020263)<br/>
-Authors: Yadi Zhou; Yuan Hou; Jiayu Shen; Yin Huang; William Martin; Feixiong Cheng<br/>
-Published: 2020-02-05 00:00:00<br/>
-Match (0.5930): **In conclusion, this study offers a powerful, integrated network-based systems pharmacology methodology for rapid identification of repurposable drugs and drug combinations for the potential treatment of HCoV. Our approach can minimize the translational gap between preclinical testing results and clinical outcomes, which is a significant problem in the rapid development of efficient treatment strategies for the emerging 2019-nCoV outbreak. From a translational perspective, if broadly applied, the network tools developed here could help develop effective treatment strategies for other types of virus and human diseases as well.**<br/>
-<br/>
-[Mucin 4 Protects Female Mice from Coronavirus Pathogenesis](doi.org/10.1101/2020.02.19.957118)<br/>
-Authors: Plante, J. A.; Plante, K.; Gralinski, L.; Beall, A.; Ferris, M. T.; Bottomly, D.; Green, R. R.; McWeeney, S.; Heise, M. T.; Baric, R. S.; Menachery, V. D.<br/>
-Published: 2020-02-20 00:00:00<br/>
-Match (0.5823): **Muc4 has been detected in synovial sarcomas in humans, thus presenting a novel tissue Screening genetically diverse mouse models provides an opportunity to identify natural 163 variation in novel factors which drive viral disease responses. These studies can also provide 164 therapeutic, prophylactic and molecular insights into emerging pathogens, which are difficult to 165 study during the context of an outbreak. Here, prior phenotypic QTL analysis, bioinformatics, 166**<br/>
-<br/>
-[Reduction and Functional Exhaustion of T Cells in Patients with Coronavirus Disease 2019 (COVID-19)](doi.org/10.1101/2020.02.18.20024364)<br/>
-Authors: Bo Diao; Chenhui Wang; Yingjun Tan; Xiewan Chen; Ying Liu; Lifeng Ning; Li Chen; Min Li; Yueping Liu; Gang Wang; Zilin Yuan; Zeqing Feng; Yuzhang Wu; Yongwen Chen<br/>
-Published: 2020-02-20 00:00:00<br/>
-Match (0.5721): **Important, blocking IL-10 function has been shown to successfully prevent T cell exhaustion in animal models of chronic infection. 33, 34 We demonstrate here that COVID-19 patients have very high levels of serum IL-10 following SARS-CoV-2 infection, while also displaying high levels of the PD-1 and Tim-3 exhaustion markers on their T cells, suggesting that IL-10 might be mechanistically responsible. The application of potent antiviral treatments to prevent the progression to T cell exhaustion in susceptible patients may thus be critical to their recovery. We have read with great interest the successful application of Remdesivir to curing a COVID-19 patient in the US, and to clinical trials indicates that it may have significant potential as such an antiviral. 35, 36 Taken together, we conclude that T cells are decreased and exhausted in patients with COVID-19. Cytokines such as IL-10, IL-6 and TNF-α might directly mediate T cell reduction. Thus, new therapeutic measures are needed for treatment of ICU patients, and may even be necessary early on to preempt disease progression in higher-risk patients with low T cell counts.**<br/>
-<br/>
-[Puzzle of highly pathogenic human coronaviruses (2019-nCoV)](https://doi.org/10.1007/s13238-020-00693-y)<br/>
-Authors: Li, Jing; Liu, Wenjun<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Protein Cell<br/>
-Match (0.5720): **At the heart of vaccine development is the question of immunology and it is crucial to understand the immunological questions associated with viral infections. The clinical characteristics and treatment of 2019-nCoV and SARS both suggested a serious problem of immunopathology, particularly in the lung mucosa, which is complex and unique. It might be due to the fact that a systematic protective immune response is not enough to protect against viral infection. Currently, one of the most dangerous but valuable experiments is to perform tests on immune cells in the blood and lungs of infected patients, preferably during different stages of viral infection. Data on clinical immunity can lay the foundation for future vaccine development. We need to be aware of the challenges and concerns that 2019-nCoV poses to our community. Every effort should be made to understand and control the disease. The authors declare that they have no conflict of interest. This article does not contain any studies with human or animal subjects performed by any of the authors.**<br/>
-<br/>
-[Exuberant elevation of IP-10, MCP-3 and IL-1ra during SARS-CoV-2 infection is associated with disease severity and fatal outcome](doi.org/10.1101/2020.03.02.20029975)<br/>
-Authors: Yang Yang; Chenguang Shen; Jinxiu Li; Jing Yuan; Minghui Yang; Fuxiang Wang; Guobao Li; Yanjie Li; Li Xing; Ling Peng; Jinli Wei; Mengli Cao; Haixia Zheng; Weibo Wu; Rongrong Zou; Delin Li; Zhixiang Xu; Haiyan Wang; Mingxia Zhang; Zheng Zhang; Lei Liu; Yingxia Liu<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5711): **indicating an important role in the pathogenesis of these viruses 2,32 . Accordingly, not 1 3 1 only the pathogens but also the pathogen induced cytokine storm should be 1 3 2 considered during the treatment. Therapy strategy with a combination of antimicrobial 1 3 3**<br/>
-<br/>
-[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
-Authors: Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.5686): **However, in the years following two major coronavirus outbreaks SARS-CoV in 2003 and MERS-CoV in 2012, there remains no consensus on the optimal therapy for either disease [116, 117] . Well-designed clinical trials that provide the gold standard for assessing the therapeutic measures are scarce. No coronavirus protease inhibitors have successfully completed a preclinical development program despite large efforts exploring SARS-CoV inhibitors. The bulk of potential therapeutic strategies remain in the experimental phase, with only a handful crossing the in vitro hurdle. Stronger efforts are required in the research for treatment options for major coronaviruses given their pandemic potential. Effective treatment options are essential to maximize the restoration of affected populations to good health following infections. Clinical trials have commenced in China to identify effective treatments for 2019-nCoV based on the treatment evidence from SARS and MERS. There is currently no effective specific antiviral with high-level evidence; any specific antiviral therapy should be provided in the context of a clinical study/trial. Few treatments have shown real curative action against SARS and MERS and the literature generally describes isolated cases or small case series.**<br/>
-<br/>
-[Clinical characteristics of 2019 novel coronavirus infection in China](doi.org/10.1101/2020.02.06.20020974)<br/>
-Authors: Wei-jie Guan; Zheng-yi Ni; Yu Hu; Wen-hua Liang; Chun-quan Ou; Jian-xing He; Lei Liu; Hong Shan; Chun-liang Lei; David SC Hui; Bin Du; Lan-juan Li; Guang Zeng; Kowk-Yung Yuen; Ru-chong Chen; Chun-li Tang; Tao Wang; Ping-yan Chen; Jie Xiang; Shi-yue Li; Jin-lin Wang; Zi-jing Liang; Yi-xiang Peng; Li Wei; Yong Liu; Ya-hua Hu; Peng Peng; Jian-ming Wang; Ji-yang Liu; Zhong Chen; Gang Li; Zhi-jian Zheng; Shao-qin Qiu; Jie Luo; Chang-jiang Ye; Shao-yong Zhu; Nan-shan Zhong<br/>
-Published: 2020-02-09 00:00:00<br/>
-Match (0.5655): **is the (which was not peer-reviewed) The copyright holder for this preprint . https: //doi.org/10.1101 //doi.org/10. /2020 radiologic abnormality occurs in a substantial proportion of patients on initial presentation while diarrhea is uncommon. The disease severity is an independent predictor of poor outcome. Stringent and timely epidemiological measures are crucial to curb the rapid spread. Ongoing efforts are needed to explore for an effective therapy (i.e., protease inhibitors, remdesivir, β interferon) for this emerging acute respiratory infection. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
+by Fu, Yajing; Cheng, Yuanxiong; Wu, Yuntao<br/>
+*Virologica Sinica - Mar 03, 2020*<br/>
+- Understanding SARS-CoV-2-Mediated Inflammatory Responses: From Mechanisms to Potential Therapeutic Tools<br/>
+
+[Exploring diseases/traits and blood proteins causally related to expression of ACE2, the putative receptor of 2019-nCov: A Mendelian Randomization analysis](https://doi.org/10.1101/2020.03.04.20031237)<br/>
+by Shitao Rao; Alexandria Lau; Hon-Cheong So<br/>
+*Mar 08, 2020*<br/>
+- In addition to diseases, we also studied serum/plasma proteins as exposure, as they may point to potential molecular mechanisms underlying ACE2 expression, and may serve as potential predictive or prognostic biomarkers.<br/>
+
+[Science in the fight against the novel coronavirus disease](https://doi.org/10.1097/CM9.0000000000000777)<br/>
+by Wang, Jian-Wei; Cao, Bin; Wang, Chen<br/>
+*Chin Med J (Engl) - 2020*<br/>
+- Insights into the pathological immune response are critical to understanding the pathogenesis of the disease and finding novel therapies to decrease mortality.<br/>
+
 # Policies and protocols for screening and testing.
 
-[Analytical sensibility and specificity of two RT-qPCR protocols for SARS-CoV-2 detection performed in an automated workflow](doi.org/10.1101/2020.03.07.20032326)<br/>
-Authors: Gustavo Barcelos Barra; Ticiane Henriques Santa Rita; Pedro Goes Mesquita; Rafael Henriques Jacomo; Lidia Freire Abdalla Nery<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.6069): **On 30 January 2020, the World Health Organization declared that the COVID-19 outbreak constituted a Public Health Emergency of International Concern and the development of reliable laboratory diagnosis of SARS-CoV-2 became mandatory to identify, isolate and provide optimized care for patients early 1 . RT-qPCR testing of respiratory secretions is routinely used to detect causative viruses in acute respiratory infection and, during a Public Health Emergency of International Concern, the establishment of standardized processes and protocols, as well as sharing of specimens, data, and information is critical. RT-qPCR in-house protocols to detect the SARS-CoV-2 have been described 2 . Validations of these protocols are considered a key knowledge gap for COVID-19, especially if executed in a high throughput format. Here, we investigate the analytical sensitivity and specificity of two interim RT-qPCR protocols 3,4 for the qualitative detection of SARS-CoV-2 executed in a fully automated platform.**<br/>
-<br/>
-[A rapid advice guideline for the diagnosis and treatment of 2019 novel coronavirus (2019-nCoV) infected pneumonia (standard version)](https://doi.org/10.1186/s40779-020-0233-6)<br/>
-Authors: Jin, Ying-Hui; Cai, Lin; Cheng, Zhen-Shun; Cheng, Hong; Deng, Tong; Fan, Yi-Pin; Fang, Cheng; Huang, Di; Huang, Lu-Qi; Huang, Qiao; Han, Yong; Hu, Bo; Hu, Fen; Li, Bing-Hui; Li, Yi-Rong; Liang, Ke; Lin, Li-Kai; Luo, Li-Sha; Ma, Jing; Ma, Lin-Lu; Peng, Zhi-Yong; Pan, Yun-Bao; Pan, Zhen-Yu; Ren, Xue-Qun; Sun, Hui-Min; Wang, Ying; Wang, Yun-Yun; Weng, Hong; Wei, Chao-Jie; Wu, Dong-Fang; Xia, Jian; Xiong, Yong; Xu, Hai-Bo; Yao, Xiao-Mei; Yuan, Yu-Feng; Ye, Tai-Sheng; Zhang, Xiao-Chun; Zhang, Ying-Wen; Zhang, Yin-Gao; Zhang, Hua-Min; Zhao, Yan; Zhao, Ming-Juan; Zi, Hao; Zeng, Xian-Tao; Wang, Yong-Yan; Wang, Xing-Huan; Management, for the Zhongnan Hospital of Wuhan University Novel Coronavirus; Research Team, Evidence-Based Medicine Chapter of China International Exchange; Promotive Association for, Medical; Health, Care<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Military Medical Research<br/>
-Match (0.5411): **This guideline was prepared in accordance with the methodology and general rules of WHO Guideline Development and the WHO Rapid Advice Guidelines [1, 2] .**<br/>
-<br/>
-[A rapid advice guideline for the diagnosis and treatment of 2019 novel coronavirus (2019-nCoV) infected pneumonia (standard version)](https://doi.org/10.1186/s40779-020-0233-6)<br/>
-Authors: Jin, Ying-Hui; Cai, Lin; Cheng, Zhen-Shun; Cheng, Hong; Deng, Tong; Fan, Yi-Pin; Fang, Cheng; Huang, Di; Huang, Lu-Qi; Huang, Qiao; Han, Yong; Hu, Bo; Hu, Fen; Li, Bing-Hui; Li, Yi-Rong; Liang, Ke; Lin, Li-Kai; Luo, Li-Sha; Ma, Jing; Ma, Lin-Lu; Peng, Zhi-Yong; Pan, Yun-Bao; Pan, Zhen-Yu; Ren, Xue-Qun; Sun, Hui-Min; Wang, Ying; Wang, Yun-Yun; Weng, Hong; Wei, Chao-Jie; Wu, Dong-Fang; Xia, Jian; Xiong, Yong; Xu, Hai-Bo; Yao, Xiao-Mei; Yuan, Yu-Feng; Ye, Tai-Sheng; Zhang, Xiao-Chun; Zhang, Ying-Wen; Zhang, Yin-Gao; Zhang, Hua-Min; Zhao, Yan; Zhao, Ming-Juan; Zi, Hao; Zeng, Xian-Tao; Wang, Yong-Yan; Wang, Xing-Huan; Management, for the Zhongnan Hospital of Wuhan University Novel Coronavirus; Research Team, Evidence-Based Medicine Chapter of China International Exchange; Promotive Association for, Medical; Health, Care<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Military Medical Research<br/>
-Match (0.5411): **This guideline was prepared in accordance with the methodology and general rules of WHO Guideline Development and the WHO Rapid Advice Guidelines [1, 2] .**<br/>
-<br/>
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, Victor M; Landt, Olfert; Kaiser, Marco; Molenkamp, Richard; Meijer, Adam; Chu, Daniel KW; Bleicker, Tobias; Brünink, Sebastian; Schneider, Julia; Schmidt, Marie Luisa; Mulders, Daphne GJC; Haagmans, Bart L; van der Veer, Bas; van den Brink, Sharon; Wijsman, Lisa; Goderski, Gabriel; Romette, Jean-Louis; Ellis, Joanna; Zambon, Maria; Peiris, Malik; Goossens, Herman; Reusken, Chantal; Koopmans, Marion PG; Drosten, Christian<br/>
-Published: 2020-01-23 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.5033): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
 [Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, V. M.; Landt, O.; Kaiser, M.; Molenkamp, R.; Meijer, A.; Chu, D. K.; Bleicker, T.; Brünink, S.; Schneider, J.; Schmidt, M. L.; Mulders, D. G.; Haagmans, B. L.; van der Veer, B.; van den Brink, S.; Wijsman, L.; Goderski, G.; Romette, J. L.; Ellis, J.; Zambon, M.; Peiris, M.; Goossens, H.; Reusken, C.; Koopmans, M. P.; Drosten, C.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin<br/>
-Match (0.5033): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
-[Data sharing for novel coronavirus (COVID-19)](http://dx.doi.org/10.2471/BLT.20.251561)<br/>
-Authors: Moorthy, Vasee; Henao Restrepo, Ana Maria; Preziosi, Marie-Pierre; Swaminathan, Soumya<br/>
-Published: 2020-03-01 00:00:00<br/>
-Publication: Bull World Health Organ<br/>
-Match (0.4939): **Efforts for expedited data and results reporting should not be limited to clinical trials, but should include observational studies, operational research, routine surveillance and information on the virus and its genetic sequences, as well as the monitoring of disease control programmes.**<br/>
-<br/>
-[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
-Authors: Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.4908): **The US CDC shared the protocol on the real time RT-PCR assay for the detection of the 2019-nCoV with the primers and probes designed for the universal detection of SARS-like coronavirus and the specific detection of 2019-nCoV. However, the protocol has not been validated on other platforms or chemistries apart from the protocol described. There are some limitations for the assay. Analysts engaged have to be trained and familiar with the testing procedure and result interpretation. False negative results may occur due to insufficient organisms in the specimen resulting from improper collection, transportation or handling. Also, RNA viruses may show substantial genetic variability. This could result in mismatch between the primer and probes with the target sequence which can diminish the assay performance or result in false negative results [107] . Point-of-care test kit can potentially minimize these limitations, which should be highly prioritized for research and development in the next few months.**<br/>
-<br/>
-[Analytical sensibility and specificity of two RT-qPCR protocols for SARS-CoV-2 detection performed in an automated workflow](doi.org/10.1101/2020.03.07.20032326)<br/>
-Authors: Gustavo Barcelos Barra; Ticiane Henriques Santa Rita; Pedro Goes Mesquita; Rafael Henriques Jacomo; Lidia Freire Abdalla Nery<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.4836): **Analytical sensibility and specificity of two RT-qPCR protocols for SARS-CoV-2 detection performed in an automated workflow**<br/>
-<br/>
-[Rapid Detection of 2019 Novel Coronavirus SARS-CoV-2 Using a CRISPR-based DETECTR Lateral Flow Assay](doi.org/10.1101/2020.03.06.20032334)<br/>
-Authors: James P Broughton; Xianding Deng; Guixia Yu; Clare L Fasching; Jasmeet Singh; Jessica Streithorst; Andrea Granados; Alicia Sotomayor-Gonzalez; Kelsey Zorn; Allan Gopez; Elaine Hsu; Wei Gu; Steven Miller; Chao-Yang Pan; Hugo Guevara; Debra Wadford; Janice Chen; Charles Y Chiu<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.4689): **in clinical samples. The use of existing qRT-PCR based assays is hindered by the need 123 for expensive lab instrumentation, and availability is currently restricted to public health 124 laboratories. Importantly, the DETECTR assays developed here have comparable 125 accuracy to qRT-PCR and are broadly accessible, as they use routine protocols and 126 commercially available, "off-the-shelf" reagents. Key advantages of our approach over 127 existing methods such as qRT-PCR include (1) isothermal signal amplification for rapid 128 target detection obviating the need for thermocycling, (2) single nucleotide target 129 specificity (guide RNAs at the N2 site can distinguish SARS-CoV-2 from SARS-CoV 130 and MERS-CoV), (3) integration with portable, low-cost reporting formats such as lateral 131 flow strips, and (4) quick development cycle to address emerging threats from novel 132 zoonotic viruses (<2 weeks for SARS-CoV-2, Supplementary Fig. 6) . 133**<br/>
-<br/>
-[Therapeutic Drugs Targeting 2019-nCoV Main Protease by High-Throughput Screening](doi.org/10.1101/2020.01.28.922922)<br/>
-Authors: Li, Y.; Zhang, J.; Wang, N.; Li, H.; Shi, Y.; Guo, G.; Liu, K.; Zeng, H.; Zou, Q.<br/>
-Published: 2020-01-30 00:00:00<br/>
-Match (0.4686): **In order to screening the possible drug candidates that were able to prevent or cure the infection, high-throughput screening was performed based on the 8,000 clinical drug libraries using the online software Vina and SeeSAR, combined with our in-house automatic processing scripts and screening programs, and 4 small molecular drugs with high binding capacity with SARS-CoV main protease were identified. author/funder. All rights reserved. No reuse allowed without permission.**<br/>
-<br/>
+by Corman, Victor M; Landt, Olfert; Kaiser, Marco; Molenkamp, Richard; Meijer, Adam; Chu, Daniel KW; Bleicker, Tobias; Brünink, Sebastian; Schneider, Julia; Schmidt, Marie Luisa; Mulders, Daphne GJC; Haagmans, Bart L; van der Veer, Bas; van den Brink, Sharon; Wijsman, Lisa; Goderski, Gabriel; Romette, Jean-Louis; Ellis, Joanna; Zambon, Maria; Peiris, Malik; Goossens, Herman; Reusken, Chantal; Koopmans, Marion PG; Drosten, Christian<br/>
+*Euro Surveill - Jan 23, 2020*<br/>
+- For a routine workflow, we recommend the E gene assay as the first-line screening tool, followed by confirmatory testing with the RdRp gene assay.<br/>
+- reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests.<br/>
+- The internal use of samples for diagnostic workflow optimisation was agreed under the medical ethical rules of each of the participating partners.<br/>
+- We report here on the establishment and validation of a diagnostic workflow for 2019-nCoV screening and specific confirmation, designed in absence of available virus isolates or original patient specimens.<br/>
+
+[Analytical sensibility and specificity of two RT-qPCR protocols for SARS-CoV-2 detection performed in an automated workflow](https://doi.org/10.1101/2020.03.07.20032326)<br/>
+by Gustavo Barcelos Barra; Ticiane Henriques Santa Rita; Pedro Goes Mesquita; Rafael Henriques Jacomo; Lidia Freire Abdalla Nery<br/>
+*Mar 10, 2020*<br/>
+- Analytical sensibility and specificity of two RT-qPCR protocols for SARS-CoV-2 detection performed in an automated workflow<br/>
+- RT-qPCR in-house protocols to detect the SARS-CoV-2 have been described 2 .<br/>
+- CDC and Charité described the interim SARS-CoV-2 RT-qPCR protocols evaluated in this study.<br/>
+- RT-qPCR testing of respiratory secretions is routinely used to detect causative viruses in acute respiratory infection and, during a Public Health Emergency of International Concern, the establishment of standardized processes and protocols, as well as sharing of specimens, data, and information is critical.<br/>
+
+[Molecular Diagnosis of a Novel Coronavirus (2019-nCoV) Causing an Outbreak of Pneumonia](https://doi.org/10.1093/clinchem/hvaa029)<br/>
+by Chu, Daniel K. W.; Pan, Yang; Cheng, Samuel M. S.; Hui, Kenrie P. Y.; Krishnan, Pavithra; Liu, Yingzhi; Ng, Daisy Y. M.; Wan, Carrie K. C.; Yang, Peng; Wang, Quanyi; Peiris, Malik; Poon, Leo L. M.<br/>
+*Clin Chem - 2020*<br/>
+- Based on their detection performances, the N gene RT-PCR is recommended as a screening assay, and the Orf1b assay is recommended as a confirmatory one.<br/>
+- Clinical samples for molecular tests are recommended to be handled using biosafety level 2 practices (19) .<br/>
+
+[Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19](https://doi.org/10.7554/eLife.55570)<br/>
+by Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smith, James O<br/>
+*eLife.; 9:e55570 - Feb 24, 2020*<br/>
+- Our results have several implications for the design and implementation of traveller screening policies.<br/>
+- Screening programs implemented in other settings will face the same challenges.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- It is important to ensure the availability of qualified personnel, appropriate facilities, equipment, reagents, materials, SOP, training programs, implementation of good laboratory practices, etc.<br/>
+- Recommended layout and workflow of molecular diagnostic laboratory.<br/>
+
+[Policies on the use of Respiratory Protection for Hospital Health Workers to Protect from Coronavirus Disease (COVID-19)](https://doi.org/10.1016/j.ijnurstu.2020.103567)<br/>
+by Chughtai, Abrar A.; Seale, Holly; Islam, Md Saiful; Owais, Mohammad; Macintyre, C. Raina<br/>
+*International Journal of Nursing Studies - Mar 13, 2020*<br/>
+- All guidelines, except the WHO and the Australian guidelines, briefly discuss the need for fit testing but do not provide detail on fit testing procedures.<br/>
+- Policies and guidelines should also mention implementation of a comprehensive respiratory protection program for respirator use, which includes selection of certified respirators, training and fit checking and testing, and inspection, maintenance and storage (43).<br/>
+
+[Deep Learning-based Detection for COVID-19 from Chest CT using Weak Label](https://doi.org/10.1101/2020.03.12.20027185)<br/>
+by Chuansheng Zheng; Xianbo Deng; Qing Fu; Qiang Zhou; Jiapei Feng; Hui Ma; Wenyu Liu; Xinggang Wang<br/>
+*Mar 17, 2020*<br/>
+- During the procedure of testing, data augmentation strategies were not applied.<br/>
+- Training and Testing Procedures The DeCoVNet software was developed based on the PyTorch framework.<br/>
+
+[Looming threat of COVID-19 infection in Africa: act collectively, and fast](https://doi.org/10.1016/S0140-6736(20)30464-5)<br/>
+by Nkengasong, John N; Mankoula, Wessam<br/>
+*The Lancet - Mar 20, 2020*<br/>
+- Medical staff at major hospitals must be trained in the proper protocols of quarantining individuals who are at-risk of COVID-19 infection, as well as isolation and safe treatment of patients who test positive.<br/>
+- Fifth, all member states will need to urgently develop and put in place proper quarantine and infection control protocols, including procedures for implementing social distancing (mass gathering and potential closure of public facilities).<br/>
+
+[The epidemic of 2019-novel-coronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future](https://doi.org/10.1016/j.micinf.2020.02.002)<br/>
+by Li, Jin-Yan; You, Zhi; Wang, Qiong; Zhou, Zhi-Jian; Qiu, Ye; Luo, Rui; Ge, Xing-Yi<br/>
+*Microbes and Infection - Mar 31, 2020*<br/>
+- New diagnostic strategies including multiplex nucleic acid amplification and microarray-based assays may help in epidemiologic monitoring, along with taking effective prevention steps.<br/>
+- Conventional diagnostic testing methods, such as the assays for detection of antiviral antibodies or viral antigens have been developed and used clinically.<br/>
+
+[CRISPR-based surveillance for COVID-19 using genomically-comprehensive machine learning design](https://doi.org/10.1101/2020.02.26.967026)<br/>
+by Metsky, H. C.; Freije, C. A.; Kosoko-Thoroddsen, T.-S. F.; Sabeti, P. C.; Myhrvold, C.<br/>
+*Mar 02, 2020*<br/>
+- A protocol for performing this assay is provided in the Methods section and can be used for testing any of the other designs we have provided.<br/>
+
 # Policies to mitigate the effects on supplies associated with mass testing, including swabs and reagents.
 
-[Rapid colorimetric detection of COVID-19 coronavirus using a reverse tran-scriptional loop-mediated isothermal amplification (RT-LAMP) diagnostic plat-form: iLACO](doi.org/10.1101/2020.02.20.20025874)<br/>
-Authors: Lin Yu; Shanshan Wu; Xiaowen Hao; Xuelong Li; Xiyang Liu; Shenglong Ye; Heng Han; Xue Dong; Xin Li; Jiyao Li; Jianmin Liu; Na Liu; Wanzhong Zhang; Vicent Pelechano; Wei-Hua Chen; Xiushan Yin<br/>
-Published: 2020-02-24 00:00:00<br/>
-Match (0.4906): **For RNA virus infections, especially acute respiratory infection, probe coupled RT-qPCR from respiratory secretions is routinely used to detect causative viruses (3) (4) (5) (6) (7) (8) (9) . This method has been widely used by Center for Disease Control and Prevention and other relevant departments worldwide. Recently RT-qPCR based methods were developed and applied worldwide by multiple research and disease control centers (10) . However, RT-qPCR has many limitations such as the need for high purity samples and the access to expensive laboratory instruments, as well as requiring long reaction times (at least 2 h). In addition, RT-qPCR needs trained personnel and sophisticated facilities for sample processing. These disadvantages limit its practical application in many cases, and thus can delay the required rapid prescription and administration of antiviral agents to patients.**<br/>
-<br/>
-[Extracorporeal membrane oxygenation support in 2019 novel coronavirus disease: indications, timing, and implementation](https://doi.org/10.1097/CM9.0000000000000778)<br/>
-Authors: Li, Min; Gu, Si-Chao; Wu, Xiao-Jing; Xia, Jin-Gen; Zhang, Yi; Zhan, Qing-Yuan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Chin Med J (Engl)<br/>
-Match (0.4892): **(2) To avoid unnecessary entries and exits, all supplies, including surgical instruments, consumables, medications, and blood products should be carefully inspected, and the number of staff should be restricted in the independent area.**<br/>
-<br/>
-[Extracorporeal membrane oxygenation support in 2019 novel coronavirus disease: indications, timing, and implementation](https://doi.org/10.1097/CM9.0000000000000778)<br/>
-Authors: Li, Min; Gu, Si-Chao; Wu, Xiao-Jing; Xia, Jin-Gen; Zhang, Yi; Zhan, Qing-Yuan<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Chin Med J (Engl)<br/>
-Match (0.4886): **(3) All staff should be supplied with protection for biosafety level 3 and if necessary, comprehensive airway protective devices such as positive pressure medical protective hoods should be supplied.**<br/>
-<br/>
-[Facemask shortage and the coronavirus disease (COVID-19) outbreak: Reflection on public health measures](doi.org/10.1101/2020.02.11.20020735)<br/>
-Authors: Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
-Published: 2020-02-12 00:00:00<br/>
-Match (0.4725): **Therefore, governments across the world should revisit their emergency plan for controlling infectious disease outbreaks in the local context. Timely public health measures should be taken to control the outbreak within the city or the province/state where the city is located. Meanwhile, the supply of and demand for facemasks and other medical resources should be considered when planning for public health measures, so as to maintain the availability and affordability of medical resources. Besides, timely and effective communication with the public is essential to mitigate panic buying and anxiety in the population 27,28 . Furthermore, during a medical resource crisis, health disparity could be widened between specific population groups. Individuals of lower socioeconomic status are more likely to find themselves in a dilemma between the need to work in high-risk locations and the lack of protective equipment. In addition, market forces can drive the price up, preventing them from purchasing an adequate amount of protective equipment.**<br/>
-<br/>
-[2019 novel coronavirus of pneumonia in Wuhan, China: emerging attack and management strategies](http://dx.doi.org/10.1186/s40169-020-00271-z)<br/>
-Authors: She, Jun; Jiang, Jinjun; Ye, Ling; Hu, Lijuan; Bai, Chunxue; Song, Yuanlin<br/>
-Published: 2020-02-20 00:00:00<br/>
-Publication: Clin Transl Med<br/>
-Match (0.4723): **For healthcare personnel, to minimize the chance of exposures to 2019-nCoV needs to follow the standard of contact and airborne precautions, personal protection including gloves, gowns, respiratory protection, eye protection, and hand hygiene. Some procedures performed on 2019-nCoV infected patients could generate infectious aerosols, e.g., nasopharyngeal specimen collection, sputum induction, and open suctioning of airways should be performed cautiously. If performed, these procedures should take place in an airborne infection isolation room, and personnel should use respiratory and eye protection, and hand hygiene [30] . In addition, management of environmental infection control including laundry, food service utensils, and medical waste should also be performed. Artificial Intelligence (AI), alternative selection to reducing infection for medical personnel, should be explored (Joint developed by Respiratory Research Institution of Zhongshan Hospital, Fudan University and RealMax Ltd Co), which will be benefit for remote guidance of practices.**<br/>
-<br/>
-[Preparedness and vulnerability of African countries against introductions of 2019-nCoV](doi.org/10.1101/2020.02.05.20020792)<br/>
-Authors: Marius Gilbert; Giulia Pullano; Francesco Pinotti; Eugenio Valdano; Chiara Poletto; Pierre-Yves Boelle; Ortenzio",; ,; ,; ,; ,; ,<br/>
-Published: 2020-02-07 00:00:00<br/>
-Match (0.4473): **Increasing the number of available beds and supplies in resource-limited countries is critical in preparation to possible local transmission following importation. Crisis management plans should be ready in each African country.**<br/>
-<br/>
-[2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
-Authors: Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Infection in Developing Countries<br/>
-Match (0.4453): **Community and healthcare preparedness in response to coronavirus outbreaks remain ongoing obstacles for global public health. For example, delays between disease development and progression and diagnosis or quarantine can severely impact both patient management and containment [21, 71] . Deficiencies in outbreak preparedness and healthcare network coordination efforts must ultimately be considered in response efforts. It is strongly recommended that universal reagents be maintained and available at global repositories for future outbreaks.**<br/>
-<br/>
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, Victor M; Landt, Olfert; Kaiser, Marco; Molenkamp, Richard; Meijer, Adam; Chu, Daniel KW; Bleicker, Tobias; Brünink, Sebastian; Schneider, Julia; Schmidt, Marie Luisa; Mulders, Daphne GJC; Haagmans, Bart L; van der Veer, Bas; van den Brink, Sharon; Wijsman, Lisa; Goderski, Gabriel; Romette, Jean-Louis; Ellis, Joanna; Zambon, Maria; Peiris, Malik; Goossens, Herman; Reusken, Chantal; Koopmans, Marion PG; Drosten, Christian<br/>
-Published: 2020-01-23 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.4421): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-Authors: Corman, V. M.; Landt, O.; Kaiser, M.; Molenkamp, R.; Meijer, A.; Chu, D. K.; Bleicker, T.; Brünink, S.; Schneider, J.; Schmidt, M. L.; Mulders, D. G.; Haagmans, B. L.; van der Veer, B.; van den Brink, S.; Wijsman, L.; Goderski, G.; Romette, J. L.; Ellis, J.; Zambon, M.; Peiris, M.; Goossens, H.; Reusken, C.; Koopmans, M. P.; Drosten, C.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin<br/>
-Match (0.4421): **Real-time RT-PCR is widely deployed in diagnostic virology. In the case of a public health emergency, proficient diagnostic laboratories can rely on this robust technology to establish new diagnostic tests within their routine services before pre-formulated assays become available. In addition to information on Isolated from human airway epithelial culture. d 1 × 10 10 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified but spiked in human negative-testing sputum. e 4 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR. f 3 × 10 9 RNA copies/mL, determined by specific real-time RT-PCR of one isolate. The other isolate was not quantified spiked in human negative-testing sputum. g 1 × 10 8 RNA copies/mL, determined by specific real-time RT-PCR. reagents, oligonucleotides and positive controls, laboratories working under quality control programmes need to rely on documentation of technical qualification of the assay formulation as well as data from external clinical evaluation tests. The provision of control RNA templates has been effectively implemented by the EVAg project that provides virus-related reagents from academic research collections [18] . SARS-CoV RNA was retrievable from EVAg before the present outbreak; specific products such as RNA transcripts for the here-described assays were first retrievable from the EVAg online catalogue on 14 January 2020 (https://www.european-virus-archive.com). Technical qualification data based on cell culture materials and synthetic constructs, as well as results from exclusivity testing on 75 clinical samples, were included in the first version of the diagnostic protocol provided to the WHO on 13 January 2020. Based on efficient collaboration in an informal network of laboratories, these data were augmented within 1 week comprise testing results based on a wide range of respiratory pathogens in clinical samples from natural infections. Comparable evaluation studies during regulatory qualification of in vitro diagnostic assays can take months for organisation, legal implementation and logistics and typically come after the peak of an outbreak has waned. The speed and effectiveness of the present deployment and evaluation effort were enabled by national and European research networks established in response to international health crises in recent years, demonstrating the enormous response capacity that can be released through coordinated action of academic and public laboratories [18] [19] [20] [21] [22] . This laboratory capacity not only supports immediate public health interventions but enables sites to enrol patients during rapid clinical research responses. CD: Planned experiments, conceptualised the laboratory work, conceptualised the overall study, wrote the manuscript draft.**<br/>
-<br/>
-[Facemask shortage and the coronavirus disease (COVID-19) outbreak: Reflection on public health measures](doi.org/10.1101/2020.02.11.20020735)<br/>
-Authors: Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
-Published: 2020-02-12 00:00:00<br/>
-Match (0.4413): **In light of the COVID-19 outbreak in China, a shortage of facemasks and other medical resources can considerably compromise the efficacy of public health measures. Effective public health measures should also consider the adequacy and affordability of medical resources. Global collaboration should be strengthened to prevent the development of a global pandemic from a regional epidemic via easing the medical resources crisis in the affected countries.**<br/>
-<br/>
+[New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
+by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
+*International Journal of Pharmaceutics - Apr 15, 2020*<br/>
+- Based on the resulting risk ranking, the manufacturer can define proper strategies to prevent shortage (e.g., increase of the raw material suppliers, expansion of the material stocks).<br/>
+- For example, in the presence of reduced manufacturing capacity, the obligation for MAH to maintain a preventive stockpiling in some countries (e.g., Switzerland) may worsen the product availability in the other involved markets.<br/>
+- Moreover, the promising results obtained by some National competent Authorities (e.g., AIFA) suggested that setting up cooperation schemes between administration and other stakeholders, fostering a responsible approach in managing crisis in medicines supply, also allowing, for instance, surveillance/verification programs that may represent rational and effective preventive strategies to monitor the activities of exporting wholesalers and distributors for reducing the risks of product unavailability.<br/>
+- In all these cases, the notification process proposed by the EMA/HMA guideline seems not sufficient to detect the risk of shortage since the MAHs are not aware of the resilience of its raw material suppliers to shortage and, therefore, they are not able to monitor effectively raw materials suppliers and predict failures in their manufacturing chain.<br/>
+- On the other side, if the shortage impact of medicinal products on the public health is low, it is not reasonable to charge the MAHs with additional costs and, therefore, affect the economic sustainability for the implementation of quality assurance systems that may have a limited positive impact on the continuity of care.<br/>
+- For such products, manufacturer's resilience should be improved by more onerous provisions, such as the obligation for MAHs to qualify at least two suppliers of drug substance, the stockpiles' expansion and the implementation of the manufacturing technologies and risk assessment tools.<br/>
+- In parallel, the cooperation among Regulatory Authorities and stakeholders of the pharmaceutical distribution chain should also be improved to set up shared strategies to mitigate distribution-related unavailability in specific geographic regions and to prevent shortages.<br/>
+- These strategies permit to improve MAH sustainability and to ensure a proper supply for the patient demand.<br/>
+
+[Looming threat of COVID-19 infection in Africa: act collectively, and fast](https://doi.org/10.1016/S0140-6736(20)30464-5)<br/>
+by Nkengasong, John N; Mankoula, Wessam<br/>
+*The Lancet - Mar 20, 2020*<br/>
+- Third, commitment and release of financial resources from partners and donors before a crisis hits Africa will help anticipate demand and address supply chain management, mapping, and stockpiling of COVID-19 response needs, such as large quantities of personal protective equipment, gloves, surgical masks, coveralls, and hoods, and medical countermeasures like antiviral agents.<br/>
+- Supplies of these items will be limited in Africa because of reduced manufacturing capacity.<br/>
+- Fifth, all member states will need to urgently develop and put in place proper quarantine and infection control protocols, including procedures for implementing social distancing (mass gathering and potential closure of public facilities).<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- It is important to ensure the availability of qualified personnel, appropriate facilities, equipment, reagents, materials, SOP, training programs, implementation of good laboratory practices, etc.<br/>
+- The program might cover improving laboratory facilities, ensuring availability of required equipment, building human resource capacity and ensuring quality laboratory management.<br/>
+- The activities need to be performed within a biocontainment environment using appropriate equipment and personal protective equipment (Artika and Ma'roef, 2017) .<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Sampling techniques, extraction and detection of viral nucleic acids, and diagnostic reagents may affect the test results.<br/>
+- Large quantities of emergency supplies including personal protective equipment (PPE) and medical apparat were sent to front-line medical sectors.<br/>
+- In order to prevent health care workers from being infected, the NHC ensured enough supplies of isolation gowns, gloves and masks and issued a technical guideline for the prevention and control of infection caused by the novel coronavirus.<br/>
+
+[Preparing for a Surge of Coronavirus Cases](https://doi.org/10.1016/j.jcjq.2020.03.001)<br/>
+by Baker, David W.<br/>
+*The Joint Commission Journal on Quality and Patient Safety - Mar 07, 2020*<br/>
+-  Monitor stock and the supply chain to ensure adequate supplies of personal protective equipment.<br/>
+-  Implement all elements of standard precautions as outlined in the CDC Core Practices, including o Hand hygiene o Environmental cleaning and disinfection o Risk assessment with use of appropriate personal protective equipment (such as gloves, gowns, face masks) based on activities being performed o Reprocessing of reusable medical equipment between each patient and when soiled  Hand-off communications, both inter-and intrafacility, should include notification of colonization or infection with a potentially transmissible pathogen.<br/>
+
+[Preparedness is essential for malaria-endemic regions during the COVID-19 pandemic](https://doi.org/10.1016/S0140-6736(20)30561-4)<br/>
+by Wang, Jigang; Xu, Chengchao; Wong, Yin Kwan; He, Yingke; Adegnika, Ayôla A; Kremsner, Peter G; Agnandji, Selidji T; Sall, Amadou A; Liang, Zhen; Qiu, Chen; Liao, Fu Long; Jiang, Tingliang; Krishna, Sanjeev; Tu, Youyou<br/>
+*The Lancet - Mar 17, 2020*<br/>
+- Management of medical supplies and stockpiling of surgical masks and other protective equipment should be done in advance and medical staff should be adequately trained in their use.<br/>
+- Such measures would also aid efforts in COVID-19 management by reducing the strain on medical resources and minimising confounding factors in diagnosis.<br/>
+
+[Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection](https://doi.org/10.1101/2020.03.15.20035360)<br/>
+by Vageesh Jain; Jin-Min Yuan<br/>
+*Mar 16, 2020*<br/>
+- These include infection control decisions regarding the limited availability of isolation rooms and personal protective equipment (PPE), particularly in more resource-constrained settings.<br/>
+- This will involve rapidly scaling up healthcare resources including staff, equipment, facilities, and training, to effectively identify and treat patients.<br/>
+
+[Rapid Detection of 2019 Novel Coronavirus SARS-CoV-2 Using a CRISPR-based DETECTR Lateral Flow Assay](https://doi.org/10.1101/2020.03.06.20032334)<br/>
+by James P Broughton; Xianding Deng; Guixia Yu; Clare L Fasching; Jasmeet Singh; Jessica Streithorst; Andrea Granados; Alicia Sotomayor-Gonzalez; Kelsey Zorn; Allan Gopez; Elaine Hsu; Wei Gu; Steven Miller; Chao-Yang Pan; Hugo Guevara; Debra Wadford; Janice Chen; Charles Y Chiu<br/>
+*Mar 10, 2020*<br/>
+- https://doi.org/10.1101/2020.03.06.20032334 doi: medRxiv preprint gene target region for the CDC assay is no longer being used due to concerns 92 regarding flaws in manufacturing reagents and potential decreased sensitivity) 14 .<br/>
+- The use of existing qRT-PCR based assays is hindered by the need 123 for expensive lab instrumentation, and availability is currently restricted to public health 124 laboratories.<br/>
+
+[Development of Reverse Transcription Loop-mediated Isothermal Amplification (RT-LAMP) Assays Targeting SARS-CoV-2](https://doi.org/10.1101/2020.03.09.983064)<br/>
+by Gun-Soo Park; Keunbon Ku; Seung-Hwa Beak; Seong Jun Kim; Seung Il Kim; Bum-Tae Kim; Jin-Soo Maeng<br/>
+*Mar 12, 2020*<br/>
+- This indicates that high-throughput test is possible when use of unpurified specimen is combined with noninstrumental (e.g.<br/>
+- Briefly, lab-level facility such as reliable supply of electricity, expensive instruments and trained personnel are required to properly perform RT-qPCR tests.<br/>
+
+[2019 novel coronavirus disease (COVID-19) in Taiwan: Reports of two cases from Wuhan, China](https://doi.org/10.1016/j.jmii.2020.02.009)<br/>
+by Huang, Wei-Hsuan; Teng, Ling-Chiao; Yeh, Ting-Kuang; Chen, Yu-Jen; Lo, Wei-Jung; Wu, Ming-Ju; Chin, Chun-Shih; Tsan, Yu-Tse; Lin, Tzu-Chieh; Chai, Jyh-Wen; Lin, Chin-Fu; Tseng, Chien-Hao; Liu, Chia-Wei; Wu, Chi-Mei; Chen, Po-Yen; Shi, Zhi-Yuan; Liu, Po-Yu<br/>
+*Journal of Microbiology, Immunology and Infection - 2020*<br/>
+- It is anticipated that there will be an overwhelming demand for the supply chain of testing reagents and laboratory equipment, and the availability of well trained and experienced staff during the outbreak.<br/>
+
 # Technology roadmap for diagnostics.
 
-[Laboratory readiness and response for novel coronavirus (2019-nCoV) in expert laboratories in 30 EU/EEA countries, January 2020](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.6.2000082)<br/>
-Authors: Reusken, Chantal B.E.M.; Broberg, Eeva K.; Haagmans, Bart; Meijer, Adam; Corman, Victor M.; Papa, Anna; Charrel, Remi; Drosten, Christian; Koopmans, Marion; Leitmeyer, Katrin<br/>
-Published: 2020-02-13 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.5874): **Challenges reported by laboratories in terms of implementing molecular diagnostics for novel coronavirus (2019-nCoV), EU/EEA, January 2020 (n = 47) **<br/>
-<br/>
+[Recent advances and perspectives of nucleic acid detection for coronavirus](https://doi.org/10.1016/j.jpha.2020.02.010)<br/>
+by Shen, Minzhe; Zhou, Ying; Ye, Jiawei; Abdullah AL-maskri, Abdu Ahmed; Kang, Yu; Zeng, Su; Cai, Sheng<br/>
+*Journal of Pharmaceutical Analysis - Mar 01, 2020*<br/>
+- Their lately protocol for COVID-19 entitled "A protocol for detection of COVID-19 using CRISPR diagnostics" has been reported on website (https://broad.io/sherlockprotocol), which may provide some reference points for researchers interested in further advancing this diagnostics system, highlighting its potential as a multiplexable, portable, rapid, and quantitative detection platform of nucleic acids.<br/>
+- With the advance in molecular biology technology, nucleic acid detection methods have developed rapidly and become a revolutionary technology for virus detection.<br/>
+- evaluated a novel, portable, and near-POC diagnostic platform based on the microarray chip, the Mobile Analysis Platform (MAP), which has a good performance in identifying virus and acceptable detection limit.<br/>
+
 [Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
-Authors: Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.5803): **Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review**<br/>
-<br/>
-[Potential Maternal and Infant Outcomes from (Wuhan) Coronavirus 2019-nCoV Infecting Pregnant Women: Lessons from SARS, MERS, and Other Human Coronavirus Infections](https://doi.org/10.3390/v12020194)<br/>
-Authors: Schwartz, David A.; Graham, Ashley L.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Viruses<br/>
-Match (0.5788): **The novel coronavirus is the first epidemic disease to emerge since the formation of CEPI in Davos in 2017. CEPI was created with the express intent to enable speedy research and development of vaccines against emerging pathogens. In May 2017, WHO released the Target Product Profile (TPP) for MERS-CoV vaccines, following the prioritization of MERS-CoV as one of eight priority pathogens for prevention of epidemics [73] . CEPI and partners aim to use existing platforms-that is, the existing "backbone" that can be adapted for use against new pathogens-that are currently in preclinical development for MERS-CoV vaccine candidates. Following the WHO declaration on 30 January that the current 2019-nCoV outbreak is a public health emergency of international concern (PHEIC), global health organizations and researchers will be further mobilized-bolstered by new mechanisms for action and greater resources-to stop the spread of disease.**<br/>
-<br/>
-[Response to COVID-19 in Taiwan: Big Data Analytics, New Technology, and Proactive Testing](https://doi.org/10.1001/jama.2020.3151)<br/>
-Authors: Wang, C. Jason; Ng, Chun Y.; Brook, Robert H.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: JAMA<br/>
-Match (0.5747): **Response to COVID-19 in Taiwan: Big Data Analytics, New Technology, and Proactive Testing**<br/>
-<br/>
-[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
-Authors: Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Journal of Clinical Medicine<br/>
-Match (0.5729): **With the emergence of 2019-nCoV, there are about 15 potential vaccine candidates in the pipeline globally (Table 3 ), in which a wide range of technology (such as messenger RNA, DNA-based, nanoparticle, synthetic and modified virus-like particle) was applied. It will likely take about a year for most candidates to start phase 1 clinical trials except for those funded by Coalition for Epidemic Preparedness Innovations (CEPI). However, the kit developed by the BGI have passed emergency approval procedure of the National Medical Products Administration, and are currently used in clinical and surveillance centers of China [40] .**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.5616): **The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.05.20031971 doi: medRxiv preprint 14 more scalable than animal antibody production. Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics. Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens. 331**<br/>
-<br/>
+by Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
+*Journal of Clinical Medicine - 2020*<br/>
+- The systematic review describes and assesses the potential rapid diagnostics, vaccines and therapeutics for 2019-nCoV, based in part on the developments for MERS-CoV and SARS-CoV.<br/>
+- Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review<br/>
+- Rapid diagnostics, vaccines and therapeutics are key pharmaceutical interventions to limit transmission of respiratory infectious diseases.<br/>
+
+[Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus](https://doi.org/10.1101/2020.02.22.20025460)<br/>
+by Tieying Hou; Weiqi Zeng; Minling Yang; Wenjing Chen; Lili Ren; Jingwen Ai; Ji Wu; Yalong Liao; Xuejing Gou; Yongjun Li; Xiaorui Wang; Hang Su; Jianwei Wang; Bing Gu; Teng Xu<br/>
+*Feb 23, 2020*<br/>
+- The copyright holder for this preprint (which was not peer-reviewed) is Here, to address this question and the expanding clinical needs, we developed CRISPR-nCoV, 78 a rapid assay for 2019-nCoV detection, and compared the diagnostic performance among 79 three different technological platforms: metagenomic sequencing, RT-PCR and CRISPR.<br/>
+- Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus<br/>
+- 71 Currently, metagenomics and RT-PCR are two molecular approaches most commonly used 72 diagnostics for this novel virus.<br/>
+
+[Middle East respiratory syndrome](https://doi.org/10.1016/S0140-6736(19)33221-0)<br/>
+by Memish, Ziad A; Perlman, Stanley; Van Kerkhove, Maria D; Zumla, Alimuddin<br/>
+*The Lancet - Mar 04, 2020*<br/>
+- 77 An updated roadmap for MERS-CoV product development lists all available diagnostics and other diagnostics in the developmental phase.<br/>
+- Advances in technology, vaccine platforms, clinical trial designs, and bioinformatics are supporting MERS-CoV vaccine development (appendix.<br/>
+
+[Laboratory readiness and response for novel coronavirus (2019-nCoV) in expert laboratories in 30 EU/EEA countries, January 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.6.2000082)<br/>
+by Reusken, Chantal B.E.M.; Broberg, Eeva K.; Haagmans, Bart; Meijer, Adam; Corman, Victor M.; Papa, Anna; Charrel, Remi; Drosten, Christian; Koopmans, Marion; Leitmeyer, Katrin<br/>
+*Eurosurveillance - 2020*<br/>
+- Challenges reported by laboratories in terms of implementing molecular diagnostics for novel coronavirus (2019-nCoV), EU/EEA, January 2020 (n = 47)<br/>
+- This rapid assessment of the readiness of EU/EEA laboratories for molecular detection of 2019-nCoV demonstrated a fast implementation of molecular diagnostics by the European specialised laboratory networks with a good geographical coverage for testing.<br/>
+
+[Sensitive one-step isothermal detection of pathogen-derived RNAs](https://doi.org/10.1101/2020.03.05.20031971)<br/>
+by Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
+*Mar 09, 2020*<br/>
+- Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics.<br/>
+- Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens.<br/>
+
 [Q&A: The novel coronavirus outbreak causing COVID-19](https://doi.org/10.1186/s12916-020-01533-w)<br/>
-Authors: Heymann, Dale Fisher; David<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: BMC Medicine<br/>
-Match (0.5610): **What is in the pipeline for vaccine development and/or therapeutics?**<br/>
-<br/>
-[Q&A: The novel coronavirus outbreak causing COVID-19](https://doi.org/10.1186/s12916-020-01533-w)<br/>
-Authors: Heymann, Dale Fisher; David<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: BMC Medicine<br/>
-Match (0.5610): **What is in the pipeline for vaccine development and/or therapeutics?**<br/>
-<br/>
-[SARS to novel coronavirus – old lessons and new lessons](http://dx.doi.org/10.1017/S0950268820000254)<br/>
-Authors: McCloskey, Brian; Heymann, David L.<br/>
-Publication: Epidemiol Infect.; 148:e22<br/>
-Match (0.5603): **One of the critical lessons from the SARS experience was the absolute necessity to be able to coordinate the international resources that are available in an outbreak and to get them focussed on identifying priorities and solving problems. The WHO established the means to do this for SARS and it has since been further developed and integrated into global preparedness, especially after the West Africa Ebola epidemic. Organisations such as the Global Outbreak Alert and Response Network (GOARN), the Coalition for Epidemic Preparedness Innovations (CEPI), the Global Research Collaboration For Infectious Disease Preparedness (GloPID-R) and the Global Initiative on Sharing All Influenza Data (GISAID) have been supported by the WHO Research Blueprint and its Global Coordinating Mechanism to provide a forum where those with the expertise and capacity to contribute to managing new threats can come together both between and during outbreaks to develop innovative solutions to emerging problems. This global coordination has been active in the novel coronavirus outbreak. WHO's response system includes three virtual groups based on those developed for SARS to collate real time information to inform real time guidelines, and a first candidate vaccine is ready for laboratory testing within 4 weeks of the virus being identified.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.5535): **When biomedical innovations fall into the 'Valley of Death', patients who are therefore not reached all too often fall with them. Being entrusted with the resources and expectation to conceive, deliver and communicate dividends to society is both cherished and eagerly pursued at every stage of our careers. Nevertheless, the road to research translation is winding and is built on a foundation of basic research. Supporting industry-academia collaboration and nurturing talent and skills in the Indo-Pacific region are two of the four pillars of the National Innovation and Science Agenda. 2 These frame Australia's Medical Research and Innovation Priorities, which include antimicrobial resistance, global health and health security, drug repurposing and translational research infrastructure, 15 capturing many of the key elements of this CTI Special Feature. Establishing durable international relationships that integrate diverse expertise is essential to delivering these outcomes. To this end, NHMRC has recently taken steps under the International Engagement Strategy 16 to increase cooperation with its counterparts overseas. These include the Japan Agency for Medical Research and Development (AMED), tasked with translating the biomedical research output of that country. Given the reciprocal efforts at accelerating bilateral engagement currently underway, 17 the prospects for new areas of international cooperation and mobility have never been more exciting nor urgent. With the above in mind, all contributions to this CTI Special Feature I have selected from research presented by fellow invitees to the 2018 Awaji International Forum on Infection and Immunity (AIFII) and 2017 Consortium of Biological Sciences (ConBio) conferences in Japan. Both Australia and Japan have strong traditions in immunology and related disciplines, and I predict that the quantity, quality and importance of our bilateral cooperation will accelerate rapidly over the short to medium term. By expanding and cooperatively leveraging our respective research strengths, our efforts may yet solve the many pressing disease, cost and other sustainability issues of our time.**<br/>
-<br/>
+by Fisher, Dale; Heymann, David<br/>
+*BMC Med - Feb 28, 2020*<br/>
+- What is in the pipeline for vaccine development and/or therapeutics?<br/>
+- (see What is in the pipeline for vaccine development and/or therapeutics?<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- Since the initial description of LAMP, a number of advancements in detection technology have helped establish LAMP as a standard method for simple isothermal diagnostics.<br/>
+- The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.<br/>
+
+[What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
+by Singer, Donald R.J.; Redekop, Ken<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- What is ahead for health policy and technology in the 2020s?<br/>
+- Developments in diagnostics are likely to include more advanced imaging, increasing availability of point of care testing (biochemical and genomic), and the further extension of genomics into clinical practice, potentially before and around the time of birth.<br/>
+
+[Prospect and application of Internet of Things technology for prevention of SARIs](https://doi.org/10.1016/j.ceh.2020.02.001)<br/>
+by Song, Yuanlin; Jiang, Jinjun; Wang, Xun; Yang, Dawei; Bai, Chunxue<br/>
+*Clinical eHealth - Dec 31, 2020*<br/>
+- 13 Moreover, with the development of microelectronics and integrated industrial technology, numerous sensing technologies have been developed, such as the ''smart T-shirt".<br/>
+- Based on advanced information technology (IT) and electronic medicine, the Medical IoT (mIoT) has experienced four major evolutions, including the development of wireless sensing technology, use of Internet technology in clinical medicine, use of radio frequency identification (RFID), and artificial intelligence (AI) applications, to realize the IoT medical model.<br/>
+
 # Barriers to developing and scaling up new diagnostic tests (e.g., market forces), how future coalition and accelerator models (e.g., Coalition for Epidemic Preparedness Innovations) could provide critical funding for diagnostics, and opportunities for a streamlined regulatory environment.
 
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.7482): **When biomedical innovations fall into the 'Valley of Death', patients who are therefore not reached all too often fall with them. Being entrusted with the resources and expectation to conceive, deliver and communicate dividends to society is both cherished and eagerly pursued at every stage of our careers. Nevertheless, the road to research translation is winding and is built on a foundation of basic research. Supporting industry-academia collaboration and nurturing talent and skills in the Indo-Pacific region are two of the four pillars of the National Innovation and Science Agenda. 2 These frame Australia's Medical Research and Innovation Priorities, which include antimicrobial resistance, global health and health security, drug repurposing and translational research infrastructure, 15 capturing many of the key elements of this CTI Special Feature. Establishing durable international relationships that integrate diverse expertise is essential to delivering these outcomes. To this end, NHMRC has recently taken steps under the International Engagement Strategy 16 to increase cooperation with its counterparts overseas. These include the Japan Agency for Medical Research and Development (AMED), tasked with translating the biomedical research output of that country. Given the reciprocal efforts at accelerating bilateral engagement currently underway, 17 the prospects for new areas of international cooperation and mobility have never been more exciting nor urgent. With the above in mind, all contributions to this CTI Special Feature I have selected from research presented by fellow invitees to the 2018 Awaji International Forum on Infection and Immunity (AIFII) and 2017 Consortium of Biological Sciences (ConBio) conferences in Japan. Both Australia and Japan have strong traditions in immunology and related disciplines, and I predict that the quantity, quality and importance of our bilateral cooperation will accelerate rapidly over the short to medium term. By expanding and cooperatively leveraging our respective research strengths, our efforts may yet solve the many pressing disease, cost and other sustainability issues of our time.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.7372): **Globally, recent decades have witnessed a growing disjunction, a 'Valley of Death' 1,2 no less, between broadening strides in fundamental biomedical research and their incommensurate reach into the clinic. Plumbing work on research funding and development pipelines through recent changes in the structure of government funding, 2 new public and private joint ventures and specialist undergraduate and postgraduate courses now aim to incorporate pathways to translation at the earliest stages. Reflecting this shift, the number of biomedical research publications targeting 'translational' concepts has increased exponentially, up 1800% between 2003 and 2014 3 and continuing to rise rapidly up to the present day. Fuelled by the availability of new research technologies, as well as changing disease, cost and other pressing issues of our time, further growth in this exciting space will undoubtedly continue. Despite recent advances in the therapeutic control of immune function and viral infection, current therapies are often challenging to develop, expensive to deploy and readily select for resistance-conferring mutants. Shaped by the hostvirus immunological 'arms race' and tempered in the forge of deep time, the biodiversity of our world is increasingly being harnessed for new biotechnologies and therapeutics. Simultaneously, a shift towards host-oriented antiviral therapies is currently underway. In this Clinical & Translational Immunology Special Feature, I illustrate a strategic vision integrating these themes to create new, effective, economical and robust antiviral therapies and immunotherapies, with both the realities and the opportunities afforded to researchers working in our changing world squarely in mind.**<br/>
-<br/>
-[SARS to novel coronavirus – old lessons and new lessons](http://dx.doi.org/10.1017/S0950268820000254)<br/>
-Authors: McCloskey, Brian; Heymann, David L.<br/>
-Publication: Epidemiol Infect.; 148:e22<br/>
-Match (0.7353): **One of the critical lessons from the SARS experience was the absolute necessity to be able to coordinate the international resources that are available in an outbreak and to get them focussed on identifying priorities and solving problems. The WHO established the means to do this for SARS and it has since been further developed and integrated into global preparedness, especially after the West Africa Ebola epidemic. Organisations such as the Global Outbreak Alert and Response Network (GOARN), the Coalition for Epidemic Preparedness Innovations (CEPI), the Global Research Collaboration For Infectious Disease Preparedness (GloPID-R) and the Global Initiative on Sharing All Influenza Data (GISAID) have been supported by the WHO Research Blueprint and its Global Coordinating Mechanism to provide a forum where those with the expertise and capacity to contribute to managing new threats can come together both between and during outbreaks to develop innovative solutions to emerging problems. This global coordination has been active in the novel coronavirus outbreak. WHO's response system includes three virtual groups based on those developed for SARS to collate real time information to inform real time guidelines, and a first candidate vaccine is ready for laboratory testing within 4 weeks of the virus being identified.**<br/>
-<br/>
+[Frontiers in antiviral therapy and immunotherapy](https://doi.org/10.1002/cti2.1115)<br/>
+by Heaton, Steven M<br/>
+*Clinical & Translational Immunology - 2020*<br/>
+- In this Clinical & Translational Immunology Special Feature, I illustrate a strategic vision integrating these themes to create new, effective, economical and robust antiviral therapies and immunotherapies, with both the realities and the opportunities afforded to researchers working in our changing world squarely in mind.<br/>
+- 2 These frame Australia's Medical Research and Innovation Priorities, which include antimicrobial resistance, global health and health security, drug repurposing and translational research infrastructure, 15 capturing many of the key elements of this CTI Special Feature.<br/>
+- By expanding and cooperatively leveraging our respective research strengths, our efforts may yet solve the many pressing disease, cost and other sustainability issues of our time.<br/>
+- 4 I anticipate international efforts in these areas over the coming decade will enable the tapping of useful new biological functions and processes, methods for controlling infection, and the deployment of symbiotic or subclinical viruses in new therapies and biotechnologies that are so crucially needed.<br/>
+- Plumbing work on research funding and development pipelines through recent changes in the structure of government funding, 2 new public and private joint ventures and specialist undergraduate and postgraduate courses now aim to incorporate pathways to translation at the earliest stages.<br/>
+- Supporting industry-academia collaboration and nurturing talent and skills in the Indo-Pacific region are two of the four pillars of the National Innovation and Science Agenda.<br/>
+- Opening this CTI Special Feature, I outline ways these issues may be solved by creatively leveraging the so-called 'strengths' of viruses.<br/>
+
+[Responding to health emergencies in the Eastern Mediterranean region in times of conflict](https://doi.org/10.1016/S0140-6736(20)30069-6)<br/>
+by Brennan, Richard; Hajjeh, Rana; Al-Mandhari, Ahmed<br/>
+*The Lancet - Mar 02, 2020*<br/>
+- 15 Humanitarian agencies have adopted various approaches to address these constraints, including investments in local partners, cross-border operations, deconfliction, remote programming, and scaled up advocacy and humanitarian diplomacy.<br/>
+- This new way of working leverages the comparative advantages of both humanitarian and development sectors.<br/>
+- Accelerating implementation is a major priority for 2020, focusing on surveillance, laboratories, preparedness, EOCs, risk communications, and rapid response teams.<br/>
+- WHO's global COVID-19 strategic preparedness and response plan 13 therefore prioritises countries with weak health systems for technical and operational support from international partners.<br/>
+
+[New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
+by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
+*International Journal of Pharmaceutics - Apr 15, 2020*<br/>
+- This manuscript aims to review the current upgrade of the European regulatory framework on medicine shortages and to propose a theoretical approach for 1) determining the shortage/unavailability impact on the capability of the National Healthcare Systems and 2) rationalizing the problem-solving strategies to be adopted in function of the leading cause of shortage (e.g., production, price and importation/exportation).<br/>
+- Although the proposed definition was relevant only for Marketing Authorization Holders (MAHs) and Regulatory Authorities, it is the first step to promote the communication and the coordination among European pharmaceutical stakeholders, regulators and professionals working in the different National Healthcare Systems for improving their resilience to shortages.<br/>
+- In particular, it has been highlighted the need to find collaborative solutions for medicine shortages to coordinate EU and National policies and communication campaigns.<br/>
+- For such products, manufacturer's resilience should be improved by more onerous provisions, such as the obligation for MAHs to qualify at least two suppliers of drug substance, the stockpiles' expansion and the implementation of the manufacturing technologies and risk assessment tools.<br/>
+
+[What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
+by Singer, Donald R.J.; Redekop, Ken<br/>
+*Health Policy and Technology - Mar 31, 2020*<br/>
+- Trade and tariff barriers arising from evolving isolationist policies of the USA are also likely to restrict progress on implementation and the health impact of achieving the UN's Sustainable Development Goals, not least through increased international costs of diagnostics, devices and medicines.<br/>
+- Effective resolution of AMR will need multistakeholder international cooperation, including the biotechnology industry and regulatory authorities, and effective international implementation by health authorities and health professionals of guidelines on the judicious use of any powerful new classes of treatment which emerge.<br/>
+- These goals have important public health implications and require coordinated national and international action on economic, environmental and social development.<br/>
+- These considerations are vital to ensure effective and sustainable development and delivery of health policy and technology over the next decade and beyond.<br/>
+
 [On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.7055): **Beyond the aspect of pandemic preparedness and response, the case of COVID-19 virus and its spread provide a fascinating case study for the thematics of urban health. Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios. This is valid as smart cities host a rich array of technological products [6, 7] that can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally. While thermal cameras are not sufficient on their own for the detection of pandemics -like the case of the COVID-19, the integration of such products with artificial intelligence (AI) can provide added benefits. The fact that initial screenings of temperature is being pursued for the case of the COVID-19 at airports and in areas of mass convergence is a testament to its potential in an automated fashion. Kamel Boulos et al. [8] supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.**<br/>
-<br/>
-[SARS to novel coronavirus – old lessons and new lessons](http://dx.doi.org/10.1017/S0950268820000254)<br/>
-Authors: McCloskey, Brian; Heymann, David L.<br/>
-Publication: Epidemiol Infect.; 148:e22<br/>
-Match (0.6984): **The rapid sharing of information in this outbreak and the speed of the coordinated response both in the country and internationally suggest that lessons have been learned from SARS that improve global capacity. The international networks and forums that now exist have facilitated the bringing together of expertise from around the world to focus research and development efforts and maximise the impact.**<br/>
-<br/>
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.6827): **While the significance of such data in advancing efficiency, productivity and processes in different sectors is being lauded, there are criticisms arising as to the nature of data collection, storage, management and accessibility by only a small group of users. The latter particularly includes select ICT corporations that are also located in specific geographies [6, [14] [15] [16] [17] . These criticisms are justified, as in recent years, big data is seen as the new 'gold rush' of the 21st century and limiting its access means higher economic returns and increased influence and control at various scales to those who control data. These associated benefits with big data are clearly influencing geopolitical standings, in both corporate and conventional governance realms, and there is increased competition between powerful economies to ensure that they have the maximum control of big data. As case in point is the amount of 'push and pull' that has arisen from Huawei's 5G internet planned rollout [18] . Though the latter service offers unprecedented opportunities to increase internet speeds, and thereby influence the handling of big data, countries like the U.S. and some European countries that are key proponents and players in global political, economic and health landscapes, are against this rollout, arguing that it is a deceptive way of gathering private data under the guise of espionage. On this, it has been noted that the issue of data control and handling by a few corporations accords with their principles of nationalism, and that these work for their own wellbeing as well as to benefit the territories they are registered in. Therefore, geopolitical issues are expected on the technological front as most large data-rich corporations are located in powerful countries that have influence both economically, health-wise and politically [19] [20] [21] . Such are deemed prized tokens on the international landscape, and it is expected that these economies will continue to work towards their predominant control as much as possible. On the health sector, the same approach is being upheld where critical information and data are not freely shared between economies as that would be seen to be benefiting other in-competition economies, whereas different economies would cherish the maximization of benefits from such data collections.**<br/>
-<br/>
-[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](doi.org/10.1101/2020.02.20.20025957)<br/>
-Authors: Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.6789): **Telemedicine has been acknowledged as a breakthrough technology in combating epidemics 2 . Combining the functions of online conversation and real-time clinical data exchange, telemedicine can provide technical support to the emerging need for workflow digitalization. When facing the rapid spread of an epidemic, the ability to deliver clinical care in a timely manner requires effective relational coordination mechanisms amongst government authorities, hospitals, and patients 3 . This raises the question: How can telemedicine systems operate in a coordinated manner to deliver effective care to patients with COVID-19 and to combat the crisis outbreak?**<br/>
-<br/>
-[Potential Maternal and Infant Outcomes from (Wuhan) Coronavirus 2019-nCoV Infecting Pregnant Women: Lessons from SARS, MERS, and Other Human Coronavirus Infections](https://doi.org/10.3390/v12020194)<br/>
-Authors: Schwartz, David A.; Graham, Ashley L.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Viruses<br/>
-Match (0.6771): **The novel coronavirus is the first epidemic disease to emerge since the formation of CEPI in Davos in 2017. CEPI was created with the express intent to enable speedy research and development of vaccines against emerging pathogens. In May 2017, WHO released the Target Product Profile (TPP) for MERS-CoV vaccines, following the prioritization of MERS-CoV as one of eight priority pathogens for prevention of epidemics [73] . CEPI and partners aim to use existing platforms-that is, the existing "backbone" that can be adapted for use against new pathogens-that are currently in preclinical development for MERS-CoV vaccine candidates. Following the WHO declaration on 30 January that the current 2019-nCoV outbreak is a public health emergency of international concern (PHEIC), global health organizations and researchers will be further mobilized-bolstered by new mechanisms for action and greater resources-to stop the spread of disease.**<br/>
-<br/>
-[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](doi.org/10.1101/2020.02.20.20025957)<br/>
-Authors: Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.6740): **As we look to the future of epidemic prevention and control, we believe that telemedicine systems have the potential to play a role in addressing emergencies and large-scale outbreaks in high uncertainty settings. As telemedicine has inevitably altered the traditional working relationships within the healthcare network, how to ensure high-quality communication among healthcare practitioners poses a significant challenge. As such, frequent, timely, accurate, and problem-solving focused communication among clinical staffs from hospitals at different levels in the healthcare system is essential to minimize the risk incurred in handling patients with possible COVID-19 infection 3 . However, we have found that high quality of communication is not always maintained during the telemedicine coordination. Therefore, a learning telemedicine system platform for coronavirus care was developed across connected hospitals, serving as the overarching authoritative source for diagnostic decision making and knowledge sharing for treatment. The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories. The lessons learned from this crisis can provide insights to guide public health institutions as they implement telemedicine to increase resilience to future epidemic outbreaks.**<br/>
-<br/>
-[No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](doi.org/10.1101/2020.02.21.959973)<br/>
-Authors: Galaxy and HyPhy developments teams,  ; Nekrutenko, A.; Kosakovsky Pond, S. L.<br/>
-Published: 2020-02-25 00:00:00<br/>
-Match (0.6715): **The current state of much of the Wuhan pneumonia virus (COVID-19) research shows a regrettable lack of data sharing and considerable analytical obfuscation. This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure. Here we show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner. Specifically, we use all COVID-19 genomic data available in the public domain so far to (1) underscore the importance of access to raw data and to (2) demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises. All our analyses are fully documented at https://github.com/galaxyproject/SARS-CoV-2.**<br/>
-<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios.<br/>
+- Though the latter service offers unprecedented opportunities to increase internet speeds, and thereby influence the handling of big data, countries like the U.S. and some European countries that are key proponents and players in global political, economic and health landscapes, are against this rollout, arguing that it is a deceptive way of gathering private data under the guise of espionage.<br/>
+- further highlight how emerging features such as spatiotemporal mapping, remote monitoring and management, and enhanced cloud computing capabilities can emanate from such endeavours, leading to better urban management potential.<br/>
+
+[SARS to novel coronavirus – old lessons and new lessons](https://doi.org/10.1017/S0950268820000254)<br/>
+by McCloskey, Brian; Heymann, David L.<br/>
+*Epidemiol Infect.; 148:e22 - 2020*<br/>
+- Organisations such as the Global Outbreak Alert and Response Network (GOARN), the Coalition for Epidemic Preparedness Innovations (CEPI), the Global Research Collaboration For Infectious Disease Preparedness (GloPID-R) and the Global Initiative on Sharing All Influenza Data (GISAID) have been supported by the WHO Research Blueprint and its Global Coordinating Mechanism to provide a forum where those with the expertise and capacity to contribute to managing new threats can come together both between and during outbreaks to develop innovative solutions to emerging problems.<br/>
+- The international networks and forums that now exist have facilitated the bringing together of expertise from around the world to focus research and development efforts and maximise the impact.<br/>
+
+[No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973)<br/>
+by Galaxy and HyPhy developments teams,  ; Nekrutenko, A.; Kosakovsky Pond, S. L.<br/>
+*Feb 25, 2020*<br/>
+- Here we show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner.<br/>
+- This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure.<br/>
+
+[Lessons learned from the 2019-nCoV epidemic on prevention of future infectious diseases](https://doi.org/10.1016/j.micinf.2020.02.004)<br/>
+by Pan, Xingchen; Ojcius, David M.; Gao, Tianyue; Li, Zhongsheng; Pan, Chunhua; Pan, Chungen<br/>
+*Microbes and Infection - Mar 31, 2020*<br/>
+- Integrating scientific research resources, increasing research investment, strengthening direct cooperation between international and domestic scientists, and accelerating clinical applications of scientific research results enhances the ability to prevent spread of the epidemic or accelerate elimination of the virus.<br/>
+- Making advance preparations for a pandemic may bring us significant short-term benefits, such as supporting basic health care, encouraging research and development, strengthening interregional cooperation and emergency response systems and biosafety management, and promoting the balanced development of health and security of the world in general.<br/>
+
+[Can we contain the COVID-19 outbreak with the same measures as for SARS?](https://doi.org/10.1016/S1473-3099(20)30129-8)<br/>
+by Wilder-Smith, Annelies; Chiew, Calvin J; Lee, Vernon J<br/>
+*The Lancet Infectious Diseases - Mar 05, 2020*<br/>
+- Organisations such as the Global Outbreak Alert and Response Network, the Coalition for Epidemic Preparedness Innovations, and the Global Research Collaboration For Infectious Disease Preparedness, supported by the WHO Research Blueprint and its Global Coordinating Mechanism, were able to accelerate the outbreak response and rapidly initiate technical platforms for the development of vaccines and therapeutics.<br/>
+
+[Is Africa prepared for tackling the COVID-19 (SARS-CoV-2) epidemic. Lessons from past outbreaks, ongoing pan-African public health efforts, and implications for the future](https://doi.org/10.1016/j.ijid.2020.02.049)<br/>
+by Kapata, Nathan; Ihekweazu, Chikwe; Ntoumi, Francine; Raji, Tajudeen; Chanda-Kapata, Pascalina; Mwaba, Peter; Mukonka, Victor; Bates, Matthew; Tembo, John; Corman, Victor; Mfinanga, Sayoki; Asogun, Danny; Elton, Linzy; Arruda, Liã Bárbara; Thomason, Margaret J.; Mboera, Leonard; Yavlinsky, Alexei; Haider, Najmul; Simons, David; Hollmann, Lara; Lule, Swaib A.; Veas, Francisco; Abdel Hamid, Muzamil Mahdi; Dar, Osman; Edwards, Sarah; Vairo, Francesco; McHugh, Timothy D.; Drosten, Christian; Kock, Richard; Ippolito, Giuseppe; Zumla, Alimuddin<br/>
+*International Journal of Infectious Diseases - Apr 30, 2020*<br/>
+- Increased governmental and donor investments are required to advance locally led, world-class public health work with surveillance, data and analytics capabilities and further expanding state-of-the-art laboratory capacities with more J o u r n a l P r e -p r o o f trained personnel to sustain capacity to rapidly respond to outbreaks at their source.<br/>
+
 # New platforms and technology (e.g., CRISPR) to improve response times and employ more holistic approaches to COVID-19 and future diseases.
 
 [On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.7040): **Beyond the aspect of pandemic preparedness and response, the case of COVID-19 virus and its spread provide a fascinating case study for the thematics of urban health. Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios. This is valid as smart cities host a rich array of technological products [6, 7] that can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally. While thermal cameras are not sufficient on their own for the detection of pandemics -like the case of the COVID-19, the integration of such products with artificial intelligence (AI) can provide added benefits. The fact that initial screenings of temperature is being pursued for the case of the COVID-19 at airports and in areas of mass convergence is a testament to its potential in an automated fashion. Kamel Boulos et al. [8] supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.**<br/>
-<br/>
-[Network-based Drug Repurposing for Human Coronavirus](doi.org/10.1101/2020.02.03.20020263)<br/>
-Authors: Yadi Zhou; Yuan Hou; Jiayu Shen; Yin Huang; William Martin; Feixiong Cheng<br/>
-Published: 2020-02-05 00:00:00<br/>
-Match (0.6969): **In conclusion, this study offers a powerful, integrated network-based systems pharmacology methodology for rapid identification of repurposable drugs and drug combinations for the potential treatment of HCoV. Our approach can minimize the translational gap between preclinical testing results and clinical outcomes, which is a significant problem in the rapid development of efficient treatment strategies for the emerging 2019-nCoV outbreak. From a translational perspective, if broadly applied, the network tools developed here could help develop effective treatment strategies for other types of virus and human diseases as well.**<br/>
-<br/>
-[Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus](doi.org/10.1101/2020.02.22.20025460)<br/>
-Authors: Tieying Hou; Weiqi Zeng; Minling Yang; Wenjing Chen; Lili Ren; Jingwen Ai; Ji Wu; Yalong Liao; Xuejing Gou; Yongjun Li; Xiaorui Wang; Hang Su; Jianwei Wang; Bing Gu; Teng Xu<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.6623): **The copyright holder for this preprint (which was not peer-reviewed) is Here, to address this question and the expanding clinical needs, we developed CRISPR-nCoV, 78 a rapid assay for 2019-nCoV detection, and compared the diagnostic performance among 79 three different technological platforms: metagenomic sequencing, RT-PCR and CRISPR. To the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.6554): **Globally, recent decades have witnessed a growing disjunction, a 'Valley of Death' 1,2 no less, between broadening strides in fundamental biomedical research and their incommensurate reach into the clinic. Plumbing work on research funding and development pipelines through recent changes in the structure of government funding, 2 new public and private joint ventures and specialist undergraduate and postgraduate courses now aim to incorporate pathways to translation at the earliest stages. Reflecting this shift, the number of biomedical research publications targeting 'translational' concepts has increased exponentially, up 1800% between 2003 and 2014 3 and continuing to rise rapidly up to the present day. Fuelled by the availability of new research technologies, as well as changing disease, cost and other pressing issues of our time, further growth in this exciting space will undoubtedly continue. Despite recent advances in the therapeutic control of immune function and viral infection, current therapies are often challenging to develop, expensive to deploy and readily select for resistance-conferring mutants. Shaped by the hostvirus immunological 'arms race' and tempered in the forge of deep time, the biodiversity of our world is increasingly being harnessed for new biotechnologies and therapeutics. Simultaneously, a shift towards host-oriented antiviral therapies is currently underway. In this Clinical & Translational Immunology Special Feature, I illustrate a strategic vision integrating these themes to create new, effective, economical and robust antiviral therapies and immunotherapies, with both the realities and the opportunities afforded to researchers working in our changing world squarely in mind.**<br/>
-<br/>
-[Vorpal: A Novel RNA Virus Feature-Extraction Algorithm Demonstrated Through Interpretable Genotype-to-Phenotype Linear Models](doi.org/10.1101/2020.02.28.969782)<br/>
-Authors: Davis, P.; Bagnoli, J.; Yarmosh, D.; Shteyman, A.; Presser, L.; Altmann, S.; Bradrick, S.; Russell, J. A.<br/>
-Published: 2020-03-02 00:00:00<br/>
-Match (0.6005): **ambiguous. Controversy about the value of such a project has been described 29 and this thinking 470 has been reflected in policymakers' decision to end funding to USAID Predict. If recent 471 estimates of mammalian viral diversity hold true 30 , then marginal increases in monitoring 472 infrastructure combined with new and developing analysis methods, such as Vorpal, might 473 finally deliver the long sought preemptive strategies for emergent diseases, and enable us to 474 more effectively battle those from which we are already suffering. 475 476**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.5961): **Opening this CTI Special Feature, I outline ways these issues may be solved by creatively leveraging the so-called 'strengths' of viruses. Viral RNA polymerisation and reverse transcription enable resistance to treatment by conferring extraordinary genetic diversity. However, these exact processes ultimately restrict viral infectivity by strongly limiting virus genome sizes and their incorporation of new information. I coin this evolutionary dilemma the 'information economy paradox'. Many viruses attempt to resolve this by manipulating multifunctional or multitasking host cell proteins (MMHPs), thereby maximising host subversion and viral infectivity at minimal informational cost. 4 I argue this exposes an 'Achilles Heel' that may be safely targeted via host-oriented therapies to impose devastating informational and fitness barriers on escape mutant selection. Furthermore, since MMHPs are often conserved targets within and between virus families, MMHP-targeting therapies may exhibit both robust and broadspectrum antiviral efficacy. Achieving this through drug repurposing will break the vicious cycle of escalating therapeutic development costs and trivial escape mutant selection, both quickly and in multiple places. I also discuss alternative posttranslational and RNA-based antiviral approaches, designer vaccines, immunotherapy and the emerging field of neo-virology. 4 I anticipate international efforts in these areas over the coming decade will enable the tapping of useful new biological functions and processes, methods for controlling infection, and the deployment of symbiotic or subclinical viruses in new therapies and biotechnologies that are so crucially needed.**<br/>
-<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios.<br/>
+- In this case, novel technologies like Blockchain technologies and quantum cryptography can aid in the discussion and be made to integrate with data collecting technologies.<br/>
+- This is valid as smart cities host a rich array of technological productsthat can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally.<br/>
+- The position of this paper is to advance that it now possible to integrate technologies like the use of smart devices through IoT networks and wearable devices, data from mobile apps and others to help users to share information with accredited and certified health professionals, and in this case, improve the outcomes for better cross disciplinary and more resilient protocols and policies.<br/>
+
+[Frontiers in antiviral therapy and immunotherapy](https://doi.org/10.1002/cti2.1115)<br/>
+by Heaton, Steven M<br/>
+*Clinical & Translational Immunology - 2020*<br/>
+- I also discuss alternative posttranslational and RNA-based antiviral approaches, designer vaccines, immunotherapy and the emerging field of neo-virology.<br/>
+- 4 I anticipate international efforts in these areas over the coming decade will enable the tapping of useful new biological functions and processes, methods for controlling infection, and the deployment of symbiotic or subclinical viruses in new therapies and biotechnologies that are so crucially needed.<br/>
+- In this Clinical & Translational Immunology Special Feature, I illustrate a strategic vision integrating these themes to create new, effective, economical and robust antiviral therapies and immunotherapies, with both the realities and the opportunities afforded to researchers working in our changing world squarely in mind.<br/>
+- 8 Over the coming decade, I expect to see an ever-finer spatiotemporal resolution of host-oriented therapies to achieve safe, effective and broad-spectrum yet costeffective therapies for clinical use.<br/>
+
+[Network-based Drug Repurposing for Human Coronavirus](https://doi.org/10.1101/2020.02.03.20020263)<br/>
+by Yadi Zhou; Yuan Hou; Jiayu Shen; Yin Huang; William Martin; Feixiong Cheng<br/>
+*Feb 05, 2020*<br/>
+- From a translational perspective, if broadly applied, the network tools developed here could help develop effective treatment strategies for other types of virus and human diseases as well.<br/>
+- In conclusion, this study offers a powerful, integrated network-based systems pharmacology methodology for rapid identification of repurposable drugs and drug combinations for the potential treatment of HCoV.<br/>
+- Comprehensive identification of the virus-host interactome for 2019-nCoV, with specific biological effects using functional genomics assays, will significantly improve the accuracy of current network-based methodologies.<br/>
+- Thus, combination of the existing anti-virus drugs (such as remdesivir) with the networkpredicted repurposable drugs (Figure 5 ) or drug combinations (Figure 6 ) may improve coverage of current network-based methodologies by utilizing multi-layer network framework.<br/>
+
+[Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza](https://doi.org/10.1101/2020.03.13.991307)<br/>
+by Timothy R. Abbott; Girija Dhamdhere; Yanxia Liu; Xueqiu Lin; Laine Goudy; Leiping Zeng; Augustine Chemparathy; Stephen Chmura; Nicholas S. Heaton; Robert Debs; Tara Pande; Drew Endy; Marie La Russa; David B. Lewis; Lei S. Qi<br/>
+*Mar 14, 2020*<br/>
+- The potential pancoronavirus protection using CRISPR-Cas13d offers an alternative and complementary approach over traditional pharmaceuticals or vaccines.<br/>
+- If the delivery barriers are overcome and a strategy like this is able to be used therapeutically, there are many potential benefits over traditional vaccines.<br/>
+- In summary, our PAC-MAN strategy represents a potentially powerful new approach for inhibiting viral function and replication, and we envision it could be useful for a diverse array of circulating and emergent viral threats.<br/>
+- In addition, a DNA-based liposomal delivery strategy, such as the recently developed HEDGES platform is also attractive 41 .<br/>
+
+[Prospect and application of Internet of Things technology for prevention of SARIs](https://doi.org/10.1016/j.ceh.2020.02.001)<br/>
+by Song, Yuanlin; Jiang, Jinjun; Wang, Xun; Yang, Dawei; Bai, Chunxue<br/>
+*Clinical eHealth - Dec 31, 2020*<br/>
+- However, it may be possible to significantly improve the efforts of these medical teams by employing IoT technology.<br/>
+- The Internet of Things (IoT) technology can be employed to achieve these goals.<br/>
+- Based on advanced information technology (IT) and electronic medicine, the Medical IoT (mIoT) has experienced four major evolutions, including the development of wireless sensing technology, use of Internet technology in clinical medicine, use of radio frequency identification (RFID), and artificial intelligence (AI) applications, to realize the IoT medical model.<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.<br/>
+- This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches.<br/>
+- Our aim is to share this information in order to help develop a reliable and easy method to detect this viral RNA outside of sophisticated diagnostic laboratories and expand the toolbox of molecular tests used to combat and surveil this growing public health threat.<br/>
+
+[Recent advances and perspectives of nucleic acid detection for coronavirus](https://doi.org/10.1016/j.jpha.2020.02.010)<br/>
+by Shen, Minzhe; Zhou, Ying; Ye, Jiawei; Abdullah AL-maskri, Abdu Ahmed; Kang, Yu; Zeng, Su; Cai, Sheng<br/>
+*Journal of Pharmaceutical Analysis - Mar 01, 2020*<br/>
+- In short, with the rapid development of new technologies and methods, we believe that there will be more excellent and efficient detection methods developed in the future, which would provide scientists/clinicians with more choices.<br/>
+- Therefore, it is still necessary to develop more effective and practical methods to overcome the shortcomings of the existing methods in the future.<br/>
+
 [The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
-Authors: Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Nature Microbiology<br/>
-Match (0.5944): **The currently known viruses of the species Severe acute respiratory syndrome-related coronavirus may be as (poorly) representative for this particular species as the few individuals that we selected to represent H. sapiens in Fig. 1 . It is thus reasonable to assume that this biased knowledge of the natural diversity of the species Severe acute respiratory syndrome-related coronavirus limits our current understanding of fundamental aspects of the biology of this species and, as a consequence, our abilities to control zoonotic spillovers to humans. Future studies aimed at understanding the ecology of these viruses and advancing the accuracy and resolution of evolutionary analyses 41 would benefit greatly from adjusting our research and sampling strategies. This needs to include an expansion of our current research focus on human pathogens and their adaptation to specific hosts to other viruses in this species. To illustrate the great potential of species-wide studies, it may again be instructive to draw a parallel to H. sapiens, and specifically to the impressive advancements in personalized medicine in recent years. Results of extensive genetic analyses of large numbers of individuals representing diverse populations from all continents have been translated into clinical applications and greatly contribute to optimizing patient-specific diagnostics and therapy. They were instrumental in identifying reliable predictive markers for specific diseases as well as genomic sites that are under selection. It thus seems reasonable to expect that genome-based analyses with a comparable species coverage will be similarly insightful for coronaviruses. Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach). Technical solutions to this problem are already available; for example, in the context of multiplex PCR-based assays 42 . The costs for developing and applying (combined or separate) species-and virus-specific diagnostic tests in specific clinical and/or epidemiological settings may help to better appreciate the biological diversity and zoonotic potential of specific virus species and their members. Also, the further reduction of time required to identify the causative agents of novel virus infections will contribute to limiting the enormous social and economic consequences of large outbreaks. To advance such studies, innovative fundraising approaches may be required.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.5830): **The increasing abundance of affordable, sensitive, high-throughput genome sequencing technologies has led to a recent boom in metagenomics and the cataloguing of the microbiome of our world. The MinION nanopore sequencer is one of the latest innovations in this space, enabling direct sequencing in a miniature form factor with only minimal sample preparation and a consumer-grade laptop computer. Nakagawa and colleagues here report on their latest experiments using this system, further improving its performance for use in resource-poor contexts for meningitis diagnoses. 9 While direct sequencing of viral genomic RNA is challenging, this system was recently used to directly sequence an RNA virus genome (IAV) for the first time. 10 I anticipate further improvements in the performance of such devices over the coming decade will transform virus surveillance efforts, the importance of which was underscored by the recent EboV and novel coronavirus (nCoV / COVID-19) outbreaks, enabling rapid deployment of antiviral treatments that take resistance-conferring mutations into account.**<br/>
-<br/>
-[Network-based Drug Repurposing for Human Coronavirus](doi.org/10.1101/2020.02.03.20020263)<br/>
-Authors: Yadi Zhou; Yuan Hou; Jiayu Shen; Yin Huang; William Martin; Feixiong Cheng<br/>
-Published: 2020-02-05 00:00:00<br/>
-Match (0.5776): **Viruses (including HCoV) require host cellular factors for successful replication during infections [1] . Systematic identification of virus-host protein-protein interactions (PPIs) offers an effective way toward elucidation of the mechanisms of viral infection [14, infections [1] , including SARS-CoV [16] , MERS-CoV [16] , Ebola virus [17] , and Zika virus [13, [18] [19] [20] . We recently presented an integrated antiviral drug discovery pipeline that incorporated gene-trap insertional mutagenesis, known functional drug-gene network, and bioinformatics analyses [13] . This methodology allows to identify several candidate repurposable drugs for Ebola virus [10, 13] . Our work over the last decade has demonstrated how network strategies can, for example, be used to identify effective repurposable drugs [12, [21] [22] [23] [24] and drug combinations [25] for multiple human diseases. For example, network-based drug-disease proximity that sheds light on the relationship between drugs (e.g., drug targets) and disease modules (molecular determinants in disease pathobiology modules within the PPIs), and can serve as a useful tool for efficient screening of potentially new indications for approved drugs, as well as drug combinations, as demonstrated in our recent studies [12, 22, 25] .**<br/>
-<br/>
-[Puzzle of highly pathogenic human coronaviruses (2019-nCoV)](https://doi.org/10.1007/s13238-020-00693-y)<br/>
-Authors: Li, Jing; Liu, Wenjun<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Protein Cell<br/>
-Match (0.5773): **However, many other important aspects of virus biology, such as, whether the virus can travel across continents, the list of species it can infect and whether it can cause severe mortality, are much harder to forecast. Our premise is that the amount of sequencing data currently available and the latest advances in computing methods using that data will make it possible for the first time to generate virtual models of how viruses evolve in each environment and how those viruses behave. Such models have the potential to make risk assessments as they arise that can be used to inform policy and direct strategies to head off impending threats.**<br/>
-<br/>
+by Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
+*Nature Microbiology - 2020*<br/>
+- To advance such studies, innovative fundraising approaches may be required.<br/>
+- Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach).<br/>
+
+[Computers and viral diseases. Preliminary bioinformatics studies on the design of a synthetic vaccine and a preventative peptidomimetic antagonist against the SARS-CoV-2 (2019-nCoV, COVID-19) coronavirus](https://doi.org/10.1016/j.compbiomed.2020.103670)<br/>
+by Robson, B.<br/>
+*Computers in Biology and Medicine - Feb 26, 2020*<br/>
+- Q-UEL tools, or other similar approaches, can help there.<br/>
+- The bioinformatics-based approach can also be reproduced by standard tools, but is facilitated by Q-UEL tools, especially with the explosive growth in studies regarding 2019-nCoV.<br/>
+
+[Emergence of Novel Coronavirus 2019-nCoV: Need for Rapid Vaccine and Biologics Development](https://doi.org/10.3390/pathogens9020148)<br/>
+by Shanmugaraj, Balamurugan; Malla, Ashwini; Phoolcharoen, Waranyoo<br/>
+*Pathogens - 2020*<br/>
+- Currently, plant expression system offers many advantages over other conventional systems that have the potential to tackle the production of vaccine candidates rapidly at affordable cost facilitating the global vaccination programs, especially in resource-poor nations where the vaccines are needed most.<br/>
+- The collaborative efforts of researchers are highly desirable to use a plant expression platform for producing an efficient cost-effective vaccine to control this epidemic.<br/>
+
 # Coupling genomics and diagnostic testing on a large scale.
 
-[Rapid reconstruction of SARS-CoV-2 using a synthetic genomics platform](doi.org/10.1101/2020.02.21.959817)<br/>
-Authors: Thao, T. T. N.; Labroussaa, F.; Ebert, N.; V'kovski, P.; Stalder, H.; Portmann, J.; Kelly, J.; Steiner, S.; Holwerda, M.; Kratzel, A.; Gultom, M.; Laloli, L.; Huesser, L.; Wider, M.; Pfaender, S.; Hirt, D.; Cippa, V.; Crespo-Pomar, S.; Schroeder, S.; Muth, D.; Niemeyer, D.; Mueller, M. A.; Drosten, C.; Dijkman, R.; Jores, J.; Thiel, V.<br/>
-Published: 2020-02-21 00:00:00<br/>
-Match (0.5358): **Rapid reconstruction of SARS-CoV-2 using a synthetic genomics platform**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.4642): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org /10.1101 /10. /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection. Not only purified RNA can be used as the sample input, but also direct tissue or cell lysate may be used without an RNA purification step. This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications. This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches. The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.**<br/>
-<br/>
-[Laboratory readiness and response for novel coronavirus (2019-nCoV) in expert laboratories in 30 EU/EEA countries, January 2020](http://dx.doi.org/10.2807/1560-7917.ES.2020.25.6.2000082)<br/>
-Authors: Reusken, Chantal B.E.M.; Broberg, Eeva K.; Haagmans, Bart; Meijer, Adam; Corman, Victor M.; Papa, Anna; Charrel, Remi; Drosten, Christian; Koopmans, Marion; Leitmeyer, Katrin<br/>
-Published: 2020-02-13 00:00:00<br/>
-Publication: Euro Surveill<br/>
-Match (0.4536): **This rapid assessment of the readiness of EU/EEA laboratories for molecular detection of 2019-nCoV demonstrated a fast implementation of molecular diagnostics by the European specialised laboratory networks with a good geographical coverage for testing. Among both laboratory networks in this study, protocols were shared rapidly and there was an early availability of positive controls and CoV specificity panels via EVAg. Furthermore, the survey indicated a great willingness of laboratories to provide international diagnostic support [10] and to share sequences to contribute to the monitoring of virus evolution and trace transmission chains.**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.4528): **In conclusion, SENSR is a powerful diagnostic platform for RNA detection, which 332 offers a short turnaround time, high sensitivity and specificity, and a simple assay procedure, 333 and eliminates the need for expensive instrumentations and diagnostic specialists. Given the 334 simple probe design process, and its rapid development, SENSR will be a suitable diagnostic 335 method for emerging infectious diseases. 336 All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.4344): **The copyright holder for this preprint (which was not peer-reviewed) is . https://doi.org/10.1101/2020.03.05.20031971 doi: medRxiv preprint 14 more scalable than animal antibody production. Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics. Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens. 331**<br/>
-<br/>
-[Structural genomics and interactomics of 2019 Wuhan novel coronavirus, 2019-nCoV, indicate evolutionary conserved functional regions of viral proteins](doi.org/10.1101/2020.02.10.942136)<br/>
-Authors: Cui, H.; Gao, Z.; Liu, M.; Lu, S.; Mkandawire, W.; Mo, S.; Narykov, O.; Srinivasan, S.; Korkin, D.<br/>
-Published: 2020-02-14 00:00:00<br/>
-Match (0.4306): **Here, using an integrated bioinformatics approach, we provide a comprehensive structural genomics and **<br/>
-<br/>
-[Sensitive one-step isothermal detection of pathogen-derived RNAs](doi.org/10.1101/2020.03.05.20031971)<br/>
-Authors: Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
-Published: 2020-03-09 00:00:00<br/>
-Match (0.4290): **In addition to the results shown in this study, we expect that SENSR has a broad range 316 of possibilities for pathogen detection. First, SENSR can be easily implemented in the initial 317 screening of infectious diseases at places where a large number of people gather and 318 transfer 35,36 . With a short turnaround time and a simple reaction composition, SENSR is an 319 ideal diagnostic test for rapid and economical screening. Second, SENSR will be a valuable 320 platform for the immediate development of diagnostic tests for emerging pathogens 1,37 321 because of the simple probe design process and broad adaptability of SENSR. In this work, 322 we demonstrated the successful application of SENSR to six pathogens, using minimal 323 redesign based on the highly modular structure of the probes. In theory, SENSR detection 324 probes can be designed for any RNA as long as the target nucleic acid sequence is available. 325**<br/>
-<br/>
-[In silico approach to accelerate the development of mass spectrometry-based proteomics methods for detection of viral proteins: Application to COVID-19](doi.org/10.1101/2020.03.08.980383)<br/>
-Authors: Jenkins, C.; Orsburn, B.<br/>
-Published: 2020-03-10 00:00:00<br/>
-Match (0.4242): **Using in silico methods, we have developed methods for the detection of SARS-CoV-2 in human samples. In vitro validation of this method is required and outside the scope of this paper given our lack of access to such samples. We have provided the minimum materials for data processing for both DDA and DIA untargeted proteomics methods with FASTA databases, spectral libraries and by predicting relevant PTMs for consideration. To broaden the number of labs that can apply our methods, we optimized run parameters for widely used LCMS systems compatible with Skyline, representing instruments from five companies. We will continue to refine these resources and post updates to these methods to LCMSmethods.org and invite researchers anywhere in the world to contact us for assistance in further optimization to address this emerging threat.**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.4233): **This study describes testing and validation of 5 sets LAMP primers targeting two fragments of the SARS-CoV-2 genome using short (~300bp) RNA fragments made with in vitro transcription and RNA samples from patients. We also demonstrate compatibility with simple approaches to RNA purification to simplify the detection procedure and avoid complex RNA extraction, and with clinical swab samples taken from COVID-19 patients. Our aim is to share this information in order to help develop a reliable and easy method to detect this viral RNA outside of sophisticated diagnostic laboratories and expand the toolbox of molecular tests used to combat and surveil this growing public health threat.**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.4165): **Here we describe a molecular diagnostic approach for SARS-CoV-2 RNA detection using loop-mediated isothermal amplification (LAMP) and simple visual detection of amplification for potential use in rapid, field applications. LAMP was developed as a rapid and reliable method to amplify from a small amount target sequence at a single reaction temperature, obviating the need for sophisticated thermal cycling equipment (5) . Since the initial description of LAMP, a number of advancements in detection technology have helped establish LAMP as a standard method for simple isothermal diagnostics. These detection methods have allowed detection by visual examination without instrumentation using dyes that utilize inherent by-products of the extensive DNA synthesis, such as malachite green (6), calcein (7) and hydroxynaphthol . CC-BY 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
+[Sensitive one-step isothermal detection of pathogen-derived RNAs](https://doi.org/10.1101/2020.03.05.20031971)<br/>
+by Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
+*Mar 09, 2020*<br/>
+- In conclusion, SENSR is a powerful diagnostic platform for RNA detection, which 332 offers a short turnaround time, high sensitivity and specificity, and a simple assay procedure, 333 and eliminates the need for expensive instrumentations and diagnostic specialists.<br/>
+- Therefore, SENSR is more suitable for rapid 328 mass production of diagnostic kits than antibody-based diagnostics.<br/>
+- Second, SENSR will be a valuable 320 platform for the immediate development of diagnostic tests for emerging pathogens 1,37 321 because of the simple probe design process and broad adaptability of SENSR.<br/>
+- With a short turnaround time and a simple reaction composition, SENSR is an 319 ideal diagnostic test for rapid and economical screening.<br/>
+- In contrast, SENSR satisfies many desirable requirements for onsite diagnostic tests 283 for pathogens, such as short turnaround time (30 min), low limit of detection (0.1 aM), 284 inexpensive instrumentation and reagents, and a simple diagnostic procedure.<br/>
+
+[Recent advances and perspectives of nucleic acid detection for coronavirus](https://doi.org/10.1016/j.jpha.2020.02.010)<br/>
+by Shen, Minzhe; Zhou, Ying; Ye, Jiawei; Abdullah AL-maskri, Abdu Ahmed; Kang, Yu; Zeng, Su; Cai, Sheng<br/>
+*Journal of Pharmaceutical Analysis - Mar 01, 2020*<br/>
+- evaluated a novel, portable, and near-POC diagnostic platform based on the microarray chip, the Mobile Analysis Platform (MAP), which has a good performance in identifying virus and acceptable detection limit.<br/>
+- The microarray is a detection method with rapid and high throughput.<br/>
+- Their lately protocol for COVID-19 entitled "A protocol for detection of COVID-19 using CRISPR diagnostics" has been reported on website (https://broad.io/sherlockprotocol), which may provide some reference points for researchers interested in further advancing this diagnostics system, highlighting its potential as a multiplexable, portable, rapid, and quantitative detection platform of nucleic acids.<br/>
+- With the advance in molecular biology technology, nucleic acid detection methods have developed rapidly and become a revolutionary technology for virus detection.<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications.<br/>
+- These molecular methods include metagenomics sequencing mNGS (1) and RT-qPCR(2), both are excellent and sensitive techniques, but approaches not without limitations.<br/>
+- Although a small number of samples were tested here, the colorimetric LAMP assay enables reliable SARS-CoV-2 detection without sophisticated instrumentation, matching the RT-qPCR performance in field and point-of-care settings.<br/>
+- This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Recommended layout and workflow of molecular diagnostic laboratory.<br/>
+- Recent advances in high-throughput sequencing (HTS), also referred to as next generation sequencing (NGS) methods have revolutionized the viral genomics field.<br/>
+- Advances in molecular biology techniques should be contingent with the development of more effective diagnostic tests for emerging viruses.<br/>
+
+[In silico approach to accelerate the development of mass spectrometry-based proteomics methods for detection of viral proteins: Application to COVID-19](https://doi.org/10.1101/2020.03.08.980383)<br/>
+by Jenkins, C.; Orsburn, B.<br/>
+*Mar 10, 2020*<br/>
+- Today, protein array and antibody-based methods are falling out of favor in both research and clinical diagnostics, due in large part to the improvements in LCMS technology.<br/>
+- In silico approach to accelerate the development of mass spectrometry-based proteomics methods for detection of viral proteins: Application to COVID-19<br/>
+- 13 Incremental improvements in rapid sample preparation techniques, chromatography, and data processing have also contributed to the increasing use of LCMS-based clinical testing.<br/>
+
+[Vorpal: A Novel RNA Virus Feature-Extraction Algorithm Demonstrated Through Interpretable Genotype-to-Phenotype Linear Models](https://doi.org/10.1101/2020.02.28.969782)<br/>
+by Davis, P.; Bagnoli, J.; Yarmosh, D.; Shteyman, A.; Presser, L.; Altmann, S.; Bradrick, S.; Russell, J. A.<br/>
+*Mar 02, 2020*<br/>
+- Well-curated and richly annotated metadata promises to allow 482 machine learning and other data science techniques to unleash a torrent of discovery in genomics 483 at large.<br/>
+- The techniques to unlock the potential of 485 data-driven genomic science are gathering momentum.<br/>
+
+[Machine learning using intrinsic genomic signatures for rapid classification of novel pathogens: COVID-19 case study](https://doi.org/10.1101/2020.02.03.932350)<br/>
+by Randhawa, G. S.; Soltysiak, M. P. M.; El Roz, H.; de Souza, C. P. E.; Hill, K. A.; Kari, L.<br/>
+*Feb 20, 2020*<br/>
+- Comparative genomics beyond 65 alignment-based approaches have benefited from the computational power of machine 66 learning.<br/>
+- All of the tests combined (Test-1 to Test-6) are doable in This study provides an alignment-free method based on intrinsic genomic signatures 456 that can deliver highly-accurate real-time taxonomic predictions of yet unclassified new 457 sequences, ab initio, using raw DNA sequence data alone and without the need for gene 458 or genome annotation.<br/>
+
+[Structural genomics and interactomics of 2019 Wuhan novel coronavirus, 2019-nCoV, indicate evolutionary conserved functional regions of viral proteins](https://doi.org/10.1101/2020.02.10.942136)<br/>
+by Cui, H.; Gao, Z.; Liu, M.; Lu, S.; Mkandawire, W.; Mo, S.; Narykov, O.; Srinivasan, S.; Korkin, D.<br/>
+*Feb 14, 2020*<br/>
+- This work provides an initial large-scale structural genomics and interactomics effort towards The copyright holder for this preprint (which was not peer-reviewed) is the .<br/>
+- Here, using an integrated bioinformatics approach, we provide a comprehensive structural genomics and<br/>
+
+[Computers and viral diseases. Preliminary bioinformatics studies on the design of a synthetic vaccine and a preventative peptidomimetic antagonist against the SARS-CoV-2 (2019-nCoV, COVID-19) coronavirus](https://doi.org/10.1016/j.compbiomed.2020.103670)<br/>
+by Robson, B.<br/>
+*Computers in Biology and Medicine - Feb 26, 2020*<br/>
+- One of several motivationsfor developing an integrated genomics and bioinformatics approach based on Q-UEL was that the popular highly integrated Biology Workbench at the San Diego Supercomputer Center is no longer available at the time of writing.<br/>
+- Currently, computational chemistry, protein modeling, and binding simulations are popular tools.<br/>
+
+[World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19)](https://doi.org/10.1016/j.ijsu.2020.02.034)<br/>
+by Sohrabi, Catrin; Alsafi, Zaid; O'Neill, Niamh; Khan, Mehdi; Kerwan, Ahmed; Al-Jabir, Ahmed; Iosifidis, Christos; Agha, Riaz<br/>
+*International Journal of Surgery - Apr 30, 2020*<br/>
+- Regarding diagnostic testing, US-based companies such as Co-Diagnostics and the Novacyt's molecular diagnostics division Primerdesign have launched COVID-2019 testing kits for use in the research setting.<br/>
+
 # Enhance capabilities for rapid sequencing and bioinformatics to target regions of the genome that will allow specificity for a particular variant.
 
-[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](doi.org/10.1101/2020.03.02.968818)<br/>
-Authors: Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
-Published: 2020-03-05 00:00:00<br/>
-Match (0.7186): **Overall, agnostic or unbiased metagenomic sequencing capabilities in-country provide the ability to detect and respond to a variety of pathogens, even those that are unanticipated or unknown. Bridging of existing local and global resources for sequencing and analysis allows for better realtime surveillance locally, while also enabling better health pursuits overall, not just during outbreaks. The example described here serves as a call for continued training and infrastructure to support mNGS capacity in developing countries as bioinformatic tools proliferate and the cost of sequencing decreases.**<br/>
-<br/>
-[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](doi.org/10.1101/2020.03.02.968818)<br/>
-Authors: Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
-Published: 2020-03-05 00:00:00<br/>
-Match (0.6678): **The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.02.968818 doi: bioRxiv preprint genes for primary detection. This detection directly increased on-the-ground certainty in diagnostic sensitivity and specificity of available assays. 7 mNGS in field settings proved critical in development of countermeasures for the 2014-2016 Ebola virus epidemic in West Africa, just as ongoing sequencing of COVID-19 cases from lesser developed areas of Southeast Asia will contribute to overall understanding of pathogen transmission, origin, and evolution. 9,10 While COVID-19 cases are not limited to one remote region, as is often the case with viral hemorrhagic fever outbreaks, sequenced samples from all countries will be important for global disease containment. Instead of being limited to consensus Sanger sequencing, which may not detect high risk quasispecies, metagenomics is a powerful approach to detect variants of both novel and known species as epidemics evolve. 11 The clear limitation in an mNGS approach is that low viral titers or high levels of host material demand greater read depth than may be available on instruments such as the iSeq100. To overcome this barrier, our follow-up steps included a target enrichment of SARS-CoV-2 while keeping the comprehensiveness of our mNGS pipeline intact. 6 For an emerging threat, this strategy offers the flexibility to successfully recover the pathogen genome in question for subsequent phylogenetic analyses without compromising discovery. However, the other key factor in mNGS success is the accessibility to open-access, cloud-based metagenomics bioinformatics pipelines, such as IDseq which automates the process of separating host sequence characterizing the remaining non-host sequences. 12 As recent as the Ebola epidemic, bioinformatics analyses were still mainly completed in the Global North. 10 This newly available combination -more rugged, deployable sequencers plus user-friendly, globally accessible bioinformatics -represents an opportunity for responders in limited-resource settings; however, further proof-of-principle during outbreaks remains necessary.**<br/>
-<br/>
-[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](doi.org/10.1101/2020.03.02.968818)<br/>
-Authors: Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
-Published: 2020-03-05 00:00:00<br/>
-Match (0.6319): **Here, we demonstrate that unbiased mNGS is a feasible and efficient means to detect pathogens in the midst of an outbreak of a novel virus. The index Cambodian SARS-CoV-2 sequence data uploaded to public databases represent one of the only sequences generated in a low-to-middle income country close to the outbreak epicenter. Despite major advances in mNGS technologies and significant decreases in costs associated with sequencing, preparation of sequencing libraries and sufficient bioinformatics capabilities for timely analysis still present a challenge in the developing world. 8 As cases of COVID-19 spread globally in mid-January, initial real-time PCR protocols took into account that the genetic diversity of SARS-CoV-2 in humans and animals was not completely known. Non-specificity combined with variable sample quality can hinder ability to detect the pathogen in question. In this scenario, our metagenomics approach demonstrated a first-pass high coverage of the N gene, closely aligning to diagnostic protocols utilizing both the E and N author/funder. All rights reserved. No reuse allowed without permission.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.6100): **The increasing abundance of affordable, sensitive, high-throughput genome sequencing technologies has led to a recent boom in metagenomics and the cataloguing of the microbiome of our world. The MinION nanopore sequencer is one of the latest innovations in this space, enabling direct sequencing in a miniature form factor with only minimal sample preparation and a consumer-grade laptop computer. Nakagawa and colleagues here report on their latest experiments using this system, further improving its performance for use in resource-poor contexts for meningitis diagnoses. 9 While direct sequencing of viral genomic RNA is challenging, this system was recently used to directly sequence an RNA virus genome (IAV) for the first time. 10 I anticipate further improvements in the performance of such devices over the coming decade will transform virus surveillance efforts, the importance of which was underscored by the recent EboV and novel coronavirus (nCoV / COVID-19) outbreaks, enabling rapid deployment of antiviral treatments that take resistance-conferring mutations into account.**<br/>
-<br/>
-[CRISPR-based surveillance for COVID-19 using genomically-comprehensive machine learning design](doi.org/10.1101/2020.02.26.967026)<br/>
-Authors: Metsky, H. C.; Freije, C. A.; Kosoko-Thoroddsen, T.-S. F.; Sabeti, P. C.; Myhrvold, C.<br/>
-Published: 2020-03-02 00:00:00<br/>
-Match (0.5768): **We have been developing algorithms and machine learning models for rapidly designing nucleic acid detection assays, linked in a system called ADAPT (manuscript in preparation). The designs satisfy several constraints, including on: • Comprehensiveness : Assays account for a high fraction of known sequence diversity in their species or subspecies (>97% for most assays), and are meant to be effective against variable targets. • Predicted sensitivity : Assays are predicted by our machine learning model to have high detection activity against the full scope of targeted genomic diversity (here, based on Lwa Cas13a activity only). • Predicted specificity : Assays have high predicted specificity to their species or subspecies, factoring in the full extent of known strain diversity, allowing them to be grouped into panels that are accurate in differentiating between related taxa.**<br/>
-<br/>
-[CRISPR-based surveillance for COVID-19 using genomically-comprehensive machine learning design](doi.org/10.1101/2020.02.26.967026)<br/>
-Authors: Metsky, H. C.; Freije, C. A.; Kosoko-Thoroddsen, T.-S. F.; Sabeti, P. C.; Myhrvold, C.<br/>
-Published: 2020-03-02 00:00:00<br/>
-Match (0.5756): **Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools. In the case of the SARS-CoV-2 outbreak, genomes have been generated and shared at a remarkable pace, and we thank those who have contributed their data through GISAID [13]. We and others, relying on this data [14] , have shown that it is possible to rapidly design CRISPR-based tools for detection and surveillance during an outbreak.**<br/>
-<br/>
-[The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
-Authors: Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Nature Microbiology<br/>
-Match (0.5596): **The currently known viruses of the species Severe acute respiratory syndrome-related coronavirus may be as (poorly) representative for this particular species as the few individuals that we selected to represent H. sapiens in Fig. 1 . It is thus reasonable to assume that this biased knowledge of the natural diversity of the species Severe acute respiratory syndrome-related coronavirus limits our current understanding of fundamental aspects of the biology of this species and, as a consequence, our abilities to control zoonotic spillovers to humans. Future studies aimed at understanding the ecology of these viruses and advancing the accuracy and resolution of evolutionary analyses 41 would benefit greatly from adjusting our research and sampling strategies. This needs to include an expansion of our current research focus on human pathogens and their adaptation to specific hosts to other viruses in this species. To illustrate the great potential of species-wide studies, it may again be instructive to draw a parallel to H. sapiens, and specifically to the impressive advancements in personalized medicine in recent years. Results of extensive genetic analyses of large numbers of individuals representing diverse populations from all continents have been translated into clinical applications and greatly contribute to optimizing patient-specific diagnostics and therapy. They were instrumental in identifying reliable predictive markers for specific diseases as well as genomic sites that are under selection. It thus seems reasonable to expect that genome-based analyses with a comparable species coverage will be similarly insightful for coronaviruses. Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach). Technical solutions to this problem are already available; for example, in the context of multiplex PCR-based assays 42 . The costs for developing and applying (combined or separate) species-and virus-specific diagnostic tests in specific clinical and/or epidemiological settings may help to better appreciate the biological diversity and zoonotic potential of specific virus species and their members. Also, the further reduction of time required to identify the causative agents of novel virus infections will contribute to limiting the enormous social and economic consequences of large outbreaks. To advance such studies, innovative fundraising approaches may be required.**<br/>
-<br/>
-[Li Wenliang, a face to the frontline healthcare worker? The first doctor to notify the emergence of the SARS-CoV-2, (COVID-19), outbreak](https://doi.org/10.1016/j.ijid.2020.02.052)<br/>
-Authors: Petersen, Eskild; Hui, David; Hamer, Davidson H.; Blumberg, Lucille; Madoff, Lawrence C.; Pollack, Marjorie; Lee, Shui Shan; McLellan, Susan; Memish, Ziad; Praharaj, Ira; Wasserman, Sean; Ntoumi, Francine; Azhar, Esam Ibraheem; McHugh, Timothy D.; Kock, Richard; Ippolito, Guiseppe; Zumla, Ali; Koopmans, Marion<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Infectious Diseases<br/>
-Match (0.5496): **The rapid identification of the SARS-CoV-2 virus by NGS illustrates the advances in molecular identification since the SARS-CoV (2003) and MERS-CoV (2012) outbreaks, where both viruses were initially identified by in vitro cell culture. Thus, clinician of the possibility of a new infectious disease coupled with NGS can serve to quickly identify novel pathogens and allow for the rapid initiation of control measures to reduce further spread and potentially prevent large-scale outbreaks.**<br/>
-<br/>
-[Development and Evaluation of A CRISPR-based Diagnostic For 2019-novel Coronavirus](doi.org/10.1101/2020.02.22.20025460)<br/>
-Authors: Tieying Hou; Weiqi Zeng; Minling Yang; Wenjing Chen; Lili Ren; Jingwen Ai; Ji Wu; Yalong Liao; Xuejing Gou; Yongjun Li; Xiaorui Wang; Hang Su; Jianwei Wang; Bing Gu; Teng Xu<br/>
-Published: 2020-02-23 00:00:00<br/>
-Match (0.5476): **The copyright holder for this preprint (which was not peer-reviewed) is Here, to address this question and the expanding clinical needs, we developed CRISPR-nCoV, 78 a rapid assay for 2019-nCoV detection, and compared the diagnostic performance among 79 three different technological platforms: metagenomic sequencing, RT-PCR and CRISPR. To the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
-[Optimizing diagnostic strategy for novel coronavirus pneumonia, a multi-center study in Eastern China](doi.org/10.1101/2020.02.13.20022673)<br/>
-Authors: Jing-Wen Ai; Hao-Cheng Zhang; Teng Xu; Jing Wu; Mengqi Zhu; Yi-Qi Yu; Han-Yue Zhang; Zhongliang Shen; Yang Li; Xian Zhou; Guo-Qing Zang; Jie Xu; Wen-Jing Chen; Yong-Jun Li; De-Sheng Xie; Ming-Zhe Zhou; Jing-Ying Sun; Jia-Zhen Chen; Wen-Hong Zhang<br/>
-Published: 2020-02-17 00:00:00<br/>
-Match (0.5420): **Metagenomic sequencing was the method by which SARS-COV-2 was initially identified. Despite its longer turnaround time and higher cost, mNGS demonstrated a satisfying level of sensitivity when compared to PCR assays in our study. Moreover, the nature of unbiased sequencing offers higher tolerance for genetic drift in the target pathogens, whereas certain changes in sequence can result in critical impact on the assay efficiency 21, 22 . Along with targeted assays, mNGS should serve as an indispensable tool for sensitive and close monitoring of the molecular evolution for SARS-COV-2. Such genetic information will offer valuable insights not only for public health management, but also for contentious optimization of diagnostic assays 23, 24 . Therefore, as the SARS-COV-2 epidemic is currently entering into a critical stage, both within China and over the global 25 , according to the results of our study, the following improvements in molecular diagnosis are recommended in the optimized diagnostic flow diagram [ Figure  5 ]. First of all, repeated sampling could increase the positivity, and especially during clinical situations where epidemiological history and clinical manifestations highly indicate NCP, a third or fourth sampling may be helpful when resources are available. Second, our study showed that mNGS showed reliable and stable detection ability in the NCP diagnosis, and may facilitate to solve diagnostic difficulties during important or critical clinical cases and low positive RT-PCR results. What's more, in order to circumvent possible mutations in RT-PCR primers region, more than 1 gene target was recommended to amplify when designing RT-PCR assays [25] . Whole Genome Sequencing (WGS) method can overcome the mutation problems which cause false-negative result in RT-PCR. Therefore, we used this method in all enrolled patients and should be continue using for mutation surveillance. Lastly, lower respiratory tract specimens might provide higher positivity, due to that higher viral loads may be detected there. Therefore, physicians might collect such samples through bronchoscopy or trachea cannula when under through medical protection.**<br/>
-<br/>
+[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](https://doi.org/10.1101/2020.03.02.968818)<br/>
+by Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
+*Mar 05, 2020*<br/>
+- Overall, agnostic or unbiased metagenomic sequencing capabilities in-country provide the ability to detect and respond to a variety of pathogens, even those that are unanticipated or unknown.<br/>
+- The example described here serves as a call for continued training and infrastructure to support mNGS capacity in developing countries as bioinformatic tools proliferate and the cost of sequencing decreases.<br/>
+- Instead of being limited to consensus Sanger sequencing, which may not detect high risk quasispecies, metagenomics is a powerful approach to detect variants of both novel and known species as epidemics evolve.<br/>
+- Despite major advances in mNGS technologies and significant decreases in costs associated with sequencing, preparation of sequencing libraries and sufficient bioinformatics capabilities for timely analysis still present a challenge in the developing world.<br/>
+- Bridging of existing local and global resources for sequencing and analysis allows for better realtime surveillance locally, while also enabling better health pursuits overall, not just during outbreaks.<br/>
+- 6 For an emerging threat, this strategy offers the flexibility to successfully recover the pathogen genome in question for subsequent phylogenetic analyses without compromising discovery.<br/>
+- 10 This newly available combination -more rugged, deployable sequencers plus user-friendly, globally accessible bioinformatics -represents an opportunity for responders in limited-resource settings; however, further proof-of-principle during outbreaks remains necessary.<br/>
+- Information delay is also compounded by a dearth of sequencing and/or bioinformatics expertise in-country, further postponing analysis and dissemination of pathogen genomic information.<br/>
+
+[Sensitive one-step isothermal detection of pathogen-derived RNAs](https://doi.org/10.1101/2020.03.05.20031971)<br/>
+by Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
+*Mar 09, 2020*<br/>
+- Simultaneous detection of multiple target sites 258 along its genome would enable specific discrimination of this emerging pathogen from 259 others.<br/>
+- Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens.<br/>
+- Second, SENSR will be a valuable 320 platform for the immediate development of diagnostic tests for emerging pathogens 1,37 321 because of the simple probe design process and broad adaptability of SENSR.<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.<br/>
+- The breadth of application highlights the applicability of visual detection methods to provide an advantage in simplicity and portability for enabling new, rapid diagnostics.<br/>
+- This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches.<br/>
+
+[High sensitivity detection of coronavirus SARS-CoV-2 using multiplex PCR and a multiplex-PCR-based metagenomic method](https://doi.org/10.1101/2020.03.12.988246)<br/>
+by Chenyu Li; David N. Debruyne; Julia Spencer; Vidushi Kapoor; Lily Y. Liu; Bo Zhou; Lucie Lee; Rounak Feigelman; Grayson Burdon; Jeffrey Liu; Alejandra Oliva; Adam Borcherding; Hongdong Tan; Alexander E. Urban; Guoying Liu; Zhitong Liu<br/>
+*Mar 14, 2020*<br/>
+- Amplifying multiple targets has the advantage of potentially detecting fragments of degraded virus genome while withstanding sequencing variations, thus allowing for the detection of upcoming mutants.<br/>
+- Furthermore, providing nucleotide sequence information through next generation sequencing (NGS) will prove to be essential for the surveillance of SARS-CoV-2's evolution.<br/>
+- In addition, the generated library allows for further investigation through NGS sequencing to provide definitive identification of the specific virus family member.<br/>
+
+[Accurate Identification of SARS-CoV-2 from Viral Genome Sequences using Deep Learning](https://doi.org/10.1101/2020.03.13.990242)<br/>
+by Alejandro Lopez-Rincon; Alberto Tonda; Lucero Mendoza-Maldonado; Eric Claassen; Johan Garssen; Aletta D. Kraneveld<br/>
+*Mar 14, 2020*<br/>
+- Nevertheless, it is necessary to develop innovative improved diagnostic tools that target the genome to improve the identification of pathogenic variants, as sometimes several tests, 40 are needed to have an accurate diagnosis.<br/>
+- Developing innovative diagnostic tools that target the genome to improve the identification of pathogens, can help reduce health costs and time to identify the infection, instead of using unsuitable treatments or testing.<br/>
+
+[Optimizing diagnostic strategy for novel coronavirus pneumonia, a multi-center study in Eastern China](https://doi.org/10.1101/2020.02.13.20022673)<br/>
+by Jing-Wen Ai; Hao-Cheng Zhang; Teng Xu; Jing Wu; Mengqi Zhu; Yi-Qi Yu; Han-Yue Zhang; Zhongliang Shen; Yang Li; Xian Zhou; Guo-Qing Zang; Jie Xu; Wen-Jing Chen; Yong-Jun Li; De-Sheng Xie; Ming-Zhe Zhou; Jing-Ying Sun; Jia-Zhen Chen; Wen-Hong Zhang<br/>
+*Feb 17, 2020*<br/>
+- Moreover, the nature of unbiased sequencing offers higher tolerance for genetic drift in the target pathogens, whereas certain changes in sequence can result in critical impact on the assay efficiency 21, 22 .<br/>
+- Metagenomics sequencing could further facilitate during critical clinical cases and monitor the molecular evolution for SARS-COV-2.<br/>
+
+[No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973)<br/>
+by Galaxy and HyPhy developments teams,  ; Nekrutenko, A.; Kosakovsky Pond, S. L.<br/>
+*Feb 25, 2020*<br/>
+- Moreover they should have access to computational infrastructure that can execute these tools and apply them to potentially large NGS datasets.<br/>
+- Specifically, we use all COVID-19 genomic data available in the public domain so far to (1) underscore the importance of access to raw data and to (2) demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises.<br/>
+
+[Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza](https://doi.org/10.1101/2020.03.13.991307)<br/>
+by Timothy R. Abbott; Girija Dhamdhere; Yanxia Liu; Xueqiu Lin; Laine Goudy; Leiping Zeng; Augustine Chemparathy; Stephen Chmura; Nicholas S. Heaton; Robert Debs; Tara Pande; Drew Endy; Marie La Russa; David B. Lewis; Lei S. Qi<br/>
+*Mar 14, 2020*<br/>
+- We created a bioinformatic pipeline to define conserved regions across the SARS-CoV-2 genomes and target these regions using CRISPR-Cas13d for viral genome degradation and viral gene inhibition.<br/>
+- Through the use of crRNA pools targeting different regions of the same virus or different strains of coronavirus, this system could possibly buffer against viral evolution and escape, as well as enable rapid development and deployment against emerging viruses.<br/>
+
+[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- further highlight how emerging features such as spatiotemporal mapping, remote monitoring and management, and enhanced cloud computing capabilities can emanate from such endeavours, leading to better urban management potential.<br/>
+- With a collaborated data sharing protocol, it would be possible to have a larger dataset resulting in increased processing capabilities especially with technologies that are powered by artificial intelligence (AI) tools.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Highthroughput sequencing of sRNAs potentially allows the identification of all types of virus regardless of their genome nature or structure (Massart et al., 2019) .<br/>
+- Development of a local capacity to rapidly identify new viruses is therefore critical.<br/>
+
 # Enhance capacity (people, technology, data) for sequencing with advanced analytics for unknown pathogens, and explore capabilities for distinguishing naturally-occurring pathogens from intentional.
 
-[The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
-Authors: Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Nature Microbiology<br/>
-Match (0.6369): **The currently known viruses of the species Severe acute respiratory syndrome-related coronavirus may be as (poorly) representative for this particular species as the few individuals that we selected to represent H. sapiens in Fig. 1 . It is thus reasonable to assume that this biased knowledge of the natural diversity of the species Severe acute respiratory syndrome-related coronavirus limits our current understanding of fundamental aspects of the biology of this species and, as a consequence, our abilities to control zoonotic spillovers to humans. Future studies aimed at understanding the ecology of these viruses and advancing the accuracy and resolution of evolutionary analyses 41 would benefit greatly from adjusting our research and sampling strategies. This needs to include an expansion of our current research focus on human pathogens and their adaptation to specific hosts to other viruses in this species. To illustrate the great potential of species-wide studies, it may again be instructive to draw a parallel to H. sapiens, and specifically to the impressive advancements in personalized medicine in recent years. Results of extensive genetic analyses of large numbers of individuals representing diverse populations from all continents have been translated into clinical applications and greatly contribute to optimizing patient-specific diagnostics and therapy. They were instrumental in identifying reliable predictive markers for specific diseases as well as genomic sites that are under selection. It thus seems reasonable to expect that genome-based analyses with a comparable species coverage will be similarly insightful for coronaviruses. Also, additional diagnostic tools that target the entire species should be developed to complement existing tools optimized to detect individual pathogenic variants (a proactive approach). Technical solutions to this problem are already available; for example, in the context of multiplex PCR-based assays 42 . The costs for developing and applying (combined or separate) species-and virus-specific diagnostic tests in specific clinical and/or epidemiological settings may help to better appreciate the biological diversity and zoonotic potential of specific virus species and their members. Also, the further reduction of time required to identify the causative agents of novel virus infections will contribute to limiting the enormous social and economic consequences of large outbreaks. To advance such studies, innovative fundraising approaches may be required.**<br/>
-<br/>
-[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](doi.org/10.1101/2020.03.02.968818)<br/>
-Authors: Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
-Published: 2020-03-05 00:00:00<br/>
-Match (0.6283): **Overall, agnostic or unbiased metagenomic sequencing capabilities in-country provide the ability to detect and respond to a variety of pathogens, even those that are unanticipated or unknown. Bridging of existing local and global resources for sequencing and analysis allows for better realtime surveillance locally, while also enabling better health pursuits overall, not just during outbreaks. The example described here serves as a call for continued training and infrastructure to support mNGS capacity in developing countries as bioinformatic tools proliferate and the cost of sequencing decreases.**<br/>
-<br/>
-[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](doi.org/10.1101/2020.03.02.968818)<br/>
-Authors: Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
-Published: 2020-03-05 00:00:00<br/>
-Match (0.5993): **The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.02.968818 doi: bioRxiv preprint genes for primary detection. This detection directly increased on-the-ground certainty in diagnostic sensitivity and specificity of available assays. 7 mNGS in field settings proved critical in development of countermeasures for the 2014-2016 Ebola virus epidemic in West Africa, just as ongoing sequencing of COVID-19 cases from lesser developed areas of Southeast Asia will contribute to overall understanding of pathogen transmission, origin, and evolution. 9,10 While COVID-19 cases are not limited to one remote region, as is often the case with viral hemorrhagic fever outbreaks, sequenced samples from all countries will be important for global disease containment. Instead of being limited to consensus Sanger sequencing, which may not detect high risk quasispecies, metagenomics is a powerful approach to detect variants of both novel and known species as epidemics evolve. 11 The clear limitation in an mNGS approach is that low viral titers or high levels of host material demand greater read depth than may be available on instruments such as the iSeq100. To overcome this barrier, our follow-up steps included a target enrichment of SARS-CoV-2 while keeping the comprehensiveness of our mNGS pipeline intact. 6 For an emerging threat, this strategy offers the flexibility to successfully recover the pathogen genome in question for subsequent phylogenetic analyses without compromising discovery. However, the other key factor in mNGS success is the accessibility to open-access, cloud-based metagenomics bioinformatics pipelines, such as IDseq which automates the process of separating host sequence characterizing the remaining non-host sequences. 12 As recent as the Ebola epidemic, bioinformatics analyses were still mainly completed in the Global North. 10 This newly available combination -more rugged, deployable sequencers plus user-friendly, globally accessible bioinformatics -represents an opportunity for responders in limited-resource settings; however, further proof-of-principle during outbreaks remains necessary.**<br/>
-<br/>
-[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](doi.org/10.1101/2020.02.26.20028373)<br/>
-Authors: Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
-Published: 2020-02-29 00:00:00<br/>
-Match (0.5924): **is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org /10.1101 /10. /2020 In conclusion, colorimetric LAMP provides a simple, rapid method for SARS-CoV-2 RNA detection. Not only purified RNA can be used as the sample input, but also direct tissue or cell lysate may be used without an RNA purification step. This combination of a quick sample preparation method with an easy detection process may allow the development of portable, field detection in addition to a rapid screening for point-of-need testing applications. This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches. The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.**<br/>
-<br/>
-[Network-based Drug Repurposing for Human Coronavirus](doi.org/10.1101/2020.02.03.20020263)<br/>
-Authors: Yadi Zhou; Yuan Hou; Jiayu Shen; Yin Huang; William Martin; Feixiong Cheng<br/>
-Published: 2020-02-05 00:00:00<br/>
-Match (0.5749): **In conclusion, this study offers a powerful, integrated network-based systems pharmacology methodology for rapid identification of repurposable drugs and drug combinations for the potential treatment of HCoV. Our approach can minimize the translational gap between preclinical testing results and clinical outcomes, which is a significant problem in the rapid development of efficient treatment strategies for the emerging 2019-nCoV outbreak. From a translational perspective, if broadly applied, the network tools developed here could help develop effective treatment strategies for other types of virus and human diseases as well.**<br/>
-<br/>
-[Authors’ response: Plenty of coronaviruses but no SARS-CoV-2](https://doi.org/10.2807/1560-7917.ES.2020.25.8.2000197)<br/>
-Authors: Reusken, Chantal B; Haagmans, Bart; Meijer, Adam; Corman, Victor M; Papa, Anna; Charrel, Remi; Drosten, Christian; Koopmans, Marion<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Eurosurveillance<br/>
-Match (0.5672): **While the current response strategy is still focused on containment, it is becoming increasingly clear that the epidemic may turn global, in which case mitigation will be the next option to control the impact of the pandemic. Substantial autochthonous circulation in Italy, Iran and South Korea has been reported by now, while there is increasing evidence that subclinical infections occur and people may be infectious before symptoms appear [8] [9] [10] . These developments indicate that the window of opportunity to contain and eradicate is rapidly narrowing. [11] . Therefore, it is needless to state that for each phase in the control and mitigation of a novel emerging pathogen, adequate laboratory preparedness and response are crucial. The readiness survey that we performed served the important purpose of mapping the initial response capacities in Europe and identifying barriers to diagnostic implementation. Therefore, we maintain that the urgent implementation and monitoring of diagnostic capacities and capabilities for SARS-CoV-2 in Europe is proportional to the containment and expected mitigation phase of the global public health response and is critical for care of local patients. The implementation of SARS-CoV-2 diagnostics does not replace nor exclude diagnostic capacity for other respiratory viruses. Moreover, it explicitly does not disregard the importance of other seasonal respiratory pathogens for public and patient health. This is clearly illustrated by the authors themselves, who indicate that they have tested thousands of samples of patients suspected of respiratory viral disease not only for common respiratory pathogens but also for SARS-CoV-2. The fact that Colson et al. found a wide range of seasonal respiratory viruses indeed underlines the impact of such pathogens. Furthermore, it clearly shows that diagnosis of respiratory viruses cannot be done syndrome-based and supports the need for the availability of diagnostics for a panel of pathogens including SARS-CoV-2.**<br/>
-<br/>
-[Frontiers in antiviral therapy and immunotherapy](http://dx.doi.org/10.1002/cti2.1115)<br/>
-Authors: Heaton, Steven M<br/>
-Published: 2020-02-19 00:00:00<br/>
-Publication: Clin Transl Immunology<br/>
-Match (0.5628): **The increasing abundance of affordable, sensitive, high-throughput genome sequencing technologies has led to a recent boom in metagenomics and the cataloguing of the microbiome of our world. The MinION nanopore sequencer is one of the latest innovations in this space, enabling direct sequencing in a miniature form factor with only minimal sample preparation and a consumer-grade laptop computer. Nakagawa and colleagues here report on their latest experiments using this system, further improving its performance for use in resource-poor contexts for meningitis diagnoses. 9 While direct sequencing of viral genomic RNA is challenging, this system was recently used to directly sequence an RNA virus genome (IAV) for the first time. 10 I anticipate further improvements in the performance of such devices over the coming decade will transform virus surveillance efforts, the importance of which was underscored by the recent EboV and novel coronavirus (nCoV / COVID-19) outbreaks, enabling rapid deployment of antiviral treatments that take resistance-conferring mutations into account.**<br/>
-<br/>
-[The landscape of lung bronchoalveolar immune cells in COVID-19 revealed by single-cell RNA sequencing](doi.org/10.1101/2020.02.23.20026690)<br/>
-Authors: Minfeng Liao; Yang Liu; Jin Yuan; Yanling Wen; Gang Xu; Juanjuan Zhao; Lin Chen; Jinxiu Li; Xin Wang; Fuxiang Wang; Lei Liu; Shuye Zhang; Zheng Zhang<br/>
-Published: 2020-02-26 00:00:00<br/>
-Match (0.5618): **The shortcomings of our study is that only 6 samples are able to be investigated and our endpoint study may not determine the triggering factors leading to different clinical outcomes. We propose that characterizing the earlier immune events and longitudinal analysis of immune dynamics of the infected patients may help gain more insights. These emerging high dimensional techniques, like scRNA-seq, mass cytometry and multiplex imaging tools [28, 29] , will greatly improve human immunology studies using minimal precious tissue samples. All rights reserved. No reuse allowed without permission. the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.**<br/>
-<br/>
+[Rapid metagenomic characterization of a case of imported COVID-19 in Cambodia](https://doi.org/10.1101/2020.03.02.968818)<br/>
+by Manning, J. E.; Bohl, J. A.; Lay, S.; Chea, S.; Ly, S.; Sengdoeurn, Y.; Heng, S.; Vuthy, C.; Kalantar, K.; Ahyong, V.; Tan, M.; Sheu, J.; Tato, C. M.; DeRisi, J.; Baril, L.; Dussart, P.; Duong, V.; Karlsson, E. A.<br/>
+*Mar 05, 2020*<br/>
+- Overall, agnostic or unbiased metagenomic sequencing capabilities in-country provide the ability to detect and respond to a variety of pathogens, even those that are unanticipated or unknown.<br/>
+- 6 For an emerging threat, this strategy offers the flexibility to successfully recover the pathogen genome in question for subsequent phylogenetic analyses without compromising discovery.<br/>
+- Instead of being limited to consensus Sanger sequencing, which may not detect high risk quasispecies, metagenomics is a powerful approach to detect variants of both novel and known species as epidemics evolve.<br/>
+- Despite major advances in mNGS technologies and significant decreases in costs associated with sequencing, preparation of sequencing libraries and sufficient bioinformatics capabilities for timely analysis still present a challenge in the developing world.<br/>
+- However, the other key factor in mNGS success is the accessibility to open-access, cloud-based metagenomics bioinformatics pipelines, such as IDseq which automates the process of separating host sequence characterizing the remaining non-host sequences.<br/>
+
 [On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-Authors: Allam, Zaheer; Jones, David S.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Healthcare<br/>
-Match (0.5597): **Beyond the aspect of pandemic preparedness and response, the case of COVID-19 virus and its spread provide a fascinating case study for the thematics of urban health. Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios. This is valid as smart cities host a rich array of technological products [6, 7] that can assist in early detection of outbreaks; either through thermal cameras or Internet of Things (IoT) sensors, and early discussions could render efforts towards better management of similar situations in case of future potential outbreaks, and to improve the health fabric of cities generally. While thermal cameras are not sufficient on their own for the detection of pandemics -like the case of the COVID-19, the integration of such products with artificial intelligence (AI) can provide added benefits. The fact that initial screenings of temperature is being pursued for the case of the COVID-19 at airports and in areas of mass convergence is a testament to its potential in an automated fashion. Kamel Boulos et al. [8] supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.**<br/>
-<br/>
-[The Essential Facts of Wuhan Novel Coronavirus Outbreak in China and Epitope-based Vaccine Designing against COVID-19](doi.org/10.1101/2020.02.05.935072)<br/>
-Authors: Sarkar, B.; Ullah, M. A.; Johora, F. T.; Taniya, M. A.; Araf, Y.<br/>
-Published: 2020-03-06 00:00:00<br/>
-Match (0.5584): **Reverse vaccinology refers to the process of developing vaccines where the novel antigens of a virus or microorganism or organism are detected by analyzing the genomic and genetic information of that particular virus or organism. In reverse vaccinology, the tools of bioinformatics are used for identifying and analyzing these novel antigens. These tools are used to dissect the genome and genetic makeup of a pathogen for developing a potential vaccine. Reverse vaccinology approach of vaccine development also allows the scientists to easily understand the antigenic segments of a virus or pathogen that should be given more emphasis during the vaccine development. This method is a quick, cheap, efficient, easy and cost-effective way to design vaccine. Reverse vaccinology has successfully been used for developing vaccines to fight against many viruses i.e., the Zika virus, Chikungunya virus etc. [ **<br/>
-<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- further highlight how emerging features such as spatiotemporal mapping, remote monitoring and management, and enhanced cloud computing capabilities can emanate from such endeavours, leading to better urban management potential.<br/>
+- With a collaborated data sharing protocol, it would be possible to have a larger dataset resulting in increased processing capabilities especially with technologies that are powered by artificial intelligence (AI) tools.<br/>
+- supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.<br/>
+- In this case, novel technologies like Blockchain technologies and quantum cryptography can aid in the discussion and be made to integrate with data collecting technologies.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Currently, molecular methods find wide applications in the diagnosis and research of pathogenic viruses.<br/>
+- This review aims at providing researchers and laboratory personnel with an overview of the molecular biology of pathogenic viruses and the principles of molecular techniques and good laboratory practices commonly implemented for their detection and characterization.<br/>
+- Advances in molecular biology techniques have revolutionized the procedures for detection and characterization of pathogenic viruses.<br/>
+- It is possible that pathogenic viruses of global public health and socioeconomic risk emerge in regions with limited laboratory capacity for their molecular detection and characterization.<br/>
+
+[Rapid Molecular Detection of SARS-CoV-2 (COVID-19) Virus RNA Using Colorimetric LAMP](https://doi.org/10.1101/2020.02.26.20028373)<br/>
+by Yinhua Zhang; Nelson Odiwuor; Jin Xiong; Luo Sun; Raphael Ohuru Nyaruaba; Hongping Wei; Nathan A Tanner<br/>
+*Feb 29, 2020*<br/>
+- This virus represents an emerging significant public health concern and expanding the scope of diagnostic utility to applications outside of traditional laboratories will enable greater prevention and surveillance approaches.<br/>
+- Our aim is to share this information in order to help develop a reliable and easy method to detect this viral RNA outside of sophisticated diagnostic laboratories and expand the toolbox of molecular tests used to combat and surveil this growing public health threat.<br/>
+- The efforts made here will serve as a model for inevitable future outbreaks where the use of next generation portable diagnostics will dramatically expand the reach of our testing capabilities for better healthcare outcomes.<br/>
+
+[Accurate Identification of SARS-CoV-2 from Viral Genome Sequences using Deep Learning](https://doi.org/10.1101/2020.03.13.990242)<br/>
+by Alejandro Lopez-Rincon; Alberto Tonda; Lucero Mendoza-Maldonado; Eric Claassen; Johan Garssen; Aletta D. Kraneveld<br/>
+*Mar 14, 2020*<br/>
+- Thus, it is fundamental to improve existing diagnostic tools to contain the spread.<br/>
+- Developing innovative diagnostic tools that target the genome to improve the identification of pathogens, can help reduce health costs and time to identify the infection, instead of using unsuitable treatments or testing.<br/>
+- Nevertheless, it is necessary to develop innovative improved diagnostic tools that target the genome to improve the identification of pathogenic variants, as sometimes several tests, 40 are needed to have an accurate diagnosis.<br/>
+
+[Computers and viral diseases. Preliminary bioinformatics studies on the design of a synthetic vaccine and a preventative peptidomimetic antagonist against the SARS-CoV-2 (2019-nCoV, COVID-19) coronavirus](https://doi.org/10.1016/j.compbiomed.2020.103670)<br/>
+by Robson, B.<br/>
+*Computers in Biology and Medicine - Feb 26, 2020*<br/>
+- The bioinformatics-based approach can also be reproduced by standard tools, but is facilitated by Q-UEL tools, especially with the explosive growth in studies regarding 2019-nCoV.<br/>
+- Q-UEL tools, or other similar approaches, can help there.<br/>
+
+[Interpretable detection of novel human viruses from genome sequencing data](https://doi.org/10.1101/2020.01.29.925354)<br/>
+by Bartoszewicz, J. M.; Seidel, A.; Renard, B. Y.<br/>
+*Feb 01, 2020*<br/>
+- The methods presented here may also be applied to other biological problems outside of the field of pathogen genomics.<br/>
+- As the state-of-the art approach for the open-view detection of pathogens is genome sequencing (Lecuit & Eloit, 2014; Calistri & Palù, 2015) , it is crucial to develop automated pipelines for characterizing the infectious potential of currently unidentifiable sequences.<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Big data and artificial intelligence systems are tools that can be used to fully integrate the information, conduct comprehensive research and analyze public health risks.<br/>
+
+[Functional assessment of cell entry and receptor usage for lineage B β-coronaviruses, including 2019-nCoV](https://doi.org/10.1101/2020.01.22.915660)<br/>
+by Letko, M. C.; Munster, V.<br/>
+*Jan 22, 2020*<br/>
+- Despite significant advances in next generation sequencing technologies, which have facilitated the discovery of thousands of novel animal-derived viruses, tools for downstream functional assessment of these novel sequences are lacking.<br/>
+
+[Network-based Drug Repurposing for Human Coronavirus](https://doi.org/10.1101/2020.02.03.20020263)<br/>
+by Yadi Zhou; Yuan Hou; Jiayu Shen; Yin Huang; William Martin; Feixiong Cheng<br/>
+*Feb 05, 2020*<br/>
+- Comprehensive identification of the virus-host interactome for 2019-nCoV, with specific biological effects using functional genomics assays, will significantly improve the accuracy of current network-based methodologies.<br/>
+
 # One Health surveillance of humans and potential sources of future spillover or ongoing exposure for this organism and future pathogens, including both evolutionary hosts (e.g., bats) and transmission hosts (e.g., heavily trafficked and farmed wildlife and domestic food and companion species), inclusive of environmental, demographic, and occupational risk factors.
-[A qualitative study of zoonotic risk factors among rural communities in southern China](http://dx.doi.org/10.1093/inthealth/ihaa001)<br/>
-Authors: Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
-Published: 2020-02-10 00:00:00<br/>
-Publication: Int Health<br/>
-Match (0.7772): **Emerging and re-emerging zoonotic diseases are key contributors to morbidity and mortality in southern China. 1, 2 This region, considered a 'hotspot' for emerging zoonotic diseases, harbours abundant wildlife while also undergoing land use change and natural resource overexploitation leading to intensified humananimal interactions that favour the emergence of zoonotic diseases. 3 People living in the rural areas of southern China primarily cultivate rice and fruits, raise swine and poultry in households or on small farms, 4 but also traditionally hunt wild animals as an alternative income source. 5 The mixed landscape has abundant crops, which attracts wild animals into the communities, and livestock rearing is common. 6 This brings humans and animals into close contact in dense populations, creating a wildlife-livestockhuman interface for zoonotic disease emergence. 7 In recognition of the challenges of emerging infectious diseases after the severe acute respiratory syndrome (SARS) outbreak in 2002 caused by a bat-origin coronavirus, the Chinese government established a national real-time hospital-based infectious disease reporting system. 1 Likewise, live poultry market interventions were initiated in response to highly pathogenic avian influenza (HPAI) in southern China in 2001. 8 In December 2019 (after the completion of the current study), a novel coronavirus (2019-nCoV) emerged in Wuhan, China and spread rapidly across China and the world. 9, 10 This virus is a group 2b coronavirus, which includes SARS-CoV and bat SARSr-CoVs, and its closest relative is a virus identified in a Rhinolophus affinis bat from Yunnan. 10, 11 Environmental samples positive for 2019-nCoV were found in an urban market in Wuhan where some of the earliest known human cases originated. 12, 13 This likely index site sold predominantly seafood, but is also thought to sell live wildlife at the market, and a temporary ban on the wildlife trade for food has been put in place across China. These efforts in response to SARS, HPAI and 2019-nCoV represent a reactiondriven response to zoonotic disease outbreaks, whereas, apart from the new temporary ban on wildlife trade, only limited preventative measures are currently being enacted in the region to reduce the risk of future zoonotic disease outbreaks. 14 However, detailed knowledge of the social and ecological mechanisms of zoonotic disease emergence in the region is limited, and therefore cannot yet inform evidence-based policies and practices for targeted surveillance programmes. 15 Using a qualitative approach through ethnographic interviews and field observations, this study aimed to understand interactions among humans, animals and ecosystems, to shed light on the zoonotic risks in these presumed high-risk communities and to develop an evidence base for identifying appropriate strategies for zoonotic risk mitigation.**<br/>
-<br/>
-[A qualitative study of zoonotic risk factors among rural communities in southern China](http://dx.doi.org/10.1093/inthealth/ihaa001)<br/>
-Authors: Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
-Published: 2020-02-10 00:00:00<br/>
-Publication: Int Health<br/>
-Match (0.7391): **In spite of these positive changes over the long term, there is little understanding within enrolled participants of the transmission mechanisms and ecology of zoonotic pathogens that currently circulate in animal populations in the region. This is of particular concern in rural communities where close contact with bats and rodents was reported, and zoonotic pathogens have been detected in the widely distributed animal populations with 'Mainly relies on the forest department and nature reserve. We go to village in a specific month every year to educate local people' (male staff member of local nature reserve, 30-y-old, Guangxi). 'They do not collect samples for transportation licence of farmed animals; for Inspection and quarantine certificate, they will sampling everything, including water, feeding stuff, oral, blood and rectal of animals regularly' (male bamboo rat farmer, 56-y-old, Guangxi). Human animal conflict Interviewer: 'Is there governmental compensation system if animals damage crops?' Interviewee: 'No, our winner bamboo shoots are eaten by wild boars. Nothing will be left once they come, and they run so fast. But there is no compensation, they sometimes run to the orchard to eat oranges and damage many trees. Even purple yams my mum planted are eaten' (male peasant farmer, 50-y-old, Guangdong). the potential to spill over into the human population. 20, [32] [33] [34] [35] In addition, rural residents may face a higher risk because of their limited access to quality healthcare facilities for proper diagnosis and treatment compared with urban residents. 36 Enforcement of current wildlife protection policy and continued community infrastructure development appears to significantly reduce high-risk contact between humans, wildlife and livestock. Closer collaboration between local animal and human health authorities within the current epidemic disease prevention programmes will provide educational and training opportunities to promote risk-mitigation knowledge, skills and best practice in local communities. For example, cave monitoring and management is a low-cost and efficient method to help restrict human activities (e.g. recreation and mining) that lead to contact with bats in caves. This is of particular importance given the emergence of 2019-nCoV, which appears likely to be a bat-origin coronavirus. 10, 11 As the first qualitative study in southern China to assess risk factors for zoonotic disease emergence, our scope was limited by current knowledge, only allowing us to focus on known presumed risk factors. With further urbanization, and subsequent increased interactions between human populations and the changing ecosystems, new risk factors for zoonotic disease transmission will likely emerge. This might include changes to the wildlife trade following the temporary ban put in place as a response to the emergence of 2019-nCoV. 9,10 Further research to identify the risk factors among different populations will help develop more locally-relevant and fine-tuned risk mitigation strategies and address the social and ecological bias to identifying recommendations for other community settings.**<br/>
-<br/>
-[A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
-Authors: Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Biosafety and Health<br/>
-Match (0.7268): **The second question is what is the source of this virus? The evidence is fairly clear: Most of the initial cases were linked to a seafood market that also sold butchered livestock meat and some wildlife. The virus itself appears to have a wildlife (bat) origin similar to SARS-CoV, which also emerged in a wildlife market through the interactions of humans and other animals that acted as the intermediate hosts of the virus [3, 8, 9] . With two disease outbreaks originating in China significantly linked to wildlife markets, this is an obvious target for control programs to prevent future epedemics and pandemics. Indeed, there have already been calls from Chinese conservationists, public health leaders and policy makers to reduce the wildlife consumption. However, banning or even reducing the sale of wild game may not be straightforward and it is challenging to change behaviors that are influenced by Chinese culture and traditions. In addition to a strong belief in the purported curative power of wildlife and their by-products, the consumption of the rare and expensive wildlife has become a social statement of wealth boosted by economic growth. Changing these cultural habits will take time, however, recent behavioral questionnaire data suggests a generational transformation with reduced wildlife consumption in the younger generation [10] . There is no doubt, however, that the wildlife trade has an inherent risk of bringing people close to pathogens that wildlife carry, that we have not yet encountered, and that have the potential of leading to the next outbreak.**<br/>
-<br/>
-[The novel Coronavirus (SARS-CoV-2) is a one health issue](https://doi.org/10.1016/j.onehlt.2020.100123)<br/>
-Authors: Marty, Aileen Maria; Jones, Malcolm K.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: One Health<br/>
-Match (0.7201): **One Health approaches attempt to strategize the coordinated efforts of multiple overlapping disciplines [19] , including environmental surveillance and environmental health. Primary components of the approach lie in animal health and environmental aspects. At the time of writing, the host from which the SARS-CoV-2 entered the human population is unknown although the suspicion is that food markets are likely sources for the original spillover. While the search for the natural host highly implicates bats [21] , search for the intermediary host, if any, is ongoing with the suggestions of the pangolin as a host far from certain. While it is premature to implicate any one particular urban source or natural host, the ensuing search will give insight into pathogens with potential to cross over into human transmission. This approach of environmental surveillance forms part of the PREDICT strategy [20] for detecting viruses with potential for spillover into human.**<br/>
-<br/>
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Zoonotic viral infections which cause human diseases may come from domestic animals, poultry, livestock and wildlife.<br/>
+- Wildlife, especially mammals and birds, are hosts to a large number of viruses.<br/>
+- Similar to bats, rodents are also natural reservoirs of a number of life-threatening zoonotic viruses.<br/>
+- Bats (order Chiroptera) are important reservoir hosts of emerging viruses.<br/>
+- Birds play important roles in the emergence of zoonotic viruses, either as a reservoir host, or in the spread of novel pathogenic viruses to new areas.<br/>
+
+[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
+by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
+*Int Health - Feb 10, 2020*<br/>
+- 1, 2 This region, considered a 'hotspot' for emerging zoonotic diseases, harbours abundant wildlife while also undergoing land use change and natural resource overexploitation leading to intensified humananimal interactions that favour the emergence of zoonotic diseases.<br/>
+- With further urbanization, and subsequent increased interactions between human populations and the changing ecosystems, new risk factors for zoonotic disease transmission will likely emerge.<br/>
+- 6 This brings humans and animals into close contact in dense populations, creating a wildlife-livestockhuman interface for zoonotic disease emergence.<br/>
+- This is of particular concern in rural communities where close contact with bats and rodents was reported, and zoonotic pathogens have been detected in the widely distributed animal populations with 'Mainly relies on the forest department and nature reserve.<br/>
+
 [2019-nCoV in context: lessons learned?](https://doi.org/10.1016/S2542-5196(20)30035-8)<br/>
-Authors: Kock, Richard A.; Karesh, William B.; Veas, Francisco; Velavan, Thirumalaisamy P.; Simons, David; Mboera, Leonard E. G.; Dar, Osman; Arruda, Liã Bárbara; Zumla, Alimuddin<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: The Lancet Planetary Health<br/>
-Match (0.7085): **The emergence of a new coronavirus (2019-nCoV) in Wuhan creates a sense of déjà vu with the severe acute respiratory syndrome coronavirus (SARS-CoV) epidemic in China in 2003. Coronaviruses are enveloped, positivestranded RNA viruses of mammals and birds. These viruses have high mutation and gene recombination rates, making them ideal for pathogen evolution. 1 In humans, coronavirus is usually associated with mild disease, the common cold. Previous emerging novel coronaviruses, such as SARS-CoV and Middle East respiratory syndrome coronavirus (MERS-CoV), which emerged in the Middle East in 2012, were associated with severe and sometimes fatal disease. MERS-CoV was less pathogenic than SARS-CoV, with the most severe infections mainly in individuals with underlying illnesses. Clinically and epidemiologically, the contemporary 2019-nCoV in China seems to resemble SARS-CoV. The genome of 2019-nCoV also appears most closely related to SARS-CoV and related bat coronaviruses. 2 The infection has now spread widely, with phylogenetic analysis of the emerging viruses suggesting an initial single-locus zoonotic spillover event in November, 2019, 3 There is an increasing focus on the human-animalenvironment disease interface, as encompassed in the One Health concept. Mortalities, disability-adjusted life-years, and billions of dollars of economic losses from these infections demand action and investment in prevention to face novel challenges to human and animal health. Research has led to better understanding of the nature and drivers of cross-species viral jumps, but the detail is still elusive. No reservoir population of bats for SARS and MERS-CoV or Ebola virus have been definitively identified, despite considerable searching, possibly because of the source virus circulating in small and isolated populations. Forensic examination has clarified the human infection sources and multispecies involvement in these diseases, with some species confirmed as competent hosts (eg, camels for MERS-CoV 4 ), bridge (or amplifying) hosts (eg, pigs for Nipah virus, non-human primates for Ebola virus 5 ), or deadend hosts. The crucial checkpoint is the jump and bridging of the viruses to humans, which occurs most frequently through animal-based food systems. In the case of SARS, markets with live and dead animals of wild and domestic origins were the crucible for virus evolution and emergence in the human population. Once the viruses' functional proteins enabled cell entry in civets (Paguma larvata) and racoon dogs (Nyctereutes procyonoides), the bridge was established and it was only a matter of time before the jump to humans occurred. 6 Sequence comparison of civet viruses suggested evolution was ongoing; this was further supported by high seroprevalence of antibodies against SARS-CoV among civet sellers, suggesting previous cross-species transmission events without necessarily human-tohuman transmission. 7, 8 Similarly, early Ebola virus was mostly associated with bushmeat and its consumption in Africa; Nipah virus is associated with date palm sap, fruit, and domestic pig farms; MERS is associated with the camel livestock industry; and H5N1 arose from viral evolution in domestic and wild birds, to ultimately bring all these cases to humans. The 2019-nCoV is another virus in the pipeline that originated from contact with animals, in this case a seafood and animal market in Wuhan, China.**<br/>
-<br/>
+by Kock, Richard A.; Karesh, William B.; Veas, Francisco; Velavan, Thirumalaisamy P.; Simons, David; Mboera, Leonard E. G.; Dar, Osman; Arruda, Liã Bárbara; Zumla, Alimuddin<br/>
+*The Lancet Planetary Health - 2020*<br/>
+- In some parts of Africa, prevention of Ebola virus and future coronavirus threats require shifts in food habits, a transition from bushmeat being a cultural norm or primary source of protein, and by discouraging agricultural development that brings bats into increased contact with humans or livestock.<br/>
+- Forensic examination has clarified the human infection sources and multispecies involvement in these diseases, with some species confirmed as competent hosts (eg, camels for MERS-CoV 4 ), bridge (or amplifying) hosts (eg, pigs for Nipah virus, non-human primates for Ebola virus 5 ), or deadend hosts.<br/>
+- 10 What we need to learn and communicate is that the zoonotic or agricultural bridging of novel pathogens from domestic and captive wildlife needs urgent attention, along with attention to the human appetite for meat.<br/>
+
+[A novel coronavirus emerges](https://doi.org/10.1016/j.rceng.2020.01.001)<br/>
+by Ena, J.; Wenzel, R.P.<br/>
+*Revista Clínica Española (English Edition) - Mar 31, 2020*<br/>
+- Many patients were exposed to the seafood market to several potential wildlife animals acting as reservoirs, such as poultry, snakes, bats, and other farm animals.<br/>
+- Peridomestic animals may serve as intermediate hosts, facilitating the recombination of the virus, and serving as amplification hosts.<br/>
+- Coronaviruses have an animal reservoir, usually wild animals, and can be transmitted to humans.<br/>
+
 [A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
-Authors: Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Biosafety and Health<br/>
-Match (0.7076): **The wildlife trade has clearly played a role in the emergence of 2019-nCoV, as well as previous diseases in China (SARS) and across the world (e.g. monkeypox in the USA, Ebola in Africa, salmonellosis in the USA and Europe). China's response in the current outbreak was swift and broad: The index market was closed down immediately and once the virus spread, the wildlife trade was banned temporarily in certain provinces, then nationally. Our recent behavioral risk investigations in China identified low levels of environmental biosecurity and high levels of human-animal contact as key risk factors for zoonotic disease emergence, particularly in local wet and animal markets [23] . While the current wildlife trade bans may help disease control at this moment, to prevent future disease emergence, market biosecurity needs to be improved regarding the hygiene and sanitation facilities and regulations, and the source of animals traded at the market. From a viral emergence perspective, farmed animals are likely a lower risk than wild-caught animals. However, given the size of the wildlife farming industry in China, routine disease surveillance and veterinary care at farms and in transport to markets would need to be improved. The connection between this outbreak and wildlife trade have triggered a strong public opinion against wildlife consumption, and scientists have jointly called for an urgent amendment of the Wildlife Protection Law to standardize and manage wildlife trade as a public health and security issue. It requires collaboration among the State Forestry and Grassland Administration, Ministry of Agriculture and Rural Affairs, State Administration for Market Regulation and public health authorities to tackle this issue as a long-term goal.**<br/>
-<br/>
-[From SARS to COVID-19: A previously unknown SARS-CoV-2 virus of pandemic potential infecting humans – Call for a One Health approach](https://doi.org/10.1016/j.onehlt.2020.100124)<br/>
-Authors: El Zowalaty, Mohamed E.; Järhult, Josef D.<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: One Health<br/>
-Match (0.6910): **Regarding SARS-CoV-2 in particular, there are several aspects that needs a One Health approach in order to understand the outbreak, and to mitigate further outbreaks of a similar virus. SARS-CoV-2 is likely a bat-origin coronavirus that was transmitted to humans through a spill over from bats or through an undetermined yet intermediate animal host (avian, swine, phocine, bovine, canine, other species) or wild animals. Figure 3 depicts a transmission hypothesis of SARS-CoV-2 outbreak, yet the intermediate host is to be determined. The list of animals which were sold range between poultry (turkey, pheasants, geese, roosters, doves, and wild birds (Peacocks swans, and exotic animals, to reptiles and hedgehogs. The animal list included frogs, camels, wild rabbits, reptiles, snakes, deer, crocodiles, Kangaroos, snails, civet cats, goats, centipedes, and cicades [45, 46] . There are no data available in scientific literature on the detection and isolation of SARS-CoV-2 from environmental samples. However, it was recently reported that the Chinese Centers for Disease Control and Prevention isolated SARS-CoV-2 from 33 samples out of 585 environmental samples collected from Huanan Seafood Market [47] . process, and they need to be addressed in any true One Health approach [48] . However, it is crucial to consider the cultural context of these markets meaning that again, social sciences are important in this process. Also, this means that the most viable solution may not be to close down live animal markets but perhaps to 'sector' them so that fewer different species mingle in one specific market and that the specific intermediate host(s) for SARS-CoV-2 may be removed from the markets, or rigorously tested for the virus.**<br/>
-<br/>
-[A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
-Authors: Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: Biosafety and Health<br/>
-Match (0.6780): **The finding of people in a small sample of rural communities in southern China seropositive for a bat SARSr-CoV suggests that bat-origin coronaviruses commonly spillover in the region [18] . Single cases or small clusters of human infection may evade surveillanceparticularly in regions and countries that border China with less healthcare capacity or rural areas where people don't seek diagnosis or treatment in a timely fashion. Surveillance programs can be designed by local public health authorities to identify communities living in regions with high wildlife diversity and likely high diversity of novel viruses [21] . People with frequent contact with wild or domestic animals related to their livelihood and occupation, and patients presenting acute respiratory infection (ARI) or influenza-like illness (ILI) symptoms with unknown etiology can be included into the surveillance as a cost-effective method to identify novel virus spillovers. This 'pre-outbreak surveillance' strategy can be coordinated with different sectors of public health, healthcare, agriculture and forestry to implement sample collection and testing of wildlife, domestic animals, and people in collaboration with research institutions. These efforts will help identify and characterize viral genetic sequence, identify high-risk human populations with antibodies and cell-mediated immunity responses to wildlife-origin CoVs [22] , as well as the risk factors in human behaviors and living environment through interviews. Evidencebased strategies to reduce risk can then be designed and implemented in the communities where viral spillover is identified.**<br/>
-<br/>
+by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
+*Biosafety and Health - 2020*<br/>
+- The virus itself appears to have a wildlife (bat) origin similar to SARS-CoV, which also emerged in a wildlife market through the interactions of humans and other animals that acted as the intermediate hosts of the virus.<br/>
+- Our recent behavioral risk investigations in China identified low levels of environmental biosecurity and high levels of human-animal contact as key risk factors for zoonotic disease emergence, particularly in local wet and animal markets.<br/>
+
+[The epidemic of 2019-novel-coronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future](https://doi.org/10.1016/j.micinf.2020.02.002)<br/>
+by Li, Jin-Yan; You, Zhi; Wang, Qiong; Zhou, Zhi-Jian; Qiu, Ye; Luo, Rui; Ge, Xing-Yi<br/>
+*Microbes and Infection - Mar 31, 2020*<br/>
+- With changes of ecology and human activities, including unlimited invasion of natural habitats of animals, consumption of some of these animals, and modern agricultural practices, the spillover of viruses Table 2 .<br/>
+
+[Insights into the cross-species evolution of 2019 novel coronavirus](https://doi.org/10.1016/j.jinf.2020.02.025)<br/>
+by Zhang, Jiahao; Jia, Weixin; Zhu, Junhai; Li, Bo; Xing, Jinchao; Liao, Ming; Qi, Wenbao<br/>
+*Journal of Infection - Mar 04, 2020*<br/>
+- Although humans and bats live in different environments, some wildlife species are susceptible to the novel coronaviruses in nature, highlighting that the need of tracing its origin of 2019 human coronavirus in wild animals.<br/>
+
+[Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000044)<br/>
+by Wu, Peng; Hao, Xinxin; Lau, Eric H Y; Wong, Jessica Y; Leung, Kathy S M; Wu, Joseph T; Cowling, Benjamin J; Leung, Gabriel M<br/>
+*Euro Surveill - Jan 23, 2020*<br/>
+- A separate priority is to identify the animal reservoir of this novel pathogen and any intermediary hosts, including potential supply chains of wild or game meat.<br/>
+
 [Potential Factors Influencing Repeated SARS Outbreaks in China](https://doi.org/10.3390/ijerph17051633)<br/>
-Authors: Sun, Zhong; Thilakavathy, Karuppiah; Kumar, S. S.; He, Guozhong; Liu, V. Shi<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: International Journal of Environmental Research and Public Health<br/>
-Match (0.6751): **This mini-review evaluated the common epidemiological patterns of both SARS epidemics in China and identified cold, dry winter as a common environmental condition conducive for SARS virus infection to human beings. Thus, meteorological information should be integrated into future forecast of potential outbreak of new SARS. The identification of bats as very likely natural hosts for SARS-CoVs and consideration of some other wild animals as potential intermediate hosts leads to a prevention requirement of protecting natural ecosystem and prohibiting consumption of wildlife. The presentation of different scenarios of SARS outbreaks points to some urgency in identifying the true origin(s) of SARS-CoVs and establishing more comprehensive anti-infection measures that will resist any kind of viral assault.**<br/>
-<br/>
-[2019-nCoV in context: lessons learned?](https://doi.org/10.1016/S2542-5196(20)30035-8)<br/>
-Authors: Kock, Richard A.; Karesh, William B.; Veas, Francisco; Velavan, Thirumalaisamy P.; Simons, David; Mboera, Leonard E. G.; Dar, Osman; Arruda, Liã Bárbara; Zumla, Alimuddin<br/>
-Published: 2020-01-01 00:00:00<br/>
-Publication: The Lancet Planetary Health<br/>
-Match (0.6655): **In conclusion, have we learned lessons? Yes and no. These events are of global public health and economic importance and need collective societal response. But governments and civil society are not heeding these warnings, as the 2019-nCoV attests. 9 Concerns have been repeatedly raised and voiced since the idea of One Health was first expressed in around 2000. 10 What we need to learn and communicate is that the zoonotic or agricultural bridging of novel pathogens from domestic and captive wildlife needs urgent attention, along with attention to the human appetite for meat. This approach is easily achieved for coronavirus threatseg, by substantially reducing the trade of risky species of wild caught animals for food or other purposes, and a culturally sensitive ban on the sale of these animals in wet markets. Vaccines and therapeutic alternatives might be possible and are needed, but they are a response, because the emerging strain is unpredictable and a vaccine is unlikely to prevent the initial events. In some parts of Africa, prevention of Ebola virus and future coronavirus threats require shifts in food habits, a transition from bushmeat being a cultural norm or primary source of protein, and by discouraging agricultural development that brings bats into increased contact with humans or livestock. In the Middle East, re-evaluating and improving infection prevention and control measures for camel farms, a recent introduction coincident with the emergence of MERS-CoV, would be a positive step forward.**<br/>
-<br/>
+by Sun, Zhong; Thilakavathy, Karuppiah; Kumar, S. S.; He, Guozhong; Liu, V. Shi<br/>
+*International Journal of Environmental Research and Public Health - 2020*<br/>
+- The identification of bats as very likely natural hosts for SARS-CoVs and consideration of some other wild animals as potential intermediate hosts leads to a prevention requirement of protecting natural ecosystem and prohibiting consumption of wildlife.<br/>
+
+[Six weeks into the 2019 coronavirus disease (COVID-19) outbreak- it is time to consider strategies to impede the emergence of new zoonotic infections](https://doi.org/10.1097/CM9.0000000000000760)<br/>
+by Harypursat, Vijay; Chen, Yao-Kai<br/>
+*Chin Med J (Engl) - 2020*<br/>
+- A significantly large variety of coronavirus species cause a diverse range of diseases in domesticated and wild mammals and birds, and these animals may also be carriers of and reservoirs for coronaviruses.<br/>
+
