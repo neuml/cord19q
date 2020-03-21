@@ -1,4 +1,4 @@
-cord19q: Exploring and indexing the CORD-19 dataset
+cord19q: CORD-19 Analysis
 ======
 
 ![CORD19](https://pages.semanticscholar.org/hs-fs/hubfs/covid-image.png?width=300&name=covid-image.png)
@@ -6,8 +6,6 @@ cord19q: Exploring and indexing the CORD-19 dataset
 COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, about COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research) and there is a research challenge on [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
 This project builds an index over the CORD-19 dataset to assist with analysis and data discovery. A series of tasks were explored to identify relevant articles and help find answers to key scientific questions on a number of COVID-19 research topics.
-
-The tech stack is built on Python and creates a sentence embeddings index with FastText + BM25. Background on this method can be found in this [Medium article](https://towardsdatascience.com/building-a-sentence-embedding-index-with-fasttext-and-bm25-f07e7148d240) and an existing repository using this method [codequestion](https://github.com/neuml/codequestion).
 
 ### Tasks
 The following files show queries for the Top 10 matches for each task provided in the CORD-19-research-challenge competition using this method.
@@ -52,6 +50,13 @@ To build the model locally:
 
 The model will be stored in ~/.cord19
 
+### Building a report file
+A report file is simply a markdown file created from a list of queries. An example:
+
+    python -m cord19q.report tasks/diagnostics.txt
+
+Once complete a file named tasks/diagnostics.md will be created.
+
 ### Running queries
 The fastest way to run queries is to start a cord19q shell
 
@@ -59,9 +64,13 @@ The fastest way to run queries is to start a cord19q shell
 
 A prompt will come up. Queries can be typed directly into the console.
 
-### Building a report file
-A report file is simply a markdown file created from a list of queries. An example:
+### Tech Overview
+The tech stack is built on Python and creates a sentence embeddings index with FastText + BM25. Background on this method can be found in this [Medium article](https://towardsdatascience.com/building-a-sentence-embedding-index-with-fasttext-and-bm25-f07e7148d240) and an existing repository using this method [codequestion](https://github.com/neuml/codequestion).
 
-    python -m cord19q.report tasks/diagnostics.txt
+The model is a combination of the sentence embeddings index and a SQLite database with the articles. Each article is parsed into sentences and stored in SQLite along with the article metadata. FastText vectors are built over the full corpus. The sentence embeddings index only uses COVID-19 related articles, which helps produce more recent and relevant results. 
 
-Once complete a file named tasks/diagnostics.md will be created.
+Multiple entry points exist to interact with the model.
+
+- cord19q.report - Builds a markdown report for a series of queries. For each query, the best articles are shown, top matches from those articles and a highlights section which shows the most relevant sections from the embeddings search for the query.
+- cord19q.query - Runs a single query from the terminal
+- cord19q.shell - Allows running multiple queries from the terminal
