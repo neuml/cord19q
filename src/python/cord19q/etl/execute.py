@@ -1,16 +1,16 @@
 """
-Transforms raw CORD-19 data into an articles.db sqlite database.
+Transforms raw CORD-19 data into an articles.db SQLite database.
 """
 
 import csv
 import hashlib
 import json
 import os.path
-import re
 import sqlite3
 import sys
 
-import dateutil.parser as parser
+from dateutil import parser
+from nltk.tokenize import sent_tokenize
 
 # Articles schema
 ARTICLES = {
@@ -36,6 +36,36 @@ SECTIONS = {
 CREATE_TABLE = "CREATE TABLE IF NOT EXISTS {table} ({fields})"
 INSERT_ROW = "INSERT INTO {table} ({columns}) VALUES ({values})"
 
+def init():
+    """
+    Connects initializes a new output SQLite database.
+
+    Returns:
+        connection to new SQLite database
+    """
+
+    # Output directory - create if it doesn't exist
+    output = os.path.join(os.path.expanduser("~"), ".cord19", "models")
+    os.makedirs(output, exist_ok=True)
+
+    # Output database file
+    dbfile = os.path.join(output, "articles.db")
+
+    # Delete existing file
+    if os.path.exists(dbfile):
+        os.remove(dbfile)
+
+    # Create output database
+    db = sqlite3.connect(dbfile)
+
+    # Create articles table
+    create(db, ARTICLES, "articles")
+
+    # Create sections table
+    create(db, SECTIONS, "sections")
+
+    return db
+
 def create(db, table, name):
     """
     Creates a SQLite table.
@@ -58,10 +88,10 @@ def create(db, table, name):
 
 def insert(db, table, name, row):
     """
-    Builds and inserts an article.
+    Builds and inserts a row.
 
     Args:
-        db: article database
+        db: database connection
         table: table object
         name: table name
         row: row to insert
@@ -78,7 +108,7 @@ def insert(db, table, name, row):
         db.execute(insert, values(table, row, columns))
     # pylint: disable=W0703
     except Exception as ex:
-        print("Error inserting row: {}".format(row[0]), ex)
+        print("Error inserting row: {}".format(row), ex)
 
 def values(table, row, columns):
     """
@@ -107,22 +137,31 @@ def values(table, row, columns):
 
     return values
 
-def getId(row):
+def getIds(row, ids):
     """
-    Gets a row id. Builds one from the title if no body content is available.
+    Gets ids for this row. Builds one from the title if no body content is available.
 
     Args:
         row: input row
+        ids: list of generated ids
 
     Returns:
-        row id as a sha1 hash
+        list of sha1 hash ids
     """
 
     # Use sha1 provided, if available
-    uid = row["sha"]
+    uid = row["sha"].split("; ") if row["sha"] else None
     if not uid:
         # Fallback to sha1 of title
         uid = hashlib.sha1(row["title"].encode("utf-8")).hexdigest()
+
+        # Reject duplicate generated ids
+        if uid in ids:
+            return None
+
+        # Add to generated id list and set to list
+        ids.add(uid)
+        uid = [uid]
 
     return uid
 
@@ -153,25 +192,6 @@ def getDate(row):
             return None
 
     return None
-
-def getAuthors(row):
-    """
-    Parses an authors string from the input row.
-
-    Args:
-        row: input row
-
-    Returns:
-        authors string
-    """
-
-    authors = row["authors"]
-
-    if authors and "[" in authors:
-        # Attempt to parse list string
-        authors = "; ".join(re.findall(r"'\s*([^']*?)\s*'", authors))
-
-    return authors
 
 def getTags(sections):
     """
@@ -205,20 +225,15 @@ def getReference(row):
     """
 
     # Resolve doi link
-    text = row["doi"]
+    return ("https://doi.org/" + row["doi"]) if row["doi"] else None
 
-    if text and not text.startswith("http") and not text.startswith("doi.org"):
-        return "https://doi.org/" + text
-
-    return text
-
-def read(directory, uid):
+def read(directory, uids):
     """
     Reads body text for a given row id. Body text is returned as a list of sections.
 
     Args:
         directory: input directory
-        uid: row id
+        uids: sha hash ids
 
     Returns:
         list of sections
@@ -226,16 +241,21 @@ def read(directory, uid):
 
     sections = []
 
-    if uid:
-        # Build article path
-        article = os.path.join(directory, "articles", uid + ".json")
+    if uids:
+        for uid in uids:
+            # Build article path
+            article = os.path.join(directory, "articles", uid + ".json")
 
-        if os.path.exists(article):
-            with open(article) as jfile:
-                data = json.load(jfile)
+            if os.path.exists(article):
+                with open(article) as jfile:
+                    data = json.load(jfile)
 
-                # Extract text from each section
-                sections = [row["text"] for row in data["body_text"]]
+                    # Extract text from each section
+                    for row in data["body_text"]:
+                        # Filter out boilerplate text from indexing
+                        if not "COVID-19 resource centre remains active" in row["text"]:
+                            # Split text into sentences and add to sections
+                            sections.extend(sent_tokenize(row["text"]))
 
     return sections
 
@@ -249,61 +269,46 @@ def run():
 
     print("Building articles.db from {}".format(directory))
 
-    # Output directory - create if it doesn't exist
-    output = os.path.join(os.path.expanduser("~"), ".cord19", "models")
-    os.makedirs(output, exist_ok=True)
+    # Initialize database
+    db = init()
 
-    # Output database file
-    dbfile = os.path.join(output, "articles.db")
+    # Article and section indices
+    aindex = 0
+    sindex = 0
 
-    # Delete existing file
-    if os.path.exists(dbfile):
-        os.remove(dbfile)
-
-    # Create output database
-    db = sqlite3.connect(dbfile)
-
-    # Create articles table
-    create(db, ARTICLES, "articles")
-
-    # Create sections table
-    create(db, SECTIONS, "sections")
-
-    # Row index
-    index = 0
-    sid = 0
+    # List of generated ids, used for documents without full content
+    ids = set()
 
     with open(os.path.join(directory, "metadata.csv"), mode="r") as csvfile:
         for row in csv.DictReader(csvfile):
-            # Generate uid
-            uid = getId(row)
+            # Get uids, skip row if None, which only happens for duplicate generated ids
+            uids = getIds(row, ids)
+            if uids:
+                # Published date
+                date = getDate(row)
 
-            # Published date
-            date = getDate(row)
+                # Get text sections
+                sections = [row["title"]] + read(directory, uids)
 
-            # Get text sections
-            sections = [row["title"]] + read(directory, uid)
+                # Get tags
+                tags = getTags(sections)
 
-            # Get tags
-            tags = getTags(sections)
+                # Article row - id, source, published, publication, authors, title, tags, reference
+                article = (uids[0], row["source_x"], date, row["journal"], row["authors"], row["title"], tags, getReference(row))
+                insert(db, ARTICLES, "articles", article)
 
-            # Article row
-            # id, source, published, publication, authors, title, tags, reference
-            article = (uid, row["source_x"], date, row["journal"], getAuthors(row), row["title"], tags, getReference(row))
-            insert(db, ARTICLES, "articles", article)
+                # Increment number of articles processed
+                aindex += 1
+                if aindex % 1000 == 0:
+                    print("Inserted {} articles".format(aindex))
 
-            # Increment number of articles processed
-            index += 1
-            if index % 1000 == 0:
-                print("Inserted {} articles".format(index))
+                # Add each text section
+                for text in sections:
+                    # id, article, text, tags
+                    insert(db, SECTIONS, "sections", (sindex, uids[0], text, tags))
+                    sindex += 1
 
-            # Add each text section
-            for text in sections:
-                # id, article, text, tags
-                insert(db, SECTIONS, "sections", (sid, uid, text, tags))
-                sid += 1
-
-    print("Total rows inserted: {}".format(index))
+    print("Total articles inserted: {}".format(aindex))
 
     # Commit changes and close
     db.commit()

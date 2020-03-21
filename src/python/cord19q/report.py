@@ -2,8 +2,10 @@
 Report module
 """
 
+import datetime
 import os
 import os.path
+import re
 import sqlite3
 import sys
 
@@ -43,6 +45,37 @@ class Report(object):
         return (embeddings, db)
 
     @staticmethod
+    def date(date):
+        if date:
+            date = datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
+
+            # 1/1 dates had no month/day specified, use only year
+            if date.month == 1 and date.day == 1:
+                return date.strftime("%Y")
+
+            return date.strftime("%b %d, %Y")
+
+    @staticmethod
+    def text(text):
+        """
+        Formats match text.
+
+        Args:
+            text: input text
+
+        Returns:
+            formatted text
+        """
+
+        # Remove reference links ([1], [2], etc)
+        text = re.sub(r"\s*\[[0-9, ]+\]\s*", "", text)
+
+        # Remove •
+        text = text.replace("•", "")
+
+        return text
+
+    @staticmethod
     def write(output, line):
         """
         Writes line to output file.
@@ -74,28 +107,45 @@ class Report(object):
 
                 query = Tokenizer.tokenize(query)
 
-                for uid, score in embeddings.search(query, 10):
+                documents = {}
+                for uid, score in embeddings.search(query, 50):
                     cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
-                    section = cur.fetchone()
+                    article, text = cur.fetchone()
 
-                    if score >= 0.0:
-                        # Unpack match
-                        article, text = section
+                    if article not in documents:
+                        documents[article] = set()
 
-                        cur.execute("SELECT Title, Reference, Authors, Published, Publication from articles where id = ?", [article])
-                        article = cur.fetchone()
+                    documents[article].add((score, text))
 
-                        Report.write(output, "[%s](%s)" % (article[0], article[1]))
-                        Report.write(output, "Authors: %s" % article[2])
+                # Sort each set
+                for uid in documents:
+                    documents[uid] = sorted(list(documents[uid]), reverse=True)
 
-                        if article[3]:
-                            Report.write(output, "Published: %s" % article[3])
+                # Print each result, sorted by max score descending
+                for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True)[:10]:
+                    cur.execute("SELECT Title, Reference, Authors, Publication, Published from articles where id = ?", [uid])
+                    article = cur.fetchone()
 
-                        if article[4]:
-                            Report.write(output, "Publication: %s" % article[4])
+                    Report.write(output, "[%s](%s)" % (article[0], article[1]))
 
-                        Report.write(output, "Match (%.4f): **%s**" % (score, text))
-                        Report.write(output, "")
+                    if article[2]:
+                        Report.write(output, "by %s" % article[2])
+
+                    # Publication name and date
+                    publication = article[3] if article[3] else None
+                    if article[4]:
+                        published = Report.date(article[4])
+                        publication = (publication + " - " + published) if publication else published
+
+                    if publication and len(publication) > 0:
+                        Report.write(output, "*%s*" % publication)
+
+                    # Print each match
+                    for (_, text) in documents[uid]:
+                        Report.write(output, "- %s" % Report.text(text))
+
+                    # Start new section
+                    output.write("\n")
 
     @staticmethod
     def close(db):
