@@ -36,7 +36,6 @@ Download all the files in the Download CORD-19 section on [Semantic Scholar](htt
 and run the following commands.
 
     cd <download_path>
-    mv all_sources_metadata*.csv metadata.csv
     mkdir articles
 
 For each tar.gz file run the following
