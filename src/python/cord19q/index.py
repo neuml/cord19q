@@ -28,7 +28,8 @@ class Index(object):
         db = sqlite3.connect(dbfile)
         cur = db.cursor()
 
-        cur.execute("SELECT Id, Text FROM sections WHERE tags is not null")
+        # Index tagged sections, skip questions, focus on statements
+        cur.execute("SELECT Id, Text FROM sections WHERE tags is not null and text not like '%?%'")
 
         count = 0
         for row in cur:
