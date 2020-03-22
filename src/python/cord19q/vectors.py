@@ -160,10 +160,9 @@ class Vectors(object):
 
                     output.write(word + data + "\n")
 
-        # Convert and delete tokens, text vectors
-        print("Converting file to magnitude format")
+        # Build magnitude vectors database
+        print("Converting vectors to magnitude format")
         converter.convert(path + ".txt", path + ".magnitude", subword=True)
-        os.remove(path + ".txt")
 
 if __name__ == "__main__":
     # Resolve articles.db path and run

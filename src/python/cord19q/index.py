@@ -4,6 +4,7 @@ Indexing module
 
 import os.path
 import sqlite3
+import sys
 
 # pylint: disable = E0401
 from .embeddings import Embeddings
@@ -52,18 +53,19 @@ class Index(object):
         db.close()
 
     @staticmethod
-    def embeddings(dbfile):
+    def embeddings(dbfile, vectors):
         """
         Builds a sentence embeddings index.
 
         Args:
             dbfile: input SQLite file
+            vectors: vector path
 
         Returns:
             embeddings index
         """
 
-        embeddings = Embeddings({"path": Models.vectorPath("cord19-300d.magnitude"),
+        embeddings = Embeddings({"path": vectors,
                                  "scoring": "bm25",
                                  "pca": 3})
 
@@ -77,17 +79,23 @@ class Index(object):
         return embeddings
 
     @staticmethod
-    def run():
+    def run(vectors):
         """
         Executes an index run.
+
+        Args:
+            vectors: full path to word vectors, if None will use pre-configured path
         """
 
         path = Models.modelPath()
         dbfile = os.path.join(path, "articles.db")
 
+        # Default vectors
+        vectors = vectors if vectors else Models.vectorPath("cord19-300d.magnitude")
+
         print("Building new model")
-        embeddings = Index.embeddings(dbfile)
+        embeddings = Index.embeddings(dbfile, vectors)
         embeddings.save(path)
 
 if __name__ == "__main__":
-    Index.run()
+    Index.run(sys.argv[1] if len(sys.argv) > 1 else None)
