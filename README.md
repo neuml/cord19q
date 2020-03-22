@@ -1,4 +1,4 @@
-cord19q: CORD-19 Analysis
+cord19q: COVID-19 Open Research Dataset (CORD-19) Analysis
 ======
 
 ![CORD19](https://pages.semanticscholar.org/hs-fs/hubfs/covid-image.png?width=300&name=covid-image.png)
