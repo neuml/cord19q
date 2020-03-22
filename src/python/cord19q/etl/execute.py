@@ -6,7 +6,6 @@ import csv
 import hashlib
 import json
 import os.path
-import re
 import sqlite3
 import sys
 
@@ -151,8 +150,8 @@ def getIds(row, ids):
     """
 
     # Use sha1 provided, if available
-    uid = row["sha"].split("; ") if row["sha"] else None
-    if not uid:
+    uids = row["sha"].split("; ") if row["sha"] else None
+    if not uids:
         # Fallback to sha1 of title
         uid = hashlib.sha1(row["title"].encode("utf-8")).hexdigest()
 
@@ -162,9 +161,9 @@ def getIds(row, ids):
 
         # Add to generated id list and set to list
         ids.add(uid)
-        uid = [uid]
+        uids = [uid]
 
-    return uid
+    return uids
 
 def getDate(row):
     """
@@ -229,13 +228,13 @@ def getReference(row):
     # Resolve doi link
     return ("https://doi.org/" + row["doi"]) if row["doi"] else None
 
-def read(directory, uids):
+def read(directory, row):
     """
-    Reads body text for a given row id. Body text is returned as a list of sections.
+    Reads body text for a given row. Body text is returned as a list of sections.
 
     Args:
         directory: input directory
-        uids: sha hash ids
+        row: input row
 
     Returns:
         list of sections
@@ -243,31 +242,39 @@ def read(directory, uids):
 
     sections = []
 
-    if uids:
-        for uid in uids:
-            # Build article path
-            article = os.path.join(directory, "articles", uid + ".json")
+    # Get ids and subset
+    uids = row["sha"].split("; ") if row["sha"] else None
+    subset = row["full_text_file"]
 
-            if os.path.exists(article):
+    if uids and subset:
+        for uid in uids:
+            # Build article path. Path has subset directory twice.
+            article = os.path.join(directory, subset, subset, uid + ".json")
+
+            try:
                 with open(article) as jfile:
                     data = json.load(jfile)
 
                     # Extract text from each section
-                    for row in data["body_text"]:
+                    for section in data["body_text"]:
                         # Filter out boilerplate text from indexing
-                        if not "COVID-19 resource centre remains active" in row["text"]:
+                        if not "COVID-19 resource centre remains active" in section["text"]:
                             # Split text into sentences and add to sections
-                            sections.extend(sent_tokenize(row["text"]))
+                            sections.extend(sent_tokenize(section["text"]))
+
+            # pylint: disable=W0703
+            except Exception as ex:
+                print("Error processing text file: {}".format(article), ex)
 
     return sections
 
-def run():
+def run(directory):
     """
     Main execution method.
-    """
 
-    # Read input directory path
-    directory = sys.argv[1]
+    Args:
+        directory: input directory
+    """
 
     print("Building articles.db from {}".format(directory))
 
@@ -290,7 +297,7 @@ def run():
                 date = getDate(row)
 
                 # Get text sections
-                sections = [row["title"]] + read(directory, uids)
+                sections = [row["title"]] + read(directory, row)
 
                 # Get tags
                 tags = getTags(sections)
@@ -317,4 +324,5 @@ def run():
     db.close()
 
 if __name__ == "__main__":
-    run()
+    if len(sys.argv) > 1:
+        run(sys.argv[1])
