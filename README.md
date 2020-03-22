@@ -34,18 +34,21 @@ Download all the files in the Download CORD-19 section on [Semantic Scholar](htt
 and run the following commands.
 
     cd <download_path>
-    mkdir articles
 
 For each tar.gz file run the following
-    tar -xvzf <file.tar.gz>
-    mv <extracted_directory>/* articles
+    mkdir <file> && tar -C <file> -xvzf <file.tar.gz>
 
-Once completed, there should be a file called metadata.csv and an articles/ directory with all json articles.
+Once completed, there should be a file name metadata.csv and subdirectories for each data subset with all json articles.
 
 To build the model locally:
 
-    python -m cord19q.etl.execute <download_path>
+    # Convert csv/json files to SQLite
+    python -m cord19q.etl <download_path>
+
+    # Can optionally use pre-trained vectors
     python -m cord19q.vectors
+
+    # Build embeddings index
     python -m cord19q.index
 
 The model will be stored in ~/.cord19
