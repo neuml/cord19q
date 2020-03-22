@@ -216,7 +216,7 @@ class Etl(object):
             tags
         """
 
-        keywords = ["2019-ncov", "coronavirus 2019", "coronavirus disease 19", "covid-19", "covid 19", "ncov-2019",
+        keywords = ["2019-ncov", "2019 novel coronavirus", "coronavirus 2019", "coronavirus disease 19", "covid-19", "covid 19", "ncov-2019",
                     "sars-cov-2", "wuhan coronavirus", "wuhan pneumonia", "wuhan virus"]
 
         tags = None
