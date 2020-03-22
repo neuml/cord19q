@@ -21,15 +21,21 @@ class Report(object):
     """
 
     @staticmethod
-    def load():
+    def load(path):
         """
         Loads an embeddings model and db database.
+
+        Args:
+            path: model path, if None uses default path
 
         Returns:
             (embeddings, db handle)
         """
 
-        path = Models.modelPath()
+        # Default path if not provided
+        if not path:
+            path = Models.modelPath()
+
         dbfile = os.path.join(path, "articles.db")
 
         if os.path.isfile(os.path.join(path, "config")):
@@ -243,16 +249,17 @@ class Report(object):
         db.close()
 
     @staticmethod
-    def run(task):
+    def run(task, path):
         """
         Reads a list of queries from a task file and builds a report.
 
         Args:
             task: input task file
+            path: model path
         """
 
         # Load model
-        embeddings, db = Report.load()
+        embeddings, db = Report.load(path)
 
         # Read each task query
         with open(task, "r") as f:
@@ -266,4 +273,4 @@ class Report(object):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        Report.run(sys.argv[1])
+        Report.run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)

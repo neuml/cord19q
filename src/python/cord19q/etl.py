@@ -42,16 +42,22 @@ class Etl(object):
     """
 
     @staticmethod
-    def init():
+    def init(output):
         """
         Connects initializes a new output SQLite database.
+
+        Args:
+            output: output directory, if None uses default path
 
         Returns:
             connection to new SQLite database
         """
 
-        # Output directory - create if it doesn't exist
-        output = os.path.join(os.path.expanduser("~"), ".cord19", "models")
+        # Default path if not provided
+        if not output:
+            output = os.path.join(os.path.expanduser("~"), ".cord19", "models")
+
+        # Create if output path doesn't exist
         os.makedirs(output, exist_ok=True)
 
         # Output database file
@@ -283,18 +289,19 @@ class Etl(object):
         return sections
 
     @staticmethod
-    def run(directory):
+    def run(directory, output):
         """
         Main execution method.
 
         Args:
             directory: input directory
+            output: output directory path
         """
 
         print("Building articles.db from {}".format(directory))
 
         # Initialize database
-        db = Etl.init()
+        db = Etl.init(output)
 
         # Article and section indices
         aindex = 0
@@ -340,4 +347,4 @@ class Etl(object):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        Etl.run(sys.argv[1])
+        Etl.run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)

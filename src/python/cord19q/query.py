@@ -84,15 +84,21 @@ class Query(object):
         return text.strip()
 
     @staticmethod
-    def load():
+    def load(path):
         """
         Loads an embeddings model and db database.
+
+        Args:
+            path: model path, if None uses default path
 
         Returns:
             (embeddings, db handle)
         """
 
-        path = Models.modelPath()
+        # Default path if not provided
+        if not path:
+            path = Models.modelPath()
+
         dbfile = os.path.join(path, "articles.db")
 
         if os.path.isfile(os.path.join(path, "config")):
@@ -158,16 +164,17 @@ class Query(object):
         db.close()
 
     @staticmethod
-    def run(query):
+    def run(query, path):
         """
         Executes a query against an index.
 
         Args:
             query: input query
+            path: model path
         """
 
         # Load model
-        embeddings, db = Query.load()
+        embeddings, db = Query.load(path)
 
         # Query the database
         Query.query(embeddings, db, query)
@@ -177,4 +184,4 @@ class Query(object):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        Query.run(sys.argv[1])
+        Query.run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)

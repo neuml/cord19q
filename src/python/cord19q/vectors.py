@@ -5,6 +5,7 @@ Vectors module
 import os
 import os.path
 import sqlite3
+import sys
 import tempfile
 
 import fasttext
@@ -122,15 +123,22 @@ class Vectors(object):
         return tokens
 
     @staticmethod
-    def run(dbfile, size, mincount):
+    def run(path, size, mincount):
         """
         Converts dbfile into a fastText model using pymagnitude's SQLite output format.
 
         Args:
-            dbfile: input SQLite file
+            path: model path, if None uses default path
             size: dimensions for fastText model
             mincount: minimum number of times a token must appear in input
         """
+
+        # Default path if not provided
+        if not path:
+            path = Models.modelPath()
+
+        # Derive path to dbfile
+        dbfile = os.path.join(path, "articles.db")
 
         # Stream tokens to temporary file
         tokens = Vectors.tokens(dbfile)
@@ -165,5 +173,5 @@ class Vectors(object):
         converter.convert(path + ".txt", path + ".magnitude", subword=True)
 
 if __name__ == "__main__":
-    # Resolve articles.db path and run
-    Vectors.run(os.path.join(Models.modelPath(), "articles.db"), 300, 3)
+    # Create vector model
+    Vectors.run(sys.argv[1] if len(sys.argv) > 1 else None, 300, 3)

@@ -79,23 +79,28 @@ class Index(object):
         return embeddings
 
     @staticmethod
-    def run(vectors):
+    def run(path, vectors):
         """
         Executes an index run.
 
         Args:
-            vectors: full path to word vectors, if None will use pre-configured path
+            path: model path, if None uses default path
+            vectors: vector path, if None uses default path
         """
 
-        path = Models.modelPath()
+        # Default path if not provided
+        if not path:
+            path = Models.modelPath()
+
         dbfile = os.path.join(path, "articles.db")
 
         # Default vectors
-        vectors = vectors if vectors else Models.vectorPath("cord19-300d.magnitude")
+        if not vectors:
+            vectors = Models.vectorPath("cord19-300d.magnitude")
 
         print("Building new model")
         embeddings = Index.embeddings(dbfile, vectors)
         embeddings.save(path)
 
 if __name__ == "__main__":
-    Index.run(sys.argv[1] if len(sys.argv) > 1 else None)
+    Index.run(sys.argv[1] if len(sys.argv) > 1 else None, sys.argv[2] if len(sys.argv) > 2 else None)
