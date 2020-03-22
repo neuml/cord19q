@@ -1,10 +1,10 @@
 # Methods for coordinating data-gathering with standardized nomenclature.
 
 #### Highlights<br/>
+- To facilitate good practice and scientific exchange, the International Committee on Taxonomy of Viruses has established standardised formats for classifying viruses.<br/>
 - To facilitate good practice and scientific exchange, the CSG recommends that researchers describing new isolates of this virus and other viruses in this species adopt a standardized format for public databases and publications.<br/>
+- All information was obtained and curated with a standardized data collection form.<br/>
 - We believe that the naming of SARS-CoV-2 by the Coronavirus Study Group is aligned with the goals of the International Committee on Taxonomy of Viruses to facilitate good practice and scientific exchange.<br/>
-- To ensure functionality of the extracted entity, we first compared the entity from the subject dictionary with the human official gene symbols in the Hugo Gene Nomenclature Commission (HGNC) database to generate subject candidate genes using standard nomenclature.<br/>
-- To ensure functionality of the extracted entity, we first compared the entity from the subject dictionary with the human official gene symbols in the Hugo Gene Nomenclature Commission (HGNC) database to generate subject candidate genes using standard nomenclature.<br/>
 - To facilitate good practice and scientific exchange, the CSG recommends that researchers describing new viruses (that is, isolates) in this species adopt a standardized format for public databases and publications that closely resembles the formats used for isolates of avian coronaviruses 39 , filoviruses 40 Fig.<br/>
 
 #### Articles<br/>
@@ -15,16 +15,13 @@ by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 - Single National points of contact (SPOC) have been created to facilitate sharing of the information about nationwide medicine shortages and the coordination of emergency plans among the competent National Authorities and the EMA.<br/>
 - Moreover, the shortage-impact scores can be used as a basis for harmonizing the graphical formats of the communication campaigns in all the EU countries.<br/>
 - Considering such critical issues and the latest position papers of stakeholder associations (Various Associations, 2019a,b), the establishment of harmonized metrics to classify the impact of medicine shortage on the National Healthcare Systems is a mandatory step to enhance the cooperation among competent National Authorities of the European countries and to rationalize the efforts to mitigate them.<br/>
-- In particular, it has been highlighted the need to find collaborative solutions for medicine shortages to coordinate EU and National policies and communication campaigns.<br/>
 
 [The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2](https://doi.org/10.1038/s41564-020-0695-z)<br/>
 by Gorbalenya, Alexander E.; Baker, Susan C.; Baric, Ralph S.; de Groot, Raoul J.; Drosten, Christian; Gulyaeva, Anastasia A.; Haagmans, Bart L.; Lauber, Chris; Leontovich, Andrey M.; Neuman, Benjamin W.; Penzar, Dmitry; Perlman, Stanley; Poon, Leo L. M.; Samborskiy, Dmitry V.; Sidorov, Igor A.; Sola, Isabel; Ziebuhr, John; Coronaviridae Study Group of the International Committee on Taxonomy of, Viruses<br/>
 *Nature Microbiology - 2020*<br/>
-- ICTV Study Groups may also be involved in virus naming on a case-by-case basis as an extension of their official remit, as well as using the special expertise of their members.<br/>
-- Virus nomenclature is a formal system of names used to label viruses and taxa.<br/>
+- This is formally addressed in the framework of the official classification of virus taxonomy and is overseen and coordinated by the ICTV 4 .<br/>
+- The adoption of accurate virus-naming practices should be facilitated by the major revision of the virus species nomenclature that is currently being discussed by the ICTV and is being planned for implementation in the near future 43 .<br/>
 - To facilitate good practice and scientific exchange, the CSG recommends that researchers describing new viruses (that is, isolates) in this species adopt a standardized format for public databases and publications that closely resembles the formats used for isolates of avian coronaviruses 39 , filoviruses 40 Fig.<br/>
-- Establishing a universal nomenclature for viruses was one of the major tasks of the ICTV when it was founded more than 50 years ago 4 .<br/>
-- A first step towards appreciation of this species and others would be for researchers, journals, databases and other relevant bodies to adopt proper referencing to the full taxonomy of coronaviruses under study, including explicit mentioning of the relevant virus species and the specific virus(es) within the species using the ICTV naming rules explained above.<br/>
 
 [Machine learning using intrinsic genomic signatures for rapid classification of novel pathogens: COVID-19 case study](https://doi.org/10.1101/2020.02.03.932350)<br/>
 by Randhawa, G. S.; Soltysiak, M. P. M.; El Roz, H.; de Souza, C. P. E.; Hill, K. A.; Kari, L.<br/>
@@ -33,63 +30,58 @@ by Randhawa, G. S.; Soltysiak, M. P. M.; El Roz, H.; de Souza, C. P. E.; Hill, K
 - This study suggests that such alignment-free approaches 465 to comparative genomics can be used to complement alignment-based approaches when 466 timely taxonomic classification is of the essence, such as at critical periods during novel 467 viral outbreaks.<br/>
 - Our method 89 delivers accurate classifications of COVID-19 without a priori biological knowledge, by 90 a simultaneous processing of the geometric space of all relevant viral genomes.<br/>
 
+[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
+by Deng, Sheng-Qun; Peng, Hong-Juan<br/>
+*J Clin Med - 2020*<br/>
+- Organization, coordination, supervision, and evaluation of the monitoring work; collection, analysis, report, and feedback of the monitoring data; epidemiological investigation; strengthening laboratory testing ability, bio-safety protection awareness, and technical training; carrying out health education and publicity and risk communication to the public.<br/>
+- Overall guidance of epidemic control, organizing a technical expert group for prevention and control; formulation and improvement of relevant work and technical schemes, and implementation of funds and materials for disease prevention and control; tracking and management of close contacts.<br/>
+- In accordance with the working principle of "prevention first, prevention and control combined, scientific guidance and timely treatment", the prevention and control work shall be carried out in a coordinated and standardized way .<br/>
+
 [SARS-CoV-2 is an appropriate name for the new coronavirus](https://doi.org/10.1016/S0140-6736(20)30557-2)<br/>
 by Wu, Yuntao; Ho, Wenzhe; Huang, Yaowei; Jin, Dong-Yan; Li, Shiyue; Liu, Shan-Lu; Liu, Xuefeng; Qiu, Jianming; Sang, Yongming; Wang, Qiuhong; Yuen, Kwok-Yung; Zheng, Zhi-Ming<br/>
 *The Lancet - Mar 06, 2020*<br/>
 - To facilitate good practice and scientific exchange, the International Committee on Taxonomy of Viruses has established standardised formats for classifying viruses.<br/>
 - We believe that the naming of SARS-CoV-2 by the Coronavirus Study Group is aligned with the goals of the International Committee on Taxonomy of Viruses to facilitate good practice and scientific exchange.<br/>
 
+[Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: a population-level observational study](https://doi.org/10.1016/S2589-7500(20)30026-1)<br/>
+by Sun, Kaiyuan; Chen, Jenny; Viboud, Cécile<br/>
+*The Lancet Digital Health - 2020*<br/>
+- At the time of writing, efforts are underway to coordinate compilation of COVID-19 data from online sources across several academic teams.<br/>
+- Furthermore, data interpretability could be improved by gathering more quantitative information on how case definitions are used in practice.<br/>
+
 [Severe acute respiratory syndrome-related coronavirus - The species and its viruses, a statement of the Coronavirus Study Group](https://doi.org/10.1101/2020.02.07.937862)<br/>
 by Gorbalenya, A. E.<br/>
 *Feb 11, 2020*<br/>
 - To facilitate good practice and scientific exchange, the CSG recommends that researchers describing new isolates of this virus and other viruses in this species adopt a standardized format for public databases and publications.<br/>
-- The CSG uses a computational framework of comparative genomics 22 that is shared by several Study Groups concerned with the classification and nomenclature of the order Nidovirales and coordinated by the Nidovirales Study Group 23 (Box 3).<br/>
+- This necessary adjustment may be facilitated by the major revision of the virus species nomenclature that is currently being discussed by ICTV and planned to be implemented in the near future 33 .<br/>
 
-[TWIRLS, an automated topic-wise inference method based on massive literature, suggests a possible mechanism via ACE2 for the pathological changes in the human host after coronavirus infection](https://doi.org/10.1101/2020.02.27.967588)<br/>
-by Ji, X.; Zhang, C.; Zhai, Y.; Zhang, Z.; Zhang, C.; Xue, Y.; Tan, G.; Niu, G.<br/>
-*Mar 02, 2020*<br/>
-- To ensure functionality of the extracted entity, we first compared the entity from the subject dictionary with the human official gene symbols in the Hugo Gene Nomenclature Commission (HGNC) database to generate subject candidate genes using standard nomenclature.<br/>
-- The gene names were defined using the mammalian official gene symbols in the Hugo Gene Naming Committee (HGNC) database.<br/>
+[Voice from China: nomenclature of the novel coronavirus and related diseases](https://doi.org/10.1097/CM9.0000000000000787)<br/>
+*Chin Med J (Engl) - 2020*<br/>
+- On the basis of the historical nomenclature procedure, I suggest to establish a standardized nomenclature process for coronaviruses.<br/>
 
-[TWIRLS, an automated topic-wise inference method based on massive literature, suggests a possible mechanism via ACE2 for the pathological changes in the human host after coronavirus infection](https://doi.org/10.1101/2020.02.24.20025437)<br/>
-by Xiaoyang Ji; Chunming Zhang; Yubo Zhai; Zhonghai Zhang; Yiqing Xue; Chunli Zhang; Guangming Tan; Gang Niu<br/>
-*Feb 26, 2020*<br/>
-- To ensure functionality of the extracted entity, we first compared the entity from the subject dictionary with the human official gene symbols in the Hugo Gene Nomenclature Commission (HGNC) database to generate subject candidate genes using standard nomenclature.<br/>
-- The gene names were defined using the mammalian official gene symbols in the Hugo Gene Naming Committee (HGNC) database.<br/>
+[Early epidemiological analysis of the 2019-nCoV outbreak based on a crowdsourced data](https://doi.org/10.1101/2020.01.31.20019935)<br/>
+- At the time of this writing, efforts are underway to coordinate compilation of 2019-nCoV cases from on-line sources across various modeling teams.<br/>
 
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045)<br/>
-by Corman, Victor M; Landt, Olfert; Kaiser, Marco; Molenkamp, Richard; Meijer, Adam; Chu, Daniel KW; Bleicker, Tobias; Brünink, Sebastian; Schneider, Julia; Schmidt, Marie Luisa; Mulders, Daphne GJC; Haagmans, Bart L; van der Veer, Bas; van den Brink, Sharon; Wijsman, Lisa; Goderski, Gabriel; Romette, Jean-Louis; Ellis, Joanna; Zambon, Maria; Peiris, Malik; Goossens, Herman; Reusken, Chantal; Koopmans, Marion PG; Drosten, Christian<br/>
-*Euro Surveill - Jan 23, 2020*<br/>
-- The internal use of samples for diagnostic workflow optimisation was agreed under the medical ethical rules of each of the participating partners.<br/>
-- We have previously demonstrated the feasibility of introducing robust detection technology based on real-time RT-PCR in public health laboratories during international health emergencies by coordination between public and academic laboratories       .<br/>
-
-[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
-by Deng, Sheng-Qun; Peng, Hong-Juan<br/>
-*J Clin Med - 2020*<br/>
-- Organization, coordination, supervision, and evaluation of the monitoring work; collection, analysis, report, and feedback of the monitoring data; epidemiological investigation; strengthening laboratory testing ability, bio-safety protection awareness, and technical training; carrying out health education and publicity and risk communication to the public.<br/>
-- Overall guidance of epidemic control, organizing a technical expert group for prevention and control; formulation and improvement of relevant work and technical schemes, and implementation of funds and materials for disease prevention and control; tracking and management of close contacts.<br/>
-
-[Prospect and application of Internet of Things technology for prevention of SARIs](https://doi.org/10.1016/j.ceh.2020.02.001)<br/>
-by Song, Yuanlin; Jiang, Jinjun; Wang, Xun; Yang, Dawei; Bai, Chunxue<br/>
-*Clinical eHealth - Dec 31, 2020*<br/>
-- mIoT is the science of intelligent identification, location, monitoring, and AI services for SARI patients using RFID, Global Positioning Systems, different sensing devices, information exchange, and communication according to an agreed arrangement.<br/>
-- It uses a variety of technical means including multimedia, 3D modeling, real-time tracking and registration, intelligent interaction, and sensing to simulate computer-generated text, images, 3D models, music, video, and other virtual information, and apply these to the real world.<br/>
+[Clinical features and sexual transmission potential of SARS-CoV-2 infected female patients: a descriptive study in Wuhan, China](https://doi.org/10.1101/2020.02.26.20028225)<br/>
+by Pengfei Cui; Zhe Chen; Tian Wang; Jun Dai; Jinjin Zhang; Ting Ding; Jingjing Jiang; Jia Liu; Cong Zhang; Wanying Shan; Sheng Wang; Yueguang Rong; Jiang Chang; Xiaoping Miao; Xiangyi Ma; Shixuan Wang<br/>
+*Feb 27, 2020*<br/>
+- All information was obtained and curated with a standardized data collection form.<br/>
 
 # Sharing response information among planners, providers, and others.
 
 #### Highlights<br/>
 - Accordingly, it is critical that public health decision-makers, health authorities, and health care providers across disciplines understand how health anxiety will influence responses to viral outbreaks, including current responses to COVID-19.<br/>
 - As information and recommendations about COVID-19 continue to evolve, we want to emphasize our support of the CDC and other public health partners as the appropriate source of information and guidance for health care organizations and providers.<br/>
--  Identify specific staff to communicate and collaborate with state or local public health authorities.<br/>
 - National primary care bodies can coordinate with public health leads to cascade information to practitioners, communicate with the public, and collate health intelligence from the frontline primary care.<br/>
+- Despite the potential for genome sequencing to revolutionize outbreak response, the global public health community still struggles to coordinate data sharing across international borders, between academic researchers, and with private companies   .<br/>
 - A guideline was published for the medical staff, healthcare providers, and, public health individuals and researchers who are interested in the 2019-nCoV .<br/>
 
 #### Articles<br/>
 [A disconnected policy network: The UK's response to the Sierra Leone Ebola epidemic](https://doi.org/10.1016/j.socscimed.2020.112851)<br/>
 by Georgalakis, James<br/>
 *Social Science & Medicine - Apr 30, 2020*<br/>
-- We know that many informal interactions between researchers, officials and humanitarians are not captured here.<br/>
 - The network was a diverse group of scientists, practitioners and policy professionals.<br/>
+- We know that many informal interactions between researchers, officials and humanitarians are not captured here.<br/>
 - By analysing data pertaining to researchers' and policy professionals' participation in policy networks one can test assumptions around interdisciplinarity and identify powerful knowledge gatekeepers.<br/>
 
 [SARS to novel coronavirus – old lessons and new lessons](https://doi.org/10.1017/S0950268820000254)<br/>
@@ -103,8 +95,8 @@ by McCloskey, Brian; Heymann, David L.<br/>
 by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 *International Journal of Pharmaceutics - Apr 15, 2020*<br/>
 - Single National points of contact (SPOC) have been created to facilitate sharing of the information about nationwide medicine shortages and the coordination of emergency plans among the competent National Authorities and the EMA.<br/>
-- Although the proposed definition was relevant only for Marketing Authorization Holders (MAHs) and Regulatory Authorities, it is the first step to promote the communication and the coordination among European pharmaceutical stakeholders, regulators and professionals working in the different National Healthcare Systems for improving their resilience to shortages.<br/>
 - In May 2019 more than 30 organisations representing patients, consumers, healthcare professionals and public health advocates stimulated the European Commission to do more in identifying the factors leading to medicines shortages and providing clear and transparent information on the root causes (Various Associations, 2019a).<br/>
+- Although the proposed definition was relevant only for Marketing Authorization Holders (MAHs) and Regulatory Authorities, it is the first step to promote the communication and the coordination among European pharmaceutical stakeholders, regulators and professionals working in the different National Healthcare Systems for improving their resilience to shortages.<br/>
 
 [How health anxiety influences responses to viral outbreaks like COVID-19: What all decision-makers, health authorities, and health care professionals need to know](https://doi.org/10.1016/j.janxdis.2020.102211)<br/>
 by Asmundson, Gordon J.G.; Taylor, Steven<br/>
@@ -136,36 +128,36 @@ by SarahAnn M McFadden; Amyn A Malik; Obianuju G Aguolu; Kathryn S Willebrand; S
 - Responsive, open, and respectful communication with the US population by these agencies may improve public health compliance and safety.<br/>
 - Although risk of contracting the disease in the United States (US) is currently low , it is important to understand risk perceptions about COVID-19 and trust in political and public health/scientific leadership among the US population to better inform messaging and policies .<br/>
 
-[Are high-performing health systems resilient against the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30551-1)<br/>
-by Legido-Quigley, Helena; Asgari, Nima; Teo, Yik Ying; Leung, Gabriel M; Oshitani, Hitoshi; Fukuda, Keiji; Cook, Alex R; Hsu, Li Yang; Shibuya, Kenji; Heymann, David<br/>
-*The Lancet - Mar 20, 2020*<br/>
-- 6 Singapore health authorities provide daily information on mainstream media, the Ministry of Health has Telegram and WhatsApp groups set up with doctors in the public and private sectors where more detailed clinical and logistics information is shared, and authorities use websites to debunk circulating misinformation.<br/>
-- Timely, accurate, and transparent risk communication is essential and challenging in emergencies because it determines whether the public will trust authorities more than rumours and misinformation.<br/>
-
 [From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](https://doi.org/10.1101/2020.02.20.20025957)<br/>
 by Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
 *Feb 23, 2020*<br/>
 - When facing the rapid spread of an epidemic, the ability to deliver clinical care in a timely manner requires effective relational coordination mechanisms amongst government authorities, hospitals, and patients 3 .<br/>
 - As telemedicine has inevitably altered the traditional working relationships within the healthcare network, how to ensure high-quality communication among healthcare practitioners poses a significant challenge.<br/>
 
+[2020 year of the nurse and midwife: Meeting new challenges](https://doi.org/10.1016/j.ienj.2020.100848)<br/>
+by Bell, Sue Anne; Brysiewicz, Petra<br/>
+*International Emergency Nursing - Mar 14, 2020*<br/>
+- Nurses are respected worldwide for their trust and ethics in providing care to individuals and the public.<br/>
+- These changes are endangering our planet as well as ourselves and prominent nursing organisations are highlighting the essential role that nurses have to play in public health, clinical care, emergency services, research, and advocacy to reduce and respond to these health consequences .<br/>
+
 # Understanding and mitigating barriers to information-sharing.
 
 #### Highlights<br/>
-- We hope that these insights may help to mitigate the global impacts of nCoV 368 by guiding effective decision-making in both high-and low-resource countries, and may 369 contribute to prospective improvements in travel screening policy for future emerging infections.<br/>
+- Tracking heroisation and blame dynamics in realtime, as epidemics unfold, can help health authorities to understand public attitudes both to the threats posed by epidemics and the hope offered by health interventions, to fine-tune targeted health communication strategies accordingly, to identify and amplify local and international heroes, to identify and counter attempts to blame, scapegoat, and spread misinformation, and to improve crisis management practices for the future.<br/>
 - We hope that these insights may help to mitigate the global impacts of COVID-19 by guiding effective decision-making in both high-and low-resource countries, and may contribute to prospective improvements in screening policy for future emerging infections.<br/>
+- We hope that these insights may help to mitigate the global impacts of nCoV 368 by guiding effective decision-making in both high-and low-resource countries, and may 369 contribute to prospective improvements in travel screening policy for future emerging infections.<br/>
 - Given the current epidemic and limited understanding of the epidemiology of this disease, our findings on travel patterns from historical data can help contribute to tailoring public health interventions.<br/>
 - Restoring public confidence in public health measures in imperative otherwise public fear and apprehension might hinder the local, national, regional and international efforts and measures to tackling global health emergency issues such as the Covid-19 outbreak.<br/>
-- 2, 3 Such data can provide insight into infectivity, routes of transmission, disease severity, and outcomes, thus enabling epidemiologic modelling and improved public health responses.<br/>
 
 #### Articles<br/>
 [A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
 by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
 *Int Health - Feb 10, 2020*<br/>
 - 14 However, detailed knowledge of the social and ecological mechanisms of zoonotic disease emergence in the region is limited, and therefore cannot yet inform evidence-based policies and practices for targeted surveillance programmes.<br/>
+- 28 At the individual level, both risk and protective factors were analysed in terms of the individuals' knowledge, attitudes and practices to better understand the risk factors for identifying context-based strategies.<br/>
 - 9,10 Further research to identify the risk factors among different populations will help develop more locally-relevant and fine-tuned risk mitigation strategies and address the social and ecological bias to identifying recommendations for other community settings.<br/>
 - Closer collaboration between local animal and human health authorities within the current epidemic disease prevention programmes will provide educational and training opportunities to promote risk-mitigation knowledge, skills and best practice in local communities.<br/>
 - 15 Using a qualitative approach through ethnographic interviews and field observations, this study aimed to understand interactions among humans, animals and ecosystems, to shed light on the zoonotic risks in these presumed high-risk communities and to develop an evidence base for identifying appropriate strategies for zoonotic risk mitigation.<br/>
-- 31 Existing local preliminary programmes and policies around human and animal health, community development and conservation are considered effective resources to begin or continue developing cost-effective strategies to mitigate zoonotic risks.<br/>
 
 [A disconnected policy network: The UK's response to the Sierra Leone Ebola epidemic](https://doi.org/10.1016/j.socscimed.2020.112851)<br/>
 by Georgalakis, James<br/>
@@ -174,6 +166,7 @@ by Georgalakis, James<br/>
 - Network theory provides a useful framework with which to explore the politics of knowledge in global health with its emphasis on individuals' social context.<br/>
 - Debates around issues, such as the level to which communities could reduce transmission rates themselves, did not prevent this group from providing a coherent response to the key policy dilemmas.<br/>
 - Global health governance is increasingly focused on epidemic and pandemic health emergencies that require an interdisciplinary approach to accessing scientific knowledge to guide preparedness and crisis response.<br/>
+- By analysing data pertaining to researchers' and policy professionals' participation in policy networks one can test assumptions around interdisciplinarity and identify powerful knowledge gatekeepers.<br/>
 
 [New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
 by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
@@ -200,12 +193,6 @@ by Hanchu Zhou; Jianan Yang; Kaichen Tang; Qingpeng Zhang; zhidong cao; Dirk Pfe
 - This study is aimed to shed light on these questions by developing a vulnerability analysis framework integrating the human movement and healthcare resource data.<br/>
 - The reported vulnerability analysis informs public health response to the 2019-nCoV epidemic in multiple ways.<br/>
 
-[Health, distress, and life satisfaction of people one-month into COVID-19 outbreak in China](https://doi.org/10.1101/2020.03.13.20034496)<br/>
-by Stephen X Zhang; Yifei Wang; Andreas Rauch; Feng Wei<br/>
-*Mar 16, 2020*<br/>
-- Understanding the health and wellbeing implications of the measures introduced to reduce the COVID-19 infection allows better-informed decisions.<br/>
-- Policymakers who are considering introducing restrictive measures to contain COVID-19 may benefit from understanding such health and wellbeing implications.<br/>
-
 [An epidemiological forecast model and software assessing interventions on COVID-19 epidemic in China](https://doi.org/10.1101/2020.02.29.20029421)<br/>
 by Peter X Song; Lili Wang; Yiwang Zhou; Jie He; Bin Zhu; Fei Wang; Lu Tang; Marisa Eisenberg<br/>
 *Mar 03, 2020*<br/>
@@ -221,30 +208,34 @@ by Lai, Chih-Cheng; Shih, Tzu-Ping; Ko, Wen-Chien; Tang, Hung-Jen; Hsueh, Po-Ren
 *International Journal of Antimicrobial Agents - Mar 31, 2020*<br/>
 - Governments should be responsible for providing accurate knowledge and clarifying misinformation to help the public face this novel infection.<br/>
 
+[Emerging understandings of 2019-nCoV](https://doi.org/10.1016/S0140-6736(20)30186-0)<br/>
+by The Lancet, <br/>
+*The Lancet - Feb 07, 2020*<br/>
+- Emerging understandings of 2019-nCoV<br/>
+
 # How to recruit, support, and coordinate local (non-Federal) expertise and capacity relevant to public health emergency response (public, private, commercial and non-profit, including academic).
 
 #### Highlights<br/>
 - This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.<br/>
-- This research did not receive any specific grant from funding agencies in the public, commercial, or not-for profit sectors.<br/>
 -  Identify specific staff to communicate and collaborate with state or local public health authorities.<br/>
+- This research did not receive any specific grant from funding agencies in the public, commercial, or not-for profit sectors.<br/>
 - To address hospital needs and to receive medical directives, the COVID-19 response team maintains direct contacts with local hospitals and regional public health authorities.<br/>
 - 4, 5 Crowdsourcing enables the collection of data from multiple platforms including health-care-oriented social networks, government and public health agencies, and global news sources.<br/>
 
 #### Articles<br/>
-[A disconnected policy network: The UK's response to the Sierra Leone Ebola epidemic](https://doi.org/10.1016/j.socscimed.2020.112851)<br/>
-by Georgalakis, James<br/>
-*Social Science & Medicine - Apr 30, 2020*<br/>
-- The Government was already drawing on the expertise and capacity of Public Health England (PHE), the Ministry of Defence (MOD) and the Department of Health (DoH), to drive its response but social scientists had no seat at the table.<br/>
-- 3 ) are affiliated to a research organisation, whereas one third of the members of other scientific disciplines are attached to government institutions, donors or multilaterals.<br/>
-- There was also an evaluation of the Community Care Centres and additional funding from DFID supported village-level fieldwork by ERAP researchers from Njala University, leading to advice to social mobilisation teams.<br/>
-- The British Government assumed responsibility for Sierra Leone and sought guidance from health officials, academics, humanitarian agencies and clinicians.<br/>
-
 [Community pharmacist in public health emergencies: Quick to action against the coronavirus 2019-nCoV outbreak](https://doi.org/10.1016/j.sapharm.2020.02.003)<br/>
 by Ung, Carolina Oi Lam<br/>
 *Research in Social and Administrative Pharmacy - Feb 12, 2020*<br/>
 - For pharmacists to assume a role in the health emergency preparedness and response arrangements at community level, public private partnership and the application of real-world data have been shown to be vital.<br/>
 - 3 To support infection prevention and control overseen by the health department, departments of economy and finance, police service and customs, information, tourism, gaming, social welfare, consumer protection, municipal affairs, education formed partnerships to step up border control and surveillance, execute isolation and quarantine measures, promote personal and environmental hygiene, ensure medical and daily supply stability and monitor the pricing, deliver public and tourist education, and disseminate accurate up-to-date information on a unified platform.<br/>
 - On January 5, 2020, the local government swiftly took the lead in coordinating and communicating actions across various sectors.<br/>
+
+[Weaponized Interdependence: China's Economic Statecraft and Social Penetration against Taiwan](https://doi.org/10.1016/j.orbis.2020.02.002)<br/>
+by Chang, Chia-Chien; Yang, Alan H.<br/>
+*Orbis - Mar 04, 2020*<br/>
+- 52 Local governments offer young entrepreneurs with funding for startups, working spaces, law services (ex.<br/>
+- Chinese state-owned or state-backed enterprises constantly use their enormous financial resources to lure Taiwanese companies, especially those with crucial know-how, to cooperate and jointly develop business.<br/>
+- For example, both approaches include approaching/inviting Taiwan's opinion leaders, 48 China's Economic Statecraft and Social Penetration against Taiwan local politicians, community leaders, 49 and key figures, such as retired ministers, 50 exmilitary generals, religious leaders, school principals, and teachers, as well as young students to take part in cross-Strait forums and various exchange programs organized by China's public and private sectors.<br/>
 
 [New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
 by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
@@ -253,17 +244,18 @@ by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 - Single National points of contact (SPOC) have been created to facilitate sharing of the information about nationwide medicine shortages and the coordination of emergency plans among the competent National Authorities and the EMA.<br/>
 - Such a procedure may be fully integrable with other existing and adopted strategies and, therefore, it may be an added value for both European Regulatory Authorities and other subjects involved in the National pharmaceutical distribution chains and healthcare systems (e.g., manufacturers, wholesalers, hospitals, pharmacies, insurance companies, regional healthcare Authorities).<br/>
 
+[A disconnected policy network: The UK's response to the Sierra Leone Ebola epidemic](https://doi.org/10.1016/j.socscimed.2020.112851)<br/>
+by Georgalakis, James<br/>
+*Social Science & Medicine - Apr 30, 2020*<br/>
+- The Government was already drawing on the expertise and capacity of Public Health England (PHE), the Ministry of Defence (MOD) and the Department of Health (DoH), to drive its response but social scientists had no seat at the table.<br/>
+- 3 ) are affiliated to a research organisation, whereas one third of the members of other scientific disciplines are attached to government institutions, donors or multilaterals.<br/>
+- There was also an evaluation of the Community Care Centres and additional funding from DFID supported village-level fieldwork by ERAP researchers from Njala University, leading to advice to social mobilisation teams.<br/>
+
 [The coronavirus outbreak: the central role of primary care in emergency preparedness and response](https://doi.org/10.3399/bjgpopen20X101041)<br/>
 by Dunlop, C.; Howe, A.; Li, D.; Allen, L. N.<br/>
 *BJGP open - 2020*<br/>
 - National primary care bodies can coordinate with public health leads to cascade information to practitioners, communicate with the public, and collate health intelligence from the frontline primary care.<br/>
 - 9 Strong health systems built on comprehensive primary care are able to integrate both functions, disseminating the emergency response resources and information required to community-level staff who have the breadth of training required to manage new suspected cases alongside routine family medicine.<br/>
-
-[Preparing for a Surge of Coronavirus Cases](https://doi.org/10.1016/j.jcjq.2020.03.001)<br/>
-by Baker, David W.<br/>
-*The Joint Commission Journal on Quality and Patient Safety - Mar 07, 2020*<br/>
--  Identify specific staff to communicate and collaborate with state or local public health authorities.<br/>
-- As information and recommendations about COVID-19 continue to evolve, we want to emphasize our support of the CDC and other public health partners as the appropriate source of information and guidance for health care organizations and providers.<br/>
 
 [From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](https://doi.org/10.1101/2020.02.20.20025957)<br/>
 by Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
@@ -289,19 +281,19 @@ by Legido-Quigley, Helena; Asgari, Nima; Teo, Yik Ying; Leung, Gabriel M; Oshita
 - 6 Singapore health authorities provide daily information on mainstream media, the Ministry of Health has Telegram and WhatsApp groups set up with doctors in the public and private sectors where more detailed clinical and logistics information is shared, and authorities use websites to debunk circulating misinformation.<br/>
 - In Japan, as the capacity at designated hospitals becomes overstretched, the coordination between hospitals and local government will be a major challenge.<br/>
 
-[The Fight against the 2019-nCoV Outbreak: an Arduous March Has Just Begun](https://doi.org/10.3346/jkms.2020.35.e56)<br/>
-by Yoo, Jin-Hong<br/>
-*J Korean Med Sci - Jan 30, 2020*<br/>
-- In fact, at present, cooperation between community health centers and private hospitals is not always harmonious.<br/>
-- Because epidemic is a national disaster, not only medical institutions but also governments have to be active.<br/>
+[COVID-19: the medium is the message](https://doi.org/10.1016/S0140-6736(20)30600-0)<br/>
+by Garrett, Laurie<br/>
+*The Lancet - Mar 11, 2020*<br/>
+- The United Nations Foundation could designate a special Emergency Fund for Pandemic Information (EFPI) to be managed by an independent (non-UN) panel of communications experts.<br/>
+- If governments, agencies, and health organisations want people at risk of infection to respond to COVID-19 with an appropriate level of alert, to cooperate with health authorities, and to act with compassion and humanity, I believe that they must be willing to fund their messengers on an unprecedented scale, with genuine urgency.<br/>
 
 # Integration of federal/state/local public health surveillance systems.
 
 #### Highlights<br/>
 - Notably, DXY.cn does not generate data outside of traditional surveillance systems but rather provides a channel of rapid communication between the public and health authorities.<br/>
+- Big data and artificial intelligence systems are tools that can be used to fully integrate the information, conduct comprehensive research and analyze public health risks.<br/>
 - Whilst strong epidemiology and surveillance systems are indispensable tools for the detection and monitoring of outbreaks and public health emergencies, strong primary care systems form the foundation of any emergency response.<br/>
 - But trust is a crucial support to public health systems.<br/>
-- Since SARS in 2003, China has implemented legislation on the surveillance, reporting and early warning system of infectious diseases, requiring the regular release of information during public health emergencies.<br/>
 - The application of such a vast technical and operational set of interventions depends on countries' public health and laboratory infrastructures and resources.<br/>
 
 #### Articles<br/>
@@ -320,6 +312,12 @@ by Legido-Quigley, Helena; Asgari, Nima; Teo, Yik Ying; Leung, Gabriel M; Oshita
 - Fourth, the three health systems developed plans to sustain routine health-care services, but the integration of services has been problematic.<br/>
 - The interoperability of systems between the government health department and public hospitals in Hong Kong is not optimal.<br/>
 - The first is that integration of services in the health system and across other sectors amplifies the ability to absorb and adapt to shock.<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Big data and artificial intelligence systems are tools that can be used to fully integrate the information, conduct comprehensive research and analyze public health risks.<br/>
+- Since SARS in 2003, China has implemented legislation on the surveillance, reporting and early warning system of infectious diseases, requiring the regular release of information during public health emergencies.<br/>
 
 [The coronavirus outbreak: the central role of primary care in emergency preparedness and response](https://doi.org/10.3399/bjgpopen20X101041)<br/>
 by Dunlop, C.; Howe, A.; Li, D.; Allen, L. N.<br/>
@@ -345,6 +343,12 @@ by Galaxy and HyPhy developments teams,  ; Nekrutenko, A.; Kosakovsky Pond, S. L
 - Here we show that community efforts in developing open analytical software tools over the past ten years, combined with national investments into scientific computational infrastructure, can overcome these deficiencies and provide an accessible platform for tackling global health emergencies in an open and transparent manner.<br/>
 - This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure.<br/>
 
+[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
+by Deng, Sheng-Qun; Peng, Hong-Juan<br/>
+*J Clin Med - 2020*<br/>
+- The strengthening of public health surveillance, hygiene knowledge publicity, and monitoring of public places and key groups is required.<br/>
+- Organization, coordination, supervision, and evaluation of the monitoring work; collection, analysis, report, and feedback of the monitoring data; epidemiological investigation; strengthening laboratory testing ability, bio-safety protection awareness, and technical training; carrying out health education and publicity and risk communication to the public.<br/>
+
 [From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](https://doi.org/10.1101/2020.02.20.20025957)<br/>
 by Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
 *Feb 23, 2020*<br/>
@@ -355,16 +359,6 @@ by Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Ba
 by McCloskey, Brian; Heymann, David L.<br/>
 *Epidemiol Infect.; 148:e22 - 2020*<br/>
 - These contribute to, and amplify, epidemic intelligence and are being integrated with national and international surveillance systems.<br/>
-
-[Transmission and epidemiological characteristics of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) infected Pneumonia (COVID-19): preliminary evidence obtained in comparison with 2003-SARS](https://doi.org/10.1101/2020.01.30.20019836)<br/>
-by Rongqiang Zhang; Hui Liu; Fengying Li; Bei Zhang; Qiling Liu; Xiangwen Li; Limei Luo<br/>
-*Feb 02, 2020*<br/>
-- Subsequently, the Chinese government implemented a series of reforms in the public health field, such as reorganization of the CDC, training public health professionals, and establishing the disease information system covering the whole country, the establishment of a complete reporting system for infectious diseases and an excellent mechanism for handling public health emergencies, etc.<br/>
-
-[Early epidemiological analysis of the coronavirus disease 2019 outbreak based on crowdsourced data: a population-level observational study](https://doi.org/10.1016/S2589-7500(20)30026-1)<br/>
-by Sun, Kaiyuan; Chen, Jenny; Viboud, Cécile<br/>
-*The Lancet Digital Health - 2020*<br/>
-- Notably, DXY.cn does not generate data outside of traditional surveillance systems but rather provides a channel of rapid communication between the public and health authorities.<br/>
 
 # Value of investments in baseline public health response infrastructure preparedness
 
@@ -416,17 +410,17 @@ by Ung, Carolina Oi Lam<br/>
 - For pharmacists to assume a role in the health emergency preparedness and response arrangements at community level, public private partnership and the application of real-world data have been shown to be vital.<br/>
 - 3 To support infection prevention and control overseen by the health department, departments of economy and finance, police service and customs, information, tourism, gaming, social welfare, consumer protection, municipal affairs, education formed partnerships to step up border control and surveillance, execute isolation and quarantine measures, promote personal and environmental hygiene, ensure medical and daily supply stability and monitor the pricing, deliver public and tourist education, and disseminate accurate up-to-date information on a unified platform.<br/>
 
-[Passengers' destinations from China: low risk of Novel Coronavirus (2019-nCoV) transmission into Africa and South America](https://doi.org/10.1017/S0950268820000424)<br/>
-by Haider, Najmul; Yavlinsky, Alexei; Simons, David; Osman, Abdinasir Yusuf; Ntoumi, Francine; Zumla, Alimuddin; Kock, Richard<br/>
-*Epidemiol Infect - 2020*<br/>
-- The authors suggest an ongoing risk-based approach to the prioritisation of and investment by international and national agencies and authorities, in emergency interventions for the prevention of movement of 2019-nCoV (SARS-COV-2) through human travel.<br/>
-- These countries are at risk and they should be the priorities for investment in case detection and airport screening.<br/>
-
 [2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
 by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
 *Journal of Infection in Developing Countries - 2020*<br/>
 - Community and healthcare preparedness in response to coronavirus outbreaks remain ongoing obstacles for global public health.<br/>
 - Deficiencies in outbreak preparedness and healthcare network coordination efforts must ultimately be considered in response efforts.<br/>
+
+[Passengers' destinations from China: low risk of Novel Coronavirus (2019-nCoV) transmission into Africa and South America](https://doi.org/10.1017/S0950268820000424)<br/>
+by Haider, Najmul; Yavlinsky, Alexei; Simons, David; Osman, Abdinasir Yusuf; Ntoumi, Francine; Zumla, Alimuddin; Kock, Richard<br/>
+*Epidemiol Infect - 2020*<br/>
+- The authors suggest an ongoing risk-based approach to the prioritisation of and investment by international and national agencies and authorities, in emergency interventions for the prevention of movement of 2019-nCoV (SARS-COV-2) through human travel.<br/>
+- These countries are at risk and they should be the priorities for investment in case detection and airport screening.<br/>
 
 [Is Africa prepared for tackling the COVID-19 (SARS-CoV-2) epidemic. Lessons from past outbreaks, ongoing pan-African public health efforts, and implications for the future](https://doi.org/10.1016/j.ijid.2020.02.049)<br/>
 by Kapata, Nathan; Ihekweazu, Chikwe; Ntoumi, Francine; Raji, Tajudeen; Chanda-Kapata, Pascalina; Mwaba, Peter; Mukonka, Victor; Bates, Matthew; Tembo, John; Corman, Victor; Mfinanga, Sayoki; Asogun, Danny; Elton, Linzy; Arruda, Liã Bárbara; Thomason, Margaret J.; Mboera, Leonard; Yavlinsky, Alexei; Haider, Najmul; Simons, David; Hollmann, Lara; Lule, Swaib A.; Veas, Francisco; Abdel Hamid, Muzamil Mahdi; Dar, Osman; Edwards, Sarah; Vairo, Francesco; McHugh, Timothy D.; Drosten, Christian; Kock, Richard; Ippolito, Giuseppe; Zumla, Alimuddin<br/>
@@ -444,8 +438,8 @@ by Wenham, Clare; Smith, Julia; Morgan, Rosemary<br/>
 
 #### Highlights<br/>
 - 6 Despite the common mental health problems and disorders found among patients and health workers in such settings, most health professionals working in isolation units and hospitals do not receive any training in providing mental health care.<br/>
-- The in-hospital preventive control measures should vary among patients, close contacts, and health care workers in precision medicine approach.<br/>
 - It is noteworthy that despite the common mental health problems and disorders found among patients and health workers in such settings, most health professionals working in isolation units and hospitals do not receive any training for providing mental health care .<br/>
+- First, multidisciplinary mental health teams established by health authorities at regional and national levels (including psychiatrists, psychiatric nurses, clinical psychologists, and other mental health workers) should deliver mental health support to patients and health workers.<br/>
 - Multidisciplinary mental health teams established by health authorities at regional and national levels (including psychiatrists, psychiatric nurses, clinical psychologists, and other mental health workers) should provide mental health support for patients and health workers.<br/>
 -  Organizations should implement a system for evaluation and management of exposed or ill health care workers and support staff that could expose patients, visitors, or other staff.<br/>
 
@@ -456,13 +450,6 @@ by Xiang, Yu-Tao; Yang, Yuan; Li, Wen; Zhang, Ling; Zhang, Qinge; Cheung, Teris;
 - Health professionals, especially those working in hospitals caring for people with confirmed or suspected 2019-nCoV pneumonia, are vulnerable to both high risk of infection and mental health problems.<br/>
 - 6 Despite the common mental health problems and disorders found among patients and health workers in such settings, most health professionals working in isolation units and hospitals do not receive any training in providing mental health care.<br/>
 - First, multidisciplinary mental health teams established by health authorities at regional and national levels (including psychiatrists, psychiatric nurses, clinical psychologists, and other mental health workers) should deliver mental health support to patients and health workers.<br/>
-
-[2019-nCoV epidemic: address mental health care to empower society](https://doi.org/10.1016/S0140-6736(20)30309-3)<br/>
-by Bao, Yanping; Sun, Yankun; Meng, Shiqiu; Shi, Jie; Lu, Lin<br/>
-*The Lancet - Feb 28, 2020*<br/>
-- Health-care workers are also at risk of getting infected, and they carry a large burden in the clinical treatment and public prevention efforts in Chinese hospitals and community settings.<br/>
-- 9 These included assessing the accuracy of information disclosed, enhancing social support systems (eg, families and friends), eliminating stigma associated with the epidemic, maintaining a normal life under safe conditions, and using the psychosocial service system, particularly telephone-based and internet-based counselling for health-care staff, patients, family members, and the public.<br/>
-- 2019-nCoV epidemic: address mental health care to empower society<br/>
 
 [Psychological interventions for people affected by the COVID-19 epidemic](https://doi.org/10.1016/S2215-0366(20)30073-0)<br/>
 by Duan, Li; Zhu, Gang<br/>
@@ -481,6 +468,12 @@ by Ghinai, Isaac; McPherson, Tristan D; Hunter, Jennifer C; Kirking, Hannah L; C
 *The Lancet - Mar 13, 2020*<br/>
 - Of these 347 contacts, 195 (56%) were health-care personnel and 152 (44%) were community members.<br/>
 - These findings also support CDC's assessment that, without using appropriate PPE, people living in the same household as, or providing care in a non-health-care setting for, a person with symptomatic laboratory-confirmed COVID-19 have high-risk exposure.<br/>
+
+[2019-nCoV epidemic: address mental health care to empower society](https://doi.org/10.1016/S0140-6736(20)30309-3)<br/>
+by Bao, Yanping; Sun, Yankun; Meng, Shiqiu; Shi, Jie; Lu, Lin<br/>
+*The Lancet - Feb 28, 2020*<br/>
+- Health-care workers are also at risk of getting infected, and they carry a large burden in the clinical treatment and public prevention efforts in Chinese hospitals and community settings.<br/>
+- 9 These included assessing the accuracy of information disclosed, enhancing social support systems (eg, families and friends), eliminating stigma associated with the epidemic, maintaining a normal life under safe conditions, and using the psychosocial service system, particularly telephone-based and internet-based counselling for health-care staff, patients, family members, and the public.<br/>
 
 [The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects](https://doi.org/10.1101/2020.03.09.20033415)<br/>
 by Jude Bayham; Eli P Fenichel<br/>
@@ -513,24 +506,18 @@ by Vageesh Jain; Jin-Min Yuan<br/>
 # Risk communication and guidelines that are easy to understand and follow (include targeting at risk populations’ families too).
 
 #### Highlights<br/>
-- Good risk communication allows people to know from trusted sources in real-time the risks they may face, and any protective measures they can take to help minimise this.<br/>
 - Information is required that will help refine the risk assessment as the outbreak continues and ensure that patients are managed in the best possible way.<br/>
-- Such analysis can inform predictions about potential future growth , help estimate risk to other countries , and guide the design of alternative interventions .<br/>
 - 4, 5 Such analysis can inform predictions about potential future growth, 6 help estimate risk to other countries, 7 and guide the design of alternative interventions.<br/>
+- Such analysis can inform predictions about potential future growth , help estimate risk to other countries , and guide the design of alternative interventions .<br/>
+- Such rapidly shared scientific information can be used to provide real-time guidance for epidemiologists working to contain the outbreak, clinicians managing patients, and modellers helping to understand potential future directions and the possible effectiveness of various interventions.<br/>
 - We aim to help perioperative healthcare providers to adopt safer anesthetic management techniques and utilize more effective infection prevention and control measures in these critical ill patients.<br/>
 
 #### Articles<br/>
-[Going global – Travel and the 2019 novel coronavirus](https://doi.org/10.1016/j.tmaid.2020.101578)<br/>
-by Rodríguez-Morales, Alfonso J.; MacGregor, Kirsten; Kanagarajah, Sanch; Patel, Dipti; Schlagenhauf, Patricia<br/>
-*Travel Medicine and Infectious Disease - Feb 29, 2020*<br/>
-- Good risk communication allows people to know from trusted sources in real-time the risks they may face, and any protective measures they can take to help minimise this.<br/>
-- Good risk communication from official organizations helps travel health providers communicate and navigate risk with their clients.<br/>
-
-[Exploring diseases/traits and blood proteins causally related to expression of ACE2, the putative receptor of 2019-nCov: A Mendelian Randomization analysis](https://doi.org/10.1101/2020.03.04.20031237)<br/>
-by Shitao Rao; Alexandria Lau; Hon-Cheong So<br/>
-*Mar 08, 2020*<br/>
-- https://doi.org/10.1101/2020.03.04.20031237 doi: medRxiv preprint practice, it is very difficult to organize a comprehensive clinical study of many different risk factors/diseases, evaluate if they are risk factors for COVID-19.<br/>
-- For example, identification of those at greater risk may help to guide the prioritization of resources to reduce infection risks in susceptible groups.<br/>
+[Prospect and application of Internet of Things technology for prevention of SARIs](https://doi.org/10.1016/j.ceh.2020.02.001)<br/>
+by Song, Yuanlin; Jiang, Jinjun; Wang, Xun; Yang, Dawei; Bai, Chunxue<br/>
+*Clinical eHealth - Dec 31, 2020*<br/>
+- This should be more conducive to achieving: ''easy to prevent, easy to diagnose, easy to treat diseases, and to easily communicate with experienced doctors."<br/>
+- Will have a concise, easy-to-promote and universal effect.<br/>
 
 [Data sharing and outbreaks: best practice exemplified](https://doi.org/10.1016/S0140-6736(20)30184-7)<br/>
 by Heymann, David L<br/>
@@ -544,28 +531,26 @@ by Jin, Ying-Hui; Cai, Lin; Cheng, Zhen-Shun; Cheng, Hong; Deng, Tong; Fan, Yi-P
 - Medical professionals require an up-to-date guideline to follow when an urgent healthcare problem emerging.<br/>
 - Due to the urgent need and tight work schedule, we conducted no wide-range survey but a discussion meeting with front-line clinicians who managed patients with 2019-nCoV infections to finalize guideline topics and key questions.<br/>
 
-[And now for something completely different: from 2019-nCoV and COVID-19 to 2020-nMan](https://doi.org/10.1016/j.pulmoe.2020.02.010)<br/>
-by Froes, F.<br/>
-*Pulmonology - Apr 30, 2020*<br/>
-- We must never lose the humility to learn from mistakes and bear in mind the fundamental role of social communication in safeguarding a transparent and coherent risk assessment and management strategy.<br/>
-- Only thus can we minimise the risks of exposure, ensure early detection and timely diagnosis, and adopt the most effective infection control, therapeutic and preventive measures.<br/>
+[An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov)](https://doi.org/10.1016/j.idm.2020.02.001)<br/>
+by Tang, Biao; Bragazzi, Nicola Luigi; Li, Qian; Tang, Sanyi; Xiao, Yanni; Wu, Jianhong<br/>
+*Infect Dis Model - Feb 11, 2020*<br/>
+- In order to respond swiftly and properly to the outbreak, public health decision-and policy-makers need timely and accurate epidemiological information, concerning, for example, how long it may take from exposure to the virus to illness/symptoms onset or which individuals, with specific characteristics or co-morbidities, are at higher risk of a poor prognosis.<br/>
+- As recognized by the World Health Organization (WHO), mathematical models, especially those devised in a timely fashion, can play a key role in providing health decision-and policy-makers with evidence-based information.<br/>
 
-[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
-by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
-*Journal of Autoimmunity - Mar 03, 2020*<br/>
-- It is easy to understand that this can be perceived as withholding information and why the public would be frustrated.<br/>
-- Last but not least, use of the Internet and the media to conduct health education for the people, publicize the correct knowledge of prevention, and offer online consultation to guide patients to seek medical treatment correctly are additional strategies that can be implemented to achieve viral containment.<br/>
-
-[Understanding the emerging coronavirus: what it means for health security and infection prevention](https://doi.org/10.1016/j.jhin.2020.02.023)<br/>
-by Peters, Alexandra; Vetter, Pauline; Guitart, Chloé; Lotfinejad, Nasim; Pittet, Didier<br/>
-*Journal of Hospital Infection - Mar 05, 2020*<br/>
-- In order to better understand this dynamic, it might make sense to look at SARS-CoV, also a coronavirus.<br/>
-- It is essential that we prepare ourselves for what seems like will be the inevitability of having the virus at our doorstep, but we must think ahead to enact common sense policies that will not cripple the normal functioning of our healthcare institutions.<br/>
+[Going global – Travel and the 2019 novel coronavirus](https://doi.org/10.1016/j.tmaid.2020.101578)<br/>
+by Rodríguez-Morales, Alfonso J.; MacGregor, Kirsten; Kanagarajah, Sanch; Patel, Dipti; Schlagenhauf, Patricia<br/>
+*Travel Medicine and Infectious Disease - Feb 29, 2020*<br/>
+- Good risk communication allows people to know from trusted sources in real-time the risks they may face, and any protective measures they can take to help minimise this.<br/>
 
 [Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection](https://doi.org/10.1101/2020.03.15.20035360)<br/>
 by Vageesh Jain; Jin-Min Yuan<br/>
 *Mar 16, 2020*<br/>
 - Identifying those at the highest risk will also facilitate better-informed discussions between clinicians, patients and patients' families about the anticipated clinical trajectory, allowing more accurate and timely advance care discussions to occur.<br/>
+
+[Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19](https://doi.org/10.7554/eLife.55570)<br/>
+by Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smith, James O<br/>
+*eLife.; 9:e55570 - Feb 24, 2020*<br/>
+- Official recommendations emphasize that screening is an opportunity for 'risk communication' in which travellers can be instructed how to proceed responsibly if symptoms develop at the destination (World Health Organization, 2020d).<br/>
 
 [Communicating the Risk of Death from Novel Coronavirus Disease (COVID-19)](https://doi.org/10.3390/jcm9020580)<br/>
 by Kobayashi, Tetsuro; Jung, Sung-mok; Linton, M. Natalie; Kinoshita, Ryo; Hayashi, Katsuma; Miyama, Takeshi; Anzai, Asami; Yang, Yichi; Yuan, Baoyin; Akhmetzhanov, R. Andrei; Suzuki, Ayako; Nishiura, Hiroshi<br/>
@@ -577,50 +562,61 @@ by Rasmussen, Sonja A.; Smulian, John C.; Lednicky, John A.; Wen, Tony S.; Jamie
 *American Journal of Obstetrics and Gynecology - Feb 24, 2020*<br/>
 -  Communicate with patients and families regarding diagnosis, clinical status and management wishes.<br/>
 
+[COVID-19: A critical care perspective informed by lessons learnt from other viral epidemics](https://doi.org/10.1016/j.accpm.2020.02.002)<br/>
+by Ling, Lowell; Joynt, Gavin M.; Lipman, Jeff; Constantin, Jean-Michel; Joannes-Boyau, Olivier<br/>
+*Anaesthesia Critical Care & Pain Medicine - Feb 20, 2020*<br/>
+- Lack of clear knowledge of the mechanisms of COVID-19 transmission makes it difficult to develop evidence-based infection control protocols to prevent transmission to healthcare workers (HCW) and other patients.<br/>
+
 # Communication that indicates potential risk of disease to all population groups.
 
 #### Highlights<br/>
 - Age and sex distributions are important in understanding risk of infection across populations.<br/>
-- Given the ubiquity of comorbidities in the elderly population, and their increased susceptibility to severe COVID-19 infection , knowledge on the differing prevalence and risk of various conditions may help to focus and tailor public health efforts such as the screening of asymptomatic individuals, risk communication, contact tracing, self-isolation and social distancing.<br/>
+- Owing to different impacts of the 57 disease across the population according to age, we consider the following age groups: 0-9, Table 1 .<br/>
 - Additionally, the infection severity, including the infection-fatality rate across different ages and risk groups, must be established.<br/>
-- 1, 2 We believe that the susceptibility to the novel 2019-nCov is also different among population groups.<br/>
+- It might be related to 248 the different contact characteristics among different age groups.<br/>
 - Age and sex distributions can reflect heterogeneities in the risk of infection within affected populations.<br/>
 
 #### Articles<br/>
+[If containment is not possible, how do we minimize mortality for COVID-19 and other emerging infectious disease outbreaks?](https://doi.org/10.1101/2020.03.13.20034892)<br/>
+by Andreas Handel; Joel Miller; Yang Ge; Isaac Chun-Hai Fung<br/>
+*Mar 17, 2020*<br/>
+- Thus, the exact implications of school closure in redistributing the risk of COVID-19 morbidity and mortality among community members of different age groups remain uncertain.<br/>
+- If an intervention mainly protects specific groups in a population, infections required to achieve population immunity will happen disproportionately in the other groups.<br/>
+- As we discussed here, an additional consideration for COVID-19 is the fact that school closures might preferentially reduce infections in low risk groups , thus possibly shifting the burden of new infections that occur on the way to population immunity towards higher risk groups.<br/>
+
 [The effect of human mobility and control measures on the COVID-19 epidemic in China](https://doi.org/10.1101/2020.03.02.20026708)<br/>
 *Mar 06, 2020*<br/>
 - Age and sex distributions are important in understanding risk of infection across populations.<br/>
 - Age and sex distributions can reflect heterogeneities in the risk of infection within affected populations.<br/>
 
-[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
-by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
-*Int Health - Feb 10, 2020*<br/>
-- This study provided evidence of human-animal interactions in rural communities of southern China that increase the potential for zoonotic disease emergence and suggested opportunities for risk mitigation.<br/>
-- 9,10 Further research to identify the risk factors among different populations will help develop more locally-relevant and fine-tuned risk mitigation strategies and address the social and ecological bias to identifying recommendations for other community settings.<br/>
+[Demographic science aids in understanding the spread and fatality rates of COVID-19](https://doi.org/10.1101/2020.03.15.20036293)<br/>
+by Jennifer Beam Dowd; Valentina Rotondi; Liliana Adriano; David M Brazel; Per Block; Xuejie Ding; Yan Liu; Melinda C Mills<br/>
+*Mar 18, 2020*<br/>
+- While population age structure is crucial for understanding the populations at the highest risk of mortality both across and within countries, it is also vital for understanding how much social distancing measures are required in each population to reduce the number of most critical cases and overload on the health system-aka "flattening the curve" .<br/>
+- The population structure of contact can be represented as age-homogeneous communities that have low contact between groups.<br/>
 
-[Applications of google search trends for risk communication in infectious disease management: A case study of COVID-19 outbreak in Taiwan](https://doi.org/10.1016/j.ijid.2020.03.021)<br/>
-by Husnayain, Atina; Fuad, Anis; Su, Emily Chia-Yu<br/>
-*International Journal of Infectious Diseases - Mar 12, 2020*<br/>
-- Given this pandemic situation, robust risk communication is urgently needed particularly in affected countries.<br/>
-- In response to the ongoing outbreak, our results demonstrated that GT could potentially define the proper timing and location for risk communication.<br/>
-
-[Bulk and single-cell transcriptomics identify tobacco-use disparity in lung gene expression of ACE2, the receptor of 2019-nCov](https://doi.org/10.1101/2020.02.05.20020107)<br/>
-by Guoshuai Cai<br/>
-*Feb 11, 2020*<br/>
-- 1, 2 We believe that the susceptibility to the novel 2019-nCov is also different among population groups.<br/>
-- In current severe global emergency situation of 2019-nCov outbreak, it is imperative to identify vulnerable and susceptible groups for effective protection and care.<br/>
-
-[If containment is not possible, how do we minimize mortality for COVID-19 and other emerging infectious disease outbreaks?](https://doi.org/10.1101/2020.03.13.20034892)<br/>
-by Andreas Handel; Joel Miller; Yang Ge; Isaac Chun-Hai Fung<br/>
-*Mar 17, 2020*<br/>
-- If an intervention mainly protects specific groups in a population, infections required to achieve population immunity will happen disproportionately in the other groups.<br/>
-- As we discussed here, an additional consideration for COVID-19 is the fact that school closures might preferentially reduce infections in low risk groups , thus possibly shifting the burden of new infections that occur on the way to population immunity towards higher risk groups.<br/>
+[SEIR Transmission dynamics model of 2019 nCoV coronavirus with considering the weak infectious ability and changes in latency duration](https://doi.org/10.1101/2020.02.16.20023655)<br/>
+by Pengpeng Shi; Shengli Cao; Peihua Feng<br/>
+*Feb 20, 2020*<br/>
+- In this model, it is also assumed that all individuals in the population are at risk of infection.<br/>
+- The transformation relationship among different groups of people is shown in Fig.<br/>
 
 [Coronavirus infections reported by ProMED, February 2000–January 2020](https://doi.org/10.1016/j.tmaid.2020.101575)<br/>
 by Bonilla-Aldana, D. Katterine; Holguin-Rivera, Yeimer; Cortes-Bonilla, Isabella; Cardona-Trujillo, María C.; García-Barco, Alejandra; Bedoya-Arias, Hugo A.; Rabaan, Ali A.; Sah, Ranjit; Rodriguez-Morales, Alfonso J.<br/>
 *Travel Medicine and Infectious Disease - Feb 06, 2020*<br/>
 - This helps the rapid dissemination of knowledge of the current global situation of emerging infectious diseases and their outcomes in terms of morbidity, disability, and death.<br/>
 - Working groups of national infectious disease societies could help to increase awareness among general and infectious disease practitioners, but might also influence public health authorities by suggesting that CoV infections become notifiable diseases in each country.<br/>
+
+[Correlation Analysis Between Disease Severity and Inflammation-related Parameters in Patients with COVID-19 Pneumonia](https://doi.org/10.1101/2020.02.25.20025643)<br/>
+by Jing Gong; Hui Dong; Song Qing Xia; Yi Zhao Huang; Dingkun Wang; Yan Zhao; Wenhua Liu; Shenghao Tu; Mingmin Zhang; Qi Wang; Fuer Lu<br/>
+*Feb 27, 2020*<br/>
+- NC was significantly different among the three groups ( Figure 4B ), and the average was 10.80*10^9/L in critical group, 5.47*10^9/L in severe group and 3.53 *10^9/L in mild group.<br/>
+- With regard to cytokine IL-1β, no significant difference was found among three groups, and the data were not shown.<br/>
+
+[A data driven time-dependent transmission rate for tracking an epidemic: a case study of 2019-nCoV](https://doi.org/10.1016/j.scib.2020.02.005)<br/>
+by Huang, Norden E.; Qiao, Fangli<br/>
+*Science Bulletin - Mar 30, 2020*<br/>
+- It indicates the potential of transmission rate.<br/>
 
 [Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak](https://doi.org/10.1101/2020.01.23.916395)<br/>
 by Zhao, S.; Lin, Q.; Ran, J.; MUSA, S. S.; Yang, G.; Wang, W.; Lou, Y.; Gao, D.; Yang, L.; He, D.; Wang, M. H.<br/>
@@ -632,24 +628,19 @@ by Vageesh Jain; Jin-Min Yuan<br/>
 *Mar 16, 2020*<br/>
 - Given the ubiquity of comorbidities in the elderly population, and their increased susceptibility to severe COVID-19 infection , knowledge on the differing prevalence and risk of various conditions may help to focus and tailor public health efforts such as the screening of asymptomatic individuals, risk communication, contact tracing, self-isolation and social distancing.<br/>
 
-[COVID-19: the gendered impacts of the outbreak](https://doi.org/10.1016/S0140-6736(20)30526-2)<br/>
-by Wenham, Clare; Smith, Julia; Morgan, Rosemary<br/>
-*The Lancet - Mar 20, 2020*<br/>
-- 13 If the response to disease outbreaks such as COVID-19 is to be effective and not reproduce or perpetuate gender and health inequities, it is important that gender norms, roles, and relations that influence women's and men's differential vulnerability to infection, exposure to pathogens, and treatment received, as well as how these may differ among different groups of women and men, are considered and addressed.<br/>
-
-[Demographic science aids in understanding the spread and fatality rates of COVID-19](https://doi.org/10.1101/2020.03.15.20036293)<br/>
-by Jennifer Beam Dowd; Valentina Rotondi; Liliana Adriano; David M Brazel; Per Block; Xuejie Ding; Yan Liu; Melinda C Mills<br/>
-*Mar 18, 2020*<br/>
-- While population age structure is crucial for understanding the populations at the highest risk of mortality both across and within countries, it is also vital for understanding how much social distancing measures are required in each population to reduce the number of most critical cases and overload on the health system-aka "flattening the curve" .<br/>
+[SOCRATES: An online tool leveraging a social contact data sharing initiative to assess mitigation strategies for COVID-19](https://doi.org/10.1101/2020.03.03.20030627)<br/>
+by LANDER WILLEM; THANG VAN HOANG; SEBASTIAN FUNK; PIETRO COLETTI; PHILIPPPE BEUTELS; NIEL HENS<br/>
+*Mar 06, 2020*<br/>
+- This only means that the risk of infection in other age groups is more affected by the intervention (which reduces overall incidence) relative to their normal social contact behavior.<br/>
 
 # Misunderstanding around containment and mitigation.
 
 #### Highlights<br/>
 - For many countries around the world, the focus of public health officers on the COVID-19 epidemic has shifted 238 from containment to mitigation and delay.<br/>
 -  Because of the extent of community spread, traditional public health measures might not be able to halt all human-to-human transmission, and we need to consider moving from containment to mitigation.<br/>
+- Countries have to face the reality that individualcase containment might not be possible in the long run, and there might be the need to move from containment to mitigation, balancing the costs and benefits of public health measures.<br/>
 - Information on the transmission characteristics will help coordinate current screening and containment strategies, support decision making on whether the outbreak constitutes a public health emergency of international concern (PHEIC), and is key for anticipating the risk of pandemic spread of 2019-nCoV.<br/>
 - Information on the transmission characteristics will help coordinate current screening and containment strategies, support decision making on whether the outbreak constitutes a public health emergency of international concern (PHEIC), and is necessary for anticipating the risk of pandemic spread of 2019-nCoV.<br/>
-- In the ongoing epidemic of COVID-19, all these aspects have not yet been fully addressed, although the global public health community is obliged to continually confront the epidemic and make political decisions encompassing travel restrictions, containment measures, and mitigation strategies.<br/>
 
 #### Articles<br/>
 [Public Exposure to Live Animals, Behavioural Change, and Support in Containment Measures in response to COVID-19 Outbreak: a population-based cross sectional survey in China](https://doi.org/10.1101/2020.02.21.20026146)<br/>
@@ -657,8 +648,9 @@ by Zhiyuan Hou; Leesa Lin; Liang Lu; Fanxing Du; Mengcen Qian; Yuxia Liang; Juan
 *Feb 23, 2020*<br/>
 - We also seek to understand levels of public support for containment measures and public confidence in their effectiveness to quell the outbreak.<br/>
 - 21.20026146 doi: medRxiv preprint current mitigating measures.<br/>
-- This can inform policy makers in China and other countries to implement and adjust containment strategies in response to the outbreak in the future.<br/>
 - 21.20026146 doi: medRxiv preprint containment measures.<br/>
+- This study will help to clarify the public's response to the outbreak and has important policy implications regarding the social acceptability of infection containment measures and their application in different contexts.<br/>
+- This can inform policy makers in China and other countries to implement and adjust containment strategies in response to the outbreak in the future.<br/>
 
 [Can we contain the COVID-19 outbreak with the same measures as for SARS?](https://doi.org/10.1016/S1473-3099(20)30129-8)<br/>
 by Wilder-Smith, Annelies; Chiew, Calvin J; Lee, Vernon J<br/>
@@ -672,17 +664,29 @@ by Shah, Syed Ghulam Sarwar; Farrow, Alexandra<br/>
 - Restoring public confidence in public health measures in imperative otherwise public fear and apprehension might hinder the local, national, regional and international efforts and measures to tackling global health emergency issues such as the Covid-19 outbreak.<br/>
 - More importantly, while highlighting lessons learned, they have highlighted a number of important issues particularly delayed release of information about the COVID-19 infection, slowness in preventative measures such as quarantine and travel restrictions to contain the outbreak as well as measures to stop spread of misinformation about the COVID-19 .<br/>
 
+[World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19)](https://doi.org/10.1016/j.ijsu.2020.02.034)<br/>
+by Sohrabi, Catrin; Alsafi, Zaid; O'Neill, Niamh; Khan, Mehdi; Kerwan, Ahmed; Al-Jabir, Ahmed; Iosifidis, Christos; Agha, Riaz<br/>
+*International Journal of Surgery - Apr 30, 2020*<br/>
+- This may have delayed the implementation of containment strategies that could have dampened viral spread such as reporting suspected cases in public and the work place.<br/>
+- Evidently, an exponential increase in case count may dampen concerted containment efforts.<br/>
+
+[SARS to novel coronavirus – old lessons and new lessons](https://doi.org/10.1017/S0950268820000254)<br/>
+by McCloskey, Brian; Heymann, David L.<br/>
+*Epidemiol Infect.; 148:e22 - 2020*<br/>
+- This is always a challenging process when balancing the resources focussed on analysing the situation on the ground with resources directed at interpreting the information for journalists but in SARS, the R 0 was seen to decrease in response to information reaching the public and the public then adopting risk reduction actions ; so accurate public risk communication is critical to success.<br/>
+- Working with journalists and the media to help them understand the science and epidemiology, particularly in a fast moving event, will improve risk communication to the public and reduce inappropriate concerns and panic.<br/>
+
+[Communicating the Risk of Death from Novel Coronavirus Disease (COVID-19)](https://doi.org/10.3390/jcm9020580)<br/>
+by Kobayashi, Tetsuro; Jung, Sung-mok; Linton, M. Natalie; Kinoshita, Ryo; Hayashi, Katsuma; Miyama, Takeshi; Anzai, Asami; Yang, Yichi; Yuan, Baoyin; Akhmetzhanov, R. Andrei; Suzuki, Ayako; Nishiura, Hiroshi<br/>
+*Journal of Clinical Medicine - 2020*<br/>
+- In the ongoing epidemic of COVID-19, all these aspects have not yet been fully addressed, although the global public health community is obliged to continually confront the epidemic and make political decisions encompassing travel restrictions, containment measures, and mitigation strategies.<br/>
+- Depending on the CFR value, the government response toward COVID-19 may vary, and estimates of CFR can also influence the strictness of policy judgement and the extent of containment and mitigation measures.<br/>
+
 [Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China](https://doi.org/10.1101/2020.02.18.20024414)<br/>
 by Benjamin F Maier; Dirk Brockmann<br/>
 *Feb 20, 2020*<br/>
 - This implies that public shutdown policies facilitate epidemic containment in a more effective way than quarantine measures.<br/>
 - The Chinese government put several mitigation policies in place to contain the spread of the epidemic.<br/>
-
-[How will country-based mitigation measures influence the course of the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30567-5)<br/>
-by Anderson, Roy M; Heesterbeek, Hans; Klinkenberg, Don; Hollingsworth, T Déirdre<br/>
-*The Lancet - Mar 09, 2020*<br/>
-- 17 Super-spreading events are inevitable, and could overwhelm the contact tracing system, leading to the need for broader-scale social distancing interventions.<br/>
-- Indicating what level of transmission reduction is required for social distancing interventions to mitigate the epidemic is a key activity (figure).<br/>
 
 [From Containment to Mitigation of COVID-19 in the US](https://doi.org/10.1001/jama.2020.3882)<br/>
 by Parodi, Stephen M.; Liu, Vincent X.<br/>
@@ -699,24 +703,14 @@ by Alexandra Teslya; Thi Mui Pham; Noortje E. Godijk; Mirjam E. Kretzschmar; Mar
 *Mar 16, 2020*<br/>
 - For many countries around the world, the focus of public health officers on the COVID-19 epidemic has shifted 238 from containment to mitigation and delay.<br/>
 
-[Tracking online heroisation and blame in epidemics](https://doi.org/10.1016/S2468-2667(20)30033-5)<br/>
-by Atlani-Duault, Laëtitia; Ward, Jeremy K.; Roy, Melissa; Morin, Céline; Wilson, Andrew<br/>
-*The Lancet Public Health - 2020*<br/>
-- Tracking heroisation and blame dynamics in realtime, as epidemics unfold, can help health authorities to understand public attitudes both to the threats posed by epidemics and the hope offered by health interventions, to fine-tune targeted health communication strategies accordingly, to identify and amplify local and international heroes, to identify and counter attempts to blame, scapegoat, and spread misinformation, and to improve crisis management practices for the future.<br/>
-
-[COVID-19: the medium is the message](https://doi.org/10.1016/S0140-6736(20)30600-0)<br/>
-by Garrett, Laurie<br/>
-*The Lancet - Mar 11, 2020*<br/>
-- Getting ahead of COVID-19 requires not only slowing its spread, adequate funding for the health response, supporting research to advance our knowledge of it, integrated actions to mitigate the health, economic, and social impacts of the epidemic, among others, but also control of narratives regarding its scientific and clinical attributes and pandemic containment efforts-an effort that I do not think can be successful if executed on inadequate budgets by sleepdeprived communicators.<br/>
-
 # Action plan to mitigate gaps and problems of inequity in the Nation’s public health capability, capacity, and funding to ensure all citizens in need are supported and can access information, surveillance, and treatment.
 
 #### Highlights<br/>
 - This impedes global research cooperation, which is essential for tackling public health emergencies, and requires unimpeded access to data, analysis tools, and computational infrastructure.<br/>
 - 27, 28 National public health capabilities and infrastructures remain at the core of global health security, because they are the first line of defence in infectious disease emergencies.<br/>
-- The new facilities further enhance the local public health capacities.<br/>
 - But trust is a crucial support to public health systems.<br/>
 - Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
+- In global public health systems struggling with sub-optimal resources and inadequate infrastructure, this could be a recipe for disaster.<br/>
 
 #### Articles<br/>
 [No more business as usual: agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973)<br/>
@@ -770,30 +764,31 @@ by Garrett, Laurie<br/>
 *The Lancet - Mar 11, 2020*<br/>
 - Getting ahead of COVID-19 requires not only slowing its spread, adequate funding for the health response, supporting research to advance our knowledge of it, integrated actions to mitigate the health, economic, and social impacts of the epidemic, among others, but also control of narratives regarding its scientific and clinical attributes and pandemic containment efforts-an effort that I do not think can be successful if executed on inadequate budgets by sleepdeprived communicators.<br/>
 
-[Online mental health services in China during the COVID-19 outbreak](https://doi.org/10.1016/S2215-0366(20)30077-8)<br/>
-by Liu, Shuai; Yang, Lulu; Zhang, Chenxi; Xiang, Yu-Tao; Liu, Zhongchun; Hu, Shaohua; Zhang, Bin<br/>
-*The Lancet Psychiatry - Feb 19, 2020*<br/>
-- These findings are important in enabling health authorities to allocate health resources and develop appropriate treatments for medical staff who have mental health problems.<br/>
-
 [Are high-performing health systems resilient against the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30551-1)<br/>
 by Legido-Quigley, Helena; Asgari, Nima; Teo, Yik Ying; Leung, Gabriel M; Oshitani, Hitoshi; Fukuda, Keiji; Cook, Alex R; Hsu, Li Yang; Shibuya, Kenji; Heymann, David<br/>
 *The Lancet - Mar 20, 2020*<br/>
 - However, their response is vulnerable to shortcomings in the coordination of services; access to adequate medical supplies and equipment; adequacy of risk communication; and public trust in government.<br/>
 
+[Online mental health services in China during the COVID-19 outbreak](https://doi.org/10.1016/S2215-0366(20)30077-8)<br/>
+by Liu, Shuai; Yang, Lulu; Zhang, Chenxi; Xiang, Yu-Tao; Liu, Zhongchun; Hu, Shaohua; Zhang, Bin<br/>
+*The Lancet Psychiatry - Feb 19, 2020*<br/>
+- These findings are important in enabling health authorities to allocate health resources and develop appropriate treatments for medical staff who have mental health problems.<br/>
+
 # Measures to reach marginalized and disadvantaged populations.
 
 #### Highlights<br/>
-- Population ageing is currently more pronounced in wealthier countries, which mercifully may lessen the impact of this pandemic on poorer countries with weaker health systems but younger age structures.<br/>
+- Compared with other international migrants (ie, international students), IMWs encounter more barriers in accessing health services in host countries (eg, inadequate health insurance), particularly migrant domestic workers.<br/>
+- COVID-19: a potential public health problem for homeless populations<br/>
 - Furthermore, there is the potential for higher death rates in countries with vulnerable health systems in resource-limited regions.<br/>
 - Countries with vulnerable health systems are particularly of concern.<br/>
 - 2 Despite the powerful community coping strategy of African migrants in China, their social and structural barriers to health care should be taken into consideration in implementing Africa-China health cooperation plans, 1 particularly during the current outbreak of COVID-19.<br/>
-- For example, 1 in megacities such as Beijing, Shanghai, Guangzhou and Shenzhen are low ( Figure 5 .a) which may attribute to higher health literacy of their citizens 21 , although they have intensive traffic and population mobility.<br/>
 
 #### Articles<br/>
 [Do not violate the International Health Regulations during the COVID-19 outbreak](https://doi.org/10.1016/S0140-6736(20)30373-1)<br/>
 by Habibi, Roojin; Burci, Gian Luca; de Campos, Thana C; Chirwa, Danwood; Cinà, Margherita; Dagron, Stéphanie; Eccleston-Turner, Mark; Forman, Lisa; Gostin, Lawrence O; Meier, Benjamin Mason; Negri, Stefania; Ooms, Gorik; Sekalala, Sharifah; Taylor, Allyn; Yamin, Alicia Ely; Hoffman, Steven J<br/>
 *The Lancet - Mar 06, 2020*<br/>
 -    In the short term, travel restrictions prevent supplies from getting into affected areas, slow down the international public health response, stigmatise entire populations, and disproportionately harm the most vulnerable among us.<br/>
+- 10 Under no circumstances should public health or foreign policy decisions be based on the racism and xenophobia that are now being directed at Chinese people and those of Asian descent.<br/>
 - This will exacerbate inequities, with those who have more financial and social capital having more options.<br/>
 - Having lost homes or livelihoods, and fearful for the future, some people might leave their communities and perhaps their country.<br/>
 
@@ -804,59 +799,72 @@ by Bodomo, Adams; Liem, Andrian; Lin, Lavinia; Hall, Brian J.<br/>
 - 2 Despite the powerful community coping strategy of African migrants in China, their social and structural barriers to health care should be taken into consideration in implementing Africa-China health cooperation plans, 1 particularly during the current outbreak of COVID-19.<br/>
 - This community unity is crucial in the current climate marked with an atmosphere of racial discrimination, police intimidation, and other aspects of social exclusion and harassment that Africans might face in China.<br/>
 
+[Weaponized Interdependence: China's Economic Statecraft and Social Penetration against Taiwan](https://doi.org/10.1016/j.orbis.2020.02.002)<br/>
+by Chang, Chia-Chien; Yang, Alan H.<br/>
+*Orbis - Mar 04, 2020*<br/>
+- However, such tours have powerful potential as economic and social statecraft because they target even younger generations, such as teenagers, or the athletes, who face an insecure job market in Taiwan.<br/>
+- China's statecraft used to focus on the "three middles and the youth"-the youth, small and medium enterprises, middle-and low-income classes, and the population in the middle and southern Taiwan, who are traditionally considered more pro-independent.<br/>
+- To delegitimize democracies and other universal human-rights regimes, authoritarian regimes seek to incite and amplify existing divisions in democratic societies by manipulating or faking the information that reaches them.<br/>
+
+[If containment is not possible, how do we minimize mortality for COVID-19 and other emerging infectious disease outbreaks?](https://doi.org/10.1101/2020.03.13.20034892)<br/>
+by Andreas Handel; Joel Miller; Yang Ge; Isaac Chun-Hai Fung<br/>
+*Mar 17, 2020*<br/>
+- While school closures have proven to be an important means for delaying or reducing outbreaks , they come with large economic and societal costs, with generally an outsized impact on disadvantaged and vulnerable populations .<br/>
+- If an intervention mainly protects specific groups in a population, infections required to achieve population immunity will happen disproportionately in the other groups.<br/>
+
+[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- On the health sector, the same approach is being upheld where critical information and data are not freely shared between economies as that would be seen to be benefiting other in-competition economies, whereas different economies would cherish the maximization of benefits from such data collections.<br/>
+- Therefore, geopolitical issues are expected on the technological front as most large data-rich corporations are located in powerful countries that have influence both economically, health-wise and politically   .<br/>
+
 [The neglected health of international migrant workers in the COVID-19 epidemic](https://doi.org/10.1016/S2215-0366(20)30076-6)<br/>
 by Liem, Andrian; Wang, Cheng; Wariyanti, Yosa; Latkin, Carl A; Hall, Brian J<br/>
 *The Lancet Psychiatry - Feb 19, 2020*<br/>
 - Compared with other international migrants (ie, international students), IMWs encounter more barriers in accessing health services in host countries (eg, inadequate health insurance), particularly migrant domestic workers.<br/>
 - In addition, more countries should ratify the International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families to provide global health equity and ensure that migrant workers' health is not neglected in future epidemics and disasters.<br/>
 
-[Demographic science aids in understanding the spread and fatality rates of COVID-19](https://doi.org/10.1101/2020.03.15.20036293)<br/>
-by Jennifer Beam Dowd; Valentina Rotondi; Liliana Adriano; David M Brazel; Per Block; Xuejie Ding; Yan Liu; Melinda C Mills<br/>
-*Mar 18, 2020*<br/>
-- Population ageing is currently more pronounced in wealthier countries, which mercifully may lessen the impact of this pandemic on poorer countries with weaker health systems but younger age structures.<br/>
-- 6 At this time of severe crisis, policy makers are called to define containment measures which are often difficult to sustain in the long run and which have immense repercussions in terms of socio-economic sustainability.<br/>
-
 [The timing of one-shot interventions for epidemic control](https://doi.org/10.1101/2020.03.02.20030007)<br/>
 by Francesco Di Lauro; István Z Kiss; Joel Miller<br/>
 *Mar 06, 2020*<br/>
-- We have ignored the logistical challenges that might be associated with implementing the intervention separately for each sub-population.<br/>
+- The impact of the intervention based on the global level of (I + R)(t) [see figure 5 (b,e)] or on the first sub-population to reach a threshold [see figure 5 (c,f)] are similar, but qualitatively different compared to the individually-targeted intervention.<br/>
 - Some of these control measures are likely unsustainable.<br/>
-
-[If containment is not possible, how do we minimize mortality for COVID-19 and other emerging infectious disease outbreaks?](https://doi.org/10.1101/2020.03.13.20034892)<br/>
-by Andreas Handel; Joel Miller; Yang Ge; Isaac Chun-Hai Fung<br/>
-*Mar 17, 2020*<br/>
-- While school closures have proven to be an important means for delaying or reducing outbreaks , they come with large economic and societal costs, with generally an outsized impact on disadvantaged and vulnerable populations .<br/>
 
 [COVID-19: what is next for public health?](https://doi.org/10.1016/S0140-6736(20)30374-3)<br/>
 by Heymann, David L; Shindo, Nahoko<br/>
 *The Lancet - Feb 28, 2020*<br/>
 - Alongside scalability, a need exists for inclusive tools that allow for genuine and meaningful engagement from children in rural areas, ethnic minorities, gender and sexual minorities, those exposed to poverty and violence, and those who experience health challenges.<br/>
 
+[The demand for inpatient and ICU beds for COVID-19 in the US: lessons from Chinese cities](https://doi.org/10.1101/2020.03.09.20033241)<br/>
+by Ruoran Li; Caitlin Rivers; Qi Tan; Megan B Murray; Eric Toner; Marc Lipsitch<br/>
+*Mar 13, 2020*<br/>
+- The need for healthcare resources may be higher in some US cities where there is a higher prevalence of vulnerable populations (age and comorbidity) than in Wuhan.<br/>
+
 [Temporal relationship between outbound traffic from Wuhan and the 2019 coronavirus disease (COVID-19) incidence in China](https://doi.org/10.1101/2020.03.15.20034199)<br/>
 by Zaixing Shi; Ya Fang<br/>
 *Mar 17, 2020*<br/>
 - The correlations between traffic volume and COVID-19 incidence were weaker in economically advantaged provinces.<br/>
 
-[Emotional responses and coping strategies of nurses and nursing college students during COVID-19 outbreak](https://doi.org/10.1101/2020.03.05.20031898)<br/>
-by Long Huang; Fu ming xu; Hai rong Liu<br/>
-*Mar 08, 2020*<br/>
-- This may be that the city is densely populated and has a large flow of people, and the epidemic situation in urban is more serious.<br/>
-
-[Caring for persons in detention suffering with mental illness during the Covid-19 outbreak](https://doi.org/10.1016/j.fsiml.2020.100013)<br/>
-by Liebrenz, M.; Bhugra, D.; Buadze, A.; Schleifer, R.<br/>
-*Forensic Science International: Mind and Law - 2020*<br/>
-- 12 However, it should not be forgotten that psychiatric and psychological care must not just be provided to affected individuals among the general population, but also to vulnerable groups such as people in detention, homes, and asylum centers.<br/>
-
 # Data systems and research priorities and agendas incorporate attention to the needs and circumstances of disadvantaged populations and underrepresented minorities.
 
 #### Highlights<br/>
 - Policies and public health efforts have not addressed the gendered impacts of disease outbreaks.<br/>
+- In the ongoing epidemic of COVID-19, all these aspects have not yet been fully addressed, although the global public health community is obliged to continually confront the epidemic and make political decisions encompassing travel restrictions, containment measures, and mitigation strategies.<br/>
 - These countries may also suffer from poverty, political instability, terrorism, other endemic or epidemic infectious diseases competing for limited public health resources, low levels of literacy, and a lack of diagnostic or research laboratories.<br/>
 - It integrates metrics from multiple areas, including demography, health care, public health, political and economic .<br/>
 - However, as more data becomes available, the model can be updated, or tailored to particular public health contexts.<br/>
-- However, these public health interventions may not be considered and/or implemented as effectively in other settings and contexts.<br/>
 
 #### Articles<br/>
+[A disconnected policy network: The UK's response to the Sierra Leone Ebola epidemic](https://doi.org/10.1016/j.socscimed.2020.112851)<br/>
+by Georgalakis, James<br/>
+*Social Science & Medicine - Apr 30, 2020*<br/>
+- Only by seeking to understand the politics of knowledge and the social and political dynamics of global health and humanitarian networks can we challenge injustice and historically reinforced narratives that favour some perspectives over others.<br/>
+- Social scientists were most successful in engaging when they framed their expertise in terms of already widely accepted concepts, such as the need for better communications with communities.<br/>
+- Haas helped define epistemic communities and how they differ from other policy communities, such as interest groups and advocacy coalitions (Haas, 1992) .<br/>
+- This community did indeed emerge or coalesce around the demand placed on their expertise by policy makers concerned with the community engagement dimensions of the response.<br/>
+- In this area, clinicians, humanitarians and policy actors seemed to maintain a policy position directly opposed to anthropological based advice.<br/>
+- These interactions were not entirely limited to policy audiences.<br/>
+
 [New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
 by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 *International Journal of Pharmaceutics - Apr 15, 2020*<br/>
@@ -866,15 +874,6 @@ by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 - Moreover, they also underlined the importance of improving the monitoring of shortages and cooperation in the EU by the establishment of a priority ranking of shortages to address "high-risk" medicinal products efficiently without introducing disproportionate initiatives that could have opposite effects to the ones intended.<br/>
 - Indeed, risk-assessment and risk-management strategies adopted by professionals (e.g., pharmacists) and other stakeholders can be rationalized and harmonized based on the medicines shortage impact scores calculated by a competent National Authority.<br/>
 - Consequently, in the estimation of the shortage impact on the patient needs, this aspect should be primary for harmonizing the existing metrics and rationalizing the problem-solving strategies to be adopted.<br/>
-
-[A disconnected policy network: The UK's response to the Sierra Leone Ebola epidemic](https://doi.org/10.1016/j.socscimed.2020.112851)<br/>
-by Georgalakis, James<br/>
-*Social Science & Medicine - Apr 30, 2020*<br/>
-- Only by seeking to understand the politics of knowledge and the social and political dynamics of global health and humanitarian networks can we challenge injustice and historically reinforced narratives that favour some perspectives over others.<br/>
-- Social scientists were most successful in engaging when they framed their expertise in terms of already widely accepted concepts, such as the need for better communications with communities.<br/>
-- Haas helped define epistemic communities and how they differ from other policy communities, such as interest groups and advocacy coalitions (Haas, 1992) .<br/>
-- This community did indeed emerge or coalesce around the demand placed on their expertise by policy makers concerned with the community engagement dimensions of the response.<br/>
-- In this area, clinicians, humanitarians and policy actors seemed to maintain a policy position directly opposed to anthropological based advice.<br/>
 
 [COVID-19: the gendered impacts of the outbreak](https://doi.org/10.1016/S0140-6736(20)30526-2)<br/>
 by Wenham, Clare; Smith, Julia; Morgan, Rosemary<br/>
@@ -908,12 +907,11 @@ by Wang, Guanghai; Zhang, Yunting; Zhao, Jin; Zhang, Jun; Jiang, Fan<br/>
 - To mitigate the consequences of home confinement, the government, nongovernmental organisations (NGOs), the community, school, and parents need to be aware of the downside of the situation and do more to effectively address these issues immediately.<br/>
 - The government might mobilise existing resources, perhaps involving NGOs, and create a platform for gathering the best online education courses about healthy lifestyle and psychosocial support programmes available for schools to choose from.<br/>
 
-[Lessons drawn from China and South Korea for managing COVID-19 epidemic: insights from a comparative modeling study](https://doi.org/10.1101/2020.03.09.20033464)<br/>
-by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; Sanyi Tang; Yanni Xiao; Jianhong Wu<br/>
-*Mar 13, 2020*<br/>
-- Decision-making and implementations may require adaptations and modifications to take into account setting-specific characteristics in terms of community features, local epidemiology and risk assessment, social habits, juridical provisions, organizational coordination, and availability of economic-financial resources.<br/>
-- However, in the absence of effective medical interventions, these measures must be implemented and the success of these measures, despite their disruptive impact on social-economic activities, depends heavily on how these measures are adapted to the specific scenario, in terms not only of clinical and epidemiological variables but also of social aspects, including social habits, juridical provisions, and economic-financial resources.<br/>
-- However, these public health interventions may not be considered and/or implemented as effectively in other settings and contexts.<br/>
+[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
+by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
+*Int Health - Feb 10, 2020*<br/>
+- 9,10 Further research to identify the risk factors among different populations will help develop more locally-relevant and fine-tuned risk mitigation strategies and address the social and ecological bias to identifying recommendations for other community settings.<br/>
+- 14 However, detailed knowledge of the social and ecological mechanisms of zoonotic disease emergence in the region is limited, and therefore cannot yet inform evidence-based policies and practices for targeted surveillance programmes.<br/>
 
 [The neglected health of international migrant workers in the COVID-19 epidemic](https://doi.org/10.1016/S2215-0366(20)30076-6)<br/>
 by Liem, Andrian; Wang, Cheng; Wariyanti, Yosa; Latkin, Carl A; Hall, Brian J<br/>
@@ -936,19 +934,12 @@ by Heymann, David L; Shindo, Nahoko<br/>
 
 #### Highlights<br/>
 - In the absence of effective treatments and vaccines, an early adoption of stringent public health measures is crucial in mitigating the scale and burden of an outbreak.<br/>
-- Learning from the effective measures used and problems encountered in the prevention and control of this epidemic, the government is likely to set up an emergency decision-making organization when responding to future public health emergencies.<br/>
 - Thus, an efficient and timely triage of COVID-19 patients with high mortality risk is crucial for relieving the public health burden.<br/>
+- Learning from the effective measures used and problems encountered in the prevention and control of this epidemic, the government is likely to set up an emergency decision-making organization when responding to future public health emergencies.<br/>
 - Reliable, timely laboratory diagnosis and an effective vaccine are crucial for effective disease management and public health intervention.<br/>
 - Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
 
 #### Articles<br/>
-[Community pharmacist in public health emergencies: Quick to action against the coronavirus 2019-nCoV outbreak](https://doi.org/10.1016/j.sapharm.2020.02.003)<br/>
-by Ung, Carolina Oi Lam<br/>
-*Research in Social and Administrative Pharmacy - Feb 12, 2020*<br/>
-- More importantly, it is critical for ensuring personal safety, reducing the risks of transmitting the virus between people, and preventing the spread of infection through contacts of items in the pharmacy.<br/>
-- They are charged with key responsibilities of informing, advising and educating the community, maintaining a stable supply of pharmaceuticals and personal hygiene products, and screening of suspected cases and making appropriate referral as required.<br/>
-- This will in turn improve the outcomes of educating the public about the preventative measures of the 2019-CoV outbreak and the early recognition of symptoms.<br/>
-
 [SARS to novel coronavirus – old lessons and new lessons](https://doi.org/10.1017/S0950268820000254)<br/>
 by McCloskey, Brian; Heymann, David L.<br/>
 *Epidemiol Infect.; 148:e22 - 2020*<br/>
@@ -979,11 +970,11 @@ by Pan, Xingchen; Ojcius, David M.; Gao, Tianyue; Li, Zhongsheng; Pan, Chunhua; 
 - Learning from the effective measures used and problems encountered in the prevention and control of this epidemic, the government is likely to set up an emergency decision-making organization when responding to future public health emergencies.<br/>
 - Making advance preparations for a pandemic may bring us significant short-term benefits, such as supporting basic health care, encouraging research and development, strengthening interregional cooperation and emergency response systems and biosafety management, and promoting the balanced development of health and security of the world in general.<br/>
 
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-by Allam, Zaheer; Jones, David S.<br/>
-*Healthcare - 2020*<br/>
-- Appropriate protocols however have to be drafted to ensure effective actions while ensuring privacy and security of data and people.<br/>
-- This would render an increased wealth of data from both the medical field and smart city operators, while ensuring privacy and security; hence, aiding in providing relevant information for better informed decisions.<br/>
+[Community pharmacist in public health emergencies: Quick to action against the coronavirus 2019-nCoV outbreak](https://doi.org/10.1016/j.sapharm.2020.02.003)<br/>
+by Ung, Carolina Oi Lam<br/>
+*Research in Social and Administrative Pharmacy - Feb 12, 2020*<br/>
+- This will in turn improve the outcomes of educating the public about the preventative measures of the 2019-CoV outbreak and the early recognition of symptoms.<br/>
+- They are charged with key responsibilities of informing, advising and educating the community, maintaining a stable supply of pharmaceuticals and personal hygiene products, and screening of suspected cases and making appropriate referral as required.<br/>
 
 [Facemask shortage and the coronavirus disease (COVID-19) outbreak: Reflection on public health measures](https://doi.org/10.1101/2020.02.11.20020735)<br/>
 by Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
@@ -991,23 +982,29 @@ by Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
 - Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
 - Besides, timely and effective communication with the public is essential to mitigate panic buying and anxiety in the population 27,28 .<br/>
 
+[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+- Appropriate protocols however have to be drafted to ensure effective actions while ensuring privacy and security of data and people.<br/>
+- This would render an increased wealth of data from both the medical field and smart city operators, while ensuring privacy and security; hence, aiding in providing relevant information for better informed decisions.<br/>
+
+[Weaponized Interdependence: China's Economic Statecraft and Social Penetration against Taiwan](https://doi.org/10.1016/j.orbis.2020.02.002)<br/>
+by Chang, Chia-Chien; Yang, Alan H.<br/>
+*Orbis - Mar 04, 2020*<br/>
+- 16 and ensuring cyber security.<br/>
+
 [And now for something completely different: from 2019-nCoV and COVID-19 to 2020-nMan](https://doi.org/10.1016/j.pulmoe.2020.02.010)<br/>
 by Froes, F.<br/>
 *Pulmonology - Apr 30, 2020*<br/>
 - Only thus can we minimise the risks of exposure, ensure early detection and timely diagnosis, and adopt the most effective infection control, therapeutic and preventive measures.<br/>
 
-[Psychological responses, behavioral changes and public perceptions during the early phase of the COVID-19 outbreak in China: a population based cross-sectional survey](https://doi.org/10.1101/2020.02.18.20024448)<br/>
-by Mengcen Qian; Qianhui Wu; Peng Wu; Zhiyuan Hou; Yuxia Liang; Benjamin J Cowling; Hongjie Yu<br/>
-*Feb 20, 2020*<br/>
-- First, providing the public with reliable and accurate information is crucial for addressing the psychological effects of contagious disease outbreaks.<br/>
-
 # Understanding coverage policies (barriers and opportunities) related to testing, treatment, and care
 #### Highlights<br/>
 - 31 Existing local preliminary programmes and policies around human and animal health, community development and conservation are considered effective resources to begin or continue developing cost-effective strategies to mitigate zoonotic risks.<br/>
+- We hope that these insights may help to mitigate the global impacts of COVID-19 by guiding effective decision-making in both high-and low-resource countries, and may contribute to prospective improvements in screening policy for future emerging infections.<br/>
 - Yet the quantitative performance of different policies matters for planning interventions and will influence how public health authorities prioritize different measures as the international and domestic context changes.<br/>
 - Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
 - First, close monitoring is needed of changes in epidemiology and of the effectiveness of public health strategies and their social acceptance.<br/>
-- Meanwhile, the supply of and demand for facemasks and other medical resources should be considered when planning for public health measures, so as to maintain the availability and affordability of medical resources.<br/>
 
 #### Articles<br/>
 [New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
@@ -1028,13 +1025,6 @@ by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily 
 - Closer collaboration between local animal and human health authorities within the current epidemic disease prevention programmes will provide educational and training opportunities to promote risk-mitigation knowledge, skills and best practice in local communities.<br/>
 - 31 Existing local preliminary programmes and policies around human and animal health, community development and conservation are considered effective resources to begin or continue developing cost-effective strategies to mitigate zoonotic risks.<br/>
 
-[Facemask shortage and the coronavirus disease (COVID-19) outbreak: Reflection on public health measures](https://doi.org/10.1101/2020.02.11.20020735)<br/>
-by Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
-*Feb 12, 2020*<br/>
-- This analysis could provide insight into the development of emergency plans regarding the adequacy and affordability of medical resources for future infectious disease outbreaks.<br/>
-- Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
-- Meanwhile, the supply of and demand for facemasks and other medical resources should be considered when planning for public health measures, so as to maintain the availability and affordability of medical resources.<br/>
-
 [What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
 by Singer, Donald R.J.; Redekop, Ken<br/>
 *Health Policy and Technology - Mar 31, 2020*<br/>
@@ -1052,6 +1042,12 @@ by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; San
 *Mar 13, 2020*<br/>
 - Decision-making and implementations may require adaptations and modifications to take into account setting-specific characteristics in terms of community features, local epidemiology and risk assessment, social habits, juridical provisions, organizational coordination, and availability of economic-financial resources.<br/>
 - However, in the absence of effective medical interventions, these measures must be implemented and the success of these measures, despite their disruptive impact on social-economic activities, depends heavily on how these measures are adapted to the specific scenario, in terms not only of clinical and epidemiological variables but also of social aspects, including social habits, juridical provisions, and economic-financial resources.<br/>
+
+[Facemask shortage and the coronavirus disease (COVID-19) outbreak: Reflection on public health measures](https://doi.org/10.1101/2020.02.11.20020735)<br/>
+by Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
+*Feb 12, 2020*<br/>
+- This analysis could provide insight into the development of emergency plans regarding the adequacy and affordability of medical resources for future infectious disease outbreaks.<br/>
+- Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
 
 [Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19](https://doi.org/10.7554/eLife.55570)<br/>
 by Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smith, James O<br/>

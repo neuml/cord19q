@@ -8,6 +8,33 @@
 - Each time, a 48 lack of rapid, accessible, and accurate molecular diagnostic testing has hindered the 49 public health response to the emerging viral threat.<br/>
 
 #### Articles<br/>
+[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
+by Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
+*Journal of Clinical Medicine - 2020*<br/>
+- Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review<br/>
+- The fast and accurate diagnosis of a specific viral infection enables prompt and accurate public health surveillance, prevention and control measures.<br/>
+- Rapid diagnostics, vaccines and therapeutics are key pharmaceutical interventions to limit transmission of respiratory infectious diseases.<br/>
+- The systematic review describes and assesses the potential rapid diagnostics, vaccines and therapeutics for 2019-nCoV, based in part on the developments for MERS-CoV and SARS-CoV.<br/>
+
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Efforts toward virus whole genome sequencing is also aimed at facilitating the development of reagents and resources for more accurate molecular diagnosis (Djikeng and Spiro, 2009) .<br/>
+- Rapid and accurate detection of emerging viruses is essential for rapid response, optimized clinical care and to limit the spread of these viruses.<br/>
+- The ultimate goal of genomic characterization of pathogenic viruses is to provide information about the viruses for the development of better diagnostic tests, improved vaccine design and more effective antiviral drugs.<br/>
+
+[Genome Detective Coronavirus Typing Tool for rapid identification and characterization of novel coronavirus genomes](https://doi.org/10.1093/bioinformatics/btaa145)<br/>
+by Cleemput, S.; Dumon, W.; Fonseca, V.; Karim, W. A.; Giovanetti, M.; Alcantara, L. C.; Deforche, K.; de Oliveira, T.<br/>
+*Bioinformatics (Oxford, England) - 2020*<br/>
+- This has helped the understanding of the transmission dynamics, the development of rapid diagnostic and has informed public health response.<br/>
+- This allows accurate identification of other coronavirus species and the tracking of new viral mutations as the outbreak expands globally.<br/>
+
+[Genome Detective Coronavirus Typing Tool for rapid identification and characterization of novel coronavirus genomes](https://doi.org/10.1101/2020.01.31.928796)<br/>
+by Cleemput, S.; Dumon, W.; Fonseca, V.; Abdool Karim, W.; Giovanetti, M.; Alcantara, L. C. J.; Deforche, K.; de Oliveira, T.<br/>
+*Feb 02, 2020*<br/>
+- This has helped the understanding of the transmission dynamics, the development of rapid diagnostic and has informed public health response.<br/>
+- This allows accurate identification of other coronavirus species and the tracking of new viral mutations as the outbreak expands globally.<br/>
+
 [Optimizing diagnostic strategy for novel coronavirus pneumonia, a multi-center study in Eastern China](https://doi.org/10.1101/2020.02.13.20022673)<br/>
 by Jing-Wen Ai; Hao-Cheng Zhang; Teng Xu; Jing Wu; Mengqi Zhu; Yi-Qi Yu; Han-Yue Zhang; Zhongliang Shen; Yang Li; Xian Zhou; Guo-Qing Zang; Jie Xu; Wen-Jing Chen; Yong-Jun Li; De-Sheng Xie; Ming-Zhe Zhou; Jing-Ying Sun; Jia-Zhen Chen; Wen-Hong Zhang<br/>
 *Feb 17, 2020*<br/>
@@ -32,44 +59,22 @@ by Chang Ha Woo; Sungho Jang; Giyoung Shin; Gyoo Yeol Jung; Jeong Wook Lee<br/>
 - Future efforts on 329 automated probe design will be needed to accelerate the development of SENSR assays for 330 newly emerging pathogens.<br/>
 - Second, SENSR will be a valuable 320 platform for the immediate development of diagnostic tests for emerging pathogens 1,37 321 because of the simple probe design process and broad adaptability of SENSR.<br/>
 
-[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
-by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
-*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
-- Efforts toward virus whole genome sequencing is also aimed at facilitating the development of reagents and resources for more accurate molecular diagnosis (Djikeng and Spiro, 2009) .<br/>
-- Rapid and accurate detection of emerging viruses is essential for rapid response, optimized clinical care and to limit the spread of these viruses.<br/>
-
 [Rapid Detection of 2019 Novel Coronavirus SARS-CoV-2 Using a CRISPR-based DETECTR Lateral Flow Assay](https://doi.org/10.1101/2020.03.06.20032334)<br/>
 by James P Broughton; Xianding Deng; Guixia Yu; Clare L Fasching; Jasmeet Singh; Jessica Streithorst; Andrea Granados; Alicia Sotomayor-Gonzalez; Kelsey Zorn; Allan Gopez; Elaine Hsu; Wei Gu; Steven Miller; Chao-Yang Pan; Hugo Guevara; Debra Wadford; Janice Chen; Charles Y Chiu<br/>
 *Mar 10, 2020*<br/>
 - Each time, a 48 lack of rapid, accessible, and accurate molecular diagnostic testing has hindered the 49 public health response to the emerging viral threat.<br/>
 - Key advantages of our approach over 127 existing methods such as qRT-PCR include isothermal signal amplification for rapid 128 target detection obviating the need for thermocycling, single nucleotide target 129 specificity (guide RNAs at the N2 site can distinguish SARS-CoV-2 from SARS-CoV 130 and MERS-CoV), integration with portable, low-cost reporting formats such as lateral 131 flow strips, and quick development cycle to address emerging threats from novel 132 zoonotic viruses (<2 weeks for SARS-CoV-2, Supplementary Fig.<br/>
 
-[Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
-by Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
-*Journal of Clinical Medicine - 2020*<br/>
-- The fast and accurate diagnosis of a specific viral infection enables prompt and accurate public health surveillance, prevention and control measures.<br/>
-- The systematic review describes and assesses the potential rapid diagnostics, vaccines and therapeutics for 2019-nCoV, based in part on the developments for MERS-CoV and SARS-CoV.<br/>
-
 [CRISPR-based surveillance for COVID-19 using genomically-comprehensive machine learning design](https://doi.org/10.1101/2020.02.26.967026)<br/>
 by Metsky, H. C.; Freije, C. A.; Kosoko-Thoroddsen, T.-S. F.; Sabeti, P. C.; Myhrvold, C.<br/>
 *Mar 02, 2020*<br/>
 - Ongoing SARS-CoV-2 sequencing is key to developing and monitoring diagnostics and similar surveillance tools.<br/>
 
-[An emergent clade of SARS-CoV-2 linked to returned travellers from Iran](https://doi.org/10.1101/2020.03.15.992818)<br/>
-by John-Sebastian Eden; Rebecca Rockett; Ian Carter; Hossiner Rahman; Joep de Ligt; James Hadfield; Matthew Storey; Xiaoyun Ren; Rachel Tulloch; Kerri Basile; Jessica Wells; Roy Byun; Nicky Gliroy; Matthew V O'Sullivan; Vitali Sintchenko; Sharon C Chen; Susan Maddocks; Tania C Sorrell; Edward C Holmes; Dominic E Dwyer; Jen Kok<br/>
-*Mar 17, 2020*<br/>
-- From a public health perspective, the real-time whole genome sequencing (WGS) of emerging viruses enables the informed development and design of molecular diagnostic methods, and tracing patterns of spread across multiple epidemiological scales (i.e.<br/>
-
-[Data sharing and outbreaks: best practice exemplified](https://doi.org/10.1016/S0140-6736(20)30184-7)<br/>
-by Heymann, David L<br/>
-*The Lancet - Feb 21, 2020*<br/>
-- The genetic sequence of the 2019 novel coronavirus (2019-nCoV) enabled the rapid development of point-of-care real-time RT-PCR diagnostic tests specific for 2019-nCoV (based on full genome sequence data on the Global Initiative on Sharing All Influenza Data [GISAID] platform).<br/>
-
 # Access to geographic and temporal diverse sample sets to understand geographic distribution and genomic differences, and determine whether there is more than one strain in circulation. Multi-lateral agreements such as the Nagoya Protocol could be leveraged.
 
 #### Highlights<br/>
+- In subsequent research in this project, a longitudinal study should be conducted that uses a wider sample and measures the mental health status of medical personnel from multiple dimensions, which can help better identify the mutual influence between demographic data and mental health status.<br/>
 - While the approaches are myriad, the time for international geopolitical and public health collaboration and solidarity is now, we must save no resources to protect both regional and international populations.<br/>
-- Here we conducted a travel network-based analysis to explore patterns of domestic and international population movements from high-risk cities in China, and provide preliminary estimates of the potential risk of 2019-nCoV spreading across and beyond the country.<br/>
 - Despite the potential for genome sequencing to revolutionize outbreak response, the global public health community still struggles to coordinate data sharing across international borders, between academic researchers, and with private companies   .<br/>
 - 4, 5 Crowdsourcing enables the collection of data from multiple platforms including health-care-oriented social networks, government and public health agencies, and global news sources.<br/>
 - Specifically, we use all COVID-19 genomic data available in the public domain so far to underscore the importance of access to raw data and to demonstrate that existing community efforts in curation and deployment of biomedical software can reliably support rapid, reproducible research during global health crises.<br/>
@@ -81,14 +86,18 @@ by Markus Luczak-Roesch<br/>
 - In the field of phylogenetic and phylogeographic analysis our approach can be compared to haplotype networks for example but with the benefit that the resulting network preserves access to temporal patterns at both macroscopic (e.g.<br/>
 - Our method is based on Transcendental Information Cascades and combines gene sequence analysis with temporal data mining to uncover potential relationships between a virus' genetic evolution and distinct occurrences of infections.<br/>
 - These results allow the interpretation that (a) there is evolving variation in the genomic sequences we studied, but (b) there is no indication for the dominance of a particular variance.<br/>
-- We applied Transcendental Information Cascades to capture the recurrence and co-occurrence of unique codon identifiers over distinct and temporally ordered nucleotide sequences derived from genetic samples taken from different human subjects.<br/>
+
+[An emergent clade of SARS-CoV-2 linked to returned travellers from Iran](https://doi.org/10.1101/2020.03.15.992818)<br/>
+by John-Sebastian Eden; Rebecca Rockett; Ian Carter; Hossiner Rahman; Joep de Ligt; James Hadfield; Matthew Storey; Xiaoyun Ren; Rachel Tulloch; Kerri Basile; Jessica Wells; Roy Byun; Nicky Gliroy; Matthew V O'Sullivan; Vitali Sintchenko; Sharon C Chen; Susan Maddocks; Tania C Sorrell; Edward C Holmes; Dominic E Dwyer; Jen Kok<br/>
+*Mar 17, 2020*<br/>
+- From a public health perspective, the real-time whole genome sequencing (WGS) of emerging viruses enables the informed development and design of molecular diagnostic methods, and tracing patterns of spread across multiple epidemiological scales (i.e.<br/>
+- Following the first release of the SARS-CoV-2 genome , public health and research laboratories worldwide have rapidly shared sequences on public data repositories such as GISAID (n = 236 genomes as of 9 March 2020) that have been used to provide near real-time snapshots of global diversity through public analytic and visualization tools .<br/>
 
 [A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
 by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
 *Int Health - Feb 10, 2020*<br/>
 - Using a qualitative approach, this study allowed us to explore a variety of risk factors at different individual, community and policy levels to contextualize the risks of zoonotic disease emergence in local communities.<br/>
 - 9,10 Further research to identify the risk factors among different populations will help develop more locally-relevant and fine-tuned risk mitigation strategies and address the social and ecological bias to identifying recommendations for other community settings.<br/>
-- The findings provide guidance for future in-depth research on specific risk factors, as well as zoonotic disease control and prevention in southern China and potentially other regions with similar ecological and social contexts.<br/>
 
 [On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
 by Allam, Zaheer; Jones, David S.<br/>
@@ -101,6 +110,11 @@ by Georgalakis, James<br/>
 *Social Science & Medicine - Apr 30, 2020*<br/>
 - The second question seeks to locate the dynamics of this network in the literature on network theory and the role of epistemic communities in influencing policy during emergencies.<br/>
 - Network theory provides a useful framework with which to explore the politics of knowledge in global health with its emphasis on individuals' social context.<br/>
+
+[Profiling the immune vulnerability landscape of the 2019 Novel Coronavirus](https://doi.org/10.1101/2020.02.08.939553)<br/>
+by Zhu, J.; Kim, J.; Xiao, X.; Wang, Y.; Luo, D.; Chen, R.; Xu, L.; Zhang, H.; Xiao, G.; Zhan, X.; Wang, T.; Xie, Y.<br/>
+*Feb 12, 2020*<br/>
+- We also used the D3.phylogram.js to visualize the phylogenetic tree and the Select2 library to facilitate users' query for different 2019-nCoV strains across multiple geographic regions.<br/>
 
 [The coronavirus outbreak: the central role of primary care in emergency preparedness and response](https://doi.org/10.3399/bjgpopen20X101041)<br/>
 by Dunlop, C.; Howe, A.; Li, D.; Allen, L. N.<br/>
@@ -117,20 +131,10 @@ by Tianzhi Wu; Xijin Ge; Guangchuang Yu; Erqiang Hu<br/>
 *Feb 27, 2020*<br/>
 - With historical data, we can incorporate temporal and spatial information to create an animation to help us understand disease transmission and examine the spread of the COVID-19 outbreak.<br/>
 
-[Bulk and single-cell transcriptomics identify tobacco-use disparity in lung gene expression of ACE2, the receptor of 2019-nCov](https://doi.org/10.1101/2020.02.05.20020107)<br/>
-by Guoshuai Cai<br/>
+[Spatially Explicit Modeling of 2019-nCoV Epidemic Trend based on Mobile Phone Data in Mainland China](https://doi.org/10.1101/2020.02.09.20021360)<br/>
+by Xiaolin Zhu; Aiyin Zhang; Shuai Xu; Pengfei Jia; Xiaoyue Tan; Jiaqi Tian; Tao Wei; Zhenxian Quan; Jiali Yu<br/>
 *Feb 11, 2020*<br/>
-- Also, we analyzed two lung tissue single-cell transcriptomic datasets to investigate the distribution of ACE2 gene expression among cell types, which will provide new knowledge for understanding the mechanism and population disparities of 2019-nCov infection.<br/>
-
-[Mutations, Recombination and Insertion in the Evolution of 2019-nCoV](https://doi.org/10.1101/2020.02.29.971101)<br/>
-by Wu, A.; Niu, P.; Wang, L.; Zhou, H.; Zhao, X.; Wang, W.; Wang, J.; Ji, C.; Ding, X.; Wang, X.; Lu, R.; Gold, S.; Aliyari, S.; Zhang, S.; Vikram, E.; Zou, A.; Lenh, E.; Chen, J.; Ye, F.; Han, N.; Peng, Y.; Guo, H.; Wu, G.; Jiang, T.; Tan, W.; Cheng, G.<br/>
-*Mar 02, 2020*<br/>
-- Further tracking the genome mutations with additional strains of 2019-nCoV isolated from patients in 20 different locations at different time points will provide insights to understand the molecular evolution of this rapid spreading viruses.<br/>
-
-[From Isolation to Coordination: How Can Telemedicine Help Combat the COVID-19 Outbreak?](https://doi.org/10.1101/2020.02.20.20025957)<br/>
-by Yunkai Zhai; Yichuan Wang; Minhao Zhang; Jody Hoffer Gittell; Shuai Jiang; Baozhan Chen; Fangfang Cui; Xianying He; Jie Zhao; Xiaojun Wang<br/>
-*Feb 23, 2020*<br/>
-- The platform could aggregate COVID-19 patient records across 126 connected hospitals and rapidly expand to enable open collaborations with key stakeholders such as government authorities, research institutions and laboratories.<br/>
+- To understand the specific attributes of epidemic dynamics under different scenarios, we investigated the temporal changes of daily new infections across all cities in mainland China.<br/>
 
 # Evidence that livestock could be infected (e.g., field surveillance, genetic sequencing, receptor binding) and serve as a reservoir after the epidemic appears to be over.
 
@@ -204,40 +208,42 @@ by Pengfei Sun; Shuyan Qie; Zongjan Liu; Jizhen Ren; Jianing Jianing Xi<br/>
 # Evidence of whether farmers are infected, and whether farmers could have played a role in the origin.
 
 #### Highlights<br/>
-- This is where the nurse has an important role to play in addressing and clarifying facts about the virus directly with their patients.<br/>
-- This indicated that ACE2 not only played a critical role in viral susceptibility but also may be involved in post-infection regulation.<br/>
+- Infected feces also played an important role in some cluster outbreak cases .<br/>
+- There is concern that airborne transmission may also be playing a role.<br/>
 - Furthermore, climate factors may also play a role in the epidemic spreading.<br/>
-- The likely zoonotic origin also raised questions about additional sources other than the Huanan Seafood Market.<br/>
+- However, we also should attach importance to asymptomatic cases which may play a critical role in the transmission process .<br/>
 - These factors may also play a significant role in coronophobia.<br/>
 
 #### Articles<br/>
-[Genetic diversity and potential recombination between ferret coronaviruses from European and American lineages](https://doi.org/10.1016/j.jinf.2020.01.016)<br/>
-by Xu, Yifei<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
-- 8 Wild boar is also susceptible to ASFV and plays an important role in ASF persistence in endemic areas or in sporadic outbreaks.<br/>
-- Asia raises a large number of pigs, and pork is the main meat source for local people.<br/>
-
-[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
-by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
-- 8 Wild boar is also susceptible to ASFV and plays an important role in ASF persistence in endemic areas or in sporadic outbreaks.<br/>
-- Asia raises a large number of pigs, and pork is the main meat source for local people.<br/>
+[Are pangolins the intermediate host of the 2019 novel coronavirus (2019-nCoV) ?](https://doi.org/10.1101/2020.02.18.954628)<br/>
+by Liu, P.; Jiang, J.-Z.; Hua, Y.; Wang, X.; Hou, F.; Wan, X.-F.; Chen, J.; Zou, J.; Chen, J.<br/>
+*Feb 20, 2020*<br/>
+- Thus, although it is clear that 2019-nCoV is of bat origin, it is likely another intermediate host could be involved in emergence of the 2019-nCoV.<br/>
+- Although we are unclear whether these two batches of smuggling and exotic pangolins were from the same origin, our results indicated that pangolin be a natural host for Betacoronaviruses, which could be enzootic in pangolins.<br/>
 
 [Detection of 20 respiratory viruses and bacteria by influenza-like illness surveillance in Beijing, China, 2016–2018](https://doi.org/10.1016/j.jinf.2019.11.014)<br/>
 by Haixu, Liang; Haibin, Wang; Lili, Ren<br/>
 *Journal of Infection - Mar 31, 2020*<br/>
 - These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
 - 8 Wild boar is also susceptible to ASFV and plays an important role in ASF persistence in endemic areas or in sporadic outbreaks.<br/>
-- Asia raises a large number of pigs, and pork is the main meat source for local people.<br/>
+
+[Genetic diversity and potential recombination between ferret coronaviruses from European and American lineages](https://doi.org/10.1016/j.jinf.2020.01.016)<br/>
+by Xu, Yifei<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
+- 8 Wild boar is also susceptible to ASFV and plays an important role in ASF persistence in endemic areas or in sporadic outbreaks.<br/>
 
 [Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
 by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
 *Journal of Infection - Mar 31, 2020*<br/>
 - These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
 - 8 Wild boar is also susceptible to ASFV and plays an important role in ASF persistence in endemic areas or in sporadic outbreaks.<br/>
-- Asia raises a large number of pigs, and pork is the main meat source for local people.<br/>
+
+[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
+by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
+- 8 Wild boar is also susceptible to ASFV and plays an important role in ASF persistence in endemic areas or in sporadic outbreaks.<br/>
 
 [A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
 by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
@@ -245,31 +251,25 @@ by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily 
 - by raising, hunting, trading or slaughtering live animals) or indirectly (e.g.<br/>
 - 3 People living in the rural areas of southern China primarily cultivate rice and fruits, raise swine and poultry in households or on small farms, 4 but also traditionally hunt wild animals as an alternative income source.<br/>
 
-[Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding](https://doi.org/10.1016/S0140-6736(20)30251-8)<br/>
-by Lu, Roujian; Zhao, Xiang; Li, Juan; Niu, Peihua; Yang, Bo; Wu, Honglong; Wang, Wenling; Song, Hao; Huang, Baoying; Zhu, Na; Bi, Yuhai; Ma, Xuejun; Zhan, Faxian; Wang, Liang; Hu, Tao; Zhou, Hong; Hu, Zhenhong; Zhou, Weimin; Zhao, Li; Chen, Jing; Meng, Yao; Wang, Ji; Lin, Yang; Yuan, Jianying; Xie, Zhihao; Ma, Jinmin; Liu, William J; Wang, Dayan; Xu, Wenbo; Holmes, Edward C; Gao, George F; Wu, Guizhen; Chen, Weijun; Shi, Weifeng; Tan, Wenjie<br/>
-*The Lancet - Feb 28, 2020*<br/>
-- Therefore, on the basis of current data, it seems likely that the 2019-nCoV causing the Wuhan outbreak might also be initially hosted by bats, and might have been transmitted to humans via currently unknown wild animal(s) sold at the Huanan seafood market.<br/>
-- However, despite the importance of bats, several facts suggest that another animal is acting as an intermediate host between bats and humans.<br/>
-
 [2020 year of the nurse and midwife: Meeting new challenges](https://doi.org/10.1016/j.ienj.2020.100848)<br/>
 by Bell, Sue Anne; Brysiewicz, Petra<br/>
 *International Emergency Nursing - Mar 14, 2020*<br/>
 - This is where the nurse has an important role to play in addressing and clarifying facts about the virus directly with their patients.<br/>
+
+[Adjusted age-specific case fatality ratio during the COVID-19 epidemic in Hubei, China, January and February 2020](https://doi.org/10.1101/2020.03.04.20031104)<br/>
+by Julien Riou; Anthony Hauser; Michel J Counotte; Christian L Althaus<br/>
+*Mar 06, 2020*<br/>
+- Different contact patterns could play a role in a limited outbreak, but not in such a widespread infection, especially as household transmission seems to play a major role .<br/>
 
 [Machine learning using intrinsic genomic signatures for rapid classification of novel pathogens: COVID-19 case study](https://doi.org/10.1101/2020.02.03.932350)<br/>
 by Randhawa, G. S.; Soltysiak, M. P. M.; El Roz, H.; de Souza, C. P. E.; Hill, K. A.; Kari, L.<br/>
 *Feb 20, 2020*<br/>
 - Sampling 299 additional animals at the market and wildlife in the surrounding area may help elucidate 300 whether intermediary species were involved or not, as was possible with the SARS-CoV.<br/>
 
-[Integrative Bioinformatics Analysis Provides Insight into the Molecular Mechanisms of 2019-nCoV](https://doi.org/10.1101/2020.02.03.20020206)<br/>
-by Xiang He; Lei Zhang; Qin Ran; Anying Xiong; Junyi Wang; Dehong Wu; Feng Chen; Guoping Li<br/>
-*Feb 05, 2020*<br/>
-- This indicated that ACE2 not only played a critical role in viral susceptibility but also may be involved in post-infection regulation.<br/>
-
-[Modeling and Prediction of the 2019 Coronavirus Disease Spreading in China Incorporating Human Migration Data](https://doi.org/10.1101/2020.02.18.20024570)<br/>
-by Choujun Zhan; Chi K. Tse; Yuxia Fu; Zhikang Lai; Haijun Zhang<br/>
-*Feb 20, 2020*<br/>
-- Furthermore, climate factors may also play a role in the epidemic spreading.<br/>
+[Coronavirus Disease 2019: Coronaviruses and Blood Safety](https://doi.org/10.1016/j.tmrv.2020.02.003)<br/>
+by Chang, Le; Yan, Ying; Wang, Lunan<br/>
+*Transfusion Medicine Reviews - Feb 21, 2020*<br/>
+- Infected feces also played an important role in some cluster outbreak cases .<br/>
 
 # Surveillance of mixed wildlife- livestock farms for SARS-CoV-2 and other coronaviruses in Southeast Asia.
 
@@ -277,8 +277,8 @@ by Choujun Zhan; Chi K. Tse; Yuxia Fu; Zhikang Lai; Haijun Zhang<br/>
 - The new Wuhan coronavirus [2019-nCoV} epidemic illustrates this well, with spread already of this potentially serious respiratory illness from China as its source to 25 countries in Asia, Oceania, North America and Europe.<br/>
 - infection (COVID-19) that started in Wuhan, Hubei Province, China , has spread to all 43 parts of China, other parts of Asia such as Japan and Thailand, Australia, Europe and 44 North America.<br/>
 - The risk of transmission of SARS-COV-2 from China on 31 January 2020 was highest to neighbouring countries in Asia (Thailand, Cambodia, Malaysia), followed by Europe (UK, France, Russia and Germany), Oceania (Australia and New Zealand) and North America (USA and Canada).<br/>
-- By January 31, 2020, 192 fatalities and 3,215 laboratory-confirmed cases were reported in Wuhan; 8,576 additional cases were spread across >300 cities in mainland China; and 127 exported cases were reported in 23 countries/states spanning Asia, Europe, Oceania, and North America.<br/>
-- Most of the cases (n = 44,665) were reported in 31 provinces and autonomous regions of China and 514 cases were reported in 25 other countries in Asia, Australia, Europe and North America .<br/>
+- At first, it was diagnosed as "unexplained pneumonia", but it quickly spread to all parts of the country and parts of Southeast Asia, North America, and Europe.<br/>
+- Besides this, the virus spread to other region of the world such as Europe, North America and the Asia specific.<br/>
 
 #### Articles<br/>
 [A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
@@ -289,14 +289,22 @@ by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily 
 - 5 The mixed landscape has abundant crops, which attracts wild animals into the communities, and livestock rearing is common.<br/>
 - A qualitative study of zoonotic risk factors among rural communities in southern China<br/>
 
-[Detection of 20 respiratory viruses and bacteria by influenza-like illness surveillance in Beijing, China, 2016–2018](https://doi.org/10.1016/j.jinf.2019.11.014)<br/>
-by Haixu, Liang; Haibin, Wang; Lili, Ren<br/>
+[A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
+by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
+*Biosafety and Health - 2020*<br/>
+- China is located within a major 'emerging disease hotspot' in Southeast Asia, but there is also a high risk of future diseases originating in sub-Saharan Africa, South Asia and Latin America .<br/>
+- However, given the size of the wildlife farming industry in China, routine disease surveillance and veterinary care at farms and in transport to markets would need to be improved.<br/>
+- The finding of people in a small sample of rural communities in southern China seropositive for a bat SARSr-CoV suggests that bat-origin coronaviruses commonly spillover in the region .<br/>
+- Further, we estimate that there are thousands of other CoVs in bats across Southeast Asia, many of which will have pandemic potential.<br/>
+
+[Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
+by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
 *Journal of Infection - Mar 31, 2020*<br/>
 - It should be noted that backyard and small-scale farms with weak biosecurity systems comprise a very large proportion of pig herds in Asian countries with a developing swine industry, such as in the as of yet ASF-unaffected Asian countries Indonesia, India, and Malaysia.<br/>
 - These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
 
-[Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
-by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
+[Detection of 20 respiratory viruses and bacteria by influenza-like illness surveillance in Beijing, China, 2016–2018](https://doi.org/10.1016/j.jinf.2019.11.014)<br/>
+by Haixu, Liang; Haibin, Wang; Lili, Ren<br/>
 *Journal of Infection - Mar 31, 2020*<br/>
 - It should be noted that backyard and small-scale farms with weak biosecurity systems comprise a very large proportion of pig herds in Asian countries with a developing swine industry, such as in the as of yet ASF-unaffected Asian countries Indonesia, India, and Malaysia.<br/>
 - These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
@@ -312,12 +320,6 @@ by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
 *Journal of Infection - Mar 31, 2020*<br/>
 - It should be noted that backyard and small-scale farms with weak biosecurity systems comprise a very large proportion of pig herds in Asian countries with a developing swine industry, such as in the as of yet ASF-unaffected Asian countries Indonesia, India, and Malaysia.<br/>
 - These viruses emerge from animal trading markets, where veterinary workers need to be vigilant and concerned whether these viruses have the potential to spread between animals and the impact the livestock industry.<br/>
-
-[A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
-by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
-*Biosafety and Health - 2020*<br/>
-- China is located within a major 'emerging disease hotspot' in Southeast Asia, but there is also a high risk of future diseases originating in sub-Saharan Africa, South Asia and Latin America .<br/>
-- Further, we estimate that there are thousands of other CoVs in bats across Southeast Asia, many of which will have pandemic potential.<br/>
 
 [Understanding the emerging coronavirus: what it means for health security and infection prevention](https://doi.org/10.1016/j.jhin.2020.02.023)<br/>
 by Peters, Alexandra; Vetter, Pauline; Guitart, Chloé; Lotfinejad, Nasim; Pittet, Didier<br/>
@@ -344,11 +346,11 @@ by Kock, Richard A.; Karesh, William B.; Veas, Francisco; Velavan, Thirumalaisam
 # Experimental infections to test host range for this pathogen.
 
 #### Highlights<br/>
-- The virus is known to infect a wide range of hosts including humans, other mammals, and birds.<br/>
-- Coronaviruses can be classified into 4 genera (a, b, c, and d) and these viruses are detected in a wide range of animal species, including humans .<br/>
+- Although coronavirus is commonly associated with acute respiratory infections in humans, its ability to infect multiple host species and a variety of diseases makes it a complex pathogen .<br/>
+- Human coronaviruses are considered as important pathogens that cause respiratory infection.<br/>
+- Infections of other respiratory pathogens were reported in 16 patients (47.06%).<br/>
 - To date, many problems remain to be solved, including the virus' origin, extent, and duration of transmission in humans, its ability to infect animal hosts, its spectrum and pathogenesis of human infections, and an effective vaccine development.<br/>
 - Many important questions remain unanswered, including its origin, extent, and duration of transmission in humans, ability to infect other animal hosts, and the spectrum and pathogenesis of human infections.<br/>
-- Coronaviruses (CoVs) are enveloped, single positive-stranded RNA viruses that can infect a wide range of host species.<br/>
 
 #### Articles<br/>
 [Larger viral genome size facilitates emergence of zoonotic diseases](https://doi.org/10.1101/2020.03.10.986109)<br/>
@@ -364,6 +366,12 @@ by Liu, P.; Jiang, J.-Z.; Hua, Y.; Wang, X.; Hou, F.; Wan, X.-F.; Chen, J.; Zou,
 - It is critical to determine the natural reservoir and the host range of coronaviruses, especially their potential of causing zoonosis.<br/>
 - The host range of animal origin coronaviruses was promiscuous .<br/>
 
+[Clinical characteristics and imaging manifestations of the 2019 novel coronavirus disease (COVID-19):A multi-center study in Wenzhou city, Zhejiang, China](https://doi.org/10.1016/j.jinf.2020.02.016)<br/>
+by Yang, Wenjie; Cao, Qiqi; Qin, Le; Wang, Xiaoyang; Cheng, Zenghui; Pan, Ashan; Dai, Jianyi; Sun, Qingfeng; Zhao, Fengquan; Qu, Jieming; Yan, Fuhua<br/>
+*Journal of Infection - Feb 26, 2020*<br/>
+- Human coronaviruses are considered as important pathogens that cause respiratory infection.<br/>
+- Another concern from the point of view of etiology, for a pandemic disease, in general, pathogens tend to reduce their virulence in order to maximize their between-host transmission, 9 and hosts have been selected to reduce the harm caused by their pathogen,   otherwise the lack of adaptation in novel hostpathogen associations may suspend the transmission seen in some emerging diseases.<br/>
+
 [2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
 by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
 *Journal of Infection in Developing Countries - 2020*<br/>
@@ -376,15 +384,15 @@ by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
 - Comparative quantitative analysis has suggested that bats host more zoonotic viral infections per species than rodents.<br/>
 - Pathogenic viruses are viruses that can infect and replicate within human cells and cause diseases.<br/>
 
+[An approach to the photocatalytic mechanism in the TiO2-nanomaterials microorganism interface for the control of infectious processes](https://doi.org/10.1016/j.apcatb.2020.118853)<br/>
+by Rodríguez-González, Vicente; Obregón, Sergio; Patrón-Soberano, Olga A.; Terashima, Chiaki; Fujishima, Akira<br/>
+*Applied Catalysis B: Environmental - Mar 09, 2020*<br/>
+- This means that a specific pathogen will be involved according to the infection conditions and the features of the host organism.<br/>
+
 [Novel coronavirus: From discovery to clinical diagnostics](https://doi.org/10.1016/j.meegid.2020.104211)<br/>
 by Phan, Tung<br/>
 *Infection, Genetics and Evolution - Apr 30, 2020*<br/>
 - Although coronavirus is commonly associated with acute respiratory infections in humans, its ability to infect multiple host species and a variety of diseases makes it a complex pathogen .<br/>
-
-[Clinical and immunologic features in severe and moderate forms of Coronavirus Disease 2019](https://doi.org/10.1101/2020.02.16.20023903)<br/>
-by Guang Chen; Di Wu; Wei Guo; Yong Cao; Da Huang; Hongwu Wang; Tao Wang; Xiaoyun Zhang; Huilong Chen; Haijing Yu; Xiaoping Zhang; Minxia Zhang; Shiji Wu; Jianxin Song; Tao Chen; Meifang Han; Shusheng Li; Xiaoping Luo; Jianping Zhao; Qin Ning<br/>
-*Feb 19, 2020*<br/>
-- The production of IFN-γ is essential for the resistance against infection of various pathogens 3 8 2 such as virus, bacteria, and parasite 13 .<br/>
 
 [Return of the Coronavirus: 2019-nCoV](https://doi.org/10.3390/v12020135)<br/>
 by Gralinski, E. Lisa; Menachery, D. Vineet<br/>
@@ -395,11 +403,6 @@ by Gralinski, E. Lisa; Menachery, D. Vineet<br/>
 by Wenlei Xiao; Qiang Liu; J Huan; Pengpeng Sun; Liuquan Wang; Chenxin Zang; Sanying Zhu; Liansheng Gao<br/>
 *Mar 17, 2020*<br/>
 -  Infectious: Individual is infected with a pathogen and is capable of transmitting the pathogen to others.<br/>
-
-[A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
-by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
-*Biosafety and Health - 2020*<br/>
-- We also have data from experimental cell line infections , on the clinical findings , the epidemiology of viral transmission , and on its spread to other countries.<br/>
 
 [Severe acute respiratory syndrome-related coronavirus - The species and its viruses, a statement of the Coronavirus Study Group](https://doi.org/10.1101/2020.02.07.937862)<br/>
 by Gorbalenya, A. E.<br/>
@@ -429,29 +432,29 @@ by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A.
 - Determining the animal reservoir and incidental hosts of a virus with evidence of zoonosis such as 2019-nCoV is important for controlling spillover events and limiting human infections.<br/>
 - While masked palm civets and raccoon dogs were involved in transmission to humans and initially considered potential reservoirs, they are now considered as incidental or spillover hosts   .<br/>
 
-[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
-by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
-*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
-- Similar to bats, rodents are also natural reservoirs of a number of life-threatening zoonotic viruses.<br/>
-- Zoonotic viral infections which cause human diseases may come from domestic animals, poultry, livestock and wildlife.<br/>
-
 [Molecular Diagnosis of a Novel Coronavirus (2019-nCoV) Causing an Outbreak of Pneumonia](https://doi.org/10.1093/clinchem/hvaa029)<br/>
 by Chu, Daniel K. W.; Pan, Yang; Cheng, Samuel M. S.; Hui, Kenrie P. Y.; Krishnan, Pavithra; Liu, Yingzhi; Ng, Daisy Y. M.; Wan, Carrie K. C.; Yang, Peng; Wang, Quanyi; Peiris, Malik; Poon, Leo L. M.<br/>
 *Clin Chem - 2020*<br/>
 - The detection of SARS coronavirus in these species led to a temporary ban of selling of these animals in 2004, thereby preventing additional spill-over events from animals to humans.<br/>
 - Some of the confirmed cases have no epidemiological link to wet markets, suggesting the possibility of human-to-human transmissions and/or multiple spill-over events in different settings.<br/>
 
-[The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
-by Rothan, Hussin A.; Byrareddy, Siddappa N.<br/>
-*Journal of Autoimmunity - Feb 26, 2020*<br/>
-- Another piece of evidence that supports the COVID-19 is of bat origin is the existence of a high degree of homology of the ACE2 receptor from a diversity of animal species, thus implicating these animal species as possible intermediate hosts or animal models for COVID-19 infections .<br/>
-- Epidemiological changes in COVID-19 infection should be monitored taking into account potential routes of transmission and subclinical infections, in addition to the adaptation, evolution, and virus spread among humans and possible intermediate animals and reservoirs.<br/>
+[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
+by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
+*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
+- Similar to bats, rodents are also natural reservoirs of a number of life-threatening zoonotic viruses.<br/>
+- Zoonotic viral infections which cause human diseases may come from domestic animals, poultry, livestock and wildlife.<br/>
 
 [Coronavirus Disease 2019 (COVID-19) and Pregnancy: What obstetricians need to know](https://doi.org/10.1016/j.ajog.2020.02.017)<br/>
 by Rasmussen, Sonja A.; Smulian, John C.; Lednicky, John A.; Wen, Tony S.; Jamieson, Denise J.<br/>
 *American Journal of Obstetrics and Gynecology - Feb 24, 2020*<br/>
 - The emergence of these viruses in humans has 251 been attributed to host switching: the virus "jumped" from an intermediary host species (e.g., 252 civet cats for SARS-CoV and dromedary camels for MERS-CoV) to humans.<br/>
 - The natural reservoir for SARS-CoV is believed to be bats; however, some evidence 138 supported civet cats or raccoon dogs as possible intermediate sources of these illnesses.<br/>
+
+[The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
+by Rothan, Hussin A.; Byrareddy, Siddappa N.<br/>
+*Journal of Autoimmunity - Feb 26, 2020*<br/>
+- Another piece of evidence that supports the COVID-19 is of bat origin is the existence of a high degree of homology of the ACE2 receptor from a diversity of animal species, thus implicating these animal species as possible intermediate hosts or animal models for COVID-19 infections .<br/>
+- Epidemiological changes in COVID-19 infection should be monitored taking into account potential routes of transmission and subclinical infections, in addition to the adaptation, evolution, and virus spread among humans and possible intermediate animals and reservoirs.<br/>
 
 [Are pangolins the intermediate host of the 2019 novel coronavirus (2019-nCoV) ?](https://doi.org/10.1101/2020.02.18.954628)<br/>
 by Liu, P.; Jiang, J.-Z.; Hua, Y.; Wang, X.; Hou, F.; Wan, X.-F.; Chen, J.; Zou, J.; Chen, J.<br/>
@@ -477,11 +480,11 @@ by Li, Rui; Qiao, Songlin; Zhang, Gaiping<br/>
 # Socioeconomic and behavioral risk factors for this spill-over
 
 #### Highlights<br/>
+- Our recent behavioral risk investigations in China identified low levels of environmental biosecurity and high levels of human-animal contact as key risk factors for zoonotic disease emergence, particularly in local wet and animal markets .<br/>
 - Impacts of social and economic factors on the transmission of coronavirus disease (COVID-19) in China<br/>
-- Vulnerability Index (IDVI) that was introduced as a synthetic metric to account for a broader set of factors, including descriptors of health care, public health, economic, demographic, disease dynamics, and political (domestic and international) conditions .<br/>
 - Our results suggested that perceived risk and severity of the disease as well as information reliability were important factors associated with the psychological and behavioral responses.<br/>
-- Such fluctuations could be the result of changes in behaviour in the population at risk, or specific superspreading events that inflated the average estimate of transmission .<br/>
 - Such fluctuations could be the result of changes in behaviour in the population at risk, or specific superspreading events that inflated the average estimate of transmission.<br/>
+- Such fluctuations could be the result of changes in behaviour in the population at risk, or specific superspreading events that inflated the average estimate of transmission .<br/>
 
 #### Articles<br/>
 [Psychological responses, behavioral changes and public perceptions during the early phase of the COVID-19 outbreak in China: a population based cross-sectional survey](https://doi.org/10.1101/2020.02.18.20024448)<br/>
@@ -490,8 +493,24 @@ by Mengcen Qian; Qianhui Wu; Peng Wu; Zhiyuan Hou; Yuxia Liang; Benjamin J Cowli
 - Perception factors associated with anxiety and behavioral responses Table 1 are controlled for.<br/>
 - 14, 15 Behavioral changes are also associated with government involvement level, perceptions of diseases, and the stage of the outbreak, and these factors vary by diseases and settings.<br/>
 - Our results suggested that perceived risk and severity of the disease as well as information reliability were important factors associated with the psychological and behavioral responses.<br/>
-- In this study, we aimed to investigate psychological and behavioral responses to the threat of COVID-19 outbreak and to examine public perceptions associated with the response outcomes in mainland China.<br/>
 - We found no evidence that sex, age, educational attainment, working status and marital status were closely associated with psychological and behavioral responses during the novel coronavirus outbreak.<br/>
+- In this study, we aimed to investigate psychological and behavioral responses to the threat of COVID-19 outbreak and to examine public perceptions associated with the response outcomes in mainland China.<br/>
+
+[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
+by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
+*Int Health - Feb 10, 2020*<br/>
+- With further urbanization, and subsequent increased interactions between human populations and the changing ecosystems, new risk factors for zoonotic disease transmission will likely emerge.<br/>
+- Using a qualitative approach, this study allowed us to explore a variety of risk factors at different individual, community and policy levels to contextualize the risks of zoonotic disease emergence in local communities.<br/>
+- This study provided evidence of human-animal interactions in rural communities of southern China that increase the potential for zoonotic disease emergence and suggested opportunities for risk mitigation.<br/>
+- 28 At the individual level, both risk and protective factors were analysed in terms of the individuals' knowledge, attitudes and practices to better understand the risk factors for identifying context-based strategies.<br/>
+- Population migration from rural communities to urban areas for employment, as well as the wild animal protection policy changes in China in recent years, have led to a perceived overall reduction in activities such as household animal raising and wildlife trade.<br/>
+
+[Impacts of social and economic factors on the transmission of coronavirus disease (COVID-19) in China](https://doi.org/10.1101/2020.03.13.20035238)<br/>
+by Yun Qiu; Xi Chen; Wei Shi<br/>
+*Mar 17, 2020*<br/>
+- Impacts of social and economic factors on the transmission of coronavirus disease (COVID-19) in China<br/>
+- We investigate the impacts of many social, economic and environmental variables in mediating the transmission rates (Eq.<br/>
+- The effects of the environmental factors and population density are mixed.<br/>
 
 [A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
 by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
@@ -500,35 +519,17 @@ by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
 - Changing these cultural habits will take time, however, recent behavioral questionnaire data suggests a generational transformation with reduced wildlife consumption in the younger generation .<br/>
 - Furthermore, the drivers of disease emergence are human activities that are expanding on a global scale, including deforestation, agricultural intensification and the wildlife trade.<br/>
 
-[Impacts of social and economic factors on the transmission of coronavirus disease (COVID-19) in China](https://doi.org/10.1101/2020.03.13.20035238)<br/>
-by Yun Qiu; Xi Chen; Wei Shi<br/>
+[Temporal relationship between outbound traffic from Wuhan and the 2019 coronavirus disease (COVID-19) incidence in China](https://doi.org/10.1101/2020.03.15.20034199)<br/>
+by Zaixing Shi; Ya Fang<br/>
 *Mar 17, 2020*<br/>
-- Impacts of social and economic factors on the transmission of coronavirus disease (COVID-19) in China<br/>
-- We investigate the impacts of many social, economic and environmental variables in mediating the transmission rates (Eq.<br/>
-
-[Population movement, city closure and spatial transmission of the 2019-nCoV infection in China](https://doi.org/10.1101/2020.02.04.20020339)<br/>
-by Siqi Ai; Guanghu Zhu; Fei Tian; Huan Li; Yuan Gao; Yinglin Wu; Qiyong Liu; Hualiang Lin<br/>
-*Feb 05, 2020*<br/>
-- Secondly, the influence of some 296 important factors, such as socioeconomic and demographic characteristics, were not 297 considered.<br/>
-- Since the political and economic effects were not considered, further 288 studies on secondary impacts of the measure, like socioeconomic impacts, were also 289 warranted.<br/>
-
-[Spread of SARS-CoV-2 Coronavirus likely to be constrained by climate](https://doi.org/10.1101/2020.03.12.20034728)<br/>
-by Miguel B. Araujo; Babak Naimi<br/>
-*Mar 16, 2020*<br/>
-- Ecological niche models The spatial distribution of incidence SAR-CoV-2 Coronavirus records were linked to the corresponding monthly climate data.<br/>
-- Understanding the underlying factors involved in the successful spread of SARS-CoV-2 Coronavirus is critical to manage the timing and scale of the social, economic, and political reactions to it.<br/>
-
-[Preparedness and vulnerability of African countries against importations of COVID-19: a modelling study](https://doi.org/10.1016/S0140-6736(20)30411-6)<br/>
-by Gilbert, Marius; Pullano, Giulia; Pinotti, Francesco; Valdano, Eugenio; Poletto, Chiara; Boëlle, Pierre-Yves; D'Ortenzio, Eric; Yazdanpanah, Yazdan; Eholie, Serge Paul; Altmann, Mathias; Gutierrez, Bernardo; Kraemer, Moritz U G; Colizza, Vittoria<br/>
-*The Lancet - Mar 20, 2020*<br/>
-- To better assess the changing epidemiology of risk, we also predicted how changes in local incidence in China might change the geographical distribution of importation risk in Africa.<br/>
-- Both SPAR and Joint External Evaluation metrics were designed to quantify each country's functional capacity, without accounting for other indirect factors that might compromise the control of emerging epidemics, such as demographic, environmental, socioeconomic, and political conditions.<br/>
+- We included demographic, economic, and geographical factors that are potential contributors to the provincial variation in the association between traffic volume and COVID-19 incidence.<br/>
+- Finally, as an ecologic study, our findings may suffer from ecologic fallacy and do not necessarily imply individual-level association between travel history and risk of COVID-19 infection.<br/>
 
 [How health anxiety influences responses to viral outbreaks like COVID-19: What all decision-makers, health authorities, and health care professionals need to know](https://doi.org/10.1016/j.janxdis.2020.102211)<br/>
 by Asmundson, Gordon J.G.; Taylor, Steven<br/>
 *Journal of Anxiety Disorders - Apr 30, 2020*<br/>
 - There are several ways in which high health anxiety may influence behavioural responses to the belief of being infected.<br/>
-- Psychological factors are known to play a vital role in the success of public health strategies used to manage epidemics and pandemics; that is, risk communication, vaccination and antiviral therapy, hygiene practices, and social distancing.<br/>
+- People with high health anxiety also tend to engage in a variety of other maladaptive safety behaviours.<br/>
 
 [Assessing the plausibility of subcritical transmission of 2019-nCoV in the United States](https://doi.org/10.1101/2020.02.08.20021311)<br/>
 by Seth Blumberg; Thomas M Lietman; Travis C Porco<br/>
@@ -545,6 +546,11 @@ by Marius Gilbert; Giulia Pullano; Francesco Pinotti; Eugenio Valdano; Chiara Po
 *Feb 07, 2020*<br/>
 - Vulnerability Index (IDVI) that was introduced as a synthetic metric to account for a broader set of factors, including descriptors of health care, public health, economic, demographic, disease dynamics, and political (domestic and international) conditions .<br/>
 
+[Population movement, city closure and spatial transmission of the 2019-nCoV infection in China](https://doi.org/10.1101/2020.02.04.20020339)<br/>
+by Siqi Ai; Guanghu Zhu; Fei Tian; Huan Li; Yuan Gao; Yinglin Wu; Qiyong Liu; Hualiang Lin<br/>
+*Feb 05, 2020*<br/>
+- Secondly, the influence of some 296 important factors, such as socioeconomic and demographic characteristics, were not 297 considered.<br/>
+
 # Sustainable risk reduction strategies
 #### Highlights<br/>
 - 2(C and D) ), emphasizing the importance of sustaining the implemented control strategies such as self-isolation in order to reduce the susceptibility.<br/>
@@ -557,6 +563,7 @@ by Marius Gilbert; Giulia Pullano; Francesco Pinotti; Eugenio Valdano; Chiara Po
 [New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
 by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 *International Journal of Pharmaceutics - Apr 15, 2020*<br/>
+- Noteworthy, it is not expectable that such provisions can solve the economic sustainability of a product in a long-term perspective, but there is no doubt that they can mitigate the MAH situations in short and medium-term, allowing the adoption of proper strategies to rationalize the production and to improve MAH sustainability.<br/>
 - For mitigating shortages that affect the Union, the stronger coordination at EU-level and the harmonization of communication, risk-assessment and risk-management strategies are desirable and urgent.<br/>
 - In this way, the resulting metrics allow promoting, on the one hand, the harmonization of the risk assessment of the shortages at EU level and, on the other hand, the rationalization of the preventing management strategies in a cause-specific matter.<br/>
 - However, there is a strong need for proper and effective risk-assessment and problemsolving strategies to reduce nationwide shortages without wasting money and time.<br/>
@@ -565,7 +572,6 @@ by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 - Moreover, the promising results obtained by some National competent Authorities (e.g., AIFA) suggested that setting up cooperation schemes between administration and other stakeholders, fostering a responsible approach in managing crisis in medicines supply, also allowing, for instance, surveillance/verification programs that may represent rational and effective preventive strategies to monitor the activities of exporting wholesalers and distributors for reducing the risks of product unavailability.<br/>
 - This manuscript aims to review the current upgrade of the European regulatory framework on medicine shortages and to propose a theoretical approach for 1) determining the shortage/unavailability impact on the capability of the National Healthcare Systems and 2) rationalizing the problem-solving strategies to be adopted in function of the leading cause of shortage (e.g., production, price and importation/exportation).<br/>
 - Moreover, they also underlined the importance of improving the monitoring of shortages and cooperation in the EU by the establishment of a priority ranking of shortages to address "high-risk" medicinal products efficiently without introducing disproportionate initiatives that could have opposite effects to the ones intended.<br/>
-- Indeed, especially for old medicinal products, the costs of the upgrade to the required high-quality standards and risk assessment plan may be too high to maintain the MAH economic sustainability.<br/>
 
 [What is ahead for health policy and technology in the 2020s?](https://doi.org/10.1016/j.hlpt.2020.02.003)<br/>
 by Singer, Donald R.J.; Redekop, Ken<br/>

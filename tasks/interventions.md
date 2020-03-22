@@ -2,10 +2,10 @@
 
 #### Highlights<br/>
 - WHO's global COVID-19 strategic preparedness and response plan 13 therefore prioritises countries with weak health systems for technical and operational support from international partners.<br/>
+- As information and recommendations about COVID-19 continue to evolve, we want to emphasize our support of the CDC and other public health partners as the appropriate source of information and guidance for health care organizations and providers.<br/>
 - These would be expected to include preparedness of equipment, staff and facilities based on learning from previous epidemics, clear public health information, relevant containment, surveillance, and reporting, and international cooperation among governments, health authorities, travel organisations and border control forces.<br/>
 - National primary care bodies can coordinate with public health leads to cascade information to practitioners, communicate with the public, and collate health intelligence from the frontline primary care.<br/>
 - But trust is a crucial support to public health systems.<br/>
-- The lessons learned from this crisis can provide insights to guide public health institutions as they implement telemedicine to increase resilience to future epidemic outbreaks.<br/>
 
 #### Articles<br/>
 [New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
@@ -79,18 +79,17 @@ by Zhu, Hengbo; Wei, Li; Niu, Ping<br/>
 #### Highlights<br/>
 - Big data and artificial intelligence systems are tools that can be used to fully integrate the information, conduct comprehensive research and analyze public health risks.<br/>
 - https://doi.org/10.1101/2020.03.15.20034199 doi: medRxiv preprint findings provide important evidence for government agencies to determine the optimal disease control strategy and improve preparedness for future public health emergencies.<br/>
+- Our results have several implications for the design and implementation of control measures.<br/>
 - Province, but also provide important and accurate data support for the evaluation of the effectiveness and timeliness of public health intervention strategies in different areas.<br/>
-- Combining these judgements with the estimates presented here can help public health officials to set rational and evidence-based 2019-nCoV control policies.<br/>
-- Therefore, we maintain that the urgent implementation and monitoring of diagnostic capacities and capabilities for SARS-CoV-2 in Europe is proportional to the containment and expected mitigation phase of the global public health response and is critical for care of local patients.<br/>
+- This section aims to provide a demonstration of our software to analyze the current public COVID-19 data, through which users may understand the proposed methods.<br/>
 
 #### Articles<br/>
-[Responding to health emergencies in the Eastern Mediterranean region in times of conflict](https://doi.org/10.1016/S0140-6736(20)30069-6)<br/>
-by Brennan, Richard; Hajjeh, Rana; Al-Mandhari, Ahmed<br/>
-*The Lancet - Mar 02, 2020*<br/>
-- WHO is assisting member states to undertake all-hazard risk profiling, develop emergency preparedness plans, establish emergency operations centres (EOC), and apply the incident management system.<br/>
-- 15 Humanitarian agencies have adopted various approaches to address these constraints, including investments in local partners, cross-border operations, deconfliction, remote programming, and scaled up advocacy and humanitarian diplomacy.<br/>
-- WHO's global COVID-19 strategic preparedness and response plan 13 therefore prioritises countries with weak health systems for technical and operational support from international partners.<br/>
-- This new way of working leverages the comparative advantages of both humanitarian and development sectors.<br/>
+[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
+by Deng, Sheng-Qun; Peng, Hong-Juan<br/>
+*J Clin Med - 2020*<br/>
+- Overall guidance of epidemic control, organizing a technical expert group for prevention and control; formulation and improvement of relevant work and technical schemes, and implementation of funds and materials for disease prevention and control; tracking and management of close contacts.<br/>
+- Organization, coordination, supervision, and evaluation of the monitoring work; collection, analysis, report, and feedback of the monitoring data; epidemiological investigation; strengthening laboratory testing ability, bio-safety protection awareness, and technical training; carrying out health education and publicity and risk communication to the public.<br/>
+- In accordance with the working principle of "prevention first, prevention and control combined, scientific guidance and timely treatment", the prevention and control work shall be carried out in a coordinated and standardized way .<br/>
 
 [A data-driven drug repositioning framework discovered a potential therapeutic agent targeting COVID-19](https://doi.org/10.1101/2020.03.11.986836)<br/>
 by Yiyue Ge; Tingzhong Tian; Suling Huang; Fangping Wan; Jingxin Li; Shuya Li; Hui Yang; Lixiang Hong; Nian Wu; Enming Yuan; Lili Cheng; Yipin Lei; Hantao Shu; Xiaolong Feng; Ziyuan Jiang; Ying Chi; Xiling Guo; Lunbiao Cui; Liang Xiao; Zeng Li; Chunhao Yang; Zehong Miao; Haidong Tang; Ligong Chen; Hainian Zeng; Dan Zhao; Fengcai Zhu; Xiaokun Shen; Jianyang Zeng<br/>
@@ -98,17 +97,29 @@ by Yiyue Ge; Tingzhong Tian; Suling Huang; Fangping Wan; Jingxin Li; Shuya Li; H
 - In this study, we applied a data-driven framework that combines both machine learning and statistical analysis methods to systematically integrate large-scale available coronavirus-related data and identify the drug candidates against SARS-CoV-2 from a set of over 6000 drug candidates (mainly including approved, investigational and experimental drugs).<br/>
 - In this study we reported a top down data integration approach by combining both machine learning and statistical analysis techniques, followed by web-lab experimental validation, to identify potential drug candidates for treating SARS-CoV-2 infection.<br/>
 
+[Evaluation of the potential incidence of COVID-19 and effectiveness of contention measures in Spain: a data-driven approach](https://doi.org/10.1101/2020.03.01.20029801)<br/>
+by Alberto Aleta; Yamir Moreno<br/>
+*Mar 06, 2020*<br/>
+- Next, we explore diverse containment measures that could be implemented aiming at stopping the large-scale spreading of the disease.<br/>
+- Data-driven modeling, at variance with more theoretically inspired methods, has the advantage that it allows to directly implement and evaluate realistic contention measures, thus producing scalable and actionable what-if-scenarios.<br/>
+
 [Evaluating the impact of international airline suspensions on the early global spread of COVID-19](https://doi.org/10.1101/2020.02.20.20025882)<br/>
 by Aniruddha Adiga; Srinivasan Venkatramanan; James Schlitt; Akhil Peddireddy; Allan Dickerman; Andrei Bura; Andrew Warren; Brian D Klahn; Chunhong Mao; Dawen Xie; Dustin Machi; Erin Raymond; Fanchao Meng; Golda Barrow; Henning Mortveit; Jiangzhuo Chen; Jim Walke; Joshua Goldstein; Mandy L Wilson; Mark Orr; Przemyslaw Porebski; Pyrros A Telionis; Richard Beckman; Stefan Hoops; Stephen Eubank; Young Yun Baek; Bryan Lewis; Madhav Marathe; Chris Barrett<br/>
 *Feb 23, 2020*<br/>
 - We believe that using near real-time multi-modal mobility datasets and detailed disease surveillance with qualitative and quantitative inputs on ongoing interventions and preparedness efforts will aid in swift and efficient global response to such outbreaks.<br/>
 - In order to determine vulnerability of nations to COVID-19, the popular metric has been IDVI with also employing WHO International Health Regulation Monitoring and Evaluation Framework to determine preparedness.<br/>
 
-[Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China](https://doi.org/10.3390/jcm9020575)<br/>
-by Deng, Sheng-Qun; Peng, Hong-Juan<br/>
-*J Clin Med - 2020*<br/>
-- Overall guidance of epidemic control, organizing a technical expert group for prevention and control; formulation and improvement of relevant work and technical schemes, and implementation of funds and materials for disease prevention and control; tracking and management of close contacts.<br/>
-- Organization, coordination, supervision, and evaluation of the monitoring work; collection, analysis, report, and feedback of the monitoring data; epidemiological investigation; strengthening laboratory testing ability, bio-safety protection awareness, and technical training; carrying out health education and publicity and risk communication to the public.<br/>
+[Public Exposure to Live Animals, Behavioural Change, and Support in Containment Measures in response to COVID-19 Outbreak: a population-based cross sectional survey in China](https://doi.org/10.1101/2020.02.21.20026146)<br/>
+by Zhiyuan Hou; Leesa Lin; Liang Lu; Fanxing Du; Mengcen Qian; Yuxia Liang; Juanjuan Zhang; Hongjie Yu<br/>
+*Feb 23, 2020*<br/>
+- This provides an opportunity to assess and compare public behavioural response and support for containment measures during the outbreak between two cities with different exposure intensities.<br/>
+- This can inform policy makers in China and other countries to implement and adjust containment strategies in response to the outbreak in the future.<br/>
+
+[Responding to health emergencies in the Eastern Mediterranean region in times of conflict](https://doi.org/10.1016/S0140-6736(20)30069-6)<br/>
+by Brennan, Richard; Hajjeh, Rana; Al-Mandhari, Ahmed<br/>
+*The Lancet - Mar 02, 2020*<br/>
+- WHO is assisting member states to undertake all-hazard risk profiling, develop emergency preparedness plans, establish emergency operations centres (EOC), and apply the incident management system.<br/>
+- 15 Humanitarian agencies have adopted various approaches to address these constraints, including investments in local partners, cross-border operations, deconfliction, remote programming, and scaled up advocacy and humanitarian diplomacy.<br/>
 
 [New regulatory strategies to manage medicines shortages in Europe](https://doi.org/10.1016/j.ijpharm.2020.119171)<br/>
 by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
@@ -116,22 +127,11 @@ by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 - For mitigating shortages that affect the Union, the stronger coordination at EU-level and the harmonization of communication, risk-assessment and risk-management strategies are desirable and urgent.<br/>
 - Indeed, risk-assessment and risk-management strategies adopted by professionals (e.g., pharmacists) and other stakeholders can be rationalized and harmonized based on the medicines shortage impact scores calculated by a competent National Authority.<br/>
 
-[Authors’ response: Plenty of coronaviruses but no SARS-CoV-2](https://doi.org/10.2807/1560-7917.ES.2020.25.8.2000197)<br/>
-by Reusken, Chantal B; Haagmans, Bart; Meijer, Adam; Corman, Victor M; Papa, Anna; Charrel, Remi; Drosten, Christian; Koopmans, Marion<br/>
-*Eurosurveillance - 2020*<br/>
-- The readiness survey that we performed served the important purpose of mapping the initial response capacities in Europe and identifying barriers to diagnostic implementation.<br/>
-- Therefore, we maintain that the urgent implementation and monitoring of diagnostic capacities and capabilities for SARS-CoV-2 in Europe is proportional to the containment and expected mitigation phase of the global public health response and is critical for care of local patients.<br/>
-
-[Speed and strength of an epidemic intervention](https://doi.org/10.1101/2020.03.02.974048)<br/>
-by Dushoff, J.; Park, S. W.<br/>
-*Mar 03, 2020*<br/>
-- These examples are not detailed estimates for specific scenarios; instead, they are meant to demonstrate how strength-and speed-based decompositions can help evaluate control strategies.<br/>
-- To illustrate this idea, we used simple assumptions to explore the effects of two HIV intervention strategies (condoms and test-and-treat), using both strength-and speed-based frameworks.<br/>
-
-[Prediction of the COVID-19 outbreak based on a realistic stochastic model](https://doi.org/10.1101/2020.03.10.20033803)<br/>
-by Yuan Zhang; Chong You; Zhenghao Cai; Jiarui Sun; Wenjie Hu; Xiao-Hua Zhou<br/>
-*Mar 13, 2020*<br/>
-- Moreover, we can also conduct hypothetical "controlled " test and evaluate the effectiveness of medical tracking.<br/>
+[Prospect and application of Internet of Things technology for prevention of SARIs](https://doi.org/10.1016/j.ceh.2020.02.001)<br/>
+by Song, Yuanlin; Jiang, Jinjun; Wang, Xun; Yang, Dawei; Bai, Chunxue<br/>
+*Clinical eHealth - Dec 31, 2020*<br/>
+- However, it is necessary to elucidate methods of faster learning and providing high-quality implementation interim guidance.<br/>
+- Moreover, through high-speed information quality monitoring and a professional epidemiological data statistics model, we can effectively obtain the results of the most current quality control, efficiently monitor and provide an early warning of potential risks, and feedback to hospitals and physicians at all levels, in a timely fashion, the formation of the three-level linkage of corrective programs, ultimately achieving patient and social satisfaction.<br/>
 
 [The impact of the COVID-19 epidemic on the utilization of emergency dental services](https://doi.org/10.1016/j.jds.2020.02.002)<br/>
 by Guo, Huaqiu; Zhou, Yin; Liu, Xiaoqiang; Tan, Jianguo<br/>
@@ -220,24 +220,24 @@ by Li, Jin-Yan; You, Zhi; Wang, Qiong; Zhou, Zhi-Jian; Qiu, Ye; Luo, Rui; Ge, Xi
 # Methods to control the spread in communities, barriers to compliance and how these vary among different populations..
 
 #### Highlights<br/>
+- In an outbreak setting, different intervention strategies are aimed at reducing social mixing in different contexts in order to lower the overall transmission in the population.<br/>
 - Variation in climate, population density, demographics, social interactions, health care access and public health interventions can all affect transmission.<br/>
 - While population age structure is crucial for understanding the populations at the highest risk of mortality both across and within countries, it is also vital for understanding how much social distancing measures are required in each population to reduce the number of most critical cases and overload on the health system-aka "flattening the curve" .<br/>
-- Yet the quantitative performance of different policies matters for planning interventions and will influence how public health authorities prioritize different measures as the international and domestic context changes.<br/>
 - Among which, the parameters, ρ and θ E , are directly related to the nature of the disease, and hence are considered as constants in China, while, λ IN , q and γ IH may vary in different regions depending the local medical resources, population densities and containment measures.<br/>
-- Hence, In addition to strict quarantine management, substantial social distancing measures to limit population mobility and to reduce within-population contact rates were executed almost in the whole country.<br/>
+- Mathematical models can help us understand how SARS-CoV-2 would spread across the population and inform control measures that may mitigate future transmission.<br/>
 
 #### Articles<br/>
-[Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection](https://doi.org/10.1101/2020.03.15.20035360)<br/>
-by Vageesh Jain; Jin-Min Yuan<br/>
-*Mar 16, 2020*<br/>
-- The Chinese may differ to other populations in terms of their health-seeking behaviour, symptom reporting, prevalence of different comorbidities, as well as their access to high quality health services.<br/>
-- Given the ubiquity of comorbidities in the elderly population, and their increased susceptibility to severe COVID-19 infection , knowledge on the differing prevalence and risk of various conditions may help to focus and tailor public health efforts such as the screening of asymptomatic individuals, risk communication, contact tracing, self-isolation and social distancing.<br/>
+[The effect of control strategies that reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China](https://doi.org/10.1101/2020.03.09.20033050)<br/>
+- In an outbreak setting, different intervention strategies are aimed at reducing social mixing in different contexts in order to lower the overall transmission in the population.<br/>
+- Social mixing patterns vary across locations-households, workplaces, schools, and other locations.<br/>
+- 11 Models assessing the effectiveness of social distancing interventions, such as school closure, need to account for social structures and heterogeneities in mixing of individuals.<br/>
+- Mathematical models can help us understand how SARS-CoV-2 would spread across the population and inform control measures that may mitigate future transmission.<br/>
 
-[COVID-19: the gendered impacts of the outbreak](https://doi.org/10.1016/S0140-6736(20)30526-2)<br/>
-by Wenham, Clare; Smith, Julia; Morgan, Rosemary<br/>
-*The Lancet - Mar 20, 2020*<br/>
-- Recognising the extent to which disease outbreaks affect women and men differently is a fundamental step to understanding the primary and secondary effects of a health emergency on different individuals and communities, and for creating effective, equitable policies and interventions.<br/>
-- 13 If the response to disease outbreaks such as COVID-19 is to be effective and not reproduce or perpetuate gender and health inequities, it is important that gender norms, roles, and relations that influence women's and men's differential vulnerability to infection, exposure to pathogens, and treatment received, as well as how these may differ among different groups of women and men, are considered and addressed.<br/>
+[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
+by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
+*Int Health - Feb 10, 2020*<br/>
+- Using a qualitative approach, this study allowed us to explore a variety of risk factors at different individual, community and policy levels to contextualize the risks of zoonotic disease emergence in local communities.<br/>
+- 28 At the individual level, both risk and protective factors were analysed in terms of the individuals' knowledge, attitudes and practices to better understand the risk factors for identifying context-based strategies.<br/>
 
 [Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19](https://doi.org/10.7554/eLife.55570)<br/>
 by Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smith, James O<br/>
@@ -245,15 +245,16 @@ by Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smi
 - Realistically, R 0 will vary considerably over time, and across locations, depending on the social context, resource availability, and containment policies.<br/>
 - Yet the quantitative performance of different policies matters for planning interventions and will influence how public health authorities prioritize different measures as the international and domestic context changes.<br/>
 
-[The effect of control strategies that reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China](https://doi.org/10.1101/2020.03.09.20033050)<br/>
-- In an outbreak setting, different intervention strategies are aimed at reducing social mixing in different contexts in order to lower the overall transmission in the population.<br/>
-- 11 Models assessing the effectiveness of social distancing interventions, such as school closure, need to account for social structures and heterogeneities in mixing of individuals.<br/>
+[Contacts in context: large-scale setting-specific social mixing matrices from the BBC Pandemic project](https://doi.org/10.1101/2020.02.16.20023754)<br/>
+by Petra Klepac; Adam J Kucharski; Andrew JK Conlan; Stephen Kissler; Maria Tang; Hannah Fry; Julia R Gog<br/>
+*Feb 19, 2020*<br/>
+- For directly transmitted respiratory pathogens such as influenza, measles and coronaviruses, social mixing patterns shape the risk of individual-level infection and population-level transmission dynamics , as well as the effectiveness of control measures targeted at specific age groups .<br/>
+- The measured age-specific social mixing matrices also varied considerably between different types and settings.<br/>
 
-[A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
-by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
-*Biosafety and Health - 2020*<br/>
-- Surveillance programs can be designed by local public health authorities to identify communities living in regions with high wildlife diversity and likely high diversity of novel viruses .<br/>
-- Evidencebased strategies to reduce risk can then be designed and implemented in the communities where viral spillover is identified.<br/>
+[The effect of human mobility and control measures on the COVID-19 epidemic in China](https://doi.org/10.1101/2020.03.02.20026708)<br/>
+*Mar 06, 2020*<br/>
+- Age and sex distributions are important in understanding risk of infection across populations.<br/>
+- Age and sex distributions can reflect heterogeneities in the risk of infection within affected populations.<br/>
 
 [Demographic science aids in understanding the spread and fatality rates of COVID-19](https://doi.org/10.1101/2020.03.15.20036293)<br/>
 by Jennifer Beam Dowd; Valentina Rotondi; Liliana Adriano; David M Brazel; Per Block; Xuejie Ding; Yan Liu; Melinda C Mills<br/>
@@ -264,49 +265,72 @@ by Jennifer Beam Dowd; Valentina Rotondi; Liliana Adriano; David M Brazel; Per B
 [The impact of social distancing and epicenter lockdown on the COVID-19 epidemic in mainland China: A data-driven SEIQR model study](https://doi.org/10.1101/2020.03.04.20031187)<br/>
 by Yuzhen Zhang; Bin Jiang; Jiamin Yuan; Yanyun Tao<br/>
 *Mar 06, 2020*<br/>
-- Tailored and sustainable approaches should be adopted in a different situation, striking a balance among the control of infection and death number, confining epidemic regions, and maintaining socioeconomic vitality.<br/>
 - Hence, In addition to strict quarantine management, substantial social distancing measures to limit population mobility and to reduce within-population contact rates were executed almost in the whole country.<br/>
+- Tailored and sustainable approaches should be adopted in a different situation, striking a balance among the control of infection and death number, confining epidemic regions, and maintaining socioeconomic vitality.<br/>
 
-[Lessons drawn from China and South Korea for managing COVID-19 epidemic: insights from a comparative modeling study](https://doi.org/10.1101/2020.03.09.20033464)<br/>
-by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; Sanyi Tang; Yanni Xiao; Jianhong Wu<br/>
-*Mar 13, 2020*<br/>
-- Decision-making and implementations may require adaptations and modifications to take into account setting-specific characteristics in terms of community features, local epidemiology and risk assessment, social habits, juridical provisions, organizational coordination, and availability of economic-financial resources.<br/>
-- However, in the absence of effective medical interventions, these measures must be implemented and the success of these measures, despite their disruptive impact on social-economic activities, depends heavily on how these measures are adapted to the specific scenario, in terms not only of clinical and epidemiological variables but also of social aspects, including social habits, juridical provisions, and economic-financial resources.<br/>
+[The timing of one-shot interventions for epidemic control](https://doi.org/10.1101/2020.03.02.20030007)<br/>
+by Francesco Di Lauro; István Z Kiss; Joel Miller<br/>
+*Mar 06, 2020*<br/>
+- most transmission to be within a sub-population and some cross interactions between the sub-populations.Ṡ<br/>
+- In this case the time-evolution of the outbreaks in the various sub-populations are similar to that of the fully mixed population, and there is little distinction between interventions based on individual sub-population or at the global-level.<br/>
+
+[A strategy to prevent future pandemics similar to the 2019-nCoV outbreak](https://doi.org/10.1016/j.bsheal.2020.01.003)<br/>
+by Daszak, Peter; Olival, Kevin J.; Li, Hongying<br/>
+*Biosafety and Health - 2020*<br/>
+- Surveillance programs can be designed by local public health authorities to identify communities living in regions with high wildlife diversity and likely high diversity of novel viruses .<br/>
 
 [How African migrants in China cope with barriers to health care](https://doi.org/10.1016/S2468-2667(20)30048-7)<br/>
 by Bodomo, Adams; Liem, Andrian; Lin, Lavinia; Hall, Brian J.<br/>
 *The Lancet Public Health - 2020*<br/>
 - How African migrants in China cope with barriers to health care<br/>
 
-[How will country-based mitigation measures influence the course of the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30567-5)<br/>
-by Anderson, Roy M; Heesterbeek, Hans; Klinkenberg, Don; Hollingsworth, T Déirdre<br/>
-*The Lancet - Mar 09, 2020*<br/>
-- We are uncertain about transmission in children, some communities are remote and unlikely to be exposed, voluntary social distancing by individuals and communities will have an impact, and mitigation efforts, such as the measures put in place in China, greatly reduce transmission.<br/>
-
 # Models of potential interventions to predict costs and benefits that take account of such factors as race, income, disability, age, geographic location, immigration status, housing status, employment status, and health insurance status.
 
 #### Highlights<br/>
+- Demographic data included gender, age, hospital classification, years of working, departments, professional titles, undertaking management work or not, educational background, marriage status, single child or not, and fertile or not.<br/>
+- Demographic data included gender, age, hospital classification, years of working, departments, professional titles, undertaking management work or not, educational background, marriage status, and single child or not.<br/>
 - Table 4 shows that the relationship between the severity of COVID-19 and individual life satisfaction depends on individuals' existing health and exercise status.<br/>
 - At recruitment the following parameters were collected: demographic information (gender, age, occupation, education state), contact frequency with COVID-19 Wuhan area and infected patients, sleeping quality and disturbance, quarantine status and exercise.<br/>
-- In subsequent research in this project, a longitudinal study should be conducted that uses a wider sample and measures the mental health status of medical personnel from multiple dimensions, which can help better identify the mutual influence between demographic data and mental health status.<br/>
-- Still, these two variables contribute at maximum to 18% of the variation, being the remaining 82% related to other factors such as containment measures, general health policies, population density, transportation, cultural aspects, etc.<br/>
-- The results of this study have shown that the factors affecting the mental health status of medical personnel based on the significance from high to low are: the degree All rights reserved.<br/>
+- Variation in climate, population density, demographics, social interactions, health care access and public health interventions can all affect transmission.<br/>
 
 #### Articles<br/>
 [Health, distress, and life satisfaction of people one-month into COVID-19 outbreak in China](https://doi.org/10.1101/2020.03.13.20034496)<br/>
 by Stephen X Zhang; Yifei Wang; Andreas Rauch; Feng Wei<br/>
 *Mar 16, 2020*<br/>
 - Table 4 shows that the relationship between the severity of COVID-19 and individual life satisfaction depends on individuals' existing health and exercise status.<br/>
-- There were also certain dimensions of SF12 that did not vary much by job status.<br/>
+- Because the measures of the dependent variables of SF12, distress and life satisfaction used Likert scales, we tried to use predictors that were non-Likert scales, such as job status and severity of COVID-19 calculated based on archival data using the reported locations.<br/>
 - Overall, the severity of COVID-19 in a prefecture did negatively predict people's life satisfaction in that prefecture, with this relationship depending on individuals' existing medical conditions and exercise levels.<br/>
+- There were also certain dimensions of SF12 that did not vary much by job status.<br/>
 - Our focus was to examine the differential effects on adults depending on the level of disruption, as captured by their job status, existing chronic issues, and exercise levels to identify who in the community of non-COVID-19 cases might need the most help for policymakers and potential caregivers.<br/>
+
+[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
+by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
+*Int Health - Feb 10, 2020*<br/>
+- Without sharing detailed income or education information, participants who discussed socioeconomic status generally indicated low levels of education (e.g.<br/>
+- Population migration from rural communities to urban areas for employment, as well as the wild animal protection policy changes in China in recent years, have led to a perceived overall reduction in activities such as household animal raising and wildlife trade.<br/>
+- Small business (n=16, 18%), household livestock production (n=13, 15%) and other migrant and casual work (n=30, 34%) were the other main contributors to local incomes, and many participants reported multiple income sources (n=35, 40%).<br/>
+- 'I didn't go to school that much') or a low economic status (e.g. '<br/>
+
+[Prevalence and predictors of PTSS during COVID-19 Outbreak in China Hardest-hit Areas: Gender differences matter](https://doi.org/10.1016/j.psychres.2020.112921)<br/>
+by Liu, Nianqi; Zhang, Fan; Wei, Cun; Jia, Yanpu; Shang, Zhilei; Sun, Luna; Wu, Lili; Sun, Zhuoer; Zhou, Yaoguang; Wang, Yan; Liu, Weizhi<br/>
+*Psychiatry Research - Mar 16, 2020*<br/>
+- At recruitment the following parameters were collected: demographic information (gender, age, occupation, education state), contact frequency with COVID-19 Wuhan area and infected patients, sleeping quality and disturbance, quarantine status and exercise.<br/>
+- Gender and educational levels had significant effects on PCL-5 scores in the model (step 1).<br/>
+- As shown in step 2, gender (β = 0.192, p < 0.001) and population susceptibility (β = 0.153, p < 0.01) are positively associated with PCL5-5 scores.<br/>
 
 [Emotional responses and coping strategies of nurses and nursing college students during COVID-19 outbreak](https://doi.org/10.1101/2020.03.05.20031898)<br/>
 by Long Huang; Fu ming xu; Hai rong Liu<br/>
 *Mar 08, 2020*<br/>
 - After controlling for gender, spatial distance, identity, and urban-rural attributes, correlation analysis was performed on the emotional response and coping strategies.<br/>
 - This is considered to be related to gender traits.<br/>
-- This indicates that there are gender differences in psychological characteristics in the face of public health emergencies.<br/>
+- It mainly includes the basic information of the participants, such as gender, age, identity, rural or urban, whether there is a confirmed or isolated person in the community or administrative village (in order to evaluate the spatial distance of the COVID-19 from the participants).<br/>
+
+[Impacts of social and economic factors on the transmission of coronavirus disease (COVID-19) in China](https://doi.org/10.1101/2020.03.13.20035238)<br/>
+by Yun Qiu; Xi Chen; Wei Shi<br/>
+*Mar 17, 2020*<br/>
+- Furthermore, we examine the moderator effects of socioeconomic factors on the transmission of COVID-19 in China, which include population flow out of Wuhan, the distance between cities, GDP per capita, number of doctors, and contemporaneous weather characteristics.<br/>
+- We investigate the impacts of many social, economic and environmental variables in mediating the transmission rates (Eq.<br/>
+- Impacts of social and economic factors on the transmission of coronavirus disease (COVID-19) in China<br/>
 
 [The timing of one-shot interventions for epidemic control](https://doi.org/10.1101/2020.03.02.20030007)<br/>
 by Francesco Di Lauro; István Z Kiss; Joel Miller<br/>
@@ -314,23 +338,11 @@ by Francesco Di Lauro; István Z Kiss; Joel Miller<br/>
 - The most obvious reason for this setup could be location/geographic or by age, but other alternatives exist including religion, ethnicity or socio-economic status.<br/>
 - These are expected to be good measures of the total impact on the population or the burden on the health services.<br/>
 
-[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
-by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
-*Int Health - Feb 10, 2020*<br/>
-- Without sharing detailed income or education information, participants who discussed socioeconomic status generally indicated low levels of education (e.g.<br/>
-- 'I didn't go to school that much') or a low economic status (e.g. '<br/>
-
-[Lessons drawn from China and South Korea for managing COVID-19 epidemic: insights from a comparative modeling study](https://doi.org/10.1101/2020.03.09.20033464)<br/>
-by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; Sanyi Tang; Yanni Xiao; Jianhong Wu<br/>
-*Mar 13, 2020*<br/>
-- Decision-making and implementations may require adaptations and modifications to take into account setting-specific characteristics in terms of community features, local epidemiology and risk assessment, social habits, juridical provisions, organizational coordination, and availability of economic-financial resources.<br/>
-- However, in the absence of effective medical interventions, these measures must be implemented and the success of these measures, despite their disruptive impact on social-economic activities, depends heavily on how these measures are adapted to the specific scenario, in terms not only of clinical and epidemiological variables but also of social aspects, including social habits, juridical provisions, and economic-financial resources.<br/>
-
-[Population movement, city closure and spatial transmission of the 2019-nCoV infection in China](https://doi.org/10.1101/2020.02.04.20020339)<br/>
-by Siqi Ai; Guanghu Zhu; Fei Tian; Huan Li; Yuan Gao; Yinglin Wu; Qiyong Liu; Hualiang Lin<br/>
-*Feb 05, 2020*<br/>
-- Secondly, the influence of some 296 important factors, such as socioeconomic and demographic characteristics, were not 297 considered.<br/>
-- Since the political and economic effects were not considered, further 288 studies on secondary impacts of the measure, like socioeconomic impacts, were also 289 warranted.<br/>
+[Vicarious traumatization in the general public, members, and non-members of medical teams aiding in COVID-19 control](https://doi.org/10.1016/j.bbi.2020.03.007)<br/>
+by Li, Zhenyu; Ge, Jingwu; Yang, Meiling; Feng, Jianping; Qiao, Mei; Jiang, Riyue; Bi, Jiangjiang; Zhan, Gaofeng; Xu, Xiaolin; Wang, Long; Zhou, Qin; Zhou, Chenliang; Pan, Yinbing; Liu, Shijiang; Zhang, Haiwei; Yang, Jianjun; Zhu, Bin; Hu, Yimin; Hashimoto, Kenji; Jia, Yan; Wang, Haofei; Wang, Rong; Liu, Cunming; Yang, Chun<br/>
+*Brain, Behavior, and Immunity - Mar 10, 2020*<br/>
+- Demographic data included gender, age, hospital classification, years of working, departments, professional titles, undertaking management work or not, educational background, marriage status, and single child or not.<br/>
+- Gender, age, marriage status, and single child or not pointed to a significantly statistical difference between the general public, front-line nurses, and non-front-line nurses.<br/>
 
 [The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects](https://doi.org/10.1101/2020.03.09.20033415)<br/>
 by Jude Bayham; Eli P Fenichel<br/>
@@ -338,41 +350,25 @@ by Jude Bayham; Eli P Fenichel<br/>
 - Such potential healthcare workforce labor shortages should be a first-order consideration when considering the potential benefits and costs of school closures.<br/>
 - These differences are likely an interaction of variations in state-level healthcare regulation, cultural, and demographic differences.<br/>
 
-[Study of the mental health status of medical personnel dealing with new coronavirus pneumonia](https://doi.org/10.1101/2020.03.04.20030973)<br/>
-by ning sun; jun xing; jun xu; ling shu geng; qian yu li<br/>
-*Mar 06, 2020*<br/>
-- In subsequent research in this project, a longitudinal study should be conducted that uses a wider sample and measures the mental health status of medical personnel from multiple dimensions, which can help better identify the mutual influence between demographic data and mental health status.<br/>
-- The results of this study have shown that the factors affecting the mental health status of medical personnel based on the significance from high to low are: the degree All rights reserved.<br/>
-
 [The effect of control strategies that reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China](https://doi.org/10.1101/2020.03.09.20033050)<br/>
 - An implication of this approach is that all demographic changes in the population (i.e., births, deaths, and ageing) are ignored.<br/>
 - 12 Prem and colleagues 13 address that limitation by quantifying contact patterns in the home, school, work and other locations across a range of countries based on available information from household-level data and local population demographic structure.<br/>
 
-[Estimates of the severity of COVID-19 disease](https://doi.org/10.1101/2020.03.09.20033357)<br/>
-by Robert Verity; Lucy C Okell; Ilaria Dorigatti; Peter Winskill; Charles Whittaker; Natsuko Imai; Gina Cuomo-Dannenburg; Hayley Thompson; Patrick Walker; Han Fu; Amy Dighe; Jamie Griffin; Anne Cori; Marc Baguelin; Sangeeta Bhatia; Adhiratha Boonyasiri; Zulma M Cucunuba; Rich Fitzjohn; Katy A M Gaythorpe; Will Green; Arran Hamlet; Wes Hinsley; Daniel Laydon; Gemma Nedjati-Gilani; Steven Riley; Sabine van-Elsand; Erik Volz; Haowei Wang; Yuanrong Wang; Xiayoue Xi; Christl Donnelly; Azra Ghani; Neil Ferguson<br/>
-*Mar 13, 2020*<br/>
-- Demography .<br/>
-- By adjusting for both underlying demography and potential under-ascertainment at different levels of the severity pyramid (Figure 1 ), these estimates should be broadly applicable across a range of settings to inform health planning whilst more detailed case data accrue.<br/>
+[The effect of human mobility and control measures on the COVID-19 epidemic in China](https://doi.org/10.1101/2020.03.02.20026708)<br/>
+*Mar 06, 2020*<br/>
+- Age and sex distributions are important in understanding risk of infection across populations.<br/>
+- Age and sex distributions can reflect heterogeneities in the risk of infection within affected populations.<br/>
 
 # Policy changes necessary to enable the compliance of individuals with limited resources and the underserved with NPIs.
 
 #### Highlights<br/>
-- In such circumstances where resources are prioritized for scalable interventions such as social distancing, 16 we show active monitoring or individual quarantine of high-risk contacts can contribute synergistically with social distancing.<br/>
 - Public health programmes coordinate rapid case finding, tracing of contacts of cases, and isolation measures to mitigate spread, and guide decision-making on broad public health measures, such as social distancing when required.<br/>
 - In such settings, resources may be prioritized for broader social distancing measures, and active monitoring or individual quarantine of high-risk contacts can contribute synergistically.<br/>
-- 10 These interventions range from measures to encourage personal responsibility to identify disease, increase social distancing among community members including cancellation of public gatherings, and finally implement community quarantine.<br/>
 - In the COVID-19 outbreak in Wuhan, social distancing measures including but not limited to school and workplace closures and health promotions that encourage the general public to avoid crowded places are designed to drastically shift social mixing patterns and are often used in epidemic settings.<br/>
+- 10 These interventions range from measures to encourage personal responsibility to identify disease, increase social distancing among community members including cancellation of public gatherings, and finally implement community quarantine.<br/>
+- Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
 
 #### Articles<br/>
-[Modeling the Comparative Impact of Individual Quarantine vs. Active Monitoring of Contacts for the Mitigation of COVID-19](https://doi.org/10.1101/2020.03.05.20031088)<br/>
-by Corey M Peak; Rebecca Kahn; Yonatan H Grad; Lauren M Childs; Ruoran Li; Marc Lipsitch; Caroline O Buckee<br/>
-*Mar 08, 2020*<br/>
-- In such circumstances where resources are prioritized for scalable interventions such as social distancing, 16 we show active monitoring or individual quarantine of high-risk contacts can contribute synergistically with social distancing.<br/>
-- In such settings, resources may be prioritized for broader social distancing measures, and active monitoring or individual quarantine of high-risk contacts can contribute synergistically.<br/>
-- Interventions based on contact tracing, unlike mass interventions such as travel restrictions and social distancing, are targeted at individuals and therefore require resources --material and personnel --proportional to the number of cases traced: contact tracing requires detailed interview of case patients to learn of contacts and public health outreach to trace them; active monitoring of contacts may include twice-daily visits by healthcare workers or phone-based self-monitoring; 14 and individual quarantine of contacts requires private space, provision of essentials, and investment in enforcement.<br/>
-- In these circumstances, complementary interventions such as social distancing and pharmaceutical interventions may be needed if efficient contact tracing and rapid isolation are not readily achievable, regardless of the extent of presymptomatic transmission.<br/>
-- In a setting where the COVID-19 case count continues to grow, resources may be prioritized for scalable community interventions such as social distancing; however, close contacts such as family members of a patient may still undergo targeted interventions.<br/>
-
 [How will country-based mitigation measures influence the course of the COVID-19 epidemic?](https://doi.org/10.1016/S0140-6736(20)30567-5)<br/>
 by Anderson, Roy M; Heesterbeek, Hans; Klinkenberg, Don; Hollingsworth, T Déirdre<br/>
 *The Lancet - Mar 09, 2020*<br/>
@@ -380,6 +376,13 @@ by Anderson, Roy M; Heesterbeek, Hans; Klinkenberg, Don; Hollingsworth, T Déird
 - However, it is easy to suggest a 60% reduction in transmission will do it or quarantining within 1 day from symptom onset will control transmission, but it is unclear what communication strategies or social distancing actions individuals and governments must put in place to achieve these desired outcomes.<br/>
 - Such mitigation objectives are difficult to achieve by the same interventions, so choices must be made about priorities.<br/>
 - We are uncertain about transmission in children, some communities are remote and unlikely to be exposed, voluntary social distancing by individuals and communities will have an impact, and mitigation efforts, such as the measures put in place in China, greatly reduce transmission.<br/>
+
+[Modeling the Comparative Impact of Individual Quarantine vs. Active Monitoring of Contacts for the Mitigation of COVID-19](https://doi.org/10.1101/2020.03.05.20031088)<br/>
+by Corey M Peak; Rebecca Kahn; Yonatan H Grad; Lauren M Childs; Ruoran Li; Marc Lipsitch; Caroline O Buckee<br/>
+*Mar 08, 2020*<br/>
+- In such circumstances where resources are prioritized for scalable interventions such as social distancing, 16 we show active monitoring or individual quarantine of high-risk contacts can contribute synergistically with social distancing.<br/>
+- In such settings, resources may be prioritized for broader social distancing measures, and active monitoring or individual quarantine of high-risk contacts can contribute synergistically.<br/>
+- In a setting where the COVID-19 case count continues to grow, resources may be prioritized for scalable community interventions such as social distancing; however, close contacts such as family members of a patient may still undergo targeted interventions.<br/>
 
 [Lessons drawn from China and South Korea for managing COVID-19 epidemic: insights from a comparative modeling study](https://doi.org/10.1101/2020.03.09.20033464)<br/>
 by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; Sanyi Tang; Yanni Xiao; Jianhong Wu<br/>
@@ -393,23 +396,23 @@ by Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
 - Meanwhile, the supply of and demand for facemasks and other medical resources should be considered when planning for public health measures, so as to maintain the availability and affordability of medical resources.<br/>
 - Effective public health measures should also consider the adequacy and affordability of medical resources.<br/>
 
-[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
-by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
-*Int Health - Feb 10, 2020*<br/>
-- 14 However, detailed knowledge of the social and ecological mechanisms of zoonotic disease emergence in the region is limited, and therefore cannot yet inform evidence-based policies and practices for targeted surveillance programmes.<br/>
-- Closer collaboration between local animal and human health authorities within the current epidemic disease prevention programmes will provide educational and training opportunities to promote risk-mitigation knowledge, skills and best practice in local communities.<br/>
-
 [Can we contain the COVID-19 outbreak with the same measures as for SARS?](https://doi.org/10.1016/S1473-3099(20)30129-8)<br/>
 by Wilder-Smith, Annelies; Chiew, Calvin J; Lee, Vernon J<br/>
 *The Lancet Infectious Diseases - Mar 05, 2020*<br/>
 - If this approach is not feasible because of widespread community transmission, then community quarantine is also needed with rigorous implementation of social distancing.<br/>
 - 10 These interventions range from measures to encourage personal responsibility to identify disease, increase social distancing among community members including cancellation of public gatherings, and finally implement community quarantine.<br/>
 
-[Impact of self-imposed prevention measures and short-term government intervention on mitigating and delaying a COVID-19 epidemic](https://doi.org/10.1101/2020.03.12.20034827)<br/>
-by Alexandra Teslya; Thi Mui Pham; Noortje E. Godijk; Mirjam E. Kretzschmar; Martin C.J. Bootsma; Ganna Rozhnova<br/>
+[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
+by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
+*Int Health - Feb 10, 2020*<br/>
+- 14 However, detailed knowledge of the social and ecological mechanisms of zoonotic disease emergence in the region is limited, and therefore cannot yet inform evidence-based policies and practices for targeted surveillance programmes.<br/>
+- Closer collaboration between local animal and human health authorities within the current epidemic disease prevention programmes will provide educational and training opportunities to promote risk-mitigation knowledge, skills and best practice in local communities.<br/>
+
+[Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection](https://doi.org/10.1101/2020.03.15.20035360)<br/>
+by Vageesh Jain; Jin-Min Yuan<br/>
 *Mar 16, 2020*<br/>
-- Governments may decide to promote social distancing policies through interventions such as school and workplace 160 closures or by issuing a ban on large gatherings.<br/>
-- We considered short-term government intervention aimed at fostering social distancing in the population and a 140 suite of measures self-imposed by disease-aware individuals, i.e., mask-wearing, hand washing, and self-imposed 141 social distancing.<br/>
+- This is important, as COVID-19 is already placing increased pressure on ICUs, and anticipation of future demand, based on local population characteristics, may enable more timely planning and resource mobilisation .<br/>
+- This will aid clinical assessment, risk stratification, and resource allocation, and allow public health interventions to be targeted at the most vulnerable.<br/>
 
 [How health anxiety influences responses to viral outbreaks like COVID-19: What all decision-makers, health authorities, and health care professionals need to know](https://doi.org/10.1016/j.janxdis.2020.102211)<br/>
 by Asmundson, Gordon J.G.; Taylor, Steven<br/>
@@ -432,10 +435,17 @@ by Sanyi Tang; Biao Tang; Nicola Luigi Bragazzi; Fan Xia; Tangjuan Li; Sha He; P
 - Specifically, what we can do to deal with an outbreak like COVID-19 would be to collect information as early as possible, monitor the epidemic as close as possible just like we do for an earthquake and make preparations for a hurricane and communicate with the society and use confirmed data appropriately reframed not causing or exacerbating fear and panic in the public, stress and distress among medical and public health professionals, as well as administrators to make right decisions and take the right strategies at the right time in the right places for the right people.<br/>
 - Ultimately, we expect that a line list of patients will be shared by government sources with the global community; however, data cleaning and access issues might take a prohibitively long time to resolve.<br/>
 - Ultimately, we expect that a line list of patients will be shared by government sources with the global community; however, data cleaning and access issues may take prohibitively long to resolve.<br/>
-- As the World Health Organization's (WHO's) Director of Global Infectious Hazard Preparedness Sylvie Briand said, "Fear and stigma go together and when people fear, they tend to stigmatize some groups and what we try to do is to reduce this fear" .<br/>
 - While containing the virus as quickly as possible is the urgent public health priority, there have been few public health guidelines for the public as to what people can or should do in terms of maintaining their daily exercise or physical activity routines.<br/>
+- However, we should be cautious about the possibility that public health measures, however well intended, can be tainted by sentiment that is fuelled with prejudice against a certain group of people.<br/>
 
 #### Articles<br/>
+[Weaponized Interdependence: China's Economic Statecraft and Social Penetration against Taiwan](https://doi.org/10.1016/j.orbis.2020.02.002)<br/>
+by Chang, Chia-Chien; Yang, Alan H.<br/>
+*Orbis - Mar 04, 2020*<br/>
+- First, as Nye indicates, soft power rests in the ability of persuasion and voluntarism: you persuade your target to voluntarily follow your request with legitimate values or reasons.<br/>
+- Therefore, China does not only seek to develop its repressive capacities, but also it tries to export its censorship regime-encouraging other authoritarian regimes to censor and silence domestic dissidents with the technologies and programs it supplies.<br/>
+- Those bonds may become useful tools for the Chinese government to shape the identity and interest of the Taiwanese participants, making them more willing to accept China's influence.<br/>
+
 [The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
 by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
 *Journal of Autoimmunity - Mar 03, 2020*<br/>
@@ -454,29 +464,11 @@ by Ren, Shi-Yan; Gao, Rong-Ding; Chen, Ye-Lin<br/>
 - Importantly, discrimination, prejudice, and stigma make sick people reluctant to get medical help .<br/>
 - As the World Health Organization's (WHO's) Director of Global Infectious Hazard Preparedness Sylvie Briand said, "Fear and stigma go together and when people fear, they tend to stigmatize some groups and what we try to do is to reduce this fear" .<br/>
 
-[How health anxiety influences responses to viral outbreaks like COVID-19: What all decision-makers, health authorities, and health care professionals need to know](https://doi.org/10.1016/j.janxdis.2020.102211)<br/>
-by Asmundson, Gordon J.G.; Taylor, Steven<br/>
-*Journal of Anxiety Disorders - Apr 30, 2020*<br/>
-- On the other hand, other people with high health anxiety tend to seek out health-related information and reassurance, often from doctors.<br/>
-- People who view themselves as being at low risk of infection will also be unlikely to change their social behaviour and disregard recommendations for social distancing.<br/>
-
-[Community pharmacist in public health emergencies: Quick to action against the coronavirus 2019-nCoV outbreak](https://doi.org/10.1016/j.sapharm.2020.02.003)<br/>
-by Ung, Carolina Oi Lam<br/>
-*Research in Social and Administrative Pharmacy - Feb 12, 2020*<br/>
-- Some of them indicated the lack of knowledge and therefore lack of confidence to do so.<br/>
-- Similarly, the personal and environmental practice by the public should be reinforced whenever possible and community pharmacists are wellpositioned to do so more than any other health professionals.<br/>
-
-[Demographic science aids in understanding the spread and fatality rates of COVID-19](https://doi.org/10.1101/2020.03.15.20036293)<br/>
-by Jennifer Beam Dowd; Valentina Rotondi; Liliana Adriano; David M Brazel; Per Block; Xuejie Ding; Yan Liu; Melinda C Mills<br/>
-*Mar 18, 2020*<br/>
-- To this aim, the resolution 1262 8 "strongly discourages" people over 65 (and those categories at risk of incurring serious complications that can endanger their lives) to "look after children, participate in public or private events, use public transportation, except for medical and professional needs or for the purchase of basic necessities, and attend public exercise."<br/>
-- In the absence of economic security measures, this crucial sandwich generation may be less able to comply with policies that allow social distancing.<br/>
-
-[A Novel Method for the Estimation of a Dynamic Effective Reproduction Number (Dynamic-R) in the CoViD-19 Outbreak](https://doi.org/10.1101/2020.02.22.20023267)<br/>
-by Yi Chen Chong<br/>
-*Feb 25, 2020*<br/>
-- If the days you select are too far apart or too far in the past, the R value you generate loses its dynamism and currency; if you select too few days, you risk the chance of it being a statistical fluke.<br/>
-- It could be used as a metric to determine how effective certain public health policies are, but in predictive models, it may be too fundamentally unstable.<br/>
+[The Race to Zero?: China's Poaching of Taiwan's Diplomatic Allies](https://doi.org/10.1016/j.orbis.2020.02.003)<br/>
+by Shattuck, Thomas J.<br/>
+*Orbis - Mar 04, 2020*<br/>
+- China has little to offer in the way of persuasive economic incentives to the Vatican (although Taiwan must worry about China's other forms of possible leverage, such as its recent deal on the selection of Chinese bishops).<br/>
+- As it poaches the remaining 15 diplomatic allies, Beijing might create the very thing is does not want to occur.<br/>
 
 [Facemask shortage and the coronavirus disease (COVID-19) outbreak: Reflection on public health measures](https://doi.org/10.1101/2020.02.11.20020735)<br/>
 by Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
@@ -484,15 +476,26 @@ by Huailiang Wu; Jian Huang; Casper JP Zhang; Zonglin He; Wai-kit Ming<br/>
 - However, even full productivity does not seem to meet the need of a population of 1·4 billion in China.<br/>
 - In other words, we did not take into account factors that may limit the supply on the market, such as logistics.<br/>
 
+[2020 year of the nurse and midwife: Meeting new challenges](https://doi.org/10.1016/j.ienj.2020.100848)<br/>
+by Bell, Sue Anne; Brysiewicz, Petra<br/>
+*International Emergency Nursing - Mar 14, 2020*<br/>
+- We can advise individuals to stay home if they are ill, and we can share information about when it is necessary to seek health care.<br/>
+- Our profession is fundamental to health care, and too valuable to allow these misconceptions to persist.<br/>
+
 [An epidemiological forecast model and software assessing interventions on COVID-19 epidemic in China](https://doi.org/10.1101/2020.02.29.20029421)<br/>
 by Peter X Song; Lili Wang; Yiwang Zhou; Jie He; Bin Zhu; Fei Wang; Lu Tang; Marisa Eisenberg<br/>
 *Mar 03, 2020*<br/>
 - Yet, it is known that too strict quarantine can cause backfire; people may lose their trust and patience in their committed system, and consequently may try to reduce compliance or even avoid quarantine.<br/>
 
-[Mental health care for medical staff in China during the COVID-19 outbreak](https://doi.org/10.1016/S2215-0366(20)30078-X)<br/>
-by Chen, Qiongni; Liang, Mining; Li, Yamin; Guo, Jincai; Fei, Dongxue; Wang, Ling; He, Li; Sheng, Caihua; Cai, Yiwen; Li, Xiaojuan; Wang, Jianjian; Zhang, Zhanzhou<br/>
-*The Lancet Psychiatry - Feb 19, 2020*<br/>
-- Third, staff did not know how to deal with patients when they were unwilling to be quarantined at the hospital or did not cooperate with medical measures because of panic or a lack of knowledge about the disease.<br/>
+[The Impact of School Closure for COVID-19 on the US Healthcare Workforce and the Net Mortality Effects](https://doi.org/10.1101/2020.03.09.20033415)<br/>
+by Jude Bayham; Eli P Fenichel<br/>
+*Mar 13, 2020*<br/>
+- This may be optimistic because non-working adults may not be able to provide care, e.g., they may require care themselves.<br/>
+
+[Evaluation of the potential incidence of COVID-19 and effectiveness of contention measures in Spain: a data-driven approach](https://doi.org/10.1101/2020.03.01.20029801)<br/>
+by Alberto Aleta; Yamir Moreno<br/>
+*Mar 06, 2020*<br/>
+- These measures are extreme and unless the situation gets really critical, would not be put into practice as they bear an economic cost that would be insurmountable.<br/>
 
 # Research on the economic impact of this or any pandemic. This would include identifying policy and programmatic alternatives that lessen/mitigate risks to critical government services, food distribution and supplies, access to critical household supplies, and access to health diagnoses, treatment, and needed care, regardless of ability to pay.
 #### Highlights<br/>
@@ -548,18 +551,6 @@ by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
 - The program might cover improving laboratory facilities, ensuring availability of required equipment, building human resource capacity and ensuring quality laboratory management.<br/>
 - It is important to ensure the availability of qualified personnel, appropriate facilities, equipment, reagents, materials, SOP, training programs, implementation of good laboratory practices, etc.<br/>
 
-[Lessons drawn from China and South Korea for managing COVID-19 epidemic: insights from a comparative modeling study](https://doi.org/10.1101/2020.03.09.20033464)<br/>
-by Biao Tang; Fan Xia; Nicola Luigi Bragazzi; Xia Wang; Sha He; Xiaodan Sun; Sanyi Tang; Yanni Xiao; Jianhong Wu<br/>
-*Mar 13, 2020*<br/>
-- However, in the absence of effective medical interventions, these measures must be implemented and the success of these measures, despite their disruptive impact on social-economic activities, depends heavily on how these measures are adapted to the specific scenario, in terms not only of clinical and epidemiological variables but also of social aspects, including social habits, juridical provisions, and economic-financial resources.<br/>
-- Decision-making and implementations may require adaptations and modifications to take into account setting-specific characteristics in terms of community features, local epidemiology and risk assessment, social habits, juridical provisions, organizational coordination, and availability of economic-financial resources.<br/>
-
-[Community pharmacist in public health emergencies: Quick to action against the coronavirus 2019-nCoV outbreak](https://doi.org/10.1016/j.sapharm.2020.02.003)<br/>
-by Ung, Carolina Oi Lam<br/>
-*Research in Social and Administrative Pharmacy - Feb 12, 2020*<br/>
-- They are charged with key responsibilities of informing, advising and educating the community, maintaining a stable supply of pharmaceuticals and personal hygiene products, and screening of suspected cases and making appropriate referral as required.<br/>
-- 3 To support infection prevention and control overseen by the health department, departments of economy and finance, police service and customs, information, tourism, gaming, social welfare, consumer protection, municipal affairs, education formed partnerships to step up border control and surveillance, execute isolation and quarantine measures, promote personal and environmental hygiene, ensure medical and daily supply stability and monitor the pricing, deliver public and tourist education, and disseminate accurate up-to-date information on a unified platform.<br/>
-
 [On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
 by Allam, Zaheer; Jones, David S.<br/>
 *Healthcare - 2020*<br/>
@@ -570,4 +561,14 @@ by Allam, Zaheer; Jones, David S.<br/>
 by Peters, Alexandra; Vetter, Pauline; Guitart, Chloé; Lotfinejad, Nasim; Pittet, Didier<br/>
 *Journal of Hospital Infection - Mar 05, 2020*<br/>
 - Health system capacity factors include the availability of treatment or vaccine, and the level of resources (both human, material, and financial) available for allocation.<br/>
+
+[The coronavirus outbreak: the central role of primary care in emergency preparedness and response](https://doi.org/10.3399/bjgpopen20X101041)<br/>
+by Dunlop, C.; Howe, A.; Li, D.; Allen, L. N.<br/>
+*BJGP open - 2020*<br/>
+- Decent access to primary health care is essential in health emergencies, and its infrastructure crucial for containment, 10 just as good access to high-quality primary care is at the foundation of any strong health system.<br/>
+
+[Long-Term Care Facilities and the Coronavirus Epidemic: Practical Guidelines for a Population at Highest Risk](https://doi.org/10.1016/j.jamda.2020.03.004)<br/>
+by Dosa, David; Jump, Robin L.P.; LaPlante, Kerry; Gravenstein, Stefan<br/>
+*Journal of the American Medical Directors Association - Mar 13, 2020*<br/>
+- This involves both keeping track and awareness of inventory and negotiating with suppliers and public health officials who might seek to redirect limited resources to other healthcare environments.<br/>
 

@@ -2,10 +2,10 @@
 
 #### Highlights<br/>
 - Hence, clinical drugs and therapies for treating SARS may be used as a reference for COVID-19 treatment .<br/>
+- Those existing drugs with potent antiviral efficacy can be directly applied to treat COVID-19 in a short time, as their safety has been verified in principle in clinical trials.<br/>
 - As effective drugs for SARS, hormones and interferons can also be used to treat COVID-19 .<br/>
 - Although antiviral drugs, including osehamivir and ribavirin had been applied to our patients, to date no effective antiviral to treat COVID-19 has been identified.<br/>
 - Discovering drugs to treat coronavirus disease 2019 (COVID-19)<br/>
-- As far as treating patients is concerned, antiviral treatment has been used for COVID-19.<br/>
 
 #### Articles<br/>
 [The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
@@ -149,20 +149,9 @@ by Li, Jin-Yan; You, Zhi; Wang, Qiong; Zhou, Zhi-Jian; Qiu, Ye; Luo, Rui; Ge, Xi
 - Most importantly, RBD-based vaccine could induce neutralizing antibody responses and protection against SARS-CoV infection in the immunized animals, while it did not elicit ADE or other harmful immune responses, unlike the virusinactivated vaccines or full-length S protein-based vaccines as discussed above.<br/>
 - Although subunit vaccines based on the full-length S protein may elicit potent immune responses and/or protection, studies have found that antibodies induced by some of these vaccines mediate enhancement of viral infection in vitro, as in the case of SARS-CoV (Kam et al., 2007; Jaume et al., 2012) , raising safety concerns for the development of full-length S protein-based subunit vaccines against SARS-CoV and MERS-CoV.<br/>
 - Similarly, some viral-vectored vaccines can elicit specific antibody and cellular immune responses with neutralizing activity and protection, but they might also induce anti-vector immunity or present preexisting immunity, causing some harmful immune responses.<br/>
-- Moreover, a subunit vaccine (triSpike) based on a full-length S protein trimer induced specific serum and mucosal antibody responses and efficient neutralizing antibodies against SARS-CoV infection (Kam et al., 2007) .<br/>
+- Therefore, more studies are needed to elucidate the potential for the development of MERS-CoV full-length S-based subunit vaccines, including understanding their protective efficacy and identifying possible harmful immune responses.<br/>
 
 #### Articles<br/>
-[Subunit Vaccines Against Emerging Pathogenic Human Coronaviruses](https://doi.org/10.3389/fmicb.2020.00298)<br/>
-by Du, Ning Wang; Jian, Shang; Shibo, Jiang; Lanying<br/>
-*Frontiers in Microbiology - 2020*<br/>
-- Also, these traditional vaccines may induce the antibody-dependent enhancement (ADE) effect, as in the case of SARS-CoV infection (Luo et al., 2018b) .<br/>
-- Although subunit vaccines based on the full-length S protein may elicit potent immune responses and/or protection, studies have found that antibodies induced by some of these vaccines mediate enhancement of viral infection in vitro, as in the case of SARS-CoV (Kam et al., 2007; Jaume et al., 2012) , raising safety concerns for the development of full-length S protein-based subunit vaccines against SARS-CoV and MERS-CoV.<br/>
-- Similarly, some viral-vectored vaccines can elicit specific antibody and cellular immune responses with neutralizing activity and protection, but they might also induce anti-vector immunity or present preexisting immunity, causing some harmful immune responses.<br/>
-- Nevertheless, this vaccine also resulted in Fcγ receptor II (FcγRII)-dependent and ACE2-independent ADE, particularly in human monocytic or lymphoblastic cell lines infected with pseudotyped SARS-CoV expressing viral S protein, or in Raji B cells (B-cell lymphoma line) infected with live SARS-CoV (Kam et al., 2007; Jaume et al., 2012) , raising significant concerns over the use of full-length S protein as a SARS vaccine target.<br/>
-- It is noted that the wild-type MERS-CoV RBD proteins consisting of the identified critical neutralizing domain confer partial protection of hDPP4-transgenic (hDPP4-Tg) mice from MERS-CoV infection without causing immunological toxicity or eosinophilic immune enhancement (Tai et al., 2016; Nyon et al., 2018) ; nevertheless, a structurally designed mutant version of such RBD protein with a non-neutralizing epitope masked (T579N) preserves intact conformation and significantly improves overall neutralizing activity and protective efficacy, resulting in the full protection of hDPP4-Tg mice against high-dose MERS-CoV challenge (Du et al., 2016a) .<br/>
-- Moreover, immunization with a recombinant MERS-CoV NTD protein (rNTD) can induce neutralizing antibodies and cellmediated responses, protecting Ad-hDPP4-transduced mice against MERS-CoV challenge (Jiaming et al., 2017) .<br/>
-- Moreover, a subunit vaccine (triSpike) based on a full-length S protein trimer induced specific serum and mucosal antibody responses and efficient neutralizing antibodies against SARS-CoV infection (Kam et al., 2007) .<br/>
-
 [Is COVID-19 receiving ADE from other coronaviruses?](https://doi.org/10.1016/j.micinf.2020.02.006)<br/>
 by Tetro, Jason A.<br/>
 *Microbes and Infection - Mar 31, 2020*<br/>
@@ -171,6 +160,15 @@ by Tetro, Jason A.<br/>
 - Individuals suffering the most may have been primed by one or more prior coronavirus exposures, and due to antigenic epitope heterogeneity, are experiencing the effects of antibody dependent enhancement (ADE).<br/>
 -  revealed that enhancement may be improved by increasing dilutions of antibodies, suggesting a temporal relationship between priming and enhancement.<br/>
 - ADE modulates the immune response and can elicit sustained inflammation, lymphopenia, and/or cytokine storm, one or all of which have been documented in severe cases and deaths.<br/>
+
+[Subunit Vaccines Against Emerging Pathogenic Human Coronaviruses](https://doi.org/10.3389/fmicb.2020.00298)<br/>
+by Du, Ning Wang; Jian, Shang; Shibo, Jiang; Lanying<br/>
+*Frontiers in Microbiology - 2020*<br/>
+- Although subunit vaccines based on the full-length S protein may elicit potent immune responses and/or protection, studies have found that antibodies induced by some of these vaccines mediate enhancement of viral infection in vitro, as in the case of SARS-CoV (Kam et al., 2007; Jaume et al., 2012) , raising safety concerns for the development of full-length S protein-based subunit vaccines against SARS-CoV and MERS-CoV.<br/>
+- Similarly, some viral-vectored vaccines can elicit specific antibody and cellular immune responses with neutralizing activity and protection, but they might also induce anti-vector immunity or present preexisting immunity, causing some harmful immune responses.<br/>
+- It is noted that the wild-type MERS-CoV RBD proteins consisting of the identified critical neutralizing domain confer partial protection of hDPP4-transgenic (hDPP4-Tg) mice from MERS-CoV infection without causing immunological toxicity or eosinophilic immune enhancement (Tai et al., 2016; Nyon et al., 2018) ; nevertheless, a structurally designed mutant version of such RBD protein with a non-neutralizing epitope masked (T579N) preserves intact conformation and significantly improves overall neutralizing activity and protective efficacy, resulting in the full protection of hDPP4-Tg mice against high-dose MERS-CoV challenge (Du et al., 2016a) .<br/>
+- Moreover, immunization with a recombinant MERS-CoV NTD protein (rNTD) can induce neutralizing antibodies and cellmediated responses, protecting Ad-hDPP4-transduced mice against MERS-CoV challenge (Jiaming et al., 2017) .<br/>
+- Therefore, more studies are needed to elucidate the potential for the development of MERS-CoV full-length S-based subunit vaccines, including understanding their protective efficacy and identifying possible harmful immune responses.<br/>
 
 [Measures for diagnosing and treating infections by a novel coronavirus responsible for a pneumonia outbreak originating in Wuhan, China](https://doi.org/10.1016/j.micinf.2020.01.003)<br/>
 by Yu, Fei; Du, Lanying; Ojcius, David M.; Pan, Chungen; Jiang, Shibo<br/>
@@ -183,6 +181,12 @@ by Minfeng Liao; Yang Liu; Jin Yuan; Yanling Wen; Gang Xu; Juanjuan Zhao; Lin Ch
 *Feb 26, 2020*<br/>
 - However, it is debated whether antibody-dependent enhancement played roles in disease exacerbation .<br/>
 - This data will guide the future development of vaccine and potential T-cell immunotherapy for the severe viral respiratory infections.<br/>
+
+[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
+by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- 4 There are no published studies evaluating the efficacy or safety of antibiotic prophylaxis in eculizumab recipients.<br/>
+- Here, we report on potential risks and benefits of antibiotic prophylaxis for the prevention of meningococcal disease in a case series of vaccinated eculizumab recipients who developed meningococcal disease.<br/>
 
 [Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
 by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
@@ -202,32 +206,26 @@ by Xu, Yifei<br/>
 - 4 There are no published studies evaluating the efficacy or safety of antibiotic prophylaxis in eculizumab recipients.<br/>
 - Here, we report on potential risks and benefits of antibiotic prophylaxis for the prevention of meningococcal disease in a case series of vaccinated eculizumab recipients who developed meningococcal disease.<br/>
 
-[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
-by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- 4 There are no published studies evaluating the efficacy or safety of antibiotic prophylaxis in eculizumab recipients.<br/>
-- Here, we report on potential risks and benefits of antibiotic prophylaxis for the prevention of meningococcal disease in a case series of vaccinated eculizumab recipients who developed meningococcal disease.<br/>
-
 [SARS-CoV-2 and SARS-CoV Spike-RBD Structure and Receptor Binding Comparison and Potential Implications on Neutralizing Antibody and Vaccine Development](https://doi.org/10.1101/2020.02.16.951723)<br/>
 by Xie, L.; Sun, C.; Luo, C.; Zhang, Y.; Zhang, J.; Yang, J.; Chen, L.; Yang, J.; Li, J.<br/>
 *Feb 20, 2020*<br/>
 - Developing potent and cross-protective therapeutic antibodies and vaccines is possible but could be challenging.<br/>
 - Mechanism of neutralization for the non-blocking RBD antibodies remains to be investigated.<br/>
 
-[Clinical and immunologic features in severe and moderate forms of Coronavirus Disease 2019](https://doi.org/10.1101/2020.02.16.20023903)<br/>
-by Guang Chen; Di Wu; Wei Guo; Yong Cao; Da Huang; Hongwu Wang; Tao Wang; Xiaoyun Zhang; Huilong Chen; Haijing Yu; Xiaoping Zhang; Minxia Zhang; Shiji Wu; Jianxin Song; Tao Chen; Meifang Han; Shusheng Li; Xiaoping Luo; Jianping Zhao; Qin Ning<br/>
-*Feb 19, 2020*<br/>
-- virus-specific antibody production via the T-dependent activation of B cells 11 .<br/>
-- As a major source of IFN-γ, the ability of T cells to leads to an enhanced immune-mediated interstitial pneumonitis and delayed clearance of 3 9 2 All rights reserved.<br/>
+[2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
+by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
+*Journal of Infection in Developing Countries - 2020*<br/>
+- that induce cell-mediated immunity have also shown potential and are in development for viral pathogens such as influenza viruses.<br/>
+- In regard to choosing a vaccine target and platform, the vaccine candidate must be immunogenic and immune targeting must lead to virus neutralization or potent cytotoxic responses.<br/>
 
 # Exploration of use of best animal models and their predictive value for a human vaccine.
 
 #### Highlights<br/>
 - Having an understanding of the animal models and model development previously utilized for the other coronaviruses of interest will aid in the development of a model for 2019-nCoV.<br/>
 - As vaccine candidates are identified, the requirement of animal models for vaccine development and evaluation will be essential.<br/>
-- The training set were used to train models, and the validation set was used to optimize the hyperparameters for the best performance.<br/>
 - Development of animal models that faithfully mimic SARS-CoV-2 infection in humans is critical not only in providing a more refined understanding of the pathogenic mechanisms involved but also to serve as a screening model for potential chemotherapeutic agents and vaccines.<br/>
 - In 10 provinces, both testing and mobility improve the models prediction and in only one province testing is the most important factor improving model prediction (Fig.<br/>
+- Similar to the single-protein protocol, five candidate models are generated for each complex conformation, and each model is assessed using DOPE statistical potential following selection of the best-scoring model as a final prediction.<br/>
 
 #### Articles<br/>
 [2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
@@ -256,23 +254,17 @@ by Grifoni, Alba; Sidney, John; Zhang, Yun; Scheuermann, Richard H.; Peters, Bjo
 - To define potential B cell epitopes by an alternative method, we used the predictive tools provided with the IEDB.<br/>
 - This analysis provides essential information for understanding human immune responses to this virus and for evaluating diagnostic and vaccine candidates.<br/>
 
-[Rational evaluation of various epidemic models based on the COVID-19 data of China](https://doi.org/10.1101/2020.03.12.20034595)<br/>
-by Wuyue Yang; Dongyan Zhang; Liangrong Peng; Changjing Zhuge; Liu Hong<br/>
-*Mar 16, 2020*<br/>
-- Rational evaluation of various epidemic models based on the COVID-19 data of China<br/>
-- The RMSE is widely used to quantify the accuracy of regression models and needs no more explanation.<br/>
-
-[Machine learning-based CT radiomics model for predicting hospital stay in patients with pneumonia associated with SARS-CoV-2 infection: A multicenter study](https://doi.org/10.1101/2020.02.29.20029603)<br/>
-by Xiaolong Qi; Zicheng Jiang; QIAN YU; Chuxiao Shao; Hongguang Zhang; Hongmei Yue; Baoyi Ma; Yuancheng Wang; Chuan Liu; Xiangpan Meng; Shan Huang; Jitao Wang; Dan Xu; Junqiang Lei; Guanghang Xie; Huihong Huang; Jie Yang; Jiansong Ji; Hongqiu Pan; Shengqiang Zou; Shenghong Ju<br/>
-*Mar 03, 2020*<br/>
-- Similarity in AUCs, sensitivity and specificity for RF and LR models also demonstrated the robustness, according to prior study that classification method showed most dominant in variability of model.<br/>
-- 11 We applied 5-fold cross-validation on the training dataset to prove model performance.<br/>
-
 [The Essential Facts of Wuhan Novel Coronavirus Outbreak in China and Epitope-based Vaccine Designing against COVID-19](https://doi.org/10.1101/2020.02.05.935072)<br/>
 by Sarkar, B.; Ullah, M. A.; Johora, F. T.; Taniya, M. A.; Araf, Y.<br/>
 *Mar 06, 2020*<br/>
 - The vaccine construct with the best result in the molecular docking, was considered as the best vaccine construct.<br/>
 - The tumor model was used in prediction because it generated excellent results (when compared to other models) in both the leave-on-out cross-validation (LOO-CV) and external validation in numerous studies.<br/>
+
+[Structural genomics and interactomics of 2019 Wuhan novel coronavirus, 2019-nCoV, indicate evolutionary conserved functional regions of viral proteins](https://doi.org/10.1101/2020.02.10.942136)<br/>
+by Cui, H.; Gao, Z.; Liu, M.; Lu, S.; Mkandawire, W.; Mo, S.; Narykov, O.; Srinivasan, S.; Korkin, D.<br/>
+*Feb 14, 2020*<br/>
+- Similar to the single-protein protocol, five candidate models are generated for each complex conformation, and each model is assessed using DOPE statistical potential following selection of the best-scoring model as a final prediction.<br/>
+- Each model was then assessed using DOPE statistical potential and the best-scoring model was selected as a final prediction.<br/>
 
 [The Prediction for Development of COVID-19 in Global Major Epidemic Areas Through Empirical Trends in China by Utilizing State Transition Matrix Model](https://doi.org/10.1101/2020.03.10.20033670)<br/>
 by Zhong Zheng; Ke Wu; Zhixian Yao; Junhua Zheng; Jian Chen<br/>
@@ -288,6 +280,11 @@ by Andersen, Petter I.; Ianevski, Aleksandr; Lysvand, Hilde; Vitkauskiene, Astra
 by Peter X Song; Lili Wang; Yiwang Zhou; Jie He; Bin Zhu; Fei Wang; Lu Tang; Marisa Eisenberg<br/>
 *Mar 03, 2020*<br/>
 - Our informatics toolbox provides quantification of uncertainty on the prediction, rather than only point prediction values, which are valuable to see the best versus the worst.<br/>
+
+[Optimization Method for Forecasting Confirmed Cases of COVID-19 in China](https://doi.org/10.3390/jcm9030674)<br/>
+by Al-Qaness, Mohammed A. A.; Ewees, Ahmed A.; Fan, Hong; Abd El Aziz, Mohamed<br/>
+*J Clin Med - 2020*<br/>
+- Apply the testing set to the best ANFIS model.<br/>
 
 # Capabilities to discover a therapeutic (not vaccine) for the disease, and clinical effectiveness studies to discover therapeutics, to include antiviral agents.
 
@@ -325,6 +322,12 @@ by Tang, B.; He, F.; Liu, D.; Fang, M.; Wu, Z.; Xu, D.<br/>
 - Our ADQN-FBDD and related pipeline can be used not only for designing anti-COVID-19 drugs but also other structure-based drug discoveries, especially for emerging infetious diseases that require treatments timely.<br/>
 - Thus, with the hope to discover novel candidate drugs targeting SARS-CoV-2, we combine artificial intelligence (AI) with the structure-based drug design (SBDD) to accelerate generating potential lead compounds and design TCIs.<br/>
 
+[2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
+by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
+*Journal of Infection in Developing Countries - 2020*<br/>
+- The efficacy of a variety of antiviral therapeutics has been investigated for MERS with limited success.<br/>
+- There are, however, several vaccine candidates as well as antiviral candidates for prophylactic and therapeutic treatment of SARS-CoV and MERS-CoV infections.<br/>
+
 [Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
 by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
 *Infection, Genetics and Evolution - Jul 31, 2020*<br/>
@@ -336,12 +339,6 @@ by Hemida, Maged Gomaa; Ba Abduallah, Mohammed M.<br/>
 *One Health - Mar 16, 2020*<br/>
 - In the case of SARS-CoV-2, recent studies used the informational spectrum tools to identify and predict the actual reservoir, the virus receptors as well as potential therapeutic and vaccine targets .<br/>
 - This sequence will have a significant impact on the development of novel diagnostic assays, antiviral drugs, and vaccines against the virus soon.<br/>
-
-[2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
-by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A. T.; Rubino, S.; Dawe, N. J.; Al-Ahdal, M. N.; Kelvin, D. J.; Richardson, C. D.; Kindrachuk, J.; Falzarano, D.; Kelvin, A. A.<br/>
-*Journal of Infection in Developing Countries - 2020*<br/>
-- The efficacy of a variety of antiviral therapeutics has been investigated for MERS with limited success.<br/>
-- There are, however, several vaccine candidates as well as antiviral candidates for prophylactic and therapeutic treatment of SARS-CoV and MERS-CoV infections.<br/>
 
 [Molecular immune pathogenesis and diagnosis of COVID-19](https://doi.org/10.1016/j.jpha.2020.03.001)<br/>
 by Li, Xiaowei; Geng, Manman; Peng, Yizhao; Meng, Liesu; Lu, Shemin<br/>
@@ -361,10 +358,10 @@ by Mehta, Puja; McAuley, Daniel F; Brown, Michael; Sanchez, Emilie; Tattersall, 
 # Alternative models to aid decision makers in determining how to prioritize and distribute scarce, newly proven therapeutics as production ramps up. This could include identifying approaches for expanding production capacity to ensure equitable and timely distribution to populations in need.
 
 #### Highlights<br/>
-- 31 Existing local preliminary programmes and policies around human and animal health, community development and conservation are considered effective resources to begin or continue developing cost-effective strategies to mitigate zoonotic risks.<br/>
 - We hope that these insights may help to mitigate the global impacts of COVID-19 by guiding effective decision-making in both high-and low-resource countries, and may contribute to prospective improvements in screening policy for future emerging infections.<br/>
-- The study provides a valuable tool that can help countries in Africa prioritise and allocate resources as they prepare to respond to the potential introduction and spread of COVID-19.<br/>
 - We hope that these insights may help to mitigate the global impacts of nCoV 368 by guiding effective decision-making in both high-and low-resource countries, and may 369 contribute to prospective improvements in travel screening policy for future emerging infections.<br/>
+- 4, 5 Such analysis can inform predictions about potential future growth, 6 help estimate risk to other countries, 7 and guide the design of alternative interventions.<br/>
+- Such analysis can inform predictions about potential future growth , help estimate risk to other countries , and guide the design of alternative interventions .<br/>
 - This can inform policy makers in China and other countries to implement and adjust containment strategies in response to the outbreak in the future.<br/>
 
 #### Articles<br/>
@@ -379,19 +376,11 @@ by Musazzi, Umberto M.; Di Giorgio, Domenico; Minghetti, Paola<br/>
 - Noteworthy, it is not expectable that such provisions can solve the economic sustainability of a product in a long-term perspective, but there is no doubt that they can mitigate the MAH situations in short and medium-term, allowing the adoption of proper strategies to rationalize the production and to improve MAH sustainability.<br/>
 - However, effective pharmaceutical quality systems require close collaboration between the MAH and their suppliers of raw materials to promote a more rational definition of the critical quality attributes of the drug product and to improve the production resilience.<br/>
 
-[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
-by Allam, Zaheer; Jones, David S.<br/>
-*Healthcare - 2020*<br/>
--  supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.<br/>
-- Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios.<br/>
-- This would render an increased wealth of data from both the medical field and smart city operators, while ensuring privacy and security; hence, aiding in providing relevant information for better informed decisions.<br/>
-
-[Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection](https://doi.org/10.1101/2020.03.15.20035360)<br/>
-by Vageesh Jain; Jin-Min Yuan<br/>
-*Mar 16, 2020*<br/>
-- This can improve patient outcomes through three chief mechanisms: early clinical intervention in high-risk patients, designing appropriate clinical pathways and risk prediction tools, and the efficient allocation of scarce resources and expensive treatments.<br/>
-- This will aid clinical assessment, risk stratification, and resource allocation, and allow public health interventions to be targeted at the most vulnerable.<br/>
-- This is important, as COVID-19 is already placing increased pressure on ICUs, and anticipation of future demand, based on local population characteristics, may enable more timely planning and resource mobilisation .<br/>
+[Accurate Identification of SARS-CoV-2 from Viral Genome Sequences using Deep Learning](https://doi.org/10.1101/2020.03.13.990242)<br/>
+by Alejandro Lopez-Rincon; Alberto Tonda; Lucero Mendoza-Maldonado; Eric Claassen; Johan Garssen; Aletta D. Kraneveld<br/>
+*Mar 14, 2020*<br/>
+- Developing innovative diagnostic tools that target the genome to improve the identification of pathogens, can help reduce health costs and time to identify the infection, instead of using unsuitable treatments or testing.<br/>
+- Thus, it is fundamental to improve existing diagnostic tools to contain the spread.<br/>
 
 [Looming threat of COVID-19 infection in Africa: act collectively, and fast](https://doi.org/10.1016/S0140-6736(20)30464-5)<br/>
 by Nkengasong, John N; Mankoula, Wessam<br/>
@@ -404,6 +393,18 @@ by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily 
 *Int Health - Feb 10, 2020*<br/>
 - 31 Existing local preliminary programmes and policies around human and animal health, community development and conservation are considered effective resources to begin or continue developing cost-effective strategies to mitigate zoonotic risks.<br/>
 - 9,10 Further research to identify the risk factors among different populations will help develop more locally-relevant and fine-tuned risk mitigation strategies and address the social and ecological bias to identifying recommendations for other community settings.<br/>
+
+[On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management](https://doi.org/10.3390/healthcare8010046)<br/>
+by Allam, Zaheer; Jones, David S.<br/>
+*Healthcare - 2020*<br/>
+-  supports that data from various technological products can help enrich health databases, provide more accurate, efficient, comprehensive and real-time information on outbreaks and their dispersal, thus aiding in the provision of better urban fabric risk management decisions.<br/>
+- Here, as technological tools and laboratories around the world share data and collectively work to devise tools and cures, similar efforts should be considered between smart city professionals on how collaborative strategies could allow for the maximization of public safety on such and similar scenarios.<br/>
+
+[Systematic review and meta-analysis of predictive symptoms and comorbidities for severe COVID-19 infection](https://doi.org/10.1101/2020.03.15.20035360)<br/>
+by Vageesh Jain; Jin-Min Yuan<br/>
+*Mar 16, 2020*<br/>
+- This can improve patient outcomes through three chief mechanisms: early clinical intervention in high-risk patients, designing appropriate clinical pathways and risk prediction tools, and the efficient allocation of scarce resources and expensive treatments.<br/>
+- This will aid clinical assessment, risk stratification, and resource allocation, and allow public health interventions to be targeted at the most vulnerable.<br/>
 
 [Frontiers in antiviral therapy and immunotherapy](https://doi.org/10.1002/cti2.1115)<br/>
 by Heaton, Steven M<br/>
@@ -426,11 +427,6 @@ by Gostic, Katelyn; Gomez, Ana CR; Mummah, Riley O; Kucharski, Adam J; Lloyd-Smi
 by Katelyn Gostic; Ana C. R. Gomez; Riley O. Mummah; Adam J. Kucharski; James O. Lloyd-Smith<br/>
 *Jan 30, 2020*<br/>
 - We hope that these insights may help to mitigate the global impacts of nCoV 368 by guiding effective decision-making in both high-and low-resource countries, and may 369 contribute to prospective improvements in travel screening policy for future emerging infections.<br/>
-
-[Incorporating Human Movement Data to Improve Epidemiological Estimates for 2019-nCoV](https://doi.org/10.1101/2020.02.07.20021071)<br/>
-by Zhidong Cao; Qingpeng Zhang; Xin Lu; Dirk Pfeiffer; Lei Wang; Hongbing Song; Tao Pei; Zhongwei Jia; Daniel Dajun Zeng<br/>
-*Feb 09, 2020*<br/>
-- This will allow developing early detection, isolation and quarantine strategies tailored to the very dynamic epidemiological situation, as well as identify potential problems in the implementation of local disease control policies and inform the design of any necessary adjustments.<br/>
 
 # Efforts targeted at a universal coronavirus vaccine.
 
@@ -458,6 +454,7 @@ by Sarkar, B.; Ullah, M. A.; Johora, F. T.; Taniya, M. A.; Araf, Y.<br/>
 *Mar 06, 2020*<br/>
 - In this study, potential subunit vaccines were designed against the SARS-CoV-2 using various methods of reverse vaccinology and immunoinformatics.<br/>
 - The Essential Facts of Wuhan Novel Coronavirus Outbreak in China and Epitope-based Vaccine Designing against COVID-19<br/>
+- Reverse vaccinology approach of vaccine development also allows the scientists to easily understand the antigenic segments of a virus or pathogen that should be given more emphasis during the vaccine development.<br/>
 - vaccine.<br/>
 
 [2019-nCoV (Wuhan virus), a novel Coronavirus: Human-to-human transmission, travel-related cases, and vaccine readiness](https://doi.org/10.3855/jidc.12425)<br/>
@@ -473,6 +470,12 @@ by Timothy R. Abbott; Girija Dhamdhere; Yanxia Liu; Xueqiu Lin; Laine Goudy; Lei
 - Development of CRISPR as a prophylactic strategy to combat novel coronavirus and influenza<br/>
 - Thus, the design of a strategy that could broadly prevent and target viral threats, including all coronavirus strains that currently reside in animals, would be a valuable resource.<br/>
 - The potential pancoronavirus protection using CRISPR-Cas13d offers an alternative and complementary approach over traditional pharmaceuticals or vaccines.<br/>
+
+[The Novel Coronavirus: A Bird's Eye View](https://doi.org/10.15171/ijoem.2020.1921)<br/>
+by Habibzadeh, Parham; Stoneman, Emily K.<br/>
+*Int J Occup Environ Med - 2020*<br/>
+- 39 Nonetheless, there are ongoing efforts for vaccine development.<br/>
+- There are no vaccines or specific antivirals for 2019-nCoV.<br/>
 
 [Measures for diagnosing and treating infections by a novel coronavirus responsible for a pneumonia outbreak originating in Wuhan, China](https://doi.org/10.1016/j.micinf.2020.01.003)<br/>
 by Yu, Fei; Du, Lanying; Ojcius, David M.; Pan, Chungen; Jiang, Shibo<br/>
@@ -503,18 +506,13 @@ by Laura E Lamb; Sarah N Bartolone; Elijah Ward; Michael B Chancellor<br/>
 *Feb 24, 2020*<br/>
 - There is currently no vaccine or targeted therapeutic for COVID-19.<br/>
 
-[Preliminary identification of potential vaccine targets for the COVID-19 coronavirus (SARS-CoV-2) based on SARS-CoV immunological studies](https://doi.org/10.1101/2020.02.03.933226)<br/>
-by Ahmed, S. F.; Quadeer, A. A.; McKay, M. R.<br/>
-*Feb 12, 2020*<br/>
-- Overall, as the identified set of epitopes map identically to SARS-CoV-2, they present potentially useful candidates for guiding experimental efforts towards developing universal vaccines against SARS-CoV-2.<br/>
-
 # Efforts to develop animal models and standardize challenge studies
 
 #### Highlights<br/>
 - The information produced by this research allows the medical and scientific communities to better understand the transmission of COVID-19, to develop rapid diagnostic tests and efficient epidemiologic control, and to facilitate the development of antiviral therapies and vaccines.<br/>
 - Having an animal model that can recapitulate human disease is essential for vaccine and therapeutic development as well as testing.<br/>
 - Public health officials need to identify the source and virus reservoir, transmission cycle, pathogenesis, inter-human transmission, and clinical manifestations, which might be helpful to develop animal models, diagnostic reagents, anti-viral therapies, and vaccines against this pathogen.<br/>
-- More evidence is needed to develop effective preventive and clinical strategies.<br/>
+- As vaccine candidates are identified, the requirement of animal models for vaccine development and evaluation will be essential.<br/>
 - The ultimate goal of genomic characterization of pathogenic viruses is to provide information about the viruses for the development of better diagnostic tests, improved vaccine design and more effective antiviral drugs.<br/>
 
 #### Articles<br/>
@@ -524,6 +522,14 @@ by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A.
 - Having an understanding of the animal models and model development previously utilized for the other coronaviruses of interest will aid in the development of a model for 2019-nCoV.<br/>
 - Having an animal model that can recapitulate human disease is essential for vaccine and therapeutic development as well as testing.<br/>
 - As vaccine candidates are identified, the requirement of animal models for vaccine development and evaluation will be essential.<br/>
+- Other attempts at other mouse model developments were not successful, including an immunocompromised 129/SATA1-/-1 mouse .<br/>
+
+[The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
+by Rothan, Hussin A.; Byrareddy, Siddappa N.<br/>
+*Journal of Autoimmunity - Feb 26, 2020*<br/>
+- Several groups of scientists are currently working hard to develop a nonhuman primate model to study COVID-19 infection to establish fast track novel therapeutics and for the testing of potential vaccines in addition to providing a better understanding of virus-host interactions.<br/>
+- In order to develop pre-and post-exposure prophylaxis against COVID-19, there is an urgent need to establish an animal model to replicate the severe disease currently observed in humans.<br/>
+- Therefore, development of methods to identify the various modes of transmission such as feacal and urine samples are urgently warranted in order to develop strategies to inhibit and/or minimize transmission and to develop therapeutics to control the disease.<br/>
 
 [Emergence of Novel Coronavirus 2019-nCoV: Need for Rapid Vaccine and Biologics Development](https://doi.org/10.3390/pathogens9020148)<br/>
 by Shanmugaraj, Balamurugan; Malla, Ashwini; Phoolcharoen, Waranyoo<br/>
@@ -545,11 +551,11 @@ by Andersen, Petter I.; Ianevski, Aleksandr; Lysvand, Hilde; Vitkauskiene, Astra
 - We hope that further pre-clinical and clinical studies on BSAAs will be harmonized, and data collection will be standardized.<br/>
 - On the other hand, these models allow researchers to predict the behavior of viruses in vivo and, therefore, to reduce animal use and in cases where animal models are unavailable to initiate clinical trials.<br/>
 
-[The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
-by Rothan, Hussin A.; Byrareddy, Siddappa N.<br/>
-*Journal of Autoimmunity - Feb 26, 2020*<br/>
-- Several groups of scientists are currently working hard to develop a nonhuman primate model to study COVID-19 infection to establish fast track novel therapeutics and for the testing of potential vaccines in addition to providing a better understanding of virus-host interactions.<br/>
-- In order to develop pre-and post-exposure prophylaxis against COVID-19, there is an urgent need to establish an animal model to replicate the severe disease currently observed in humans.<br/>
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Vaccine development can be a challenge.<br/>
+- Development of animal models that faithfully mimic SARS-CoV-2 infection in humans is critical not only in providing a more refined understanding of the pathogenic mechanisms involved but also to serve as a screening model for potential chemotherapeutic agents and vaccines.<br/>
 
 [Measures for diagnosing and treating infections by a novel coronavirus responsible for a pneumonia outbreak originating in Wuhan, China](https://doi.org/10.1016/j.micinf.2020.01.003)<br/>
 by Yu, Fei; Du, Lanying; Ojcius, David M.; Pan, Chungen; Jiang, Shibo<br/>
@@ -575,19 +581,14 @@ by Yadi Zhou; Yuan Hou; Jiayu Shen; Yin Huang; William Martin; Feixiong Cheng<br
 - From a translational perspective, if broadly applied, the network tools developed here could help develop effective treatment strategies for other types of virus and human diseases as well.<br/>
 - Our approach can minimize the translational gap between preclinical testing results and clinical outcomes, which is a significant problem in the rapid development of efficient treatment strategies for the emerging 2019-nCoV outbreak.<br/>
 
-[Prediction of receptorome for human-infecting virome](https://doi.org/10.1101/2020.02.27.967885)<br/>
-by Zhang, Z.; Ye, S.; Wu, A.; Jiang, T.; Peng, Y.<br/>
-*Feb 28, 2020*<br/>
-- More efforts are needed to improve the model.<br/>
-
 # Efforts to develop prophylaxis clinical studies and prioritize in healthcare workers
 
 #### Highlights<br/>
-- Therefore, our present study should help the scientists to develop potential vaccines and therapeutics against the Wuhan Novel Coronavirus 2019.<br/>
+- There is an urgent need for the development of effective prevention and treatment strategies for 2019-nCoV outbreak.<br/>
 - The development of effective vaccines and antiviral drugs is a priority to reduce the burden of this virus.<br/>
-- We encourage coordinated efforts between national and international health agencies and academia to produce line lists of patients which in turn will better enable the medical community to develop effective interventions against COVID-19.<br/>
-- The information produced by this research allows the medical and scientific communities to better understand the transmission of COVID-19, to develop rapid diagnostic tests and efficient epidemiologic control, and to facilitate the development of antiviral therapies and vaccines.<br/>
 - Although researchers are racing against time to develop vaccines and test anti-viral drugs in clinical trials , there is no effective prophylactic and clinical treatment for COVID-19 yet.<br/>
+- The information produced by this research allows the medical and scientific communities to better understand the transmission of COVID-19, to develop rapid diagnostic tests and efficient epidemiologic control, and to facilitate the development of antiviral therapies and vaccines.<br/>
+- We encourage coordinated efforts between national and international health agencies and academia to produce line lists of patients which in turn will better enable the medical community to develop effective interventions against COVID-19.<br/>
 
 #### Articles<br/>
 [Exploring diseases/traits and blood proteins causally related to expression of ACE2, the putative receptor of 2019-nCov: A Mendelian Randomization analysis](https://doi.org/10.1101/2020.03.04.20031237)<br/>
@@ -605,29 +606,11 @@ by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily 
 - 31 Existing local preliminary programmes and policies around human and animal health, community development and conservation are considered effective resources to begin or continue developing cost-effective strategies to mitigate zoonotic risks.<br/>
 - 9,10 Further research to identify the risk factors among different populations will help develop more locally-relevant and fine-tuned risk mitigation strategies and address the social and ecological bias to identifying recommendations for other community settings.<br/>
 
-[Genetic diversity and potential recombination between ferret coronaviruses from European and American lineages](https://doi.org/10.1016/j.jinf.2020.01.016)<br/>
-by Xu, Yifei<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
-- Veterinary workers should also actively invest in epidemiological investigations to find the natural hosts of these viruses and develop corresponding detection methods.<br/>
-
-[Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
-by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
-- Veterinary workers should also actively invest in epidemiological investigations to find the natural hosts of these viruses and develop corresponding detection methods.<br/>
-
-[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
-by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
-- Veterinary workers should also actively invest in epidemiological investigations to find the natural hosts of these viruses and develop corresponding detection methods.<br/>
-
-[Detection of 20 respiratory viruses and bacteria by influenza-like illness surveillance in Beijing, China, 2016–2018](https://doi.org/10.1016/j.jinf.2019.11.014)<br/>
-by Haixu, Liang; Haibin, Wang; Lili, Ren<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
-- Veterinary workers should also actively invest in epidemiological investigations to find the natural hosts of these viruses and develop corresponding detection methods.<br/>
+[The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak](https://doi.org/10.1016/j.jaut.2020.102433)<br/>
+by Rothan, Hussin A.; Byrareddy, Siddappa N.<br/>
+*Journal of Autoimmunity - Feb 26, 2020*<br/>
+- In order to develop pre-and post-exposure prophylaxis against COVID-19, there is an urgent need to establish an animal model to replicate the severe disease currently observed in humans.<br/>
+- Therefore, development of methods to identify the various modes of transmission such as feacal and urine samples are urgently warranted in order to develop strategies to inhibit and/or minimize transmission and to develop therapeutics to control the disease.<br/>
 
 [Emergence of Novel Coronavirus 2019-nCoV: Need for Rapid Vaccine and Biologics Development](https://doi.org/10.3390/pathogens9020148)<br/>
 by Shanmugaraj, Balamurugan; Malla, Ashwini; Phoolcharoen, Waranyoo<br/>
@@ -649,14 +632,29 @@ by Lai, Chih-Cheng; Shih, Tzu-Ping; Ko, Wen-Chien; Tang, Hung-Jen; Hsueh, Po-Ren
 *International Journal of Antimicrobial Agents - Mar 31, 2020*<br/>
 - All effort s are being made to slow the spread of the illness in order to provide time to better prepare healthcare systems and the general public, to better characterise COVID-19 to guide public-health recommendations, and to develop timely diagnostics, therapeutics and vaccines .<br/>
 
+[Breaking down of healthcare system: Mathematical modelling for controlling the novel coronavirus (2019-nCoV) outbreak in Wuhan, China](https://doi.org/10.1101/2020.01.27.922443)<br/>
+by Ming, W.-k.; Huang, J.; Zhang, C. J. P.<br/>
+*Jan 30, 2020*<br/>
+- To achieve higher efficacy of the public health interventions, efforts from individuals should not be neglected.<br/>
+
+[Rigidity, normal modes and flexible motion of a SARS-CoV-2 (COVID-19) protease structure](https://doi.org/10.1101/2020.03.10.986190)<br/>
+by Stephen A. Wells<br/>
+*Mar 12, 2020*<br/>
+- This information may inform structure-based drug design and fragment screening efforts aimed at identifying specific antiviral therapies for the treatment of COVID-19.<br/>
+
+[Taking the right measures to control COVID-19](https://doi.org/10.1016/S1473-3099(20)30152-3)<br/>
+by Xiao, Yonghong; Torok, Mili Estee<br/>
+*The Lancet Infectious Diseases - Mar 05, 2020*<br/>
+- 10 Likewise, the development of a vaccine is an urgent public health priority.<br/>
+
 # Approaches to evaluate risk for enhanced disease after vaccination
 
 #### Highlights<br/>
 - In addition, structure and epitope-based vaccine design has become a promising strategy to improve the efficacy of subunit vaccines.<br/>
-- Finally, this study recommends CV-1 as the best vaccine to be an effective worldwide treatment based on the strategies employed in the study to be triggered against SARS-CoV-2 infection.<br/>
+- However, computer-based immune-informatics can improve time and economic effectiveness, as a result, it is also an essential method in immunogenic analysis and vaccine development.<br/>
 - Taken together, the approaches and strategies in the development of subunit vaccines against SARS and MERS described in this review will provide important information for the rapid design and development of safe and effective subunit vaccines against 2019-nCoV infection.<br/>
-- https://doi.org/10.1101/2020.01.31.929042 doi: bioRxiv preprint 6 responses raised against SARS-S during infection or vaccination might offer some protection 118 against 2019-nCoV infection.<br/>
-- Thus, antibody responses raised against SARS-S during infection or vaccination might offer some level of protection against SARS-CoV-2 infection.<br/>
+- The genome-derived vaccines are based on the concept that selection and design of antigen is critical for vaccine efficacy.<br/>
+- Various vaccine strategies against coronavirus, such as using inactivated viruses, live-attenuated viruses, viral vectorbased vaccines, subunit vaccines, and recombinant proteins are under evaluation.<br/>
 
 #### Articles<br/>
 [Subunit Vaccines Against Emerging Pathogenic Human Coronaviruses](https://doi.org/10.3389/fmicb.2020.00298)<br/>
@@ -668,7 +666,6 @@ by Du, Ning Wang; Jian, Shang; Shibo, Jiang; Lanying<br/>
 - For instance, inactivated and liveattenuated virus-based vaccines are vaccine types developed using the most traditional approaches.<br/>
 - In spite of their immunogenicity, it appears that these N-and M-based SARS subunit vaccines have not been investigated for their protective efficacy against SARS-CoV infection.<br/>
 - Taken together, the approaches and strategies in the development of subunit vaccines against SARS and MERS described in this review will provide important information for the rapid design and development of safe and effective subunit vaccines against 2019-nCoV infection.<br/>
-- Antigen dosage, immunization doses, and intervals may significantly affect the immunogenicity of MERS-CoV subunit vaccines.<br/>
 
 [The Essential Facts of Wuhan Novel Coronavirus Outbreak in China and Epitope-based Vaccine Designing against COVID-19](https://doi.org/10.1101/2020.02.05.935072)<br/>
 by Sarkar, B.; Ullah, M. A.; Johora, F. T.; Taniya, M. A.; Araf, Y.<br/>
@@ -677,17 +674,18 @@ by Sarkar, B.; Ullah, M. A.; Johora, F. T.; Taniya, M. A.; Araf, Y.<br/>
 - Finally, this study recommends CV-1 as the best vaccine to be an effective worldwide treatment based on the strategies employed in the study to be triggered against SARS-CoV-2 infection.<br/>
 - Various computational studies of the suggested vaccine constructs revealed that these vaccines might confer good immunogenic response.<br/>
 
-[Pathogenic viruses: Molecular detection and characterization](https://doi.org/10.1016/j.meegid.2020.104215)<br/>
-by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
-*Infection, Genetics and Evolution - Jul 31, 2020*<br/>
-- Induction of protective immunity through vaccination can be a critical tool to protect a population at risk against potential viral diseases.<br/>
-- The genome-derived vaccines are based on the concept that selection and design of antigen is critical for vaccine efficacy.<br/>
+[Outbreak of Novel Coronavirus (SARS-Cov-2): First Evidences From International Scientific Literature and Pending Questions](https://doi.org/10.3390/healthcare8010051)<br/>
+by Amodio, Emanuele; Vitale, Francesco; Cimino, Livia; Casuccio, Alessandra; Tramuto, Fabio<br/>
+*Healthcare (Basel) - 2020*<br/>
+- Unfortunately, to date, there are no vaccines against SARS-CoV-2, and there is the awareness that several months may be required to undergo extensive testing, and determine vaccine safety and efficacy before a potential wide use.<br/>
+- However, an accurate measure of the mutation rate for SARS-CoV-2 has not been calculated and the evaluation of its genetic evolution over time could have important implications for strategic planning in the prevention, as well as in the development of vaccines and antibodies-based therapies.<br/>
+- Various vaccine strategies against coronavirus, such as using inactivated viruses, live-attenuated viruses, viral vectorbased vaccines, subunit vaccines, and recombinant proteins are under evaluation.<br/>
 
 [Potential Rapid Diagnostics, Vaccine and Therapeutics for 2019 Novel Coronavirus (2019-nCoV): A Systematic Review](https://doi.org/10.3390/jcm9030623)<br/>
 by Pang, Junxiong; Wang, Min Xian; Ang, Ian Yi Han; Tan, Sharon Hui Xuan; Lewis, Ruth Frances; Chen, Jacinta I. Pei; Gutierrez, Ramona A.; Gwee, Sylvia Xiao Wei; Chua, Pearleen Ee Yong; Yang, Qian; Ng, Xian Yi; Yap, Rowena K. S.; Tan, Hao Yi; Teo, Yik Ying; Tan, Chorh Chuan; Cook, Alex R.; Yap, Jason Chin-Huat; Hsu, Li Yang<br/>
 *Journal of Clinical Medicine - 2020*<br/>
 - Nonetheless, there are social, clinical and economic hurdles for vaccine and vaccination programmes, including (a) the willingness of the public to undergo vaccination with a novel vaccine, (b) the side effects and severe adverse reactions of vaccination, (c) the potential difference and/or low efficacy of the vaccine in populations different from the clinical trials' populations and (d) the accessibility of the vaccines to a given population (including the cost and availability of the vaccine).<br/>
-- In the context of the current 2019-nCoV outbreak, vaccines will help control and reduce disease transmission by creating herd immunity in addition to protecting healthy individuals from infection.<br/>
+- Studies that examined the mechanisms of diagnostic tests, drug therapy or vaccine efficacy against SARS, MERS and 2019-nCoV were excluded.<br/>
 
 [The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
 by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
@@ -695,34 +693,35 @@ by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Gu
 - Vaccine development can be a challenge.<br/>
 - However, the difficulties and challenges of developing an effective vaccine have been discussed earlier, and the key to a successful vaccine program is to vaccinate people before an outbreak occurs, not begin to develop the vaccine during the outbreak.<br/>
 
-[A qualitative study of zoonotic risk factors among rural communities in southern China](https://doi.org/10.1093/inthealth/ihaa001)<br/>
-by Li, Hong-Ying; Zhu, Guang-Jian; Zhang, Yun-Zhi; Zhang, Li-Biao; Hagan, Emily A; Martinez, Stephanie; Chmura, Aleksei A; Francisco, Leilani; Tai, Hina; Miller, Maureen; Daszak, Peter<br/>
-*Int Health - Feb 10, 2020*<br/>
-- 28 At the individual level, both risk and protective factors were analysed in terms of the individuals' knowledge, attitudes and practices to better understand the risk factors for identifying context-based strategies.<br/>
-- Public education about rabies was reported as an example of a zoonotic disease prevention programme that had improved local awareness of the need for protective measures and postexposure treatment.<br/>
-
-[Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
-by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- In addition, vaccination is regarded as an effective strategy for GETV prevention and control.<br/>
-- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
-
-[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
-by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
-*Journal of Infection - Mar 31, 2020*<br/>
-- In addition, vaccination is regarded as an effective strategy for GETV prevention and control.<br/>
-- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
-
 [A Sequence Homology and Bioinformatic Approach Can Predict Candidate Targets for Immune Responses to SARS-CoV-2](https://doi.org/10.1016/j.chom.2020.03.002)<br/>
 by Grifoni, Alba; Sidney, John; Zhang, Yun; Scheuermann, Richard H.; Peters, Bjoern; Sette, Alessandro<br/>
 *Cell Host & Microbe - Mar 16, 2020*<br/>
 - This analysis provides essential information for understanding human immune responses to this virus and for evaluating diagnostic and vaccine candidates.<br/>
 - Such knowledge is of immediate relevance and would assist vaccine design and facilitate the evaluation of vaccine candidate immunogenicity, as well as monitoring of the potential consequences of mutational events and epitope escape as the virus is transmitted through human populations.<br/>
 
-[Multi-city modeling of epidemics using spatial networks: Application to 2019-nCov (COVID-19) coronavirus in India](https://doi.org/10.1101/2020.03.13.20035386)<br/>
-by Bhalchandra S Pujari; Snehal M Shekatkar<br/>
-*Mar 17, 2020*<br/>
-- 14 used such a model to demonstrate the effectiveness of vaccination against measles outbreak.<br/>
+[Emergence of SARS-like coronavirus poses new challenge in China](https://doi.org/10.1016/j.jinf.2020.01.017)<br/>
+by Wang, Ruichen; Zhang, Xu; Irwin, David M.; Shen, Yongyi<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
+- Here, we report on potential risks and benefits of antibiotic prophylaxis for the prevention of meningococcal disease in a case series of vaccinated eculizumab recipients who developed meningococcal disease.<br/>
+
+[Emergence of a novel coronavirus causing respiratory illness from Wuhan, China](https://doi.org/10.1016/j.jinf.2020.01.014)<br/>
+by Tang, Julian W.; Tambyah, Paul A.; Hui, David S.C.<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
+- Here, we report on potential risks and benefits of antibiotic prophylaxis for the prevention of meningococcal disease in a case series of vaccinated eculizumab recipients who developed meningococcal disease.<br/>
+
+[Genetic diversity and potential recombination between ferret coronaviruses from European and American lineages](https://doi.org/10.1016/j.jinf.2020.01.016)<br/>
+by Xu, Yifei<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
+- Here, we report on potential risks and benefits of antibiotic prophylaxis for the prevention of meningococcal disease in a case series of vaccinated eculizumab recipients who developed meningococcal disease.<br/>
+
+[Detection of 20 respiratory viruses and bacteria by influenza-like illness surveillance in Beijing, China, 2016–2018](https://doi.org/10.1016/j.jinf.2019.11.014)<br/>
+by Haixu, Liang; Haibin, Wang; Lili, Ren<br/>
+*Journal of Infection - Mar 31, 2020*<br/>
+- Validation of these potential associations in a larger sample, with systematic ascertainment of antibiotic exposure, could further elucidate the potential impact of prophylaxis on development of meningococcal disease among eculizumab recipients.<br/>
+- Here, we report on potential risks and benefits of antibiotic prophylaxis for the prevention of meningococcal disease in a case series of vaccinated eculizumab recipients who developed meningococcal disease.<br/>
 
 # Assays to evaluate vaccine immune response and process development for vaccines, alongside suitable animal models [in conjunction with therapeutics]
 #### Highlights<br/>
@@ -757,8 +756,14 @@ by Ralph, R.; Lew, J.; Zeng, T.; Francis, M.; Xue, B.; Roux, M.; Ostadgavahi, A.
 *Journal of Infection in Developing Countries - 2020*<br/>
 - As vaccine candidates are identified, the requirement of animal models for vaccine development and evaluation will be essential.<br/>
 - Having an animal model that can recapitulate human disease is essential for vaccine and therapeutic development as well as testing.<br/>
-- The envelope protein (E) is also an attractive vaccine target that has been proposed for leverage in the development of live-attenuated vaccines .<br/>
 - In regard to choosing a vaccine target and platform, the vaccine candidate must be immunogenic and immune targeting must lead to virus neutralization or potent cytotoxic responses.<br/>
+- The envelope protein (E) is also an attractive vaccine target that has been proposed for leverage in the development of live-attenuated vaccines .<br/>
+
+[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
+by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
+*Journal of Autoimmunity - Mar 03, 2020*<br/>
+- Development of animal models that faithfully mimic SARS-CoV-2 infection in humans is critical not only in providing a more refined understanding of the pathogenic mechanisms involved but also to serve as a screening model for potential chemotherapeutic agents and vaccines.<br/>
+- Vaccine development can be a challenge.<br/>
 
 [Measures for diagnosing and treating infections by a novel coronavirus responsible for a pneumonia outbreak originating in Wuhan, China](https://doi.org/10.1016/j.micinf.2020.01.003)<br/>
 by Yu, Fei; Du, Lanying; Ojcius, David M.; Pan, Chungen; Jiang, Shibo<br/>
@@ -771,12 +776,6 @@ by Artika, I Made; Wiyatno, Ageng; Ma'roef, Chairin Nisa<br/>
 *Infection, Genetics and Evolution - Jul 31, 2020*<br/>
 - The genome-derived vaccines are based on the concept that selection and design of antigen is critical for vaccine efficacy.<br/>
 - The ultimate goal of genomic characterization of pathogenic viruses is to provide information about the viruses for the development of better diagnostic tests, improved vaccine design and more effective antiviral drugs.<br/>
-
-[The deadly coronaviruses: The 2003 SARS pandemic and the 2020 novel coronavirus epidemic in China](https://doi.org/10.1016/j.jaut.2020.102434)<br/>
-by Yang, Yongshi; Peng, Fujun; Wang, Runsheng; Guan, Kai; Jiang, Taijiao; Xu, Guogang; Sun, Jinlyu; Chang, Christopher<br/>
-*Journal of Autoimmunity - Mar 03, 2020*<br/>
-- Development of animal models that faithfully mimic SARS-CoV-2 infection in humans is critical not only in providing a more refined understanding of the pathogenic mechanisms involved but also to serve as a screening model for potential chemotherapeutic agents and vaccines.<br/>
-- Vaccine development can be a challenge.<br/>
 
 [Preliminary identification of potential vaccine targets for the COVID-19 coronavirus (SARS-CoV-2) based on SARS-CoV immunological studies](https://doi.org/10.1101/2020.02.03.933226)<br/>
 by Ahmed, S. F.; Quadeer, A. A.; McKay, M. R.<br/>
