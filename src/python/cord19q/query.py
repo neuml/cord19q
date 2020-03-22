@@ -3,17 +3,12 @@ Query module
 """
 
 import datetime
-import os
-import os.path
 import re
-import sqlite3
 import sys
 
 import html2text
 import mdv
 
-# pylint: disable = E0401
-from .embeddings import Embeddings
 from .highlights import Highlights
 from .models import Models
 from .tokenizer import Tokenizer
@@ -85,37 +80,6 @@ class Query(object):
             text = Query.unescape(text)
 
         return text.strip()
-
-    @staticmethod
-    def load(path):
-        """
-        Loads an embeddings model and db database.
-
-        Args:
-            path: model path, if None uses default path
-
-        Returns:
-            (embeddings, db handle)
-        """
-
-        # Default path if not provided
-        if not path:
-            path = Models.modelPath()
-
-        dbfile = os.path.join(path, "articles.db")
-
-        if os.path.isfile(os.path.join(path, "config")):
-            print("Loading model from %s" % path)
-            embeddings = Embeddings()
-            embeddings.load(path)
-        else:
-            print("ERROR: loading model: ensure model is present")
-            raise FileNotFoundError("Unable to load model from %s" % path)
-
-        # Connect to database file
-        db = sqlite3.connect(dbfile)
-
-        return (embeddings, db)
 
     @staticmethod
     def search(embeddings, cur, query, n=10):
@@ -283,18 +247,6 @@ class Query(object):
             print()
 
     @staticmethod
-    def close(db):
-        """
-        Closes a SQLite database database.
-
-        Args:
-            db: open database
-        """
-
-        # Free database resources
-        db.close()
-
-    @staticmethod
     def run(query, path):
         """
         Executes a query against an index.
@@ -305,13 +257,13 @@ class Query(object):
         """
 
         # Load model
-        embeddings, db = Query.load(path)
+        embeddings, db = Models.load(path)
 
         # Query the database
         Query.query(embeddings, db, query)
 
         # Free resources
-        Query.close(db)
+        Models.close(db)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:

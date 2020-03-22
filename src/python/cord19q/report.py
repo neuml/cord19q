@@ -4,11 +4,8 @@ Report module
 
 import os
 import os.path
-import sqlite3
 import sys
 
-# pylint: disable = E0401
-from .embeddings import Embeddings
 from .models import Models
 from .query import Query
 
@@ -16,37 +13,6 @@ class Report(object):
     """
     Methods to build reports from a series of queries
     """
-
-    @staticmethod
-    def load(path):
-        """
-        Loads an embeddings model and db database.
-
-        Args:
-            path: model path, if None uses default path
-
-        Returns:
-            (embeddings, db handle)
-        """
-
-        # Default path if not provided
-        if not path:
-            path = Models.modelPath()
-
-        dbfile = os.path.join(path, "articles.db")
-
-        if os.path.isfile(os.path.join(path, "config")):
-            print("Loading model from %s" % path)
-            embeddings = Embeddings()
-            embeddings.load(path)
-        else:
-            print("ERROR: loading model: ensure model is present")
-            raise FileNotFoundError("Unable to load model from %s" % path)
-
-        # Connect to database file
-        db = sqlite3.connect(dbfile)
-
-        return (embeddings, db)
 
     @staticmethod
     def write(output, line):
@@ -119,18 +85,6 @@ class Report(object):
                     output.write("\n")
 
     @staticmethod
-    def close(db):
-        """
-        Closes a SQLite database database.
-
-        Args:
-            db: open database
-        """
-
-        # Free database resources
-        db.close()
-
-    @staticmethod
     def run(task, path):
         """
         Reads a list of queries from a task file and builds a report.
@@ -141,7 +95,7 @@ class Report(object):
         """
 
         # Load model
-        embeddings, db = Report.load(path)
+        embeddings, db = Models.load(path)
 
         # Read each task query
         with open(task, "r") as f:
@@ -151,7 +105,7 @@ class Report(object):
         Report.build(embeddings, db, queries, "%s.md" % os.path.splitext(task)[0])
 
         # Free resources
-        Report.close(db)
+        Models.close(db)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:

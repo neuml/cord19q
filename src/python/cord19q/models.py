@@ -4,6 +4,9 @@ Models module
 
 import os
 import os.path
+import sqlite3
+
+from .embeddings import Embeddings
 
 class Models(object):
     """
@@ -87,3 +90,46 @@ class Models(object):
 
         # Append file name to path
         return os.path.join(path, name)
+
+    @staticmethod
+    def load(path):
+        """
+        Loads an embeddings model and db database.
+
+        Args:
+            path: model path, if None uses default path
+
+        Returns:
+            (embeddings, db handle)
+        """
+
+        # Default path if not provided
+        if not path:
+            path = Models.modelPath()
+
+        dbfile = os.path.join(path, "articles.db")
+
+        if os.path.isfile(os.path.join(path, "config")):
+            print("Loading model from %s" % path)
+            embeddings = Embeddings()
+            embeddings.load(path)
+        else:
+            print("ERROR: loading model: ensure model is present")
+            raise FileNotFoundError("Unable to load model from %s" % path)
+
+        # Connect to database file
+        db = sqlite3.connect(dbfile)
+
+        return (embeddings, db)
+
+    @staticmethod
+    def close(db):
+        """
+        Closes a SQLite database database.
+
+        Args:
+            db: open database
+        """
+
+        # Free database resources
+        db.close()

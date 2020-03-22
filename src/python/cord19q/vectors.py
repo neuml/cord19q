@@ -11,7 +11,7 @@ import tempfile
 import fasttext
 import fasttext.util
 
-# pylint: disable=E0401,E0611
+# pylint: disable=E0611
 # Defined at runtime
 from .magnitude import converter
 from .models import Models

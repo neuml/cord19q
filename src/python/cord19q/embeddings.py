@@ -14,7 +14,7 @@ import numpy as np
 
 from sklearn.decomposition import TruncatedSVD
 
-# pylint: disable=E0401,E0611
+# pylint: disable=E0611
 # Defined at runtime
 from .magnitude import Magnitude
 from .scoring import Scoring

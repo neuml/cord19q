@@ -6,7 +6,6 @@ import os.path
 import sqlite3
 import sys
 
-# pylint: disable = E0401
 from .embeddings import Embeddings
 from .models import Models
 from .tokenizer import Tokenizer
