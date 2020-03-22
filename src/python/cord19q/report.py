@@ -2,18 +2,15 @@
 Report module
 """
 
-import datetime
 import os
 import os.path
-import re
 import sqlite3
 import sys
 
 # pylint: disable = E0401
 from .embeddings import Embeddings
-from .highlights import Highlights
 from .models import Models
-from .tokenizer import Tokenizer
+from .query import Query
 
 class Report(object):
     """
@@ -52,121 +49,6 @@ class Report(object):
         return (embeddings, db)
 
     @staticmethod
-    def search(embeddings, cur, query):
-        """
-        Executes an embeddings search for the input query. Each returned result is resolved
-        to the full section row.
-
-        Args:
-            embeddings: embeddings model
-            cur: database cursor
-            query: query text
-
-        Returns:
-            search results
-        """
-
-        results = []
-
-        # Tokenize search query
-        query = Tokenizer.tokenize(query)
-
-        for uid, score in embeddings.search(query, 50):
-            cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
-            results.append((uid, score) + cur.fetchone())
-
-        return results
-
-    @staticmethod
-    def highlights(results):
-        """
-        Builds a list of highlights for the search results. Returns top ranked sections by importance
-        over the result list.
-
-        Args:
-            results: search results
-
-        Returns:
-            top ranked sections
-        """
-
-        sections = {}
-        for uid, score, _, text in results:
-            # Filter out lower scored results
-            if score >= 0.35:
-                sections[text] = (uid, text)
-
-        return Highlights.build(sections.values())
-
-    @staticmethod
-    def documents(results):
-        """
-        Processes search results and groups by article.
-
-        Args:
-            results: search results
-
-        Returns:
-            results grouped by article
-        """
-
-        documents = {}
-
-        # Group by article
-        for _, score, article, text in results:
-            if article not in documents:
-                documents[article] = set()
-
-            documents[article].add((score, text))
-
-        # Sort based on section id, which preserves original order
-        for uid in documents:
-            documents[uid] = sorted(list(documents[uid]), reverse=True)
-
-        return documents
-
-    @staticmethod
-    def date(date):
-        """
-        Formats a date string.
-
-        Args:
-            date: input date string
-
-        Returns:
-            formatted date
-        """
-
-        if date:
-            date = datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
-
-            # 1/1 dates had no month/day specified, use only year
-            if date.month == 1 and date.day == 1:
-                return date.strftime("%Y")
-
-            return date.strftime("%b %d, %Y")
-
-    @staticmethod
-    def text(text):
-        """
-        Formats match text.
-
-        Args:
-            text: input text
-
-        Returns:
-            formatted text
-        """
-
-        # Remove reference links ([1], [2], etc)
-        text = re.sub(r"\s*[\[(][0-9, ]+[\])]\s*", " ", text)
-
-        # Remove •
-        text = text.replace("•", "")
-
-        return text
-
-    @staticmethod
     def write(output, line):
         """
         Writes line to output file.
@@ -197,18 +79,18 @@ class Report(object):
                 output.write("# %s\n" % query)
 
                 # Query for best matches
-                results = Report.search(embeddings, cur, query)
+                results = Query.search(embeddings, cur, query, 50)
 
                 # Extract top sections as highlights
                 Report.write(output, "#### Highlights")
-                for highlight in Report.highlights(results):
-                    Report.write(output, "- %s" % Report.text(highlight))
+                for highlight in Query.highlights(results, 5):
+                    Report.write(output, "- %s" % Query.text(highlight))
 
                 # Write each article result
                 Report.write(output, "\n#### Articles")
 
                 # Get results grouped by document
-                documents = Report.documents(results)
+                documents = Query.documents(results)
 
                 # Print each result, sorted by max score descending
                 for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True)[:10]:
@@ -223,7 +105,7 @@ class Report(object):
                     # Publication name and date
                     publication = article[3] if article[3] else None
                     if article[4]:
-                        published = Report.date(article[4])
+                        published = Query.date(article[4])
                         publication = (publication + " - " + published) if publication else published
 
                     if publication and len(publication) > 0:
@@ -231,7 +113,7 @@ class Report(object):
 
                     # Print top matches
                     for _, text in documents[uid]:
-                        Report.write(output, "- %s" % Report.text(text))
+                        Report.write(output, "- %s" % Query.text(text))
 
                     # Start new section
                     output.write("\n")

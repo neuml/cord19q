@@ -2,8 +2,10 @@
 Query module
 """
 
+import datetime
 import os
 import os.path
+import re
 import sqlite3
 import sys
 
@@ -12,6 +14,7 @@ import mdv
 
 # pylint: disable = E0401
 from .embeddings import Embeddings
+from .highlights import Highlights
 from .models import Models
 from .tokenizer import Tokenizer
 
@@ -115,6 +118,123 @@ class Query(object):
         return (embeddings, db)
 
     @staticmethod
+    def search(embeddings, cur, query, n=10):
+        """
+        Executes an embeddings search for the input query. Each returned result is resolved
+        to the full section row.
+
+        Args:
+            embeddings: embeddings model
+            cur: database cursor
+            query: query text
+            n: number of results to return
+
+        Returns:
+            search results
+        """
+
+        results = []
+
+        # Tokenize search query
+        query = Tokenizer.tokenize(query)
+
+        for uid, score in embeddings.search(query, n):
+            cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
+            results.append((uid, score) + cur.fetchone())
+
+        return results
+
+    @staticmethod
+    def highlights(results, n=2):
+        """
+        Builds a list of highlights for the search results. Returns top ranked sections by importance
+        over the result list.
+
+        Args:
+            results: search results
+            n: number of highlights to extract
+
+        Returns:
+            top ranked sections
+        """
+
+        sections = {}
+        for uid, score, _, text in results:
+            # Filter out lower scored results
+            if score >= 0.35:
+                sections[text] = (uid, text)
+
+        return Highlights.build(sections.values(), n)
+
+    @staticmethod
+    def documents(results):
+        """
+        Processes search results and groups by article.
+
+        Args:
+            results: search results
+
+        Returns:
+            results grouped by article
+        """
+
+        documents = {}
+
+        # Group by article
+        for _, score, article, text in results:
+            if article not in documents:
+                documents[article] = set()
+
+            documents[article].add((score, text))
+
+        # Sort based on section id, which preserves original order
+        for uid in documents:
+            documents[uid] = sorted(list(documents[uid]), reverse=True)
+
+        return documents
+
+    @staticmethod
+    def date(date):
+        """
+        Formats a date string.
+
+        Args:
+            date: input date string
+
+        Returns:
+            formatted date
+        """
+
+        if date:
+            date = datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
+
+            # 1/1 dates had no month/day specified, use only year
+            if date.month == 1 and date.day == 1:
+                return date.strftime("%Y")
+
+            return date.strftime("%b %d, %Y")
+
+    @staticmethod
+    def text(text):
+        """
+        Formats match text.
+
+        Args:
+            text: input text
+
+        Returns:
+            formatted text
+        """
+
+        # Remove reference links ([1], [2], etc)
+        text = re.sub(r"\s*[\[(][0-9, ]+[\])]\s*", " ", text)
+
+        # Remove •
+        text = text.replace("•", "")
+
+        return text
+
+    @staticmethod
     def query(embeddings, db, query):
         """
         Executes a query against the embeddings model.
@@ -127,29 +247,40 @@ class Query(object):
 
         cur = db.cursor()
 
-        query = Tokenizer.tokenize(query)
-        print(Query.render("#Query: %s" % query, theme="729.8953"))
+        print(Query.render("#Query: %s" % query, theme="729.8953") + "\n")
 
-        for uid, score in embeddings.search(query, 10):
-            cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
-            section = cur.fetchone()
+        # Query for best matches
+        results = Query.search(embeddings, cur, query)
 
-            if score >= 0.0:
-                # Unpack match
-                article, text = section
+        # Extract top sections as highlights
+        print(Query.render("# Highlights"))
+        for highlight in Query.highlights(results):
+            print(Query.render("## - %s" % Query.text(highlight)))
 
-                cur.execute("SELECT Title, Authors, Published, Publication, Id, Reference from articles where id = ?", [article])
-                article = cur.fetchone()
+        print()
 
-                print("Title: %s" % article[0])
-                print("Authors: %s" % article[1])
-                print("Published: %s" % article[2])
-                print("Publication: %s" % article[3])
-                print("Id: %s" % article[4])
-                print("Reference: %s" % article[5])
-                print(Query.render("#Match (%.4f): %s" % (score, text), html=False))
+        # Get results grouped by document
+        documents = Query.documents(results)
 
-                print()
+        print(Query.render("# Articles") + "\n")
+
+        # Print each result, sorted by max score descending
+        for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
+            cur.execute("SELECT Title, Authors, Published, Publication, Id, Reference from articles where id = ?", [uid])
+            article = cur.fetchone()
+
+            print("Title: %s" % article[0])
+            print("Authors: %s" % article[1])
+            print("Published: %s" % article[2])
+            print("Publication: %s" % article[3])
+            print("Id: %s" % article[4])
+            print("Reference: %s" % article[5])
+
+            # Print top matches
+            for score, text in documents[uid]:
+                print(Query.render("## - (%.4f): %s" % (score, text), html=False))
+
+            print()
 
     @staticmethod
     def close(db):
