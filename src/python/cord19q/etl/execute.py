@@ -6,6 +6,7 @@ import csv
 import hashlib
 import json
 import os.path
+import re
 import sqlite3
 import sys
 
@@ -204,7 +205,8 @@ def getTags(sections):
         tags
     """
 
-    keywords = ["2019-ncov", "covid-19", "sars-cov-2"]
+    keywords = ["2019-ncov", "coronavirus 2019", "coronavirus disease 19", "covid-19", "covid 19", "ncov-2019",
+                "sars-cov-2", "wuhan coronavirus", "wuhan pneumonia", "wuhan virus"]
 
     tags = None
     for text in sections:
