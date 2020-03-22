@@ -138,7 +138,7 @@ class Vectors(object):
             path = Models.modelPath()
 
         # Derive path to dbfile
-        dbfile = os.path.join(path, "articles.db")
+        dbfile = os.path.join(path, "articles.sqlite")
 
         # Stream tokens to temporary file
         tokens = Vectors.tokens(dbfile)

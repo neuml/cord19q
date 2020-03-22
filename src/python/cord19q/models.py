@@ -107,7 +107,7 @@ class Models(object):
         if not path:
             path = Models.modelPath()
 
-        dbfile = os.path.join(path, "articles.db")
+        dbfile = os.path.join(path, "articles.sqlite")
 
         if os.path.isfile(os.path.join(path, "config")):
             print("Loading model from %s" % path)

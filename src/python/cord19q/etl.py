@@ -1,5 +1,5 @@
 """
-Transforms raw CORD-19 data into an articles.db SQLite database.
+Transforms raw CORD-19 data into an articles.sqlite SQLite database.
 """
 
 import csv
@@ -38,7 +38,7 @@ INSERT_ROW = "INSERT INTO {table} ({columns}) VALUES ({values})"
 
 class Etl(object):
     """
-    Transforms raw csv and json files into an articles.db SQLite database.
+    Transforms raw csv and json files into an articles.sqlite SQLite database.
     """
 
     @staticmethod
@@ -61,7 +61,7 @@ class Etl(object):
         os.makedirs(output, exist_ok=True)
 
         # Output database file
-        dbfile = os.path.join(output, "articles.db")
+        dbfile = os.path.join(output, "articles.sqlite")
 
         # Delete existing file
         if os.path.exists(dbfile):
@@ -298,7 +298,7 @@ class Etl(object):
             output: output directory path
         """
 
-        print("Building articles.db from {}".format(directory))
+        print("Building articles.sqlite from {}".format(directory))
 
         # Initialize database
         db = Etl.init(output)

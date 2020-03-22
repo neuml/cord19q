@@ -18,7 +18,7 @@ class Index(object):
     @staticmethod
     def stream(dbfile):
         """
-        Streams documents from an articles.db file. This method is a generator and will yield a row at time.
+        Streams documents from an articles.sqlite file. This method is a generator and will yield a row at time.
 
         Args:
             dbfile: input SQLite file
@@ -91,7 +91,7 @@ class Index(object):
         if not path:
             path = Models.modelPath()
 
-        dbfile = os.path.join(path, "articles.db")
+        dbfile = os.path.join(path, "articles.sqlite")
 
         # Default vectors
         if not vectors:
