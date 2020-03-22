@@ -416,7 +416,7 @@ by Kampf, Günter<br/>
 
 [Identification of Coronavirus Isolated from a Patient in Korea with COVID-19](https://doi.org/10.24171/j.phrp.2020.11.1.02)<br/>
 by Kim, Jeong-Min; Chung, Yoon-Seok; Jo, Hye Jun; Lee, Nam-Joo; Kim, Mi Seon; Woo, Sang Hee; Park, Sehee; Kim, Jee Woong; Kim, Heui Man; Han, Myung-Guk<br/>
-*Osong Public Health Res Perspect - Feb 21, 2020*<br/>
+*Osong Public Health Res Perspect - Feb 22, 2020*<br/>
 - The slides were then embedded in Epon812 plastic resin, and polymerized at 70°C for 48 hours.<br/>
 - The prepared plastic block was cut to 70-nm thick sections using an ultramicrotome and mounted on a 100mesh nickel grid, and electrostained with 5% uranyl acetate.<br/>
 
