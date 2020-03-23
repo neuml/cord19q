@@ -20,6 +20,9 @@ The following files show the Top 10 query results for each task provided in the 
 * [What has been published about ethical and social science considerations?](./tasks/ethics.md)
 * [What do we know about diagnostics and surveillance?](./tasks/diagnostics.md)
 
+### Demo
+A full overview of how to use this project can be found via this [Notebook](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings)
+
 ### Installation
 You can use Git to clone the repository from GitHub and install it. It is recommended to do this in a Python Virtual Environment. 
 
