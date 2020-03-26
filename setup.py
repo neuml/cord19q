@@ -37,7 +37,8 @@ setup(name="cord19q",
           "pymagnitude>=0.1.120",
           "scikit-learn>=0.22.1",
           "scipy>=1.4.1",
-          "tqdm==4.40.2"
+          "spacy>=2.2.3",
+          "tqdm>=4.40.2"
       ],
       classifiers=[
           "License :: OSI Approved :: MIT License",
