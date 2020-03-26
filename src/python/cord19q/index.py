@@ -28,8 +28,8 @@ class Index(object):
         db = sqlite3.connect(dbfile)
         cur = db.cursor()
 
-        # Index tagged sections, skip questions, focus on statements
-        cur.execute("SELECT Id, Text FROM sections WHERE tags is not null and text not like '%?%'")
+        # Select tagged sentences without a NLP label. NLP labels are set for non-informative sentences.
+        cur.execute("SELECT Id, Text FROM sections WHERE tags is not null and labels is null")
 
         count = 0
         for row in cur:

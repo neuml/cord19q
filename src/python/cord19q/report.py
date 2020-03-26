@@ -24,7 +24,73 @@ class Report(object):
             line: line to write
         """
 
-        output.write("%s<br/>\n" % line)
+        output.write("%s\n" % line)
+
+    @staticmethod
+    def highlights(output, results, cur):
+        """
+        Builds a highlights section in markdown.
+
+        Args:
+            output: output file
+            results: search results
+            cur: cursor handle to articles database
+        """
+
+        # Extract top sections as highlights
+        Report.write(output, "#### Highlights<br/>")
+        for highlight in Query.highlights(results, 5):
+            # Get matching article
+            uid = [article for _, _, article, text in results if text == highlight][0]
+            cur.execute("SELECT Authors, Reference from articles where id = ?", [uid])
+            article = cur.fetchone()
+
+            link = "[%s](%s)" % (Query.authors(article[0]) if article[0] else "Source", article[1])
+
+            Report.write(output, "- %s %s<br/>" % (Query.text(highlight), link))
+
+    @staticmethod
+    def articles(output, results, cur):
+        """
+        Builds an articles section in markdown.
+
+        Args:
+            output: output file
+            results: search results
+            cur: cursor handle to articles database
+        """
+
+        # Write each article result
+        Report.write(output, "\n#### Articles<br/>")
+
+        # Get results grouped by document
+        documents = Query.documents(results)
+
+        # Write table header
+        Report.write(output, "| Date | Authors | Title | Matches |")
+        Report.write(output, "| ---- | ---- | ------ | -----------|")
+
+        # Print each result, sorted by max score descending
+        for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
+            cur.execute("SELECT Published, Authors, Title, Reference from articles where id = ?", [uid])
+            article = cur.fetchone()
+
+            columns = []
+
+            # Date
+            columns.append(Query.date(article[0]) if article[0] else "")
+
+            # Authors
+            columns.append(Query.authors(article[1]) if article[1] else "")
+
+            # Title
+            columns.append("[%s](%s)" % (article[2], article[3]))
+
+            # Top matches
+            columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
+
+            # Write out row
+            Report.write(output, "|%s|" % "|".join(columns))
 
     @staticmethod
     def build(embeddings, db, queries, outfile):
@@ -47,42 +113,14 @@ class Report(object):
                 # Query for best matches
                 results = Query.search(embeddings, cur, query, 50)
 
-                # Extract top sections as highlights
-                Report.write(output, "#### Highlights")
-                for highlight in Query.highlights(results, 5):
-                    Report.write(output, "- %s" % Query.text(highlight))
+                # Generate highlights section
+                Report.highlights(output, results, cur)
 
-                # Write each article result
-                Report.write(output, "\n#### Articles")
+                # Generate articles section
+                Report.articles(output, results, cur)
 
-                # Get results grouped by document
-                documents = Query.documents(results)
-
-                # Print each result, sorted by max score descending
-                for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True)[:10]:
-                    cur.execute("SELECT Title, Reference, Authors, Publication, Published from articles where id = ?", [uid])
-                    article = cur.fetchone()
-
-                    Report.write(output, "[%s](%s)" % (article[0], article[1]))
-
-                    if article[2]:
-                        Report.write(output, "by %s" % article[2])
-
-                    # Publication name and date
-                    publication = article[3] if article[3] else None
-                    if article[4]:
-                        published = Query.date(article[4])
-                        publication = (publication + " - " + published) if publication else published
-
-                    if publication and len(publication) > 0:
-                        Report.write(output, "*%s*" % publication)
-
-                    # Print top matches
-                    for _, text in documents[uid]:
-                        Report.write(output, "- %s" % Query.text(text))
-
-                    # Start new section
-                    output.write("\n")
+                # Create separator between sections
+                Report.write(output, "")
 
     @staticmethod
     def run(task, path):

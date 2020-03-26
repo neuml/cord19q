@@ -6,11 +6,16 @@ import csv
 import hashlib
 import json
 import os.path
+import re
 import sqlite3
 import sys
 
+from multiprocessing import Pool
+
 from dateutil import parser
 from nltk.tokenize import sent_tokenize
+
+from .analyzer import Analyzer
 
 # Articles schema
 ARTICLES = {
@@ -29,12 +34,33 @@ SECTIONS = {
     'Id': 'INTEGER PRIMARY KEY',
     'Article': 'TEXT',
     'Text': 'TEXT',
-    'Tags': 'TEXT'
+    'Tags': 'TEXT',
+    'Labels': 'TEXT'
 }
 
 # SQL statements
 CREATE_TABLE = "CREATE TABLE IF NOT EXISTS {table} ({fields})"
 INSERT_ROW = "INSERT INTO {table} ({columns}) VALUES ({values})"
+
+# Global helper for multi-processing support
+# pylint: disable=W0603
+ANALYZER = None
+
+def getAnalyzer():
+    """
+    Multiprocessing helper method. Gets (or first creates then gets) a global analyzer object to
+    be accessed in a new subprocess.
+
+    Returns:
+        Analyzer
+    """
+
+    global ANALYZER
+
+    if not ANALYZER:
+        ANALYZER = Analyzer()
+
+    return ANALYZER
 
 class Etl(object):
     """
@@ -143,23 +169,25 @@ class Etl(object):
             # Get value
             value = row[x]
 
-            if table[column].startswith('INTEGER'):
+            if table[column].startswith("INTEGER"):
                 values.append(int(value) if value else 0)
-            elif table[column] == 'BOOLEAN':
+            elif table[column] == "BOOLEAN":
                 values.append(1 if value == "TRUE" else 0)
+            elif table[column] == "TEXT":
+                # Clean empty text and replace with None
+                values.append(value if value and len(value.strip()) > 0 else None)
             else:
                 values.append(value)
 
         return values
 
     @staticmethod
-    def getIds(row, ids):
+    def getIds(row):
         """
         Gets ids for this row. Builds one from the title if no body content is available.
 
         Args:
             row: input row
-            ids: list of generated ids
 
         Returns:
             list of sha1 hash ids
@@ -169,15 +197,7 @@ class Etl(object):
         uids = row["sha"].split("; ") if row["sha"] else None
         if not uids:
             # Fallback to sha1 of title
-            uid = hashlib.sha1(row["title"].encode("utf-8")).hexdigest()
-
-            # Reject duplicate generated ids
-            if uid in ids:
-                return None
-
-            # Add to generated id list and set to list
-            ids.add(uid)
-            uids = [uid]
+            uids = [hashlib.sha1(row["title"].encode("utf-8")).hexdigest()]
 
         return uids
 
@@ -248,16 +268,39 @@ class Etl(object):
         return ("https://doi.org/" + row["doi"]) if row["doi"] else None
 
     @staticmethod
-    def read(directory, row):
+    def filtered(sections):
         """
-        Reads body text for a given row. Body text is returned as a list of sections.
+        Returns a filtered list of text sections. Duplicate and boilerplate text strings are removed.
 
         Args:
-            directory: input directory
-            row: input row
+            sections: input sections
 
         Returns:
-            list of sections
+            filtered list of sections
+        """
+
+        # Use list to preserve insertion order
+        unique = []
+        keys = set()
+
+        for text in sections:
+            if not text in keys and not "COVID-19 resource centre remains active" in text:
+                unique.append(text)
+                keys.add(text)
+
+        return unique
+
+    @staticmethod
+    def getSections(row, directory):
+        """
+        Reads title, abstract and body text for a given row. Text is returned as a list of sections.
+
+        Args:
+            row: input row
+            directory: input directory
+
+        Returns:
+            list of text sections
         """
 
         sections = []
@@ -265,6 +308,16 @@ class Etl(object):
         # Get ids and subset
         uids = row["sha"].split("; ") if row["sha"] else None
         subset = row["full_text_file"]
+
+        # Add title and abstract sections
+        for field in ["title", "abstract"]:
+            text = row[field]
+            if text:
+                # Remove leading and trailing []
+                text = re.sub(r"^\[", "", text)
+                text = re.sub(r"\]$", "", text)
+
+                sections.extend(sent_tokenize(text))
 
         if uids and subset:
             for uid in uids:
@@ -277,16 +330,66 @@ class Etl(object):
 
                         # Extract text from each section
                         for section in data["body_text"]:
-                            # Filter out boilerplate text from indexing
-                            if not "COVID-19 resource centre remains active" in section["text"]:
-                                # Split text into sentences and add to sections
-                                sections.extend(sent_tokenize(section["text"]))
+                            # Split text into sentences and add to sections
+                            sections.extend(sent_tokenize(section["text"]))
 
                 # pylint: disable=W0703
                 except Exception as ex:
                     print("Error processing text file: {}".format(article), ex)
 
-        return sections
+        # Filter sections and return
+        return Etl.filtered(sections)
+
+    @staticmethod
+    def stream(directory):
+        """
+        Generator that yields rows from a metadata.csv file. The directory is also included.
+
+        Args:
+            directory
+        """
+
+        with open(os.path.join(directory, "metadata.csv"), mode="r") as csvfile:
+            for row in csv.DictReader(csvfile):
+                yield (row, directory)
+
+    @staticmethod
+    def process(params):
+        """
+        Processes a single row
+
+        Args:
+            params: (row, directory)
+
+        Returns:
+            (id, article, sections)
+        """
+
+        # Get analyzer handle
+        analyzer = getAnalyzer()
+
+        # Unpack parameters
+        row, directory = params
+
+        # Get uids, skip row if None, which only happens for duplicate generated ids
+        uids = Etl.getIds(row)
+
+        # Published date
+        date = Etl.getDate(row)
+
+        # Get text sections
+        sections = Etl.getSections(row, directory)
+
+        # Get tags
+        tags = Etl.getTags(sections)
+
+        # Label tagged sections
+        sections = [(text, analyzer.label(text) if tags else None) for text in sections]
+
+        # Article row - id, source, published, publication, authors, title, tags, reference
+        article = (uids[0], row["source_x"], date, row["journal"], row["authors"], row["title"], tags, Etl.getReference(row))
+
+        return (uids[0], article, sections, tags)
 
     @staticmethod
     def run(directory, output):
@@ -307,25 +410,13 @@ class Etl(object):
         aindex = 0
         sindex = 0
 
-        # List of generated ids, used for documents without full content
+        # List of processed ids
         ids = set()
 
-        with open(os.path.join(directory, "metadata.csv"), mode="r") as csvfile:
-            for row in csv.DictReader(csvfile):
-                # Get uids, skip row if None, which only happens for duplicate generated ids
-                uids = Etl.getIds(row, ids)
-                if uids:
-                    # Published date
-                    date = Etl.getDate(row)
-
-                    # Get text sections
-                    sections = [row["title"]] + Etl.read(directory, row)
-
-                    # Get tags
-                    tags = Etl.getTags(sections)
-
-                    # Article row - id, source, published, publication, authors, title, tags, reference
-                    article = (uids[0], row["source_x"], date, row["journal"], row["authors"], row["title"], tags, Etl.getReference(row))
+        with Pool(os.cpu_count()) as pool:
+            for uid, article, sections, tags in pool.imap(Etl.process, Etl.stream(directory)):
+                # Skip rows with ids that have already been processed
+                if uid not in ids:
                     Etl.insert(db, ARTICLES, "articles", article)
 
                     # Increment number of articles processed
@@ -333,11 +424,13 @@ class Etl(object):
                     if aindex % 1000 == 0:
                         print("Inserted {} articles".format(aindex))
 
-                    # Add each text section
-                    for text in sections:
-                        # id, article, text, tags
-                        Etl.insert(db, SECTIONS, "sections", (sindex, uids[0], text, tags))
+                    for text, labels in sections:
+                        # Section row - id, article, text, tags, labels
+                        Etl.insert(db, SECTIONS, "sections", (sindex, uid, text, tags, labels))
                         sindex += 1
+
+                    # Store article id as processed
+                    ids.add(uid)
 
         print("Total articles inserted: {}".format(aindex))
 

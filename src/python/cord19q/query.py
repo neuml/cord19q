@@ -158,6 +158,29 @@ class Query(object):
         return documents
 
     @staticmethod
+    def authors(authors):
+        """
+        Formats a short authors string
+
+        Args:
+            authors: full authors string
+
+        Returns:
+            short author string
+        """
+
+        if authors:
+            authors = authors.split("; ")[0]
+            if "," in authors:
+                authors = authors.split(",")[0]
+            else:
+                authors = authors.split()[-1]
+
+            return "%s et al" % authors
+
+        return None
+
+    @staticmethod
     def date(date):
         """
         Formats a date string.
@@ -176,7 +199,9 @@ class Query(object):
             if date.month == 1 and date.day == 1:
                 return date.strftime("%Y")
 
-            return date.strftime("%b %d, %Y")
+            return date.strftime("%Y-%m-%d")
+
+        return None
 
     @staticmethod
     def text(text):
@@ -234,8 +259,8 @@ class Query(object):
             article = cur.fetchone()
 
             print("Title: %s" % article[0])
-            print("Authors: %s" % article[1])
-            print("Published: %s" % article[2])
+            print("Authors: %s" % Query.authors(article[1]))
+            print("Published: %s" % Query.date(article[2]))
             print("Publication: %s" % article[3])
             print("Id: %s" % article[4])
             print("Reference: %s" % article[5])

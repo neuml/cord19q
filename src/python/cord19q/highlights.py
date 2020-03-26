@@ -6,7 +6,18 @@ import itertools
 
 import networkx
 
+from nltk.corpus import stopwords
+
 from .tokenizer import Tokenizer
+
+# Domain specific stop list
+DOMAIN_STOP_WORDS = {"abstract", "al", "article", "arxiv", "author", "biorxiv", "copyright", "da", "dei", "del", "dell", "della",
+                     "delle", "di", "doi", "et", "fig", "figure", "funder", "holder", "http", "https", "il", "la", "le",
+                     "license", "medrxiv", "non", "org", "peer", "peer-reviewed", "permission", "preprint", "publication",
+                     "pubmed", "reserved", "reviewed", "rights", "si", "una", "used", "using"}
+
+# Combine NLTK and domain stop words together
+STOP_WORDS = set(stopwords.words("english")) | DOMAIN_STOP_WORDS
 
 class Highlights(object):
     """
@@ -17,7 +28,8 @@ class Highlights(object):
     def build(sections, n=5):
         """
         Extracts highlights from a list of sections. This method uses textrank to find sections with the highest
-        importance across the input list.
+        importance across the input list. This method attempts to return important but unique results to limit
+        repetitive statements.
 
         Args:
             sections: input sections
@@ -27,8 +39,21 @@ class Highlights(object):
             top n sections
         """
 
-        # Run textrank algorithm and return best N matches
-        uids = [uid for uid, _ in Highlights.textrank(sections)][:n]
+        results = []
+
+        # Rank the text using textrank for importance within collection
+        for uid, _ in Highlights.textrank(sections):
+            # Lookup text and tokenize
+            text = [text for u, text in sections if u == uid][0]
+            tokens = {token for token in Tokenizer.tokenize(text) if token not in STOP_WORDS}
+
+            # Compare text to existing results, look for highly unique results
+            # This finds results that are important but not repetitive
+            unique = all([Highlights.jaccardIndex(t, tokens) <= 0.1 for _, t in results])
+            if unique:
+                results.append((uid, tokens))
+
+        uids = [uid for uid, _ in results][:n]
 
         # Get related text for each match
         return [text for uid, text in sections if uid in uids]
@@ -73,7 +98,8 @@ class Highlights(object):
         # Tokenize nodes, store uid and tokens
         vectors = []
         for (uid, text) in nodes:
-            tokens = set(Tokenizer.tokenize(text))
+            # Custom tokenization that works best with textrank matching
+            tokens = Highlights.tokenize(text)
 
             if len(tokens) >= 3:
                 vectors.append((uid, tokens))
@@ -105,3 +131,18 @@ class Highlights(object):
 
         n = len(set1.intersection(set2))
         return n / float(len(set1) + len(set2) - n) if n > 0 else 0
+
+    @staticmethod
+    def tokenize(text):
+        """
+        Tokenizes text into tokens, removes domain specific stop words.
+
+        Args:
+            text: input text
+
+        Returns:
+            tokens
+        """
+
+        # Remove additional stop words to improve highlighting results
+        return {token for token in Tokenizer.tokenize(text) if token not in STOP_WORDS}
