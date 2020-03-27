@@ -10,17 +10,16 @@ This project builds an index over the CORD-19 dataset to assist with analysis an
 ### Tasks
 The following files show the Top 10 query results for each task provided in the CORD-19 Research Challenge using this model. A highlights section is also shown for each task, which highlights the most relevant sentences from the query results.
 
-* [What is known about transmission, incubation, and environmental stability?](./tasks/transmission.md)
-* [What do we know about COVID-19 risk factors?](./tasks/risk-factors.md)
-* [What do we know about virus genetics, origin, and evolution?](./tasks/virus-genome.md)
-* [What do we know about non-pharmaceutical interventions?](./tasks/interventions.md)
-* [What do we know about vaccines and therapeutics?](./tasks/vaccines.md)
-* [What has been published about medical care?](./tasks/medical-care.md)
-* [What has been published about information sharing and inter-sectoral collaboration?](./tasks/sharing.md)
-* [What has been published about ethical and social science considerations?](./tasks/ethics.md)
-* [What do we know about diagnostics and surveillance?](./tasks/diagnostics.md)
+* [What is known about transmission, incubation, and environmental stability?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-is-known-about-transmission,-incubation,-and-environmental-stability?)
+* [What do we know about COVID-19 risk factors?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-do-we-know-about-COVID-19-risk-factors?)
+* [What do we know about virus genetics, origin, and evolution?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-do-we-know-about-virus-genetics,-origin,-and-evolution?)
+* [What do we know about non-pharmaceutical interventions?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-do-we-know-about-non-pharmaceutical-interventions?)
+* [What do we know about vaccines and therapeutics?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-do-we-know-about-vaccines-and-therapeutics?)
+* [What has been published about medical care?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-has-been-published-about-medical-care?)
+* [What has been published about information sharing and inter-sectoral collaboration?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-has-been-published-about-information-sharing-and-inter-sectoral-collaboration?)
+* [What has been published about ethical and social science considerations?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-has-been-published-about-ethical-and-social-science-considerations?)
+* [What do we know about diagnostics and surveillance?](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings#Task:-What-do-we-know-about-diagnostics-and-surveillance?)
 
-### Demo
 A full overview of how to use this project can be found via this [Notebook](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings)
 
 ### Installation
@@ -48,7 +47,8 @@ To build the model locally:
     # Convert csv/json files to SQLite
     python -m cord19q.etl <download_path>
 
-    # Can optionally use pre-trained vectors
+    # Can optionally use [pre-trained vectors](https://www.kaggle.com/nofoosports/cord19-fasttext-vectors#cord19-300d.magnitude)
+    # Default location: ~/.cord19/vectors/cord19-300d.magnitude
     python -m cord19q.vectors
 
     # Build embeddings index
