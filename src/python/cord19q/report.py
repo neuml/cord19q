@@ -15,6 +15,21 @@ class Report(object):
     """
 
     @staticmethod
+    def encode(url):
+        """
+        URL encodes parens as they cause issues with markdown links.
+
+        Args:
+            url: input url
+
+        Returns:
+            url with parens encoded
+        """
+
+        # Escape ()
+        return url.replace("(", "%28").replace(")", "%29") if url else url
+
+    @staticmethod
     def write(output, line):
         """
         Writes line to output file.
@@ -45,7 +60,7 @@ class Report(object):
             cur.execute("SELECT Authors, Reference from articles where id = ?", [uid])
             article = cur.fetchone()
 
-            link = "[%s](%s)" % (Query.authors(article[0]) if article[0] else "Source", article[1])
+            link = "[%s](%s)" % (Query.authors(article[0]) if article[0] else "Source", Report.encode(article[1]))
 
             Report.write(output, "- %s %s<br/>" % (Query.text(highlight), link))
 
@@ -84,7 +99,7 @@ class Report(object):
             columns.append(Query.authors(article[1]) if article[1] else "")
 
             # Title
-            columns.append("[%s](%s)" % (article[2], article[3]))
+            columns.append("[%s](%s)" % (article[2], Report.encode(article[3])))
 
             # Top matches
             columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
