@@ -25,7 +25,7 @@ class Highlights(object):
     """
 
     @staticmethod
-    def build(sections, n=5):
+    def build(sections, topn):
         """
         Extracts highlights from a list of sections. This method uses textrank to find sections with the highest
         importance across the input list. This method attempts to return important but unique results to limit
@@ -33,7 +33,7 @@ class Highlights(object):
 
         Args:
             sections: input sections
-            n: top n results to return
+            topn: top n results to return
 
         Results:
             top n sections
@@ -45,15 +45,15 @@ class Highlights(object):
         for uid, _ in Highlights.textrank(sections):
             # Lookup text and tokenize
             text = [text for u, text in sections if u == uid][0]
-            tokens = {token for token in Tokenizer.tokenize(text) if token not in STOP_WORDS}
+            tokens = Highlights.tokenize(text)
 
             # Compare text to existing results, look for highly unique results
             # This finds results that are important but not repetitive
-            unique = all([Highlights.jaccardIndex(t, tokens) <= 0.1 for _, t in results])
+            unique = all([Highlights.jaccardIndex(t, tokens) <= 0.2 for _, t in results])
             if unique:
                 results.append((uid, tokens))
 
-        uids = [uid for uid, _ in results][:n]
+        uids = [uid for uid, _ in results][:topn]
 
         # Get related text for each match
         return [text for uid, text in sections if uid in uids]

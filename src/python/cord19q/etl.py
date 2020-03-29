@@ -33,6 +33,7 @@ ARTICLES = {
 SECTIONS = {
     'Id': 'INTEGER PRIMARY KEY',
     'Article': 'TEXT',
+    'Name': 'TEXT',
     'Text': 'TEXT',
     'Tags': 'TEXT',
     'Labels': 'TEXT'
@@ -182,24 +183,24 @@ class Etl(object):
         return values
 
     @staticmethod
-    def getIds(row):
+    def getId(row):
         """
-        Gets ids for this row. Builds one from the title if no body content is available.
+        Gets id for this row. Builds one from the title if no body content is available.
 
         Args:
             row: input row
 
         Returns:
-            list of sha1 hash ids
+            sha1 hash ids
         """
 
         # Use sha1 provided, if available
-        uids = row["sha"].split("; ") if row["sha"] else None
-        if not uids:
+        uid = row["sha"].split("; ")[0] if row["sha"] else None
+        if not uid:
             # Fallback to sha1 of title
-            uids = [hashlib.sha1(row["title"].encode("utf-8")).hexdigest()]
+            uid = hashlib.sha1(row["title"].encode("utf-8")).hexdigest()
 
-        return uids
+        return uid
 
     @staticmethod
     def getDate(row):
@@ -246,26 +247,11 @@ class Etl(object):
                     "sars-cov-2", "wuhan coronavirus", "wuhan pneumonia", "wuhan virus"]
 
         tags = None
-        for text in sections:
+        for _, text in sections:
             if any(x in text.lower() for x in keywords):
                 tags = "COVID-19"
 
         return tags
-
-    @staticmethod
-    def getReference(row):
-        """
-        Builds a reference link.
-
-        Args:
-            row: input row
-
-        Returns:
-            resolved reference link
-        """
-
-        # Resolve doi link
-        return ("https://doi.org/" + row["doi"]) if row["doi"] else None
 
     @staticmethod
     def filtered(sections):
@@ -283,9 +269,9 @@ class Etl(object):
         unique = []
         keys = set()
 
-        for text in sections:
-            if not text in keys and not "COVID-19 resource centre remains active" in text:
-                unique.append(text)
+        for name, text in sections:
+            if not text in keys and not "COVID-19 resource centre" in text:
+                unique.append((name, text))
                 keys.add(text)
 
         return unique
@@ -310,14 +296,14 @@ class Etl(object):
         subset = row["full_text_file"]
 
         # Add title and abstract sections
-        for field in ["title", "abstract"]:
-            text = row[field]
+        for name in ["title", "abstract"]:
+            text = row[name]
             if text:
                 # Remove leading and trailing []
                 text = re.sub(r"^\[", "", text)
                 text = re.sub(r"\]$", "", text)
 
-                sections.extend(sent_tokenize(text))
+                sections.extend([(name.upper(), x) for x in sent_tokenize(text)])
 
         if uids and subset:
             for uid in uids:
@@ -330,8 +316,11 @@ class Etl(object):
 
                         # Extract text from each section
                         for section in data["body_text"]:
+                            # Section name
+                            name = section["section"].upper() if len(section["section"].strip()) > 0 else None
+
                             # Split text into sentences and add to sections
-                            sections.extend(sent_tokenize(section["text"]))
+                            sections.extend([(name, x) for x in sent_tokenize(section["text"])])
 
                 # pylint: disable=W0703
                 except Exception as ex:
@@ -371,8 +360,8 @@ class Etl(object):
         # Unpack parameters
         row, directory = params
 
-        # Get uids, skip row if None, which only happens for duplicate generated ids
-        uids = Etl.getIds(row)
+        # Get uid
+        uid = Etl.getId(row)
 
         # Published date
         date = Etl.getDate(row)
@@ -384,12 +373,12 @@ class Etl(object):
         tags = Etl.getTags(sections)
 
         # Label tagged sections
-        sections = [(text, analyzer.label(text) if tags else None) for text in sections]
+        sections = [(name, text, analyzer.label(text) if tags else None) for name, text in sections]
 
         # Article row - id, source, published, publication, authors, title, tags, reference
-        article = (uids[0], row["source_x"], date, row["journal"], row["authors"], row["title"], tags, Etl.getReference(row))
+        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, row["url"])
 
-        return (uids[0], article, sections, tags)
+        return (uid, article, sections, tags)
 
     @staticmethod
     def run(directory, output):
@@ -424,9 +413,9 @@ class Etl(object):
                     if aindex % 1000 == 0:
                         print("Inserted {} articles".format(aindex))
 
-                    for text, labels in sections:
-                        # Section row - id, article, text, tags, labels
-                        Etl.insert(db, SECTIONS, "sections", (sindex, uid, text, tags, labels))
+                    for name, text, labels in sections:
+                        # Section row - id, article, name, text, tags, labels
+                        Etl.insert(db, SECTIONS, "sections", (sindex, uid, name, text, tags, labels))
                         sindex += 1
 
                     # Store article id as processed

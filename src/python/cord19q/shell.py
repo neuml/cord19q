@@ -32,7 +32,7 @@ class Shell(Cmd):
         Models.close(self.db)
 
     def default(self, line):
-        Query.query(self.embeddings, self.db, line)
+        Query.query(self.embeddings, self.db, line, None)
 
 def main(path):
     """

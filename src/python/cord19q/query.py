@@ -82,7 +82,7 @@ class Query(object):
         return text.strip()
 
     @staticmethod
-    def search(embeddings, cur, query, n=10):
+    def search(embeddings, cur, query, topn):
         """
         Executes an embeddings search for the input query. Each returned result is resolved
         to the full section row.
@@ -91,7 +91,7 @@ class Query(object):
             embeddings: embeddings model
             cur: database cursor
             query: query text
-            n: number of results to return
+            topn: number of results to return
 
         Returns:
             search results
@@ -102,21 +102,21 @@ class Query(object):
         # Tokenize search query
         query = Tokenizer.tokenize(query)
 
-        for uid, score in embeddings.search(query, n):
+        for uid, score in embeddings.search(query, topn):
             cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
             results.append((uid, score) + cur.fetchone())
 
         return results
 
     @staticmethod
-    def highlights(results, n=2):
+    def highlights(results, topn):
         """
         Builds a list of highlights for the search results. Returns top ranked sections by importance
         over the result list.
 
         Args:
             results: search results
-            n: number of highlights to extract
+            topn: number of highlights to extract
 
         Returns:
             top ranked sections
@@ -128,7 +128,7 @@ class Query(object):
             if score >= 0.35:
                 sections[text] = (uid, text)
 
-        return Highlights.build(sections.values(), n)
+        return Highlights.build(sections.values(), topn)
 
     @staticmethod
     def documents(results):
@@ -224,7 +224,7 @@ class Query(object):
         return text
 
     @staticmethod
-    def query(embeddings, db, query):
+    def query(embeddings, db, query, topn):
         """
         Executes a query against the embeddings model.
 
@@ -232,18 +232,22 @@ class Query(object):
             embeddings: embeddings model
             db: open SQLite database
             query: query string
+            n: number of query results
         """
+
+        # Default to 10 results if not specified
+        topn = topn if topn else 10
 
         cur = db.cursor()
 
         print(Query.render("#Query: %s" % query, theme="729.8953") + "\n")
 
         # Query for best matches
-        results = Query.search(embeddings, cur, query)
+        results = Query.search(embeddings, cur, query, topn)
 
         # Extract top sections as highlights
         print(Query.render("# Highlights"))
-        for highlight in Query.highlights(results):
+        for highlight in Query.highlights(results, int(topn / 5)):
             print(Query.render("## - %s" % Query.text(highlight)))
 
         print()
@@ -272,12 +276,13 @@ class Query(object):
             print()
 
     @staticmethod
-    def run(query, path):
+    def run(query, topn=None, path=None):
         """
         Executes a query against an index.
 
         Args:
             query: input query
+            topn: number of results
             path: model path
         """
 
@@ -285,11 +290,11 @@ class Query(object):
         embeddings, db = Models.load(path)
 
         # Query the database
-        Query.query(embeddings, db, query)
+        Query.query(embeddings, db, query, topn)
 
         # Free resources
         Models.close(db)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        Query.run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
+        Query.run(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else None, sys.argv[3] if len(sys.argv) > 3 else None)

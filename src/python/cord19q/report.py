@@ -42,7 +42,7 @@ class Report(object):
         output.write("%s\n" % line)
 
     @staticmethod
-    def highlights(output, results, cur):
+    def highlights(output, results, cur, topn):
         """
         Builds a highlights section in markdown.
 
@@ -50,11 +50,12 @@ class Report(object):
             output: output file
             results: search results
             cur: cursor handle to articles database
+            topn: number of highlights to return
         """
 
         # Extract top sections as highlights
         Report.write(output, "#### Highlights<br/>")
-        for highlight in Query.highlights(results, 5):
+        for highlight in Query.highlights(results, topn):
             # Get matching article
             uid = [article for _, _, article, text in results if text == highlight][0]
             cur.execute("SELECT Authors, Reference from articles where id = ?", [uid])
@@ -87,7 +88,7 @@ class Report(object):
 
         # Print each result, sorted by max score descending
         for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
-            cur.execute("SELECT Published, Authors, Title, Reference from articles where id = ?", [uid])
+            cur.execute("SELECT Published, Authors, Title, Reference, Publication from articles where id = ?", [uid])
             article = cur.fetchone()
 
             columns = []
@@ -99,7 +100,14 @@ class Report(object):
             columns.append(Query.authors(article[1]) if article[1] else "")
 
             # Title
-            columns.append("[%s](%s)" % (article[2], Report.encode(article[3])))
+            title = "[%s](%s)" % (article[2], Report.encode(article[3]))
+
+            # Append Publication if available
+            if article[4]:
+                title += " (%s)" % article[4]
+
+            # Title + Publication if available
+            columns.append(title)
 
             # Top matches
             columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
@@ -108,42 +116,47 @@ class Report(object):
             Report.write(output, "|%s|" % "|".join(columns))
 
     @staticmethod
-    def build(embeddings, db, queries, outfile):
+    def build(embeddings, db, queries, topn, output):
         """
         Builds a report using a list of input queries
 
         Args:
             embeddings: embeddings model
             db: open SQLite database
-            queries: list of queries to execute
-            outfile: report output file
+            queries: queries to execute
+            topn: number of section results to return
+            output: output I/O object
         """
 
-        with open(outfile, "w") as output:
-            cur = db.cursor()
+        # Create database cursor
+        cur = db.cursor()
 
-            for query in queries:
-                output.write("# %s\n" % query)
+        # Default to 50 results if not specified
+        topn = topn if topn else 50
 
-                # Query for best matches
-                results = Query.search(embeddings, cur, query, 50)
+        for query in queries:
+            output.write("# %s\n" % query)
 
-                # Generate highlights section
-                Report.highlights(output, results, cur)
+            # Query for best matches
+            results = Query.search(embeddings, cur, query, topn)
 
-                # Generate articles section
-                Report.articles(output, results, cur)
+            # Generate highlights section
+            Report.highlights(output, results, cur, int(topn / 10))
 
-                # Create separator between sections
-                Report.write(output, "")
+            # Generate articles section
+            Report.articles(output, results, cur)
+
+            # Create separator between sections
+            Report.write(output, "")
 
     @staticmethod
-    def run(task, path):
+    def run(task, topn=None, path=None):
         """
         Reads a list of queries from a task file and builds a report.
 
         Args:
             task: input task file
+            topn: number of results
             path: model path
         """
 
@@ -154,12 +167,17 @@ class Report(object):
         with open(task, "r") as f:
             queries = f.readlines()
 
-        # Build the report file
-        Report.build(embeddings, db, queries, "%s.md" % os.path.splitext(task)[0])
+        # Generate output filename
+        outfile = "%s.md" % os.path.splitext(task)[0]
+
+        # Stream report to file
+        with open(outfile, "w") as output:
+            # Build the report
+            Report.build(embeddings, db, queries, topn, output)
 
         # Free resources
         Models.close(db)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        Report.run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
+        Report.run(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else None, sys.argv[3] if len(sys.argv) > 3 else None)
