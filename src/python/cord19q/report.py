@@ -30,6 +30,21 @@ class Report(object):
         return url.replace("(", "%28").replace(")", "%29") if url else url
 
     @staticmethod
+    def column(value):
+        """
+        Escapes invalid characters (| char) within a table column value.
+
+        Args:
+            value: input value
+
+        Returns:
+            value with | escaped
+        """
+
+        # Escape |
+        return value.replace("|", "&#124;") if value else value
+
+    @staticmethod
     def write(output, line):
         """
         Writes line to output file.
@@ -111,6 +126,9 @@ class Report(object):
 
             # Top matches
             columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
+
+            # Escape | characters embedded within columns
+            columns = [Report.column(column) for column in columns]
 
             # Write out row
             Report.write(output, "|%s|" % "|".join(columns))
