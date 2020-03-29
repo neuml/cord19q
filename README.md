@@ -8,7 +8,7 @@ COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly article
 This project builds an index over the CORD-19 dataset to assist with analysis and data discovery. A series of tasks were explored to identify relevant articles and help find answers to key scientific questions on a number of COVID-19 research topics.
 
 ### Tasks
-The following files show the Top 10 query results for each task provided in the CORD-19 Research Challenge using this model. A highlights section is also shown for each task, which highlights the most relevant sentences from the query results.
+The following files show the top query results for each task provided in the CORD-19 Research Challenge using this model. A highlights section is also shown for each task, which highlights the most relevant sentences from the query results.
 
 - [What is known about transmission, incubation, and environmental stability?](https://www.kaggle.com/nofoosports/cord-19-transmission-incubation-environment)
 - [What do we know about COVID-19 risk factors?](https://www.kaggle.com/nofoosports/cord-19-risk-factors)
