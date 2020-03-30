@@ -1,4 +1,6 @@
-Range of incubation periods for the disease in humans (and how this varies across age and health status) and how long individuals are contagious, even after recovery.
+Range of incubation periods for the disease in humans
+How the incubation period varies across age and health status
+How long individuals are contagious, even after recovery.
 Prevalence of asymptomatic shedding and transmission (e.g., particularly children).
 Seasonality of transmission.
 Physical science of the coronavirus (e.g., charge distribution, adhesion to hydrophilic/phobic surfaces, environmental survival to inform decontamination efforts for affected areas and provide information about viral shedding).

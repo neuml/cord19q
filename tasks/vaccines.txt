@@ -8,4 +8,5 @@ Efforts targeted at a universal coronavirus vaccine.
 Efforts to develop animal models and standardize challenge studies
 Efforts to develop prophylaxis clinical studies and prioritize in healthcare workers
 Approaches to evaluate risk for enhanced disease after vaccination
-Assays to evaluate vaccine immune response and process development for vaccines, alongside suitable animal models [in conjunction with therapeutics]
+Assays to evaluate vaccine immune response and process development for vaccines [in conjunction with therapeutics]
+Suitable animal models for vaccine development
