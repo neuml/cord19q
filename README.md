@@ -10,17 +10,17 @@ This project builds an index over the CORD-19 dataset to assist with analysis an
 ### Tasks
 The following files show the top query results for each task provided in the CORD-19 Research Challenge using this model. A highlights section is also shown for each task, which highlights the most relevant sentences from the query results.
 
-- [What is known about transmission, incubation, and environmental stability?](https://www.kaggle.com/nofoosports/cord-19-transmission-incubation-environment)
-- [What do we know about COVID-19 risk factors?](https://www.kaggle.com/nofoosports/cord-19-risk-factors)
-- [What do we know about virus genetics, origin, and evolution?](https://www.kaggle.com/nofoosports/cord-19-virus-genetics-origin-and-evolution)
-- [What do we know about vaccines and therapeutics?](https://www.kaggle.com/nofoosports/cord-19-vaccines-and-therapeutics)
-- [What do we know about non-pharmaceutical interventions?](https://www.kaggle.com/nofoosports/cord-19-non-pharmaceutical-interventions)
-- [What has been published about medical care?](https://www.kaggle.com/nofoosports/cord-19-medical-care)
-- [What do we know about diagnostics and surveillance?](https://www.kaggle.com/nofoosports/cord-19-diagnostics-and-surveillance)
-- [What has been published about information sharing and inter-sectoral collaboration?](https://www.kaggle.com/nofoosports/cord-19-sharing-and-collaboration)
-- [What has been published about ethical and social science considerations?](https://www.kaggle.com/nofoosports/cord-19-ethical-and-social-science-considerations)
+- [What is known about transmission, incubation, and environmental stability?](https://www.kaggle.com/davidmezzetti/cord-19-transmission-incubation-environment)
+- [What do we know about COVID-19 risk factors?](https://www.kaggle.com/davidmezzetti/cord-19-risk-factors)
+- [What do we know about virus genetics, origin, and evolution?](https://www.kaggle.com/davidmezzetti/cord-19-virus-genetics-origin-and-evolution)
+- [What do we know about vaccines and therapeutics?](https://www.kaggle.com/davidmezzetti/cord-19-vaccines-and-therapeutics)
+- [What do we know about non-pharmaceutical interventions?](https://www.kaggle.com/davidmezzetti/cord-19-non-pharmaceutical-interventions)
+- [What has been published about medical care?](https://www.kaggle.com/davidmezzetti/cord-19-medical-care)
+- [What do we know about diagnostics and surveillance?](https://www.kaggle.com/davidmezzetti/cord-19-diagnostics-and-surveillance)
+- [What has been published about information sharing and inter-sectoral collaboration?](https://www.kaggle.com/davidmezzetti/cord-19-sharing-and-collaboration)
+- [What has been published about ethical and social science considerations?](https://www.kaggle.com/davidmezzetti/cord-19-ethical-and-social-science-considerations)
 
-A full overview of how to use this project can be found via this [Notebook](https://www.kaggle.com/nofoosports/cord-19-analysis-with-sentence-embeddings)
+A full overview of how to use this project can be found via this [Notebook](https://www.kaggle.com/davidmezzetti/cord-19-analysis-with-sentence-embeddings)
 
 ### Installation
 You can use Git to clone the repository from GitHub and install it. It is recommended to do this in a Python Virtual Environment. 
@@ -47,7 +47,7 @@ To build the model locally:
     # Convert csv/json files to SQLite
     python -m cord19q.etl <download_path>
 
-    # Can optionally use [pre-trained vectors](https://www.kaggle.com/nofoosports/cord19-fasttext-vectors#cord19-300d.magnitude)
+    # Can optionally use [pre-trained vectors](https://www.kaggle.com/davidmezzetti/cord19-fasttext-vectors#cord19-300d.magnitude)
     # Default location: ~/.cord19/vectors/cord19-300d.magnitude
     python -m cord19q.vectors
 
