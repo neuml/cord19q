@@ -101,8 +101,10 @@ class Report(object):
         Report.write(output, "| Date | Authors | Title | Matches |")
         Report.write(output, "| ---- | ---- | ------ | -----------|")
 
-        # Print each result, sorted by max score descending
-        for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
+        # Collect matching rows
+        rows = []
+
+        for uid in documents:
             cur.execute("SELECT Published, Authors, Title, Reference, Publication from articles where id = ?", [uid])
             article = cur.fetchone()
 
@@ -130,8 +132,12 @@ class Report(object):
             # Escape | characters embedded within columns
             columns = [Report.column(column) for column in columns]
 
+            rows.append(columns)
+
+        # Print report by published asc
+        for row in sorted(rows, key=lambda x: x[0]):
             # Write out row
-            Report.write(output, "|%s|" % "|".join(columns))
+            Report.write(output, "|%s|" % "|".join(row))
 
     @staticmethod
     def build(embeddings, db, queries, topn, output):
