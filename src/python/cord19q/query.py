@@ -235,7 +235,7 @@ class Query(object):
             LOE string
         """
 
-        mapping = {0: "IV", 1: "I", 2: "III-2", 3: "III-2", 4: "III-2", 5: "III-3", 6: "IV"}
+        mapping = {0:"IV", 1:"I", 2:"II", 3:"III-1", 4:"III-2", 5:"III-2", 6:"III-2", 7:"III-3", 8:"IV"}
 
         return mapping[loe]
 

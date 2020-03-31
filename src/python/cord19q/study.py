@@ -35,7 +35,9 @@ class Study(object):
 
     SYSTEMATIC_REVIEW = ["systematic review", "meta-analysis"]
 
-    GENERIC_L4 = ["risk factor analysis", "risk factors", "etiology", "logistic regression", "odds ratio", "adjusted odds ratio", "aor", "β",
+    RANDOMIZED_CONTROL_TRIAL = ["treatment arm", "placebo", "blind", "double-blind", "control arm", "rct", "randomized", "treatment effect"]
+
+    GENERIC_L3 = ["risk factor analysis", "risk factors", "etiology", "logistic regression", "odds ratio", "adjusted odds ratio", "aor", "β",
                   "log odds", "incidence", "exposure status", "electronic medical records", "chart review", "medical records review"]
 
     RETROSPECTIVE_COHORT = ["cohort", "retrospective cohort", "retrospective chart review", "association", "associated with"]
@@ -58,9 +60,11 @@ class Study(object):
 
     # Regular expression for full text sections
     SYSTEMATIC_REVIEW_REGEX = regex(GENERIC_L1 + SYSTEMATIC_REVIEW)
-    RETROSPECTIVE_COHORT_REGEX = regex(GENERIC_L4 + RETROSPECTIVE_COHORT)
-    MATCHED_CASE_CONTROL_REGEX = regex(GENERIC_L4 + GENERIC_CASE_CONTROL + MATCHED_CASE_CONTROL)
-    CROSS_SECTIONAL_CASE_CONTROL_REGEX = regex(GENERIC_L4 + GENERIC_CASE_CONTROL + CROSS_SECTIONAL_CASE_CONTROL)
+    RANDOMIZED_CONTROL_TRIAL_REGEX = regex(RANDOMIZED_CONTROL_TRIAL)
+    PSEUDO_RANDOMIZED_CONTROL_TRIAL_REGEX = None
+    RETROSPECTIVE_COHORT_REGEX = regex(GENERIC_L3 + RETROSPECTIVE_COHORT)
+    MATCHED_CASE_CONTROL_REGEX = regex(GENERIC_L3 + GENERIC_CASE_CONTROL + MATCHED_CASE_CONTROL)
+    CROSS_SECTIONAL_CASE_CONTROL_REGEX = regex(GENERIC_L3 + GENERIC_CASE_CONTROL + CROSS_SECTIONAL_CASE_CONTROL)
     TIME_SERIES_ANALYSIS_REGEX = regex(TIME_SERIES_ANALYSIS)
     PREVALENCE_STUDY_REGEX = regex(PREVALENCE_STUDY)
 
@@ -69,12 +73,24 @@ class Study(object):
 
     # List of evidence categories
     CATEGORIES = [(PREVALENCE_STUDY_REGEX, 1), (TIME_SERIES_ANALYSIS_REGEX, 1), (CROSS_SECTIONAL_CASE_CONTROL_REGEX, 2),
-                  (MATCHED_CASE_CONTROL_REGEX, 2), (RETROSPECTIVE_COHORT_REGEX, 2), (SYSTEMATIC_REVIEW_REGEX, 5)]
+                  (MATCHED_CASE_CONTROL_REGEX, 2), (RETROSPECTIVE_COHORT_REGEX, 2), (PSEUDO_RANDOMIZED_CONTROL_TRIAL_REGEX, 2),
+                  (RANDOMIZED_CONTROL_TRIAL_REGEX, 3), (SYSTEMATIC_REVIEW_REGEX, 4)]
 
     @staticmethod
     def label(sections):
         """
         Analyzes text fields of an article to determine the study design/level of evidence.
+
+        Labels definitions:
+
+        1 - I. Systematic Review
+        2 - II. Randomized Controlled Trial
+        3 - III-1. Pseudo-Randomized Controlled Trial. Not currently detected.
+        4 - III-2. Retrospective Cohort
+        5 - III-2. Matched Case Control
+        6 - III-2. Cross Sectional Control
+        7 - III-3. Time Series Analysis
+        8 - IV. Prevalence Study
 
         Args:
             sections: list of text sections
@@ -90,21 +106,55 @@ class Study(object):
         if Study.count(Study.TITLE_SYSTEMATIC_REVIEW_REGEX, title):
             return 1
 
-        # Filter to allowed sections and build full text copy of sections
-        text = [text for name, text in sections if not name or Study.filter(name.lower())]
-        text = " ".join(text).replace("\n", " ").lower()
+        # Process full-text only if text meets certain criteria
+        if Study.accept(sections):
+            # Filter to allowed sections and build full text copy of sections
+            text = [text for name, text in sections if not name or Study.filter(name.lower())]
+            text = " ".join(text).replace("\n", " ").lower()
 
-        if text:
-            # Score text by keyword category
-            counts = [(Study.count(keywords, text), minimum) for keywords, minimum in Study.CATEGORIES]
+            if text:
+                # Score text by keyword category
+                counts = [(Study.count(keywords, text), minimum) for keywords, minimum in Study.CATEGORIES]
 
-            # Require at least minimum matches, which is set per category
-            counts = [count if count >= minimum else 0 for count, minimum in counts]
+                # Require at least minimum matches, which is set per category
+                counts = [count if count >= minimum else 0 for count, minimum in counts]
 
-            # Get level of evidence label if there are keyword matches
-            return len(counts) - counts.index(max(counts)) if max(counts) > 0 else None
+                # Get level of evidence label if there are keyword matches
+                return len(counts) - counts.index(max(counts)) if max(counts) > 0 else None
 
         return None
+
+    @staticmethod
+    def accept(sections):
+        """
+        Requires at least one instance of the word method or result in the text of the article.
+
+        Args:
+            sections: sections
+
+        Returns:
+            True if word method or result present in text
+        """
+
+        return any([Study.find(section, "method") or Study.find(section, "result") for section in sections])
+
+    @staticmethod
+    def find(section, token):
+        """
+        Searches section for the occurance of a token. Accepts partial word matches.
+
+        Args:
+            section: input section
+            token: token to search for
+
+        Returns:
+            True if token found, False otherwise
+        """
+
+        # Unpack section
+        name, text = section
+
+        return (name and token in name.lower()) or (text and token in text.lower())
 
     @staticmethod
     def filter(name):
@@ -124,7 +174,15 @@ class Study(object):
     @staticmethod
     def count(keywords, text):
         """
-        Counts the number of times a list of keywords.
+        Counts the number of times a list of keywords. Wraps keywords in word boundaries to prevent
+        partial matching of a word.
+
+        Args:
+            keywords: keywords regex
+            text: text to search
         """
 
-        return len(re.findall(keywords, text, overlapped=True))
+        if keywords:
+            return len(re.findall(keywords, text, overlapped=True))
+
+        return 0

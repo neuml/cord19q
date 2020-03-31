@@ -105,7 +105,7 @@ class Report(object):
         rows = []
 
         for uid in documents:
-            cur.execute("SELECT Published, Authors, Title, Reference, Publication, Study from articles where id = ?", [uid])
+            cur.execute("SELECT Published, Authors, Title, Reference, Publication, Source, Study from articles where id = ?", [uid])
             article = cur.fetchone()
 
             columns = []
@@ -119,15 +119,14 @@ class Report(object):
             # Title
             title = "[%s](%s)" % (article[2], Report.encode(article[3]))
 
-            # Append Publication if available
-            if article[4]:
-                title += " (%s)" % article[4]
+            # Append Publication if available. Assume preprint otherwise and show preprint source.
+            title += " (%s)" % (article[4] if article[4] else "preprint: %s" % article[5])
 
             # Title + Publication if available
             columns.append(title)
 
             # Level of Evidence
-            columns.append(Query.loe(article[5]))
+            columns.append(Query.loe(article[6]))
 
             # Top matches
             columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
