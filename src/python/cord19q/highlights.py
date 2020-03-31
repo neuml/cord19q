@@ -10,19 +10,19 @@ from nltk.corpus import stopwords
 
 from .tokenizer import Tokenizer
 
-# Domain specific stop list
-DOMAIN_STOP_WORDS = {"abstract", "al", "article", "arxiv", "author", "biorxiv", "copyright", "da", "dei", "del", "dell", "della",
-                     "delle", "di", "doi", "et", "fig", "figure", "funder", "holder", "http", "https", "il", "la", "le",
-                     "license", "medrxiv", "non", "org", "peer", "peer-reviewed", "permission", "preprint", "publication",
-                     "pubmed", "reserved", "reviewed", "rights", "si", "una", "used", "using"}
-
-# Combine NLTK and domain stop words together
-STOP_WORDS = set(stopwords.words("english")) | DOMAIN_STOP_WORDS
-
 class Highlights(object):
     """
     Methods to extract highlights from a list of text sections.
     """
+
+    # Domain specific stop list
+    DOMAIN_STOP_WORDS = {"abstract", "al", "article", "arxiv", "author", "biorxiv", "copyright", "da", "dei", "del", "dell", "della",
+                         "delle", "di", "doi", "et", "fig", "figure", "funder", "holder", "http", "https", "il", "la", "le",
+                         "license", "medrxiv", "non", "org", "peer", "peer-reviewed", "permission", "preprint", "publication",
+                         "pubmed", "reserved", "reviewed", "rights", "si", "una", "used", "using"}
+
+    # Combine NLTK and domain stop words together
+    STOP_WORDS = set(stopwords.words("english")) | DOMAIN_STOP_WORDS
 
     @staticmethod
     def build(sections, topn):
@@ -145,4 +145,4 @@ class Highlights(object):
         """
 
         # Remove additional stop words to improve highlighting results
-        return {token for token in Tokenizer.tokenize(text) if token not in STOP_WORDS}
+        return {token for token in Tokenizer.tokenize(text) if token not in Highlights.STOP_WORDS}

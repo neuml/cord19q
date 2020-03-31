@@ -224,6 +224,22 @@ class Query(object):
         return text
 
     @staticmethod
+    def loe(loe):
+        """
+        Formats a level of evidence field.
+
+        Args:
+           loe: level of evidence integer
+
+        Returns:
+            LOE string
+        """
+
+        mapping = {0: "IV", 1: "I", 2: "III-2", 3: "III-2", 4: "III-2", 5: "III-3", 6: "IV"}
+
+        return mapping[loe]
+
+    @staticmethod
     def query(embeddings, db, query, topn):
         """
         Executes a query against the embeddings model.
@@ -259,15 +275,16 @@ class Query(object):
 
         # Print each result, sorted by max score descending
         for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
-            cur.execute("SELECT Title, Authors, Published, Publication, Id, Reference from articles where id = ?", [uid])
+            cur.execute("SELECT Title, Authors, Published, Publication, Study, Id, Reference from articles where id = ?", [uid])
             article = cur.fetchone()
 
             print("Title: %s" % article[0])
             print("Authors: %s" % Query.authors(article[1]))
             print("Published: %s" % Query.date(article[2]))
             print("Publication: %s" % article[3])
-            print("Id: %s" % article[4])
-            print("Reference: %s" % article[5])
+            print("Level of Evidence: %s" % Query.loe(article[4]))
+            print("Id: %s" % article[5])
+            print("Reference: %s" % article[6])
 
             # Print top matches
             for score, text in documents[uid]:

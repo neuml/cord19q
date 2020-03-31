@@ -98,14 +98,14 @@ class Report(object):
         documents = Query.documents(results)
 
         # Write table header
-        Report.write(output, "| Date | Authors | Title | Matches |")
-        Report.write(output, "| ---- | ---- | ------ | -----------|")
+        Report.write(output, "| Date | Authors | Title | LOE | Matches |")
+        Report.write(output, "| ---- | ---- | ------ | ------ | -----------|")
 
         # Collect matching rows
         rows = []
 
         for uid in documents:
-            cur.execute("SELECT Published, Authors, Title, Reference, Publication from articles where id = ?", [uid])
+            cur.execute("SELECT Published, Authors, Title, Reference, Publication, Study from articles where id = ?", [uid])
             article = cur.fetchone()
 
             columns = []
@@ -125,6 +125,9 @@ class Report(object):
 
             # Title + Publication if available
             columns.append(title)
+
+            # Level of Evidence
+            columns.append(Query.loe(article[5]))
 
             # Top matches
             columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))

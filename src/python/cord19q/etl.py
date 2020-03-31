@@ -15,58 +15,60 @@ from multiprocessing import Pool
 from dateutil import parser
 from nltk.tokenize import sent_tokenize
 
-from .analyzer import Analyzer
-
-# Articles schema
-ARTICLES = {
-    'Id': 'TEXT PRIMARY KEY',
-    'Source': 'TEXT',
-    'Published': 'DATETIME',
-    'Publication': "TEXT",
-    'Authors': 'TEXT',
-    'Title': 'TEXT',
-    'Tags': 'TEXT',
-    'Reference': 'TEXT'
-}
-
-# Sections schema
-SECTIONS = {
-    'Id': 'INTEGER PRIMARY KEY',
-    'Article': 'TEXT',
-    'Name': 'TEXT',
-    'Text': 'TEXT',
-    'Tags': 'TEXT',
-    'Labels': 'TEXT'
-}
-
-# SQL statements
-CREATE_TABLE = "CREATE TABLE IF NOT EXISTS {table} ({fields})"
-INSERT_ROW = "INSERT INTO {table} ({columns}) VALUES ({values})"
+from .grammar import Grammar
+from .study import Study
 
 # Global helper for multi-processing support
 # pylint: disable=W0603
-ANALYZER = None
+GRAMMAR = None
 
-def getAnalyzer():
+def getGrammar():
     """
-    Multiprocessing helper method. Gets (or first creates then gets) a global analyzer object to
+    Multiprocessing helper method. Gets (or first creates then gets) a global grammar object to
     be accessed in a new subprocess.
 
     Returns:
-        Analyzer
+        Grammar
     """
 
-    global ANALYZER
+    global GRAMMAR
 
-    if not ANALYZER:
-        ANALYZER = Analyzer()
+    if not GRAMMAR:
+        GRAMMAR = Grammar()
 
-    return ANALYZER
+    return GRAMMAR
 
 class Etl(object):
     """
     Transforms raw csv and json files into an articles.sqlite SQLite database.
     """
+
+    # Articles schema
+    ARTICLES = {
+        'Id': 'TEXT PRIMARY KEY',
+        'Source': 'TEXT',
+        'Published': 'DATETIME',
+        'Publication': "TEXT",
+        'Authors': 'TEXT',
+        'Title': 'TEXT',
+        'Tags': 'TEXT',
+        'Study': 'INTEGER',
+        'Reference': 'TEXT'
+    }
+
+    # Sections schema
+    SECTIONS = {
+        'Id': 'INTEGER PRIMARY KEY',
+        'Article': 'TEXT',
+        'Name': 'TEXT',
+        'Text': 'TEXT',
+        'Tags': 'TEXT',
+        'Labels': 'TEXT'
+    }
+
+    # SQL statements
+    CREATE_TABLE = "CREATE TABLE IF NOT EXISTS {table} ({fields})"
+    INSERT_ROW = "INSERT INTO {table} ({columns}) VALUES ({values})"
 
     @staticmethod
     def init(output):
@@ -98,10 +100,10 @@ class Etl(object):
         db = sqlite3.connect(dbfile)
 
         # Create articles table
-        Etl.create(db, ARTICLES, "articles")
+        Etl.create(db, Etl.ARTICLES, "articles")
 
         # Create sections table
-        Etl.create(db, SECTIONS, "sections")
+        Etl.create(db, Etl.SECTIONS, "sections")
 
         return db
 
@@ -117,7 +119,7 @@ class Etl(object):
         """
 
         columns = ['{0} {1}'.format(name, ctype) for name, ctype in table.items()]
-        create = CREATE_TABLE.format(table=name, fields=", ".join(columns))
+        create = Etl.CREATE_TABLE.format(table=name, fields=", ".join(columns))
 
         # pylint: disable=W0703
         try:
@@ -140,9 +142,9 @@ class Etl(object):
 
         # Build insert prepared statement
         columns = [name for name, _ in table.items()]
-        insert = INSERT_ROW.format(table=name,
-                                   columns=", ".join(columns),
-                                   values=("?, " * len(columns))[:-2])
+        insert = Etl.INSERT_ROW.format(table=name,
+                                       columns=", ".join(columns),
+                                       values=("?, " * len(columns))[:-2])
 
         try:
             # Execute insert statement
@@ -354,8 +356,8 @@ class Etl(object):
             (id, article, sections)
         """
 
-        # Get analyzer handle
-        analyzer = getAnalyzer()
+        # Get grammar handle
+        grammar = getGrammar()
 
         # Unpack parameters
         row, directory = params
@@ -372,11 +374,14 @@ class Etl(object):
         # Get tags
         tags = Etl.getTags(sections)
 
+        # Get level of evidence for tagged articles
+        study = Study.label(sections) if tags else None
+
         # Label tagged sections
-        sections = [(name, text, analyzer.label(text) if tags else None) for name, text in sections]
+        sections = [(name, text, grammar.label(text) if tags else None) for name, text in sections]
 
         # Article row - id, source, published, publication, authors, title, tags, reference
-        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, row["url"])
+        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, study, row["url"])
 
         return (uid, article, sections, tags)
 
@@ -406,7 +411,7 @@ class Etl(object):
             for uid, article, sections, tags in pool.imap(Etl.process, Etl.stream(directory)):
                 # Skip rows with ids that have already been processed
                 if uid not in ids:
-                    Etl.insert(db, ARTICLES, "articles", article)
+                    Etl.insert(db, Etl.ARTICLES, "articles", article)
 
                     # Increment number of articles processed
                     aindex += 1
@@ -415,7 +420,7 @@ class Etl(object):
 
                     for name, text, labels in sections:
                         # Section row - id, article, name, text, tags, labels
-                        Etl.insert(db, SECTIONS, "sections", (sindex, uid, name, text, tags, labels))
+                        Etl.insert(db, Etl.SECTIONS, "sections", (sindex, uid, name, text, tags, labels))
                         sindex += 1
 
                     # Store article id as processed

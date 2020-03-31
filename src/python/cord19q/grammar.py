@@ -1,10 +1,10 @@
 """
-Analyzer module
+Grammar module
 """
 
 import spacy
 
-class Analyzer(object):
+class Grammar(object):
     """
     Linguistic processing rules applied to sentences.
     """
