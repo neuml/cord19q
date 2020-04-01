@@ -98,7 +98,7 @@ class Report(object):
         documents = Query.documents(results)
 
         # Write table header
-        Report.write(output, "| Date | Authors | Title | Matches | Design |")
+        Report.write(output, "| Date | Authors | Title | LOE & Sample | Matches |")
         Report.write(output, "| ---- | ---- | ------ | ------ | -----------|")
 
         # Collect matching rows
@@ -120,16 +120,16 @@ class Report(object):
             title = "[%s](%s)" % (article[2], Report.encode(article[3]))
 
             # Append Publication if available. Assume preprint otherwise and show preprint source.
-            title += " (%s)" % (article[4] if article[4] else article[5])
+            title += "<br/>%s" % (article[4] if article[4] else article[5])
 
             # Title + Publication if available
             columns.append(title)
 
-            # Top Matches
-            columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
-
             # Study Design
             columns.append("%s" % Query.loe(article[6]) + ("<br/><br/>" + Query.text(article[7]) if article[7] else ""))
+
+            # Top Matches
+            columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
 
             # Escape | characters embedded within columns
             columns = [Report.column(column) for column in columns]
