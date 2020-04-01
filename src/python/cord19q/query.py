@@ -285,7 +285,7 @@ class Query(object):
             print("Published: %s" % Query.date(article[2]))
             print("Publication: %s" % article[3])
             print("Level of Evidence: %s" % Query.loe(article[4]))
-            print("Sample: %s" % Query.loe(article[5]))
+            print("Sample: %s" % article[5])
             print("Id: %s" % article[6])
             print("Reference: %s" % article[7])
 

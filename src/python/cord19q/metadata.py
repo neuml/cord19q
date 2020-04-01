@@ -64,9 +64,9 @@ class LOE(object):
     GENERIC_L3 = ["risk factor analysis", "risk factors", "etiology", "logistic regression", "odds ratio", "adjusted odds ratio", "aor",
                   "log odds", "incidence", "exposure status", "electronic medical records", "chart review", "medical records review"]
 
-    RETROSPECTIVE_COHORT = ["cohort", "retrospective cohort", "retrospective chart review", "association", "associated with"]
+    RETROSPECTIVE_COHORT = ["cohort", "retrospective cohort", "retrospective chart review", "association between", "associated with"]
 
-    GENERIC_CASE_CONTROL = ["data collection instrument", "survey instrument", "association", "associated with", "response rate",
+    GENERIC_CASE_CONTROL = ["data collection instrument", "survey instrument", "association between", "associated with", "response rate",
                             "questionnaire development", "psychometric evaluation of instrument", "eligibility criteria", "recruitment",
                             "potential confounders", "non-response bias"]
 
@@ -225,14 +225,18 @@ class Sample(object):
     Methods to extract the sample size of a study.
     """
 
+    BASE = ["participants", "individuals", "children", "patients", "samples", "total"]
+    CASES = ["cases", "sequences"] + BASE
+    TRIALS = ["trials", "participants", "patients", "total"]
+
     KEYWORDS = {1: ["studies", "articles", "total"],
-                2: ["trials", "participants", "patients", "total"],
-                3: ["trials", "participants", "patients", "total"],
-                4: ["cases", "participants", "individuals", "patients", "samples", "sequences", "total"],
-                5: ["cases", "participants", "individuals", "patients", "samples", "sequences", "total"],
-                6: ["cases", "participants", "individuals", "patients", "samples", "sequences", "total"],
-                7: ["cases", "participants", "individuals", "patients", "samples", "sequences", "total"],
-                8: ["participants", "individuals", "patients", "samples", "total"]}
+                2: TRIALS,
+                3: TRIALS,
+                4: CASES,
+                5: CASES,
+                6: CASES,
+                7: CASES,
+                8: BASE}
 
     @staticmethod
     def extract(sections, loe):
