@@ -1,5 +1,5 @@
 # pylint: disable = C0111
-from setuptools import setup
+from setuptools import find_packages, setup
 
 with open("README.md", "r") as f:
     DESCRIPTION = f.read()
@@ -17,7 +17,7 @@ setup(name="cord19q",
           "Source Code": "https://github.com/neuml/cord19q",
       },
       license="MIT License: http://opensource.org/licenses/MIT",
-      packages=["cord19q"],
+      packages=find_packages(where="src/python/"),
       package_dir={"": "src/python/"},
       keywords="python search embedding machine-learning",
       python_requires=">=3.5",

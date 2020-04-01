@@ -8,7 +8,6 @@ import json
 import os.path
 import re
 import sqlite3
-import sys
 
 from multiprocessing import Pool
 
@@ -38,7 +37,7 @@ def getGrammar():
 
     return GRAMMAR
 
-class Etl(object):
+class Execute(object):
     """
     Transforms raw csv and json files into an articles.sqlite SQLite database.
     """
@@ -101,10 +100,10 @@ class Etl(object):
         db = sqlite3.connect(dbfile)
 
         # Create articles table
-        Etl.create(db, Etl.ARTICLES, "articles")
+        Execute.create(db, Execute.ARTICLES, "articles")
 
         # Create sections table
-        Etl.create(db, Etl.SECTIONS, "sections")
+        Execute.create(db, Execute.SECTIONS, "sections")
 
         return db
 
@@ -120,7 +119,7 @@ class Etl(object):
         """
 
         columns = ['{0} {1}'.format(name, ctype) for name, ctype in table.items()]
-        create = Etl.CREATE_TABLE.format(table=name, fields=", ".join(columns))
+        create = Execute.CREATE_TABLE.format(table=name, fields=", ".join(columns))
 
         # pylint: disable=W0703
         try:
@@ -143,13 +142,13 @@ class Etl(object):
 
         # Build insert prepared statement
         columns = [name for name, _ in table.items()]
-        insert = Etl.INSERT_ROW.format(table=name,
-                                       columns=", ".join(columns),
-                                       values=("?, " * len(columns))[:-2])
+        insert = Execute.INSERT_ROW.format(table=name,
+                                           columns=", ".join(columns),
+                                           values=("?, " * len(columns))[:-2])
 
         try:
             # Execute insert statement
-            db.execute(insert, Etl.values(table, row, columns))
+            db.execute(insert, Execute.values(table, row, columns))
         # pylint: disable=W0703
         except Exception as ex:
             print("Error inserting row: {}".format(row), ex)
@@ -330,7 +329,7 @@ class Etl(object):
                     print("Error processing text file: {}".format(article), ex)
 
         # Filter sections and return
-        return Etl.filtered(sections)
+        return Execute.filtered(sections)
 
     @staticmethod
     def stream(directory):
@@ -364,16 +363,16 @@ class Etl(object):
         row, directory = params
 
         # Get uid
-        uid = Etl.getId(row)
+        uid = Execute.getId(row)
 
         # Published date
-        date = Etl.getDate(row)
+        date = Execute.getDate(row)
 
         # Get text sections
-        sections = Etl.getSections(row, directory)
+        sections = Execute.getSections(row, directory)
 
         # Get tags
-        tags = Etl.getTags(sections)
+        tags = Execute.getTags(sections)
 
         if tags:
             # Convert text to NLP token list
@@ -409,7 +408,7 @@ class Etl(object):
         print("Building articles.sqlite from {}".format(directory))
 
         # Initialize database
-        db = Etl.init(output)
+        db = Execute.init(output)
 
         # Article and section indices
         aindex = 0
@@ -419,10 +418,10 @@ class Etl(object):
         ids = set()
 
         with Pool(os.cpu_count()) as pool:
-            for uid, article, sections, tags in pool.imap(Etl.process, Etl.stream(directory)):
+            for uid, article, sections, tags in pool.imap(Execute.process, Execute.stream(directory)):
                 # Skip rows with ids that have already been processed
                 if uid not in ids:
-                    Etl.insert(db, Etl.ARTICLES, "articles", article)
+                    Execute.insert(db, Execute.ARTICLES, "articles", article)
 
                     # Increment number of articles processed
                     aindex += 1
@@ -431,7 +430,7 @@ class Etl(object):
 
                     for name, text, labels in sections:
                         # Section row - id, article, name, text, tags, labels
-                        Etl.insert(db, Etl.SECTIONS, "sections", (sindex, uid, name, text, tags, labels))
+                        Execute.insert(db, Execute.SECTIONS, "sections", (sindex, uid, name, text, tags, labels))
                         sindex += 1
 
                     # Store article id as processed
@@ -442,7 +441,3 @@ class Etl(object):
         # Commit changes and close
         db.commit()
         db.close()
-
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        Etl.run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)

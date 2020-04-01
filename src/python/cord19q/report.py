@@ -129,7 +129,7 @@ class Report(object):
             columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
 
             # Study Design
-            columns.append(Query.loe(article[6]) + ("<br/>" + article[7] if article[7] else ""))
+            columns.append(Query.loe(article[6]) + ("<br/>" + Query.text(article[7]) if article[7] else ""))
 
             # Escape | characters embedded within columns
             columns = [Report.column(column) for column in columns]

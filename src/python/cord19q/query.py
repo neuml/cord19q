@@ -221,6 +221,9 @@ class Query(object):
         # Remove •
         text = text.replace("•", "")
 
+        # Remove http links
+        text = re.sub(r"http.+?\s", " ", text)
+
         return text
 
     @staticmethod
@@ -291,7 +294,7 @@ class Query(object):
 
             # Print top matches
             for score, text in documents[uid]:
-                print(Query.render("## - (%.4f): %s" % (score, text), html=False))
+                print(Query.render("## - (%.4f): %s" % (score, Query.text(text)), html=False))
 
             print()
 
