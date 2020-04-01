@@ -235,7 +235,9 @@ class Query(object):
             LOE string
         """
 
-        mapping = {0:"IV", 1:"I", 2:"II", 3:"III-1", 4:"III-2", 5:"III-2", 6:"III-2", 7:"III-3", 8:"IV"}
+        mapping = {0:"IV. Other", 1:"I. Systematic Review", 2:"II. Randomized Controlled Trial", 3:"III-1. Pseudo-Randomized Controlled Trial",
+                   4:"III-2. Retrospective Cohort", 5:"III-2. Matched Case Control", 6:"III-2. Cross Sectional Control",
+                   7:"III-3. Time Series Analysis", 8:"IV. Prevalence Study", 9:"IV. Computer Model"}
 
         return mapping[loe]
 
@@ -275,7 +277,7 @@ class Query(object):
 
         # Print each result, sorted by max score descending
         for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
-            cur.execute("SELECT Title, Authors, Published, Publication, Study, Id, Reference from articles where id = ?", [uid])
+            cur.execute("SELECT Title, Authors, Published, Publication, LOE, Sample, Id, Reference from articles where id = ?", [uid])
             article = cur.fetchone()
 
             print("Title: %s" % article[0])
@@ -283,8 +285,9 @@ class Query(object):
             print("Published: %s" % Query.date(article[2]))
             print("Publication: %s" % article[3])
             print("Level of Evidence: %s" % Query.loe(article[4]))
-            print("Id: %s" % article[5])
-            print("Reference: %s" % article[6])
+            print("Sample: %s" % Query.loe(article[5]))
+            print("Id: %s" % article[6])
+            print("Reference: %s" % article[7])
 
             # Print top matches
             for score, text in documents[uid]:

@@ -16,7 +16,7 @@ from dateutil import parser
 from nltk.tokenize import sent_tokenize
 
 from .grammar import Grammar
-from .study import Study
+from .metadata import Metadata
 
 # Global helper for multi-processing support
 # pylint: disable=W0603
@@ -52,7 +52,8 @@ class Etl(object):
         'Authors': 'TEXT',
         'Title': 'TEXT',
         'Tags': 'TEXT',
-        'Study': 'INTEGER',
+        'LOE': 'INTEGER',
+        'Sample': 'TEXT',
         'Reference': 'TEXT'
     }
 
@@ -374,14 +375,24 @@ class Etl(object):
         # Get tags
         tags = Etl.getTags(sections)
 
-        # Get level of evidence for tagged articles
-        study = Study.label(sections) if tags else None
+        if tags:
+            # Convert text to NLP token list
+            sections = [(name, text, grammar.parse(text)) for name, text in sections]
 
-        # Label tagged sections
-        sections = [(name, text, grammar.label(text) if tags else None) for name, text in sections]
+            # Derive metadata fields
+            loe, sample = Metadata.parse(sections)
+
+            # Build labels column
+            sections = [(name, text, grammar.label(tokens)) for name, text, tokens in sections]
+        else:
+            # Untagged section, create None default placeholders
+            loe, sample = None, None
+
+            # Extend sections with None columns
+            sections = [(name, text, None) for name, text in sections]
 
         # Article row - id, source, published, publication, authors, title, tags, reference
-        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, study, row["url"])
+        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, loe, sample, row["url"])
 
         return (uid, article, sections, tags)
 

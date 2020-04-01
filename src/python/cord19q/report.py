@@ -98,14 +98,14 @@ class Report(object):
         documents = Query.documents(results)
 
         # Write table header
-        Report.write(output, "| Date | Authors | Title | LOE | Matches |")
+        Report.write(output, "| Date | Authors | Title | Matches | Design |")
         Report.write(output, "| ---- | ---- | ------ | ------ | -----------|")
 
         # Collect matching rows
         rows = []
 
         for uid in documents:
-            cur.execute("SELECT Published, Authors, Title, Reference, Publication, Source, Study from articles where id = ?", [uid])
+            cur.execute("SELECT Published, Authors, Title, Reference, Publication, Source, LOE, Sample from articles where id = ?", [uid])
             article = cur.fetchone()
 
             columns = []
@@ -120,16 +120,16 @@ class Report(object):
             title = "[%s](%s)" % (article[2], Report.encode(article[3]))
 
             # Append Publication if available. Assume preprint otherwise and show preprint source.
-            title += " (%s)" % (article[4] if article[4] else "preprint: %s" % article[5])
+            title += " (%s)" % (article[4] if article[4] else article[5])
 
             # Title + Publication if available
             columns.append(title)
 
-            # Level of Evidence
-            columns.append(Query.loe(article[6]))
-
-            # Top matches
+            # Top Matches
             columns.append("<br/><br/>".join([Query.text(text) for _, text in documents[uid]]))
+
+            # Study Design
+            columns.append(Query.loe(article[6]) + ("<br/>" + article[7] if article[7] else ""))
 
             # Escape | characters embedded within columns
             columns = [Report.column(column) for column in columns]

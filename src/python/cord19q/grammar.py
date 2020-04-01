@@ -13,22 +13,18 @@ class Grammar(object):
         # spaCy NLP
         self.nlp = spacy.load("en_core_sci_sm", disable=["ner"])
 
-    def label(self, text):
+    def parse(self, text):
         """
-        Linguistic rules processing logic. Identifies non-informative sentences and labels them accordingly.
-
-        Labels:
-            - QUESTION: Any text ending in a question mark
-            - FRAGMENT: Poorly structured sentences with limited information
+        Parses text to NLP tokens.
 
         Args:
             text: input text
 
         Returns:
-            label if detected else None
+            tokens
         """
 
-        label = None
+        tokens = None
 
         if text:
             # Run text through linguistic rules
@@ -37,8 +33,28 @@ class Grammar(object):
             # Apply custom rules to token list
             tokens = self.applyRules(tokens)
 
+        return tokens
+
+    def label(self, tokens):
+        """
+        Linguistic rules processing logic. Identifies non-informative sentences and labels them accordingly.
+
+        Labels:
+            - QUESTION: Any text ending in a question mark
+            - FRAGMENT: Poorly structured sentences with limited information
+
+        Args:
+            tokens: parsed tokens
+
+        Returns:
+            label if detected else None
+        """
+
+        label = None
+
+        if tokens:
             # Label non-informative sentences
-            if self.isQuestion(text):
+            if self.isQuestion(tokens.text):
                 label = "QUESTION"
             elif self.isFragment(tokens):
                 label = "FRAGMENT"
