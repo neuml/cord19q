@@ -224,6 +224,10 @@ class Query(object):
         # Remove http links
         text = re.sub(r"http.+?\s", " ", text)
 
+        # Remove boilerplate text
+        text = re.sub(r"doi\s?:\s?medRxiv preprint", " ", text)
+        text = text.replace("All Rights Reserved", " ")
+
         return text
 
     @staticmethod
