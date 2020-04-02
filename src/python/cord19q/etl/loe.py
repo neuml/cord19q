@@ -2,6 +2,8 @@
 LOE module
 """
 
+from collections import Counter
+
 import regex as re
 
 from .vocab import Vocab
@@ -19,7 +21,9 @@ def regex(terms):
         terms regex
     """
 
-    return "|".join([r"\b%s\b" % term.lower() for term in terms])
+    # Build regular expression for each term
+    # Wrap term in word boundaries, escape regex special chars
+    return "|".join([r"\b%s\b" % re.escape(term.lower()) for term in terms])
 
 class LOE(object):
     """
@@ -40,11 +44,11 @@ class LOE(object):
     # Keywords for study names in titles
     TITLE_REGEX = [(regex(["systematic review", "meta-analysis"]), 1), (regex(["randomized control"]), 2),
                    (regex(["pseudo-randomized"]), 3), (regex(["retrospective cohort"]), 4),
-                   (regex(["matched case"]), 5), (regex([r"cross(\-?)sectional"]), 6),
-                   (regex([r"time(\-?)series"]), 7), (regex(["prevalence"]), 8)]
+                   (regex(["matched case"]), 5), (r"\bcross\-?sectional\b", 6),
+                   (r"\btime\-?series\b", 7), (regex(["prevalence"]), 8)]
 
     # List of evidence categories
-    CATEGORIES = [(COMPUTER_MODEL_REGEX, 1), (PREVALENCE_STUDY_REGEX, 1), (TIME_SERIES_ANALYSIS_REGEX, 1),
+    CATEGORIES = [(COMPUTER_MODEL_REGEX, 1), (PREVALENCE_STUDY_REGEX, 1), (TIME_SERIES_ANALYSIS_REGEX, 2),
                   (CROSS_SECTIONAL_CASE_CONTROL_REGEX, 2), (MATCHED_CASE_CONTROL_REGEX, 2), (RETROSPECTIVE_COHORT_REGEX, 2),
                   (PSEUDO_RANDOMIZED_CONTROL_TRIAL_REGEX, 3), (RANDOMIZED_CONTROL_TRIAL_REGEX, 3), (SYSTEMATIC_REVIEW_REGEX, 4)]
 
@@ -70,19 +74,22 @@ class LOE(object):
             sections: list of text sections
 
         Returns:
-            level of evidence (int) or None if no matches found
+            (level of evidence (int), keyword match counts)
         """
 
-        # LOE label
-        label = 0
+        # LOE label, keywords
+        label = (0, None)
 
         # Search titles for exact keyword match
         title = [text for name, text, _ in sections if name and name.lower() == "title"]
         title = " ".join(title).replace("\n", " ").lower()
 
         for regex, loe in LOE.TITLE_REGEX:
-            if LOE.count(regex, title):
-                return loe
+            count, keywords = LOE.matches(regex, title)
+
+            # Return LOE and the keywords for title matches
+            if count:
+                return (loe, keywords)
 
         # Process full-text only if text meets certain criteria
         if LOE.accept(sections):
@@ -92,20 +99,21 @@ class LOE(object):
 
             if text:
                 # Score text by keyword category
-                counts = [(LOE.count(keywords, text), minimum) for keywords, minimum in LOE.CATEGORIES]
+                matches = [LOE.matches(keywords, text) + (minimum, ) for keywords, minimum in LOE.CATEGORIES]
 
                 # Require at least minimum matches, which is set per category
-                counts = [count if count >= minimum else 0 for count, minimum in counts]
+                matches = [(count, keywords) if count >= minimum else (0, None) for count, keywords, minimum in matches]
 
-                # Get level of design label if there are keyword matches
-                label = len(counts) - counts.index(max(counts)) if max(counts) > 0 else 0
+                # Derive best match
+                label = LOE.top(matches)
 
         # Check title for mathematical/computer and label if no other labels applied (label = 0)
-        # Allow partial matches
-        if not label and LOE.count(r"mathematical|computer|forecast", title):
-            # Return size of categories. Labels are inverted and computer models are first element.
-            # Labels are 1-indexed
-            label = len(LOE.CATEGORIES)
+        if not label:
+            # Allow partial matches
+            count, keywords = LOE.matches(r"mathematical|computer|forecast", title)
+            if count:
+                # Return size of categories. Labels are inverted and computer models are first element. (1 indexed)
+                label = (len(LOE.CATEGORIES), keywords)
 
         return label
 
@@ -158,17 +166,55 @@ class LOE(object):
         return not re.search(r"introduction|(?<!.*?results.*?)discussion|background|reference", name)
 
     @staticmethod
-    def count(keywords, text):
+    def matches(keywords, text):
         """
-        Counts the number of times a list of keywords. Wraps keywords in word boundaries to prevent
+        Finds all keyword matches within a block of text. Wraps keywords in word boundaries to prevent
         partial matching of a word.
 
         Args:
             keywords: keywords regex
             text: text to search
+
+        Returns:
+            list of matches
         """
 
         if keywords:
-            return len(re.findall(keywords, text, overlapped=True))
+            matches = re.findall(keywords, text, overlapped=True)
+            if matches:
+                # Build keyword match string
+                counts = sorted(Counter(matches).items(), key=lambda x: x[1], reverse=True)
 
-        return 0
+                match = ", ".join(["'%s': %d" % (key, value) for key, value in counts])
+
+                # Return count of matches and keyword match string
+                return (len(matches), match)
+
+        return (0, None)
+
+    @staticmethod
+    def top(matches):
+        """
+        Searches a matches list and returns the top match by count. If no match with
+        a count > 0 is found, 0 is returned.
+
+        Args:
+            matches: list of (count, keywords)
+
+        Returns:
+            top (label, keywords) match or (0, None) if no matches found
+        """
+
+        label = (0, None)
+
+        counts = [count for count, _ in matches]
+        best = max(counts)
+        if best:
+            # Get index of best match
+            index = counts.index(best)
+            match = matches[index]
+
+            # Label is inverted index of CATEGORIES list (1 indexed)
+            label = (len(matches) - index, match[1])
+
+        return label

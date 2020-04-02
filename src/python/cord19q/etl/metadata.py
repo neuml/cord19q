@@ -29,9 +29,9 @@ class Metadata(object):
         """
 
         # Level of Evidence
-        loe = LOE.label(sections)
+        loe, keywords = LOE.label(sections)
 
         # Extract best candidate sentence with study sample
         sample = Sample.extract(sections, loe)
 
-        return (loe, sample)
+        return (loe, keywords, sample)

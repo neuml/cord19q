@@ -52,6 +52,7 @@ class Execute(object):
         'Title': 'TEXT',
         'Tags': 'TEXT',
         'LOE': 'INTEGER',
+        'Keywords': 'TEXT',
         'Sample': 'TEXT',
         'Reference': 'TEXT'
     }
@@ -379,19 +380,19 @@ class Execute(object):
             sections = [(name, text, grammar.parse(text)) for name, text in sections]
 
             # Derive metadata fields
-            loe, sample = Metadata.parse(sections)
+            loe, keywords, sample = Metadata.parse(sections)
 
             # Build labels column
             sections = [(name, text, grammar.label(tokens)) for name, text, tokens in sections]
         else:
             # Untagged section, create None default placeholders
-            loe, sample = None, None
+            loe, keywords, sample = None, None, None
 
             # Extend sections with None columns
             sections = [(name, text, None) for name, text in sections]
 
         # Article row - id, source, published, publication, authors, title, tags, reference
-        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, loe, sample, row["url"])
+        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, loe, keywords, sample, row["url"])
 
         return (uid, article, sections, tags)
 

@@ -225,7 +225,7 @@ class Query(object):
         text = re.sub(r"http.+?\s", " ", text)
 
         # Remove boilerplate text
-        text = re.sub(r"doi\s?:\s?medRxiv preprint", " ", text)
+        text = re.sub(r"doi\s?:\s?(bioRxiv|medRxiv) preprint", " ", text)
         text = text.replace("All Rights Reserved", " ")
 
         return text
