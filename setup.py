@@ -39,7 +39,8 @@ setup(name="cord19q",
           "scikit-learn>=0.22.1",
           "scipy>=1.4.1",
           "spacy>=2.2.3",
-          "tqdm>=4.40.2"
+          "tqdm>=4.40.2",
+          "xlsxwriter>=1.2.8"
       ],
       classifiers=[
           "License :: OSI Approved :: MIT License",
