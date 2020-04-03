@@ -66,7 +66,7 @@ class Sample(object):
         if score:
             # Score action words
             actions = ["analyze", "collect", "include", "obtain", "review", "study"]
-            score += sum([token.text.lower() in actions for token in tokens])
+            score += sum([sum([1 if action in token.text.lower() else 0 for action in actions]) for token in tokens])
 
         return score
 
