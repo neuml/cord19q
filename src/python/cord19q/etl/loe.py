@@ -23,7 +23,7 @@ def regex(terms):
 
     # Build regular expression for each term
     # Wrap term in word boundaries, escape regex special chars
-    return "|".join([r"\b%s\b" % re.escape(term.lower()) for term in terms])
+    return "|".join(["\\b%s\\b" % term.lower() for term in terms])
 
 class LOE(object):
     """
@@ -44,13 +44,14 @@ class LOE(object):
     # Keywords for study names in titles
     TITLE_REGEX = [(regex(["systematic review", "meta-analysis"]), 1), (regex(["randomized control"]), 2),
                    (regex(["pseudo-randomized"]), 3), (regex(["retrospective cohort"]), 4),
-                   (regex(["matched case"]), 5), (r"\bcross\-?sectional\b", 6),
-                   (r"\btime\-?series\b", 7), (regex(["prevalence"]), 8)]
+                   (regex(["matched case"]), 5), (r"\bcross[\-\s]?sectional\b", 6),
+                   (r"\btime[\-\s]?series\b", 7), (regex(["prevalence"]), 8)]
 
     # List of evidence categories
-    CATEGORIES = [(COMPUTER_MODEL_REGEX, 1), (PREVALENCE_STUDY_REGEX, 1), (TIME_SERIES_ANALYSIS_REGEX, 2),
-                  (CROSS_SECTIONAL_CASE_CONTROL_REGEX, 2), (MATCHED_CASE_CONTROL_REGEX, 2), (RETROSPECTIVE_COHORT_REGEX, 2),
-                  (PSEUDO_RANDOMIZED_CONTROL_TRIAL_REGEX, 3), (RANDOMIZED_CONTROL_TRIAL_REGEX, 3), (SYSTEMATIC_REVIEW_REGEX, 4)]
+    CATEGORIES = [(COMPUTER_MODEL_REGEX, 1, None), (PREVALENCE_STUDY_REGEX, 1, None), (TIME_SERIES_ANALYSIS_REGEX, 2, None),
+                  (CROSS_SECTIONAL_CASE_CONTROL_REGEX, 2, None), (MATCHED_CASE_CONTROL_REGEX, 2, ["match"]),
+                  (RETROSPECTIVE_COHORT_REGEX, 2, ["retrospective"]), (PSEUDO_RANDOMIZED_CONTROL_TRIAL_REGEX, 3, ["random"]),
+                  (RANDOMIZED_CONTROL_TRIAL_REGEX, 3, ["random"]), (SYSTEMATIC_REVIEW_REGEX, 4, ["systematic review", "meta-analysis"])]
 
     @staticmethod
     def label(sections):
@@ -89,7 +90,7 @@ class LOE(object):
 
             # Return LOE and the keywords for title matches
             if count:
-                return (loe, keywords)
+                return (loe, LOE.format(keywords))
 
         # Process full-text only if text meets certain criteria
         if LOE.accept(sections):
@@ -97,15 +98,9 @@ class LOE(object):
             text = [text for name, text, _ in sections if not name or LOE.filter(name.lower())]
             text = " ".join(text).replace("\n", " ").lower()
 
+            # Evaluate text against LOE rules engine
             if text:
-                # Score text by keyword category
-                matches = [LOE.matches(keywords, text) + (minimum, ) for keywords, minimum in LOE.CATEGORIES]
-
-                # Require at least minimum matches, which is set per category
-                matches = [(count, keywords) if count >= minimum else (0, None) for count, keywords, minimum in matches]
-
-                # Derive best match
-                label = LOE.top(matches)
+                return LOE.evaluate(text)
 
         # Check title for mathematical/computer and label if no other labels applied (label = 0)
         if not label:
@@ -113,7 +108,7 @@ class LOE(object):
             count, keywords = LOE.matches(r"mathematical|computer|forecast", title)
             if count:
                 # Return size of categories. Labels are inverted and computer models are first element. (1 indexed)
-                label = (len(LOE.CATEGORIES), keywords)
+                label = (len(LOE.CATEGORIES), LOE.format(keywords))
 
         return label
 
@@ -166,6 +161,37 @@ class LOE(object):
         return not re.search(r"introduction|(?<!.*?results.*?)discussion|background|reference", name)
 
     @staticmethod
+    def evaluate(text):
+        """
+        Evaluates LOE matches for text. This method will find a count of matches per category and run
+        a set of results to determine if the matches should be accepted.
+
+        Args:
+            text: text to evaluate
+
+        Returns:
+            list (count, keyword matches) for each loe category
+        """
+
+        results = []
+
+        for keywords, minimum, requirements in LOE.CATEGORIES:
+            # Score by keyword counts
+            count, matches = LOE.matches(keywords, text)
+            accepted = False
+
+            # Proceed if count is >= to the minimum required matches for the category
+            if count and count >= minimum:
+                # Accept if matches meet requirements or there are no requirements
+                if not requirements or any([x in text for x in requirements]):
+                    accepted = True
+
+            results.append((count, matches) if accepted else (0, None))
+
+        # Derive best match
+        return LOE.top(results)
+
+    @staticmethod
     def matches(keywords, text):
         """
         Finds all keyword matches within a block of text. Wraps keywords in word boundaries to prevent
@@ -182,13 +208,7 @@ class LOE(object):
         if keywords:
             matches = re.findall(keywords, text, overlapped=True)
             if matches:
-                # Build keyword match string
-                counts = sorted(Counter(matches).items(), key=lambda x: x[1], reverse=True)
-
-                match = ", ".join(["'%s': %d" % (key, value) for key, value in counts])
-
-                # Return count of matches and keyword match string
-                return (len(matches), match)
+                return (len(matches), matches)
 
         return (0, None)
 
@@ -215,6 +235,22 @@ class LOE(object):
             match = matches[index]
 
             # Label is inverted index of CATEGORIES list (1 indexed)
-            label = (len(matches) - index, match[1])
+            label = (len(matches) - index, LOE.format(match[1]))
 
         return label
+
+    @staticmethod
+    def format(match):
+        """
+        Builds a formatted match string from match.
+
+        Args:
+            match: list of matching keyword
+
+        Returns:
+            formatting string of 'keyword match': count
+        """
+
+        # Build keyword match string
+        counts = sorted(Counter(match).items(), key=lambda x: x[1], reverse=True)
+        return ", ".join(["'%s': %d" % (key, value) for key, value in counts])

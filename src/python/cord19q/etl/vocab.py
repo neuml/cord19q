@@ -23,29 +23,27 @@ class Vocab(object):
                                        "allocation method"]
 
     GENERIC_L3 = ["risk factor analysis", "risk factors", "etiology", "logistic regression", "odds ratio", "adjusted odds ratio", "aor",
-                  "log odds", "incidence", "exposure status", "electronic medical records", "chart review", "medical records review"]
+                  "log odds", "exposure status", "electronic medical records", "chart review", "medical records review"]
 
-    RETROSPECTIVE_COHORT = ["cohort", "retrospective cohort", "retrospective chart review", "association between", "associated with",
-                            "data collection instrument", "eligibility criteria", "recruitment", "potential confounders",
-                            "data abstraction forms", "inter-rater reliability", "cohen's kappa"]
+    RETROSPECTIVE_COHORT = ["cohort", "retrospective cohort", "retrospective chart review", "data collection instrument", "eligibility criteria",
+                            "recruitment", "potential confounders", "data abstraction forms", "inter-rater reliability", "cohen's kappa"]
 
-    GENERIC_CASE_CONTROL = ["data collection instrument", "survey instrument", "association between", "associated with", "response rate",
-                            "questionnaire development", "psychometric evaluation of instrument", "eligibility criteria", "recruitment",
-                            "potential confounders", "non-response bias"]
+    GENERIC_CASE_CONTROL = ["data collection instrument", "survey instrument", "response rate", "questionnaire development",
+                            "psychometric evaluation of instrument", "eligibility criteria", "recruitment", "potential confounders",
+                            "non-response bias"]
 
-    MATCHED_CASE_CONTROL = ["cohort", "matching criteria", "number of controls per case"]
+    MATCHED_CASE_CONTROL = ["cohort", r"match(?:ed|ing)? case", r"match(?:ed|ing)? criteria", "number of controls per case"]
 
-    CROSS_SECTIONAL_CASE_CONTROL = ["prevalence survey"]
+    CROSS_SECTIONAL_CASE_CONTROL = [r"cross[\-\s]?sectional", "prevalence survey"]
 
-    TIME_SERIES_ANALYSIS = ["survival analysis", "time-to-event analysis", "weibull", "gamma", "lognormal", "estimation", "kaplan-meier",
+    TIME_SERIES_ANALYSIS = [r"time[-\s]?series", "survival analysis", "time-to-event analysis", "weibull", "gamma", "lognormal", "kaplan-meier",
                             "hazard ratio", "cox proportional hazards", "etiology", "median time to event", "cohort", "censoring", "truncated",
                             "right-censored", "non-comparative study", "longitudinal", "eligibility criteria", "recruitment", "potential confounders"]
 
     PREVALENCE_STUDY = ["prevalence", "syndromic surveillance", "surveillance", "registry data", "frequency", "risk factors", "etiology",
                         "cross-sectional survey", "logistic regression", "odds ratio", "log odds", "adjusted odds ratio", "aor",
-                        "data collection instrument", "survey instrument", "association between", "associated with", "random sample",
-                        "response rate", "questionnaire development", "psychometric evaluation of instrument", "eligibility criteria",
-                        "recruitment", "potential confounders"]
+                        "data collection instrument", "survey instrument", "random sample", "response rate", "questionnaire development",
+                        "psychometric evaluation of instrument", "eligibility criteria", "recruitment", "potential confounders"]
 
     COMPUTER_MODEL = ["mathematical model", "mathematical modeling", "computer model", "computer modeling", "model simulation",
                       "forecast", "forecasting"]
