@@ -246,12 +246,17 @@ class Execute(object):
             tags
         """
 
-        keywords = ["2019-ncov", "2019 novel coronavirus", "coronavirus 2019", "coronavirus disease 19", "covid-19", "covid 19", "ncov-2019",
-                    "sars-cov-2", "wuhan coronavirus", "wuhan pneumonia", "wuhan virus"]
+        # Keyword patterns to search for
+        keywords = [r"2019[\-\s]?n\s?cov", "2019 novel coronavirus", r"coronavirus 2019", r"coronavirus disease (?:20)?19",
+                    r"covid(?:[\- ]19)?", r"n\s?cov 2019", "sars-cov-2", r"wuhan (?:coronavirus|pneumonia)"]
+
+        # Build regular expression for each keyword. Wrap term in word boundaries
+        regex = "|".join(["\\b%s\\b" % keyword.lower() for keyword in keywords])
 
         tags = None
         for _, text in sections:
-            if any(x in text.lower() for x in keywords):
+            # Look for at least one keyword match
+            if re.findall(regex, text.lower()):
                 tags = "COVID-19"
 
         return tags
@@ -272,8 +277,12 @@ class Execute(object):
         unique = []
         keys = set()
 
+        # Boilerplate text to ignore
+        boilerplate = ["COVID-19 resource centre", "permission to make all its COVID", "WHO COVID database"]
+
         for name, text in sections:
-            if not text in keys and not "COVID-19 resource centre" in text:
+            # Add unique text that isn't boilerplate text
+            if not text in keys and not any([x in text for x in boilerplate]):
                 unique.append((name, text))
                 keys.add(text)
 
@@ -298,6 +307,9 @@ class Execute(object):
         uids = row["sha"].split("; ") if row["sha"] else None
         subset = row["full_text_file"]
 
+        # Determine file location based on parse type
+        location = "pdf_json" if row["has_pdf_parse"] else "pmc_json"
+
         # Add title and abstract sections
         for name in ["title", "abstract"]:
             text = row[name]
@@ -311,7 +323,7 @@ class Execute(object):
         if uids and subset:
             for uid in uids:
                 # Build article path. Path has subset directory twice.
-                article = os.path.join(directory, subset, subset, uid + ".json")
+                article = os.path.join(directory, subset, subset, location, uid + ".json")
 
                 try:
                     with open(article) as jfile:

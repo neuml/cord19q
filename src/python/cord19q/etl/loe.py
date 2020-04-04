@@ -21,8 +21,7 @@ def regex(terms):
         terms regex
     """
 
-    # Build regular expression for each term
-    # Wrap term in word boundaries, escape regex special chars
+    # Build regular expression for each term. Wrap term in word boundaries
     return "|".join(["\\b%s\\b" % term.lower() for term in terms])
 
 class LOE(object):
