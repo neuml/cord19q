@@ -48,7 +48,8 @@ To build the model locally:
     # Convert csv/json files to SQLite
     python -m cord19q.etl <download_path>
 
-    # Can optionally use [pre-trained vectors](https://www.kaggle.com/davidmezzetti/cord19-fasttext-vectors#cord19-300d.magnitude)
+    # Can optionally use pre-trained vectors
+    # https://www.kaggle.com/davidmezzetti/cord19-fasttext-vectors#cord19-300d.magnitude
     # Default location: ~/.cord19/vectors/cord19-300d.magnitude
     python -m cord19q.vectors
 
