@@ -38,6 +38,7 @@ and run the following commands.
     cd <download_path>
 
 For each tar.gz file run the following, where $file is the name of the file with .tar.gz removed.
+
     mkdir $file && tar -C $file -xvzf $file.tar.gz
 
 Once completed, there should be a file name metadata.csv and subdirectories for each data subset with all json articles.
