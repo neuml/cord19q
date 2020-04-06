@@ -136,7 +136,7 @@ class Embeddings(object):
         args = (self.config, self.scoring)
 
         with Pool(os.cpu_count(), initializer=create, initargs=args) as pool:
-            for uid, embedding in pool.imap(transform, documents, chunksize=50):
+            for uid, embedding in pool.imap(transform, documents):
                 ids.append(uid)
                 embeddings.append(embedding)
 
