@@ -32,19 +32,26 @@ class Index(object):
         cur.execute("SELECT Id, Text FROM sections WHERE tags is not null and labels is null")
 
         count = 0
-        for row in cur:
-            # Tokenize text
-            tokens = Tokenizer.tokenize(row[1])
 
-            document = (row[0], tokens, None)
+        # Get initial batch of rows
+        rows = cur.fetchmany()
+        while rows:
+            for row in rows:
+                # Tokenize text
+                tokens = Tokenizer.tokenize(row[1])
 
-            count += 1
-            if count % 1000 == 0:
-                print("Streamed %d documents" % (count))
+                document = (row[0], tokens, None)
 
-            # Skip documents with no tokens parsed
-            if tokens:
-                yield document
+                count += 1
+                if count % 1000 == 0:
+                    print("Streamed %d documents" % (count))
+
+                # Skip documents with no tokens parsed
+                if tokens:
+                    yield document
+
+            # Get next batch
+            rows = cur.fetchmany()
 
         print("Iterated over %d total rows" % (count))
 
