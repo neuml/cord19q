@@ -18,6 +18,7 @@ from sklearn.decomposition import TruncatedSVD
 # Defined at runtime
 from .magnitude import Magnitude
 from .scoring import Scoring
+from .tokenizer import Tokenizer
 
 # Multiprocessing helper methods
 # pylint: disable=W0603
@@ -54,7 +55,14 @@ def transform(document):
 
     global EMBEDDINGS
 
-    return (document[0], EMBEDDINGS.transform(document))
+    # Unpack and tokenize document
+    uid, text, tags = document
+    tokens = Tokenizer.tokenize(text)
+
+    if tokens:
+        return (document[0], EMBEDDINGS.transform((uid, tokens, tags)))
+
+    return (None, None)
 
 class Embeddings(object):
     """
@@ -137,8 +145,9 @@ class Embeddings(object):
 
         with Pool(os.cpu_count(), initializer=create, initargs=args) as pool:
             for uid, embedding in pool.imap(transform, documents):
-                ids.append(uid)
-                embeddings.append(embedding)
+                if uid is not None:
+                    ids.append(uid)
+                    embeddings.append(embedding)
 
         # Convert embeddings into a numpy array
         embeddings = np.array(embeddings)
