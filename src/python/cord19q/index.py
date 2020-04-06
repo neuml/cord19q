@@ -16,13 +16,12 @@ class Index(object):
     """
 
     @staticmethod
-    def stream(dbfile, tokenize):
+    def stream(dbfile):
         """
         Streams documents from an articles.sqlite file. This method is a generator and will yield a row at time.
 
         Args:
             dbfile: input SQLite file
-            tokenize: if documents should be tokenized
         """
 
         # Connection to database file
@@ -35,7 +34,7 @@ class Index(object):
         count = 0
         for row in cur:
             # Tokenize text
-            tokens = Tokenizer.tokenize(row[1]) if tokenize else row[1]
+            tokens = Tokenizer.tokenize(row[1])
 
             document = (row[0], tokens, None)
 
@@ -71,10 +70,10 @@ class Index(object):
 
         # Build scoring index if scoring method provided
         if embeddings.config["scoring"]:
-            embeddings.score(Index.stream(dbfile, True))
+            embeddings.score(Index.stream(dbfile))
 
         # Build embeddings index
-        embeddings.index(Index.stream(dbfile, False))
+        embeddings.index(Index.stream(dbfile))
 
         return embeddings
 
