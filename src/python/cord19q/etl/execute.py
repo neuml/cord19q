@@ -258,7 +258,7 @@ class Execute(object):
 
         # Keyword patterns to search for
         keywords = [r"2019[\-\s]?n\s?cov", "2019 novel coronavirus", r"coronavirus 2019", r"coronavirus disease (?:20)?19",
-                    r"covid(?:[\- ]19)?", r"n\s?cov 2019", "sars-cov-2", r"wuhan (?:coronavirus|pneumonia)"]
+                    r"covid(?:[\-\s]?19)?", r"n\s?cov 2019", "sars-cov-2", r"wuhan (?:coronavirus|pneumonia)"]
 
         # Build regular expression for each keyword. Wrap term in word boundaries
         regex = "|".join(["\\b%s\\b" % keyword.lower() for keyword in keywords])
