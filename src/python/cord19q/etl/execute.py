@@ -9,6 +9,7 @@ import os.path
 import re
 import sqlite3
 
+from collections import Counter
 from multiprocessing import Pool
 
 from dateutil import parser
@@ -51,7 +52,7 @@ class Execute(object):
         'Authors': 'TEXT',
         'Title': 'TEXT',
         'Tags': 'TEXT',
-        'LOE': 'INTEGER',
+        'Design': 'INTEGER',
         'Keywords': 'TEXT',
         'Sample': 'TEXT',
         'Reference': 'TEXT'
@@ -65,6 +66,12 @@ class Execute(object):
         'Text': 'TEXT',
         'Tags': 'TEXT',
         'Labels': 'TEXT'
+    }
+
+    # Citations schema
+    CITATIONS = {
+        'Title': 'TEXT PRIMARY KEY',
+        'Mentions': 'INTEGER'
     }
 
     # SQL statements
@@ -105,6 +112,9 @@ class Execute(object):
 
         # Create sections table
         Execute.create(db, Execute.SECTIONS, "sections")
+
+        # Create citations table
+        Execute.create(db, Execute.CITATIONS, "citations")
 
         return db
 
@@ -194,7 +204,7 @@ class Execute(object):
             row: input row
 
         Returns:
-            sha1 hash ids
+            sha1 hash id
         """
 
         # Use sha1 provided, if available
@@ -262,15 +272,16 @@ class Execute(object):
         return tags
 
     @staticmethod
-    def filtered(sections):
+    def filtered(sections, citations):
         """
-        Returns a filtered list of text sections. Duplicate and boilerplate text strings are removed.
+        Returns a filtered list of text sections and citations. Duplicate and boilerplate text strings are removed.
 
         Args:
             sections: input sections
+            citations: input citations
 
         Returns:
-            filtered list of sections
+            filtered list of sections, citations
         """
 
         # Use list to preserve insertion order
@@ -286,7 +297,27 @@ class Execute(object):
                 unique.append((name, text))
                 keys.add(text)
 
-        return unique
+        return unique, list(set(citations))
+
+    @staticmethod
+    def files(row, uids):
+        """
+        Build a list of json file locations and names to parse.
+
+        Args:
+            row: input row
+            uids: list of sha1 ids
+
+        Returns:
+            list of (directory, file name)
+        """
+
+        # Parse both PMC and PDF json if available, sections will be de-duplicated
+        paths = [("pdf_json", uid + ".json") for uid in uids]
+        if row["has_pmc_xml_parse"].lower() == "true":
+            paths.append(("pmc_json", row["pmcid"] + ".xml.json"))
+
+        return paths
 
     @staticmethod
     def getSections(row, directory):
@@ -302,13 +333,11 @@ class Execute(object):
         """
 
         sections = []
+        citations = []
 
         # Get ids and subset
         uids = row["sha"].split("; ") if row["sha"] else None
         subset = row["full_text_file"]
-
-        # Determine file location based on parse type
-        location = "pdf_json" if row["has_pdf_parse"] else "pmc_json"
 
         # Add title and abstract sections
         for name in ["title", "abstract"]:
@@ -321,9 +350,9 @@ class Execute(object):
                 sections.extend([(name.upper(), x) for x in sent_tokenize(text)])
 
         if uids and subset:
-            for uid in uids:
+            for location, filename in Execute.files(row, uids):
                 # Build article path. Path has subset directory twice.
-                article = os.path.join(directory, subset, subset, location, uid + ".json")
+                article = os.path.join(directory, subset, subset, location, filename)
 
                 try:
                     with open(article) as jfile:
@@ -337,12 +366,15 @@ class Execute(object):
                             # Split text into sentences and add to sections
                             sections.extend([(name, x) for x in sent_tokenize(section["text"])])
 
+                        # Extract text from each citation
+                        citations.extend([entry["title"] for entry in data["bib_entries"].values()])
+
                 # pylint: disable=W0703
                 except Exception as ex:
                     print("Error processing text file: {}".format(article), ex)
 
         # Filter sections and return
-        return Execute.filtered(sections)
+        return Execute.filtered(sections, citations)
 
     @staticmethod
     def stream(directory):
@@ -382,7 +414,7 @@ class Execute(object):
         date = Execute.getDate(row)
 
         # Get text sections
-        sections = Execute.getSections(row, directory)
+        sections, citations = Execute.getSections(row, directory)
 
         # Get tags
         tags = Execute.getTags(sections)
@@ -392,21 +424,24 @@ class Execute(object):
             sections = [(name, text, grammar.parse(text)) for name, text in sections]
 
             # Derive metadata fields
-            loe, keywords, sample = Metadata.parse(sections)
+            design, keywords, sample = Metadata.parse(sections)
 
             # Build labels column
             sections = [(name, text, grammar.label(tokens)) for name, text, tokens in sections]
         else:
             # Untagged section, create None default placeholders
-            loe, keywords, sample = None, None, None
+            design, keywords, sample = None, None, None
 
             # Extend sections with None columns
             sections = [(name, text, None) for name, text in sections]
 
-        # Article row - id, source, published, publication, authors, title, tags, reference
-        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, loe, keywords, sample, row["url"])
+            # Clear citations when not a tagged entry
+            citations = None
 
-        return (uid, article, sections, tags)
+        # Article row - id, source, published, publication, authors, title, tags, reference
+        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, design, keywords, sample, row["url"])
+
+        return (uid, article, sections, tags, citations)
 
     @staticmethod
     def run(directory, output):
@@ -429,12 +464,15 @@ class Execute(object):
 
         # List of processed ids
         ids = set()
+        citations = Counter()
 
         with Pool(os.cpu_count()) as pool:
-            for uid, article, sections, tags in pool.imap(Execute.process, Execute.stream(directory)):
+            for uid, article, sections, tags, cite in pool.imap(Execute.process, Execute.stream(directory)):
                 # Skip rows with ids that have already been processed
                 if uid not in ids:
                     Execute.insert(db, Execute.ARTICLES, "articles", article)
+
+                    citations.update(cite)
 
                     # Increment number of articles processed
                     aindex += 1
@@ -448,6 +486,9 @@ class Execute(object):
 
                     # Store article id as processed
                     ids.add(uid)
+
+        for citation in citations.items():
+            Execute.insert(db, Execute.CITATIONS, "citations", citation)
 
         print("Total articles inserted: {}".format(aindex))
 

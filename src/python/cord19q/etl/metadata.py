@@ -8,7 +8,7 @@ https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/discuss
 https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/discussion/140185
 """
 
-from .loe import LOE
+from .design import Design
 from .sample import Sample
 
 class Metadata(object):
@@ -28,10 +28,10 @@ class Metadata(object):
             metadata fields as tuple
         """
 
-        # Level of Evidence
-        loe, keywords = LOE.label(sections)
+        # Study design type
+        design, keywords = Design.label(sections)
 
         # Extract best candidate sentence with study sample
-        sample = Sample.extract(sections, loe)
+        sample = Sample.extract(sections, design)
 
-        return (loe, keywords, sample)
+        return (design, keywords, sample)

@@ -2,7 +2,7 @@
 Sample module
 """
 
-from .loe import LOE
+from .design import Design
 
 class Sample(object):
     """
@@ -20,25 +20,27 @@ class Sample(object):
                 5: CASES,
                 6: CASES,
                 7: CASES,
-                8: BASE}
+                8: CASES,
+                9: CASES,
+                10: BASE}
 
     @staticmethod
-    def extract(sections, loe):
+    def extract(sections, design):
         """
         Attempts to extract the sample size for a given full-text document.
 
         Args:
             sections: list of sections
-            loe: level of evidence for the study
+            design: study design type
         """
 
-        if loe in Sample.KEYWORDS:
-            keywords = Sample.KEYWORDS[loe]
+        if design in Sample.KEYWORDS:
+            keywords = Sample.KEYWORDS[design]
 
             # Process full-text only if text meets certain criteria
-            if LOE.accept(sections):
+            if Design.accept(sections):
                 # Score each section - filter to allowed sections
-                scores = [(text, Sample.score(tokens, keywords)) for name, text, tokens in sections if not name or LOE.filter(name.lower())]
+                scores = [(text, Sample.score(tokens, keywords)) for name, text, tokens in sections if not name or Design.filter(name.lower())]
 
                 # Filter to sections with a score > 0
                 scores = [(text, score) for text, score in scores if score > 0]
@@ -65,7 +67,7 @@ class Sample(object):
         score = sum([Sample.match(token, keywords) for token in tokens])
         if score:
             # Score action words
-            actions = ["analyze", "collect", "include", "obtain", "review", "study"]
+            actions = ["analyze", "collect", "enroll", "include", "obtain", "recruit", "review", "study"]
             score += sum([sum([1 if action in token.text.lower() else 0 for action in actions]) for token in tokens])
 
         return score

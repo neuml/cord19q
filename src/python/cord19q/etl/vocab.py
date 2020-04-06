@@ -9,41 +9,58 @@ class Vocab(object):
     Defines vocabulary terms for studies.
     """
 
-    # Level of Evidence vocabulary and keywords
-    SYSTEMATIC_REVIEW = ["systematic review", "meta-analysis", "pooled odds ratio", "Cohen's d", "difference in means", "difference between means",
-                         "d-pooled", "pooled adjusted odds ratio", "pooled or", "pooled aor", "pooled risk ratio", "pooled rr",
-                         "pooled relative risk", "cochrane review", "prisma", "cohen's kappa", "databases searched"]
+    # Generic definitions
+    GENERIC_CASE = ["chart review", "ehr", r"(?:electronic )?health records", r"(?:electronic )?medical records", "etiology", "exposure status",
+                    "risk factor analysis", "risk factors"]
 
-    RANDOMIZED_CONTROL_TRIAL = ["treatment arm", "placebo", "blind", "double-blind", "control arm", "rct", "randomized", "treatment effect",
-                                "randomization method", "randomized controlled trial", "randomized clinical trial", "randomised",
-                                "randomisation", "consort"]
+    GENERIC_COHORT = ["cohort", "followed", "loss to follow-up", "patients", "subjects"]
 
-    PSEUDO_RANDOMIZED_CONTROL_TRIAL = ["quasi-randomized", "pseudo-randomized", "non-randomized", "quasi-randomised", "pseudo-randomised",
-                                       "non-randomised", "control arm", "treatment arm", "placebo", "blind", "double-blind", "treatment effect",
-                                       "allocation method"]
+    GENERIC_STATS = ["adjusted odds ratio", "aor", "log odds", "logistic regression", "odds ratio"]
 
-    GENERIC_L3 = ["risk factor analysis", "risk factors", "etiology", "logistic regression", "odds ratio", "adjusted odds ratio", "aor",
-                  "log odds", "exposure status", "electronic medical records", "chart review", "medical records review"]
+    # Systematic Review / Meta-Analysis
+    SYSTEMATIC_REVIEW = ["cohen's d", "cochrane review", "cohen's kappa", r"database(?:s)? search(?:ed)?", "difference between means", "d-pooled",
+                         "difference in means", "electronic search", "heterogeneity", "pooled relative risk", "meta-analysis",
+                         "pooled adjusted odds ratio", "pooled aor", "pooled odds ratio", "pooled or", "pooled risk ratio", "pooled rr",
+                         "prisma", "search criteria", "search strategy", "search string", "systematic review"]
 
-    RETROSPECTIVE_COHORT = ["cohort", "retrospective cohort", "retrospective chart review", "data collection instrument", "eligibility criteria",
-                            "recruitment", "potential confounders", "data abstraction forms", "inter-rater reliability", "cohen's kappa"]
+    # Experimental Studies
+    RANDOMIZED = ["blind", "consort", "control arm", "double-blind", "placebo", "randomisation", "randomised", "randomization method", "randomized",
+                  "randomized clinical trial", "randomized controlled trial", "rct", "treatment arm", "treatment effect"]
 
-    GENERIC_CASE_CONTROL = ["data collection instrument", "survey instrument", "response rate", "questionnaire development",
-                            "psychometric evaluation of instrument", "eligibility criteria", "recruitment", "potential confounders",
-                            "non-response bias"]
+    NON_RANDOMIZED = ["allocation method", "blind", "control arm", "double-blind", "non-randomised", "non-randomized", "placebo", "pseudo-randomised",
+                      "pseudo-randomized", "quasi-randomised", "quasi-randomized", "treatment arm", "treatment effect"]
 
-    MATCHED_CASE_CONTROL = ["cohort", r"match(?:ed|ing)? case", r"match(?:ed|ing)? criteria", "number of controls per case"]
+    # Prospective Studies
+    TIME_SERIES = ["adjusted hazard ratio", "censoring", "confounding", "covariates", "cox proportional hazards", "demographics",
+                   r"enroll(?:ed|ment)?", "eligibility criteria", "etiology", "gamma", "hazard ratio", "kaplan-meier", "lognormal",
+                   "longitudinal", "median time to event", "non-comparative study", "potential confounders", r"recruit(?:ed|ment)?",
+                   "right-censored", "survival analysis", "time-to-event analysis", r"time[-\s]series", r"time[-\s]varying", "truncated",
+                   "weibull"]
 
-    CROSS_SECTIONAL_CASE_CONTROL = [r"cross[\-\s]?sectional", "prevalence survey"]
+    PROSPECTIVE_COHORT = ["baseline", r"prospective(?:ly)?", "prospective cohort", "relative risk", "risk ratio", "rr"]
+    PROSPECTIVE_COHORT += GENERIC_COHORT + GENERIC_STATS + TIME_SERIES
 
-    TIME_SERIES_ANALYSIS = [r"time[-\s]?series", "survival analysis", "time-to-event analysis", "weibull", "gamma", "lognormal", "kaplan-meier",
-                            "hazard ratio", "cox proportional hazards", "etiology", "median time to event", "cohort", "censoring", "truncated",
-                            "right-censored", "non-comparative study", "longitudinal", "eligibility criteria", "recruitment", "potential confounders"]
+    ECOLOGICAL_REGRESSION = [r"correlation(?:s)?", "per capita", "r-squared"]
+    ECOLOGICAL_REGRESSION += TIME_SERIES
 
-    PREVALENCE_STUDY = ["prevalence", "syndromic surveillance", "surveillance", "registry data", "frequency", "risk factors", "etiology",
-                        "cross-sectional survey", "logistic regression", "odds ratio", "log odds", "adjusted odds ratio", "aor",
-                        "data collection instrument", "survey instrument", "random sample", "response rate", "questionnaire development",
-                        "psychometric evaluation of instrument", "eligibility criteria", "recruitment", "potential confounders"]
+    # Retrospective Studies
+    RETROSPECTIVE_COHORT = ["cohen's kappa", "data abstraction forms", "data collection instrument", "eligibility criteria",
+                            "inter-rater reliability", "potential confounders", "retrospective", "retrospective chart review",
+                            "retrospective cohort"]
+    RETROSPECTIVE_COHORT += GENERIC_CASE + GENERIC_COHORT + GENERIC_STATS
 
-    COMPUTER_MODEL = ["mathematical model", "mathematical modeling", "computer model", "computer modeling", "model simulation",
-                      "forecast", "forecasting"]
+    CASE_CONTROL = ["case-control", "data collection instrument", "eligibility criteria", r"match(?:ed|ing)? case", r"match(?:ed|ing)? criteria",
+                    "number of controls per case", "non-response bias", "potential confounders", "psychometric evaluation of instrument",
+                    "questionnaire development", "response rate", "survey instrument"]
+    CASE_CONTROL += GENERIC_CASE + GENERIC_STATS
+
+    CROSS_SECTIONAL = [r"cross[\-\s]sectional", "prevalence survey"]
+    CROSS_SECTIONAL += CASE_CONTROL
+
+    # Case Studies
+    CASE_STUDY = ["case report", "case series", "etiology", "frequency", "risk factors"]
+
+    # Model Simulations
+    SIMULATION = ["bootstrap", r"computer model(?:ing)?", r"forecast(?:ing)?", r"mathematical model(?:ing)?", "model simulation",
+                  "monte carlo", r"simulat(?:e|ed|ion)", "synthetic", r"synthetic data(?:set(?:s)?)?"]
+    SIMULATION += GENERIC_STATS

@@ -127,7 +127,7 @@ class Report(object):
             self.section(output, "Articles")
 
             # Generate table headers
-            self.headers(output, ["Date", "Authors", "Title", "LOE & Sample", "Matches"])
+            self.headers(output, ["Date", "Authors", "Title", "Study Design", "Matches"])
 
             # Generate table rows
             self.articles(output, results)
@@ -172,7 +172,7 @@ class Report(object):
 
         for uid in documents:
             # Get article metadata
-            self.cur.execute("SELECT Published, Authors, Title, Reference, Publication, Source, LOE, Sample from articles where id = ?", [uid])
+            self.cur.execute("SELECT Published, Authors, Title, Reference, Publication, Source, Design, Sample from articles where id = ?", [uid])
             article = self.cur.fetchone()
 
             # Builds a row for article
@@ -351,7 +351,7 @@ class Markdown(Report):
         columns.append(title)
 
         # Study Design
-        columns.append("%s" % Query.loe(article[6]) + ("<br/><br/>" + Query.text(article[7]) if article[7] else ""))
+        columns.append("%s" % Query.design(article[6]) + ("<br/><br/>" + Query.text(article[7]) if article[7] else ""))
 
         # Top Matches
         columns.append("<br/><br/>".join([Query.text(text) for _, text in sections]))
@@ -535,7 +535,7 @@ class XLSX(Report):
         columns.append((article[3], title))
 
         # Study Design
-        columns.append("%s" % Query.loe(article[6]) + ("\n\n" + Query.text(article[7]) if article[7] else ""))
+        columns.append("%s" % Query.design(article[6]) + ("\n\n" + Query.text(article[7]) if article[7] else ""))
 
         # Top Matches
         columns.append("\n\n".join([Query.text(text) for _, text in sections]))

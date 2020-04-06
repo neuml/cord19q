@@ -231,22 +231,23 @@ class Query(object):
         return text
 
     @staticmethod
-    def loe(loe):
+    def design(design):
         """
-        Formats a level of evidence field.
+        Formats a study design field.
 
         Args:
-           loe: level of evidence integer
+            design: study design integer
 
         Returns:
-            LOE string
+            Study Design string
         """
 
-        mapping = {0:"IV. Other", 1:"I. Systematic Review", 2:"II. Randomized Controlled Trial", 3:"III-1. Pseudo-Randomized Controlled Trial",
-                   4:"III-2. Retrospective Cohort", 5:"III-2. Matched Case Control", 6:"III-2. Cross Sectional Control",
-                   7:"III-3. Time Series Analysis", 8:"IV. Prevalence Study", 9:"IV. Computer Model"}
+        # Study design type mapping
+        mapping = {0:"Unknown Design", 1:"Systematic Review", 2:"Experimental Study (Randomized)", 3:"Experimental Study (Non-Randomized)",
+                   4:"Ecological Regression", 5:"Prospective Cohort", 6:"Time Series Analysis", 7:"Retrospective Cohort",
+                   8:"Cross Sectional Case Control", 9:"Case Control", 10: "Case Study", 11:"Simulation"}
 
-        return mapping[loe]
+        return mapping[design]
 
     @staticmethod
     def query(embeddings, db, query, topn):
@@ -284,14 +285,14 @@ class Query(object):
 
         # Print each result, sorted by max score descending
         for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
-            cur.execute("SELECT Title, Authors, Published, Publication, LOE, Sample, Id, Reference from articles where id = ?", [uid])
+            cur.execute("SELECT Title, Authors, Published, Publication, Design, Sample, Id, Reference from articles where id = ?", [uid])
             article = cur.fetchone()
 
             print("Title: %s" % article[0])
             print("Authors: %s" % Query.authors(article[1]))
             print("Published: %s" % Query.date(article[2]))
             print("Publication: %s" % article[3])
-            print("Level of Evidence: %s" % Query.loe(article[4]))
+            print("Study Design: %s" % Query.design(article[4]))
             print("Sample: %s" % article[5])
             print("Id: %s" % article[6])
             print("Reference: %s" % article[7])
