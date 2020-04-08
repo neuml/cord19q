@@ -15,25 +15,22 @@ class Grammar(object):
 
     def parse(self, text):
         """
-        Parses text to NLP tokens.
+        Parses list of text elements to NLP tokens.
 
         Args:
-            text: input text
+            text: list of text elements
 
         Returns:
-            tokens
+            tokenslist - list of token lists
         """
 
-        tokens = None
+        results = None
 
         if text:
             # Run text through linguistic rules
-            tokens = self.nlp(text)
+            results = [self.applyRules(tokens) for tokens in self.nlp.pipe(text)]
 
-            # Apply custom rules to token list
-            tokens = self.applyRules(tokens)
-
-        return tokens
+        return results
 
     def label(self, tokens):
         """

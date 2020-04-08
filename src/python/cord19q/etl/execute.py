@@ -257,8 +257,8 @@ class Execute(object):
         """
 
         # Keyword patterns to search for
-        keywords = [r"2019[\-\s]?n\s?cov", "2019 novel coronavirus", r"coronavirus 2019", r"coronavirus disease (?:20)?19",
-                    r"covid(?:[\-\s]?19)?", r"n\s?cov 2019", "sars-cov-2", r"wuhan (?:coronavirus|pneumonia)"]
+        keywords = [r"2019[\-\s]?n[\-\s]?cov", "2019 novel coronavirus", "coronavirus 2019", r"coronavirus disease (?:20)?19",
+                    r"covid(?:[\-\s]?19)?", r"n\s?cov[\-\s]?2019", r"sars-cov-?2", r"wuhan (?:coronavirus|cov|pneumonia)"]
 
         # Build regular expression for each keyword. Wrap term in word boundaries
         regex = "|".join(["\\b%s\\b" % keyword.lower() for keyword in keywords])
@@ -360,11 +360,12 @@ class Execute(object):
 
                         # Extract text from each section
                         for section in data["body_text"]:
-                            # Section name
+                            # Section name and text
                             name = section["section"].upper() if len(section["section"].strip()) > 0 else None
+                            text = section["text"].replace("\n", " ")
 
                             # Split text into sentences and add to sections
-                            sections.extend([(name, x) for x in sent_tokenize(section["text"])])
+                            sections.extend([(name, x) for x in sent_tokenize(text)])
 
                         # Extract text from each citation
                         citations.extend([entry["title"] for entry in data["bib_entries"].values()])
@@ -420,8 +421,11 @@ class Execute(object):
         tags = Execute.getTags(sections)
 
         if tags:
-            # Convert text to NLP token list
-            sections = [(name, text, grammar.parse(text)) for name, text in sections]
+            # Build NLP tokens for sections
+            tokenslist = grammar.parse([text for _, text in sections])
+
+            # Join NLP tokens with sections
+            sections = [(name, text, tokenslist[x]) for x, (name, text) in enumerate(sections)]
 
             # Derive metadata fields
             design, keywords, sample = Metadata.parse(sections)
