@@ -1,6 +1,6 @@
 Range of incubation periods
 Incubation period across different age groups
-Incubation period across different health stats
+Incubation period by health condition
 How long individuals are contagious, even after recovery.
 Prevalence of asymptomatic shedding and transmission (e.g., particularly children).
 Seasonality of transmission.
