@@ -7,7 +7,7 @@ Stroke
 Cancer
 Respiratory disease
 Chronic respiratory disease
-Chronic kidney disease
-Chronic liver disease
-Drinking
+Kidney disease
+Liver disease
+Alcohol Abuse
 Tuberculosis
