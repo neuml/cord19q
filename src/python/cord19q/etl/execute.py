@@ -17,6 +17,7 @@ from nltk.tokenize import sent_tokenize
 
 from .grammar import Grammar
 from .metadata import Metadata
+from .schema import Schema
 
 # Global helper for multi-processing support
 # pylint: disable=W0603
@@ -42,37 +43,6 @@ class Execute(object):
     """
     Transforms raw csv and json files into an articles.sqlite SQLite database.
     """
-
-    # Articles schema
-    ARTICLES = {
-        'Id': 'TEXT PRIMARY KEY',
-        'Source': 'TEXT',
-        'Published': 'DATETIME',
-        'Publication': "TEXT",
-        'Authors': 'TEXT',
-        'Title': 'TEXT',
-        'Tags': 'TEXT',
-        'Design': 'INTEGER',
-        'Keywords': 'TEXT',
-        'Sample': 'TEXT',
-        'Reference': 'TEXT'
-    }
-
-    # Sections schema
-    SECTIONS = {
-        'Id': 'INTEGER PRIMARY KEY',
-        'Article': 'TEXT',
-        'Name': 'TEXT',
-        'Text': 'TEXT',
-        'Tags': 'TEXT',
-        'Labels': 'TEXT'
-    }
-
-    # Citations schema
-    CITATIONS = {
-        'Title': 'TEXT PRIMARY KEY',
-        'Mentions': 'INTEGER'
-    }
 
     # SQL statements
     CREATE_TABLE = "CREATE TABLE IF NOT EXISTS {table} ({fields})"
@@ -108,13 +78,16 @@ class Execute(object):
         db = sqlite3.connect(dbfile)
 
         # Create articles table
-        Execute.create(db, Execute.ARTICLES, "articles")
+        Execute.create(db, Schema.ARTICLES, "articles")
 
         # Create sections table
-        Execute.create(db, Execute.SECTIONS, "sections")
+        Execute.create(db, Schema.SECTIONS, "sections")
+
+        # Create stats table
+        Execute.create(db, Schema.STATS, "stats")
 
         # Create citations table
-        Execute.create(db, Execute.CITATIONS, "citations")
+        Execute.create(db, Schema.CITATIONS, "citations")
 
         return db
 
@@ -428,24 +401,26 @@ class Execute(object):
             sections = [(name, text, tokenslist[x]) for x, (name, text) in enumerate(sections)]
 
             # Derive metadata fields
-            design, keywords, sample = Metadata.parse(sections)
+            design, keywords, size, sample, method, labels, risks = Metadata.parse(sections)
 
-            # Build labels column
-            sections = [(name, text, grammar.label(tokens)) for name, text, tokens in sections]
+            # Add additional fields to each section
+            sections = [(name, text, labels[x] if labels[x] else grammar.label(tokens), risks[x]) for x, (name, text, tokens) in enumerate(sections)]
         else:
             # Untagged section, create None default placeholders
-            design, keywords, sample = None, None, None
+            design, keywords, size, sample, method = None, None, None, None, None
 
-            # Extend sections with None columns
-            sections = [(name, text, None) for name, text in sections]
+            # Extend sections with empty columns
+            sections = [(name, text, None, []) for name, text in sections]
 
             # Clear citations when not a tagged entry
             citations = None
 
-        # Article row - id, source, published, publication, authors, title, tags, reference
-        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, design, keywords, sample, row["url"])
+        # Article row - id, source, published, publication, authors, title, tags, design, keywords, sample size
+        #               sample section, samplemethod, reference
+        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, design, keywords, size,
+                   sample, method, row["url"])
 
-        return (uid, article, sections, tags, citations)
+        return (uid, article, sections, tags, design, citations)
 
     @staticmethod
     def run(directory, output):
@@ -462,19 +437,20 @@ class Execute(object):
         # Initialize database
         db = Execute.init(output)
 
-        # Article and section indices
+        # Article, section, stats indices
         aindex = 0
         sindex = 0
+        tindex = 0
 
         # List of processed ids
         ids = set()
         citations = Counter()
 
         with Pool(os.cpu_count()) as pool:
-            for uid, article, sections, tags, cite in pool.imap(Execute.process, Execute.stream(directory)):
+            for uid, article, sections, tags, design, cite in pool.imap(Execute.process, Execute.stream(directory)):
                 # Skip rows with ids that have already been processed
                 if uid not in ids:
-                    Execute.insert(db, Execute.ARTICLES, "articles", article)
+                    Execute.insert(db, Schema.ARTICLES, "articles", article)
 
                     citations.update(cite)
 
@@ -483,16 +459,22 @@ class Execute(object):
                     if aindex % 1000 == 0:
                         print("Inserted {} articles".format(aindex))
 
-                    for name, text, labels in sections:
-                        # Section row - id, article, name, text, tags, labels
-                        Execute.insert(db, Execute.SECTIONS, "sections", (sindex, uid, name, text, tags, labels))
+                    for name, text, labels, stats in sections:
+                        # Section row - id, article, tags, design, name, text, labels
+                        Execute.insert(db, Schema.SECTIONS, "sections", (sindex, uid, tags, design, name, text, labels))
+
+                        for name, value in stats:
+                            # Stats row - id, article, section, name, value
+                            Execute.insert(db, Schema.STATS, "stats", (tindex, uid, sindex, name, value))
+                            tindex += 1
+
                         sindex += 1
 
                     # Store article id as processed
                     ids.add(uid)
 
         for citation in citations.items():
-            Execute.insert(db, Execute.CITATIONS, "citations", citation)
+            Execute.insert(db, Schema.CITATIONS, "citations", citation)
 
         print("Total articles inserted: {}".format(aindex))
 

@@ -103,8 +103,9 @@ class Query(object):
         query = Tokenizer.tokenize(query)
 
         for uid, score in embeddings.search(query, topn):
-            cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
-            results.append((uid, score) + cur.fetchone())
+            if score >= 0.55:
+                cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
+                results.append((uid, score) + cur.fetchone())
 
         return results
 
@@ -215,18 +216,19 @@ class Query(object):
             formatted text
         """
 
-        # Remove reference links ([1], [2], etc)
-        text = re.sub(r"\s*[\[(][0-9, ]+[\])]\s*", " ", text)
+        if text:
+            # Remove reference links ([1], [2], etc)
+            text = re.sub(r"\s*[\[(][0-9, ]+[\])]\s*", " ", text)
 
-        # Remove •
-        text = text.replace("•", "")
+            # Remove •
+            text = text.replace("•", "")
 
-        # Remove http links
-        text = re.sub(r"http.+?\s", " ", text)
+            # Remove http links
+            text = re.sub(r"http.+?\s", " ", text)
 
-        # Remove boilerplate text
-        text = re.sub(r"doi\s?:\s?(bioRxiv|medRxiv) preprint", " ", text)
-        text = text.replace("All Rights Reserved", " ")
+            # Remove boilerplate text
+            text = re.sub(r"doi\s?:\s?(bioRxiv|medRxiv) preprint", " ", text)
+            text = text.replace("All Rights Reserved", " ")
 
         return text
 
@@ -243,11 +245,44 @@ class Query(object):
         """
 
         # Study design type mapping
-        mapping = {0:"Unknown Design", 1:"Systematic Review", 2:"Experimental Study (Randomized)", 3:"Experimental Study (Non-Randomized)",
+        mapping = {0:"Unknown", 1:"Systematic Review", 2:"Experimental Study (Randomized)", 3:"Experimental Study (Non-Randomized)",
                    4:"Ecological Regression", 5:"Prospective Cohort", 6:"Time Series Analysis", 7:"Retrospective Cohort",
                    8:"Cross Sectional Case Control", 9:"Case Control", 10: "Case Study", 11:"Simulation"}
 
         return mapping[design]
+
+    @staticmethod
+    def sample(size, text):
+        """
+        Formats a sample string.
+
+        Args:
+            size: Sample size
+            text: Sample text
+
+        Returns:
+            Formatted sample text
+        """
+
+        return "[%s] %s" % (size, Query.text(text)) if size else Query.text(text)
+
+    @staticmethod
+    def stat(cur, article, name):
+        """
+        Looks up the named stat for an article.
+
+        Args:
+            article: article id
+            name: stat name
+
+        Returns:
+            stat string if found
+        """
+
+        name = "%" + name + "%"
+        cur.execute("SELECT Value FROM stats WHERE article = ? AND (name LIKE ? or value LIKE ?)", [article, name, name])
+        stat = cur.fetchone()
+        return stat[0] if stat else None
 
     @staticmethod
     def query(embeddings, db, query, topn):
@@ -285,17 +320,18 @@ class Query(object):
 
         # Print each result, sorted by max score descending
         for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
-            cur.execute("SELECT Title, Authors, Published, Publication, Design, Sample, Id, Reference from articles where id = ?", [uid])
+            cur.execute("SELECT Title, Published, Publication, Design, Size, Sample, Method, Id, Reference FROM articles WHERE id = ?", [uid])
             article = cur.fetchone()
 
             print("Title: %s" % article[0])
-            print("Authors: %s" % Query.authors(article[1]))
-            print("Published: %s" % Query.date(article[2]))
-            print("Publication: %s" % article[3])
-            print("Study Design: %s" % Query.design(article[4]))
-            print("Sample: %s" % article[5])
-            print("Id: %s" % article[6])
-            print("Reference: %s" % article[7])
+            print("Published: %s" % Query.date(article[1]))
+            print("Publication: %s" % article[2])
+            print("Design: %s" % Query.design(article[3]))
+            print("Severity: %s" % Query.stat(cur, article[6], query))
+            print("Sample: %s" % Query.sample(article[4], article[5]))
+            print("Method: %s" % Query.text(article[6]))
+            print("Id: %s" % article[7])
+            print("Reference: %s" % article[8])
 
             # Print top matches
             for score, text in documents[uid]:

@@ -169,9 +169,9 @@ class Design(object):
             True if section should be analyzed, False otherwise
         """
 
-        # Skip introduction, background and references sections
+        # Skip background, introduction and reference sections
         # Skip discussion unless it's a results and discussion
-        return not re.search(r"introduction|(?<!.*?results.*?)discussion|background|reference", name)
+        return not re.search(r"background|(?<!.*?results.*?)discussion|introduction|reference", name)
 
     @staticmethod
     def evaluate(text):

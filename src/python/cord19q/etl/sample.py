@@ -2,6 +2,8 @@
 Sample module
 """
 
+from word2number import w2n
+
 from .design import Design
 
 class Sample(object):
@@ -13,16 +15,19 @@ class Sample(object):
     CASES = ["cases", "sequences"] + BASE
     TRIALS = ["trials", "participants", "patients", "total"]
 
-    KEYWORDS = {1: ["studies", "articles", "total"],
+    KEYWORDS = {1: ["studies", "articles", "publications", "total"],
                 2: TRIALS,
                 3: TRIALS,
                 4: CASES,
-                5: CASES,
+                5: BASE,
                 6: CASES,
-                7: CASES,
+                7: BASE,
                 8: CASES,
                 9: CASES,
                 10: BASE}
+
+    SIZE_ACTIONS = ["analyze", "collect", "enroll", "include", "observe", "obtain", "recruit", "results", "review", "study", "studied"]
+    METHOD_ACTIONS = ["collect", "enroll", "include", "method", "observe", "obtain", "recruit"]
 
     @staticmethod
     def extract(sections, design):
@@ -32,6 +37,9 @@ class Sample(object):
         Args:
             sections: list of sections
             design: study design type
+
+        Returns:
+            (sample size, sample section, sample method)
         """
 
         if design in Sample.KEYWORDS:
@@ -39,19 +47,60 @@ class Sample(object):
 
             # Process full-text only if text meets certain criteria
             if Design.accept(sections):
-                # Score each section - filter to allowed sections
-                scores = [(text, Sample.score(tokens, keywords)) for name, text, tokens in sections if not name or Design.filter(name.lower())]
+                size = Sample.size(sections, keywords)
+                method = Sample.method(sections)
 
-                # Filter to sections with a score > 0
-                scores = [(text, score) for text, score in scores if score > 0]
+                return size + method
 
-                # Return top scored section
-                return sorted(scores, key=lambda x: x[1], reverse=True)[0][0] if scores else None
-
-        return None
+        return (None, None, None)
 
     @staticmethod
-    def score(tokens, keywords):
+    def size(sections, keywords):
+        """
+        Extracts a sample size string and sample section
+
+        Args:
+            sections: input sections
+            keywords: list of keywords to search
+
+        Returns:
+            (sample size, sample section)
+        """
+
+        # Score each section - filter to allowed sections
+        scores = [Sample.score(tokens, keywords, Sample.SIZE_ACTIONS) + (text, ) \
+                 for name, text, tokens in sections if not name or Design.filter(name.lower())]
+
+        # Filter to sections with a score > 0
+        scores = [(score, sample, text) for score, sample, text in scores if score > 0]
+
+        # Return top scored section (sample size, sample section)
+        return sorted(scores, key=lambda x: x[0], reverse=True)[0][1:] if scores else (None, None)
+
+    @staticmethod
+    def method(sections):
+        """
+        Extracts a sample method section.
+
+        Args:
+            sections: input sections
+
+        Returns:
+            (sample method)
+        """
+
+        # Score each section - filter to allowed sections
+        scores = [Sample.score(tokens, None, Sample.METHOD_ACTIONS) + (text, ) \
+                 for name, text, tokens in sections if not name or Design.filter(name.lower())]
+
+        # Filter to sections with a score > 0
+        scores = [(score, sample, text) for score, sample, text in scores if score > 0 and len(text) >= 10]
+
+        # Return top scored section (method)
+        return sorted(scores, key=lambda x: x[0], reverse=True)[0][2:] if scores else (None, )
+
+    @staticmethod
+    def score(tokens, keywords, actions):
         """
         Scores keywords against tokens.
 
@@ -64,13 +113,19 @@ class Sample(object):
         """
 
         # Rate NLP tokens matches
-        score = sum([Sample.match(token, keywords) for token in tokens])
-        if score:
-            # Score action words
-            actions = ["analyze", "collect", "enroll", "include", "obtain", "recruit", "review", "study"]
+        if keywords:
+            # Extract matches and filter out empty results
+            matches = [Sample.match(token, keywords) for token in tokens]
+            matches = [match for match in matches if match]
+        else:
+            matches = False
+
+        score = 1 if matches else 0
+        if not keywords or score:
             score += sum([sum([1 if action in token.text.lower() else 0 for action in actions]) for token in tokens])
 
-        return score
+        # Return the score and sample size if any
+        return (score, matches[0][0] if matches else None)
 
     @staticmethod
     def match(token, keywords):
@@ -87,9 +142,9 @@ class Sample(object):
         """
 
         if token.text.lower() in keywords:
-            return len([c for c in token.children if Sample.isnumber(c)]) > 0
+            return [Sample.tonumber(c.text) for c in token.children if Sample.isnumber(c)]
 
-        return False
+        return None
 
     @staticmethod
     def isnumber(token):
@@ -108,3 +163,23 @@ class Sample(object):
         #  - Token DEP is in [amod, nummod]
         #  - None of the children are brackets (ignore citations [1], [2], etc)
         return (token.text.isdigit() or token.pos_ == "NUM") and token.dep_ in ["amod", "nummod"] and not any([c.text == "[" for c in token.children])
+
+    @staticmethod
+    def tonumber(token):
+        """
+        Attempts to convert a string to a number. Returns raw token if unsuccessful.
+
+        Args:
+            token: input token
+
+        Returns:
+            parsed token
+        """
+
+        try:
+            return "%d" % w2n.word_to_num(token.replace(",", ""))
+        # pylint: disable=W0702
+        except:
+            pass
+
+        return token

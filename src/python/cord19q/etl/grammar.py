@@ -11,7 +11,7 @@ class Grammar(object):
 
     def __init__(self):
         # spaCy NLP
-        self.nlp = spacy.load("en_core_sci_sm", disable=["ner"])
+        self.nlp = spacy.load("en_core_sci_md")
 
     def parse(self, text):
         """

@@ -127,10 +127,10 @@ class Report(object):
             self.section(output, "Articles")
 
             # Generate table headers
-            self.headers(output, ["Date", "Authors", "Title", "Study Design", "Matches"])
+            self.headers(output, ["Date", "Title", "Severe", "Fatality", "Design", "Sample", "Sampling Method", "Matches"])
 
             # Generate table rows
-            self.articles(output, results)
+            self.articles(output, query, results)
 
             # Write section separator
             self.separator(output)
@@ -149,18 +149,19 @@ class Report(object):
         for highlight in Query.highlights(results, topn):
             # Get matching article
             uid = [article for _, _, article, text in results if text == highlight][0]
-            self.cur.execute("SELECT Authors, Reference from articles where id = ?", [uid])
+            self.cur.execute("SELECT Authors, Reference FROM articles WHERE id = ?", [uid])
             article = self.cur.fetchone()
 
             # Write out highlight row
             self.highlight(output, article, highlight)
 
-    def articles(self, output, results):
+    def articles(self, output, query, results):
         """
         Builds an articles section.
 
         Args:
             output: output file
+            query: search query
             results: search results
         """
 
@@ -172,11 +173,15 @@ class Report(object):
 
         for uid in documents:
             # Get article metadata
-            self.cur.execute("SELECT Published, Authors, Title, Reference, Publication, Source, Design, Sample from articles where id = ?", [uid])
+            self.cur.execute("SELECT Published, Title, Reference, Publication, Source, Design, Size, Sample, Method " +
+                             "FROM articles WHERE id = ?", [uid])
             article = self.cur.fetchone()
 
+            # Lookup stat
+            stat = Query.stat(self.cur, uid, query)
+
             # Builds a row for article
-            rows.append(self.buildRow(article, documents[uid]))
+            rows.append(self.buildRow(article, stat, documents[uid]))
 
         # Print report by published asc
         for row in sorted(rows, key=lambda x: x[0]):
@@ -243,12 +248,13 @@ class Report(object):
             name: section name
         """
 
-    def buildRow(self, article, sections):
+    def buildRow(self, article, stat, sections):
         """
         Converts a document to a table row.
 
         Args:
             article: article
+            stat: top article statistic matching query
             sections: text sections for article
         """
 
@@ -332,26 +338,36 @@ class Markdown(Report):
         headers = "|".join(["----"] * len(names))
         self.write(output, "|%s|" % headers)
 
-    def buildRow(self, article, sections):
+    def buildRow(self, article, stat, sections):
         columns = []
 
         # Date
         columns.append(Query.date(article[0]) if article[0] else "")
 
-        # Authors
-        columns.append(Query.authors(article[1]) if article[1] else "")
-
         # Title
-        title = "[%s](%s)" % (article[2], self.encode(article[3]))
+        title = "[%s](%s)" % (article[1], self.encode(article[2]))
 
         # Append Publication if available. Assume preprint otherwise and show preprint source.
-        title += "<br/>%s" % (article[4] if article[4] else article[5])
+        title += "<br/>%s" % (article[3] if article[3] else article[4])
 
         # Title + Publication if available
         columns.append(title)
 
-        # Study Design
-        columns.append("%s" % Query.design(article[6]) + ("<br/><br/>" + Query.text(article[7]) if article[7] else ""))
+        # Severe
+        columns.append(stat if stat else "")
+
+        # Fatality
+        columns.append("")
+
+        # Design
+        columns.append(Query.design(article[5]))
+
+        # Sample Size
+        sample = Query.sample(article[6], article[7])
+        columns.append(sample if sample else "")
+
+        # Sampling Method
+        columns.append(Query.text(article[8]) if article[8] else "")
 
         # Top Matches
         columns.append("<br/><br/>".join([Query.text(text) for _, text in sections]))
@@ -494,7 +510,7 @@ class XLSX(Report):
         self.row = 0
 
         # Format size of columns
-        for column, width in enumerate([15, 15, 70, 70, 70]):
+        for column, width in enumerate([15, 50, 15, 15, 15, 8, 50, 70]):
             self.worksheet.set_column(column, column, width)
 
         # Write query to file
@@ -516,26 +532,35 @@ class XLSX(Report):
     def headers(self, output, names):
         self.write(names, "header")
 
-    def buildRow(self, article, sections):
+    def buildRow(self, article, stat, sections):
         columns = []
 
         # Date
         columns.append(Query.date(article[0]) if article[0] else "")
 
-        # Authors
-        columns.append(Query.authors(article[1]) if article[1] else "")
-
         # Title
-        title = article[2]
+        title = article[1]
 
         # Append Publication if available. Assume preprint otherwise and show preprint source.
-        title += " [%s]" % (article[4] if article[4] else article[5])
+        title += " [%s]" % (article[3] if article[3] else article[4])
 
         # Title + Publication if available
-        columns.append((article[3], title))
+        columns.append((article[2], title))
 
-        # Study Design
-        columns.append("%s" % Query.design(article[6]) + ("\n\n" + Query.text(article[7]) if article[7] else ""))
+        # Severe
+        columns.append(stat)
+
+        # Fatality
+        columns.append("")
+
+        # Design
+        columns.append(Query.design(article[5]))
+
+        # Sample Size
+        columns.append(Query.sample(article[6], article[7]))
+
+        # Sampling Method
+        columns.append(Query.text(article[8]))
 
         # Top Matches
         columns.append("\n\n".join([Query.text(text) for _, text in sections]))

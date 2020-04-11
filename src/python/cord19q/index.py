@@ -6,6 +6,8 @@ import os.path
 import sqlite3
 import sys
 
+import regex as re
+
 from .embeddings import Embeddings
 from .models import Models
 from .tokenizer import Tokenizer
@@ -29,22 +31,27 @@ class Index(object):
         cur = db.cursor()
 
         # Select tagged sentences without a NLP label. NLP labels are set for non-informative sentences.
-        cur.execute("SELECT Id, Text FROM sections WHERE tags is not null and labels is null")
+        cur.execute("SELECT Id, Name, Text FROM sections WHERE design != 0 and tags is not null AND " +
+                    "(labels is null or labels NOT IN ('FRAGMENT', 'QUESTION'))")
 
         count = 0
         for row in cur:
-            # Tokenize text
-            tokens = Tokenizer.tokenize(row[1])
+            # Unpack row
+            uid, name, text = row
 
-            document = (row[0], tokens, None)
+            if not name or not re.search(r"background|(?<!.*?results.*?)discussion|introduction|reference", name.lower()):
+                # Tokenize text
+                tokens = Tokenizer.tokenize(text)
 
-            count += 1
-            if count % 1000 == 0:
-                print("Streamed %d documents" % (count))
+                document = (uid, tokens, None)
 
-            # Skip documents with no tokens parsed
-            if tokens:
-                yield document
+                count += 1
+                if count % 1000 == 0:
+                    print("Streamed %d documents" % (count))
+
+                # Skip documents with no tokens parsed
+                if tokens:
+                    yield document
 
         print("Iterated over %d total rows" % (count))
 

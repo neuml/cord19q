@@ -1,15 +1,10 @@
 """
 Metadata module. Derives additional metadata fields.
-
-Credit to https://www.kaggle.com/savannareid for providing keywords and analysis.
-
-Background can be found in these discussions:
-https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/discussion/139355
-https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/discussion/140185
 """
 
 from .design import Design
 from .sample import Sample
+from .stats import Stats
 
 class Metadata(object):
     """
@@ -32,6 +27,20 @@ class Metadata(object):
         design, keywords = Design.label(sections)
 
         # Extract best candidate sentence with study sample
-        sample = Sample.extract(sections, design)
+        size, sample, method = Sample.extract(sections, design)
 
-        return (design, keywords, sample)
+        # Label each section
+        labels = []
+        stats = []
+        for _, text, tokens in sections:
+            label, stat = Stats.extract(tokens)
+
+            if text == sample:
+                label = "SAMPLE_SIZE"
+            elif text == method:
+                label = "SAMPLE_METHOD"
+
+            labels.append(label)
+            stats.append(stat)
+
+        return (design, keywords, size, sample, method, labels, stats)
