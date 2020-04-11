@@ -103,7 +103,7 @@ class Query(object):
         query = Tokenizer.tokenize(query)
 
         for uid, score in embeddings.search(query, topn):
-            if score >= 0.55:
+            if score >= 0.6:
                 cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
                 results.append((uid, score) + cur.fetchone())
 
