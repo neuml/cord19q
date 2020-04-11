@@ -1,5 +1,6 @@
-Range of incubation periods for the disease in humans
-How the incubation period varies across age and health status
+Range of incubation periods
+Incubation period across different age groups
+Incubation period across different health stats
 How long individuals are contagious, even after recovery.
 Prevalence of asymptomatic shedding and transmission (e.g., particularly children).
 Seasonality of transmission.
