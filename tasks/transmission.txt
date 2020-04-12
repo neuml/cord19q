@@ -2,7 +2,7 @@ Range of incubation periods
 Incubation period across different age groups
 Incubation period by health condition
 How long individuals are contagious, even after recovery.
-Prevalence of asymptomatic shedding and transmission (e.g., particularly children).
+Asymptomatic shedding and transmission, especially children
 Seasonality of transmission.
 Physical science of the coronavirus (e.g., charge distribution, adhesion to hydrophilic/phobic surfaces, environmental survival to inform decontamination efforts for affected areas and provide information about viral shedding).
 Persistence and stability on a multitude of substrates and sources (e.g., nasal discharge, sputum, urine, fecal matter, blood).
