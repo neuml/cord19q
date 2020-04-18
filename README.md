@@ -44,6 +44,10 @@ For each tar.gz file run the following, where $file is the name of the file with
 Once completed, there should be a file name metadata.csv and subdirectories for each data subset with all json articles.
 
 To build the model locally:
+    # Download pre-trained study design/attribute models
+    # https://www.kaggle.com/davidmezzetti/cord19-study-design/#attribute
+    # https://www.kaggle.com/davidmezzetti/cord19-study-design/#design
+    # Default location: ~/.cord19/models/attribute, ~/.cord19/models/design
 
     # Convert csv/json files to SQLite
     python -m cord19q.etl <download_path>
