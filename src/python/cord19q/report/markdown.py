@@ -73,10 +73,10 @@ class Markdown(Report):
         self.write(output, "|%s|" % headers)
 
     def buildRow(self, article, stat, sections):
-        columns = []
+        columns = {}
 
         # Date
-        columns.append(Query.date(article[0]) if article[0] else "")
+        columns["Date"] = Query.date(article[0]) if article[0] else ""
 
         # Title
         title = "[%s](%s)" % (article[1], self.encode(article[2]))
@@ -85,29 +85,29 @@ class Markdown(Report):
         title += "<br/>%s" % (article[3] if article[3] else article[4])
 
         # Title + Publication if available
-        columns.append(title)
+        columns["Title"] = title
 
         # Severe
-        columns.append(stat if stat else "")
+        columns["Severe"] = stat if stat else ""
 
         # Fatality
-        columns.append("")
+        columns["Fatality"] = ""
 
         # Design
-        columns.append(Query.design(article[5]))
+        columns["Design"] = Query.design(article[5])
 
         # Sample Size
         sample = Query.sample(article[6], article[7])
-        columns.append(sample if sample else "")
+        columns["Sample"] = sample if sample else ""
 
         # Sampling Method
-        columns.append(Query.text(article[8]) if article[8] else "")
+        columns["Sampling Method"] = Query.text(article[8]) if article[8] else ""
 
         # Top Matches
-        columns.append("<br/><br/>".join([Query.text(text) for _, text in sections]))
+        columns["Matches"] = "<br/><br/>".join([Query.text(text) for _, text in sections])
 
         # Escape | characters embedded within columns
-        return [self.column(column) for column in columns]
+        return {column: self.column(columns[column]) for column in columns}
 
     def writeRow(self, output, row):
         self.write(output, "|%s|" % "|".join(row))

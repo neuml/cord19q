@@ -136,8 +136,15 @@ class XLSX(Report):
         self.worksheet = self.workbook.add_worksheet(name.title().strip())
         self.row = 0
 
+        # Column widths
+        widths = None
+        if "Severe" in self.names:
+            widths = [15, 50, 15, 15, 15, 8, 50, 70]
+        else:
+            widths = [15, 50, 15, 20, 20, 50, 70]
+
         # Format size of columns
-        for column, width in enumerate([15, 50, 15, 15, 15, 8, 50, 70]):
+        for column, width in enumerate(widths):
             self.worksheet.set_column(column, column, width)
 
         # Write query to file
@@ -160,10 +167,10 @@ class XLSX(Report):
         self.write(names, "header")
 
     def buildRow(self, article, stat, sections):
-        columns = []
+        columns = {}
 
         # Date
-        columns.append(Query.date(article[0]) if article[0] else "")
+        columns["Date"] = Query.date(article[0]) if article[0] else ""
 
         # Title
         title = article[1]
@@ -172,25 +179,25 @@ class XLSX(Report):
         title += " [%s]" % (article[3] if article[3] else article[4])
 
         # Title + Publication if available
-        columns.append((article[2], title))
+        columns["Title"] = (article[2], title)
 
         # Severe
-        columns.append(stat)
+        columns["Severe"] = stat
 
         # Fatality
-        columns.append("")
+        columns["Fatality"] = ""
 
         # Design
-        columns.append(Query.design(article[5]))
+        columns["Design"] = Query.design(article[5])
 
         # Sample Size
-        columns.append(Query.sample(article[6], article[7]))
+        columns["Sample"] = Query.sample(article[6], article[7])
 
         # Sampling Method
-        columns.append(Query.text(article[8]))
+        columns["Sampling Method"] = Query.text(article[8])
 
         # Top Matches
-        columns.append("\n\n".join([Query.text(text) for _, text in sections]))
+        columns["Matches"] = "\n\n".join([Query.text(text) for _, text in sections])
 
         return columns
 

@@ -21,19 +21,24 @@ class Report(object):
         # Store references to embeddings index and open database cursor
         self.embeddings = embeddings
         self.cur = db.cursor()
+        self.names = None
 
-    def build(self, queries, topn, output):
+    def build(self, queries, topn, category, output):
         """
         Builds a report using a list of input queries
 
         Args:
             queries: queries to execute
             topn: number of section results to return
+            category: report category
             output: output I/O object
         """
 
         # Default to 50 results if not specified
         topn = topn if topn else 50
+
+        # Get columns for category
+        self.names = self.columns(category)
 
         for query in queries:
             # Write query string
@@ -58,13 +63,26 @@ class Report(object):
             self.section(output, "Articles")
 
             # Generate table headers
-            self.headers(output, ["Date", "Title", "Severe", "Fatality", "Design", "Sample", "Sampling Method", "Matches"])
+            self.headers(output, self.names)
 
             # Generate table rows
             self.articles(output, query, results)
 
             # Write section separator
             self.separator(output)
+
+    def columns(self, category):
+        """
+        Gets the display columns depending on the category of report
+
+        Args:
+            category: report category
+        """
+
+        if category == "risk":
+            return ["Date", "Title", "Severe", "Fatality", "Design", "Sample", "Sampling Method", "Matches"]
+
+        return ["Date", "Title", "Design", "Sample", "Sampling Method", "Matches"]
 
     def highlights(self, output, results, topn):
         """
@@ -115,7 +133,10 @@ class Report(object):
             rows.append(self.buildRow(article, stat, documents[uid]))
 
         # Print report by published asc
-        for row in sorted(rows, key=lambda x: x[0]):
+        for row in sorted(rows, key=lambda x: x["Date"]):
+            # Convert row dict to list
+            row = [row[column] for column in self.names]
+
             # Write out row
             self.writeRow(output, row)
 

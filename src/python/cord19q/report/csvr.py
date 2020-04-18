@@ -76,57 +76,69 @@ class CSV(Report):
 
     def headers(self, output, names):
         # CSV header is different from standard report header
-        self.write(["Date", "Study", "Study Link", "Journal", "Severe", "Severe Significant", "Severe Age Adjusted",
-                    "Severe OR Calculated or Extracted", "Fatality", "Fatality Significant", "Fatality Age Adjusted",
-                    "Fatality OR Calculated or Extracted", "Design", "Sample", "Study Population"])
+        if "Severe" in names:
+            self.names = ["Date", "Study", "Study Link", "Journal", "Severe", "Severe Significant", "Severe Age Adjusted",
+                          "Severe OR Calculated or Extracted", "Fatality", "Fatality Significant", "Fatality Age Adjusted",
+                          "Fatality OR Calculated or Extracted", "Design", "Sample", "Study Population", "Sample Text", "Matches"]
+        else:
+            self.names = ["Date", "Study", "Study Link", "Journal", "Design", "Sample", "Study Population", "Sample Text", "Matches"]
+
+        # Write out column names
+        self.write(self.names)
 
     def buildRow(self, article, stat, sections):
-        columns = []
+        columns = {}
 
         # Date
-        columns.append(Query.date(article[0]))
+        columns["Date"] = Query.date(article[0])
 
         # Study
-        columns.append(article[1])
+        columns["Study"] = article[1]
 
         # Study Link
-        columns.append(article[2])
+        columns["Study Link"] = article[2]
 
         # Journal
-        columns.append(article[3] if article[3] else article[4])
+        columns["Journal"] = article[3] if article[3] else article[4]
 
         # Severe
-        columns.append(stat)
+        columns["Severe"] = stat
 
         # Severe Significant
-        columns.append(None)
+        columns["Severe Significant"] = None
 
         # Severe Age Adjusted
-        columns.append(None)
+        columns["Severe Age Adjusted"] = None
 
         # Severe OR Calculated or Extracted
-        columns.append("Extracted" if stat else None)
+        columns["Severe OR Calculated or Extracted"] = "Extracted" if stat else None
 
         # Fatality
-        columns.append(None)
+        columns["Fatality"] = None
 
         # Fatality Significant
-        columns.append(None)
+        columns["Fatality Significant"] = None
 
         # Fatality Age Adjusted
-        columns.append(None)
+        columns["Fatality Age Adjusted"] = None
 
         # Fatality OR Calculated or Extracted
-        columns.append(None)
+        columns["Fatality OR Calculated or Extracted"] = None
 
         # Design
-        columns.append(Query.design(article[5]))
+        columns["Design"] = Query.design(article[5])
 
         # Sample
-        columns.append(article[6])
+        columns["Sample"] = article[6]
 
         # Study Population
-        columns.append(Query.text(article[8] if article[8] else article[7]))
+        columns["Study Population"] = Query.text(article[8] if article[8] else article[7])
+
+        # Sample Text
+        columns["Sample Text"] = article[7]
+
+        # Top Matches
+        columns["Matches"] = "\n\n".join([Query.text(text) for _, text in sections])
 
         return columns
 

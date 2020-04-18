@@ -37,13 +37,14 @@ class Execute(object):
         return None
 
     @staticmethod
-    def run(task, topn=None, render=None, path=None):
+    def run(task, topn=None, category=None, render=None, path=None):
         """
         Reads a list of queries from a task file and builds a report.
 
         Args:
             task: input task file
             topn: number of results
+            category: report category, used to decide what columns to include
             render: report rendering format ("md" for markdown, "csv" for csv)
             path: model path
         """
@@ -70,7 +71,7 @@ class Execute(object):
             report.open(output)
 
             # Build the report
-            report.build(queries, topn, output)
+            report.build(queries, topn, category, output)
 
             # Close the report
             report.close()
