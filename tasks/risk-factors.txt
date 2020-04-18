@@ -2,12 +2,12 @@ Hypertension
 Diabetes
 Heart Disease
 Smoking
-COPD
+Chronic obstructive pulmonary disease COPD
 Stroke
 Cancer
 Respiratory disease
 Chronic respiratory disease
-Kidney disease
+Kidney disease CKD
 Liver disease
 Alcohol Abuse
 Tuberculosis
