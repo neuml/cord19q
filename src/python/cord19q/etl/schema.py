@@ -17,7 +17,6 @@ class Schema(object):
         'Title': 'TEXT',
         'Tags': 'TEXT',
         'Design': 'INTEGER',
-        'Keywords': 'TEXT',
         'Size': 'TEXT',
         'Sample': 'TEXT',
         'Method': 'TEXT',

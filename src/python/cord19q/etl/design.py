@@ -1,269 +1,192 @@
 """
 Design module
+
+Labels definitions:
+
+  1 - Meta analysis
+  2 - Randomized control trial
+  3 - Non-randomized trial
+  4 - Prospective cohort
+  5 - Time-series analysis
+  6 - Retrospective cohort
+  7 - Cross-sectional
+  8 - Case control
+  9 - Case study
+ 10 - Simulation
+  0 - Other
 """
 
-from collections import Counter
+import csv
+import os
+import sys
+
+from itertools import groupby
 
 import regex as re
 
-from .vocab import Vocab
+from sklearn.ensemble import RandomForestClassifier
 
-def regex(terms):
+from ..models import Models
+
+from .study import StudyModel
+
+class Design(StudyModel):
     """
-    Builds a regular expression OR matched string from the terms. Each string is wrapped in
-    word boundary (\b) flags to only allow complete phrase matches. Module level function used
-    to allow calling from class body.
-
-    Args:
-        terms: list of terms
-
-    Returns:
-        terms regex
+    Prediction model used to classify study designs.
     """
 
-    # Build regular expression for each term. Wrap term in word boundaries
-    return "|".join(["\\b%s\\b" % term.lower() for term in set(terms)])
-
-class Design(object):
-    """
-    Methods to determine the study design within an article.
-    """
-
-    # Systematic Review / Meta-Analysis
-    SYSTEMATIC_REVIEW_REGEX = regex(Vocab.SYSTEMATIC_REVIEW)
-
-    # Experimental Studies
-    RANDOMIZED_REGEX = regex(Vocab.RANDOMIZED)
-    NON_RANDOMIZED_REGEX = regex(Vocab.NON_RANDOMIZED)
-
-    # Prospective Studies
-    ECOLOGICAL_REGRESSION_REGEX = regex(Vocab.ECOLOGICAL_REGRESSION)
-    PROSPECTIVE_COHORT_REGEX = regex(Vocab.PROSPECTIVE_COHORT)
-    TIME_SERIES_REGEX = regex(Vocab.TIME_SERIES)
-
-    # Retrospective Studies
-    RETROSPECTIVE_COHORT_REGEX = regex(Vocab.RETROSPECTIVE_COHORT)
-    CROSS_SECTIONAL_REGEX = regex(Vocab.CROSS_SECTIONAL)
-    CASE_CONTROL_REGEX = regex(Vocab.CASE_CONTROL)
-
-    # Case Studies
-    CASE_STUDY_REGEX = regex(Vocab.CASE_STUDY)
-
-    # Computer Simulations
-    SIMULATION_REGEX = regex(Vocab.SIMULATION)
-
-    # Keywords for study names in titles
-    TITLE_REGEX = [(regex(["systematic review", "meta-analysis"]), 1), (regex(["randomized"]), 2), (r"non[\-\s]randomized", 3),
-                   (regex(["ecological regression"]), 4), (regex(["prospective cohort"]), 5), (r"\btime[\-\s]?series\b", 6),
-                   (regex(["retrospective cohort"]), 7), (r"\bcross[\-\s]?sectional\b", 8), (r"\bcase[\-\s]control\b", 9),
-                   (regex(["case study"]), 10)]
-
-    # List of evidence categories
-    CATEGORIES = [(SIMULATION_REGEX, 1, None), (CASE_STUDY_REGEX, 2, None), (CASE_CONTROL_REGEX, 2, None),
-                  (CROSS_SECTIONAL_REGEX, 2, None), (RETROSPECTIVE_COHORT_REGEX, 2, None), (TIME_SERIES_REGEX, 2, None),
-                  (PROSPECTIVE_COHORT_REGEX, 2, None), (ECOLOGICAL_REGRESSION_REGEX, 2, None), (NON_RANDOMIZED_REGEX, 3, ["random"]),
-                  (RANDOMIZED_REGEX, 3, ["random"]), (SYSTEMATIC_REVIEW_REGEX, 4, ["systematic review", "meta-analysis"])]
-
-    @staticmethod
-    def label(sections):
+    def __init__(self):
         """
-        Analyzes text fields of an article to determine the level of evidence.
-
-        Labels definitions:
-
-         1 - Systematic Review
-         2 - Experimental Study (Randomized)
-         3 - Experimental Study (Non-Randomized)
-         4 - Ecological Regression
-         5 - Prospective Cohort
-         6 - Time Series Analysis
-         7 - Retrospective Cohort
-         8 - Cross Sectional
-         9 - Case Control
-        10 - Case Study
-        11 - Simulation
-         0 - Unknown Design (Default for no match)
+        Builds a new Design model.
 
         Args:
-            sections: list of text sections
-
-        Returns:
-            (level of evidence (int), keyword match counts)
+            training: path to training data
+            models: path to models
         """
 
-        # Design label, keywords
-        label = (0, None)
+        super(Design, self).__init__()
 
-        # Search titles for exact keyword match
-        title = [text for name, text, _ in sections if name and name.lower() == "title"]
-        title = " ".join(title).replace("\n", " ").lower()
+        # Keywords to use as features
+        self.keywords = StudyModel.getKeywords()
 
-        for regex, design in Design.TITLE_REGEX:
-            count, keywords = Design.matches(regex, title)
+    def predict(self, sections):
+        # Build features array for document
+        features = [self.features(sections)]
 
-            # Return design and the keywords for title matches
-            if count:
-                return (design, Design.format(keywords))
+        return self.model.predict(features)[0]
 
-        # Process full-text only if text meets certain criteria
-        if Design.accept(sections):
-            # Filter to allowed sections and build full text copy of sections
-            text = [text for name, text, _ in sections if not name or Design.filter(name.lower())]
-            text = " ".join(text).replace("\n", " ").lower()
+    def create(self):
+        return RandomForestClassifier(n_estimators=110, max_depth=22, max_features=0.24, random_state=0)
 
-            # Evaluate text against design rules engine
-            if text:
-                return Design.evaluate(text)
+    def hyperparams(self):
+        return {"n_estimators": range(100, 200),
+                "max_depth": range(15, 30),
+                "max_features": [x / 100 for x in range(15, 50)]}
 
-        # Check title for simulation and label if no other labels applied (label = 0)
-        if not label:
-            # Allow partial matches
-            count, keywords = Design.matches(r"computer|estimate|forecast|mathematical", title)
-            if count:
-                # Return size of categories. Labels are inverted and computer models are first element. (1 indexed)
-                label = (len(Design.CATEGORIES), Design.format(keywords))
+    def data(self, training):
+        # Unique ids
+        uids = {}
 
-        return label
+        # Features
+        features = []
+        labels = []
 
-    @staticmethod
-    def accept(sections):
+        # Unpack training data
+        training, db = training
+        cur = db.cursor()
+
+        # Read training data, convert to features
+        with open(training, mode="r") as csvfile:
+            for row in csv.DictReader(csvfile):
+                uids[row["id"]] = int(row["label"])
+
+            # Build id list for each uid batch
+            for idlist in self.batch(list(uids.keys()), 999):
+                # Get section text and transform to features
+                cur.execute("SELECT name, text, article FROM sections WHERE article in (%s) ORDER BY id" % ",".join(["?"] * len(idlist)), idlist)
+                f, l = self.transform(cur.fetchall(), uids)
+
+                # Combine lists from each batch
+                features.extend(f)
+                labels.extend(l)
+
+        print("Loaded %d rows" % len(features))
+
+        return features, labels
+
+    def batch(self, uids, size):
         """
-        Requires at least one instance of the word method or result in the text of the article.
+        Splits uids into batches.
 
         Args:
-            sections: sections
+            uids: uids
+            size: batch size
 
         Returns:
-            True if word method or result present in text
+            list of lists split into batch size
         """
 
-        return any([Design.find(section, "method") or Design.find(section, "result") for section in sections])
+        return [uids[x:x + size] for x in range(0, len(uids), size)]
 
-    @staticmethod
-    def find(section, token):
+    def transform(self, rows, uids):
         """
-        Searches section for the occurance of a token. Accepts partial word matches.
+        Transforms a list of rows into features and labels.
 
         Args:
-            section: input section
-            token: token to search for
+            rows: input rows
+            uids: uid to label mapping
 
         Returns:
-            True if token found, False otherwise
+            (features, labels)
         """
 
-        # Unpack section
-        name, text, _ = section
+        features = []
+        labels = []
 
-        return (name and token in name.lower()) or (text and token in text.lower())
+        # Retrieve all rows and group by article id
+        for uid, sections in groupby(rows, lambda x: x[2]):
+            # Get sections as list
+            sections = list(sections)
 
-    @staticmethod
-    def filter(name):
+            # Save features and label
+            features.append(self.features(sections))
+            labels.append(uids[uid])
+
+        return features, labels
+
+    def features(self, sections):
         """
-        Filters a section name. Returns True if name is a title, method or results section.
+        Builds a features vector from input text.
 
         Args:
-            name: section name
+            sections: list of sections
 
         Returns:
-            True if section should be analyzed, False otherwise
+            features vector as a list
         """
 
-        # Skip background, introduction and reference sections
-        # Skip discussion unless it's a results and discussion
-        return not re.search(r"background|(?<!.*?results.*?)discussion|introduction|reference", name)
+        # Build full text from sections
+        text = [text for name, text, _ in sections if not name or StudyModel.filter(name.lower())]
+        text = " ".join(text).replace("\n", " ").lower()
+
+        # Build feature vector from regular expressions of common study design terms
+        vector = []
+        for keyword in self.keywords:
+            vector.append(len(re.findall("\\b%s\\b" % keyword.lower(), text)))
+
+        return vector
 
     @staticmethod
-    def evaluate(text):
+    def run(training, path, optimize):
         """
-        Evaluates design matches for text. This method will find a count of matches per category and run
-        a set of results to determine if the matches should be accepted.
+        Trains a new model.
 
         Args:
-            text: text to evaluate
-
-        Returns:
-            list (count, keyword matches) for each design category
+            training: path to training file
+            path: models path
+            optimize: if hyperparameter optimization should be enabled
         """
 
-        results = []
+        # Default path as it's used for both reading input and the model output path
+        if not path:
+            path = Models.modelPath()
 
-        for keywords, minimum, requirements in Design.CATEGORIES:
-            # Score by keyword counts
-            count, matches = Design.matches(keywords, text)
-            accepted = False
+        # Load models path
+        _, db = Models.load(path)
 
-            # Proceed if count is >= to the minimum required matches for the category
-            if count and count >= minimum:
-                # Accept if matches meet requirements or there are no requirements
-                if not requirements or any([x in text for x in requirements]):
-                    accepted = True
+        try:
+            # Train the model
+            model = Design()
+            model.train((training, db), optimize)
 
-            results.append((count, matches) if accepted else (0, None))
+            # Save the model
+            print("Saving model to %s" % path)
+            model.save(os.path.join(path, "design"))
 
-        # Derive best match
-        return Design.top(results)
+        finally:
+            Models.close(db)
 
-    @staticmethod
-    def matches(keywords, text):
-        """
-        Finds all keyword matches within a block of text. Wraps keywords in word boundaries to prevent
-        partial matching of a word.
-
-        Args:
-            keywords: keywords regex
-            text: text to search
-
-        Returns:
-            list of matches
-        """
-
-        if keywords:
-            matches = re.findall(keywords, text, overlapped=True)
-            if matches:
-                return (len(matches), matches)
-
-        return (0, None)
-
-    @staticmethod
-    def top(matches):
-        """
-        Searches a matches list and returns the top match by count. If no match with
-        a count > 0 is found, 0 is returned.
-
-        Args:
-            matches: list of (count, keywords)
-
-        Returns:
-            top (label, keywords) match or (0, None) if no matches found
-        """
-
-        label = (0, None)
-
-        counts = [count for count, _ in matches]
-        best = max(counts)
-        if best:
-            # Get index of best match
-            index = counts.index(best)
-            match = matches[index]
-
-            # Label is inverted index of CATEGORIES list (1 indexed)
-            label = (len(matches) - index, Design.format(match[1]))
-
-        return label
-
-    @staticmethod
-    def format(match):
-        """
-        Builds a formatted match string from match.
-
-        Args:
-            match: list of matching keyword
-
-        Returns:
-            formatting string of 'keyword match': count
-        """
-
-        # Build keyword match string
-        counts = sorted(Counter(match).items(), key=lambda x: x[1], reverse=True)
-        return ", ".join(["'%s': %d" % (key, value) for key, value in counts])
+if __name__ == "__main__":
+    Design.run(sys.argv[1] if len(sys.argv) > 1 else None,
+               sys.argv[2] if len(sys.argv) > 2 else None,
+               sys.argv[3] == "1" if len(sys.argv) > 3 else False)

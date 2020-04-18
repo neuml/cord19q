@@ -245,9 +245,9 @@ class Query(object):
         """
 
         # Study design type mapping
-        mapping = {0:"Unknown", 1:"Meta analysis", 2:"Randomized control trial", 3:"Non-randomized trial",
-                   4:"Ecological regression", 5:"Prospective cohort", 6:"Time series analysis", 7:"Retrospective cohort",
-                   8:"Cross-sectional", 9:"Case control", 10: "Case study", 11:"Simulation"}
+        mapping = {1:"Meta analysis", 2:"Randomized control trial", 3:"Non-randomized trial",
+                   4:"Prospective cohort", 5:"Time-series analysis", 6:"Retrospective cohort",
+                   7:"Cross-sectional", 8:"Case control", 9: "Case study", 10:"Simulation", 0:"Other"}
 
         return mapping[design]
 

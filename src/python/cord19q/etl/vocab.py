@@ -9,58 +9,41 @@ class Vocab(object):
     Defines vocabulary terms for studies.
     """
 
-    # Generic definitions
-    GENERIC_CASE = ["chart review", "ehr", r"(?:electronic )?health records", r"(?:electronic )?medical records", "etiology", "exposure status",
-                    "risk factor analysis", "risk factors"]
+    # Study design vocabulary
+    DESIGN = [r"(?:electronic )?health records", r"(?:electronic )?medical records", "adherence", "adjusted hazard ratio",
+              "adjusted odds ratio", "aic", "akaike information criterion", "allocation method", "allocation method double-blind",
+              "aor", "area under the curve", "associated with", "associated with random sample", "association", "attack rate",
+              "baseline", "blind", "bootstrap", "bootstrap auc", "case report", "case report clinical findings", "case series",
+              "case study", r"case[\-\s]control", "censoring", "chart review", "cochrane review", "coefficient", "cohen's d", "cohen's kappa",
+              "cohort", r"computer model(?:ing)?", "confounding", "consort", "control arm", r"correlation(?:s)?",
+              "covariates", "cox proportional hazards", "cross-sectional survey", r"cross[\-\s]sectional", "d-pooled", "data abstraction forms",
+              "data collection instrument", r"database(?:s)? search(?:ed)?", "databases searched", "demographics", "diagnosis",
+              "difference between means", "difference in means", "dosage", "double-blind", "duration", "ehr", "electronic health records",
+              "electronic search", "eligibility", "eligibility criteria", r"enroll(?:ed|ment)?", "estimation", "etiology", "exclusion criteria",
+              "exposure status", "follow-up", "followed", r"forecast(?:ing)?", "frequency", "gamma", "hazard ratio", "heterogeneity", "hr", "i2",
+              "incidence", "inclusion criteria", "inter-rater reliability", "interrater reliability", "interventions", "kaplan-meier", "log odds",
+              "logistic regression", "lognormal", "longitudinal", "loss to follow-up", r"match(?:ed|ing)? case", r"match(?:ed|ing)? criteria",
+              "matched", "matching", r"mathematical model(?:ing)?", "mean difference", "median time to event", "meta-analysis", "model fit",
+              "model simulation", "monte carlo", "multivariate hazard ratio", "non-comparative study", r"non[\-\s]randomised", r"non[\-\s]randomized",
+              "non-response bias", "number of controls per case", "odds", "odds ratio", "outcomes", "patients", "per capital", "placebo",
+              "pooled adjusted odds ratio", "pooled aor", "pooled odds ratio", "pooled or", "pooled relative risk", "pooled risk ratio",
+              "pooled rr", "potential confounders", "power", "prevalence", "prevalence survey", "prisma", "prospective cohort",
+              r"prospective(?:ly)?", "protocol", "pseudo-randomised", "pseudo-randomized", "psychometric evaluation of instrument",
+              "psychometric evaluaton of instrument", "publication bias", "quasi-randomised", "quasi-randomized", "questionnaire development",
+              "r-squared", "randomisation", "randomisation consort", "randomised", "randomization method", "randomized", "randomized clinical trial",
+              "randomized controlled trial", "rct", "receiver-operator curve", r"recruit(?:ed|ment)?", "registry", "registry data",
+              "relative risk", "response rate", "retrospective", "retrospective chart review", "retrospective cohort", "right-censored",
+              "risk factor analysis", "risk factors", "risk factors data collection instrument", "risk of bias", "risk ratio", "roc", "rr",
+              "search criteria", "search strategy", "search string", r"simulat(?:e|ed|ion)", "statistical model", "stochastic model", "strength",
+              "subjects", "surveillance", "survey instrument", "survival analysis", "symptoms", "syndromic surveillance", "synthetic",
+              "synthetic data", r"synthetic data(?:set(?:s)?)?", "systematic review", "time-to-event analysis", r"time[\-\s]series",
+              r"time[\-\s]varying", "tolerability", "treatment arm", "treatment effect", "truncated", "weibull"]
 
-    GENERIC_COHORT = ["cohort", "followed", "loss to follow-up", "patients", "subjects"]
+    # Sample vocabulary
+    SAMPLE = ["articles", "cases", "children", "individuals", "men", "participants", "patients", "publications", "samples", "sequences",
+              "studies", "trials", "total", "women"]
 
-    GENERIC_STATS = ["adjusted odds ratio", "aor", "log odds", "logistic regression", "odds ratio"]
-
-    # Systematic Review / Meta-Analysis
-    SYSTEMATIC_REVIEW = ["cohen's d", "cochrane review", "cohen's kappa", r"database(?:s)? search(?:ed)?", "difference between means", "d-pooled",
-                         "difference in means", "electronic search", "heterogeneity", "pooled relative risk", "meta-analysis",
-                         "pooled adjusted odds ratio", "pooled aor", "pooled odds ratio", "pooled or", "pooled risk ratio", "pooled rr",
-                         "prisma", "search criteria", "search strategy", "search string", "systematic review"]
-
-    # Experimental Studies
-    RANDOMIZED = ["blind", "consort", "control arm", "double-blind", "placebo", "randomisation", "randomised", "randomization method", "randomized",
-                  "randomized clinical trial", "randomized controlled trial", "rct", "treatment arm", "treatment effect"]
-
-    NON_RANDOMIZED = ["allocation method", "blind", "control arm", "double-blind", "non-randomised", "non-randomized", "placebo", "pseudo-randomised",
-                      "pseudo-randomized", "quasi-randomised", "quasi-randomized", "treatment arm", "treatment effect"]
-
-    # Prospective Studies
-    TIME_SERIES = ["adjusted hazard ratio", "censoring", "confounding", "covariates", "cox proportional hazards", "demographics",
-                   r"enroll(?:ed|ment)?", "eligibility criteria", "etiology", "gamma", "hazard ratio", "kaplan-meier", "lognormal",
-                   "longitudinal", "median time to event", "non-comparative study", "potential confounders", r"recruit(?:ed|ment)?",
-                   "right-censored", "survival analysis", "time-to-event analysis", r"time[-\s]series", r"time[-\s]varying", "truncated",
-                   "weibull"]
-
-    PROSPECTIVE_COHORT = ["baseline", r"prospective(?:ly)?", "prospective cohort", "relative risk", "risk ratio", "rr"]
-    PROSPECTIVE_COHORT += GENERIC_COHORT + GENERIC_STATS + TIME_SERIES
-
-    ECOLOGICAL_REGRESSION = [r"correlation(?:s)?", "per capita", "r-squared"]
-    ECOLOGICAL_REGRESSION += TIME_SERIES
-
-    # Retrospective Studies
-    RETROSPECTIVE_COHORT = ["cohen's kappa", "data abstraction forms", "data collection instrument", "eligibility criteria",
-                            "inter-rater reliability", "potential confounders", "retrospective", "retrospective chart review",
-                            "retrospective cohort"]
-    RETROSPECTIVE_COHORT += GENERIC_CASE + GENERIC_COHORT + GENERIC_STATS
-
-    CASE_CONTROL = ["case-control", "data collection instrument", "eligibility criteria", r"match(?:ed|ing)? case", r"match(?:ed|ing)? criteria",
-                    "number of controls per case", "non-response bias", "potential confounders", "psychometric evaluation of instrument",
-                    "questionnaire development", "response rate", "survey instrument"]
-    CASE_CONTROL += GENERIC_CASE + GENERIC_STATS
-
-    CROSS_SECTIONAL = [r"cross[\-\s]sectional", "prevalence survey"]
-    CROSS_SECTIONAL += CASE_CONTROL
-
-    # Case Studies
-    CASE_STUDY = ["case report", "case series", "etiology", "frequency", "risk factors"]
-
-    # Model Simulations
-    SIMULATION = ["bootstrap", r"computer model(?:ing)?", r"forecast(?:ing)?", r"mathematical model(?:ing)?", "model simulation",
-                  "monte carlo", r"simulat(?:e|ed|ion)", "synthetic", r"synthetic data(?:set(?:s)?)?"]
-    SIMULATION += GENERIC_STATS
+    # Sample methods vocabulary
+    METHOD = ["analyse", "analyze", "ci", "collect", "compare", "data", "database", "enroll", "evidence", "findings", "hospital", "include",
+              "materials", "method", "observe", "obtain", "perform", "publication", "publish", "recruit", "results", "retrieve", "review",
+              "search", "study", "studie"]

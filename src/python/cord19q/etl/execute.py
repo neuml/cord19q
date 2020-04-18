@@ -47,28 +47,29 @@ class Execute(object):
     # SQL statements
     CREATE_TABLE = "CREATE TABLE IF NOT EXISTS {table} ({fields})"
     INSERT_ROW = "INSERT INTO {table} ({columns}) VALUES ({values})"
+    CREATE_INDEX = "CREATE INDEX section_article ON sections(article)"
 
     @staticmethod
-    def init(output):
+    def init(outdir):
         """
         Connects initializes a new output SQLite database.
 
         Args:
-            output: output directory, if None uses default path
+            outdir: output directory, if None uses default path
 
         Returns:
-            connection to new SQLite database
+            (connection to new SQLite database, output path)
         """
 
         # Default path if not provided
-        if not output:
-            output = os.path.join(os.path.expanduser("~"), ".cord19", "models")
+        if not outdir:
+            outdir = os.path.join(os.path.expanduser("~"), ".cord19", "models")
 
         # Create if output path doesn't exist
-        os.makedirs(output, exist_ok=True)
+        os.makedirs(outdir, exist_ok=True)
 
         # Output database file
-        dbfile = os.path.join(output, "articles.sqlite")
+        dbfile = os.path.join(outdir, "articles.sqlite")
 
         # Delete existing file
         if os.path.exists(dbfile):
@@ -89,7 +90,7 @@ class Execute(object):
         # Create citations table
         Execute.create(db, Schema.CITATIONS, "citations")
 
-        return db
+        return (db, outdir)
 
     @staticmethod
     def create(db, table, name):
@@ -351,17 +352,18 @@ class Execute(object):
         return Execute.filtered(sections, citations)
 
     @staticmethod
-    def stream(directory):
+    def stream(indir, outdir):
         """
         Generator that yields rows from a metadata.csv file. The directory is also included.
 
         Args:
-            directory
+            indir: input directory
+            outdir: output directory
         """
 
-        with open(os.path.join(directory, "metadata.csv"), mode="r") as csvfile:
+        with open(os.path.join(indir, "metadata.csv"), mode="r") as csvfile:
             for row in csv.DictReader(csvfile):
-                yield (row, directory)
+                yield (row, indir, outdir)
 
     @staticmethod
     def process(params):
@@ -379,7 +381,7 @@ class Execute(object):
         grammar = getGrammar()
 
         # Unpack parameters
-        row, directory = params
+        row, indir, outdir = params
 
         # Get uid
         uid = Execute.getId(row)
@@ -388,7 +390,7 @@ class Execute(object):
         date = Execute.getDate(row)
 
         # Get text sections
-        sections, citations = Execute.getSections(row, directory)
+        sections, citations = Execute.getSections(row, indir)
 
         # Get tags
         tags = Execute.getTags(sections)
@@ -401,13 +403,13 @@ class Execute(object):
             sections = [(name, text, tokenslist[x]) for x, (name, text) in enumerate(sections)]
 
             # Derive metadata fields
-            design, keywords, size, sample, method, labels, risks = Metadata.parse(sections)
+            design, size, sample, method, labels, risks = Metadata.parse(sections, outdir)
 
             # Add additional fields to each section
             sections = [(name, text, labels[x] if labels[x] else grammar.label(tokens), risks[x]) for x, (name, text, tokens) in enumerate(sections)]
         else:
             # Untagged section, create None default placeholders
-            design, keywords, size, sample, method = None, None, None, None, None
+            design, size, sample, method = None, None, None, None
 
             # Extend sections with empty columns
             sections = [(name, text, None, []) for name, text in sections]
@@ -415,27 +417,27 @@ class Execute(object):
             # Clear citations when not a tagged entry
             citations = None
 
-        # Article row - id, source, published, publication, authors, title, tags, design, keywords, sample size
-        #               sample section, samplemethod, reference
-        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, design, keywords, size,
+        # Article row - id, source, published, publication, authors, title, tags, design, sample size
+        #               sample section, sample method, reference
+        article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, design, size,
                    sample, method, row["url"])
 
         return (uid, article, sections, tags, design, citations)
 
     @staticmethod
-    def run(directory, output):
+    def run(indir, outdir):
         """
         Main execution method.
 
         Args:
-            directory: input directory
-            output: output directory path
+            indir: input directory
+            outdir: output directory
         """
 
-        print("Building articles.sqlite from {}".format(directory))
+        print("Building articles.sqlite from {}".format(indir))
 
         # Initialize database
-        db = Execute.init(output)
+        db, outdir = Execute.init(outdir)
 
         # Article, section, stats indices
         aindex = 0
@@ -447,7 +449,7 @@ class Execute(object):
         citations = Counter()
 
         with Pool(os.cpu_count()) as pool:
-            for uid, article, sections, tags, design, cite in pool.imap(Execute.process, Execute.stream(directory)):
+            for uid, article, sections, tags, design, cite in pool.imap(Execute.process, Execute.stream(indir, outdir)):
                 # Skip rows with ids that have already been processed
                 if uid not in ids:
                     Execute.insert(db, Schema.ARTICLES, "articles", article)
@@ -477,6 +479,9 @@ class Execute(object):
             Execute.insert(db, Schema.CITATIONS, "citations", citation)
 
         print("Total articles inserted: {}".format(aindex))
+
+        # Create articles index for sections table
+        db.execute(Execute.CREATE_INDEX)
 
         # Commit changes and close
         db.commit()

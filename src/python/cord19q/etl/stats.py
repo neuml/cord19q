@@ -12,29 +12,7 @@ class Stats(object):
     @staticmethod
     def extract(tokens):
         """
-        Labels a list of tokens as a type of statistic. Statistics are also extracted from the section, multiple
-        statistics could be extracted for a single section.
-
-        Args:
-            tokens: list of tokens for the section
-
-        Returns:
-            (label, list of (name, value) stat pairs)
-        """
-
-        label = None
-
-        # Calculate risk factors
-        stats = Stats.riskFactors(tokens)
-        if stats:
-            label = "RISK_FACTOR"
-
-        return (label, stats)
-
-    @staticmethod
-    def riskFactors(tokens):
-        """
-        Determines if the input list of tokens is a risk factor statistic.
+        Attempts to extract a risk factor from a list of tokens.
 
         Args:
             tokens: list of tokens
