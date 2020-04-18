@@ -31,7 +31,7 @@ class Index(object):
         cur = db.cursor()
 
         # Select tagged sentences without a NLP label. NLP labels are set for non-informative sentences.
-        cur.execute("SELECT Id, Name, Text FROM sections WHERE design != 0 and tags is not null AND " +
+        cur.execute("SELECT Id, Name, Text FROM sections WHERE tags is not null AND " +
                     "(labels is null or labels NOT IN ('FRAGMENT', 'QUESTION'))")
 
         count = 0
