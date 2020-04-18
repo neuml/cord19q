@@ -62,10 +62,10 @@ class Attribute(StudyModel):
 
     def hyperparams(self):
         return {"C": [x / 20 for x in range(1, 20)],
-                "penalty": ("l1", "l2"),
                 "fit_intercept": (True, False),
-                "solver": ("newton-cg", "lbfgs", "liblinear", "sag", "saga"),
-                "max_iter": (1000,)}
+                "solver": ("lbfgs", "liblinear"),
+                "max_iter": (1000,),
+                "random_state": 0}
 
     def data(self, training):
         # Features

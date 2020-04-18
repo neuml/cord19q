@@ -32,17 +32,15 @@ class Sample(object):
         # Get best attribute match per category
         best = np.argmax(attributes, axis=0)
 
-        # labels - NO_MATCH, RISK_FACTOR, SAMPLE_METHOD, SAMPLE_SIZE
-        # Require minimum level of confidence for best prediction
-        if best[2] >= 0.3:
-            method = sections[best[2]][1]
-        if best[3] >= 0.3:
-            sample = sections[best[3]]
+        # labels - NO_MATCH, STATISTIC, SAMPLE_METHOD, SAMPLE_SIZE
+        # section - name, text, tokens
+        method = sections[best[2]][1]
+        sample = sections[best[3]]
 
-            # Attempt to extract size from sample size tokens
-            # section - name, text, tokens
-            size = Sample.find(sample[2], Vocab.SAMPLE)
-            sample = sample[1]
+        # Attempt to extract size from sample size tokens
+        # section - name, text, tokens
+        size = Sample.find(sample[2], Vocab.SAMPLE)
+        sample = sample[1]
 
         return size, sample, method
 

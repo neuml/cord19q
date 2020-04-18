@@ -61,7 +61,8 @@ class Design(StudyModel):
     def hyperparams(self):
         return {"n_estimators": range(100, 200),
                 "max_depth": range(15, 30),
-                "max_features": [x / 100 for x in range(15, 50)]}
+                "max_features": [x / 100 for x in range(15, 30)],
+                "random_state": 0}
 
     def data(self, training):
         # Unique ids
