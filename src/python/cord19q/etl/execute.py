@@ -459,7 +459,7 @@ class Execute(object):
                     # Increment number of articles processed
                     aindex += 1
                     if aindex % 1000 == 0:
-                        print("Inserted {} articles".format(aindex))
+                        print("Inserted {} articles".format(aindex), end="\r")
 
                     for name, text, labels, stats in sections:
                         # Section row - id, article, tags, design, name, text, labels

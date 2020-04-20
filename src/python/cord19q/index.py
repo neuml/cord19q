@@ -47,7 +47,7 @@ class Index(object):
 
                 count += 1
                 if count % 1000 == 0:
-                    print("Streamed %d documents" % (count))
+                    print("Streamed %d documents" % (count), end="\r")
 
                 # Skip documents with no tokens parsed
                 if tokens:
