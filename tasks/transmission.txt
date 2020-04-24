@@ -1,17 +1,19 @@
 Range of incubation periods
+Length of viral shedding after illness onset
 Incubation period across different age groups
-Incubation period by health condition
-How long individuals are contagious, even after recovery.
-Asymptomatic shedding and transmission, especially children
-Seasonality of transmission.
-Physical science of the coronavirus (e.g., charge distribution, adhesion to hydrophilic/phobic surfaces, environmental survival to inform decontamination efforts for affected areas and provide information about viral shedding).
-Persistence and stability on a multitude of substrates and sources (e.g., nasal discharge, sputum, urine, fecal matter, blood).
-Persistence of virus on surfaces of different materials (e,g., copper, stainless steel, plastic).
-Natural history of the virus and shedding of it from an infected person
+Proportion of asymptomatic patients
+Asymptomatic pediatric patients 
+Asymptomatic shedding and transmission
+Adhesion to hydrophilic, phobic surfaces
+Susceptibility to environmental cleaning agents
+Decontamination based on physical science
+Persistence and stability on substrates and sources (nasal discharge, sputum, urine, fecal matter, blood)
+Viral shedding stool
+Viral shedding nasopharynx
+Viral shedding urine
+Viral shedding blood
+Persistence of virus on surfaces of different materials (copper, stainless steel, plastic)
 Implementation of diagnostics and products to improve clinical processes
-Disease models, including animal models for infection, disease and transmission
-Tools and studies to monitor phenotypic change and potential adaptation of the virus
-Immune response and immunity
-Effectiveness of movement control strategies to prevent secondary transmission in health care and community settings
-Effectiveness of personal protective equipment (PPE) and its usefulness to reduce risk of transmission in health care and community settings
-Role of the environment in transmission
+Advances in diagnosing SARS-COV-2
+Seasonality of transmission
+Temperature, humidity environment affect on transmission
