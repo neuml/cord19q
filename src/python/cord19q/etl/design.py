@@ -3,16 +3,15 @@ Design module
 
 Labels definitions:
 
-  1 - Meta analysis
+  1 - Systematic review
   2 - Randomized control trial
   3 - Non-randomized trial
-  4 - Prospective cohort
-  5 - Time-series analysis
-  6 - Retrospective cohort
+  4 - Prospective observational
+  5 - Time-to-event analysis
+  6 - Retrospective observational
   7 - Cross-sectional
-  8 - Case control
-  9 - Case study
- 10 - Simulation
+  8 - Case series
+  9 - Modeling
   0 - Other
 """
 
@@ -29,6 +28,7 @@ from sklearn.ensemble import RandomForestClassifier
 from ..models import Models
 
 from .study import StudyModel
+from .vocab import Vocab
 
 class Design(StudyModel):
     """
@@ -56,19 +56,20 @@ class Design(StudyModel):
         return self.model.predict(features)[0]
 
     def create(self):
-        return RandomForestClassifier(n_estimators=110, max_depth=22, max_features=0.24, random_state=0)
+        return RandomForestClassifier(n_estimators=137, max_depth=28, max_features=0.23, random_state=0)
 
     def hyperparams(self):
-        return {"n_estimators": range(100, 200),
-                "max_depth": range(15, 30),
-                "max_features": [x / 100 for x in range(15, 30)],
-                "random_state": 0}
+        return {"n_estimators": range(125, 150),
+                "max_depth": range(20, 30),
+                "max_features": [x / 100 for x in range(15, 25)],
+                "random_state": (0,)}
 
     def data(self, training):
         # Unique ids
         uids = {}
 
         # Features
+        ids = []
         features = []
         labels = []
 
@@ -85,15 +86,16 @@ class Design(StudyModel):
             for idlist in self.batch(list(uids.keys()), 999):
                 # Get section text and transform to features
                 cur.execute("SELECT name, text, article FROM sections WHERE article in (%s) ORDER BY id" % ",".join(["?"] * len(idlist)), idlist)
-                f, l = self.transform(cur.fetchall(), uids)
+                i, f, l = self.transform(cur.fetchall(), uids)
 
                 # Combine lists from each batch
+                ids.extend(i)
                 features.extend(f)
                 labels.extend(l)
 
         print("Loaded %d rows" % len(features))
 
-        return features, labels
+        return ids, features, labels
 
     def batch(self, uids, size):
         """
@@ -121,6 +123,7 @@ class Design(StudyModel):
             (features, labels)
         """
 
+        ids = []
         features = []
         labels = []
 
@@ -129,11 +132,12 @@ class Design(StudyModel):
             # Get sections as list
             sections = list(sections)
 
-            # Save features and label
+            # Save ids, features and label
+            ids.append(uid)
             features.append(self.features(sections))
             labels.append(uids[uid])
 
-        return features, labels
+        return ids, features, labels
 
     def features(self, sections):
         """
@@ -146,14 +150,26 @@ class Design(StudyModel):
             features vector as a list
         """
 
-        # Build full text from sections
+        # Feature vector
+        vector = []
+
+        # Build title keyword features
+        title = [text for name, text, _ in sections if name == "TITLE"]
+        title = title[0].lower() if title else None
+
+        for keyword in Vocab.TITLE:
+            vector.append(len(re.findall("\\b%s\\b" % keyword.lower(), title)) if title else 0)
+
+        # Build full text from filtered sections
         text = [text for name, text, _ in sections if not name or StudyModel.filter(name.lower())]
         text = " ".join(text).replace("\n", " ").lower()
 
-        # Build feature vector from regular expressions of common study design terms
-        vector = []
+        # Get token length across filtered sections
+        length = sum([len(tokens) for name, _, tokens in sections if not name or StudyModel.filter(name.lower())])
+
+        # Add study design term counts normalized by document length
         for keyword in self.keywords:
-            vector.append(len(re.findall("\\b%s\\b" % keyword.lower(), text)))
+            vector.append(len(re.findall("\\b%s\\b" % keyword.lower(), text)) / length)
 
         return vector
 

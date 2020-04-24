@@ -12,6 +12,8 @@ import spacy
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.preprocessing import MultiLabelBinarizer
 
 from ..models import Models
 
@@ -43,6 +45,8 @@ class Attribute(StudyModel):
 
     def predict(self, sections):
         # Build features array for document
+        text = [text for name, text, _ in sections if not name or StudyModel.filter(name.lower())]
+
         features = [self.features(text, tokens) for name, text, tokens in sections]
 
         # Build tf-idf vector
@@ -54,21 +58,26 @@ class Attribute(StudyModel):
         # Predict probability
         predictions = self.model.predict_proba(features)
 
-        # Ignore predictions for short text snippets
-        return [pred if len(sections[x][2]) >= 25 else np.zeros(pred.shape) for x, pred in enumerate(predictions)]
+        # Clear predictions for short text snippets and filtered sections
+        for x, (name, text, _) in enumerate(sections):
+            if len(text) <= 25 or (name and not StudyModel.filter(name.lower())):
+                # Clear prediction
+                predictions[x] = np.zeros(predictions.shape[1])
+
+        return predictions
 
     def create(self):
-        return LogisticRegression(C=0.95, fit_intercept=True, penalty="l2", solver="liblinear", max_iter=1000, random_state=0)
+        return OneVsRestClassifier(LogisticRegression(C=0.995, solver="lbfgs", max_iter=1000, random_state=0))
 
     def hyperparams(self):
-        return {"C": [x / 20 for x in range(1, 20)],
-                "fit_intercept": (True, False),
+        return {"C": [x / 200 for x in range(100, 300)],
                 "solver": ("lbfgs", "liblinear"),
                 "max_iter": (1000,),
-                "random_state": 0}
+                "random_state": (0,)}
 
     def data(self, training):
         # Features
+        ids = []
         features = []
         labels = []
 
@@ -82,9 +91,10 @@ class Attribute(StudyModel):
                 text = row["text"]
                 tokens = nlp(text)
 
-                # Store features and labels
+                # Store ids, features and labels
+                ids.append(text)
                 features.append(self.features(text, tokens))
-                labels.append(int(row["label"]))
+                labels.append([int(label) for label in row["label"].split(":")])
 
         # Build tf-idf model across dataset, concat with feature vector
         self.tfidf = TfidfVectorizer()
@@ -93,7 +103,9 @@ class Attribute(StudyModel):
 
         print("Loaded %d rows" % len(features))
 
-        return features, labels
+        labels = MultiLabelBinarizer().fit_transform(labels)
+
+        return ids, features, labels
 
     def features(self, text, tokens):
         """
@@ -106,28 +118,30 @@ class Attribute(StudyModel):
             features vector as a list
         """
 
-        # Build feature vector from regular expressions of common study design terms
+        # Feature vector
         vector = []
+
+        # Add study design term counts normalized by number of tokens
         for keyword in self.keywords:
-            vector.append(len(re.findall("\\b%s\\b" % keyword.lower(), text.lower())))
+            vector.append(len(re.findall("\\b%s\\b" % keyword.lower(), text.lower())) / len(tokens))
 
         pos = [token.pos_ for token in tokens]
         dep = [token.dep_ for token in tokens]
 
-        # Append entity count (scispacy only tracks generic entities)
-        vector.append(len([entity for entity in tokens.ents if entity.text.lower() in self.keywords]))
+        # Append entity count (scispacy only tracks generic entities) normalized by number of tokens
+        vector.append(len([entity for entity in tokens.ents if entity.text.lower() in self.keywords]) / len(tokens))
 
-        # Append part of speech counts
+        # Append part of speech counts normalized by number of tokens
         for name in ["ADJ", "ADP", "ADV", "AUX", "CONJ", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PUNCT",
                      "SCONJ", "SYM", "VERB", "X", "SPACE"]:
-            vector.append(pos.count(name))
+            vector.append(pos.count(name) / len(tokens))
 
-        # Append dependency counts
+        # Append dependency counts normalized by number of tokens
         for name in ["acl", "advcl", "advmod", "amod", "appos", "aux", "case", "cc", "ccomp", "clf", "compound",
                      "conj", "cop", "csubj", "dep", "det", "discourse", "dislocated", "expl", "fixed", "flat",
                      "goeswith", "iobj", "list", "mark", "nmod", "nsubj", "nummod", "obj", "obl", "orphan",
                      "parataxis", "punct", "reparandum", "root", "vocative", "xcomp"]:
-            vector.append(dep.count(name))
+            vector.append(dep.count(name) / len(tokens))
 
         # Descriptive numbers on sample identifiers - i.e. 34 patients, 15 subjects, ten samples
         vector.append(1 if Sample.find(tokens, Vocab.SAMPLE) else 0)
@@ -136,9 +150,9 @@ class Attribute(StudyModel):
         dateregex = r"(January|Jan|February|Feb|March|Mar|April|Apr|May|June|Jun|July|Jul|August|Aug|" + \
                     r"September|Sep|October|Oct|November|Nov|December|Dec)\s?\d{1,2}?,? \d{4}?"
 
-        # Dates within the string
+        # Dates within the string normalized by number of tokens
         dates = len(re.findall(dateregex, text))
-        vector.append(dates)
+        vector.append(dates / len(tokens))
 
         return (text, vector)
 

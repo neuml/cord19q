@@ -5,11 +5,11 @@ StudyModel module
 import math
 import pickle
 
+import numpy as np
 import regex as re
 
 from sklearn.metrics import accuracy_score, log_loss, f1_score
 from sklearn.model_selection import train_test_split, GridSearchCV
-
 from .vocab import Vocab
 
 class StudyModel(object):
@@ -105,7 +105,7 @@ class StudyModel(object):
             model = GridSearchCV(model, params, cv=5, verbose=1, n_jobs=-1)
 
         # Load training data
-        features, labels = self.data(training)
+        ids, features, labels = self.data(training)
 
         # Split into train/test
         x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=0.1, random_state=0)
@@ -123,6 +123,13 @@ class StudyModel(object):
         # Score model
         self.score(x_test, y_test)
 
+        # Test model predictions on ALL training data
+        # Helps show records model is confused about within training data
+        for i, x in enumerate(features):
+            pred = model.predict([x])
+            if not np.array_equal(pred[0], labels[i]):
+                print(ids[i], labels[i], ", WRONG: ", pred)
+
     def score(self, features, labels):
         """
         Scores the model accuracy for test data.
@@ -134,12 +141,18 @@ class StudyModel(object):
 
         predictions = self.model.predict_proba(features)
         size = range(len(predictions[0]))
+        multiclass = False
 
-        plabels = [p.argmax() for p in predictions]
+        # Handle both single-class and multi-class labels
+        if isinstance(labels, np.ndarray):
+            plabels = [[x >= 0.5 for x in p] for p in predictions]
+            multiclass = True
+        else:
+            plabels = [p.argmax() for p in predictions]
 
         print("Test Accuracy: ", accuracy_score(labels, plabels))
         print("Test F1 Score: ", f1_score(labels, plabels, labels=size, average="weighted", zero_division=0))
-        print("Test Log Loss: ", log_loss(labels, predictions, labels=size))
+        print("Test Log Loss: ", log_loss(labels, predictions, labels=size if not multiclass else None))
         print("Base Log Loss (nclass=%d): " % len(size), -math.log(1 / len(size)))
 
     def predict(self, sections):
@@ -181,7 +194,7 @@ class StudyModel(object):
             training: training input file
 
         Returns:
-            (features, labels)
+            (ids, features, labels)
         """
 
-        return (training, training)
+        return (training, training, training)

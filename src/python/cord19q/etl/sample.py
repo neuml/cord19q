@@ -32,6 +32,11 @@ class Sample(object):
         # Get best attribute match per category
         best = np.argmax(attributes, axis=0)
 
+        #for x, a in enumerate(attributes):
+        #    print(a)
+        #    print(sections[x])
+        #    print("--------------")
+
         # labels - NO_MATCH, STATISTIC, SAMPLE_METHOD, SAMPLE_SIZE
         # section - name, text, tokens
         # Require minimum level of confidence for best prediction
@@ -44,6 +49,10 @@ class Sample(object):
             # section - name, text, tokens
             size = Sample.find(sample[2], Vocab.SAMPLE)
             sample = sample[1]
+
+        #print("METHOD:", method)
+        #print("SAMPLE:", sample)
+        #print("----------------")
 
         return size, sample, method
 
