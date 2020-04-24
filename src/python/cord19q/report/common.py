@@ -132,8 +132,8 @@ class Report(object):
             # Builds a row for article
             rows.append(self.buildRow(article, stat, documents[uid]))
 
-        # Print report by published asc
-        for row in sorted(rows, key=lambda x: x["Date"]):
+        # Print report by published desc
+        for row in sorted(rows, key=lambda x: x["Date"], reverse=True):
             # Convert row dict to list
             row = [row[column] for column in self.names]
 

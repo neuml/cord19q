@@ -56,7 +56,7 @@ class Design(StudyModel):
         return self.model.predict(features)[0]
 
     def create(self):
-        return RandomForestClassifier(n_estimators=137, max_depth=28, max_features=0.23, random_state=0)
+        return RandomForestClassifier(n_estimators=129, max_depth=21, max_features=0.22, random_state=0)
 
     def hyperparams(self):
         return {"n_estimators": range(125, 150),
