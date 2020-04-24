@@ -1,13 +1,16 @@
 Hypertension
 Diabetes
 Heart Disease
-Smoking
 Chronic obstructive pulmonary disease COPD
+Gender
+Smoking smoker
+Age
 Stroke
+Cerebrovascular disease
 Cancer
 Respiratory disease
-Chronic respiratory disease
 Kidney disease CKD
-Liver disease
+Chronic respiratory disease
 Alcohol Abuse
-Tuberculosis
+Overweight obese
+Liver disease
