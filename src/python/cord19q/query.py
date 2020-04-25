@@ -247,7 +247,7 @@ class Query(object):
         # Study design type mapping
         mapping = {1:"Systematic review", 2:"Randomized control trial", 3:"Non-randomized trial",
                    4:"Prospective observational", 5:"Time-to-event analysis", 6:"Retrospective observational",
-                   7:"Cross-sectional", 8:"Case series", 9:"Simulation", 0:"Other"}
+                   7:"Cross-sectional", 8:"Case series", 9:"Modeling", 0:"Other"}
 
         return mapping[design]
 
