@@ -90,7 +90,7 @@ class CSV(Report):
         columns = {}
 
         # Date
-        columns["Date"] = Query.date(article[0])
+        columns["Date"] = Query.date(article[0]) if article[0] else ""
 
         # Study
         columns["Study"] = article[1]
