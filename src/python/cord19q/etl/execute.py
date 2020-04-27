@@ -242,6 +242,7 @@ class Execute(object):
             # Look for at least one keyword match
             if re.findall(regex, text.lower()):
                 tags = "COVID-19"
+                break
 
         return tags
 
@@ -288,7 +289,8 @@ class Execute(object):
 
         # Parse both PMC and PDF json if available, sections will be de-duplicated
         paths = [("pdf_json", uid + ".json") for uid in uids]
-        if row["has_pmc_xml_parse"].lower() == "true":
+        pmc = row["has_pmc_xml_parse"]
+        if pmc and pmc.lower() == "true":
             paths.append(("pmc_json", row["pmcid"] + ".xml.json"))
 
         return paths
