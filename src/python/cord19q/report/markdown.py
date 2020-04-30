@@ -106,6 +106,9 @@ class Markdown(Report):
         # Top Matches
         columns["Matches"] = "<br/><br/>".join([Query.text(text) for _, text in sections])
 
+        # Entry Date
+        columns["Entry"] = article[9] if article[9] else ""
+
         # Escape | characters embedded within columns
         return {column: self.column(columns[column]) for column in columns}
 

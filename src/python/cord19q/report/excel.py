@@ -139,9 +139,9 @@ class XLSX(Report):
         # Column widths
         widths = None
         if "Severe" in self.names:
-            widths = [15, 50, 15, 15, 15, 8, 50, 70]
+            widths = [10, 40, 15, 15, 15, 40, 40, 60, 10]
         else:
-            widths = [15, 50, 15, 20, 20, 50, 70]
+            widths = [10, 50, 15, 50, 50, 60, 10]
 
         # Format size of columns
         for column, width in enumerate(widths):
@@ -198,6 +198,9 @@ class XLSX(Report):
 
         # Top Matches
         columns["Matches"] = "\n\n".join([Query.text(text) for _, text in sections])
+
+        # Entry Date
+        columns["Entry"] = article[9] if article[9] else ""
 
         return columns
 

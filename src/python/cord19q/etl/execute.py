@@ -10,6 +10,7 @@ import re
 import sqlite3
 
 from collections import Counter
+from datetime import datetime
 from multiprocessing import Pool
 
 from dateutil import parser
@@ -231,8 +232,8 @@ class Execute(object):
         """
 
         # Keyword patterns to search for
-        keywords = [r"2019[\-\s]?n[\-\s]?cov", "2019 novel coronavirus", "coronavirus 2019", r"coronavirus disease (?:20)?19",
-                    r"covid(?:[\-\s]?19)?", r"n\s?cov[\-\s]?2019", r"sars-cov-?2", r"wuhan (?:coronavirus|cov|pneumonia)"]
+        keywords = [r"2019[\-\s]?n[\-\s]?cov", "2019 novel coronavirus", "coronavirus 2(?:019)?", r"coronavirus disease (?:20)?19",
+                    r"covid(?:[\-\s]?(?:20)?19)?", r"n\s?cov[\-\s]?2019", r"sars[\-\s]cov-?2", r"wuhan (?:coronavirus|cov|pneumonia)"]
 
         # Build regular expression for each keyword. Wrap term in word boundaries
         regex = "|".join(["\\b%s\\b" % keyword.lower() for keyword in keywords])
@@ -264,7 +265,8 @@ class Execute(object):
         keys = set()
 
         # Boilerplate text to ignore
-        boilerplate = ["COVID-19 resource centre", "permission to make all its COVID", "WHO COVID database"]
+        boilerplate = ["COVID-19 resource centre", "permission to make all its COVID", "WHO COVID database",
+                       "COVID-19 public health emergency response"]
 
         for name, text in sections:
             # Add unique text that isn't boilerplate text
@@ -394,8 +396,8 @@ class Execute(object):
         # Get text sections
         sections, citations = Execute.getSections(row, indir)
 
-        # Get tags
-        tags = Execute.getTags(sections)
+        # Search recent documents for COVID-19 keywords
+        tags = Execute.getTags(sections) if not date or date >= datetime(2019, 7, 1) else None
 
         if tags:
             # Build NLP tokens for sections
@@ -427,13 +429,41 @@ class Execute(object):
         return (uid, article, sections, tags, design, citations)
 
     @staticmethod
-    def run(indir, outdir):
+    def entryDates(indir, entryfile):
+        """
+        Loads an entry date lookup file into memory.
+
+        Args:
+            indir: input directory
+            entryfile: path to entry dates file
+
+        Returns:
+            dict of sha id -> entry date
+        """
+
+        # Entry date mapping sha id to date
+        dates = {}
+
+        # Default path to entry files if not provided
+        if not entryfile:
+            entryfile = os.path.join(indir, "entry-dates.csv")
+
+        # Load in memory date lookup
+        with open(entryfile, mode="r") as csvfile:
+            for row in csv.DictReader(csvfile):
+                dates[row["sha"]] = row["date"]
+
+        return dates
+
+    @staticmethod
+    def run(indir, outdir, entryfile):
         """
         Main execution method.
 
         Args:
             indir: input directory
             outdir: output directory
+            entryfile: path to entry dates file
         """
 
         print("Building articles.sqlite from {}".format(indir))
@@ -450,10 +480,16 @@ class Execute(object):
         ids = set()
         citations = Counter()
 
+        # Entry dates
+        dates = Execute.entryDates(indir, entryfile)
+
         with Pool(os.cpu_count()) as pool:
             for uid, article, sections, tags, design, cite in pool.imap(Execute.process, Execute.stream(indir, outdir)):
                 # Skip rows with ids that have already been processed
                 if uid not in ids:
+                    # Append entry date
+                    article = article + (dates[uid],)
+
                     Execute.insert(db, Schema.ARTICLES, "articles", article)
 
                     citations.update(cite)

@@ -50,6 +50,9 @@ To build the model locally:
     # https://www.kaggle.com/davidmezzetti/cord19-study-design/#design
     # Default location: ~/.cord19/models/attribute, ~/.cord19/models/design
 
+    # Download entry-dates.csv and place in <download path>
+    # https://www.kaggle.com/davidmezzetti/cord-19-article-entry-dates/output
+
     # Convert csv/json files to SQLite
     python -m cord19q.etl <download_path>
 

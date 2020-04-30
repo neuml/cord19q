@@ -80,9 +80,9 @@ class Report(object):
         """
 
         if category == "risk":
-            return ["Date", "Title", "Severe", "Fatality", "Design", "Sample", "Sampling Method", "Matches"]
+            return ["Date", "Title", "Severe", "Fatality", "Design", "Sample", "Sampling Method", "Matches", "Entry"]
 
-        return ["Date", "Title", "Design", "Sample", "Sampling Method", "Matches"]
+        return ["Date", "Title", "Design", "Sample", "Sampling Method", "Matches", "Entry"]
 
     def highlights(self, output, results, topn):
         """
@@ -122,7 +122,7 @@ class Report(object):
 
         for uid in documents:
             # Get article metadata
-            self.cur.execute("SELECT Published, Title, Reference, Publication, Source, Design, Size, Sample, Method " +
+            self.cur.execute("SELECT Published, Title, Reference, Publication, Source, Design, Size, Sample, Method, Entry " +
                              "FROM articles WHERE id = ?", [uid])
             article = self.cur.fetchone()
 

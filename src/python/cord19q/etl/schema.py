@@ -20,7 +20,8 @@ class Schema(object):
         'Size': 'TEXT',
         'Sample': 'TEXT',
         'Method': 'TEXT',
-        'Reference': 'TEXT'
+        'Reference': 'TEXT',
+        "Entry": 'DATETIME'
     }
 
     # Sections schema

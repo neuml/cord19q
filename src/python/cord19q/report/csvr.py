@@ -79,9 +79,11 @@ class CSV(Report):
         if "Severe" in names:
             self.names = ["Date", "Study", "Study Link", "Journal", "Severe", "Severe Significant", "Severe Age Adjusted",
                           "Severe OR Calculated or Extracted", "Fatality", "Fatality Significant", "Fatality Age Adjusted",
-                          "Fatality OR Calculated or Extracted", "Design", "Sample", "Study Population", "Sample Text", "Matches"]
+                          "Fatality OR Calculated or Extracted", "Design", "Sample", "Study Population", "Sample Text", "Matches",
+                          "Entry"]
         else:
-            self.names = ["Date", "Study", "Study Link", "Journal", "Design", "Sample", "Study Population", "Sample Text", "Matches"]
+            self.names = ["Date", "Study", "Study Link", "Journal", "Design", "Sample", "Study Population", "Sample Text", "Matches",
+                          "Entry"]
 
         # Write out column names
         self.write(self.names)
@@ -139,6 +141,9 @@ class CSV(Report):
 
         # Top Matches
         columns["Matches"] = "\n\n".join([Query.text(text) for _, text in sections])
+
+        # Entry Date
+        columns["Entry"] = article[9] if article[9] else ""
 
         return columns
 
