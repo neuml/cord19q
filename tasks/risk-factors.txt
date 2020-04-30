@@ -1,12 +1,12 @@
 Hypertension
 Diabetes
+Gender
 Heart Disease
 Chronic obstructive pulmonary disease COPD
-Gender
 Smoking smoker
 Age
-Stroke
 Cerebrovascular disease
+Cardio and Cerebrovascular disease
 Cancer
 Respiratory disease
 Kidney disease CKD
