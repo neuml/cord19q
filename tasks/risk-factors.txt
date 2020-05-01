@@ -1,16 +1,16 @@
-Hypertension
-Diabetes
-Gender
-Heart Disease
-Chronic obstructive pulmonary disease COPD
-Smoking smoker
-Age
-Cerebrovascular disease
-Cardio and Cerebrovascular disease
-Cancer
-Respiratory disease
-Kidney disease CKD
-Chronic respiratory disease
-Alcohol Abuse
-Overweight obese
-Liver disease
+Hypertension CI
+Diabetes CI
+Male CI
+Heart Disease CI
+Chronic obstructive pulmonary disease COPD CI
+Smoking smoker CI
+Age CI
+Cerebrovascular disease CI
+Cardio and Cerebrovascular disease CI
+Cancer CI
+Respiratory disease CI
+Kidney disease CKD CI
+Chronic respiratory disease CI
+Alcohol Abuse CI
+Overweight obese CI
+Liver disease CI

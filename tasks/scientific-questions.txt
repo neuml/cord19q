@@ -1,43 +1,43 @@
-Viral shedding stool
-Viral shedding nasopharynx
-Viral shedding urine
-Viral shedding blood
-Persistence and stability on substrates (nasal discharge, sputum, urine, fecal matter, blood)
-Persistence of virus on inanimate surfaces
-Duration virus remains viable on surfaces
-Persistence of virus on different materials (copper, stainless steel, plastic)
-Length of viral shedding after illness onset
-Incubation period across different age groups
-Range of incubation periods
+Shedding stool days
+Shedding nasopharynx days
+Shedding urine days
+Shedding blood days
+Persistence nasal discharge, sputum, urine, stool, blood days
+Persistence inanimate surfaces days
+Duration viable on surfaces days
+Persistence on surfaces days
+Shedding duration days
+Incubation period children adult elderly days
+Range of incubation periods days
 Adhesion to hydrophilic, phobic surfaces
 Susceptibility to environmental cleaning agents
 Decontamination methods
-Development of a point-of-care test and rapid bed-side tests
-Diagnostics and coronavirus
-Advances in diagnosing SARS-COV-2
+Development of a point-of-care test and rapid bed-side detection methods
+Diagnostics and coronavirus detection methods
+Advances in diagnosing SARS-COV-2 detection methods
 Human immune response to COVID-19
 Proportion of asymptomatic patients
 Asymptomatic pediatric patients
 Asymptomatic transmission during incubation
-Effectiveness of case isolation, isolation of exposed individuals (i.e. quarantine)
-Effectiveness of community contact reduction
-Effectiveness of travel restrictions
-Effectiveness of school distancing
-Effectiveness of workplace distancing
-Effectiveness of a multifactorial strategy
+Case isolation exposed individuals, quarantine effect
+Community contact reduction effect
+Travel restrictions effect
+School distancing effect
+Workplace distancing effect
+Multifactorial strategy effect
 Virus mutations
-Phenotypic change
-COVID-19 virus evolution
+Phenotypic genetic change
+COVID-19 virus evolution tools
 Regional genetic variations (mutations)
 Communicating with target high-risk populations (elderly, health care workers)
-Seasonality of transmission 
+Seasonality of transmission significant factors and effect
 Temperature, humidity environment affect on transmission
 Multifactoral strategy preventing secondary transmission
 Workplace distancing preventing secondary transmission
 School distancing preventing secondary transmission
 Patients poor, lower social economic status
 Travel restrictions preventing secondary transmission
-Methods to combat hypercoagulable state seen in COVID-19
+Best therapeutic methods hypercoagulable state
 Evidence that domesticated, farm animals can be infected and maintain transmissibility of the disease
 Transmission model predictions
 Serial Interval (for infector-infectee pair)
