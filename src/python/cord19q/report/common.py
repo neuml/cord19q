@@ -29,12 +29,12 @@ class Report(object):
 
         Args:
             queries: queries to execute
-            topn: number of section results to return
+            topn: number of documents to return
             category: report category
             output: output I/O object
         """
 
-        # Default to 50 results if not specified
+        # Default to 50 documents if not specified
         topn = topn if topn else 50
 
         # Get columns for category
@@ -66,7 +66,7 @@ class Report(object):
             self.headers(output, self.names)
 
             # Generate table rows
-            self.articles(output, query, results)
+            self.articles(output, query, topn, results)
 
             # Write section separator
             self.separator(output)
@@ -104,18 +104,19 @@ class Report(object):
             # Write out highlight row
             self.highlight(output, article, highlight)
 
-    def articles(self, output, query, results):
+    def articles(self, output, query, topn, results):
         """
         Builds an articles section.
 
         Args:
             output: output file
             query: search query
+            topn: number of documents to return
             results: search results
         """
 
         # Get results grouped by document
-        documents = Query.documents(results)
+        documents = Query.documents(results, topn)
 
         # Collect matching rows
         rows = []

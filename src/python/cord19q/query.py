@@ -91,7 +91,7 @@ class Query(object):
             embeddings: embeddings model
             cur: database cursor
             query: query text
-            topn: number of results to return
+            topn: number of documents to return
 
         Returns:
             search results
@@ -102,7 +102,8 @@ class Query(object):
         # Tokenize search query
         query = Tokenizer.tokenize(query)
 
-        for uid, score in embeddings.search(query, topn):
+        # Retrieve topn * 5 to account for duplicate matches
+        for uid, score in embeddings.search(query, topn * 5):
             if score >= 0.6:
                 cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
                 results.append((uid, score) + cur.fetchone())
@@ -129,15 +130,17 @@ class Query(object):
             if score >= 0.35:
                 sections[text] = (uid, text)
 
-        return Highlights.build(sections.values(), topn)
+        # Return up to 5 highlights
+        return Highlights.build(sections.values(), min(topn, 5))
 
     @staticmethod
-    def documents(results):
+    def documents(results, topn):
         """
         Processes search results and groups by article.
 
         Args:
             results: search results
+            topn: number of documents to return
 
         Returns:
             results grouped by article
@@ -156,7 +159,9 @@ class Query(object):
         for uid in documents:
             documents[uid] = sorted(list(documents[uid]), reverse=True)
 
-        return documents
+        # Get documents with top n best sections
+        topn = sorted(documents, key=lambda k: max([x[0] for x in documents[k]]), reverse=True)[:topn]
+        return {uid: documents[uid] for uid in topn}
 
     @staticmethod
     def authors(authors):
@@ -293,7 +298,7 @@ class Query(object):
             embeddings: embeddings model
             db: open SQLite database
             query: query string
-            n: number of query results
+            topn: number of query results
         """
 
         # Default to 10 results if not specified
@@ -314,13 +319,13 @@ class Query(object):
         print()
 
         # Get results grouped by document
-        documents = Query.documents(results)
+        documents = Query.documents(results, topn)
 
         print(Query.render("# Articles") + "\n")
 
         # Print each result, sorted by max score descending
         for uid in sorted(documents, key=lambda k: sum([x[0] for x in documents[k]]), reverse=True):
-            cur.execute("SELECT Title, Published, Publication, Design, Size, Sample, Method, Id, Reference FROM articles WHERE id = ?", [uid])
+            cur.execute("SELECT Title, Published, Publication, Design, Size, Sample, Method, Entry, Id, Reference FROM articles WHERE id = ?", [uid])
             article = cur.fetchone()
 
             print("Title: %s" % article[0])
@@ -330,8 +335,9 @@ class Query(object):
             print("Severity: %s" % Query.stat(cur, article[6], query))
             print("Sample: %s" % Query.sample(article[4], article[5]))
             print("Method: %s" % Query.text(article[6]))
-            print("Id: %s" % article[7])
-            print("Reference: %s" % article[8])
+            print("Entry: %s" % article[7])
+            print("Id: %s" % article[8])
+            print("Reference: %s" % article[9])
 
             # Print top matches
             for score, text in documents[uid]:
