@@ -2,6 +2,8 @@
 Excel report module
 """
 
+import string
+
 from nltk.corpus import stopwords
 from xlsxwriter import Workbook
 
@@ -84,7 +86,7 @@ class XLSX(Report):
         """
 
         # Build sheet name up to 30 chars, prevent breaking on word
-        tokens = [token for token in query.split() if token.lower() not in XLSX.STOP_WORDS]
+        tokens = [token.strip(string.punctuation) for token in query.split() if token.lower() not in XLSX.STOP_WORDS]
         name = ""
         for token in tokens:
             if len(name) + len(token) > 30:

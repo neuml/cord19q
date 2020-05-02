@@ -2,6 +2,7 @@ build/
 dist/
 *egg-info/
 __pycache__/
+tasks/*csv
 tasks/*md
 tasks/*xlsx
 .coverage

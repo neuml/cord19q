@@ -10,9 +10,6 @@ class Tokenizer(object):
     Text tokenization methods
     """
 
-    # Default punctuation list
-    PUNCTUATION = string.punctuation
-
     # English Stop Word List (Standard stop words used by Apache Lucene)
     STOP_WORDS = {"a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if", "in", "into", "is", "it",
                   "no", "not", "of", "on", "or", "such", "that", "the", "their", "then", "there", "these",
@@ -31,7 +28,7 @@ class Tokenizer(object):
         """
 
         # Convert to all lowercase, split on whitespace, strip punctuation
-        tokens = [token.strip(Tokenizer.PUNCTUATION) for token in text.lower().split()]
+        tokens = [token.strip(string.punctuation) for token in text.lower().split()]
 
         # Tokenize on alphanumeric strings.
         # Require strings to be at least 2 characters long.

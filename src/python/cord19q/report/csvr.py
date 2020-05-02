@@ -5,6 +5,7 @@ CSV report module
 import csv
 import os
 import os.path
+import string
 
 from nltk.corpus import stopwords
 
@@ -43,7 +44,7 @@ class CSV(Report):
         """
 
         # Build file name up to 30 chars, prevent breaking on word
-        tokens = [token for token in query.split() if token.lower() not in CSV.STOP_WORDS]
+        tokens = [token.strip(string.punctuation) for token in query.split() if token.lower() not in CSV.STOP_WORDS]
         name = ""
         for token in tokens:
             if len(name) + len(token) > 30:
