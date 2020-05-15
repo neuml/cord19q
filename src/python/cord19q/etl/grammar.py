@@ -28,7 +28,7 @@ class Grammar(object):
 
         if text:
             # Run text through linguistic rules
-            results = [self.applyRules(tokens) for tokens in self.nlp.pipe(text)]
+            results = [self.applyRules(tokens) for tokens in self.nlp.pipe(text, batch_size=len(text))]
 
         return results
 

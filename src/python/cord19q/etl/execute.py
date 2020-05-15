@@ -4,21 +4,18 @@ Transforms raw CORD-19 data into an articles.sqlite SQLite database.
 
 import csv
 import hashlib
-import json
 import os.path
 import re
-import sqlite3
 
 from collections import Counter
 from datetime import datetime
 from multiprocessing import Pool
-
 from dateutil import parser
-from nltk.tokenize import sent_tokenize
 
+from .database import Database
 from .grammar import Grammar
 from .metadata import Metadata
-from .schema import Schema
+from .section import Section
 
 # Global helper for multi-processing support
 # pylint: disable=W0603
@@ -44,131 +41,6 @@ class Execute(object):
     """
     Transforms raw csv and json files into an articles.sqlite SQLite database.
     """
-
-    # SQL statements
-    CREATE_TABLE = "CREATE TABLE IF NOT EXISTS {table} ({fields})"
-    INSERT_ROW = "INSERT INTO {table} ({columns}) VALUES ({values})"
-    CREATE_INDEX = "CREATE INDEX section_article ON sections(article)"
-
-    @staticmethod
-    def init(outdir):
-        """
-        Connects initializes a new output SQLite database.
-
-        Args:
-            outdir: output directory, if None uses default path
-
-        Returns:
-            (connection to new SQLite database, output path)
-        """
-
-        # Default path if not provided
-        if not outdir:
-            outdir = os.path.join(os.path.expanduser("~"), ".cord19", "models")
-
-        # Create if output path doesn't exist
-        os.makedirs(outdir, exist_ok=True)
-
-        # Output database file
-        dbfile = os.path.join(outdir, "articles.sqlite")
-
-        # Delete existing file
-        if os.path.exists(dbfile):
-            os.remove(dbfile)
-
-        # Create output database
-        db = sqlite3.connect(dbfile)
-
-        # Create articles table
-        Execute.create(db, Schema.ARTICLES, "articles")
-
-        # Create sections table
-        Execute.create(db, Schema.SECTIONS, "sections")
-
-        # Create stats table
-        Execute.create(db, Schema.STATS, "stats")
-
-        # Create citations table
-        Execute.create(db, Schema.CITATIONS, "citations")
-
-        return (db, outdir)
-
-    @staticmethod
-    def create(db, table, name):
-        """
-        Creates a SQLite table.
-
-        Args:
-            db: database connection
-            table: table schema
-            name: table name
-        """
-
-        columns = ['{0} {1}'.format(name, ctype) for name, ctype in table.items()]
-        create = Execute.CREATE_TABLE.format(table=name, fields=", ".join(columns))
-
-        # pylint: disable=W0703
-        try:
-            db.execute(create)
-        except Exception as e:
-            print(create)
-            print("Failed to create table: " + e)
-
-    @staticmethod
-    def insert(db, table, name, row):
-        """
-        Builds and inserts a row.
-
-        Args:
-            db: database connection
-            table: table object
-            name: table name
-            row: row to insert
-        """
-
-        # Build insert prepared statement
-        columns = [name for name, _ in table.items()]
-        insert = Execute.INSERT_ROW.format(table=name,
-                                           columns=", ".join(columns),
-                                           values=("?, " * len(columns))[:-2])
-
-        try:
-            # Execute insert statement
-            db.execute(insert, Execute.values(table, row, columns))
-        # pylint: disable=W0703
-        except Exception as ex:
-            print("Error inserting row: {}".format(row), ex)
-
-    @staticmethod
-    def values(table, row, columns):
-        """
-        Formats and converts row into database types based on table schema.
-
-        Args:
-            table: table schema
-            row: row tuple
-            columns: column names
-
-        Returns:
-            Database schema formatted row tuple
-        """
-
-        values = []
-        for x, column in enumerate(columns):
-            # Get value
-            value = row[x]
-
-            if table[column].startswith("INTEGER"):
-                values.append(int(value) if value else 0)
-            elif table[column] == "BOOLEAN":
-                values.append(1 if value == "TRUE" else 0)
-            elif table[column] == "TEXT":
-                # Clean empty text and replace with None
-                values.append(value if value and len(value.strip()) > 0 else None)
-            else:
-                values.append(value)
-
-        return values
 
     @staticmethod
     def getId(row):
@@ -248,114 +120,6 @@ class Execute(object):
         return tags
 
     @staticmethod
-    def filtered(sections, citations):
-        """
-        Returns a filtered list of text sections and citations. Duplicate and boilerplate text strings are removed.
-
-        Args:
-            sections: input sections
-            citations: input citations
-
-        Returns:
-            filtered list of sections, citations
-        """
-
-        # Use list to preserve insertion order
-        unique = []
-        keys = set()
-
-        # Boilerplate text to ignore
-        boilerplate = ["COVID-19 resource centre", "permission to make all its COVID", "WHO COVID database",
-                       "COVID-19 public health emergency response"]
-
-        for name, text in sections:
-            # Add unique text that isn't boilerplate text
-            if not text in keys and not any([x in text for x in boilerplate]):
-                unique.append((name, text))
-                keys.add(text)
-
-        return unique, list(set(citations))
-
-    @staticmethod
-    def files(row, uids):
-        """
-        Build a list of json file locations and names to parse.
-
-        Args:
-            row: input row
-            uids: list of sha1 ids
-
-        Returns:
-            list of (directory, file name)
-        """
-
-        # Parse both PMC and PDF json if available, sections will be de-duplicated
-        paths = [("pdf_json", uid + ".json") for uid in uids]
-        pmc = row["has_pmc_xml_parse"]
-        if pmc and pmc.lower() == "true":
-            paths.append(("pmc_json", row["pmcid"] + ".xml.json"))
-
-        return paths
-
-    @staticmethod
-    def getSections(row, directory):
-        """
-        Reads title, abstract and body text for a given row. Text is returned as a list of sections.
-
-        Args:
-            row: input row
-            directory: input directory
-
-        Returns:
-            list of text sections
-        """
-
-        sections = []
-        citations = []
-
-        # Get ids and subset
-        uids = row["sha"].split("; ") if row["sha"] else None
-        subset = row["full_text_file"]
-
-        # Add title and abstract sections
-        for name in ["title", "abstract"]:
-            text = row[name]
-            if text:
-                # Remove leading and trailing []
-                text = re.sub(r"^\[", "", text)
-                text = re.sub(r"\]$", "", text)
-
-                sections.extend([(name.upper(), x) for x in sent_tokenize(text)])
-
-        if uids and subset:
-            for location, filename in Execute.files(row, uids):
-                # Build article path. Path has subset directory twice.
-                article = os.path.join(directory, subset, subset, location, filename)
-
-                try:
-                    with open(article) as jfile:
-                        data = json.load(jfile)
-
-                        # Extract text from each section
-                        for section in data["body_text"]:
-                            # Section name and text
-                            name = section["section"].upper() if len(section["section"].strip()) > 0 else None
-                            text = section["text"].replace("\n", " ")
-
-                            # Split text into sentences and add to sections
-                            sections.extend([(name, x) for x in sent_tokenize(text)])
-
-                        # Extract text from each citation
-                        citations.extend([entry["title"] for entry in data["bib_entries"].values()])
-
-                # pylint: disable=W0703
-                except Exception as ex:
-                    print("Error processing text file: {}".format(article), ex)
-
-        # Filter sections and return
-        return Execute.filtered(sections, citations)
-
-    @staticmethod
     def stream(indir, outdir):
         """
         Generator that yields rows from a metadata.csv file. The directory is also included.
@@ -394,7 +158,7 @@ class Execute(object):
         date = Execute.getDate(row)
 
         # Get text sections
-        sections, citations = Execute.getSections(row, indir)
+        sections, citations = Section.parse(row, indir)
 
         # Search recent documents for COVID-19 keywords
         tags = Execute.getTags(sections) if not date or date >= datetime(2019, 7, 1) else None
@@ -468,29 +232,29 @@ class Execute(object):
 
         print("Building articles.sqlite from {}".format(indir))
 
-        # Initialize database
-        db, outdir = Execute.init(outdir)
+        # Default output directory if not provided
+        if not outdir:
+            outdir = os.path.join(os.path.expanduser("~"), ".cord19", "models")
 
-        # Article, section, stats indices
-        aindex = 0
-        sindex = 0
-        tindex = 0
+        # Create if output path doesn't exist
+        os.makedirs(outdir, exist_ok=True)
 
-        # List of processed ids
-        ids = set()
-        citations = Counter()
+        # Article, section, stats indices, database, processed ids, citations
+        aindex, sindex, tindex, db, ids, citations = 0, 0, 0, Database(outdir), set(), Counter()
 
-        # Entry dates
+        # Load entry dates
         dates = Execute.entryDates(indir, entryfile)
 
+        # Create process pool
         with Pool(os.cpu_count()) as pool:
-            for uid, article, sections, tags, design, cite in pool.imap(Execute.process, Execute.stream(indir, outdir)):
+            for uid, article, sections, tags, design, cite in pool.imap(Execute.process, Execute.stream(indir, outdir), 100):
                 # Skip rows with ids that have already been processed
                 if uid not in ids:
                     # Append entry date
                     article = article + (dates[uid],)
 
-                    Execute.insert(db, Schema.ARTICLES, "articles", article)
+                    # Article row
+                    db.insert(Database.ARTICLES, "articles", article)
 
                     citations.update(cite)
 
@@ -499,13 +263,16 @@ class Execute(object):
                     if aindex % 1000 == 0:
                         print("Inserted {} articles".format(aindex), end="\r")
 
+                        # Commit current transaction and start a new one
+                        db.transaction()
+
                     for name, text, labels, stats in sections:
                         # Section row - id, article, tags, design, name, text, labels
-                        Execute.insert(db, Schema.SECTIONS, "sections", (sindex, uid, tags, design, name, text, labels))
+                        db.insert(Database.SECTIONS, "sections", (sindex, uid, tags, design, name, text, labels))
 
                         for name, value in stats:
                             # Stats row - id, article, section, name, value
-                            Execute.insert(db, Schema.STATS, "stats", (tindex, uid, sindex, name, value))
+                            db.insert(Database.STATS, "stats", (tindex, uid, sindex, name, value))
                             tindex += 1
 
                         sindex += 1
@@ -513,14 +280,14 @@ class Execute(object):
                     # Store article id as processed
                     ids.add(uid)
 
+        # Citation rows
         for citation in citations.items():
-            Execute.insert(db, Schema.CITATIONS, "citations", citation)
+            db.insert(Database.CITATIONS, "citations", citation)
 
         print("Total articles inserted: {}".format(aindex))
 
         # Create articles index for sections table
-        db.execute(Execute.CREATE_INDEX)
+        db.execute(Database.CREATE_INDEX)
 
-        # Commit changes and close
-        db.commit()
+        # Commit and close
         db.close()
