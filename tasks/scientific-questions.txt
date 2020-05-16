@@ -2,8 +2,6 @@ Shedding stool days
 Shedding nasopharynx days
 Shedding urine days
 Shedding blood days
-Persistence nasal discharge, sputum, urine, stool, blood days
-Persistence inanimate surfaces days
 Duration viable on surfaces days
 Persistence on surfaces days
 Shedding duration days
@@ -26,18 +24,19 @@ School distancing effect
 Workplace distancing effect
 Multifactorial strategy effect
 Virus mutations
+Studies monitor virus adaptations
 Phenotypic genetic change
 COVID-19 virus evolution tools
 Regional genetic variations (mutations)
 Communicating with target high-risk populations (elderly, health care workers)
 Seasonality of transmission significant factors and effect
 Temperature, humidity environment affect on transmission
-Multifactoral strategy preventing secondary transmission
-Workplace distancing preventing secondary transmission
-School distancing preventing secondary transmission
 Patients poor, lower social economic status
-Travel restrictions preventing secondary transmission
+Measures to reach marginalized and disadvantaged populations
+Methods to regulate the spread in communities
 Best therapeutic methods hypercoagulable state
+Novel therapeutics efficacy
 Evidence that domesticated, farm animals can be infected and maintain transmissibility of the disease
 Transmission model predictions
 Serial Interval (for infector-infectee pair)
+Effectiveness of personal protective equipment (PPE)
