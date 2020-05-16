@@ -14,3 +14,7 @@ Chronic respiratory disease CI
 Alcohol Abuse CI
 Overweight obese CI
 Liver disease CI
+Immune system disorder CI
+Asthma CI
+Dementia CI
+Endocrine disease CI

@@ -9,9 +9,9 @@ Persistence on surfaces days
 Shedding duration days
 Incubation period children adult elderly days
 Range of incubation periods days
-Adhesion to hydrophilic, phobic surfaces
-Susceptibility to environmental cleaning agents
-Decontamination methods
+Persistence hydrophilic, phobic plastic, steel, copper, cardboard
+Concentration ppm % disinfectant agent inactivate
+Decontamination physical science masks heat uv
 Development of a point-of-care test and rapid bed-side detection methods
 Diagnostics and coronavirus detection methods
 Advances in diagnosing SARS-COV-2 detection methods
