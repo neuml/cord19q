@@ -3,24 +3,12 @@ cord19q: COVID-19 Open Research Dataset (CORD-19) Analysis
 
 ![CORD19](https://pages.semanticscholar.org/hs-fs/hubfs/covid-image.png?width=300&name=covid-image.png)
 
-COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, about COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research) and there is a research challenge on [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
+COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, covering COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research) and there is a CORD-19 challenge on [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
-This project builds an index over the CORD-19 dataset to assist with analysis and data discovery. A series of tasks were explored to identify relevant articles and help find answers to key scientific questions on a number of COVID-19 research topics.
+The cord19q project builds an index over the CORD-19 dataset to assist with analysis and data discovery. A series of COVID-19 related research topics were explored to identify relevant articles and help find answers to key scientific questions.
 
 ### Tasks
-The following files show the top query results for each task provided in the CORD-19 Research Challenge using this model. A highlights section is also shown for each task, which highlights the most relevant sentences from the query results.
-
-- [What is known about transmission, incubation, and environmental stability?](https://www.kaggle.com/davidmezzetti/cord-19-transmission-incubation-environment)
-- [What do we know about COVID-19 risk factors?](https://www.kaggle.com/davidmezzetti/cord-19-risk-factors)
-- [What do we know about virus genetics, origin, and evolution?](https://www.kaggle.com/davidmezzetti/cord-19-virus-genetics-origin-and-evolution)
-- [What do we know about vaccines and therapeutics?](https://www.kaggle.com/davidmezzetti/cord-19-vaccines-and-therapeutics)
-- [What do we know about non-pharmaceutical interventions?](https://www.kaggle.com/davidmezzetti/cord-19-non-pharmaceutical-interventions)
-- [What has been published about medical care?](https://www.kaggle.com/davidmezzetti/cord-19-medical-care)
-- [What do we know about diagnostics and surveillance?](https://www.kaggle.com/davidmezzetti/cord-19-diagnostics-and-surveillance)
-- [What has been published about information sharing and inter-sectoral collaboration?](https://www.kaggle.com/davidmezzetti/cord-19-sharing-and-collaboration)
-- [What has been published about ethical and social science considerations?](https://www.kaggle.com/davidmezzetti/cord-19-ethical-and-social-science-considerations)
-
-A full overview of how to use this project can be found via this [Notebook](https://www.kaggle.com/davidmezzetti/cord-19-analysis-with-sentence-embeddings)
+A full overview and list of Kaggle CORD-19 Challenge tasks can be found in this [Notebook](https://www.kaggle.com/davidmezzetti/cord-19-analysis-with-sentence-embeddings)
 
 ### Installation
 You can use Git to clone the repository from GitHub and install it. It is recommended to do this in a Python Virtual Environment. 
@@ -29,7 +17,7 @@ You can use Git to clone the repository from GitHub and install it. It is recomm
     cd cord19q
     pip install .
 
-Python 3.5+ is supported
+Python 3.6+ is supported
 
 ### Building a model
 Download all the files in the Download CORD-19 section on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research). Go the directory with the files
@@ -69,9 +57,9 @@ The model will be stored in ~/.cord19
 ### Building a report file
 A report file is simply a markdown file created from a list of queries. An example:
 
-    python -m cord19q.report tasks/diagnostics.txt
+    python -m cord19q.report tasks/risk-factors.txt
 
-Once complete a file named tasks/diagnostics.md will be created.
+Once complete a file named tasks/risk-factors.md will be created.
 
 ### Running queries
 The fastest way to run queries is to start a cord19q shell
