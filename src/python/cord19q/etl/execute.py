@@ -92,6 +92,21 @@ class Execute(object):
         return None
 
     @staticmethod
+    def getUrl(row):
+        """
+        Parses the url from the input row.
+
+        Args:
+            row: input row
+
+        Returns:
+            url
+        """
+
+        # Use URL if present, otherwise derive from DOI
+        return row["url"] if row["url"] else ("https://doi.org/"  + row["doi"])
+
+    @staticmethod
     def getTags(sections):
         """
         Searches input sections for matching keywords. If found, returns the keyword tag.
@@ -188,7 +203,7 @@ class Execute(object):
         # Article row - id, source, published, publication, authors, title, tags, design, sample size
         #               sample section, sample method, reference
         article = (uid, row["source_x"], date, row["journal"], row["authors"], row["title"], tags, design, size,
-                   sample, method, row["url"])
+                   sample, method, Execute.getUrl(row))
 
         return (uid, article, sections, tags, design, citations)
 
