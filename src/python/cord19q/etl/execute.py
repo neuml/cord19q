@@ -104,7 +104,7 @@ class Execute(object):
         """
 
         # Use URL if present, otherwise derive from DOI
-        return row["url"] if row["url"] else ("https://doi.org/"  + row["doi"])
+        return row["url"].split("; ")[0] if row["url"] else ("https://doi.org/"  + row["doi"])
 
     @staticmethod
     def getTags(sections):
