@@ -235,7 +235,7 @@ class Execute(object):
         return dates
 
     @staticmethod
-    def run(indir, outdir, entryfile):
+    def run(indir, outdir, entryfile, full):
         """
         Main execution method.
 
@@ -243,6 +243,7 @@ class Execute(object):
             indir: input directory
             outdir: output directory
             entryfile: path to entry dates file
+            full: full database load if True, only loads tagged articles if False
         """
 
         print("Building articles.sqlite from {}".format(indir))
@@ -264,7 +265,8 @@ class Execute(object):
         with Pool(os.cpu_count()) as pool:
             for uid, article, sections, tags, design, cite in pool.imap(Execute.process, Execute.stream(indir, outdir), 100):
                 # Skip rows with ids that have already been processed
-                if uid not in ids:
+                # Only load untagged rows if this is a full database load
+                if uid not in ids and (full or tags):
                     # Append entry date
                     article = article + (dates[uid],)
 
