@@ -105,8 +105,9 @@ class Execute(object):
 
         if row["url"]:
             # Filter out API reference links
-            urls = [url for url in row["url"].split("; ") if "https://api" not in url]
-            return urls[0]
+            urls = [url for url in row["url"].split("; ") if "https://api." not in url]
+            if urls:
+                return urls[0]
 
         # Default to DOI
         return "https://doi.org/"  + row["doi"]
