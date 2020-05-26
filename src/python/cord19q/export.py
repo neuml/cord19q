@@ -7,8 +7,11 @@ import os.path
 import sqlite3
 import sys
 
+import regex as re
+
 # pylint: disable=E0611
 # Defined at runtime
+from .index import Index
 from .models import Models
 
 class Export(object):
@@ -31,19 +34,19 @@ class Export(object):
             db = sqlite3.connect(dbfile)
             cur = db.cursor()
 
-            # Database query
-            cur.execute("SELECT Text FROM sections WHERE tags is not null AND design NOT IN (0, 9) AND " +
-                        "(labels is null or labels NOT IN ('FRAGMENT', 'QUESTION'))")
+            # Get all indexed text, with a detected study design, excluding modeling designs
+            cur.execute(Index.SECTION_QUERY + " AND design NOT IN (0, 9)")
 
             count = 0
-            for section in cur:
-                count += 1
-                if count % 1000 == 0:
-                    print("Streamed %d documents" % (count), end="\r")
+            for _, name, text in cur:
+                if not name or not re.search(Index.SECTION_FILTER, name.lower()):
+                    count += 1
+                    if count % 1000 == 0:
+                        print("Streamed %d documents" % (count), end="\r")
 
-                # Write row
-                if section[0]:
-                    output.write(section[0] + "\n")
+                    # Write row
+                    if text:
+                        output.write(text + "\n")
 
             print("Iterated over %d total rows" % (count))
 

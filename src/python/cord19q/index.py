@@ -17,6 +17,10 @@ class Index(object):
     Methods to build a new sentence embeddings index.
     """
 
+    # Section query and filtering logic constants
+    SECTION_FILTER = r"background|(?<!.*?results.*?)discussion|introduction|reference"
+    SECTION_QUERY = "SELECT Id, Name, Text FROM sections WHERE tags is not null AND (labels is null or labels NOT IN ('FRAGMENT', 'QUESTION'))"
+
     @staticmethod
     def stream(dbfile):
         """
@@ -31,15 +35,14 @@ class Index(object):
         cur = db.cursor()
 
         # Select tagged sentences without a NLP label. NLP labels are set for non-informative sentences.
-        cur.execute("SELECT Id, Name, Text FROM sections WHERE tags is not null AND " +
-                    "(labels is null or labels NOT IN ('FRAGMENT', 'QUESTION'))")
+        cur.execute(Index.SECTION_QUERY)
 
         count = 0
         for row in cur:
             # Unpack row
             uid, name, text = row
 
-            if not name or not re.search(r"background|(?<!.*?results.*?)discussion|introduction|reference", name.lower()):
+            if not name or not re.search(Index.SECTION_FILTER, name.lower()):
                 # Tokenize text
                 tokens = Tokenizer.tokenize(text)
 
