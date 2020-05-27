@@ -50,7 +50,7 @@ class Markdown(Report):
 
         output.write("%s\n" % line)
 
-    def query(self, output, query):
+    def query(self, output, task, query):
         self.write(output, "# %s" % query)
 
     def section(self, output, name):
@@ -63,16 +63,23 @@ class Markdown(Report):
         # Build highlight row with citation link
         self.write(output, "- %s %s<br/>" % (Query.text(highlight), link))
 
-    def headers(self, output, names):
+    def headers(self, columns, output):
+        self.names = columns
+
+        # Remove extended study columns
+        for field in ["Journal", "Study Link", "Sample Text"]:
+            if field in self.names:
+                self.names.remove(field)
+
         # Write table header
-        headers = "|".join(names)
+        headers = "|".join(self.names)
         self.write(output, "|%s|" % headers)
 
         # Write markdown separator for headers
-        headers = "|".join(["----"] * len(names))
+        headers = "|".join(["----"] * len(self.names))
         self.write(output, "|%s|" % headers)
 
-    def buildRow(self, article, stat, sections):
+    def buildRow(self, article, sections, calculated):
         columns = {}
 
         # Date
@@ -85,29 +92,26 @@ class Markdown(Report):
         title += "<br/>%s" % (article[3] if article[3] else article[4])
 
         # Title + Publication if available
-        columns["Title"] = title
+        columns["Study"] = title
 
-        # Severe
-        columns["Severe"] = stat if stat else ""
-
-        # Fatality
-        columns["Fatality"] = ""
-
-        # Design
-        columns["Design"] = Query.design(article[5])
+        # Study Type
+        columns["Study Type"] = Query.design(article[5])
 
         # Sample Size
         sample = Query.sample(article[6], article[7])
         columns["Sample"] = sample if sample else ""
 
-        # Sampling Method
-        columns["Sampling Method"] = Query.text(article[8]) if article[8] else ""
+        # Study Population
+        columns["Study Population"] = Query.text(article[8]) if article[8] else ""
 
         # Top Matches
         columns["Matches"] = "<br/><br/>".join([Query.text(text) for _, text in sections])
 
         # Entry Date
         columns["Entry"] = article[9] if article[9] else ""
+
+        # Merge in calculated fields
+        columns.update(calculated)
 
         # Escape | characters embedded within columns
         return {column: self.column(columns[column]) for column in columns}

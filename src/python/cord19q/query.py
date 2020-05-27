@@ -272,24 +272,6 @@ class Query(object):
         return "[%s] %s" % (size, Query.text(text)) if size else Query.text(text)
 
     @staticmethod
-    def stat(cur, article, name):
-        """
-        Looks up the named stat for an article.
-
-        Args:
-            article: article id
-            name: stat name
-
-        Returns:
-            stat string if found
-        """
-
-        name = "%" + name + "%"
-        cur.execute("SELECT Value FROM stats WHERE article = ? AND (name LIKE ? or value LIKE ?)", [article, name, name])
-        stat = cur.fetchone()
-        return stat[0] if stat else None
-
-    @staticmethod
     def query(embeddings, db, query, topn):
         """
         Executes a query against the embeddings model.
@@ -332,7 +314,6 @@ class Query(object):
             print("Published: %s" % Query.date(article[1]))
             print("Publication: %s" % article[2])
             print("Design: %s" % Query.design(article[3]))
-            print("Severity: %s" % Query.stat(cur, article[6], query))
             print("Sample: %s" % Query.sample(article[4], article[5]))
             print("Method: %s" % Query.text(article[6]))
             print("Entry: %s" % article[7])

@@ -5,8 +5,8 @@ Report factory module
 import os.path
 
 from .csvr import CSV
-from .excel import XLSX
 from .markdown import Markdown
+from .task import Task
 
 from ..models import Models
 
@@ -31,20 +31,17 @@ class Execute(object):
             return CSV(embeddings, cur)
         elif render == "md":
             return Markdown(embeddings, cur)
-        elif render == "xlsx":
-            return XLSX(embeddings, cur)
 
         return None
 
     @staticmethod
-    def run(task, topn=None, category=None, render=None, path=None):
+    def run(task, topn=None, render=None, path=None):
         """
         Reads a list of queries from a task file and builds a report.
 
         Args:
             task: input task file
             topn: number of results
-            category: report category, used to decide what columns to include
             render: report rendering format ("md" for markdown, "csv" for csv)
             path: model path
         """
@@ -52,9 +49,8 @@ class Execute(object):
         # Load model
         embeddings, db = Models.load(path)
 
-        # Read each task query
-        with open(task, "r") as f:
-            queries = [line.strip() for line in f.readlines()]
+        # Read task configuration
+        name, queries, outdir = Task.load(task)
 
         # Derive report format
         render = render if render else "md"
@@ -63,15 +59,15 @@ class Execute(object):
         report = Execute.create(render, embeddings, db)
 
         # Generate output filename
-        outfile = "%s.%s" % (os.path.splitext(task)[0], render)
+        outfile = os.path.join(outdir, "%s.%s" % (name, render))
 
         # Stream report to file
-        with open(outfile, report.mode()) as output:
+        with open(outfile, "w") as output:
             # Initialize report
             report.open(output)
 
             # Build the report
-            report.build(queries, topn, category, output)
+            report.build(queries, topn, output)
 
             # Close the report
             report.close()

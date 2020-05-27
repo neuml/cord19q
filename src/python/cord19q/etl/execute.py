@@ -160,7 +160,7 @@ class Execute(object):
         Processes a single row
 
         Args:
-            params: (row, directory)
+            params: (row, indir, outdir)
 
         Returns:
             (id, article, sections)
@@ -192,16 +192,16 @@ class Execute(object):
             sections = [(name, text, tokenslist[x]) for x, (name, text) in enumerate(sections)]
 
             # Derive metadata fields
-            design, size, sample, method, labels, risks = Metadata.parse(sections, outdir)
+            design, size, sample, method, labels = Metadata.parse(sections, outdir)
 
             # Add additional fields to each section
-            sections = [(name, text, labels[x] if labels[x] else grammar.label(tokens), risks[x]) for x, (name, text, tokens) in enumerate(sections)]
+            sections = [(name, text, labels[x] if labels[x] else grammar.label(tokens)) for x, (name, text, tokens) in enumerate(sections)]
         else:
             # Untagged section, create None default placeholders
             design, size, sample, method = None, None, None, None
 
             # Extend sections with empty columns
-            sections = [(name, text, None, []) for name, text in sections]
+            sections = [(name, text, None) for name, text in sections]
 
             # Clear citations when not a tagged entry
             citations = None
@@ -261,8 +261,8 @@ class Execute(object):
         # Create if output path doesn't exist
         os.makedirs(outdir, exist_ok=True)
 
-        # Article, section, stats indices, database, processed ids, citations
-        aindex, sindex, tindex, db, ids, citations = 0, 0, 0, Database(outdir), set(), Counter()
+        # Article, section index, database, processed ids, citations
+        aindex, sindex, db, ids, citations = 0, 0, Database(outdir), set(), Counter()
 
         # Load entry dates
         dates = Execute.entryDates(indir, entryfile)
@@ -289,15 +289,9 @@ class Execute(object):
                         # Commit current transaction and start a new one
                         db.transaction()
 
-                    for name, text, labels, stats in sections:
+                    for name, text, labels in sections:
                         # Section row - id, article, tags, design, name, text, labels
                         db.insert(Database.SECTIONS, "sections", (sindex, uid, tags, design, name, text, labels))
-
-                        for name, value in stats:
-                            # Stats row - id, article, section, name, value
-                            db.insert(Database.STATS, "stats", (tindex, uid, sindex, name, value))
-                            tindex += 1
-
                         sindex += 1
 
                     # Store article id as processed

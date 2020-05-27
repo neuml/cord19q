@@ -9,7 +9,6 @@ import numpy as np
 from .attribute import Attribute
 from .design import Design
 from .sample import Sample
-from .stats import Stats
 
 # Global helper for multi-processing support
 # pylint: disable=W0603
@@ -69,15 +68,12 @@ class Metadata(object):
 
         # Label each section
         labels = []
-        stats = []
-        for x, (_, text, tokens) in enumerate(sections):
+        for x, (_, text, _) in enumerate(sections):
             # Get predicted attribute
             attribute = np.argmax(attributes[x])
-            label, stat = None, []
+            label = None
 
             if attribute == 1:
-                # Section classified as a statistic, attempt to parse stats
-                stat = Stats.extract(tokens)
                 label = "STATISTIC"
             elif text == sample:
                 label = "SAMPLE_SIZE"
@@ -85,6 +81,5 @@ class Metadata(object):
                 label = "SAMPLE_METHOD"
 
             labels.append(label)
-            stats.append(stat)
 
-        return (design, size, sample, method, labels, stats)
+        return (design, size, sample, method, labels)

@@ -11,9 +11,8 @@ import tempfile
 import fasttext
 import fasttext.util
 
-# pylint: disable=E0611
-# Defined at runtime
-from .magnitude import converter
+from pymagnitude import converter
+
 from .models import Models
 from .tokenizer import Tokenizer
 
@@ -174,4 +173,4 @@ class Vectors(object):
 
 if __name__ == "__main__":
     # Create vector model
-    Vectors.run(sys.argv[1] if len(sys.argv) > 1 else None, 300, 3)
+    Vectors.run(sys.argv[1] if len(sys.argv) > 1 else None, 300, 5)

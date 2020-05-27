@@ -12,11 +12,9 @@ from multiprocessing import Pool
 import faiss
 import numpy as np
 
+from pymagnitude import Magnitude
 from sklearn.decomposition import TruncatedSVD
 
-# pylint: disable=E0611
-# Defined at runtime
-from .magnitude import Magnitude
 from .scoring import Scoring
 
 # Multiprocessing helper methods
@@ -277,27 +275,23 @@ class Embeddings(object):
         # Map results to [(id, score)]
         return list(zip(results[1][0].tolist(), (results[0][0]).tolist()))
 
-    def similarity(self, tokens1, tokens2):
+    def similarity(self, query, documents):
         """
-        Computes the similarity between two sets of tokens.
+        Computes the similarity between a query and a set of documents
 
         Args:
-            tokens1: tokens
-            tokens2: tokens
+            query: query tokens
+            documents: document tokens
 
         Returns:
-            computed similarity (0 - 1 with 1 being most similar)
+            [computed similarity (0 - 1 with 1 being most similar)]
         """
 
-        embeddings1 = self.transform((None, tokens1, None))
-        embeddings2 = self.transform((None, tokens2, None))
-
-        if len(embeddings1.shape) == 1:
-            embeddings1 = embeddings1.reshape(1, -1)
-            embeddings2 = embeddings2.reshape(1, -1)
+        query = self.transform((None, query, None)).reshape(1, -1)
+        documents = np.array([self.transform((None, tokens, None)) for tokens in documents])
 
         # Dot product on normalized vectors is equal to cosine similarity
-        return np.dot(embeddings1, embeddings2.T)[0][0]
+        return np.dot(query, documents.T)[0]
 
     def load(self, path):
         """

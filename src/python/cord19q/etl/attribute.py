@@ -55,13 +55,14 @@ class Attribute(StudyModel):
         # Concat tf-idf and features vector
         features = np.concatenate((vector.toarray(), [f for _, f in features]), axis=1)
 
-        # Predict probability
-        predictions = self.model.predict_proba(features)
+        # Predict probability - run serially for each row to prevent multi-threaded GIL thrashing
+        predictions = np.array([self.model.predict_proba([f])[0] for f in features])
 
         # Clear predictions for short text snippets and filtered sections
         for x, (name, text, _) in enumerate(sections):
             if len(text) <= 25 or (name and not StudyModel.filter(name.lower())):
                 # Clear prediction
+                # pylint: disable=E1136
                 predictions[x] = np.zeros(predictions.shape[1])
 
         return predictions

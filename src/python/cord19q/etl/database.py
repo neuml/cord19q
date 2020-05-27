@@ -38,15 +38,6 @@ class Database(object):
         'Labels': 'TEXT'
     }
 
-    # Stats schema
-    STATS = {
-        'Id': 'INTEGER PRIMARY KEY',
-        'Article': 'TEXT',
-        'Section': 'INTEGER',
-        'Name': 'TEXT',
-        'Value': 'TEXT'
-    }
-
     # Citations schema
     CITATIONS = {
         'Title': 'TEXT PRIMARY KEY',
@@ -84,9 +75,6 @@ class Database(object):
 
         # Create sections table
         self.create(Database.SECTIONS, "sections")
-
-        # Create stats table
-        self.create(Database.STATS, "stats")
 
         # Create citations table
         self.create(Database.CITATIONS, "citations")

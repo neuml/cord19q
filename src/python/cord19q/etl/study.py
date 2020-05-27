@@ -10,6 +10,9 @@ import regex as re
 
 from sklearn.metrics import accuracy_score, log_loss, f1_score
 from sklearn.model_selection import train_test_split, GridSearchCV
+
+from ..index import Index
+
 from .vocab import Vocab
 
 class StudyModel(object):
@@ -51,7 +54,7 @@ class StudyModel(object):
 
         # Skip background, introduction and reference sections
         # Skip discussion unless it's a results and discussion
-        return not re.search(r"background|(?<!.*?results.*?)discussion|introduction|reference", name)
+        return not re.search(Index.SECTION_FILTER, name)
 
     def __init__(self):
         """

@@ -4,6 +4,8 @@ Report module
 
 from ..query import Query
 
+from .extractor import Extractor
+
 class Report(object):
     """
     Methods to build reports from a series of queries
@@ -21,28 +23,32 @@ class Report(object):
         # Store references to embeddings index and open database cursor
         self.embeddings = embeddings
         self.cur = db.cursor()
-        self.names = None
 
-    def build(self, queries, topn, category, output):
+        # Column names
+        self.names = []
+
+        # Extractive question-answering model
+        self.extractor = Extractor(self.embeddings, self.cur)
+
+    def build(self, queries, topn, output):
         """
         Builds a report using a list of input queries
 
         Args:
             queries: queries to execute
             topn: number of documents to return
-            category: report category
             output: output I/O object
         """
 
         # Default to 50 documents if not specified
         topn = topn if topn else 50
 
-        # Get columns for category
-        self.names = self.columns(category)
+        for name, config in queries:
+            query = config["query"]
+            columns = config["columns"]
 
-        for query in queries:
             # Write query string
-            self.query(output, query)
+            self.query(output, name, query)
 
             # Write separator
             self.separator(output)
@@ -63,26 +69,13 @@ class Report(object):
             self.section(output, "Articles")
 
             # Generate table headers
-            self.headers(output, self.names)
+            self.headers([column["name"] for column in columns], output)
 
             # Generate table rows
-            self.articles(output, query, topn, results)
+            self.articles(output, topn, columns, results)
 
             # Write section separator
             self.separator(output)
-
-    def columns(self, category):
-        """
-        Gets the display columns depending on the category of report
-
-        Args:
-            category: report category
-        """
-
-        if category == "risk":
-            return ["Date", "Title", "Severe", "Fatality", "Design", "Sample", "Sampling Method", "Matches", "Entry"]
-
-        return ["Date", "Title", "Design", "Sample", "Sampling Method", "Matches", "Entry"]
 
     def highlights(self, output, results, topn):
         """
@@ -104,14 +97,14 @@ class Report(object):
             # Write out highlight row
             self.highlight(output, article, highlight)
 
-    def articles(self, output, query, topn, results):
+    def articles(self, output, topn, columns, results):
         """
         Builds an articles section.
 
         Args:
             output: output file
-            query: search query
             topn: number of documents to return
+            columns: column metadata
             results: search results
         """
 
@@ -127,29 +120,50 @@ class Report(object):
                              "FROM articles WHERE id = ?", [uid])
             article = self.cur.fetchone()
 
-            # Lookup stat
-            stat = Query.stat(self.cur, uid, query)
+            # Calculate derived fields
+            calculated = self.calculate(uid, columns)
 
             # Builds a row for article
-            rows.append(self.buildRow(article, stat, documents[uid]))
+            rows.append(self.buildRow(article, documents[uid], calculated))
 
         # Print report by published desc
-        for row in sorted(rows, key=lambda x: x["Date"], reverse=True):
+        for row in rows: #sorted(rows, key=lambda x: x["Date"], reverse=True):
             # Convert row dict to list
             row = [row[column] for column in self.names]
 
             # Write out row
             self.writeRow(output, row)
 
-    def mode(self):
+    def calculate(self, uid, columns):
         """
-        Output mode "w" for writing text files, "wb" for binary files.
+        Builds a dict of calculated fields for a given document.
+
+        Args:
+            uid: document id
+            columns: column definitions
 
         Returns:
-            default returns "w"
+            {name: value} containing derived column values
         """
 
-        return "w"
+        fields = {}
+        questions = []
+
+        for column in columns:
+            # Constant column
+            if "constant" in column:
+                fields[column["name"]] = column["constant"]
+            # Question-answer column
+            elif "query" in column:
+                # Queue questions for single bulk query
+                question = column["question"] if "question" in column else column["query"]
+                questions.append((column["name"], column["query"], question))
+
+        # Add extraction fields
+        for name, value in self.extractor.extract(uid, questions):
+            fields[name] = value
+
+        return fields
 
     def open(self, output):
         """
@@ -172,12 +186,13 @@ class Report(object):
             outfile: output file path
         """
 
-    def query(self, output, query):
+    def query(self, output, task, query):
         """
         Writes query.
 
         Args:
             output: output file
+            task: task name
             query: query string
         """
 
@@ -200,23 +215,23 @@ class Report(object):
             highlight: highlight text
         """
 
-    def headers(self, output, names):
+    def headers(self, columns, output):
         """
         Writes table headers.
 
         Args:
+            columns: column names
             output: output file
-            name: section name
         """
 
-    def buildRow(self, article, stat, sections):
+    def buildRow(self, article, sections, calculated):
         """
         Converts a document to a table row.
 
         Args:
             article: article
-            stat: top article statistic matching query
             sections: text sections for article
+            calculated: calculated fields
         """
 
     def writeRow(self, output, row):
