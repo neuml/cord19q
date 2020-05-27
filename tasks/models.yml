@@ -1,0 +1,66 @@
+# Task name
+name: models
+
+# Field definitions
+fields:
+    common: &common
+        - name: Date
+        - name: Study
+        - name: Study Link
+        - name: Journal
+        - name: Study Type
+
+    appendix: &appendix
+        - name: Sample
+        - name: Sample Text
+        - name: Study Population
+        - name: Matches
+        - name: Entry
+
+Are there studies about phenotypic change:
+    query: Phenotypic genetic change
+    columns:
+        - *common
+        - *appendix
+
+Efforts to develop qualitative assessment frameworks:
+    query: qualitative assessment frameworks
+    columns:
+        - *common
+        - *appendix
+
+How can we measure changes in COVID-19_s behavior in a human host as the virus evolves over time:
+    query: Human immune response to COVID-19
+    columns:
+        - *common
+        - *appendix
+
+Serial Interval (time between symptom onset in infector-infectee pair):
+    query: Serial Interval (for infector-infectee pair)
+    columns:
+        - *common
+        - *appendix
+
+Tools and studies to monitor phenotypic change and potential adaptation of the virus:
+    query: Studies monitor virus adaptations
+    columns:
+        - *common
+        - *appendix
+
+What do models for transmission predict:
+    query: Transmission model predictions
+    columns:
+        - *common
+        - *appendix
+
+What is known about adaptations (mutations) of the virus:
+    query: Virus mutations
+    columns:
+        - *common
+        - *appendix
+
+What regional genetic variations (mutations) exist:
+    query: Regional genetic variations (mutations)
+    columns:
+        - *common
+        - *appendix

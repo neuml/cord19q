@@ -1,0 +1,69 @@
+# Task name
+name: patients
+
+# Field definitions
+fields:
+    common: &common
+        - name: Date
+        - name: Study
+        - name: Study Link
+        - name: Journal
+        - name: Study Type
+
+    appendix: &appendix
+        - name: Sample
+        - name: Sample Text
+        - name: Study Population
+        - name: Matches
+        - name: Entry
+
+Can the virus be transmitted asymptomatically or during the incubation period:
+    query: Asymptomatic transmission during incubation
+    columns:
+        - *common
+        - *appendix
+
+How does viral load relate to disease presentations and likelihood of a positive diagnostic test:
+    query: Advances in diagnosing SARS-COV-2 detection methods
+    columns:
+        - *common
+        - *appendix
+
+Incubation period across different age groups:
+    query: Incubation period children adult elderly days
+    columns:
+        - *common
+        - *appendix
+
+Length of viral shedding after illness onset:
+    query: Shedding duration days
+    columns:
+        - *common
+        - *appendix
+
+Manifestations of COVID-19 including but not limited to possible cardiomyopathy and cardiac arrest:
+    query: Cardiomyopathy and cardiac arrest related manifestations
+    columns:
+        - *common
+        - *appendix
+
+Proportion of all positive COVID19 patients who were asymptomatic:
+    query: Proportion of asymptomatic patients
+    columns:
+        - *common
+        - *appendix
+
+Proportion of pediatric COVID19 patients who were asymptomatic:
+    query: Asymptomatic pediatric patients
+    columns:
+        - *common
+        - *appendix
+ 
+What is the incubation period of the virus:
+    query: Range of incubation periods days
+    columns:
+        - *common
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Days, query: range of incubation period days, question: What is median incubation period}
+        - {name: Range (Days), query: range of incubation periods days, question: What is 95th percentile IQR}
+        - *appendix

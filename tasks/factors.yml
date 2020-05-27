@@ -1,0 +1,92 @@
+# Task name
+name: factors
+
+# Field definitions
+fields:
+    common: &common
+        - name: Date
+        - name: Study
+        - name: Study Link
+        - name: Journal
+        - name: Study Type
+
+    appendix: &appendix
+        - name: Sample
+        - name: Sample Text
+        - name: Study Population
+        - name: Matches
+        - name: Entry
+
+# Define query tasks
+Effectiveness of a multifactorial strategy to prevent secondary transmission: 
+    query: Multifactorial strategy effect
+    columns:
+        - *common
+        - *appendix
+
+Effectiveness of case isolation_isolation of exposed individuals to prevent secondary transmission:
+    query: Case isolation exposed individuals, quarantine effect
+    columns:
+        - *common
+        - *appendix
+
+Effectiveness of community contact reduction:
+    query: Community contact reduction effect
+    columns:
+        - *common
+        - {name: Factors, query: effectiveness of community contact reduction, question: what method reduces transmission}
+        - *appendix
+
+Effectiveness of inter_inner travel restriction:
+    query: Travel restrictions effect
+    columns:
+        - *common
+        - *appendix
+
+Effectiveness of personal protective equipment (PPE):
+    query: Effectiveness of personal protective equipment (PPE)
+    columns:
+        - *common
+        - *appendix
+
+Effectiveness of school distancing:
+    query: School distancing effect
+    columns:
+        - *common
+        - *appendix
+
+Effectiveness of workplace distancing to prevent secondary transmission:
+    query: Workplace distancing effect
+    columns:
+        - *common
+        - *appendix
+
+Evidence that domesticated_farm animals can be infected and maintain transmissibility of the disease:
+    query: Evidence that domesticated, farm animals can be infected and maintain transmissibility of the disease
+    columns:
+        - *common
+        - *appendix
+
+How does temperature and humidity affect the transmission of 2019-nCoV:
+    query: Temperature, humidity environment affect on transmission
+    columns:
+        - *common
+        - *appendix
+
+Methods to understand and regulate the spread in communities:
+    query: Methods to regulate the spread in communities
+    columns:
+        - *common
+        - *appendix
+
+Seasonality of transmission:
+    query: Seasonality of transmission significant factors and effect
+    columns:
+        - *common
+        - *appendix
+
+What is the likelihood of significant changes in transmissibility in changing seasons:
+    query: transmission changes with seasonal change
+    columns:
+        - *common
+        - *appendix

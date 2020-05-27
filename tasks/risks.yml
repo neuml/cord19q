@@ -1,0 +1,144 @@
+# Task name
+name: risks
+
+# Field definitions
+fields:
+    common: &common
+        - name: Date
+        - name: Study
+        - name: Study Link
+        - name: Journal
+        - name: Study Type
+
+    appendix: &appendix
+        - name: Sample
+        - name: Sample Text
+        - name: Study Population
+        - name: Matches
+        - name: Entry
+
+Age:
+    query: Age CI
+    columns:
+        - *common
+        - *appendix
+
+Asthma:
+    query: Asthma CI
+    columns:
+        - *common
+        - *appendix
+
+Cancer:
+    query: Cancer CI
+    columns:
+        - *common
+        - *appendix
+
+Cardio- and cerebrovascular disease:
+    query: Cardio and Cerebrovascular disease CI
+    columns:
+        - *common
+        - *appendix
+
+Cerebrovascular disease:
+    query: Cerebrovascular disease CI
+    columns:
+        - *common
+        - *appendix
+
+Chronic kidney disease:
+    query: Kidney disease CKD CI
+    columns:
+        - *common
+        - *appendix
+
+Chronic liver disease:
+    query: Liver disease CI
+    columns:
+        - *common
+        - *appendix
+
+Chronic respiratory diseases:
+    query: Chronic respiratory disease CI
+    columns:
+        - *common
+        - *appendix
+
+COPD:
+    query: Chronic obstructive pulmonary disease COPD CI
+    columns:
+        - *common
+        - *appendix
+
+Dementia:
+    query: Dementia CI
+    columns:
+        - *common
+        - *appendix
+
+Diabetes:
+    query: Diabetes CI
+    columns:
+        - *common
+        - *appendix
+
+Drinking:
+    query: Alcohol Abuse CI
+    columns:
+        - *common
+        - *appendix
+
+Endocrine diseases:
+    query: Endocrine disease CI
+    columns:
+        - *common
+        - *appendix
+
+Heart Disease:
+    query: Heart Disease CI
+    columns:
+        - *common
+        - *appendix
+
+Heart Failure:
+    query: Heart Failure CI
+    columns:
+        - *common
+        - *appendix
+
+Hypertension:
+    query: Hypertension CI
+    columns:
+        - *common
+        - *appendix
+
+Immune system disorders:
+    query: Immune system disorder CI
+    columns:
+        - *common
+        - *appendix
+
+Male gender:
+    query: Male CI
+    columns:
+        - *common
+        - *appendix
+
+Overweight or obese:
+    query: Overweight obese CI
+    columns:
+        - *common
+        - *appendix
+
+Respiratory system diseases:
+    query: Respiratory disease CI
+    columns:
+        - *common
+        - *appendix
+
+Smoking Status:
+    query: Smoking smoker ci
+    columns:
+        - *common
+        - *appendix

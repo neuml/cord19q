@@ -1,0 +1,30 @@
+# Task name
+name: therapeutics
+
+# Field definitions
+fields:
+    common: &common
+        - name: Date
+        - name: Study
+        - name: Study Link
+        - name: Journal
+        - name: Study Type
+
+    appendix: &appendix
+        - name: Sample
+        - name: Sample Text
+        - name: Study Population
+        - name: Matches
+        - name: Entry
+
+What is the best method to combat the hypercoagulable state seen in COVID-19:
+    query: Best therapeutic methods hypercoagulable state
+    columns:
+        - *common
+        - *appendix
+
+What is the efficacy of novel therapeutics being tested currently:
+    query: Novel therapeutics efficacy
+    columns:
+        - *common
+        - *appendix

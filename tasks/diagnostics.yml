@@ -1,0 +1,31 @@
+name: diagnostics
+
+# Field definitions
+fields:
+    common: &common
+        - name: Date
+        - name: Study
+        - name: Study Link
+        - name: Journal
+        - name: Study Type
+
+    appendix: &appendix
+        - name: Sample
+        - name: Sample Text
+        - name: Study Population
+        - name: Matches
+        - name: Entry
+
+# Define queries
+Development of a point-of-care test and rapid bed-side tests:
+    query: Development of a point-of-care test and rapid bed-side detection methods
+    columns:
+        - *common
+        - *appendix
+
+New advances in diagnosing SARS-COV-2:
+    query: Diagnostics and coronavirus detection methods
+    columns:
+        - *common
+        - *appendix
+ 

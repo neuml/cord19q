@@ -1,0 +1,77 @@
+# Task name
+name: materials
+
+# Field definitions
+fields:
+    common: &common
+        - name: Date
+        - name: Study
+        - name: Study Link
+        - name: Journal
+        - name: Study Type
+
+    appendix: &appendix
+        - name: Sample
+        - name: Sample Text
+        - name: Study Population
+        - name: Matches
+        - name: Entry
+
+# Define queries
+Coronavirus adhesion to hydrophilic_phobic surfaces:
+    query: Persistence hydrophilic, phobic plastic, steel, copper, cardboard
+    columns:
+        - *common
+        - *appendix
+
+How long can the 2019-nCoV virus remain viable on common surfaces:
+    query: Duration viable on surfaces days
+    columns:
+        - *common
+        - *appendix
+
+Informing decontamination based on physical science of the coronavirus:
+    query: Decontamination physical science masks heat uv
+    columns:
+        - *common
+        - *appendix
+
+Persistence of virus on surfaces of different materials:
+    query: Persistence on surfaces days
+    columns:
+        - *common
+        - *appendix
+
+Susceptibility to environmental cleaning agents:
+    query: Concentration ppm % disinfectant agent inactivate
+    columns:
+        - *common
+        - *appendix
+
+What do we know about viral shedding in blood:
+    query: Shedding blood days
+    columns:
+        - *common
+        - *appendix
+
+What do we know about viral shedding in the nasopharynx:
+    query: Shedding nasopharynx days
+    columns:
+        - *common
+        - *appendix
+
+What do we know about viral shedding in stool:
+    query: Shedding stool days
+    columns:
+        - *common
+        - {name: Material, constant: Fecal Matter}
+        - {name: Method, query: rt-pcr confirmed, question: what confirmation method}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding stool days}
+        - {name: Conclusion, query: shedding stool severity}
+        - *appendix
+
+What do we know about viral shedding in urine:
+    query: Shedding urine days
+    columns:
+        - *common
+        - *appendix

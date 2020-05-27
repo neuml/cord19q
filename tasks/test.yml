@@ -1,0 +1,10 @@
+name: test
+
+What do we know about viral shedding in stool:
+    query: Shedding stool days
+    columns:
+        - name: Study
+        #- {name: Material, constant: Fecal Matter}
+        - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding stool days}
+        - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on stool shedding}
