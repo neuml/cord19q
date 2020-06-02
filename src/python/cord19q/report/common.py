@@ -2,9 +2,8 @@
 Report module
 """
 
+from ..extractor import Extractor
 from ..query import Query
-
-from .extractor import Extractor
 
 class Report(object):
     """
@@ -28,7 +27,7 @@ class Report(object):
         self.names = []
 
         # Extractive question-answering model
-        self.extractor = Extractor(self.embeddings, self.cur)
+        self.extractor = Extractor(self.embeddings, self.cur, "NeuML/bert-small-cord19qa", False)
 
     def build(self, queries, topn, output):
         """
@@ -160,7 +159,7 @@ class Report(object):
                 questions.append((column["name"], column["query"], question))
 
         # Add extraction fields
-        for name, value in self.extractor.extract(uid, questions):
+        for name, value in self.extractor(uid, questions):
             fields[name] = value
 
         return fields

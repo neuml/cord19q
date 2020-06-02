@@ -6,32 +6,34 @@ import string
 
 import regex as re
 
-from transformers.pipelines import pipeline
-
-from ..index import Index
-from ..tokenizer import Tokenizer
+from .index import Index
+from .pipeline import Pipeline
+from .tokenizer import Tokenizer
 
 class Extractor(object):
     """
     Class that uses an extractive question-answering model to extract content from a given text context.
     """
 
-    def __init__(self, embeddings, cur):
+    def __init__(self, embeddings, cur, path, quantize):
         """
         Builds a new extractor.
 
         Args:
             embeddings: embeddings model
             cur: database cursor
+            path: path to qa model
+            quantize: True if model should be quantized before inference, False otherwise.
         """
 
-        path = "/data/sources/cord19/docs/bert/test"
-        self.model = pipeline("question-answering", model=path, tokenizer=path)
-
+        # Embeddings model and open database cursor
         self.embeddings = embeddings
         self.cur = cur
 
-    def extract(self, uid, queue):
+        # QA Pipeline
+        self.pipeline = Pipeline(path, quantize)
+
+    def __call__(self, uid, queue):
         """
         Extracts answers to input questions for a document. This method runs queries against a single document,
         finds the top n best matches and uses that as the question context. A question-answering model is then run against
@@ -75,20 +77,18 @@ class Extractor(object):
             questions.append(question)
             contexts.append(context)
 
-        # Run pipeline, require output to be a list
-        answers = self.model(question=questions, context=contexts)
-        if not isinstance(answers, list):
-            answers = [answers]
+        # Run qa pipeline
+        answers = self.pipeline(questions, contexts)
+
+        for name in names:
+            results.append((name, ""))
 
         # Extract and format answer
         for x, answer in enumerate(answers):
-            if answer["score"] >= 0.05:
-                results.append((names[x], answer["answer"].strip(string.punctuation)))
-            else:
-                results.append((names[x], ""))
-
+            results.append((names[x], answer["answer"].strip(string.punctuation)))
             print(contexts[x], "\n  ", questions[x], "\n  ", answer)
 
-        print("\n\n")
+        if answers:
+            print("\n\n")
 
         return results
