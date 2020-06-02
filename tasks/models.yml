@@ -41,8 +41,8 @@ Serial Interval (time between symptom onset in infector-infectee pair):
         - *common
         - *appendix
 
-Tools and studies to monitor phenotypic change and potential adaptation of the virus:
-    query: Studies monitor virus adaptations
+Studies to monitor potential adaptations:
+    query: studies monitor adaptations
     columns:
         - *common
         - *appendix

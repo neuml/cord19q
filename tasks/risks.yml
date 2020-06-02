@@ -47,6 +47,12 @@ Cerebrovascular disease:
         - *common
         - *appendix
 
+Chronic digestive disorders:
+    query: Digestive disorders CI
+    columns:
+        - *common
+        - *appendix
+
 Chronic kidney disease:
     query: Kidney disease CKD CI
     columns:
@@ -95,6 +101,12 @@ Endocrine diseases:
         - *common
         - *appendix
 
+Ethnicity_ Hispanic vs. non-Hispanic:
+    query: Hispanic race CI
+    columns:
+        - *common
+        - *appendix
+
 Heart Disease:
     query: Heart Disease CI
     columns:
@@ -127,6 +139,12 @@ Male gender:
 
 Overweight or obese:
     query: Overweight obese CI
+    columns:
+        - *common
+        - *appendix
+
+Race_ Black vs. White:
+    query: Race black white CI
     columns:
         - *common
         - *appendix

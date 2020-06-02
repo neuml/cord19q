@@ -23,9 +23,14 @@ Development of a point-of-care test and rapid bed-side tests:
         - *common
         - *appendix
 
-New advances in diagnosing SARS-COV-2:
-    query: Diagnostics and coronavirus detection methods
+Diagnosing SARS-COV-2 with antibodies:
+    query: diagnose sars-cov-2 antibodies
     columns:
         - *common
         - *appendix
- 
+
+Diagnosing SARS-COV-2 with Nucleic-acid based tech:
+    query: diagnose sars-cov-2 nucleic-acid
+    columns:
+        - *common
+        - *appendix

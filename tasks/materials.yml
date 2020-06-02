@@ -18,20 +18,20 @@ fields:
         - name: Entry
 
 # Define queries
-Coronavirus adhesion to hydrophilic_phobic surfaces:
+Adhesion to hydrophilic_phobic surfaces:
     query: Persistence hydrophilic, phobic plastic, steel, copper, cardboard
     columns:
         - *common
         - *appendix
 
-How long can the 2019-nCoV virus remain viable on common surfaces:
-    query: Duration viable on surfaces days
+Coronavirus susceptibility to heat light and radiation:
+    query: coronavirus heat light radiation
     columns:
         - *common
         - *appendix
 
-Informing decontamination based on physical science of the coronavirus:
-    query: Decontamination physical science masks heat uv
+How long can other HCoV virus remain viable on common surfaces:
+    query: Duration viable on surfaces days
     columns:
         - *common
         - *appendix
