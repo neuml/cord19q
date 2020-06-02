@@ -18,9 +18,11 @@ fields:
         - name: Entry
 
 Can the virus be transmitted asymptomatically or during the incubation period:
-    query: Asymptomatic transmission during incubation
+    query: Asymptomatic transmission
     columns:
         - *common
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Asymptomatic Transmission, query: proportion percent asymptomatic patients, question: What percent asymptomatic}
         - *appendix
 
 How does viral load relate to disease presentations and likelihood of a positive diagnostic test:
@@ -33,12 +35,18 @@ Incubation period across different age groups:
     query: Incubation period children adult elderly days
     columns:
         - *common
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Days, query: range of incubation period days, question: What is median incubation period}
+        - {name: Range (Days), query: range of incubation periods days, question: What is incubation period range}
         - *appendix
 
 Length of viral shedding after illness onset:
     query: Shedding duration days
     columns:
         - *common
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Days, query: range of incubation period days, question: What is median incubation period}
+        - {name: Range (Days), query: range of incubation periods days, question: What is incubation period range}
         - *appendix
 
 Manifestations of COVID-19 including but not limited to possible cardiomyopathy and cardiac arrest:
@@ -65,5 +73,5 @@ What is the incubation period of the virus:
         - *common
         - {name: Age, query: median patient age, question: What is median patient age}
         - {name: Days, query: range of incubation period days, question: What is median incubation period}
-        - {name: Range (Days), query: range of incubation periods days, question: What is 95th percentile IQR}
+        - {name: Range (Days), query: range of incubation periods days, question: What is incubation period range}
         - *appendix

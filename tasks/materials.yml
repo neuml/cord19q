@@ -52,12 +52,20 @@ What do we know about viral shedding in blood:
     query: Shedding blood days
     columns:
         - *common
+        - {name: Material, constant: Blood}
+        - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding blood days}
+        - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on blood shedding}
         - *appendix
 
 What do we know about viral shedding in the nasopharynx:
     query: Shedding nasopharynx days
     columns:
         - *common
+        - {name: Material, constant: Nasopharynx}
+        - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding nasopharynx days}
+        - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on nasopharynx shedding}
         - *appendix
 
 What do we know about viral shedding in stool:
@@ -65,13 +73,17 @@ What do we know about viral shedding in stool:
     columns:
         - *common
         - {name: Material, constant: Fecal Matter}
-        - {name: Method, query: rt-pcr confirmed, question: what confirmation method}
+        - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
         - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding stool days}
-        - {name: Conclusion, query: shedding stool severity}
+        - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on stool shedding}
         - *appendix
 
 What do we know about viral shedding in urine:
     query: Shedding urine days
     columns:
         - *common
+        - {name: Material, constant: Urine}
+        - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding urine days}
+        - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on urine shedding}
         - *appendix
