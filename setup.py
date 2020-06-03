@@ -44,7 +44,7 @@ setup(name="cord19q",
           "spacy>=2.2.4",
           "torch>=1.4.0",
           "tqdm>=4.46.0",
-          "transformers>=2.10.0",
+          "transformers>=2.11.0",
           "word2number>=1.1"
       ],
       classifiers=[
