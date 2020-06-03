@@ -2,7 +2,7 @@
 Grammar module
 """
 
-import spacy
+import en_core_sci_md
 
 class Grammar(object):
     """
@@ -11,7 +11,7 @@ class Grammar(object):
 
     def __init__(self):
         # spaCy NLP
-        self.nlp = spacy.load("en_core_sci_md")
+        self.nlp = en_core_sci_md.load()
 
     def parse(self, text):
         """
