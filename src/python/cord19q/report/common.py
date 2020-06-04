@@ -126,7 +126,7 @@ class Report(object):
             rows.append(self.buildRow(article, documents[uid], calculated))
 
         # Print report by published desc
-        for row in rows: #sorted(rows, key=lambda x: x["Date"], reverse=True):
+        for row in sorted(rows, key=lambda x: x["Date"], reverse=True):
             # Convert row dict to list
             row = [row[column] for column in self.names]
 
