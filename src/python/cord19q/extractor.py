@@ -86,9 +86,5 @@ class Extractor(object):
         # Extract and format answer
         for x, answer in enumerate(answers):
             results.append((names[x], answer["answer"].strip(string.punctuation)))
-            print(contexts[x], "\n  ", questions[x], "\n  ", answer)
-
-        if answers:
-            print("\n\n")
 
         return results
