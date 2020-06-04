@@ -66,8 +66,8 @@ class CSV(Report):
         # Journal
         columns["Journal"] = article[3] if article[3] else article[4]
 
-        # Design
-        columns["Design"] = Query.design(article[5])
+        # Study Type
+        columns["Study Type"] = Query.design(article[5])
 
         # Sample
         columns["Sample"] = article[6]
