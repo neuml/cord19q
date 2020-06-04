@@ -20,16 +20,12 @@ You can use Git to clone the repository from GitHub and install it. It is recomm
 Python 3.6+ is supported
 
 ### Building a model
-Download all the files in the Download CORD-19 section on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research). Go the directory with the files
-and run the following commands.
+Download the latest dataset on the [Allen Institute for AI CORD-19 Release Page](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html). Go to the directory with the file and run the following commands.
 
     cd <download_path>
+    tar -xvzf cord-19_$DATE.tar.gz
 
-For each tar.gz file run the following, where $file is the name of the file with .tar.gz removed.
-
-    mkdir $file && tar -C $file -xvzf $file.tar.gz
-
-Once completed, there should be a file name metadata.csv and subdirectories for each data subset with all json articles.
+Where $DATE is the yyyy-mm-dd formatted date string in the file downloaded. Once completed, there should be a file named metadata.csv and subdirectories with all json articles.
 
 To build the model locally:
 
@@ -57,7 +53,7 @@ The model will be stored in ~/.cord19
 ### Building a report file
 A report file is simply a markdown file created from a list of queries. An example:
 
-    python -m cord19q.report tasks/risk-factors.txt
+    python -m cord19q.report tasks/risk-factors.yml
 
 Once complete a file named tasks/risk-factors.md will be created.
 
