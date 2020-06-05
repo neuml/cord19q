@@ -56,7 +56,7 @@ class Task(object):
         queries = []
 
         for key, value in config.items():
-            if key not in ["name", "fields"]:
+            if key not in ["id", "name", "fields"]:
                 # Flatten columns
                 value["columns"] = Task.flatten(value["columns"])
 
