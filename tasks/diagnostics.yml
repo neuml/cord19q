@@ -10,7 +10,7 @@ fields:
         - name: Study Type
 
     appendix: &appendix
-        - name: Sample
+        - name: Sample Size
         - name: Sample Text
         - name: Study Population
         - name: Matches

@@ -99,7 +99,7 @@ class Markdown(Report):
 
         # Sample Size
         sample = Query.sample(article[6], article[7])
-        columns["Sample"] = sample if sample else ""
+        columns["Sample Size"] = sample if sample else ""
 
         # Study Population
         columns["Study Population"] = Query.text(article[8]) if article[8] else ""
