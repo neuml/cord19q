@@ -164,19 +164,6 @@ class Report(object):
 
         return fields
 
-    def open(self, output):
-        """
-        Opens a report.
-
-        Args:
-            output: output file handle
-        """
-
-    def close(self):
-        """
-        Closes a report.
-        """
-
     def cleanup(self, outfile):
         """
         Allow freeing or cleaning up resources.

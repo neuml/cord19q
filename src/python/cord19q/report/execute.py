@@ -63,14 +63,8 @@ class Execute(object):
 
         # Stream report to file
         with open(outfile, "w") as output:
-            # Initialize report
-            report.open(output)
-
             # Build the report
             report.build(queries, topn, output)
-
-            # Close the report
-            report.close()
 
         # Free any resources
         report.cleanup(outfile)
