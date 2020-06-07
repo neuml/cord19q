@@ -11,11 +11,9 @@ The cord19q project builds an index over the CORD-19 dataset to assist with anal
 A full overview and list of Kaggle CORD-19 Challenge tasks can be found in this [Notebook](https://www.kaggle.com/davidmezzetti/cord-19-analysis-with-sentence-embeddings)
 
 ### Installation
-You can use Git to clone the repository from GitHub and install it. It is recommended to do this in a Python Virtual Environment. 
+You can install cord19q directly from GitHub using pip. Using a Python Virtual Environment is recommended.
 
-    git clone https://github.com/neuml/cord19q.git
-    cd cord19q
-    pip install .
+    pip install git+https://github.com/neuml/cord19q
 
 Python 3.6+ is supported
 
