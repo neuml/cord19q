@@ -1,5 +1,5 @@
-# Task name
-name: risks
+id: 8
+name: risk_factors
 
 # Field definitions
 fields:
@@ -10,6 +10,12 @@ fields:
         - name: Journal
         - name: Study Type
 
+    severity: &severity
+        - {name: Severe, query: $QUERY, question: "What is $NAME risk statistic"}
+        - {name: Severe lower bound, query: $QUERY, question: "What is $NAME range minimum"}
+        - {name: Severe upper bound, query: $QUERY, question: "What is $NAME range maximum"}
+        - {name: Severe p-value, query: $QUERY, question: "What is the $NAME p-value"}
+
     appendix: &appendix
         - name: Sample Size
         - name: Sample Text
@@ -17,146 +23,103 @@ fields:
         - name: Matches
         - name: Entry
 
+    columns: &columns
+        - *common
+        - *severity
+        - *appendix
+
 Age:
     query: Age CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Asthma:
     query: Asthma CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Cancer:
     query: Cancer CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Cardio- and cerebrovascular disease:
     query: Cardio and Cerebrovascular disease CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Cerebrovascular disease:
     query: Cerebrovascular disease CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Chronic digestive disorders:
     query: Digestive disorders CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Chronic kidney disease:
     query: Kidney disease CKD CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Chronic liver disease:
     query: Liver disease CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Chronic respiratory diseases:
     query: Chronic respiratory disease CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 COPD:
     query: Chronic obstructive pulmonary disease COPD CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Dementia:
     query: Dementia CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Diabetes:
     query: Diabetes CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Drinking:
     query: Alcohol Abuse CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Endocrine diseases:
     query: Endocrine disease CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Ethnicity_ Hispanic vs. non-Hispanic:
     query: Hispanic race CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Heart Disease:
     query: Heart Disease CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Heart Failure:
     query: Heart Failure CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Hypertension:
     query: Hypertension CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Immune system disorders:
     query: Immune system disorder CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Male gender:
     query: Male CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Overweight or obese:
     query: Overweight obese CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Race_ Black vs. White:
     query: Race black white CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Respiratory system diseases:
     query: Respiratory disease CI
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Smoking Status:
     query: Smoking smoker ci
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
