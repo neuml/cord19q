@@ -1,4 +1,4 @@
-# Task name
+id: 1
 name: population
 
 # Field definitions
@@ -10,6 +10,12 @@ fields:
         - name: Journal
         - name: Study Type
 
+    population: &population
+        - {name: Addressed Population, query: $QUERY, question: What group studied}
+        - {name: Challenge, query: $QUERY, question: What challenge discussed}
+        - {name: Solution, query: solutions recommendations interventions, question: What is solution} 
+        - {name: Measure of Evidence, constant: "-"} 
+
     appendix: &appendix
         - name: Sample Size
         - name: Sample Text
@@ -17,39 +23,32 @@ fields:
         - name: Matches
         - name: Entry
 
+    columns: &columns
+        - *common
+        - *population
+        - *appendix
+
 # Define query tasks
 Management of patients who are underhoused or otherwise lower social economic status:
-    query: Patients poor, lower social economic status
-    columns:
-        - *common
-        - *appendix
+    query: patients poor, homeless, lower social economic status
+    columns: *columns
 
 Measures to reach marginalized and disadvantaged populations:
     query: Communicating with marginalized disadvantaged populations
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Methods to control the spread in communities:
     query: Methods to regulate the spread in communities
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
 Modes of communicating with target high-risk populations:
     query: Communicating with target high-risk populations - elderly, health care workers
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
-What are recommendations for combating_overcoming resource failures:
+What are recommendations for combating_overcoming resource failures_:
     query: combat resource failures
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
 
-What are ways to create hospital infrastructure to prevent nosocomial outbreaks:
+What are ways to create hospital infrastructure to prevent nosocomial outbreaks_:
     query: prevent nosocomial outbreaks in hospitals
-    columns:
-        - *common
-        - *appendix
+    columns: *columns
