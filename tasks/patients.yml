@@ -1,5 +1,5 @@
-# Task name
-name: patients
+id: 3
+name: patient_descriptions
 
 # Field definitions
 fields:
@@ -10,6 +10,12 @@ fields:
         - name: Journal
         - name: Study Type
 
+    asymptomatic: &asymptomatic
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Sample Obtained, constant: "-"}
+        - {name: Asymptomatic Transmission, query: proportion percent asymptomatic patients, question: What percent asymptomatic}
+        - {name: Excerpt, query: proportion percent asymptomatic patients, question: What percent asymptomatic, snippet: true}
+
     appendix: &appendix
         - name: Sample Size
         - name: Sample Text
@@ -17,15 +23,14 @@ fields:
         - name: Matches
         - name: Entry
 
-Can the virus be transmitted asymptomatically or during the incubation period:
+Can the virus be transmitted asymptomatically or during the incubation period_:
     query: Asymptomatic transmission
     columns:
         - *common
-        - {name: Age, query: median patient age, question: What is median patient age}
-        - {name: Asymptomatic Transmission, query: proportion percent asymptomatic patients, question: What percent asymptomatic}
+        - *asymptomatic
         - *appendix
 
-How does viral load relate to disease presentations and likelihood of a positive diagnostic test:
+How does viral load relate to disease presentations and likelihood of a positive diagnostic test_:
     query: Advances in diagnosing SARS-COV-2 detection methods
     columns:
         - *common
@@ -59,15 +64,17 @@ Proportion of all positive COVID19 patients who were asymptomatic:
     query: Proportion of asymptomatic patients
     columns:
         - *common
+        - *asymptomatic
         - *appendix
 
 Proportion of pediatric COVID19 patients who were asymptomatic:
     query: Asymptomatic pediatric patients
     columns:
         - *common
+        - *asymptomatic
         - *appendix
- 
-What is the incubation period of the virus:
+
+What is the incubation period of the virus_:
     query: Range of incubation periods days
     columns:
         - *common
