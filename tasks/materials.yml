@@ -83,7 +83,7 @@ What do we know about viral shedding in blood_:
         - *common
         - {name: Material, constant: Blood}
         - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
-        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding blood days}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding blood days, question: what is shedding time in blood}
         - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on blood shedding}
         - *appendix
 
@@ -93,7 +93,7 @@ What do we know about viral shedding in stool_:
         - *common
         - {name: Material, constant: Fecal Matter}
         - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
-        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding stool days}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding stool days, question: what is shedding time in stool}
         - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on stool shedding}
         - *appendix
 
@@ -103,7 +103,7 @@ What do we know about viral shedding in the nasopharynx_:
         - *common
         - {name: Material, constant: Nasopharynx}
         - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
-        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding nasopharynx days}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding nasopharynx days, question: what is shedding time in nasopharynx}
         - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on nasopharynx shedding}
         - *appendix
 
@@ -113,6 +113,6 @@ What do we know about viral shedding in urine_:
         - *common
         - {name: Material, constant: Urine}
         - {name: Method, query: rt-pcr confirmed, question: what rna confirmation method used}
-        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding urine days}
+        - {name: Days After Onset/Admission (+) Covid-19 Presence (maximum unless otherwise stated), query: shedding urine days, question: what is shedding time in urine}
         - {name: Conclusion, query: stool shedding conclusions findings results, question: What is conclusion on urine shedding}
         - *appendix
