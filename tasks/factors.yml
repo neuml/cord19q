@@ -13,7 +13,7 @@ fields:
     containment: &containment
         - {name: Factors, query: $QUERY, question: what containment method}
         - {name: Influential, constant: "-"}
-        - {name: Excerpt, constant: "-"}
+        - {name: Excerpt, query: $QUERY, question: what containment method, snippet: true}
         - {name: Measure of Evidence, constant: "-"}
 
     weather: &weather
