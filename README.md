@@ -72,3 +72,10 @@ Multiple entry points exist to interact with the model.
 - cord19q.report - Builds a markdown report for a series of queries. For each query, the best articles are shown, top matches from those articles and a highlights section which shows the most relevant sections from the embeddings search for the query.
 - cord19q.query - Runs a single query from the terminal
 - cord19q.shell - Allows running multiple queries from the terminal
+
+### Related Efforts
+The following is a list of related efforts built off this repository.
+
+- [COVID-19 Dataset Search](https://telesens.co/covid-demo/main.html) (Credit: Ankur Mohan). Thank you to Ankur for sharing and putting together comprehensive documentation on how cord19q works!
+  - [Building a Information Retrieval system based on the COVID-19 research challenge dataset: Part 1](https://www.telesens.co/2020/06/10/building-a-information-retrieval-system-based-on-the-covid-19-research-challenge-dataset-part-1/)
+  - [Building a Information Retrieval system based on the COVID-19 research challenge dataset: Part 2](https://www.telesens.co/2020/06/10/building-a-information-retrieval-system-based-on-the-covid-19-research-challenge-dataset-part-2/)
