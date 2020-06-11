@@ -11,10 +11,10 @@ fields:
         - name: Study Type
 
     severity: &severity
-        - {name: Severe, query: $QUERY, question: "What is $NAME risk statistic"}
-        - {name: Severe lower bound, query: $QUERY, question: "What is $NAME range minimum"}
-        - {name: Severe upper bound, query: $QUERY, question: "What is $NAME range maximum"}
-        - {name: Severe p-value, query: $QUERY, question: "What is the $NAME p-value"}
+        - {name: Severe, query: $QUERY, question: What is $NAME risk number}
+        - {name: Severe lower bound, query: $QUERY, question: What is $NAME range minimum}
+        - {name: Severe upper bound, query: $QUERY, question: What is $NAME range maximum}
+        - {name: Severe p-value, query: $QUERY, question: What is the $NAME p-value}
 
     appendix: &appendix
         - name: Sample Size
