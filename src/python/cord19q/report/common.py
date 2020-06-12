@@ -71,7 +71,7 @@ class Report(object):
             self.headers([column["name"] for column in columns], output)
 
             # Generate table rows
-            self.articles(output, topn, columns, results)
+            self.articles(output, topn, (name, query, columns), results)
 
             # Write section separator
             self.separator(output)
@@ -96,14 +96,14 @@ class Report(object):
             # Write out highlight row
             self.highlight(output, article, highlight)
 
-    def articles(self, output, topn, columns, results):
+    def articles(self, output, topn, metadata, results):
         """
         Builds an articles section.
 
         Args:
             output: output file
             topn: number of documents to return
-            columns: column metadata
+            metadata: query metadata
             results: search results
         """
 
@@ -120,7 +120,7 @@ class Report(object):
             article = self.cur.fetchone()
 
             # Calculate derived fields
-            calculated = self.calculate(uid, columns)
+            calculated = self.calculate(uid, metadata)
 
             # Builds a row for article
             rows.append(self.buildRow(article, documents[uid], calculated))
@@ -133,13 +133,13 @@ class Report(object):
             # Write out row
             self.writeRow(output, row)
 
-    def calculate(self, uid, columns):
+    def calculate(self, uid, metadata):
         """
         Builds a dict of calculated fields for a given document.
 
         Args:
             uid: document id
-            columns: column definitions
+            metadata: query metadata
 
         Returns:
             {name: value} containing derived column values
@@ -148,21 +148,50 @@ class Report(object):
         fields = {}
         questions = []
 
+        # Unpack metadata
+        _, _, columns = metadata
+
         for column in columns:
             # Constant column
             if "constant" in column:
                 fields[column["name"]] = column["constant"]
             # Question-answer column
             elif "query" in column:
-                # Queue questions for single bulk query
-                question = column["question"] if "question" in column else column["query"]
-                questions.append((column["name"], column["query"], question))
+                # Query variable substitutions
+                query = self.variables(column["query"], metadata)
+                question = self.variables(column["question"], metadata) if "question" in column else query
+                snippet = column["snippet"] if "snippet" in column else False
+
+                questions.append((column["name"], query, question, snippet))
 
         # Add extraction fields
         for name, value in self.extractor(uid, questions):
-            fields[name] = value
+            fields[name] = value if value else ""
 
         return fields
+
+    def variables(self, value, metadata):
+        """
+        Runs variable substitution for value.
+
+        Args:
+            value: input value
+            metadata: query metadata
+
+        Returns:
+            value with variable substitution
+        """
+
+        name, query, _ = metadata
+
+        # Cleanup name for queries
+        name = name.replace("_", "").lower()
+        query = query.lower()
+
+        if value:
+            value = value.replace("$NAME", name).replace("$QUERY", query)
+
+        return value
 
     def cleanup(self, outfile):
         """

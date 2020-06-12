@@ -2,9 +2,9 @@
 Extractor module
 """
 
-import string
-
 import regex as re
+
+from nltk.tokenize import sent_tokenize
 
 from .index import Index
 from .pipeline import Pipeline
@@ -41,10 +41,10 @@ class Extractor(object):
 
         Args:
             uid: document id
-            queue: input queue (name, query, question)
+            queue: input queue (name, query, question, snippet)
 
         Returns:
-            extracted answer
+            extracted answers
         """
 
         # Retrieve indexed document text for article
@@ -60,8 +60,8 @@ class Extractor(object):
                     tokenlist.append(tokens)
 
         # Build question-context pairs
-        names, questions, contexts, results = [], [], [], []
-        for name, query, question in queue:
+        names, questions, contexts, snippets = [], [], [], []
+        for name, query, question, snippet in queue:
             query = Tokenizer.tokenize(query)
             matches = []
 
@@ -76,15 +76,56 @@ class Extractor(object):
             names.append(name)
             questions.append(question)
             contexts.append(context)
+            snippets.append(snippet)
+
+        # Run qa pipeline and return answers
+        return self.answers(names, questions, contexts, snippets)
+
+    def answers(self, names, questions, contexts, snippets):
+        """
+        Executes QA pipeline and formats extracted answers.
+
+        Args:
+            names: column names
+            questions: questions
+            contexts: question context
+            snippets: flags to enable answer snippets per answer
+        """
+
+        results = []
 
         # Run qa pipeline
         answers = self.pipeline(questions, contexts)
 
-        for name in names:
-            results.append((name, ""))
-
         # Extract and format answer
         for x, answer in enumerate(answers):
-            results.append((names[x], answer["answer"].strip(string.punctuation)))
+            # Extract answer
+            value = answer["answer"]
+
+            # Resolve snippet if necessary
+            if answer and snippets[x]:
+                value = self.snippet(contexts[x], value)
+
+            results.append((names[x], value))
 
         return results
+
+    def snippet(self, context, answer):
+        """
+        Extracts text surrounding the answer within context.
+
+        Args:
+            context: full context
+            answer: answer within context
+
+        Returns:
+            text surrounding answer as a snippet
+        """
+
+        # Searches for first sentence to contain answer
+        if answer:
+            for x in sent_tokenize(context):
+                if answer in x:
+                    return x
+
+        return answer
