@@ -1,5 +1,5 @@
-# Task name
-name: therapeutics
+id: 7
+name: therapeutics_interventions_and_clinical_studies
 
 # Field definitions
 fields:
@@ -10,6 +10,12 @@ fields:
         - name: Journal
         - name: Study Type
 
+    therapeutics: &therapeutics
+        - {name: Therapeutic method(s) utilized/assessed, query: therapeutic method, question: What therapeutic method}
+        - {name: Severity of Disease, query: patient severity icu, question: What is patient severity}
+        - {name: General Outcome/Conclusion Excerpt, query: therapeutic method outcome, question: What is conclusion on therapeutic method, snippet: True}
+        - {name: Primary Endpoint(s) of Study, query: patient outcome, question: What is patient outcome, snippet: True}
+
     appendix: &appendix
         - name: Sample Size
         - name: Sample Text
@@ -17,14 +23,15 @@ fields:
         - name: Matches
         - name: Entry
 
-What is the best method to combat the hypercoagulable state seen in COVID-19:
-    query: Best therapeutic methods hypercoagulable state
-    columns:
+    columns: &columns
         - *common
+        - *therapeutics
         - *appendix
 
-What is the efficacy of novel therapeutics being tested currently:
-    query: Novel therapeutics efficacy
-    columns:
-        - *common
-        - *appendix
+What is the best method to combat the hypercoagulable state seen in COVID-19_:
+    query: therapeutic method hypercoagulable
+    columns: *columns
+
+What is the efficacy of novel therapeutics being tested currently_:
+    query: novel therapeutics efficacy
+    columns: *columns
