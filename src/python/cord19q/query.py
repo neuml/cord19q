@@ -99,6 +99,9 @@ class Query(object):
 
         results = []
 
+        # Get list of required tokens
+        must = [token.strip("+") for token in query.split() if token.startswith("+")]
+
         # Tokenize search query
         query = Tokenizer.tokenize(query)
 
@@ -106,7 +109,14 @@ class Query(object):
         for uid, score in embeddings.search(query, topn * 5):
             if score >= 0.6:
                 cur.execute("SELECT Article, Text FROM sections WHERE id = ?", [uid])
-                results.append((uid, score) + cur.fetchone())
+
+                # Get matching row
+                sid, text = cur.fetchone()
+
+                # Add result if all required tokens are present or there are not required tokens
+                if not must or all([token.lower() in text.lower() for token in must]):
+                    # Save result
+                    results.append((uid, score, sid, text))
 
         return results
 
