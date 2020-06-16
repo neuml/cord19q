@@ -29,97 +29,113 @@ fields:
         - *appendix
 
 Age:
-    query: Age CI
+    query: +age ci
     columns: *columns
 
 Asthma:
-    query: Asthma CI
+    query: +asthma ci
+    columns: *columns
+
+Autoimmune disorders:
+    query: +autoimmune disorders ci
     columns: *columns
 
 Cancer:
-    query: Cancer CI
+    query: +cancer ci
     columns: *columns
 
 Cardio- and cerebrovascular disease:
-    query: Cardio and Cerebrovascular disease CI
+    query: cardio and +cerebrovascular disease ci
     columns: *columns
 
 Cerebrovascular disease:
-    query: Cerebrovascular disease CI
+    query: +cerebrovascular disease ci
     columns: *columns
 
 Chronic digestive disorders:
-    query: Digestive disorders CI
+    query: +digestive disorders ci
     columns: *columns
 
 Chronic kidney disease:
-    query: Kidney disease CKD CI
+    query: +kidney disease ckd ci
     columns: *columns
 
 Chronic liver disease:
-    query: Liver disease CI
+    query: +liver disease ci
     columns: *columns
 
 Chronic respiratory diseases:
-    query: Chronic respiratory disease CI
+    query: chronic +respiratory disease ci
     columns: *columns
 
 COPD:
-    query: Chronic obstructive pulmonary disease COPD CI
+    query: chronic obstructive pulmonary disease +copd ci
     columns: *columns
 
 Dementia:
-    query: Dementia CI
+    query: +dementia ci
     columns: *columns
 
 Diabetes:
-    query: Diabetes CI
+    query: +diabetes ci
     columns: *columns
 
 Drinking:
-    query: Alcohol Abuse CI
+    query: +alcohol abuse ci
     columns: *columns
 
 Endocrine diseases:
-    query: Endocrine disease CI
+    query: +endocrine disease ci
     columns: *columns
 
 Ethnicity_ Hispanic vs. non-Hispanic:
-    query: Hispanic race CI
+    query: +hispanic race ci
     columns: *columns
 
 Heart Disease:
-    query: Heart Disease CI
+    query: +heart +disease ci
     columns: *columns
 
 Heart Failure:
-    query: Heart Failure CI
+    query: +heart +failure ci
     columns: *columns
 
 Hypertension:
-    query: Hypertension CI
+    query: +hypertension ci
     columns: *columns
 
 Immune system disorders:
-    query: Immune system disorder CI
+    query: +immune system disorder ci
     columns: *columns
 
 Male gender:
-    query: Male CI
+    query: +male ci
+    columns: *columns
+
+Neurological disorders:
+    query: +neurological disorders ci
     columns: *columns
 
 Overweight or obese:
-    query: Overweight obese CI
+    query: +overweight obese ci
+    columns: *columns
+
+Race_ Asian vs. White:
+    query: race +asian +white ci
     columns: *columns
 
 Race_ Black vs. White:
-    query: Race black white CI
+    query: race +black +white ci
+    columns: *columns
+
+Race_ Other vs. White:
+    query: race +white ci
     columns: *columns
 
 Respiratory system diseases:
-    query: Respiratory disease CI
+    query: +respiratory disease ci
     columns: *columns
 
 Smoking Status:
-    query: Smoking smoker ci
+    query: +smoking smoker ci
     columns: *columns

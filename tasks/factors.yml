@@ -14,13 +14,13 @@ fields:
         - {name: Factors, query: $QUERY, question: what containment method}
         - {name: Influential, constant: "-"}
         - {name: Excerpt, query: $QUERY, question: what containment method, snippet: true}
-        - {name: Measure of Evidence, constant: "-"}
+        - {name: Measure of Evidence, query: countries cities, question: What locations}
 
     weather: &weather
         - {name: Factors, query: temperature humidity, question: What weather factor}
         - {name: Influential, constant: "-"}
         - {name: Excerpt, query: temperature humidity, question: How weather effects virus}
-        - {name: Measure of Evidence, constant: "-"}
+        - {name: Measure of Evidence, query: countries cities, question: What locations}
 
     appendix: &appendix
         - name: Sample Size
@@ -66,7 +66,7 @@ Evidence that domesticated_farm animals can be infected and maintain transmissib
         - {name: Factors, query: animals studied, question: what animals}
         - {name: Influential, constant: "-"}
         - {name: Excerpt, query: animals studied, question: "Can animals transmit SARS-COV-2"}
-        - {name: Measure of Evidence, constant: "-"}
+        - {name: Measure of Evidence, query: confirmation method, question: What rna confirmation method used}
         - *appendix
 
 How does temperature and humidity affect the transmission of 2019-nCoV_:

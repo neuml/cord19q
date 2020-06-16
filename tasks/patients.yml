@@ -12,9 +12,14 @@ fields:
 
     asymptomatic: &asymptomatic
         - {name: Age, query: median patient age, question: What is median patient age}
-        - {name: Sample Obtained, constant: "-"}
+        - {name: Sample Obtained, query: throat respiratory fecal sample, question: What sample}
         - {name: Asymptomatic Transmission, query: proportion percent asymptomatic patients, question: What percent asymptomatic}
         - {name: Excerpt, query: proportion percent asymptomatic patients, question: What percent asymptomatic, snippet: true}
+
+    incubation: &incubation
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Days, query: range of incubation period days, question: What is median incubation period}
+        - {name: Range (Days), query: range of incubation periods days, question: What is incubation period range}
 
     appendix: &appendix
         - name: Sample Size
@@ -31,33 +36,37 @@ Can the virus be transmitted asymptomatically or during the incubation period_:
         - *appendix
 
 How does viral load relate to disease presentations and likelihood of a positive diagnostic test_:
-    query: Advances in diagnosing SARS-COV-2 detection methods
+    query: viral load relation to positive diagnostic test
     columns:
         - *common
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Sample Obtained, query: throat respiratory fecal sample, question: What sample}
+        - {name: Excerpt, query: $QUERY, question: What is $QUERY, snippet: True}
         - *appendix
 
 Incubation period across different age groups:
     query: Incubation period children adult elderly days
     columns:
         - *common
-        - {name: Age, query: median patient age, question: What is median patient age}
-        - {name: Days, query: range of incubation period days, question: What is median incubation period}
-        - {name: Range (Days), query: range of incubation periods days, question: What is incubation period range}
+        - *incubation
         - *appendix
 
 Length of viral shedding after illness onset:
     query: Shedding duration days
     columns:
         - *common
-        - {name: Age, query: median patient age, question: What is median patient age}
-        - {name: Days, query: range of incubation period days, question: What is median incubation period}
-        - {name: Range (Days), query: range of incubation periods days, question: What is incubation period range}
+        - *incubation
         - *appendix
 
 Manifestations of COVID-19 including but not limited to possible cardiomyopathy and cardiac arrest:
-    query: Cardiomyopathy and cardiac arrest related manifestations
+    query: virus related manifestations
     columns:
         - *common
+        - {name: Age, query: median patient age, question: What is median patient age}
+        - {name: Sample Obtained, query: throat respiratory fecal sample, question: What sample}
+        - {name: Manifestation, query: clinical manifestations, question: What manifestations}
+        - {name: Frequency of Symptoms, query: symptoms frequency, question: What was frequency of symptoms}
+        - {name: Excerpt, query: clinical manifestations, question: What manifestations, snippet: True}
         - *appendix
 
 Proportion of all positive COVID19 patients who were asymptomatic:
@@ -78,7 +87,5 @@ What is the incubation period of the virus_:
     query: Range of incubation periods days
     columns:
         - *common
-        - {name: Age, query: median patient age, question: What is median patient age}
-        - {name: Days, query: range of incubation period days, question: What is median incubation period}
-        - {name: Range (Days), query: range of incubation periods days, question: What is incubation period range}
+        - *incubation
         - *appendix
