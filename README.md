@@ -35,8 +35,10 @@ To build the model locally:
     # Download entry-dates.csv and place in <download path>
     # https://www.kaggle.com/davidmezzetti/cord-19-article-entry-dates/output
 
+    # Building the model locally depends on the paperetl project
+    # pip install git+https://github.com/neuml/paperetl
     # Convert csv/json files to SQLite
-    python -m cord19q.etl <download_path>
+    python -m paperetl.cord19 <download_path>
 
     # Can optionally use pre-trained vectors
     # https://www.kaggle.com/davidmezzetti/cord19-fasttext-vectors#cord19-300d.magnitude
