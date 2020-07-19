@@ -5,6 +5,7 @@ Embeddings module
 import os
 import os.path
 import pickle
+import tempfile
 
 from errno import ENOENT
 from multiprocessing import Pool
@@ -129,14 +130,26 @@ class Embeddings(object):
 
         ids = []
         embeddings = []
+        stream = None
 
         # Shared objects with Pool
         args = (self.config, self.scoring)
 
+        # Convert all documents to embedding arrays, stream embeddings to disk to control memory usage
         with Pool(os.cpu_count(), initializer=create, initargs=args) as pool:
-            for uid, embedding in pool.imap(transform, documents):
-                ids.append(uid)
-                embeddings.append(embedding)
+            with tempfile.NamedTemporaryFile(mode="wb", suffix=".npy", delete=False) as output:
+                stream = output.name
+                for uid, embedding in pool.imap(transform, documents):
+                    ids.append(uid)
+                    pickle.dump(embedding, output)
+
+        # Load streamed embeddings
+        with open(stream, "rb") as stream:
+            while True:
+                try:
+                    embeddings.append(pickle.load(stream))
+                except EOFError:
+                    break
 
         # Convert embeddings into a numpy array
         embeddings = np.array(embeddings)

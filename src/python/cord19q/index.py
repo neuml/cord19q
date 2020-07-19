@@ -19,7 +19,7 @@ class Index(object):
 
     # Section query and filtering logic constants
     SECTION_FILTER = r"background|(?<!.*?results.*?)discussion|introduction|reference"
-    SECTION_QUERY = "SELECT Id, Name, Text FROM sections WHERE tags is not null AND (labels is null or labels NOT IN ('FRAGMENT', 'QUESTION'))"
+    SECTION_QUERY = "SELECT Id, Name, Text FROM sections WHERE (labels is null or labels NOT IN ('FRAGMENT', 'QUESTION'))"
 
     @staticmethod
     def stream(dbfile):
@@ -35,7 +35,7 @@ class Index(object):
         cur = db.cursor()
 
         # Select tagged sentences without a NLP label. NLP labels are set for non-informative sentences.
-        cur.execute(Index.SECTION_QUERY)
+        cur.execute(Index.SECTION_QUERY + " AND tags is not null")
 
         count = 0
         for row in cur:
