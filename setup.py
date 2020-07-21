@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
     DESCRIPTION = f.read()
 
 setup(name="cord19q",
-      version="2.2.0",
+      version="3.0.0",
       author="NeuML",
       description="CORD-19 Analysis",
       long_description=DESCRIPTION,
@@ -21,27 +21,9 @@ setup(name="cord19q",
       package_dir={"": "src/python/"},
       keywords="search embedding machine-learning nlp covid-19 medical scientific papers",
       python_requires=">=3.6",
-      entry_points={
-          "console_scripts": [
-              "cord19q = cord19q.shell:main",
-          ],
-      },
       install_requires=[
-          "faiss-gpu>=1.6.3",
-          "fasttext>=0.9.2",
-          "html2text>=2020.1.16",
-          "mdv>=1.7.4",
-          "networkx>=2.4",
-          "nltk>=3.5",
-          "numpy>=1.18.4",
-          "pymagnitude @ git+https://github.com/neuml/magnitude",
-          "PyYAML>=5.3",
-          "regex>=2020.5.14",
-          "scikit-learn>=0.22.2.post1",
-          "scipy>=1.4.1",
-          "torch>=1.4.0",
-          "tqdm>=4.46.0",
-          "transformers>=2.11.0"
+          "paperetl @ git+https://github.com/neuml/paperetl",
+          "paperai @ git+https://github.com/neuml/paperai"
       ],
       classifiers=[
           "License :: OSI Approved :: Apache Software License",
