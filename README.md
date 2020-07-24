@@ -1,6 +1,6 @@
 # cord19q: COVID-19 Open Research Dataset (CORD-19) Analysis
 
-<p style="text-align:center">
+<p align="center">
     <img src="https://pages.semanticscholar.org/hs-fs/hubfs/covid-image.png?width=300&name=covid-image.png"/>
 </p>
 
