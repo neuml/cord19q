@@ -4,17 +4,17 @@
     <img src="https://pages.semanticscholar.org/hs-fs/hubfs/covid-image.png?width=300&name=covid-image.png"/>
 </p>
 
-COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, covering COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research) and there is a CORD-19 challenge on [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
+COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, covering COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research) and [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
 The cord19q project builds an index over the CORD-19 dataset to assist with analysis and data discovery. A series of COVID-19 related research topics were explored to identify relevant articles and help find answers to key scientific questions.
 
 ### Tasks
-A full overview and list of Kaggle CORD-19 Challenge tasks can be found in this [Notebook](https://www.kaggle.com/davidmezzetti/cord-19-analysis-with-sentence-embeddings). This notebook and corresponding report notebooks won 🏆 7 awards 🏆 in the Kaggle CORD-19 Challenge.
+A full list of Kaggle CORD-19 Challenge tasks can be found in this [notebook](https://www.kaggle.com/davidmezzetti/cord-19-analysis-with-sentence-embeddings). This notebook and corresponding report notebooks won 🏆 7 awards 🏆 in the Kaggle CORD-19 Challenge.
 
-The latest tasks are also stored in this repository - [Tasks](https://github.com/neuml/cord19q/tree/master/tasks)
+The latest tasks are also stored in the [cord19q repository](https://github.com/neuml/cord19q/tree/master/tasks).
 
 ## Installation
-You can install cord19q directly from GitHub using pip. Using a Python Virtual Environment is recommended.
+cord19q can be installed directly from GitHub using pip. Using a Python Virtual Environment is recommended.
 
     pip install git+https://github.com/neuml/cord19q
 
