@@ -30,21 +30,21 @@ The following links show how to parse, load and index CORD-19.
 
 The model will be stored in ~/.cord19
 
-### Building a report file
+## Building a report file
 A report file is simply a markdown file created from a list of queries. An example:
 
     python -m paperai.report tasks/risk-factors.yml
 
 Once complete a file named tasks/risk-factors.md will be created.
 
-### Running queries
+## Running queries
 The fastest way to run queries is to start a paperai shell
 
     paperai
 
 A prompt will come up. Queries can be typed directly into the console.
 
-### Related Efforts
+## Related Efforts
 The following is a list of related efforts built off this repository.
 
 - [COVID-19 Dataset Search](https://telesens.co/covid-demo/main.html) (Credit: Ankur Mohan). Thank you to Ankur for sharing and putting together comprehensive documentation on how cord19q works!
