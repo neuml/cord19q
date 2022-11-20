@@ -1,6 +1,8 @@
 # cord19q: COVID-19 Open Research Dataset (CORD-19) Analysis
 
-COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, covering COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research) and [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
+*This repository is an archive of work done with the CORD-19 challenge in 2020. If you'd like to programatically process medical literature, see [paperai](https://github.com/neuml/paperai)*
+
+COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, covering COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html) and [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
 The cord19q project builds an index over the CORD-19 dataset to assist with analysis and data discovery. A series of COVID-19 related research topics were explored to identify relevant articles and help find answers to key scientific questions.
 
@@ -39,10 +41,3 @@ The fastest way to run queries is to start a paperai shell
     paperai
 
 A prompt will come up. Queries can be typed directly into the console.
-
-## Related Efforts
-The following is a list of related efforts built off this repository.
-
-- [COVID-19 Dataset Search](https://telesens.co/covid-demo/main.html) (Credit: Ankur Mohan). Thank you to Ankur for sharing and putting together comprehensive documentation on how cord19q works!
-  - [Building a Information Retrieval system based on the COVID-19 research challenge dataset: Part 1](https://www.telesens.co/2020/06/10/building-a-information-retrieval-system-based-on-the-covid-19-research-challenge-dataset-part-1/)
-  - [Building a Information Retrieval system based on the COVID-19 research challenge dataset: Part 2](https://www.telesens.co/2020/06/10/building-a-information-retrieval-system-based-on-the-covid-19-research-challenge-dataset-part-2/)
