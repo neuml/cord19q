@@ -1,9 +1,5 @@
 # cord19q: COVID-19 Open Research Dataset (CORD-19) Analysis
 
-<p align="center">
-    <img src="https://pages.semanticscholar.org/hs-fs/hubfs/covid-image.png?width=300&name=covid-image.png"/>
-</p>
-
 COVID-19 Open Research Dataset (CORD-19) is a free resource of scholarly articles, aggregated by a coalition of leading research groups, covering COVID-19 and the coronavirus family of viruses. The dataset can be found on [Semantic Scholar](https://pages.semanticscholar.org/coronavirus-research) and [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
 The cord19q project builds an index over the CORD-19 dataset to assist with analysis and data discovery. A series of COVID-19 related research topics were explored to identify relevant articles and help find answers to key scientific questions.
